@@ -1,5 +1,17 @@
 // NAV :: START
 
-.nav {}
+.nav {
+	&--footer {
+		.nav__list-link {
+			@include adaptive(575) {
+				font-size: 13px;
+			}
+		}
+	}
+
+	&__link {
+		letter-spacing: 0.4px;
+	}
+}
 
 // NAV :: END

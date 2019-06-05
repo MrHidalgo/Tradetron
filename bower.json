@@ -32,6 +32,9 @@
     "normalize-css": "^8.0.0",
     "bower-webfontloader": "^1.6.6",
     "svg4everybody": "^2.1.9",
-    "reset-css": "^4.0.1"
+    "reset-css": "^4.0.1",
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1",
+    "popper.js": "^1.15.0"
   }
 }

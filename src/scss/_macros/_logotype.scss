@@ -1,5 +1,9 @@
 // LOGOTYPE :: START
 
-.logo {}
+.logotype {
+	&--footer {}
+	&__link {}
+	&_img {}
+}
 
 // LOGOTYPE :: END

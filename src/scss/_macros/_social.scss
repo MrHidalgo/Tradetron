@@ -1,0 +1,21 @@
+// SECTION :: START
+
+.social {
+	&--footer {}
+
+	&__link {
+		.icon-font {
+			&.icon-facebook {
+				font-size: 21px;
+			}
+			&.icon-twitter {
+				font-size: 21px;
+			}
+			&.icon-linkedin {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+// SECTION :: END

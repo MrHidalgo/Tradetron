@@ -1,7 +1,94 @@
 // FOOTER :: START
 
 footer#footer.footer
-  .c-grid
-    .footer__wrapper
+
+	.footer__wrapper.footer__wrapper-0
+
+		.container
+			.row
+				.col
+
+					.footer__line
+
+	.footer__wrapper.footer__wrapper-1
+
+		.container
+			.row
+				.col-6.col-lg-4.order-1.order-lg-1.mb-5.mb-lg-0
+					
+					.logotype.logotype--footer
+						a.logotype__link.d-flex.align-items-start(href="#" class="" title="")
+							img.logotype__img.img-fluid(src="img/img-logotype-dark.png" srcset="img/img-logotype-dark@2x.png 2x, img/img-logotype-dark@3x.png 3x" alt="" title="")
+					
+				.col-12.col-lg-6.order-3.order-lg-2
+
+					.row
+						.col-4
+							-
+								let navArr1 = [
+									'Features',
+									'Use cases',
+									'Pricing',
+									'Strategy Market',
+								];
+
+							.nav.nav--footer
+								ul.nav__list.d-flex.flex-column
+									each val, idx in navArr1
+										li.nav__list-item(class!= (idx !== (navArr1.length - 1)?'mb-3':''))
+											a.nav__list-link(href="#" class="" title="")!= val
+
+						.col-4
+							-
+								let navArr2 = [
+									'Affiliates',
+									'Contact',
+									'Sign up',
+									'Sign in',
+								];
+
+							.nav.nav--footer
+								ul.nav__list.d-flex.flex-column
+									each val, idx in navArr2
+										li.nav__list-item(class!= (idx !== (navArr2.length - 1)?'mb-3':''))
+											a.nav__list-link(href="#" class="" title="")!= val
+
+						.col-4
+							-
+								let navArr3 = [
+									'Privacy policy',
+									'Terms of use',
+									'FAQ'
+								];
+
+							.nav.nav--footer
+								ul.nav__list.d-flex.flex-column
+									each val, idx in navArr3
+										li.nav__list-item(class!= (idx !== (navArr3.length - 1)?'mb-3':''))
+											a.nav__list-link(href="#" class="" title="")!= val
+
+				.col-6.col-lg-2.order-2.order-lg-3.mb-5.mb-lg-0
+
+					.social.social--footer
+						ul.social__list.d-flex.align-items-center.justify-content-end
+							li.social__list-item
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-facebook
+							li.social__list-item.ml-3
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-twitter
+							li.social__list-item.ml-3
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-linkedin
+
+	.footer__wrapper.footer__wrapper-2
+
+		.container
+			.row
+				.col
+
+					.copyright.text-center
+						p.copyright__text!= "Tradetron ® . Copyright 2019"
+
 
 // FOOTER :: END

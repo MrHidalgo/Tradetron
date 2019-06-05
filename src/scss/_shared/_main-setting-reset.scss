@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
 
   &.is-hideScroll {
-    position: fixed;
     width: 100%;
     overflow: hidden !important;
   }
@@ -22,11 +21,12 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: $c-white;
+  background-color: #fff;
   line-height: 1.42857143;
+	color: #333333;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -120,7 +120,7 @@ ul {
 a {
   outline: none;
   text-decoration: none;
-
+	color: #333333;
 
   &:hover,
   &:focus {

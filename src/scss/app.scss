@@ -15,13 +15,13 @@
 /// ===============
 //@import "_generated/spritePNG";
 //@import "_generated/spriteSVG";
-//@import "_generated/spriteFont";
+@import "_generated/spriteFont";
 ///
 /// SHARED
 /// ===============
 @import "_shared/fonts";
 @import "_shared/main-setting-reset";
-@import "_shared/grid";
+//@import "_shared/grid";
 @import "_shared/common";
 //@import "_shared/viewPortChecker";
 //@import "_shared/magnificPopup";
@@ -29,12 +29,13 @@
 //@import "_shared/objectFitImages";
 //@import "_shared/iconPNG";
 //@import "_shared/iconSVG";
-//@import "_shared/iconFont";
+@import "_shared/iconFont";
 ///
 /// MACROS
 /// ===============
-//@import "_macros/logotype";
-//@import "_macros/nav";
+@import "_macros/logotype";
+@import "_macros/social";
+@import "_macros/nav";
 //@import "_macros/title";
 //@import "_macros/subtitle";
 //@import "_macros/btn";
@@ -44,4 +45,4 @@
 /// COMPONENTS
 /// ===============
 //@import "_components/header";
-//@import "_components/footer";
+@import "_components/footer";
