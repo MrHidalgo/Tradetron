@@ -1,0 +1,30 @@
+// SECTION our partners :: START
+
+section#partners.partners
+
+	.partners__wrapper
+
+		h2.partners__title.c-title.text-center!= "Our partners"
+
+		.partners__carousel
+
+			mixin swiperContent()
+				.swiper-slide.swiper-slide-1
+					.swiper-slide-img.text-center
+						img.img-fluid(src="img/img-partners-1.png" srcset="img/img-partners-1@2x.png 2x" alt="" title="")
+				.swiper-slide.swiper-slide-2
+					.swiper-slide-img.text-center
+						img.img-fluid(src="img/img-partners-2.png" srcset="img/img-partners-2@2x.png 2x" alt="" title="")
+				.swiper-slide.swiper-slide-3
+					.swiper-slide-img.text-center
+						img.img-fluid(src="img/img-partners-3.png" srcset="img/img-partners-3@2x.png 2x" alt="" title="")
+				.swiper-slide.swiper-slide-4
+					.swiper-slide-img.text-center
+						img.img-fluid(src="img/img-partners-4.png" srcset="img/img-partners-4@2x.png 2x" alt="" title="")
+				.swiper-slide.swiper-slide-5
+					.swiper-slide-img.text-center
+						img.img-fluid(src="img/img-partners-5.png" srcset="img/img-partners-5@2x.png 2x" alt="" title="")
+
+			+swiper('swiper-container-partners', 'swiperContent', false, false, false)
+
+// SECTION our partners :: END

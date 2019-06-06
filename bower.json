@@ -35,6 +35,7 @@
     "reset-css": "^4.0.1",
     "jquery": "^3.4.1",
     "bootstrap": "^4.3.1",
-    "popper.js": "^1.15.0"
+    "popper.js": "^1.15.0",
+    "swiper": "^4.5.0"
   }
 }
