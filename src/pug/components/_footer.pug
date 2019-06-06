@@ -14,13 +14,27 @@ footer#footer.footer
 
 		.container
 			.row
-				.col-6.col-lg-4.order-1.order-lg-1.mb-5.mb-lg-0
+				.col-6.col-md-12.col-lg-3.order-1.order-md-1.mb-5.mb-lg-0
 					
 					.logotype.logotype--footer
 						a.logotype__link.d-flex.align-items-start(href="#" class="" title="")
 							img.logotype__img.img-fluid(src="img/img-logotype-dark.png" srcset="img/img-logotype-dark@2x.png 2x, img/img-logotype-dark@3x.png 3x" alt="" title="")
-					
-				.col-12.col-lg-6.order-3.order-lg-2
+
+				.col-6.order-2.d-block.d-md-none
+
+					.social.social--footer.d-flex.justify-content-end
+						ul.social__list.d-flex.align-items-center
+							li.social__list-item
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-facebook
+							li.social__list-item.ml-3
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-twitter
+							li.social__list-item.ml-3
+								a.social__link.d-flex.align-items-start(href="#" class="" title="")
+									i.icon-font.icon-linkedin
+
+				.col-12.col-md-8.col-lg-6.order-3.order-md-2
 
 					.row
 						.col-4
@@ -67,10 +81,19 @@ footer#footer.footer
 										li.nav__list-item(class!= (idx !== (navArr3.length - 1)?'mb-3':''))
 											a.nav__list-link(href="#" class="" title="")!= val
 
-				.col-6.col-lg-2.order-2.order-lg-3.mb-5.mb-lg-0
+				.col-12.col-md-4.col-lg-3.order-2.order-md-3.mb-3.mb-md-0
 
-					.social.social--footer
-						ul.social__list.d-flex.align-items-center.justify-content-end
+					.footer__subscribe.pb-4
+						p.footer__subscribe-title!= 'Subscribe to Newsletter'
+						.input-group.d-flex.justify-content-end
+							input.form-control.position-absolute.w-100.h-100(type='text', placeholder="Your email", aria-label="Your email", aria-describedby='button-addon2')
+							.input-group-append
+								button#button-addon2.btn.position-relative.d-flex.align-center.justify-content-center(type='button')
+									i.icon-font.icon-email
+
+
+					.social.social--footer.d-none.d-md-block
+						ul.social__list.d-flex.align-items-center
 							li.social__list-item
 								a.social__link.d-flex.align-items-start(href="#" class="" title="")
 									i.icon-font.icon-facebook

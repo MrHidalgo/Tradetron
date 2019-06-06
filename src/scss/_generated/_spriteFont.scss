@@ -27,14 +27,17 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == facebook {
+	@if $filename == email {
 		$char: "\E001";
 	}
-	@if $filename == linkedin {
+	@if $filename == facebook {
 		$char: "\E002";
 	}
-	@if $filename == twitter {
+	@if $filename == linkedin {
 		$char: "\E003";
+	}
+	@if $filename == twitter {
+		$char: "\E004";
 	}
 
 	@return $char;
@@ -51,6 +54,10 @@
 	}
 }
 
+.icon-email {
+	@include icon(email);
+
+}
 .icon-facebook {
 	@include icon(facebook);
 

@@ -121,10 +121,13 @@ a {
   outline: none;
   text-decoration: none;
 	color: #333333;
+	@include transition(color);
 
   &:hover,
   &:focus {
     text-decoration: none;
+		color: #6772e5;
+		@include transition(color);
   }
 }
 
