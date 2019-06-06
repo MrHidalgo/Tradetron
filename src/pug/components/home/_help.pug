@@ -1,0 +1,102 @@
+// SECTION help :: START
+
+section#help.help
+
+	.help__bg.position-absolute.w-100.h-100.d-flex.justify-content-end.align-items-start
+		img(src="img/img-help-bg-1.png" srcset="img/img-help-bg-1@2x.png 2x, img/img-help-bg-1@3x.png 3x" alt="" title="")
+
+	.help__wrapper.help__wrapper-0.position-relative
+
+		.container
+			.row
+				.col-5.pr-0
+
+					.help__text-wrapper
+						h2.help__title.c-title!= "How can we help you?"
+						p.help__text!= "Please enter your question and we will find a right answer fot you."
+
+					.input-group.position-relative.d-flex.justify-content-end
+						input.form-control.position-absolute.w-100.h-100(type='text', placeholder="Enter your question", aria-label="Enter your question", aria-describedby='#button-help')
+						.input-group-append
+							button#button-help.btn.btn-outline-secondary.d-flex.justify-content-center.position-relative(type='button')
+								i.icon-font.icon-search
+
+				.col-7
+
+					#accordionHelp.accordion
+						.card
+							#headingOneHelp.card-header.d-flex.p-0
+								h2.d-flex.mb-0.w-100.h-100
+									button.d-flex.align-items-center.btn.btn-link.collapsed.w-100.h-100.p-0(type='button', data-toggle='collapse', data-target='#collapseOneHelp', aria-expanded='true', aria-controls='collapseOneHelp')
+										div.pl-3.py-1.text-left
+											| How to add a new strategy?
+										div.d-flex.align-items-center.justify-content-center
+											i.icon-font.icon-plus
+							#collapseOneHelp.collapse(aria-labelledby='headingOneHelp', data-parent='#accordionHelp')
+								.card-body
+									| Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						.card
+							#headingTwoHelp.card-header.d-flex.p-0
+								h2.d-flex.mb-0.w-100.h-100
+									button.d-flex.align-items-center.btn.btn-link.collapsed.w-100.h-100.p-0(type='button', data-toggle='collapse', data-target='#collapseTwoHelp', aria-expanded='false', aria-controls='collapseTwoHelp')
+										div.pl-3.py-1.text-left
+											| How to connect to my broker?
+										div.d-flex.align-items-center.justify-content-center
+											i.icon-font.icon-plus
+							#collapseTwoHelp.collapse(aria-labelledby='headingTwoHelp', data-parent='#accordionHelp')
+								.card-body
+									| Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						.card
+							#headingThreeHelp.card-header.d-flex.p-0
+								h2.d-flex.mb-0.w-100.h-100
+									button.d-flex.align-items-center.btn.btn-link.collapsed.w-100.h-100.p-0(type='button', data-toggle='collapse', data-target='#collapseThreeHelp', aria-expanded='false', aria-controls='collapseThreeHelp')
+										div.pl-3.py-1.text-left
+											| My broker is not algo-enabled . What can i do to use tradetron?
+										div.d-flex.align-items-center.justify-content-center
+											i.icon-font.icon-plus
+							#collapseThreeHelp.collapse(aria-labelledby='headingThreeHelp', data-parent='#accordionHelp')
+								.card-body
+									| Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						.card
+							#headingFourHelp.card-header.d-flex.p-0
+								h2.d-flex.mb-0.w-100.h-100
+									button.d-flex.align-items-center.btn.btn-link.collapsed.w-100.h-100.p-0(type='button', data-toggle='collapse', data-target='#collapseFourHelp', aria-expanded='false', aria-controls='collapseFourHelp')
+										div.pl-3.py-1.text-left
+											| How to attract subscribers to my strategy profile page?
+										div.d-flex.align-items-center.justify-content-center
+											i.icon-font.icon-plus
+							#collapseFourHelp.collapse(aria-labelledby='headingFourHelp', data-parent='#accordionHelp')
+								.card-body
+									| Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+
+	.help__wrapper.help__wrapper-1.position-relative
+
+		.help__wrapper-bg.position-absolute.w-100.h-100.text-center
+			img(src="img/img-help-bg-2.png" srcset="img/img-help-bg-2@2x.png 2x, img/img-help-bg-2@3x.png 3x" alt="" title="")
+
+		.col-12
+
+			form(action="" method="" autocomplete='off')
+
+				.help__contacts
+					p.help__contacts-title!= "Contact Us"
+
+					.row
+						.col
+							.form-group
+								label(for='helpContactsName') Your Name
+								input#helpContactsName.form-control(type='text', placeholder='Type your name')
+
+						.col
+							.form-group
+								label(for='helpContactsEmail') Email address
+								input#helpContactsEmail.form-control(type='text', placeholder='Type your email')
+
+					.form-group
+						label(for='helpContactsMessage') Message
+						textarea#helpContactsMessage.form-control.py-2(placeholder='Type your message here')
+
+					button.btn.c-btn.c-btn--bg(type='submit') Send
+
+// SECTION help :: END

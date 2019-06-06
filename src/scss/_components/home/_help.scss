@@ -1,0 +1,211 @@
+// SECTION help :: START
+
+.help {
+	position: relative;
+	padding-top: 117px;
+
+	&__bg {
+		top: 0;
+		left: 0;
+
+		img {
+
+		}
+	}
+
+	&__wrapper {
+		z-index: 2;
+
+		&-0 {
+			padding-bottom: 154px;
+		}
+
+		&-1 {
+			padding-bottom: 100px;
+		}
+
+		&-bg {
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__title {
+		padding-bottom: 15px;
+	}
+
+	&__text {
+		padding-bottom: 43px;
+		line-height: 1.5;
+		font-size: 18px;
+
+		&-wrapper {
+			width: 100%;
+			max-width: 460px;
+		}
+	}
+
+	.input-group {
+		width: 100%;
+		max-width: 445px;
+		height: 45px;
+
+		.form-control {
+			z-index: 0;
+			padding-right: 100px;
+			border: none;
+			border-radius: 6px;
+			background-color: #ffffff;
+			box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.11);
+			font-size: 14px;
+			font-style: italic;
+			letter-spacing: 0.1px;
+			@include inputPlaceholder {
+				font-size: 14px;
+				font-style: italic;
+				letter-spacing: 0.1px;
+			}
+		}
+
+		.btn {
+			z-index: 0;
+			width: 75px;
+			border: none;
+			box-shadow: none;
+
+			&:hover,
+			&:focus {
+				background-color: #6772e5;
+				@include transition(background-color);
+
+				.icon-font {
+					color: #ffffff;
+					@include transition(color);
+				}
+			}
+
+			.icon-font {
+				color: #d7d8d8;
+				font-size: 22px;
+				@include transition(color);
+			}
+		}
+	}
+
+	.accordion {
+		width: 100%;
+		max-width: 570px;
+		margin-left: auto;
+
+		.card {
+			overflow: unset;
+			margin-bottom: 15px;
+			border: none;
+			background-color: transparent;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			&-header {
+				overflow: hidden;
+				height: 50px;
+				border: none;
+				border-radius: 6px !important;
+				box-shadow: 0 2px 20px 0 rgba(17, 30, 79, 0.08);
+				background-color: #ffffff;
+
+				button {
+					font-size: 16px;
+					line-height: 1.5;
+					color: #222a42;
+					@include transition(color);
+
+					&:focus {
+						text-decoration: none;
+					}
+
+					&:hover {
+						text-decoration: none;
+						color: #6772e5;
+						@include transition(color);
+					}
+
+					> div {
+						&:nth-of-type(1) {
+							flex: 1;
+							min-width: 1px;
+							max-width: 100%;
+						}
+						&:nth-of-type(2) {
+							width: 45px;
+						}
+					}
+
+					.icon-font {
+						color: #6772e5;
+					}
+				}
+			}
+
+			&-body {
+				line-height: 1.5;
+			}
+		}
+	}
+
+	&__contacts {
+		width: 100%;
+		max-width: 504px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+		&-title {
+			padding-bottom: 20px;
+			font-size: 32px;
+			font-weight: bold;
+			color: #ffffff;
+		}
+
+		.form-group {
+			label {
+				padding-bottom: 5px;
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: 0.1px;
+				color: #ffffff;
+			}
+
+			.form-control {
+				height: 38px;
+				border: none;
+				box-shadow: none;
+				border-radius: 6px;
+				background-color: rgba(255, 255, 255, 0.5);
+				font-size: 12px;
+				letter-spacing: 0.1px;
+				color: #333333;
+				@include inputPlaceholder {
+					font-size: 12px;
+					letter-spacing: 0.1px;
+					color: #333333;
+				}
+			}
+
+			textarea {
+				resize: none;
+				min-height: 120px;
+			}
+		}
+
+		button {
+			max-width: 110px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+// SECTION help :: END

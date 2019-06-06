@@ -7,7 +7,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-email:before, .icon-facebook:before, .icon-linkedin:before, .icon-twitter:before {
+.icon-email:before, .icon-facebook:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-twitter:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,24 +18,34 @@
   text-transform: none;
 }
 
-/* line 47, src/scss/_generated/_spriteFont.scss */
+/* line 53, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 47, src/scss/_generated/_spriteFont.scss */
+/* line 53, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 47, src/scss/_generated/_spriteFont.scss */
+/* line 53, src/scss/_generated/_spriteFont.scss */
 .icon-linkedin:before {
   content: "";
 }
 
-/* line 47, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 53, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
+}
+
+/* line 53, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 53, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -300,6 +310,52 @@ picture {
   }
 }
 
+/* line 24, src/scss/_macros/_btn.scss */
+.c-btn {
+  outline: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-width: 110px;
+  height: 40px;
+  border: 1px solid #6772e5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+
+/* line 42, src/scss/_macros/_btn.scss */
+.c-btn--border {
+  background-color: transparent;
+  color: black;
+}
+
+/* line 47, src/scss/_macros/_btn.scss */
+.c-btn--bg {
+  background-color: #6772e5;
+}
+
+/* line 50, src/scss/_macros/_btn.scss */
+.c-btn--bg:hover {
+  color: #ffffff;
+}
+
 /* line 5, src/scss/_components/_footer.scss */
 .footer__wrapper-0 {
   padding-bottom: 49px;
@@ -415,6 +471,318 @@ picture {
 /* line 7, src/scss/_components/home/_partners.scss */
 .partners__title {
   padding-bottom: 49px;
+}
+
+/* line 3, src/scss/_components/home/_help.scss */
+.help {
+  position: relative;
+  padding-top: 117px;
+}
+
+/* line 7, src/scss/_components/home/_help.scss */
+.help__bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 16, src/scss/_components/home/_help.scss */
+.help__wrapper {
+  z-index: 2;
+}
+
+/* line 19, src/scss/_components/home/_help.scss */
+.help__wrapper-0 {
+  padding-bottom: 154px;
+}
+
+/* line 23, src/scss/_components/home/_help.scss */
+.help__wrapper-1 {
+  padding-bottom: 100px;
+}
+
+/* line 27, src/scss/_components/home/_help.scss */
+.help__wrapper-bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 33, src/scss/_components/home/_help.scss */
+.help__title {
+  padding-bottom: 15px;
+}
+
+/* line 37, src/scss/_components/home/_help.scss */
+.help__text {
+  padding-bottom: 43px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+/* line 42, src/scss/_components/home/_help.scss */
+.help__text-wrapper {
+  width: 100%;
+  max-width: 460px;
+}
+
+/* line 48, src/scss/_components/home/_help.scss */
+.help .input-group {
+  width: 100%;
+  max-width: 445px;
+  height: 45px;
+}
+
+/* line 53, src/scss/_components/home/_help.scss */
+.help .input-group .form-control {
+  z-index: 0;
+  padding-right: 100px;
+  border: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.11);
+          box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.11);
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 88, src/scss/_utilities/_mixin.scss */
+.help .input-group .form-control.placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 89, src/scss/_utilities/_mixin.scss */
+.help .input-group .form-control:-moz-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 90, src/scss/_utilities/_mixin.scss */
+.help .input-group .form-control::-moz-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 91, src/scss/_utilities/_mixin.scss */
+.help .input-group .form-control:-ms-input-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 92, src/scss/_utilities/_mixin.scss */
+.help .input-group .form-control::-webkit-input-placeholder {
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.1px;
+}
+
+/* line 70, src/scss/_components/home/_help.scss */
+.help .input-group .btn {
+  z-index: 0;
+  width: 75px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 76, src/scss/_components/home/_help.scss */
+.help .input-group .btn:hover, .help .input-group .btn:focus {
+  background-color: #6772e5;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 81, src/scss/_components/home/_help.scss */
+.help .input-group .btn:hover .icon-font, .help .input-group .btn:focus .icon-font {
+  color: #ffffff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 87, src/scss/_components/home/_help.scss */
+.help .input-group .btn .icon-font {
+  color: #d7d8d8;
+  font-size: 22px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 95, src/scss/_components/home/_help.scss */
+.help .accordion {
+  width: 100%;
+  max-width: 570px;
+  margin-left: auto;
+}
+
+/* line 100, src/scss/_components/home/_help.scss */
+.help .accordion .card {
+  overflow: unset;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 106, src/scss/_components/home/_help.scss */
+.help .accordion .card:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 110, src/scss/_components/home/_help.scss */
+.help .accordion .card-header {
+  overflow: hidden;
+  height: 50px;
+  border: none;
+  -webkit-border-radius: 6px !important;
+          border-radius: 6px !important;
+  -webkit-box-shadow: 0 2px 20px 0 rgba(17, 30, 79, 0.08);
+          box-shadow: 0 2px 20px 0 rgba(17, 30, 79, 0.08);
+  background-color: #ffffff;
+}
+
+/* line 118, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222a42;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 124, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button:focus {
+  text-decoration: none;
+}
+
+/* line 128, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button:hover {
+  text-decoration: none;
+  color: #6772e5;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 135, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 140, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(2) {
+  width: 45px;
+}
+
+/* line 145, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button .icon-font {
+  color: #6772e5;
+}
+
+/* line 151, src/scss/_components/home/_help.scss */
+.help .accordion .card-body {
+  line-height: 1.5;
+}
+
+/* line 157, src/scss/_components/home/_help.scss */
+.help__contacts {
+  width: 100%;
+  max-width: 504px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 165, src/scss/_components/home/_help.scss */
+.help__contacts-title {
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* line 173, src/scss/_components/home/_help.scss */
+.help__contacts .form-group label {
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+/* line 181, src/scss/_components/home/_help.scss */
+.help__contacts .form-group .form-control {
+  height: 38px;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 88, src/scss/_utilities/_mixin.scss */
+.help__contacts .form-group .form-control.placeholder {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 89, src/scss/_utilities/_mixin.scss */
+.help__contacts .form-group .form-control:-moz-placeholder {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 90, src/scss/_utilities/_mixin.scss */
+.help__contacts .form-group .form-control::-moz-placeholder {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 91, src/scss/_utilities/_mixin.scss */
+.help__contacts .form-group .form-control:-ms-input-placeholder {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 92, src/scss/_utilities/_mixin.scss */
+.help__contacts .form-group .form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 197, src/scss/_components/home/_help.scss */
+.help__contacts .form-group textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+/* line 203, src/scss/_components/home/_help.scss */
+.help__contacts button {
+  max-width: 110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

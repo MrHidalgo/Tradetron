@@ -36,8 +36,14 @@
 	@if $filename == linkedin {
 		$char: "\E003";
 	}
-	@if $filename == twitter {
+	@if $filename == plus {
 		$char: "\E004";
+	}
+	@if $filename == search {
+		$char: "\E005";
+	}
+	@if $filename == twitter {
+		$char: "\E006";
 	}
 
 	@return $char;
@@ -64,6 +70,14 @@
 }
 .icon-linkedin {
 	@include icon(linkedin);
+
+}
+.icon-plus {
+	@include icon(plus);
+
+}
+.icon-search {
+	@include icon(search);
 
 }
 .icon-twitter {
