@@ -4,13 +4,12 @@ section#main.main.position-relative
 
 	.main__bg.position-absolute.w-100.h-100
 		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
-		img.main__bg-img.main__bg-img-3.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
 
-		.main__bg-row.d-flex.position-absolute.w-100.h-100
-			.main__bg-col.main__bg-col-1
-			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end
-				img.main__bg-img.main__bg-img-2.img-fluid(src="img/img-main-macbook.png" srcset="img/img-main-macbook@2x.png 2x, img/img-main-macbook@3x.png 3x" alt="" title="")
-
+		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
+			.main__bg-col.main__bg-col-1.position-absolute
+			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end.position-absolute
+				img.main__bg-img.main__bg-img-3.img-fluid.d-block.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
+				img.main__bg-img.main__bg-img-2.img-fluid.d-block.position-absolute(src="img/img-main-macbook.png" srcset="img/img-main-macbook@2x.png 2x, img/img-main-macbook@3x.png 3x" alt="" title="")
 
 	.main__wrapper.position-relative
 

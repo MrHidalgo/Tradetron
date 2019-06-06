@@ -6,6 +6,12 @@
 		max-width: 610px;
 		margin-left: 0;
 		padding-bottom: 50px;
+		@include adaptive(1199) {
+			max-width: 541px;
+		}
+		@include adaptive(1023) {
+			max-width: 50%;
+		}
 	}
 
 	&-features {

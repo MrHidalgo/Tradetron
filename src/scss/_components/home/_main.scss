@@ -3,8 +3,16 @@
 .main {
 	padding-top: 188px;
 	padding-bottom: 280px;
+	@include adaptive(1199) {
+		overflow: hidden;
+		padding-bottom: 140px;
+	}
+	@include adaptive(1023) {
+		padding-bottom: 95px;
+	}
 
 	&__bg {
+		z-index: 0;
 		top: 0;
 		left: 0;
 
@@ -12,11 +20,16 @@
 			&-1 {
 				top: 0;
 				left: 0;
+				@include adaptive(1199) {
+					left: -100px;
+				}
+				@include adaptive(1023) {
+					left: -175px;
+				}
 			}
 
 			&-2 {
-				display: block;
-
+				top: 188px;
 				right: 0;
 			}
 
@@ -31,13 +44,27 @@
 		}
 
 		&-col {
+			top: 0;
+			width: 50%;
+
 			&-1 {
-				width: 610px;
+				left: 0;
+				@include adaptive(1199) {
+					width: 541px;
+				}
+				@include adaptive(1023) {
+					width: 50%;
+				}
 			}
+
 			&-2 {
-				flex: 1;
-				min-width: 1px;
-				max-width: 100%;
+				right: 0;
+				@include adaptive(1199) {
+					max-width: calc(100% - 575px);
+				}
+				@include adaptive(1023) {
+					max-width: 50%;
+				}
 			}
 		}
 	}
@@ -52,6 +79,12 @@
 		font-weight: bold;
 		line-height: 1.14;
 		letter-spacing: 0.6px;
+		@include adaptive(1199) {
+			font-size: 65px;
+		}
+		@include adaptive(1023) {
+			font-size: 40px;
+		}
 	}
 
 	&__desc {
