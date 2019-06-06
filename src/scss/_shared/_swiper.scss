@@ -1,6 +1,13 @@
 .swiper-container {
   width: 100%;
 
+	&-main {
+		width: 100%;
+		max-width: 610px;
+		margin-left: 0;
+		padding-bottom: 50px;
+	}
+
 	&-features {
 		padding-top: 50px;
 		padding-bottom: 30px;
@@ -94,6 +101,7 @@
 		&-pagination {
 			display: flex;
 			align-items: center;
+			justify-content: center;
 			bottom: 0;
 
 			&-bullet {
@@ -103,11 +111,13 @@
 				background-color: rgba(#222A42, 0.15);
 				margin-left: 3px;
 				margin-right: 3px;
+				@include transition(width, border-radius, background-color);
 
 				&-active {
 					width: 30px;
 					border-radius: 7px;
 					background-color: #6772e5;
+					@include transition(width, border-radius, background-color);
 				}
 			}
 		}

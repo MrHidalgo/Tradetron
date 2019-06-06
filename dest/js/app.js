@@ -107,6 +107,25 @@ var initSwiper = function initSwiper() {
     // }
   });
 
+  var mySwiperMain = new Swiper('.swiper-container-main', {
+    loop: false,
+    watchOverflow: true,
+    normalizeSlideIndex: true,
+    grabCursor: true,
+    freeMode: false,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    speed: 750,
+    slidesPerView: 1,
+    spaceBetween: 0,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+
   var mySwiperPricingOpt = {
     loop: false,
     watchOverflow: true,
@@ -124,13 +143,6 @@ var initSwiper = function initSwiper() {
     pagination: {
       el: '.swiper-pagination',
       clickable: true
-      // renderBullet: function (index, className) {
-      //   return `
-      //     <div class="${className}">
-      //       ${index}
-      //     </div>
-      //   `;
-      // }
     }
   };
   var mySwiperPricing = undefined;

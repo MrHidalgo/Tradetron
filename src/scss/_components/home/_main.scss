@@ -1,0 +1,65 @@
+// SECTION main :: START
+
+.main {
+	padding-top: 188px;
+	padding-bottom: 280px;
+
+	&__bg {
+		top: 0;
+		left: 0;
+
+		&-img {
+			&-1 {
+				top: 0;
+				left: 0;
+			}
+
+			&-2 {
+				display: block;
+
+				right: 0;
+			}
+
+			&-3 {
+				top: 114px;
+				right: 0;
+			}
+		}
+
+		&-row {
+			padding-top: 188px;
+		}
+
+		&-col {
+			&-1 {
+				width: 610px;
+			}
+			&-2 {
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+			}
+		}
+	}
+
+	&__wrapper {
+		z-index: 2;
+	}
+
+	&__title {
+		padding-bottom: 20px;
+		font-size: 70px;
+		font-weight: bold;
+		line-height: 1.14;
+		letter-spacing: 0.6px;
+	}
+
+	&__desc {
+		color: rgba(#333, 0.8);
+		font-size: 20px;
+		line-height: 1.55;
+		letter-spacing: 0.1px;
+	}
+}
+
+// SECTION main :: END

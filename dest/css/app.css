@@ -302,12 +302,20 @@ picture {
 }
 
 /* line 4, src/scss/_shared/_swiper.scss */
+.swiper-container-main {
+  width: 100%;
+  max-width: 610px;
+  margin-left: 0;
+  padding-bottom: 50px;
+}
+
+/* line 11, src/scss/_shared/_swiper.scss */
 .swiper-container-features {
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
-/* line 9, src/scss/_shared/_swiper.scss */
+/* line 16, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide {
   overflow: hidden;
   height: 94px;
@@ -323,7 +331,7 @@ picture {
   transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 18, src/scss/_shared/_swiper.scss */
+/* line 25, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:before {
   opacity: 0;
   content: '';
@@ -341,7 +349,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 31, src/scss/_shared/_swiper.scss */
+/* line 38, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active {
   -webkit-transform: translateY(-20px);
       -ms-transform: translateY(-20px);
@@ -355,7 +363,7 @@ picture {
   transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 37, src/scss/_shared/_swiper.scss */
+/* line 44, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active:before {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -363,19 +371,19 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 42, src/scss/_shared/_swiper.scss */
+/* line 49, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active p,
 .swiper-container-features .swiper-slide-active .icon-font {
   color: #ffffff;
 }
 
-/* line 51, src/scss/_shared/_swiper.scss */
+/* line 58, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing {
   padding-top: 45px;
   padding-bottom: 50px;
 }
 
-/* line 56, src/scss/_shared/_swiper.scss */
+/* line 63, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -391,7 +399,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 62, src/scss/_shared/_swiper.scss */
+/* line 69, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-slide {
   width: 100%;
   max-width: -webkit-calc((100% - (14px * 3)) / 4);
@@ -405,13 +413,13 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
 }
 
-/* line 72, src/scss/_shared/_swiper.scss */
+/* line 79, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-pagination {
   opacity: 0;
   visibility: hidden;
 }
 
-/* line 81, src/scss/_shared/_swiper.scss */
+/* line 88, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -420,13 +428,13 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 85, src/scss/_shared/_swiper.scss */
+  /* line 92, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
 }
 
-/* line 94, src/scss/_shared/_swiper.scss */
+/* line 101, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -436,10 +444,14 @@ picture {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   bottom: 0;
 }
 
-/* line 99, src/scss/_shared/_swiper.scss */
+/* line 107, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet {
   opacity: 1;
   width: 12px;
@@ -447,14 +459,24 @@ picture {
   background-color: rgba(34, 42, 66, 0.15);
   margin-left: 3px;
   margin-right: 3px;
+  -webkit-transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
-/* line 107, src/scss/_shared/_swiper.scss */
+/* line 116, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet-active {
   width: 30px;
   -webkit-border-radius: 7px;
           border-radius: 7px;
   background-color: #6772e5;
+  -webkit-transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
 /* line 1, src/scss/_shared/_iconFont.scss */
@@ -656,6 +678,78 @@ picture {
 .footer__subscribe .input-group button .icon-font {
   color: #ffffff;
   font-size: 20px;
+}
+
+/* line 3, src/scss/_components/home/_main.scss */
+.main {
+  padding-top: 188px;
+  padding-bottom: 280px;
+}
+
+/* line 7, src/scss/_components/home/_main.scss */
+.main__bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 12, src/scss/_components/home/_main.scss */
+.main__bg-img-1 {
+  top: 0;
+  left: 0;
+}
+
+/* line 17, src/scss/_components/home/_main.scss */
+.main__bg-img-2 {
+  display: block;
+  right: 0;
+}
+
+/* line 23, src/scss/_components/home/_main.scss */
+.main__bg-img-3 {
+  top: 114px;
+  right: 0;
+}
+
+/* line 29, src/scss/_components/home/_main.scss */
+.main__bg-row {
+  padding-top: 188px;
+}
+
+/* line 34, src/scss/_components/home/_main.scss */
+.main__bg-col-1 {
+  width: 610px;
+}
+
+/* line 37, src/scss/_components/home/_main.scss */
+.main__bg-col-2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 45, src/scss/_components/home/_main.scss */
+.main__wrapper {
+  z-index: 2;
+}
+
+/* line 49, src/scss/_components/home/_main.scss */
+.main__title {
+  padding-bottom: 20px;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.6px;
+}
+
+/* line 57, src/scss/_components/home/_main.scss */
+.main__desc {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 20px;
+  line-height: 1.55;
+  letter-spacing: 0.1px;
 }
 
 /* line 3, src/scss/_components/home/_do.scss */
