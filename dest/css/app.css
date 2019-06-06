@@ -507,9 +507,10 @@ picture {
 /* line 16, src/scss/_components/home/_do.scss */
 .do .card {
   border: none;
+  background-color: transparent;
 }
 
-/* line 19, src/scss/_components/home/_do.scss */
+/* line 20, src/scss/_components/home/_do.scss */
 .do .card-title {
   margin: 0;
   padding-bottom: 15px;
@@ -518,15 +519,34 @@ picture {
   line-height: 1.27;
 }
 
-/* line 27, src/scss/_components/home/_do.scss */
+@media screen and (max-width: 991px) {
+  /* line 27, src/scss/_components/home/_do.scss */
+  .do .card-title br {
+    display: none;
+  }
+  /* line 31, src/scss/_components/home/_do.scss */
+  .do .card-title span {
+    display: block;
+  }
+}
+
+/* line 37, src/scss/_components/home/_do.scss */
 .do .card-text {
+  max-width: 230px;
   margin: 0;
   padding-bottom: 15px;
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 34, src/scss/_components/home/_do.scss */
+@media screen and (max-width: 991px) {
+  /* line 37, src/scss/_components/home/_do.scss */
+  .do .card-text {
+    max-width: 100%;
+  }
+}
+
+/* line 48, src/scss/_components/home/_do.scss */
 .do .card-line {
   margin-bottom: 15px;
   width: 50px;
@@ -534,7 +554,7 @@ picture {
   background-color: #6772e5;
 }
 
-/* line 41, src/scss/_components/home/_do.scss */
+/* line 55, src/scss/_components/home/_do.scss */
 .do .card__link {
   font-size: 16px;
   font-weight: bold;
@@ -542,7 +562,7 @@ picture {
   color: #6772e5;
 }
 
-/* line 48, src/scss/_components/home/_do.scss */
+/* line 62, src/scss/_components/home/_do.scss */
 .do .card__link:hover .icon-font {
   -webkit-transform: translateX(100%);
       -ms-transform: translateX(100%);
@@ -554,9 +574,10 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 54, src/scss/_components/home/_do.scss */
+/* line 68, src/scss/_components/home/_do.scss */
 .do .card__link .icon-font {
   margin-left: 5px;
+  font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   -o-transition: transform 0.3s ease-in-out;
@@ -564,7 +585,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 69, src/scss/_components/home/_do.scss */
+/* line 84, src/scss/_components/home/_do.scss */
 .do .card-0 .card-img {
   width: 139px;
   height: 97px;
@@ -576,13 +597,13 @@ picture {
           background-size: contain;
 }
 
-/* line 78, src/scss/_components/home/_do.scss */
+/* line 93, src/scss/_components/home/_do.scss */
 .do .card-0 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
 }
 
-/* line 69, src/scss/_components/home/_do.scss */
+/* line 84, src/scss/_components/home/_do.scss */
 .do .card-1 .card-img {
   width: 122px;
   height: 96px;
@@ -594,14 +615,14 @@ picture {
           background-size: contain;
 }
 
-/* line 78, src/scss/_components/home/_do.scss */
+/* line 93, src/scss/_components/home/_do.scss */
 .do .card-1 .card-img .icon-font {
   color: #ffffff;
   font-size: 49px;
   left: 5px;
 }
 
-/* line 69, src/scss/_components/home/_do.scss */
+/* line 84, src/scss/_components/home/_do.scss */
 .do .card-2 .card-img {
   width: 139px;
   height: 99px;
@@ -613,14 +634,14 @@ picture {
           background-size: contain;
 }
 
-/* line 78, src/scss/_components/home/_do.scss */
+/* line 93, src/scss/_components/home/_do.scss */
 .do .card-2 .card-img .icon-font {
   color: #ffffff;
   font-size: 53px;
   top: -5px;
 }
 
-/* line 69, src/scss/_components/home/_do.scss */
+/* line 84, src/scss/_components/home/_do.scss */
 .do .card-3 .card-img {
   width: 114px;
   height: 99px;
@@ -632,7 +653,7 @@ picture {
           background-size: contain;
 }
 
-/* line 78, src/scss/_components/home/_do.scss */
+/* line 93, src/scss/_components/home/_do.scss */
 .do .card-3 .card-img .icon-font {
   color: #ffffff;
   font-size: 45px;

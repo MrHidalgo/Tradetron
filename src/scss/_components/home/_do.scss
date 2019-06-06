@@ -15,6 +15,7 @@
 
 	.card {
 		border: none;
+		background-color: transparent;
 
 		&-title {
 			margin: 0;
@@ -22,13 +23,26 @@
 			font-size: 22px;
 			font-weight: bold;
 			line-height: 1.27;
+			@include adaptive(991) {
+				br {
+					display: none;
+				}
+
+				span {
+					display: block;
+				}
+			}
 		}
 
 		&-text {
+			max-width: 230px;
 			margin: 0;
 			padding-bottom: 15px;
 			font-size: 16px;
 			line-height: 1.5;
+			@include adaptive(991) {
+				max-width: 100%;
+			}
 		}
 
 		&-line {
@@ -53,6 +67,7 @@
 
 			.icon-font {
 				margin-left: 5px;
+				font-size: 14px;
 				@include transition(transform);
 			}
 

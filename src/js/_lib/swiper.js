@@ -14,12 +14,12 @@ const initSwiper = () => {
     grabCursor: true,
     freeMode: true,
     effect: 'slide',
-    slidesPerView: 5,
+    slidesPerView: 6,
     spaceBetween: 50,
 		centeredSlides: true,
     breakpoints: {
-      1279: {
-        slidesPerView: 4,
+      1440: {
+        slidesPerView: 5,
       },
       1023: {
         slidesPerView: 3,
