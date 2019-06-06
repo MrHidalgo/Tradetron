@@ -7,7 +7,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-email:before, .icon-facebook:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-twitter:before {
+.icon-arrow:before, .icon-bar-chart:before, .icon-email:before, .icon-facebook:before, .icon-layers:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-settings:before, .icon-twitter:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,34 +18,59 @@
   text-transform: none;
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-arrow:before {
   content: "";
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-bar-chart:before {
   content: "";
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 53, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
+}
+
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
+  content: "";
+}
+
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
+  content: "";
+}
+
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 68, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -460,6 +485,158 @@ picture {
 .footer__subscribe .input-group button .icon-font {
   color: #ffffff;
   font-size: 20px;
+}
+
+/* line 3, src/scss/_components/home/_do.scss */
+.do {
+  padding-bottom: 80px;
+}
+
+/* line 6, src/scss/_components/home/_do.scss */
+.do__bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 11, src/scss/_components/home/_do.scss */
+.do__title {
+  padding-top: 46px;
+  padding-bottom: 80px;
+}
+
+/* line 16, src/scss/_components/home/_do.scss */
+.do .card {
+  border: none;
+}
+
+/* line 19, src/scss/_components/home/_do.scss */
+.do .card-title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+}
+
+/* line 27, src/scss/_components/home/_do.scss */
+.do .card-text {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 34, src/scss/_components/home/_do.scss */
+.do .card-line {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 4px;
+  background-color: #6772e5;
+}
+
+/* line 41, src/scss/_components/home/_do.scss */
+.do .card__link {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #6772e5;
+}
+
+/* line 48, src/scss/_components/home/_do.scss */
+.do .card__link:hover .icon-font {
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 54, src/scss/_components/home/_do.scss */
+.do .card__link .icon-font {
+  margin-left: 5px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 69, src/scss/_components/home/_do.scss */
+.do .card-0 .card-img {
+  width: 139px;
+  height: 97px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 78, src/scss/_components/home/_do.scss */
+.do .card-0 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+}
+
+/* line 69, src/scss/_components/home/_do.scss */
+.do .card-1 .card-img {
+  width: 122px;
+  height: 96px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 78, src/scss/_components/home/_do.scss */
+.do .card-1 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 49px;
+  left: 5px;
+}
+
+/* line 69, src/scss/_components/home/_do.scss */
+.do .card-2 .card-img {
+  width: 139px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 78, src/scss/_components/home/_do.scss */
+.do .card-2 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 53px;
+  top: -5px;
+}
+
+/* line 69, src/scss/_components/home/_do.scss */
+.do .card-3 .card-img {
+  width: 114px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 78, src/scss/_components/home/_do.scss */
+.do .card-3 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 45px;
+  left: 5px;
 }
 
 /* line 3, src/scss/_components/home/_partners.scss */

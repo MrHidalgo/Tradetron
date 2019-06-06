@@ -27,23 +27,38 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == email {
+	@if $filename == arrow {
 		$char: "\E001";
 	}
-	@if $filename == facebook {
+	@if $filename == bar-chart {
 		$char: "\E002";
 	}
-	@if $filename == linkedin {
+	@if $filename == email {
 		$char: "\E003";
 	}
-	@if $filename == plus {
+	@if $filename == facebook {
 		$char: "\E004";
 	}
-	@if $filename == search {
+	@if $filename == layers {
 		$char: "\E005";
 	}
-	@if $filename == twitter {
+	@if $filename == linkedin {
 		$char: "\E006";
+	}
+	@if $filename == plus {
+		$char: "\E007";
+	}
+	@if $filename == search {
+		$char: "\E008";
+	}
+	@if $filename == settings {
+		$char: "\E009";
+	}
+	@if $filename == twitter {
+		$char: "\E00A";
+	}
+	@if $filename == users {
+		$char: "\E00B";
 	}
 
 	@return $char;
@@ -60,12 +75,24 @@
 	}
 }
 
+.icon-arrow {
+	@include icon(arrow);
+
+}
+.icon-bar-chart {
+	@include icon(bar-chart);
+
+}
 .icon-email {
 	@include icon(email);
 
 }
 .icon-facebook {
 	@include icon(facebook);
+
+}
+.icon-layers {
+	@include icon(layers);
 
 }
 .icon-linkedin {
@@ -80,7 +107,15 @@
 	@include icon(search);
 
 }
+.icon-settings {
+	@include icon(settings);
+
+}
 .icon-twitter {
 	@include icon(twitter);
+
+}
+.icon-users {
+	@include icon(users);
 
 }

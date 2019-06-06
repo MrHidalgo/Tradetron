@@ -1,0 +1,99 @@
+// SECTION do :: START
+
+.do {
+	padding-bottom: 80px;
+
+	&__bg {
+		top: 0;
+		left: 0;
+	}
+
+	&__title {
+		padding-top: 46px;
+		padding-bottom: 80px;
+	}
+
+	.card {
+		border: none;
+
+		&-title {
+			margin: 0;
+			padding-bottom: 15px;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.27;
+		}
+
+		&-text {
+			margin: 0;
+			padding-bottom: 15px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		&-line {
+			margin-bottom: 15px;
+			width: 50px;
+			height: 4px;
+			background-color: #6772e5;
+		}
+
+		&__link {
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #6772e5;
+
+			&:hover {
+				.icon-font {
+					transform: translateX(100%);
+					@include transition(transform);
+				}
+			}
+
+			.icon-font {
+				margin-left: 5px;
+				@include transition(transform);
+			}
+
+		}
+
+		@each $className, $wImg, $hImg, $imgIdx, $fzIcons in
+				(0, 139px, 97px, 1, 47px),
+				(1, 122px, 96px, 2, 49px),
+				(2, 139px, 99px, 3, 53px),
+				(3, 114px, 99px, 4, 45px)
+		{
+			&-#{$className} {
+				.card {
+					&-img {
+						width: $wImg;
+						height: $hImg;
+						margin-bottom: 20px;
+						background-image: url('../img/img-do-card-bg-#{$imgIdx}.png');
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: contain;
+
+						.icon-font {
+							color: #ffffff;
+							font-size: $fzIcons;
+
+							@if($className == 1) {
+								left: 5px;
+							}
+							@if($className == 2) {
+								top: -5px;
+							}
+							@if($className == 3) {
+								left: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// SECTION do :: END
