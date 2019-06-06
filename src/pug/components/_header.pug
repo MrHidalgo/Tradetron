@@ -1,7 +1,120 @@
 // HEADER :: START
 
 header#header.header
-	.c-grid
-		.header__wrapper
+
+	.header__wrapper
+
+		.container
+			.row.align-items-center
+
+				.col-3
+
+					.logotype.logotype--header
+						a.logotype__link.d-flex.align-items-start(href="#" class="" title="")
+							img.logotype__img.img-fluid(src="img/img-logotype-dark.png" srcset="img/img-logotype-dark@2x.png 2x, img/img-logotype-dark@3x.png 3x" alt="" title="")
+
+
+				.col-6
+
+					.header__nav-wrapper.d-flex.align-items-center.justify-content-center
+						.header__nav
+							.dropdown
+								button#dropdownMenuFutures.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+									span!= 'Features'
+									i.icon-font.icon-corner
+								.dropdown-menu(aria-labelledby='dropdownMenuFutures')
+									.dropdown-menu-corner.position-absolute
+									.dropdown-menu-wrapper.d-flex.flex-column
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-bar-chart
+											div
+												span!= "Trading Engine"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-layers
+											div
+												span!= "Strategy Builder"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-users
+											div
+												span!= "Social Trading"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-settings
+											div
+												span!= "Backtesting Engine"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-chart
+											div
+												span!= "Execution Algos"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-file
+											div
+												span!= "Reports"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-favorites
+											div
+												span!= "Fund Management"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-edit
+											div
+												span!= "Keywords"
+
+						.header__nav
+							.dropdown
+								button#dropdownMenuUsecases.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+									span!= 'Use cases'
+									i.icon-font.icon-corner
+								.dropdown-menu(aria-labelledby='dropdownMenuUsecases')
+									.dropdown-menu-corner.position-absolute
+									.dropdown-menu-wrapper.d-flex.flex-column
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-id-card
+											div
+												span!= "Strategy Creators"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-hand
+											div
+												span!= "Investors"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-safebox
+											div
+												span!= "Brokers"
+
+						.header__nav
+							a(href="#" class="" title="")!= "Pricing"
+						.header__nav
+							a(href="#" class="" title="")!= "Strategy Market"
+						.header__nav
+							a(href="#" class="" title="")!= "Affiliates"
+						.header__nav
+							a(href="#" class="" title="")!= "Contact"
+
+				.col-3
+
+					.header__btn-wrapper.d-flex.align-items-center.justify-content-end
+						a.header__btn.header__btn--signup.btn(href="#" class="" title="")
+							span!= "Sign up"
+						a.header__btn.header__btn--signin.btn.c-btn.c-btn--bg(href="#" class="" title="")
+							i.icon-font.icon-signin
+							span!= "Sign in"
 
 // HEADER :: END

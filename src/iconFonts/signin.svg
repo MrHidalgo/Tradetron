@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="18px" viewBox="0 0 15 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>signin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-page:-Desktops---1140-" transform="translate(-1188.000000, -36.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="1-screen" transform="translate(-77.000000, -176.000000)">
+                <g id="Header" transform="translate(217.000000, 188.000000)">
+                    <g id="Menu" transform="translate(304.000000, 13.000000)">
+                        <g id="Sign-in" transform="translate(721.000000, 0.000000)">
+                            <g id="Group-7" transform="translate(23.000000, 10.000000)">
+                                <g id="signin" transform="translate(0.000000, 1.000000)">
+                                    <path d="M7.5,8 C3.359375,8 0,11.359375 0,15.5 C1.69088438e-16,16.8807119 1.11928813,18 2.5,18 L12.5,18 C13.8807119,18 15,16.8807119 15,15.5 C15,11.359375 11.640625,8 7.5,8 Z" id="Shape"></path>
+                                    <circle id="Oval" cx="7.5" cy="3.5" r="3.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

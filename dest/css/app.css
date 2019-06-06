@@ -7,7 +7,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before, .icon-bar-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-email:before, .icon-facebook:before, .icon-graphene:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-settings:before, .icon-twitter:before, .icon-users:before {
+.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-twitter:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,89 +18,134 @@
   text-transform: none;
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
+/* line 113, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
+/* line 113, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-check:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-chart:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-chip:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-check:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-chip:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-corner:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 86, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 113, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -572,6 +617,239 @@ picture {
 /* line 50, src/scss/_macros/_btn.scss */
 .c-btn--bg:hover {
   color: #ffffff;
+}
+
+/* line 3, src/scss/_components/_header.scss */
+.header {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 12, src/scss/_components/_header.scss */
+.header.header--fixed {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 18, src/scss/_components/_header.scss */
+.header.header--fixed .header__wrapper .row {
+  min-height: 75px;
+  -webkit-transition: min-height 0.3s ease-in-out;
+  -o-transition: min-height 0.3s ease-in-out;
+  transition: min-height 0.3s ease-in-out;
+}
+
+/* line 26, src/scss/_components/_header.scss */
+.header__wrapper .row {
+  min-height: 100px;
+  -webkit-transition: min-height 0.3s ease-in-out;
+  -o-transition: min-height 0.3s ease-in-out;
+  transition: min-height 0.3s ease-in-out;
+}
+
+/* line 32, src/scss/_components/_header.scss */
+.header__btn {
+  outline: none;
+}
+
+/* line 35, src/scss/_components/_header.scss */
+.header__btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #333;
+}
+
+/* line 40, src/scss/_components/_header.scss */
+.header__btn--signup {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #333333;
+}
+
+/* line 47, src/scss/_components/_header.scss */
+.header__btn--signup:hover {
+  color: #6772e5;
+}
+
+/* line 52, src/scss/_components/_header.scss */
+.header__btn--signin {
+  max-width: 125px;
+  margin-left: 21px;
+}
+
+/* line 56, src/scss/_components/_header.scss */
+.header__btn--signin .icon-font {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+/* line 61, src/scss/_components/_header.scss */
+.header__btn--signin span {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+/* line 74, src/scss/_components/_header.scss */
+.header__nav > a {
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #333333;
+}
+
+/* line 82, src/scss/_components/_header.scss */
+.header__nav > a:hover {
+  color: #6772e5;
+}
+
+/* line 89, src/scss/_components/_header.scss */
+.header__nav .dropdown.show .btn {
+  color: #6772e5;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 95, src/scss/_components/_header.scss */
+.header__nav .dropdown-toggle {
+  font-size: 15px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 99, src/scss/_components/_header.scss */
+.header__nav .dropdown-toggle:after {
+  display: none;
+}
+
+/* line 103, src/scss/_components/_header.scss */
+.header__nav .dropdown-toggle:hover {
+  color: #6772e5;
+}
+
+/* line 107, src/scss/_components/_header.scss */
+.header__nav .dropdown-toggle:focus, .header__nav .dropdown-toggle.focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 113, src/scss/_components/_header.scss */
+.header__nav .dropdown-toggle .icon-font {
+  margin-left: 5px;
+  font-size: 8px;
+}
+
+/* line 119, src/scss/_components/_header.scss */
+.header__nav .dropdown-menu {
+  left: auto !important;
+  right: 0;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background-color: transparent;
+}
+
+/* line 129, src/scss/_components/_header.scss */
+.header__nav .dropdown-menu-corner {
+  z-index: 0;
+  top: -5px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 140, src/scss/_components/_header.scss */
+.header__nav .dropdown-menu-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 149, src/scss/_components/_header.scss */
+.header__nav .dropdown-item {
+  min-height: 20px;
+  padding: 0 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 155, src/scss/_components/_header.scss */
+.header__nav .dropdown-item:hover {
+  background-color: transparent;
+}
+
+/* line 158, src/scss/_components/_header.scss */
+.header__nav .dropdown-item:hover .icon-font,
+.header__nav .dropdown-item:hover span {
+  color: #6772e5;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 166, src/scss/_components/_header.scss */
+.header__nav .dropdown-item > div:nth-of-type(1) {
+  width: 30px;
+}
+
+/* line 169, src/scss/_components/_header.scss */
+.header__nav .dropdown-item > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 176, src/scss/_components/_header.scss */
+.header__nav .dropdown-item span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 183, src/scss/_components/_header.scss */
+.header__nav .dropdown-item .icon-font {
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 /* line 5, src/scss/_components/_footer.scss */

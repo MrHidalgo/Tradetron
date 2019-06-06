@@ -16,6 +16,23 @@
 * */
 
 /**
+ * @name initHeaderFixed
+ *
+ * @description Fixing the site header in the scrolling page.
+ */
+var initHeaderFixed = function initHeaderFixed() {
+
+  var countScroll = $(window).scrollTop(),
+      headerElement = $('.header');
+
+  if (countScroll > 10) {
+    headerElement.addClass("header--fixed");
+  } else {
+    headerElement.removeClass("header--fixed");
+  }
+};
+
+/**
  * @name initPreventBehavior
  *
  * @description
@@ -186,6 +203,25 @@ var initWebFontLoader = function initWebFontLoader() {
   //   }
   // };
 };
+
+/**
+ * @description Window on load.
+ */
+$(window).on("load", function (ev) {
+  initHeaderFixed();
+});
+
+/**
+ * @description Window on resize.
+ */
+$(window).on("resize", function (ev) {});
+
+/**
+ * @description Window on scroll.
+ */
+$(window).on("scroll", function (ev) {
+  initHeaderFixed();
+});
 
 /**
  * @description Document DOM ready.

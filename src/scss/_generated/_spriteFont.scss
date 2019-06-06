@@ -33,50 +33,77 @@
 	@if $filename == bar-chart {
 		$char: "\E002";
 	}
-	@if $filename == check {
+	@if $filename == chart {
 		$char: "\E003";
 	}
-	@if $filename == chip {
+	@if $filename == check {
 		$char: "\E004";
 	}
-	@if $filename == close {
+	@if $filename == chip {
 		$char: "\E005";
 	}
-	@if $filename == email {
+	@if $filename == close {
 		$char: "\E006";
 	}
-	@if $filename == facebook {
+	@if $filename == corner {
 		$char: "\E007";
 	}
-	@if $filename == graphene {
+	@if $filename == edit {
 		$char: "\E008";
 	}
-	@if $filename == innovation {
+	@if $filename == email {
 		$char: "\E009";
 	}
-	@if $filename == layers {
+	@if $filename == facebook {
 		$char: "\E00A";
 	}
-	@if $filename == line-chart {
+	@if $filename == favorites {
 		$char: "\E00B";
 	}
-	@if $filename == linkedin {
+	@if $filename == file {
 		$char: "\E00C";
 	}
-	@if $filename == plus {
+	@if $filename == graphene {
 		$char: "\E00D";
 	}
-	@if $filename == search {
+	@if $filename == hand {
 		$char: "\E00E";
 	}
-	@if $filename == settings {
+	@if $filename == id-card {
 		$char: "\E00F";
 	}
-	@if $filename == twitter {
+	@if $filename == innovation {
 		$char: "\E010";
 	}
-	@if $filename == users {
+	@if $filename == layers {
 		$char: "\E011";
+	}
+	@if $filename == line-chart {
+		$char: "\E012";
+	}
+	@if $filename == linkedin {
+		$char: "\E013";
+	}
+	@if $filename == plus {
+		$char: "\E014";
+	}
+	@if $filename == safebox {
+		$char: "\E015";
+	}
+	@if $filename == search {
+		$char: "\E016";
+	}
+	@if $filename == settings {
+		$char: "\E017";
+	}
+	@if $filename == signin {
+		$char: "\E018";
+	}
+	@if $filename == twitter {
+		$char: "\E019";
+	}
+	@if $filename == users {
+		$char: "\E01A";
 	}
 
 	@return $char;
@@ -101,6 +128,10 @@
 	@include icon(bar-chart);
 
 }
+.icon-chart {
+	@include icon(chart);
+
+}
 .icon-check {
 	@include icon(check);
 
@@ -113,6 +144,14 @@
 	@include icon(close);
 
 }
+.icon-corner {
+	@include icon(corner);
+
+}
+.icon-edit {
+	@include icon(edit);
+
+}
 .icon-email {
 	@include icon(email);
 
@@ -121,8 +160,24 @@
 	@include icon(facebook);
 
 }
+.icon-favorites {
+	@include icon(favorites);
+
+}
+.icon-file {
+	@include icon(file);
+
+}
 .icon-graphene {
 	@include icon(graphene);
+
+}
+.icon-hand {
+	@include icon(hand);
+
+}
+.icon-id-card {
+	@include icon(id-card);
 
 }
 .icon-innovation {
@@ -145,12 +200,20 @@
 	@include icon(plus);
 
 }
+.icon-safebox {
+	@include icon(safebox);
+
+}
 .icon-search {
 	@include icon(search);
 
 }
 .icon-settings {
 	@include icon(settings);
+
+}
+.icon-signin {
+	@include icon(signin);
 
 }
 .icon-twitter {
