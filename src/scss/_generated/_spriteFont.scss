@@ -33,32 +33,44 @@
 	@if $filename == bar-chart {
 		$char: "\E002";
 	}
-	@if $filename == email {
+	@if $filename == chip {
 		$char: "\E003";
 	}
-	@if $filename == facebook {
+	@if $filename == email {
 		$char: "\E004";
 	}
-	@if $filename == layers {
+	@if $filename == facebook {
 		$char: "\E005";
 	}
-	@if $filename == linkedin {
+	@if $filename == graphene {
 		$char: "\E006";
 	}
-	@if $filename == plus {
+	@if $filename == innovation {
 		$char: "\E007";
 	}
-	@if $filename == search {
+	@if $filename == layers {
 		$char: "\E008";
 	}
-	@if $filename == settings {
+	@if $filename == line-chart {
 		$char: "\E009";
 	}
-	@if $filename == twitter {
+	@if $filename == linkedin {
 		$char: "\E00A";
 	}
-	@if $filename == users {
+	@if $filename == plus {
 		$char: "\E00B";
+	}
+	@if $filename == search {
+		$char: "\E00C";
+	}
+	@if $filename == settings {
+		$char: "\E00D";
+	}
+	@if $filename == twitter {
+		$char: "\E00E";
+	}
+	@if $filename == users {
+		$char: "\E00F";
 	}
 
 	@return $char;
@@ -83,6 +95,10 @@
 	@include icon(bar-chart);
 
 }
+.icon-chip {
+	@include icon(chip);
+
+}
 .icon-email {
 	@include icon(email);
 
@@ -91,8 +107,20 @@
 	@include icon(facebook);
 
 }
+.icon-graphene {
+	@include icon(graphene);
+
+}
+.icon-innovation {
+	@include icon(innovation);
+
+}
 .icon-layers {
 	@include icon(layers);
+
+}
+.icon-line-chart {
+	@include icon(line-chart);
 
 }
 .icon-linkedin {

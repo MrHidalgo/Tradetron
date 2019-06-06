@@ -1,6 +1,53 @@
 .swiper-container {
   width: 100%;
 
+	&-features {
+		padding-top: 50px;
+		padding-bottom: 30px;
+
+		.swiper {
+			&-slide {
+				overflow: hidden;
+				width: 223px !important;
+				height: 94px;
+				border-radius: 6px;
+				box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+				background-color: #ffffff;
+				@include transition(height, transform, background-color);
+
+				&:before {
+					opacity: 0;
+					content: '';
+					z-index: -1;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background-image: linear-gradient(114deg, #ff5980, #ffa882);
+					@include transition(opacity);
+				}
+
+				&-active {
+					transform: translateY(-20px);
+					height: 114px;
+					background-color: transparent;
+					@include transition(height, transform, background-color);
+
+					&:before {
+						opacity: 1;
+						@include transition(opacity);
+					}
+
+					p,
+					.icon-font {
+						color: #ffffff;
+					}
+				}
+			}
+		}
+	}
+
 	&-partners {
 		.swiper {
 			&-wrapper {

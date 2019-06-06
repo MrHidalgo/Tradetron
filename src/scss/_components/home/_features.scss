@@ -1,0 +1,81 @@
+// SECTION features :: START
+
+.features {
+	min-height: 600px;
+	background-image: url('../img/img-features-bg.png');
+	background-position: top left;
+
+	&__wrapper {
+		padding-top: 168px;
+	}
+
+	&__header {
+		padding-bottom: 18px;
+	}
+
+	&__carousel {
+		width: 100%;
+
+		&-btn {
+			a {
+				width: 65px;
+				height: 65px;
+				margin-left: 5px;
+				margin-right: 5px;
+				border-radius: 6px;
+				background-color: #6772E5;
+				box-shadow: 0 1px 20px 0 rgba(17,30,79,0.14);
+				@include transition(box-shadow, background-color);
+
+				&.swiper-button-disabled {
+					box-shadow: none;
+					background-color: transparent;
+					@include transition(box-shadow, background-color, color);
+
+					.icon-font {
+						color: #6772e5;
+					}
+				}
+
+				.icon-font {
+					color: #fff;
+					font-size: 26px;
+				}
+			}
+
+			&--next {
+				.icon-font {
+					transform: rotate(-180deg);
+				}
+			}
+		}
+
+		p {
+			color: #b3c5dc;
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 1.5;
+		}
+
+		.icon-font {
+			color: #b3c5dc;
+
+			&.icon {
+				&-chip {
+					font-size: 48px;
+				}
+				&-innovation {
+					font-size: 50px;
+				}
+				&-line-chart {
+					font-size: 48px;
+				}
+				&-graphene {
+					font-size: 44px;
+				}
+			}
+		}
+	}
+}
+
+// SECTION features :: END

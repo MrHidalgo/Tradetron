@@ -7,7 +7,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before, .icon-bar-chart:before, .icon-email:before, .icon-facebook:before, .icon-layers:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-settings:before, .icon-twitter:before, .icon-users:before {
+.icon-arrow:before, .icon-bar-chart:before, .icon-chip:before, .icon-email:before, .icon-facebook:before, .icon-graphene:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-search:before, .icon-settings:before, .icon-twitter:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,59 +18,79 @@
   text-transform: none;
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
+/* line 80, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
+/* line 80, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-chip:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 68, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
+}
+
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
+  content: "";
+}
+
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 80, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -271,7 +291,76 @@ picture {
   width: 100%;
 }
 
-/* line 6, src/scss/_shared/_swiper.scss */
+/* line 4, src/scss/_shared/_swiper.scss */
+.swiper-container-features {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* line 9, src/scss/_shared/_swiper.scss */
+.swiper-container-features .swiper-slide {
+  overflow: hidden;
+  width: 223px !important;
+  height: 94px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+  background-color: #ffffff;
+  -webkit-transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 18, src/scss/_shared/_swiper.scss */
+.swiper-container-features .swiper-slide:before {
+  opacity: 0;
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(336deg, #ff5980, #ffa882);
+  background-image: -o-linear-gradient(336deg, #ff5980, #ffa882);
+  background-image: linear-gradient(114deg, #ff5980, #ffa882);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 31, src/scss/_shared/_swiper.scss */
+.swiper-container-features .swiper-slide-active {
+  -webkit-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+          transform: translateY(-20px);
+  height: 114px;
+  background-color: transparent;
+  -webkit-transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 37, src/scss/_shared/_swiper.scss */
+.swiper-container-features .swiper-slide-active:before {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 42, src/scss/_shared/_swiper.scss */
+.swiper-container-features .swiper-slide-active p,
+.swiper-container-features .swiper-slide-active .icon-font {
+  color: #ffffff;
+}
+
+/* line 53, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -280,7 +369,7 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 10, src/scss/_shared/_swiper.scss */
+  /* line 57, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
@@ -658,6 +747,109 @@ picture {
   color: #ffffff;
   font-size: 45px;
   left: 5px;
+}
+
+/* line 3, src/scss/_components/home/_features.scss */
+.features {
+  min-height: 600px;
+  background-image: url("../img/img-features-bg.png");
+  background-position: top left;
+}
+
+/* line 8, src/scss/_components/home/_features.scss */
+.features__wrapper {
+  padding-top: 168px;
+}
+
+/* line 12, src/scss/_components/home/_features.scss */
+.features__header {
+  padding-bottom: 18px;
+}
+
+/* line 16, src/scss/_components/home/_features.scss */
+.features__carousel {
+  width: 100%;
+}
+
+/* line 20, src/scss/_components/home/_features.scss */
+.features__carousel-btn a {
+  width: 65px;
+  height: 65px;
+  margin-left: 5px;
+  margin-right: 5px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #6772E5;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.14);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.14);
+  -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 30, src/scss/_components/home/_features.scss */
+.features__carousel-btn a.swiper-button-disabled {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 35, src/scss/_components/home/_features.scss */
+.features__carousel-btn a.swiper-button-disabled .icon-font {
+  color: #6772e5;
+}
+
+/* line 40, src/scss/_components/home/_features.scss */
+.features__carousel-btn a .icon-font {
+  color: #fff;
+  font-size: 26px;
+}
+
+/* line 47, src/scss/_components/home/_features.scss */
+.features__carousel-btn--next .icon-font {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+/* line 53, src/scss/_components/home/_features.scss */
+.features__carousel p {
+  color: #b3c5dc;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* line 60, src/scss/_components/home/_features.scss */
+.features__carousel .icon-font {
+  color: #b3c5dc;
+}
+
+/* line 64, src/scss/_components/home/_features.scss */
+.features__carousel .icon-font.icon-chip {
+  font-size: 48px;
+}
+
+/* line 67, src/scss/_components/home/_features.scss */
+.features__carousel .icon-font.icon-innovation {
+  font-size: 50px;
+}
+
+/* line 70, src/scss/_components/home/_features.scss */
+.features__carousel .icon-font.icon-line-chart {
+  font-size: 48px;
+}
+
+/* line 73, src/scss/_components/home/_features.scss */
+.features__carousel .icon-font.icon-graphene {
+  font-size: 44px;
 }
 
 /* line 3, src/scss/_components/home/_partners.scss */

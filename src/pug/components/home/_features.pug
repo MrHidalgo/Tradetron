@@ -1,0 +1,72 @@
+// SECTION features :: START
+
+section#features.features.position-relative
+
+	.features__wrapper
+
+		.container
+			.row
+				.col
+
+					.features__header.d-flex.align-items-center.justify-content-between
+
+						h2.features__title.c-title!= "Check our features"
+
+						.features__carousel-btn.d-flex.align-items-center
+							a.features__carousel-btn--next.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+								i.icon-font.icon-arrow
+							a.features__carousel-btn--prev.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+								i.icon-font.icon-arrow
+
+		.features__carousel
+
+			mixin swiperContent()
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-chip
+					div.pl-2
+						p!= "Trading Engine Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-innovation
+					div.pl-2
+						p!= "Strategy Building Wizard Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-line-chart
+					div.pl-2
+						p!= "Position Builder Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-graphene
+					div.pl-2
+						p!= "Social Trading / Marketplace Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-chip
+					div.pl-2
+						p!= "Trading Engine Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-innovation
+					div.pl-2
+						p!= "Strategy Building Wizard Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-line-chart
+					div.pl-2
+						p!= "Position Builder Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-graphene
+					div.pl-2
+						p!= "Social Trading / Marketplace Features"
+				.swiper-slide.d-flex.align-items-center.px-2.py-3.position-relative
+					div
+						i.icon-font.icon-chip
+					div.pl-2
+						p!= "Trading Engine Features"
+
+			+swiper('swiper-container-features', 'swiperContent', false, false, false)
+
+// SECTION features :: END

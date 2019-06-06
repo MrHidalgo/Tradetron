@@ -75,6 +75,35 @@ var initSwiper = function initSwiper() {
       }
     }
   });
+
+  var mySwiperFeatures = new Swiper('.swiper-container-features', {
+    loop: false,
+    watchOverflow: true,
+    normalizeSlideIndex: true,
+    grabCursor: true,
+    freeMode: false,
+    effect: 'slide',
+    slidesPerView: 6,
+    spaceBetween: 20,
+    centeredSlides: true,
+    navigation: {
+      nextEl: '.features__carousel-btn--next',
+      prevEl: '.features__carousel-btn--prev'
+    }
+    // breakpoints: {
+    //   1440: {
+    //     slidesPerView: 5,
+    //   },
+    //   1023: {
+    //     slidesPerView: 3,
+    // 		spaceBetween: 40,
+    //   },
+    //   575: {
+    //     slidesPerView: 2,
+    // 		spaceBetween: 30,
+    //   },
+    // }
+  });
 };
 
 /**
