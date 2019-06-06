@@ -1,0 +1,139 @@
+// SECTION pricing :: START
+
+.pricing {
+	padding-top: 74px;
+	padding-bottom: 104px;
+
+	&__bg {
+		top: 0;
+		left: 0;
+		padding-top: 175px;
+	}
+
+	&__wrapper {
+		z-index: 2;
+	}
+
+	&__title {
+		padding-bottom: 11px;
+	}
+
+	&__desc {
+		width: 100%;
+		max-width: 730px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+		letter-spacing: 0.1px;
+	}
+
+	&__header {
+
+	}
+
+	&__plan {
+		padding-bottom: 15px;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 1.5;
+	}
+
+	&__price {
+		padding-bottom: 30px;
+		font-size: 55px;
+		font-weight: bold;
+		line-height: 1;
+
+		span {
+			position: relative;
+			top: -7px;
+			font-size: 20px;
+		}
+	}
+
+	&__list {
+		padding-bottom: 30px;
+
+		&-item  {
+			padding-bottom: 10px;
+
+			> div {
+				&:nth-of-type(1) {
+					width: 30px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			p,
+			span {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.71;
+			}
+
+			span {
+				opacity: 0.6;
+			}
+
+			.icon-font {
+				position: relative;
+				top: 5px;
+
+				&.icon-check {
+					color: #22c993;
+					font-size: 11px;
+				}
+				&.icon-close {
+					color: rgba(#333333, 0.6);
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+	&__carousel {
+		&-btn {
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+
+			a {
+				width: 65px;
+				height: 65px;
+				margin-left: 5px;
+				margin-right: 5px;
+				border-radius: 6px;
+				background-color: #6772E5;
+				box-shadow: 0 1px 20px 0 rgba(17,30,79,0.14);
+				@include transition(box-shadow, background-color);
+
+				&.swiper-button-disabled {
+					box-shadow: none;
+					background-color: transparent;
+					@include transition(box-shadow, background-color, color);
+
+					.icon-font {
+						color: #6772e5;
+					}
+				}
+
+				.icon-font {
+					color: #fff;
+					font-size: 26px;
+				}
+			}
+
+			&--next {
+				.icon-font {
+					transform: rotate(-180deg);
+				}
+			}
+		}
+	}
+}
+
+// SECTION pricing :: END

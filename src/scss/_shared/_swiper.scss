@@ -8,7 +8,7 @@
 		.swiper {
 			&-slide {
 				overflow: hidden;
-				width: 223px !important;
+				//width: 223px !important;
 				height: 94px;
 				border-radius: 6px;
 				box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
@@ -48,6 +48,34 @@
 		}
 	}
 
+	&-pricing {
+		padding-top: 45px;
+		padding-bottom: 50px;
+
+		.swiper {
+			&-wrapper {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			&-slide {
+				width: 100%;
+				max-width: calc((100% - (14px * 3)) / 4);
+				min-height: 560px;
+				border-radius: 6px;
+				padding: 25px 20px;
+				background-color: #ffffff;
+				box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+			}
+
+			&-pagination {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
+
 	&-partners {
 		.swiper {
 			&-wrapper {
@@ -57,6 +85,29 @@
 			&-slide {
 				@include respondCustom('min-width:768px') {
 					width: auto !important;
+				}
+			}
+		}
+	}
+
+	.swiper {
+		&-pagination {
+			display: flex;
+			align-items: center;
+			bottom: 0;
+
+			&-bullet {
+				opacity: 1;
+				width: 12px;
+				height: 12px;
+				background-color: rgba(#222A42, 0.15);
+				margin-left: 3px;
+				margin-right: 3px;
+
+				&-active {
+					width: 30px;
+					border-radius: 7px;
+					background-color: #6772e5;
 				}
 			}
 		}

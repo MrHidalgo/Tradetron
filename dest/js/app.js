@@ -56,8 +56,9 @@ var initSwiper = function initSwiper() {
     watchOverflow: true,
     normalizeSlideIndex: true,
     grabCursor: true,
-    freeMode: true,
+    freeMode: false,
     effect: 'slide',
+    speed: 750,
     slidesPerView: 6,
     spaceBetween: 50,
     centeredSlides: true,
@@ -83,7 +84,8 @@ var initSwiper = function initSwiper() {
     grabCursor: true,
     freeMode: false,
     effect: 'slide',
-    slidesPerView: 6,
+    speed: 750,
+    slidesPerView: 7,
     spaceBetween: 20,
     centeredSlides: true,
     navigation: {
@@ -103,6 +105,45 @@ var initSwiper = function initSwiper() {
     // 		spaceBetween: 30,
     //   },
     // }
+  });
+
+  var mySwiperPricingOpt = {
+    loop: false,
+    watchOverflow: true,
+    normalizeSlideIndex: true,
+    grabCursor: true,
+    freeMode: true,
+    effect: 'slide',
+    speed: 750,
+    slidesPerView: 4,
+    spaceBetween: 14,
+    navigation: {
+      nextEl: 'pricing__carousel-btn--next',
+      prevEl: 'pricing__carousel-btn--prev'
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+      // renderBullet: function (index, className) {
+      //   return `
+      //     <div class="${className}">
+      //       ${index}
+      //     </div>
+      //   `;
+      // }
+    }
+  };
+  var mySwiperPricing = undefined;
+
+  $(window).on('load resize orientationchange', function () {
+    if ($(window).width() < 768) {
+      mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
+    } else {
+      if (mySwiperPricing !== undefined) {
+        mySwiperPricing.destroy(true, true);
+        mySwiperPricing = undefined;
+      }
+    }
   });
 };
 

@@ -33,44 +33,50 @@
 	@if $filename == bar-chart {
 		$char: "\E002";
 	}
-	@if $filename == chip {
+	@if $filename == check {
 		$char: "\E003";
 	}
-	@if $filename == email {
+	@if $filename == chip {
 		$char: "\E004";
 	}
-	@if $filename == facebook {
+	@if $filename == close {
 		$char: "\E005";
 	}
-	@if $filename == graphene {
+	@if $filename == email {
 		$char: "\E006";
 	}
-	@if $filename == innovation {
+	@if $filename == facebook {
 		$char: "\E007";
 	}
-	@if $filename == layers {
+	@if $filename == graphene {
 		$char: "\E008";
 	}
-	@if $filename == line-chart {
+	@if $filename == innovation {
 		$char: "\E009";
 	}
-	@if $filename == linkedin {
+	@if $filename == layers {
 		$char: "\E00A";
 	}
-	@if $filename == plus {
+	@if $filename == line-chart {
 		$char: "\E00B";
 	}
-	@if $filename == search {
+	@if $filename == linkedin {
 		$char: "\E00C";
 	}
-	@if $filename == settings {
+	@if $filename == plus {
 		$char: "\E00D";
 	}
-	@if $filename == twitter {
+	@if $filename == search {
 		$char: "\E00E";
 	}
-	@if $filename == users {
+	@if $filename == settings {
 		$char: "\E00F";
+	}
+	@if $filename == twitter {
+		$char: "\E010";
+	}
+	@if $filename == users {
+		$char: "\E011";
 	}
 
 	@return $char;
@@ -95,8 +101,16 @@
 	@include icon(bar-chart);
 
 }
+.icon-check {
+	@include icon(check);
+
+}
 .icon-chip {
 	@include icon(chip);
+
+}
+.icon-close {
+	@include icon(close);
 
 }
 .icon-email {
