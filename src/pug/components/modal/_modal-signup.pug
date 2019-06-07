@@ -1,0 +1,60 @@
+// MODAL sign in :: START
+
+#signupModal.modal.modal--signup.fade(tabindex='-1', role='dialog', aria-labelledby='SignUp', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		.modal-content.py-5
+			.modal-header.justify-content-center.pb-3
+				h5#SignUp.modal-title Sign up
+
+			.modal-body
+				.modal-body-cover
+
+					form.d-flex.flex-column
+						.form-group
+							label(for='modalFullName') Full Name
+							input#modalFullName.form-control(type='text')
+						.form-group
+							label(for='modalEmail') Email
+							input#modalEmail.form-control(type='email')
+						.form-group
+							label(for='modalPhone') Phone
+							input#modalPhone.form-control(type='text')
+						.form-group
+							label(for='modalCountry') Country
+							select#modalCountry.form-control
+								option 1
+								option 2
+								option 3
+						.form-group
+							label(for='modalCity') City
+							select#modalCity.form-control
+								option 1
+								option 2
+								option 3
+						.form-group
+							label(for='modalPassword') Password
+							input#modalPassword.form-control(type='password')
+						.form-group.form-check
+							input#modalAgree.form-check-input(type='checkbox')
+							label.form-check-label.w-100(for='modalAgree')!= "I agree to the <a href='#'>terms of service</a>"
+
+						button.btn.c-btn.c-btn--bg(type='submit') Sign up
+
+						p.modal__link.d-flex.align-items-center.justify-content-center!= "Already have an account? &nbsp;<a href='#'> Sign in</a>"
+
+					.modal__or
+						p
+							span!= "or"
+
+					.modal__btn-wrapper.d-flex.flex-column
+						a.btn.modal__btn.c-btn.c-btn--bg.modal__btn--facebook.d-flex.align-items-center.justify-content-start(href="#" class="" title="")
+							.d-flex.align-items-center.justify-content-center
+								i.icon-font.icon-facebook
+							span!= "Sign in with Facebook"
+						a.btn.modal__btn.c-btn.c-btn--bg.modal__btn--google.d-flex.align-items-center.justify-content-start(href="#" class="" title="")
+							.d-flex.align-items-center.justify-content-center
+								i.icon-font.icon-google-plus
+							span!= "Sign in with Google"
+
+
+// MODAL sign in :: END

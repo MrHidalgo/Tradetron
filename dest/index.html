@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="header__btn-wrapper d-flex align-items-center justify-content-end"><a class="header__btn header__btn--signup btn" href="#" title=""><span>Sign up</span></a><a class="header__btn header__btn--signin btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#signinModal"><i class="icon-font icon-signin"></i><span>Sign in</span></a></div>
+              <div class="header__btn-wrapper d-flex align-items-center justify-content-end"><a class="header__btn header__btn--signup btn" href="#" title="" data-toggle="modal" data-target="#signupModal"><span>Sign up</span></a><a class="header__btn header__btn--signin btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#signinModal"><i class="icon-font icon-signin"></i><span>Sign in</span></a></div>
             </div>
           </div>
         </div>
@@ -747,7 +747,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content py-5">
           <div class="modal-header justify-content-center pb-3">
-            <h5 class="modal-title" id="SignIn">Sign In</h5>
+            <h5 class="modal-title" id="SignIn">Sign in</h5>
           </div>
           <div class="modal-body">
             <div class="modal-body-cover">
@@ -765,6 +765,67 @@
                 </div>
                 <button class="btn c-btn c-btn--bg" type="submit">Sign in</button>
                 <p class="modal__link d-flex align-items-center justify-content-center">Don’t have an account?&nbsp;<a href='#'> Sign up</a></p>
+              </form>
+              <div class="modal__or">
+                <p><span>or</span></p>
+              </div>
+              <div class="modal__btn-wrapper d-flex flex-column"><a class="btn modal__btn c-btn c-btn--bg modal__btn--facebook d-flex align-items-center justify-content-start" href="#" title="">
+                  <div class="d-flex align-items-center justify-content-center"><i class="icon-font icon-facebook"></i></div><span>Sign in with Facebook</span></a><a class="btn modal__btn c-btn c-btn--bg modal__btn--google d-flex align-items-center justify-content-start" href="#" title="">
+                  <div class="d-flex align-items-center justify-content-center"><i class="icon-font icon-google-plus"></i></div><span>Sign in with Google</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--signup fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="SignUp" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content py-5">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="SignUp">Sign up</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <form class="d-flex flex-column">
+                <div class="form-group">
+                  <label for="modalFullName">Full Name</label>
+                  <input class="form-control" id="modalFullName" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="modalEmail">Email</label>
+                  <input class="form-control" id="modalEmail" type="email">
+                </div>
+                <div class="form-group">
+                  <label for="modalPhone">Phone</label>
+                  <input class="form-control" id="modalPhone" type="text">
+                </div>
+                <div class="form-group">
+                  <label for="modalCountry">Country</label>
+                  <select class="form-control" id="modalCountry">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="modalCity">City</label>
+                  <select class="form-control" id="modalCity">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="modalPassword">Password</label>
+                  <input class="form-control" id="modalPassword" type="password">
+                </div>
+                <div class="form-group form-check">
+                  <input class="form-check-input" id="modalAgree" type="checkbox">
+                  <label class="form-check-label w-100" for="modalAgree">I agree to the <a href='#'>terms of service</a></label>
+                </div>
+                <button class="btn c-btn c-btn--bg" type="submit">Sign up</button>
+                <p class="modal__link d-flex align-items-center justify-content-center">Already have an account? &nbsp;<a href='#'> Sign in</a></p>
               </form>
               <div class="modal__or">
                 <p><span>or</span></p>

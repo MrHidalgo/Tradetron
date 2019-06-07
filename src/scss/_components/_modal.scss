@@ -105,7 +105,7 @@
 				margin-bottom: 34px;
 			}
 
-			a {
+			> a {
 				display: block;
 				font-size: 12px;
 				letter-spacing: 0.1px;
@@ -154,10 +154,15 @@
 			font-size: 12px;
 			font-weight: 500;
 			letter-spacing: 0.1px;
+
+			a {
+				color: #696eed;
+			}
 		}
 	}
 
-	&--signin {
+	&--signin,
+	&--signup {
 		.modal {
 			&-body {
 				&-cover {

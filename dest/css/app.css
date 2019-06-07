@@ -1128,7 +1128,7 @@ picture {
 }
 
 /* line 108, src/scss/_components/_modal.scss */
-.modal form .form-group a {
+.modal form .form-group > a {
   display: block;
   font-size: 12px;
   letter-spacing: 0.1px;
@@ -1139,7 +1139,7 @@ picture {
 }
 
 /* line 115, src/scss/_components/_modal.scss */
-.modal form .form-group a:hover {
+.modal form .form-group > a:hover {
   color: #696eed;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
@@ -1215,8 +1215,13 @@ picture {
   letter-spacing: 0.1px;
 }
 
-/* line 163, src/scss/_components/_modal.scss */
-.modal--signin .modal-body-cover {
+/* line 158, src/scss/_components/_modal.scss */
+.modal form label a {
+  color: #696eed;
+}
+
+/* line 168, src/scss/_components/_modal.scss */
+.modal--signin .modal-body-cover, .modal--signup .modal-body-cover {
   max-width: 240px;
   margin-left: auto;
   margin-right: auto;
