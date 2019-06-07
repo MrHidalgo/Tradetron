@@ -15,6 +15,7 @@
 
 	&__carousel {
 		width: 100%;
+		margin-left: auto;
 
 		&-btn {
 			a {
@@ -28,12 +29,15 @@
 				@include transition(box-shadow, background-color);
 
 				&.swiper-button-disabled {
-					box-shadow: none;
-					background-color: transparent;
+					opacity: 0.75;
+					pointer-events: none;
+					cursor: not-allowed;
+					//box-shadow: none;
+					//background-color: transparent;
 					@include transition(box-shadow, background-color, color);
 
 					.icon-font {
-						color: #6772e5;
+						//color: #6772e5;
 					}
 				}
 
@@ -43,7 +47,7 @@
 				}
 			}
 
-			&--next {
+			&--prev {
 				.icon-font {
 					transform: rotate(-180deg);
 				}

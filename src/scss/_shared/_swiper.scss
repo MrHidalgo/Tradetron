@@ -20,13 +20,29 @@
 
 		.swiper {
 			&-slide {
+				cursor: pointer;
 				overflow: hidden;
-				//width: 223px !important;
 				height: 94px;
 				border-radius: 6px;
 				box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 				background-color: #ffffff;
 				@include transition(height, transform, background-color);
+
+				&:hover {
+					background-color: transparent;
+					@include transition(background-color);
+
+					&:before {
+						opacity: 0.75;
+						@include transition(opacity);
+					}
+
+					p,
+					.icon-font {
+						color: #ffffff;
+						@include transition(color);
+					}
+				}
 
 				&:before {
 					opacity: 0;

@@ -94,35 +94,36 @@ var initSwiper = function initSwiper() {
     }
   });
 
-  var mySwiperFeatures = new Swiper('.swiper-container-features', {
+  var mySwiperFeaturesOpt = {
     loop: false,
     watchOverflow: true,
     normalizeSlideIndex: true,
-    grabCursor: true,
+    grabCursor: false,
     freeMode: false,
     effect: 'slide',
     speed: 750,
-    slidesPerView: 7,
+    slidesPerView: 5,
     spaceBetween: 20,
-    centeredSlides: true,
+    // centeredSlides: true,
     navigation: {
       nextEl: '.features__carousel-btn--next',
       prevEl: '.features__carousel-btn--prev'
+    },
+    breakpoints: {
+      1365: {
+        slidesPerView: 4
+      },
+      1023: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+      // 575: {
+      //   slidesPerView: 2,
+      // 	spaceBetween: 20,
+      // },
     }
-    // breakpoints: {
-    //   1440: {
-    //     slidesPerView: 5,
-    //   },
-    //   1023: {
-    //     slidesPerView: 3,
-    // 		spaceBetween: 40,
-    //   },
-    //   575: {
-    //     slidesPerView: 2,
-    // 		spaceBetween: 30,
-    //   },
-    // }
-  });
+  };
+  var mySwiperFeatures = undefined;
 
   var mySwiperMain = new Swiper('.swiper-container-main', {
     loop: false,
@@ -148,7 +149,7 @@ var initSwiper = function initSwiper() {
     watchOverflow: true,
     normalizeSlideIndex: true,
     grabCursor: true,
-    freeMode: true,
+    freeMode: false,
     effect: 'slide',
     speed: 750,
     slidesPerView: 4,
@@ -165,6 +166,10 @@ var initSwiper = function initSwiper() {
   var mySwiperPricing = undefined;
 
   $(window).on('load resize orientationchange', function () {
+    // FEATURES SLIDER OFFSET
+    $('.features__carousel').attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
+    // FEATURES SLIDER OFFSET :: END
+
     if ($(window).width() < 768) {
       mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
     } else {
@@ -173,6 +178,9 @@ var initSwiper = function initSwiper() {
         mySwiperPricing = undefined;
       }
     }
+  });
+  $(window).on('load', function () {
+    mySwiperFeatures = new Swiper('.swiper-container-features', mySwiperFeaturesOpt);
   });
 };
 

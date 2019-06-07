@@ -33,35 +33,36 @@ const initSwiper = () => {
     }
   });
 
-  const mySwiperFeatures = new Swiper('.swiper-container-features', {
-    loop: false,
-    watchOverflow: true,
-    normalizeSlideIndex: true,
-    grabCursor: true,
-    freeMode: false,
-    effect: 'slide',
+  const mySwiperFeaturesOpt = {
+		loop: false,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: false,
+		freeMode: false,
+		effect: 'slide',
 		speed: 750,
-    slidesPerView: 7,
-    spaceBetween: 20,
-		centeredSlides: true,
+		slidesPerView: 5,
+		spaceBetween: 20,
+		// centeredSlides: true,
 		navigation: {
 			nextEl: '.features__carousel-btn--next',
 			prevEl: '.features__carousel-btn--prev',
 		},
-    // breakpoints: {
-    //   1440: {
-    //     slidesPerView: 5,
-    //   },
-    //   1023: {
-    //     slidesPerView: 3,
-		// 		spaceBetween: 40,
-    //   },
-    //   575: {
-    //     slidesPerView: 2,
-		// 		spaceBetween: 30,
-    //   },
-    // }
-  });
+		breakpoints: {
+		  1365: {
+		    slidesPerView: 4,
+		  },
+		  1023: {
+		    slidesPerView: 3,
+				spaceBetween: 20,
+		  },
+		  // 575: {
+		  //   slidesPerView: 2,
+			// 	spaceBetween: 20,
+		  // },
+		}
+	};
+	let mySwiperFeatures = undefined;
 
   const mySwiperMain = new Swiper('.swiper-container-main', {
     loop: false,
@@ -87,7 +88,7 @@ const initSwiper = () => {
 		watchOverflow: true,
 		normalizeSlideIndex: true,
 		grabCursor: true,
-		freeMode: true,
+		freeMode: false,
 		effect: 'slide',
 		speed: 750,
 		slidesPerView: 4,
@@ -104,6 +105,10 @@ const initSwiper = () => {
 	let mySwiperPricing = undefined;
 
 	$(window).on('load resize orientationchange', () => {
+		// FEATURES SLIDER OFFSET
+		$('.features__carousel').attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
+		// FEATURES SLIDER OFFSET :: END
+
 		if($(window).width() < 768) {
 			mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
 		} else {
@@ -112,5 +117,8 @@ const initSwiper = () => {
 				mySwiperPricing = undefined;
 			}
 		}
+	});
+	$(window).on('load', () => {
+		mySwiperFeatures = new Swiper('.swiper-container-features', mySwiperFeaturesOpt);
 	});
 };
