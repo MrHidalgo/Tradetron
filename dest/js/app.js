@@ -123,7 +123,6 @@ var initSwiper = function initSwiper() {
 		speed: 750,
 		slidesPerView: 5,
 		spaceBetween: 20,
-		// centeredSlides: true,
 		navigation: {
 			nextEl: '.features__carousel-btn--next',
 			prevEl: '.features__carousel-btn--prev'
@@ -250,7 +249,11 @@ $(document).ready(function (ev) {
  * =============================================
  * CALLBACK :: start
  * ============================================= */
-
+	var initCollapseButton = function initCollapseButton() {
+		$('.accordion button').on('click', function (ev) {
+			$(ev.currentTarget).toggleClass('is-active');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -271,6 +274,7 @@ $(document).ready(function (ev) {
 
 		// callback
 		// ==========================================
+		initCollapseButton();
 	};
 	initJquery();
 });

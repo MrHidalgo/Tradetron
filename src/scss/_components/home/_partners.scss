@@ -3,13 +3,12 @@
 .partners {
 	padding-top: 35px;
 	padding-bottom: 105px;
+	@include adaptive(1199) {
+		padding-bottom: 70px;
+	}
 
 	&__title {
 		padding-bottom: 49px;
-	}
-
-	.container {
-		//max-width: 1440px;
 	}
 }
 

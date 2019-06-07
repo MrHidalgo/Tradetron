@@ -62,7 +62,6 @@ const initSwiper = () => {
 		speed: 750,
 		slidesPerView: 5,
 		spaceBetween: 20,
-		// centeredSlides: true,
 		navigation: {
 			nextEl: '.features__carousel-btn--next',
 			prevEl: '.features__carousel-btn--prev',

@@ -17,7 +17,11 @@ $(document).ready((ev) => {
 	* =============================================
 	* CALLBACK :: start
 	* ============================================= */
-
+	const initCollapseButton = () => {
+		$('.accordion button').on('click', (ev) => {
+			$(ev.currentTarget).toggleClass('is-active');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -40,6 +44,7 @@ $(document).ready((ev) => {
 
     // callback
 		// ==========================================
+		initCollapseButton();
   };
   initJquery();
 });

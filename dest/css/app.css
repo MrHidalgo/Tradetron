@@ -384,39 +384,25 @@ picture {
   -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
   background-color: #ffffff;
-  -webkit-transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-  -o-transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
-  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  -webkit-transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 /* line 31, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:hover {
-  background-color: transparent;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
+          box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
+  -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 35, src/scss/_shared/_swiper.scss */
-.swiper-container-features .swiper-slide:hover:before {
-  opacity: 0.75;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-}
-
-/* line 40, src/scss/_shared/_swiper.scss */
-.swiper-container-features .swiper-slide:hover p,
-.swiper-container-features .swiper-slide:hover .icon-font {
-  color: #ffffff;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
-/* line 47, src/scss/_shared/_swiper.scss */
+/* line 48, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:before {
   opacity: 0;
   content: '';
@@ -434,7 +420,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 60, src/scss/_shared/_swiper.scss */
+/* line 61, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active {
   -webkit-transform: translateY(-20px);
       -ms-transform: translateY(-20px);
@@ -448,7 +434,7 @@ picture {
   transition: height 0.3s ease-in-out, transform 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 66, src/scss/_shared/_swiper.scss */
+/* line 67, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active:before {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -456,13 +442,13 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 71, src/scss/_shared/_swiper.scss */
+/* line 72, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active p,
 .swiper-container-features .swiper-slide-active .icon-font {
   color: #ffffff;
 }
 
-/* line 80, src/scss/_shared/_swiper.scss */
+/* line 81, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing {
   overflow: unset;
   padding-top: 45px;
@@ -470,13 +456,13 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 80, src/scss/_shared/_swiper.scss */
+  /* line 81, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing {
     overflow: hidden;
   }
 }
 
-/* line 89, src/scss/_shared/_swiper.scss */
+/* line 90, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -492,7 +478,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 98, src/scss/_shared/_swiper.scss */
+/* line 99, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-slide {
   width: 100%;
   max-width: -webkit-calc((100% - (14px * 3)) / 4);
@@ -507,20 +493,20 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 98, src/scss/_shared/_swiper.scss */
+  /* line 99, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-slide {
     width: 275px !important;
     max-width: 275px !important;
   }
 }
 
-/* line 112, src/scss/_shared/_swiper.scss */
+/* line 113, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-pagination {
   opacity: 0;
   visibility: hidden;
 }
 
-/* line 121, src/scss/_shared/_swiper.scss */
+/* line 122, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -529,13 +515,13 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 125, src/scss/_shared/_swiper.scss */
+  /* line 126, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
 }
 
-/* line 134, src/scss/_shared/_swiper.scss */
+/* line 135, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -552,7 +538,7 @@ picture {
   bottom: 0;
 }
 
-/* line 140, src/scss/_shared/_swiper.scss */
+/* line 141, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet {
   opacity: 1;
   width: 12px;
@@ -567,7 +553,7 @@ picture {
   transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
-/* line 149, src/scss/_shared/_swiper.scss */
+/* line 150, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet-active {
   width: 30px;
   -webkit-border-radius: 7px;
@@ -1386,20 +1372,20 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 44, src/scss/_components/home/_features.scss */
+/* line 38, src/scss/_components/home/_features.scss */
 .features__carousel-btn a .icon-font {
   color: #fff;
   font-size: 26px;
 }
 
-/* line 51, src/scss/_components/home/_features.scss */
+/* line 45, src/scss/_components/home/_features.scss */
 .features__carousel-btn--prev .icon-font {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
 
-/* line 57, src/scss/_components/home/_features.scss */
+/* line 51, src/scss/_components/home/_features.scss */
 .features__carousel p {
   color: #b3c5dc;
   font-size: 16px;
@@ -1407,27 +1393,27 @@ picture {
   line-height: 1.5;
 }
 
-/* line 64, src/scss/_components/home/_features.scss */
+/* line 58, src/scss/_components/home/_features.scss */
 .features__carousel .icon-font {
   color: #b3c5dc;
 }
 
-/* line 68, src/scss/_components/home/_features.scss */
+/* line 62, src/scss/_components/home/_features.scss */
 .features__carousel .icon-font.icon-chip {
   font-size: 48px;
 }
 
-/* line 71, src/scss/_components/home/_features.scss */
+/* line 65, src/scss/_components/home/_features.scss */
 .features__carousel .icon-font.icon-innovation {
   font-size: 50px;
 }
 
-/* line 74, src/scss/_components/home/_features.scss */
+/* line 68, src/scss/_components/home/_features.scss */
 .features__carousel .icon-font.icon-line-chart {
   font-size: 48px;
 }
 
-/* line 77, src/scss/_components/home/_features.scss */
+/* line 71, src/scss/_components/home/_features.scss */
 .features__carousel .icon-font.icon-graphene {
   font-size: 44px;
 }
@@ -1626,9 +1612,9 @@ picture {
 
 /* line 150, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a.swiper-button-disabled {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  background-color: transparent;
+  opacity: 0.75;
+  pointer-events: none;
+  cursor: not-allowed;
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
   -o-transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -1636,18 +1622,13 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 155, src/scss/_components/home/_pricing.scss */
-.pricing__carousel-btn a.swiper-button-disabled .icon-font {
-  color: #6772e5;
-}
-
-/* line 160, src/scss/_components/home/_pricing.scss */
+/* line 157, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a .icon-font {
   color: #fff;
   font-size: 26px;
 }
 
-/* line 167, src/scss/_components/home/_pricing.scss */
+/* line 164, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn--prev .icon-font {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
@@ -1660,70 +1641,124 @@ picture {
   padding-bottom: 105px;
 }
 
-/* line 7, src/scss/_components/home/_partners.scss */
+@media screen and (max-width: 1199px) {
+  /* line 3, src/scss/_components/home/_partners.scss */
+  .partners {
+    padding-bottom: 70px;
+  }
+}
+
+/* line 10, src/scss/_components/home/_partners.scss */
 .partners__title {
   padding-bottom: 49px;
 }
 
 /* line 3, src/scss/_components/home/_help.scss */
 .help {
+  overflow: hidden;
   position: relative;
   padding-top: 117px;
 }
 
-/* line 7, src/scss/_components/home/_help.scss */
+/* line 8, src/scss/_components/home/_help.scss */
 .help__bg {
   top: 0;
   left: 0;
 }
 
-/* line 16, src/scss/_components/home/_help.scss */
+/* line 13, src/scss/_components/home/_help.scss */
 .help__wrapper {
   z-index: 2;
 }
 
-/* line 19, src/scss/_components/home/_help.scss */
+/* line 16, src/scss/_components/home/_help.scss */
 .help__wrapper-0 {
   padding-bottom: 154px;
 }
 
-/* line 23, src/scss/_components/home/_help.scss */
+/* line 20, src/scss/_components/home/_help.scss */
 .help__wrapper-1 {
   padding-bottom: 100px;
 }
 
-/* line 27, src/scss/_components/home/_help.scss */
+/* line 24, src/scss/_components/home/_help.scss */
 .help__wrapper-bg {
   top: 0;
   left: 0;
 }
 
-/* line 33, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 28, src/scss/_components/home/_help.scss */
+  .help__wrapper-bg img {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: -webkit-calc(100% - 100px);
+    height: calc(100% - 100px);
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+
+/* line 41, src/scss/_components/home/_help.scss */
 .help__title {
   padding-bottom: 15px;
 }
 
-/* line 37, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 41, src/scss/_components/home/_help.scss */
+  .help__title {
+    text-align: center;
+  }
+}
+
+/* line 48, src/scss/_components/home/_help.scss */
 .help__text {
   padding-bottom: 43px;
   line-height: 1.5;
   font-size: 18px;
 }
 
-/* line 42, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 48, src/scss/_components/home/_help.scss */
+  .help__text {
+    text-align: center;
+  }
+}
+
+/* line 56, src/scss/_components/home/_help.scss */
 .help__text-wrapper {
   width: 100%;
   max-width: 460px;
 }
 
-/* line 48, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 56, src/scss/_components/home/_help.scss */
+  .help__text-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 66, src/scss/_components/home/_help.scss */
 .help .input-group {
   width: 100%;
   max-width: 445px;
   height: 45px;
 }
 
-/* line 53, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 66, src/scss/_components/home/_help.scss */
+  .help .input-group {
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* line 76, src/scss/_components/home/_help.scss */
 .help .input-group .form-control {
   z-index: 0;
   padding-right: 100px;
@@ -1773,7 +1808,7 @@ picture {
   letter-spacing: 0.1px;
 }
 
-/* line 70, src/scss/_components/home/_help.scss */
+/* line 93, src/scss/_components/home/_help.scss */
 .help .input-group .btn {
   z-index: 0;
   width: 75px;
@@ -1782,7 +1817,7 @@ picture {
           box-shadow: none;
 }
 
-/* line 76, src/scss/_components/home/_help.scss */
+/* line 99, src/scss/_components/home/_help.scss */
 .help .input-group .btn:hover, .help .input-group .btn:focus {
   background-color: #6772e5;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -1790,7 +1825,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 81, src/scss/_components/home/_help.scss */
+/* line 104, src/scss/_components/home/_help.scss */
 .help .input-group .btn:hover .icon-font, .help .input-group .btn:focus .icon-font {
   color: #ffffff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -1798,7 +1833,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 87, src/scss/_components/home/_help.scss */
+/* line 110, src/scss/_components/home/_help.scss */
 .help .input-group .btn .icon-font {
   color: #d7d8d8;
   font-size: 22px;
@@ -1807,14 +1842,21 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 95, src/scss/_components/home/_help.scss */
+/* line 118, src/scss/_components/home/_help.scss */
 .help .accordion {
   width: 100%;
   max-width: 570px;
   margin-left: auto;
 }
 
-/* line 100, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 1199px) {
+  /* line 118, src/scss/_components/home/_help.scss */
+  .help .accordion {
+    margin-right: auto;
+  }
+}
+
+/* line 126, src/scss/_components/home/_help.scss */
 .help .accordion .card {
   overflow: unset;
   margin-bottom: 15px;
@@ -1822,12 +1864,12 @@ picture {
   background-color: transparent;
 }
 
-/* line 106, src/scss/_components/home/_help.scss */
+/* line 132, src/scss/_components/home/_help.scss */
 .help .accordion .card:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 110, src/scss/_components/home/_help.scss */
+/* line 136, src/scss/_components/home/_help.scss */
 .help .accordion .card-header {
   overflow: hidden;
   height: 50px;
@@ -1839,7 +1881,7 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 118, src/scss/_components/home/_help.scss */
+/* line 144, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button {
   font-size: 16px;
   line-height: 1.5;
@@ -1849,12 +1891,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 124, src/scss/_components/home/_help.scss */
+/* line 150, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button:focus {
   text-decoration: none;
 }
 
-/* line 128, src/scss/_components/home/_help.scss */
+/* line 154, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button:hover {
   text-decoration: none;
   color: #6772e5;
@@ -1863,7 +1905,34 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 135, src/scss/_components/home/_help.scss */
+/* line 164, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button.is-active > div:nth-of-type(2) span:before {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* line 171, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button.is-active > div:nth-of-type(2) span:after {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(90deg);
+      -ms-transform: translateX(-50%) rotate(90deg);
+          transform: translateX(-50%) rotate(90deg);
+  width: 2px;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 185, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -1873,22 +1942,60 @@ picture {
   max-width: 100%;
 }
 
-/* line 140, src/scss/_components/home/_help.scss */
+/* line 190, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) {
   width: 45px;
 }
 
-/* line 145, src/scss/_components/home/_help.scss */
-.help .accordion .card-header button .icon-font {
-  color: #6772e5;
+/* line 193, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(2) span {
+  position: relative;
+  width: 14px;
+  height: 14px;
 }
 
-/* line 151, src/scss/_components/home/_help.scss */
+/* line 198, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(2) span:before, .help .accordion .card-header button > div:nth-of-type(2) span:after {
+  content: '';
+  position: absolute;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  background-color: #6772e5;
+}
+
+/* line 206, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(2) span:before {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+/* line 213, src/scss/_components/home/_help.scss */
+.help .accordion .card-header button > div:nth-of-type(2) span:after {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 227, src/scss/_components/home/_help.scss */
 .help .accordion .card-body {
   line-height: 1.5;
 }
 
-/* line 157, src/scss/_components/home/_help.scss */
+/* line 233, src/scss/_components/home/_help.scss */
 .help__contacts {
   width: 100%;
   max-width: 504px;
@@ -1898,7 +2005,7 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 165, src/scss/_components/home/_help.scss */
+/* line 241, src/scss/_components/home/_help.scss */
 .help__contacts-title {
   padding-bottom: 20px;
   font-size: 32px;
@@ -1906,7 +2013,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 173, src/scss/_components/home/_help.scss */
+/* line 249, src/scss/_components/home/_help.scss */
 .help__contacts .form-group label {
   padding-bottom: 5px;
   font-size: 12px;
@@ -1915,7 +2022,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 181, src/scss/_components/home/_help.scss */
+/* line 257, src/scss/_components/home/_help.scss */
 .help__contacts .form-group .form-control {
   height: 38px;
   border: none;
@@ -1964,13 +2071,13 @@ picture {
   color: #333333;
 }
 
-/* line 197, src/scss/_components/home/_help.scss */
+/* line 273, src/scss/_components/home/_help.scss */
 .help__contacts .form-group textarea {
   resize: none;
   min-height: 120px;
 }
 
-/* line 203, src/scss/_components/home/_help.scss */
+/* line 279, src/scss/_components/home/_help.scss */
 .help__contacts button {
   max-width: 110px;
   margin-left: auto;
