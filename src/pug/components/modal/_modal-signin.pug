@@ -1,0 +1,45 @@
+// MODAL sign in :: START
+
+#signinModal.modal.modal--signin.fade(tabindex='-1', role='dialog', aria-labelledby='SignIn', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		.modal-content.py-5
+			.modal-header.justify-content-center.pb-3
+				h5#SignIn.modal-title Sign In
+
+			.modal-body
+				.modal-body-cover
+
+					form.d-flex.flex-column
+						.form-group
+							label(for='modalEmail') Email
+							input#modalEmail.form-control(type='email', aria-describedby='emailHelp')
+							a#emailHelp.form-text.text-muted(href="") Resend email activation link
+						.form-group
+							label(for='modalPassword') Password
+							input#modalPassword.form-control(type='password', aria-describedby='passwordHelp')
+							a#passwordHelp.form-text.text-muted(href="") Forgot password?
+
+						.form-group.position-relative
+							.form-helper.position-absolute.d-flex.align-items-start
+								span!= "Wrong email/password"
+
+						button.btn.c-btn.c-btn--bg(type='submit') Sign in
+
+						p.modal__link.d-flex.align-items-center.justify-content-center!= "Don’t have an account?&nbsp;<a href='#'> Sign up</a>"
+
+					.modal__or
+						p
+							span!= "or"
+
+					.modal__btn-wrapper.d-flex.flex-column
+						a.btn.modal__btn.c-btn.c-btn--bg.modal__btn--facebook.d-flex.align-items-center.justify-content-start(href="#" class="" title="")
+							.d-flex.align-items-center.justify-content-center
+								i.icon-font.icon-facebook
+							span!= "Sign in with Facebook"
+						a.btn.modal__btn.c-btn.c-btn--bg.modal__btn--google.d-flex.align-items-center.justify-content-start(href="#" class="" title="")
+							.d-flex.align-items-center.justify-content-center
+								i.icon-font.icon-google-plus
+							span!= "Sign in with Google"
+
+
+// MODAL sign in :: END

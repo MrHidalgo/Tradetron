@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>google-plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-Ip:-Desktops---1140-" transform="translate(-614.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Sign-in-pop-up">
+                <g id="Sign-in-form" transform="translate(515.000000, 216.000000)">
+                    <g id="Sign-up-form" transform="translate(85.000000, 35.000000)">
+                        <g id="Sign-in-with-Google" transform="translate(0.000000, 482.000000)">
+                            <g id="google-plus" transform="translate(14.000000, 12.000000)">
+                                <path d="M7.5,6 L7.5,9 L11.7435,9 C11.124,10.746 9.456,12 7.5,12 C5.019,12 3,9.981 3,7.5 C3,5.019 5.019,3 7.5,3 C8.5755,3 9.6105,3.3855 10.4145,4.086 L12.3855,1.824 C11.0355,0.648 9.3015,0 7.5,0 C3.3645,0 0,3.3645 0,7.5 C0,11.6355 3.3645,15 7.5,15 C11.6355,15 15,11.6355 15,7.5 L15,6 L7.5,6 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

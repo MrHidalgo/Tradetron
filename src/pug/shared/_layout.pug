@@ -5,23 +5,25 @@ include ../utilities/_data
 doctype html
 html(lang="en")
 
-  head
-    include _head
+	head
+		include _head
 
-  body
+	body
 
-    block header
-      include ../components/_header
-
-
-    //- #barba-wrapper
-      .barba-container
-    block content
+		block header
+			include ../components/_header
 
 
-    block footer
-      include ../components/_footer
+		//- #barba-wrapper
+			.barba-container
+		block content
 
 
-  block script
-    include _script
+		block footer
+			include ../components/_footer
+
+		block modal
+
+
+	block script
+		include _script

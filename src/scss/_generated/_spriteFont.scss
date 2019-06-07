@@ -63,47 +63,50 @@
 	@if $filename == file {
 		$char: "\E00C";
 	}
-	@if $filename == graphene {
+	@if $filename == google-plus {
 		$char: "\E00D";
 	}
-	@if $filename == hand {
+	@if $filename == graphene {
 		$char: "\E00E";
 	}
-	@if $filename == id-card {
+	@if $filename == hand {
 		$char: "\E00F";
 	}
-	@if $filename == innovation {
+	@if $filename == id-card {
 		$char: "\E010";
 	}
-	@if $filename == layers {
+	@if $filename == innovation {
 		$char: "\E011";
 	}
-	@if $filename == line-chart {
+	@if $filename == layers {
 		$char: "\E012";
 	}
-	@if $filename == linkedin {
+	@if $filename == line-chart {
 		$char: "\E013";
 	}
-	@if $filename == plus {
+	@if $filename == linkedin {
 		$char: "\E014";
 	}
-	@if $filename == safebox {
+	@if $filename == plus {
 		$char: "\E015";
 	}
-	@if $filename == search {
+	@if $filename == safebox {
 		$char: "\E016";
 	}
-	@if $filename == settings {
+	@if $filename == search {
 		$char: "\E017";
 	}
-	@if $filename == signin {
+	@if $filename == settings {
 		$char: "\E018";
 	}
-	@if $filename == twitter {
+	@if $filename == signin {
 		$char: "\E019";
 	}
-	@if $filename == users {
+	@if $filename == twitter {
 		$char: "\E01A";
+	}
+	@if $filename == users {
+		$char: "\E01B";
 	}
 
 	@return $char;
@@ -166,6 +169,10 @@
 }
 .icon-file {
 	@include icon(file);
+
+}
+.icon-google-plus {
+	@include icon(google-plus);
 
 }
 .icon-graphene {

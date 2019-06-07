@@ -1,0 +1,173 @@
+// MODAL  :: START
+
+.modal {
+
+	&-header {
+		border-bottom: 0;
+	}
+
+	&-content {
+		border: none;
+		border-radius: 6px;
+		background-color: #ffffff;
+		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+	}
+
+	&-title {
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 0.8;
+		text-align: center;
+		color: #333333;
+	}
+
+	&__or {
+		position: relative;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		text-align: center;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: rgba(#333333, 0.2);
+		}
+
+		p {
+			z-index: 2;
+			position: relative;
+			display: inline-block;
+			background-color: #ffffff;
+			padding: 0 10px;
+			font-size: 12px;
+			letter-spacing: 0.1px;
+			text-align: center;
+			color: rgba(#333333, 0.6);
+
+			span {
+				position: relative;
+				top: -2px;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	&__btn {
+		&--facebook {
+			margin-bottom: 10px;
+			border-color: #425a97;
+			background-color: #425a97;
+		}
+		&--google {
+			border-color: #dc4e40;
+			background-color: #dc4e40;
+		}
+
+		> div {
+			width: 20px;
+		}
+
+		.icon-font {
+			margin-right: 10px;
+		}
+
+		span {
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: 0.4px;
+			color: #ffffff;
+		}
+
+		&-wrapper {}
+	}
+
+	&__link {
+		padding-top: 15px;
+		font-size: 12px;
+		letter-spacing: 0.1px;
+		text-align: center;
+		color: #333333;
+
+		a {
+			font-weight: 500;
+			color: #696eed;
+		}
+	}
+
+	form  {
+		.form-group {
+			&:last-of-type {
+				margin-bottom: 34px;
+			}
+
+			a {
+				display: block;
+				font-size: 12px;
+				letter-spacing: 0.1px;
+				color: rgba(#333333, 0.6);
+				@include transition(color);
+
+				&:hover {
+					color: #696eed;
+					@include transition(color);
+				}
+			}
+		}
+
+		.form-helper {
+			top: 0;
+			left: 0;
+			height: 34px;
+
+			span {
+				font-size: 14px;
+				letter-spacing: 0.1px;
+				color: #eb3b5a;
+			}
+		}
+
+		.form-control {
+			outline: none;
+			height: 40px;
+			border-radius: 6px;
+			border: solid 1px #e8eff3;
+			letter-spacing: 0.1px;
+			color: #333333;
+			@include inputPlaceholder {
+				letter-spacing: 0.1px;
+				color: #333333;
+			}
+
+			&:focus,
+			&.focus {
+				box-shadow: none;
+			}
+		}
+
+		label {
+			padding-bottom: 5px;
+			font-size: 12px;
+			font-weight: 500;
+			letter-spacing: 0.1px;
+		}
+	}
+
+	&--signin {
+		.modal {
+			&-body {
+				&-cover {
+					max-width: 240px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+		}
+	}
+}
+
+// MODAL  :: END

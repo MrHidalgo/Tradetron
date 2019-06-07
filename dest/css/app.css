@@ -7,7 +7,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-twitter:before, .icon-users:before {
+.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-twitter:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,134 +18,139 @@
   text-transform: none;
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
+/* line 116, src/scss/_generated/_spriteFont.scss */
 .icon-file:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 113, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
+}
+
+/* line 116, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -733,12 +738,17 @@ picture {
 }
 
 /* line 56, src/scss/_components/_header.scss */
+.header__btn--signin:focus {
+  color: #ffffff;
+}
+
+/* line 60, src/scss/_components/_header.scss */
 .header__btn--signin .icon-font {
   margin-right: 5px;
   font-size: 18px;
 }
 
-/* line 61, src/scss/_components/_header.scss */
+/* line 65, src/scss/_components/_header.scss */
 .header__btn--signin span {
   font-size: 15px;
   font-weight: 600;
@@ -746,7 +756,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 74, src/scss/_components/_header.scss */
+/* line 78, src/scss/_components/_header.scss */
 .header__nav > a {
   white-space: nowrap;
   margin-left: 10px;
@@ -756,12 +766,12 @@ picture {
   color: #333333;
 }
 
-/* line 82, src/scss/_components/_header.scss */
+/* line 86, src/scss/_components/_header.scss */
 .header__nav > a:hover {
   color: #6772e5;
 }
 
-/* line 89, src/scss/_components/_header.scss */
+/* line 93, src/scss/_components/_header.scss */
 .header__nav .dropdown.show .btn {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -769,7 +779,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 95, src/scss/_components/_header.scss */
+/* line 99, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle {
   font-size: 15px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -777,30 +787,30 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 99, src/scss/_components/_header.scss */
+/* line 103, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:after {
   display: none;
 }
 
-/* line 103, src/scss/_components/_header.scss */
+/* line 107, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:hover {
   color: #6772e5;
 }
 
-/* line 107, src/scss/_components/_header.scss */
+/* line 111, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:focus, .header__nav .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 113, src/scss/_components/_header.scss */
+/* line 117, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 119, src/scss/_components/_header.scss */
+/* line 123, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu {
   left: auto !important;
   right: 0;
@@ -813,7 +823,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 129, src/scss/_components/_header.scss */
+/* line 133, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -828,7 +838,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 140, src/scss/_components/_header.scss */
+/* line 144, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -839,7 +849,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 149, src/scss/_components/_header.scss */
+/* line 153, src/scss/_components/_header.scss */
 .header__nav .dropdown-item {
   min-height: 20px;
   padding: 0 25px;
@@ -847,12 +857,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 155, src/scss/_components/_header.scss */
+/* line 159, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 158, src/scss/_components/_header.scss */
+/* line 162, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover .icon-font,
 .header__nav .dropdown-item:hover span {
   color: #6772e5;
@@ -861,12 +871,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 166, src/scss/_components/_header.scss */
+/* line 170, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 169, src/scss/_components/_header.scss */
+/* line 173, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -876,7 +886,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 176, src/scss/_components/_header.scss */
+/* line 180, src/scss/_components/_header.scss */
 .header__nav .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -886,7 +896,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 183, src/scss/_components/_header.scss */
+/* line 187, src/scss/_components/_header.scss */
 .header__nav .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -998,6 +1008,218 @@ picture {
 .footer__subscribe .input-group button .icon-font {
   color: #ffffff;
   font-size: 20px;
+}
+
+/* line 5, src/scss/_components/_modal.scss */
+.modal-header {
+  border-bottom: 0;
+}
+
+/* line 9, src/scss/_components/_modal.scss */
+.modal-content {
+  border: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+}
+
+/* line 16, src/scss/_components/_modal.scss */
+.modal-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.8;
+  text-align: center;
+  color: #333333;
+}
+
+/* line 24, src/scss/_components/_modal.scss */
+.modal__or {
+  position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* line 30, src/scss/_components/_modal.scss */
+.modal__or:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(51, 51, 51, 0.2);
+}
+
+/* line 41, src/scss/_components/_modal.scss */
+.modal__or p {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0 10px;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+/* line 52, src/scss/_components/_modal.scss */
+.modal__or p span {
+  position: relative;
+  top: -2px;
+  vertical-align: middle;
+}
+
+/* line 61, src/scss/_components/_modal.scss */
+.modal__btn--facebook {
+  margin-bottom: 10px;
+  border-color: #425a97;
+  background-color: #425a97;
+}
+
+/* line 66, src/scss/_components/_modal.scss */
+.modal__btn--google {
+  border-color: #dc4e40;
+  background-color: #dc4e40;
+}
+
+/* line 71, src/scss/_components/_modal.scss */
+.modal__btn > div {
+  width: 20px;
+}
+
+/* line 75, src/scss/_components/_modal.scss */
+.modal__btn .icon-font {
+  margin-right: 10px;
+}
+
+/* line 79, src/scss/_components/_modal.scss */
+.modal__btn span {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+/* line 89, src/scss/_components/_modal.scss */
+.modal__link {
+  padding-top: 15px;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #333333;
+}
+
+/* line 96, src/scss/_components/_modal.scss */
+.modal__link a {
+  font-weight: 500;
+  color: #696eed;
+}
+
+/* line 104, src/scss/_components/_modal.scss */
+.modal form .form-group:last-of-type {
+  margin-bottom: 34px;
+}
+
+/* line 108, src/scss/_components/_modal.scss */
+.modal form .form-group a {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 0.1px;
+  color: rgba(51, 51, 51, 0.6);
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 115, src/scss/_components/_modal.scss */
+.modal form .form-group a:hover {
+  color: #696eed;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 122, src/scss/_components/_modal.scss */
+.modal form .form-helper {
+  top: 0;
+  left: 0;
+  height: 34px;
+}
+
+/* line 127, src/scss/_components/_modal.scss */
+.modal form .form-helper span {
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: #eb3b5a;
+}
+
+/* line 134, src/scss/_components/_modal.scss */
+.modal form .form-control {
+  outline: none;
+  height: 40px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: solid 1px #e8eff3;
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 88, src/scss/_utilities/_mixin.scss */
+.modal form .form-control.placeholder {
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 89, src/scss/_utilities/_mixin.scss */
+.modal form .form-control:-moz-placeholder {
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 90, src/scss/_utilities/_mixin.scss */
+.modal form .form-control::-moz-placeholder {
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 91, src/scss/_utilities/_mixin.scss */
+.modal form .form-control:-ms-input-placeholder {
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 92, src/scss/_utilities/_mixin.scss */
+.modal form .form-control::-webkit-input-placeholder {
+  letter-spacing: 0.1px;
+  color: #333333;
+}
+
+/* line 146, src/scss/_components/_modal.scss */
+.modal form .form-control:focus, .modal form .form-control.focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 152, src/scss/_components/_modal.scss */
+.modal form label {
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+}
+
+/* line 163, src/scss/_components/_modal.scss */
+.modal--signin .modal-body-cover {
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* line 3, src/scss/_components/home/_main.scss */

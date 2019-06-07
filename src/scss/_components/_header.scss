@@ -53,6 +53,10 @@
 			max-width: 125px;
 			margin-left: 21px;
 
+			&:focus {
+				color: #ffffff;
+			}
+
 			.icon-font {
 				margin-right: 5px;
 				font-size: 18px;

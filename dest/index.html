@@ -89,7 +89,7 @@
               </div>
             </div>
             <div class="col-3">
-              <div class="header__btn-wrapper d-flex align-items-center justify-content-end"><a class="header__btn header__btn--signup btn" href="#" title=""><span>Sign up</span></a><a class="header__btn header__btn--signin btn c-btn c-btn--bg" href="#" title=""><i class="icon-font icon-signin"></i><span>Sign in</span></a></div>
+              <div class="header__btn-wrapper d-flex align-items-center justify-content-end"><a class="header__btn header__btn--signup btn" href="#" title=""><span>Sign up</span></a><a class="header__btn header__btn--signin btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#signinModal"><i class="icon-font icon-signin"></i><span>Sign in</span></a></div>
             </div>
           </div>
         </div>
@@ -742,6 +742,42 @@
       </div>
     </footer>
     <!-- FOOTER :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--signin fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="SignIn" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content py-5">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="SignIn">Sign In</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <form class="d-flex flex-column">
+                <div class="form-group">
+                  <label for="modalEmail">Email</label>
+                  <input class="form-control" id="modalEmail" type="email" aria-describedby="emailHelp"><a class="form-text text-muted" id="emailHelp" href="">Resend email activation link</a>
+                </div>
+                <div class="form-group">
+                  <label for="modalPassword">Password</label>
+                  <input class="form-control" id="modalPassword" type="password" aria-describedby="passwordHelp"><a class="form-text text-muted" id="passwordHelp" href="">Forgot password?</a>
+                </div>
+                <div class="form-group position-relative">
+                  <div class="form-helper position-absolute d-flex align-items-start"><span>Wrong email/password</span></div>
+                </div>
+                <button class="btn c-btn c-btn--bg" type="submit">Sign in</button>
+                <p class="modal__link d-flex align-items-center justify-content-center">Don’t have an account?&nbsp;<a href='#'> Sign up</a></p>
+              </form>
+              <div class="modal__or">
+                <p><span>or</span></p>
+              </div>
+              <div class="modal__btn-wrapper d-flex flex-column"><a class="btn modal__btn c-btn c-btn--bg modal__btn--facebook d-flex align-items-center justify-content-start" href="#" title="">
+                  <div class="d-flex align-items-center justify-content-center"><i class="icon-font icon-facebook"></i></div><span>Sign in with Facebook</span></a><a class="btn modal__btn c-btn c-btn--bg modal__btn--google d-flex align-items-center justify-content-start" href="#" title="">
+                  <div class="d-flex align-items-center justify-content-center"><i class="icon-font icon-google-plus"></i></div><span>Sign in with Google</span></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>
