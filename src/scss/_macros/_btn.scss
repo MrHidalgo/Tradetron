@@ -46,9 +46,12 @@ $btn-color--border: rgba(#000, 1);
 
   &--bg {
     background-color: $bth-background-color;
+		@include transition(background-color, color, border-color);
 
 		&:hover {
-			color: #ffffff;
+			color: $bth-background-color;
+			background-color: transparent;
+			@include transition(border-color, background-color, color);
 		}
   }
 }

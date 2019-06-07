@@ -72,10 +72,14 @@ var initSwiper = function initSwiper() {
 		loop: true,
 		watchOverflow: true,
 		normalizeSlideIndex: true,
-		grabCursor: true,
+		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
-		speed: 750,
+		speed: 4000,
+		autoplay: {
+			delay: 0,
+			disableOnInteraction: false
+		},
 		slidesPerView: 6,
 		spaceBetween: 50,
 		centeredSlides: true,

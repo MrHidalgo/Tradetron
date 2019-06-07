@@ -58,14 +58,38 @@
 	}
 
 	&__btn {
+		&:focus {
+			box-shadow: none;
+		}
+
 		&--facebook {
 			margin-bottom: 10px;
 			border-color: #425a97;
 			background-color: #425a97;
+
+			&:hover,
+			&:focus {
+				background-color: transparent;
+
+				.icon-font,
+				span {
+					color: #425a97;
+				}
+			}
 		}
 		&--google {
 			border-color: #dc4e40;
 			background-color: #dc4e40;
+
+			&:hover,
+			&:focus {
+				background-color: transparent;
+
+				.icon-font,
+				span {
+					color: #dc4e40;
+				}
+			}
 		}
 
 		> div {

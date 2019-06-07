@@ -61,10 +61,22 @@
 				box-shadow: none;
 				border-color: #6772e5;
 				background-color: #6772e5;
+				@include transition(background-color);
+
+				&:hover {
+					background-color: transparent;
+					@include transition(background-color);
+
+					.icon-font {
+						color: #6772e5;
+						@include transition(color);
+					}
+				}
 
 				.icon-font {
 					color: #ffffff;
 					font-size: 20px;
+					@include transition(color);
 				}
 			}
 		}
