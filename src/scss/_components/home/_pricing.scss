@@ -3,6 +3,19 @@
 .pricing {
 	padding-top: 74px;
 	padding-bottom: 104px;
+	@include adaptive(1023) {
+		padding-bottom: 74px;
+	}
+
+	.container {
+		&--carousel {
+			@include adaptive(1023) {
+				max-width: 100%;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
 
 	&__bg {
 		top: 0;
@@ -28,7 +41,21 @@
 	}
 
 	&__header {
+		@include adaptive(1023) {
+			display: flex;
+			align-items: flex-start;
 
+			> div {
+				&:nth-of-type(1) {
+					margin-right: 60px;
+				}
+
+				.pricing__title,
+				.pricing__desc {
+					text-align: left !important;
+				}
+			}
+		}
 	}
 
 	&__plan {
@@ -96,10 +123,19 @@
 	}
 
 	&__carousel {
+		@include adaptive(1023) {
+			margin-left: auto;
+		}
+
 		&-btn {
 			opacity: 0;
 			visibility: hidden;
 			position: absolute;
+			@include adaptive(1023) {
+				opacity: 1;
+				visibility: visible;
+				position: static;
+			}
 
 			a {
 				width: 65px;
@@ -127,7 +163,7 @@
 				}
 			}
 
-			&--next {
+			&--prev {
 				.icon-font {
 					transform: rotate(-180deg);
 				}

@@ -33,6 +33,25 @@ const initSwiper = () => {
     }
   });
 
+	const mySwiperMain = new Swiper('.swiper-container-main', {
+		loop: false,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: true,
+		freeMode: false,
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true
+		},
+		speed: 750,
+		slidesPerView: 1,
+		spaceBetween: 0,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
   const mySwiperFeaturesOpt = {
 		loop: false,
 		watchOverflow: true,
@@ -64,38 +83,19 @@ const initSwiper = () => {
 	};
 	let mySwiperFeatures = undefined;
 
-  const mySwiperMain = new Swiper('.swiper-container-main', {
-    loop: false,
-    watchOverflow: true,
-    normalizeSlideIndex: true,
-    grabCursor: true,
-    freeMode: false,
-    effect: 'fade',
-		fadeEffect: {
-			crossFade: true
-		},
-		speed: 750,
-    slidesPerView: 1,
-    spaceBetween: 0,
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-		},
-  });
-
   const mySwiperPricingOpt = {
 		loop: false,
 		watchOverflow: true,
 		normalizeSlideIndex: true,
-		grabCursor: true,
-		freeMode: false,
+		grabCursor: false,
+		freeMode: true,
 		effect: 'slide',
 		speed: 750,
-		slidesPerView: 4,
-		spaceBetween: 14,
+		slidesPerView: 2,
+		spaceBetween: 13,
 		navigation: {
-			nextEl: 'pricing__carousel-btn--next',
-			prevEl: 'pricing__carousel-btn--prev',
+			nextEl: '.pricing__carousel-btn--next',
+			prevEl: '.pricing__carousel-btn--prev',
 		},
 		pagination: {
 			el: '.swiper-pagination',
@@ -109,13 +109,16 @@ const initSwiper = () => {
 		$('.features__carousel').attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
 		// FEATURES SLIDER OFFSET :: END
 
-		if($(window).width() < 768) {
+		if($(window).width() < 1024) {
+			$('.pricing__carousel').attr('style', 'max-width:calc(100% - ' + $('.pricing__header').offset().left + 'px);');
 			mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
 		} else {
 			if(mySwiperPricing !== undefined) {
 				mySwiperPricing.destroy(true, true);
 				mySwiperPricing = undefined;
 			}
+
+			$('.pricing__carousel').attr('style', '');
 		}
 	});
 	$(window).on('load', () => {

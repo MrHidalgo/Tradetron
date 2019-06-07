@@ -464,11 +464,19 @@ picture {
 
 /* line 80, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing {
+  overflow: unset;
   padding-top: 45px;
   padding-bottom: 50px;
 }
 
-/* line 85, src/scss/_shared/_swiper.scss */
+@media screen and (max-width: 1023px) {
+  /* line 80, src/scss/_shared/_swiper.scss */
+  .swiper-container-pricing {
+    overflow: hidden;
+  }
+}
+
+/* line 89, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -484,7 +492,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 91, src/scss/_shared/_swiper.scss */
+/* line 98, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-slide {
   width: 100%;
   max-width: -webkit-calc((100% - (14px * 3)) / 4);
@@ -498,13 +506,21 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
 }
 
-/* line 101, src/scss/_shared/_swiper.scss */
+@media screen and (max-width: 1023px) {
+  /* line 98, src/scss/_shared/_swiper.scss */
+  .swiper-container-pricing .swiper-slide {
+    width: 275px !important;
+    max-width: 275px !important;
+  }
+}
+
+/* line 112, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-pagination {
   opacity: 0;
   visibility: hidden;
 }
 
-/* line 110, src/scss/_shared/_swiper.scss */
+/* line 121, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -513,13 +529,13 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 114, src/scss/_shared/_swiper.scss */
+  /* line 125, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
 }
 
-/* line 123, src/scss/_shared/_swiper.scss */
+/* line 134, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -536,7 +552,7 @@ picture {
   bottom: 0;
 }
 
-/* line 129, src/scss/_shared/_swiper.scss */
+/* line 140, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet {
   opacity: 1;
   width: 12px;
@@ -551,7 +567,7 @@ picture {
   transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
-/* line 138, src/scss/_shared/_swiper.scss */
+/* line 149, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet-active {
   width: 30px;
   -webkit-border-radius: 7px;
@@ -1422,24 +1438,40 @@ picture {
   padding-bottom: 104px;
 }
 
-/* line 7, src/scss/_components/home/_pricing.scss */
+@media screen and (max-width: 1023px) {
+  /* line 3, src/scss/_components/home/_pricing.scss */
+  .pricing {
+    padding-bottom: 74px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 11, src/scss/_components/home/_pricing.scss */
+  .pricing .container--carousel {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* line 20, src/scss/_components/home/_pricing.scss */
 .pricing__bg {
   top: 0;
   left: 0;
   padding-top: 175px;
 }
 
-/* line 13, src/scss/_components/home/_pricing.scss */
+/* line 26, src/scss/_components/home/_pricing.scss */
 .pricing__wrapper {
   z-index: 2;
 }
 
-/* line 17, src/scss/_components/home/_pricing.scss */
+/* line 30, src/scss/_components/home/_pricing.scss */
 .pricing__title {
   padding-bottom: 11px;
 }
 
-/* line 21, src/scss/_components/home/_pricing.scss */
+/* line 34, src/scss/_components/home/_pricing.scss */
 .pricing__desc {
   width: 100%;
   max-width: 730px;
@@ -1449,7 +1481,30 @@ picture {
   letter-spacing: 0.1px;
 }
 
-/* line 34, src/scss/_components/home/_pricing.scss */
+@media screen and (max-width: 1023px) {
+  /* line 43, src/scss/_components/home/_pricing.scss */
+  .pricing__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  /* line 49, src/scss/_components/home/_pricing.scss */
+  .pricing__header > div:nth-of-type(1) {
+    margin-right: 60px;
+  }
+  /* line 53, src/scss/_components/home/_pricing.scss */
+  .pricing__header > div .pricing__title,
+  .pricing__header > div .pricing__desc {
+    text-align: left !important;
+  }
+}
+
+/* line 61, src/scss/_components/home/_pricing.scss */
 .pricing__plan {
   padding-bottom: 15px;
   font-size: 16px;
@@ -1457,7 +1512,7 @@ picture {
   line-height: 1.5;
 }
 
-/* line 41, src/scss/_components/home/_pricing.scss */
+/* line 68, src/scss/_components/home/_pricing.scss */
 .pricing__price {
   padding-bottom: 30px;
   font-size: 55px;
@@ -1465,29 +1520,29 @@ picture {
   line-height: 1;
 }
 
-/* line 47, src/scss/_components/home/_pricing.scss */
+/* line 74, src/scss/_components/home/_pricing.scss */
 .pricing__price span {
   position: relative;
   top: -7px;
   font-size: 20px;
 }
 
-/* line 54, src/scss/_components/home/_pricing.scss */
+/* line 81, src/scss/_components/home/_pricing.scss */
 .pricing__list {
   padding-bottom: 30px;
 }
 
-/* line 57, src/scss/_components/home/_pricing.scss */
+/* line 84, src/scss/_components/home/_pricing.scss */
 .pricing__list-item {
   padding-bottom: 10px;
 }
 
-/* line 61, src/scss/_components/home/_pricing.scss */
+/* line 88, src/scss/_components/home/_pricing.scss */
 .pricing__list-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 64, src/scss/_components/home/_pricing.scss */
+/* line 91, src/scss/_components/home/_pricing.scss */
 .pricing__list-item > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -1497,7 +1552,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 71, src/scss/_components/home/_pricing.scss */
+/* line 98, src/scss/_components/home/_pricing.scss */
 .pricing__list-item p,
 .pricing__list-item span {
   font-size: 14px;
@@ -1505,37 +1560,53 @@ picture {
   line-height: 1.71;
 }
 
-/* line 78, src/scss/_components/home/_pricing.scss */
+/* line 105, src/scss/_components/home/_pricing.scss */
 .pricing__list-item span {
   opacity: 0.6;
 }
 
-/* line 82, src/scss/_components/home/_pricing.scss */
+/* line 109, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font {
   position: relative;
   top: 5px;
 }
 
-/* line 86, src/scss/_components/home/_pricing.scss */
+/* line 113, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font.icon-check {
   color: #22c993;
   font-size: 11px;
 }
 
-/* line 90, src/scss/_components/home/_pricing.scss */
+/* line 117, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font.icon-close {
   color: rgba(51, 51, 51, 0.6);
   font-size: 14px;
 }
 
-/* line 99, src/scss/_components/home/_pricing.scss */
+@media screen and (max-width: 1023px) {
+  /* line 125, src/scss/_components/home/_pricing.scss */
+  .pricing__carousel {
+    margin-left: auto;
+  }
+}
+
+/* line 130, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn {
   opacity: 0;
   visibility: hidden;
   position: absolute;
 }
 
-/* line 104, src/scss/_components/home/_pricing.scss */
+@media screen and (max-width: 1023px) {
+  /* line 130, src/scss/_components/home/_pricing.scss */
+  .pricing__carousel-btn {
+    opacity: 1;
+    visibility: visible;
+    position: static;
+  }
+}
+
+/* line 140, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a {
   width: 65px;
   height: 65px;
@@ -1553,7 +1624,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 114, src/scss/_components/home/_pricing.scss */
+/* line 150, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a.swiper-button-disabled {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -1565,19 +1636,19 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 119, src/scss/_components/home/_pricing.scss */
+/* line 155, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a.swiper-button-disabled .icon-font {
   color: #6772e5;
 }
 
-/* line 124, src/scss/_components/home/_pricing.scss */
+/* line 160, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a .icon-font {
   color: #fff;
   font-size: 26px;
 }
 
-/* line 131, src/scss/_components/home/_pricing.scss */
-.pricing__carousel-btn--next .icon-font {
+/* line 167, src/scss/_components/home/_pricing.scss */
+.pricing__carousel-btn--prev .icon-font {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
