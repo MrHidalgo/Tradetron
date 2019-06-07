@@ -45,7 +45,7 @@
                 <div class="header__nav">
                   <div class="dropdown">
                     <button class="btn dropdown-toggle d-flex align-items-center" id="dropdownMenuFutures" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Features</span><i class="icon-font icon-corner"></i></button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuFutures">
+                    <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownMenuFutures">
                       <div class="dropdown-menu-corner position-absolute"></div>
                       <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
                           <div><i class="icon-font icon-bar-chart"></i></div>
@@ -70,7 +70,7 @@
                 <div class="header__nav">
                   <div class="dropdown">
                     <button class="btn dropdown-toggle d-flex align-items-center" id="dropdownMenuUsecases" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Use cases</span><i class="icon-font icon-corner"></i></button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuUsecases">
+                    <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownMenuUsecases">
                       <div class="dropdown-menu-corner position-absolute"></div>
                       <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
                           <div><i class="icon-font icon-id-card"></i></div>
@@ -753,12 +753,12 @@
             <div class="modal-body-cover">
               <form class="d-flex flex-column">
                 <div class="form-group">
-                  <label for="modalEmail">Email</label>
-                  <input class="form-control" id="modalEmail" type="email" aria-describedby="emailHelp"><a class="form-text text-muted" id="emailHelp" href="">Resend email activation link</a>
+                  <label for="modalEmailSignIn">Email</label>
+                  <input class="form-control" id="modalEmailSignIn" type="email" aria-describedby="emailHelp"><a class="form-text text-muted" id="emailHelp" href="">Resend email activation link</a>
                 </div>
                 <div class="form-group">
-                  <label for="modalPassword">Password</label>
-                  <input class="form-control" id="modalPassword" type="password" aria-describedby="passwordHelp"><a class="form-text text-muted" id="passwordHelp" href="">Forgot password?</a>
+                  <label for="modalPasswordSignIn">Password</label>
+                  <input class="form-control" id="modalPasswordSignIn" type="password" aria-describedby="passwordHelp"><a class="form-text text-muted" id="passwordHelp" href="">Forgot password?</a>
                 </div>
                 <div class="form-group position-relative">
                   <div class="form-helper position-absolute d-flex align-items-start"><span>Wrong email/password</span></div>
@@ -789,40 +789,40 @@
             <div class="modal-body-cover">
               <form class="d-flex flex-column">
                 <div class="form-group">
-                  <label for="modalFullName">Full Name</label>
-                  <input class="form-control" id="modalFullName" type="text">
+                  <label for="modalFullNameSignUp">Full Name</label>
+                  <input class="form-control" id="modalFullNameSignUp" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="modalEmail">Email</label>
-                  <input class="form-control" id="modalEmail" type="email">
+                  <label for="modalEmailSignUp">Email</label>
+                  <input class="form-control" id="modalEmailSignUp" type="email">
                 </div>
                 <div class="form-group">
-                  <label for="modalPhone">Phone</label>
-                  <input class="form-control" id="modalPhone" type="text">
+                  <label for="modalPhoneSignUp">Phone</label>
+                  <input class="form-control" id="modalPhoneSignUp" type="text">
                 </div>
                 <div class="form-group">
-                  <label for="modalCountry">Country</label>
-                  <select class="form-control" id="modalCountry">
+                  <label for="modalCountrySignUp">Country</label>
+                  <select class="form-control" id="modalCountrySignUp">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="modalCity">City</label>
-                  <select class="form-control" id="modalCity">
+                  <label for="modalCitySignUp">City</label>
+                  <select class="form-control" id="modalCitySignUp">
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="modalPassword">Password</label>
-                  <input class="form-control" id="modalPassword" type="password">
+                  <label for="modalPasswordSignUp">Password</label>
+                  <input class="form-control" id="modalPasswordSignUp" type="password">
                 </div>
                 <div class="form-group form-check">
-                  <input class="form-check-input" id="modalAgree" type="checkbox">
-                  <label class="form-check-label w-100" for="modalAgree">I agree to the <a href='#'>terms of service</a></label>
+                  <input class="form-check-input" id="modalAgreeSignUp" type="checkbox">
+                  <label class="form-check-label w-100" for="modalAgreeSignUp">I agree to the <a href='#'>terms of service</a></label>
                 </div>
                 <button class="btn c-btn c-btn--bg" type="submit">Sign up</button>
                 <p class="modal__link d-flex align-items-center justify-content-center">Already have an account? &nbsp;<a href='#'> Sign in</a></p>

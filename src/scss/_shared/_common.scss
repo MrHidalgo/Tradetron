@@ -7,5 +7,25 @@
 }
 // copyright :: end
 
+// animation
+.animate {
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+@keyframes slideIn {
+	0% {
+		transform: translateY(0);
+		opacity: 0;
+	}
+	100% {
+		transform:translateY(36px);
+		opacity: 1;
+	}
+}
+.slideIn {
+	animation-duration: 0.3s;
+	animation-name: slideIn;
+}
+// animation :: end
 
 // COMMON :: END
