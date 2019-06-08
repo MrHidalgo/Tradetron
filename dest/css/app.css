@@ -1,5 +1,161 @@
 @charset "UTF-8";
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap;");
+/* line 3, src/scss/_vendor/hamburger/_base.scss */
+.hamburger {
+  padding: 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-transition-property: opacity, -webkit-filter;
+  transition-property: opacity, -webkit-filter;
+  -o-transition-property: opacity, filter;
+  transition-property: opacity, filter;
+  transition-property: opacity, filter, -webkit-filter;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+}
+
+/* line 21, src/scss/_vendor/hamburger/_base.scss */
+.hamburger:hover {
+  opacity: 0.85;
+}
+
+/* line 31, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-box {
+  width: 30px;
+  height: 19px;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 38, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -1.5px;
+}
+
+/* line 43, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  position: absolute;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.15s;
+       -o-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+/* line 56, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-inner::before, .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+/* line 62, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-inner::before {
+  top: -8px;
+}
+
+/* line 66, src/scss/_vendor/hamburger/_base.scss */
+.hamburger-inner::after {
+  bottom: -8px;
+}
+
+/*
+   * Squeeze
+   */
+/* line 6, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze .hamburger-inner {
+  -webkit-transition-duration: 0.075s;
+       -o-transition-duration: 0.075s;
+          transition-duration: 0.075s;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+       -o-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/* line 10, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze .hamburger-inner::before {
+  -webkit-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  -o-transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+  transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+}
+
+/* line 15, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze .hamburger-inner::after {
+  -webkit-transition: bottom 0.075s 0.12s ease, -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.075s 0.12s ease, -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -o-transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/* line 22, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze.is-active .hamburger-inner {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition-delay: 0.12s;
+       -o-transition-delay: 0.12s;
+          transition-delay: 0.12s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+       -o-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* line 27, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  -webkit-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  -o-transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+  transition: top 0.075s ease, opacity 0.075s 0.12s ease;
+}
+
+/* line 34, src/scss/_vendor/hamburger/types/_squeeze.scss */
+.hamburger--squeeze.is-active .hamburger-inner::after {
+  bottom: 0;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transition: bottom 0.075s ease, -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.075s ease, -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  -o-transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1), -webkit-transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
 @font-face {
   font-family: "iconFont";
   src: url("../fonts/iconFont.eot");
@@ -354,6 +510,24 @@ picture {
           animation-fill-mode: both;
 }
 
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes slideIn {
   0% {
     -webkit-transform: translateY(0);
@@ -380,7 +554,15 @@ picture {
   }
 }
 
-/* line 25, src/scss/_shared/_common.scss */
+/* line 33, src/scss/_shared/_common.scss */
+.fadeIn {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+/* line 37, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -736,7 +918,7 @@ picture {
 
 /* line 12, src/scss/_components/_header.scss */
 .header.header--fixed {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.975);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -763,19 +945,21 @@ picture {
 /* line 32, src/scss/_components/_header.scss */
 .header__btn {
   outline: none;
+  white-space: nowrap;
 }
 
-/* line 35, src/scss/_components/_header.scss */
+/* line 36, src/scss/_components/_header.scss */
 .header__btn:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #333;
 }
 
-/* line 40, src/scss/_components/_header.scss */
+/* line 41, src/scss/_components/_header.scss */
 .header__btn--signup {
   overflow: hidden;
   position: relative;
+  min-width: 65px;
   padding-left: 0;
   padding-right: 0;
   font-size: 15px;
@@ -783,12 +967,12 @@ picture {
   color: #333333;
 }
 
-/* line 49, src/scss/_components/_header.scss */
+/* line 51, src/scss/_components/_header.scss */
 .header__btn--signup:hover {
   color: #6772e5;
 }
 
-/* line 52, src/scss/_components/_header.scss */
+/* line 54, src/scss/_components/_header.scss */
 .header__btn--signup:hover:before {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
@@ -800,7 +984,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 58, src/scss/_components/_header.scss */
+/* line 60, src/scss/_components/_header.scss */
 .header__btn--signup:before {
   content: '';
   position: absolute;
@@ -819,13 +1003,13 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 71, src/scss/_components/_header.scss */
+/* line 73, src/scss/_components/_header.scss */
 .header__btn--signin {
   max-width: 125px;
   margin-left: 21px;
 }
 
-/* line 76, src/scss/_components/_header.scss */
+/* line 78, src/scss/_components/_header.scss */
 .header__btn--signin:hover .icon-font,
 .header__btn--signin:hover span {
   color: #6772e5;
@@ -834,7 +1018,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 83, src/scss/_components/_header.scss */
+/* line 85, src/scss/_components/_header.scss */
 .header__btn--signin .icon-font {
   color: #ffffff;
   margin-right: 5px;
@@ -844,7 +1028,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 90, src/scss/_components/_header.scss */
+/* line 92, src/scss/_components/_header.scss */
 .header__btn--signin span {
   font-size: 15px;
   font-weight: 600;
@@ -855,7 +1039,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 104, src/scss/_components/_header.scss */
+/* line 106, src/scss/_components/_header.scss */
 .header__nav > a {
   white-space: nowrap;
   margin-left: 10px;
@@ -865,12 +1049,12 @@ picture {
   color: #333333;
 }
 
-/* line 112, src/scss/_components/_header.scss */
+/* line 114, src/scss/_components/_header.scss */
 .header__nav > a:hover {
   color: #6772e5;
 }
 
-/* line 119, src/scss/_components/_header.scss */
+/* line 121, src/scss/_components/_header.scss */
 .header__nav .dropdown.show .btn {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -878,7 +1062,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 125, src/scss/_components/_header.scss */
+/* line 127, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle {
   font-size: 15px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -886,30 +1070,30 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 129, src/scss/_components/_header.scss */
+/* line 131, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:after {
   display: none;
 }
 
-/* line 133, src/scss/_components/_header.scss */
+/* line 135, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:hover {
   color: #6772e5;
 }
 
-/* line 137, src/scss/_components/_header.scss */
+/* line 139, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:focus, .header__nav .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 143, src/scss/_components/_header.scss */
+/* line 145, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 149, src/scss/_components/_header.scss */
+/* line 151, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu {
   left: auto !important;
   right: 0;
@@ -922,7 +1106,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 159, src/scss/_components/_header.scss */
+/* line 161, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -937,7 +1121,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 170, src/scss/_components/_header.scss */
+/* line 172, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -948,7 +1132,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 179, src/scss/_components/_header.scss */
+/* line 181, src/scss/_components/_header.scss */
 .header__nav .dropdown-item {
   min-height: 20px;
   padding: 0 25px;
@@ -956,12 +1140,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 185, src/scss/_components/_header.scss */
+/* line 187, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 188, src/scss/_components/_header.scss */
+/* line 190, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover .icon-font,
 .header__nav .dropdown-item:hover span {
   color: #6772e5;
@@ -970,12 +1154,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 196, src/scss/_components/_header.scss */
+/* line 198, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 199, src/scss/_components/_header.scss */
+/* line 201, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -985,7 +1169,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 206, src/scss/_components/_header.scss */
+/* line 208, src/scss/_components/_header.scss */
 .header__nav .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -995,12 +1179,93 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 213, src/scss/_components/_header.scss */
+/* line 215, src/scss/_components/_header.scss */
 .header__nav .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+}
+
+/* line 225, src/scss/_components/_header.scss */
+.header .hamburger {
+  position: relative;
+}
+
+/* line 228, src/scss/_components/_header.scss */
+.header .hamburger.is-active {
+  z-index: 999;
+}
+
+/* line 233, src/scss/_components/_header.scss */
+.header__menu {
+  display: none;
+  z-index: 998;
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  min-height: 444px;
+  padding-left: 18px;
+  padding-right: 29px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 15px 1px rgba(17, 30, 79, 0.1);
+          box-shadow: 0 3px 15px 1px rgba(17, 30, 79, 0.1);
+}
+
+/* line 247, src/scss/_components/_header.scss */
+.header__menu.is-open {
+  display: block;
+}
+
+/* line 251, src/scss/_components/_header.scss */
+.header__menu-body {
+  min-height: -webkit-calc(444px - 90px);
+  min-height: calc(444px - 90px);
+  padding: 20px 0 29px 0;
+}
+
+/* line 257, src/scss/_components/_header.scss */
+.header__menu-col {
+  min-width: 270px;
+}
+
+/* line 261, src/scss/_components/_header.scss */
+.header__menu-footer {
+  min-height: 90px;
+  border-top: 2px solid #d8d9d8;
+}
+
+/* line 267, src/scss/_components/_header.scss */
+.header__menu .header__nav .dropdown-menu {
+  position: static;
+  margin: 0;
+}
+
+/* line 271, src/scss/_components/_header.scss */
+.header__menu .header__nav .dropdown-menu-wrapper {
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+/* line 278, src/scss/_components/_header.scss */
+.header__menu .header__nav .dropdown-toggle {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* line 282, src/scss/_components/_header.scss */
+.header__menu .header__nav .dropdown-toggle:hover {
+  color: #333333;
+}
+
+/* line 287, src/scss/_components/_header.scss */
+.header__menu .header__nav .dropdown-item {
+  padding-left: 0;
 }
 
 /* line 5, src/scss/_components/_footer.scss */
@@ -1291,7 +1556,7 @@ picture {
 
 /* line 139, src/scss/_components/_modal.scss */
 .modal form .form-group > a:hover {
-  color: #696eed;
+  color: #696eed !important;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
@@ -1371,7 +1636,12 @@ picture {
   color: #696eed;
 }
 
-/* line 192, src/scss/_components/_modal.scss */
+/* line 191, src/scss/_components/_modal.scss */
+.modal--signin .modal-dialog, .modal--signup .modal-dialog {
+  max-width: 411px;
+}
+
+/* line 195, src/scss/_components/_modal.scss */
 .modal--signin .modal-body-cover, .modal--signup .modal-body-cover {
   max-width: 240px;
   margin-left: auto;
@@ -1381,7 +1651,7 @@ picture {
 /* line 3, src/scss/_components/home/_main.scss */
 .main {
   padding-top: 188px;
-  padding-bottom: 230px;
+  padding-bottom: 200px;
 }
 
 @media screen and (max-width: 1199px) {

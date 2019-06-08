@@ -10,7 +10,7 @@
 	@include transition(background-color);
 
 	&.header--fixed {
-		background-color: #ffffff;
+		background-color: rgba(#ffffff, 0.975);
 		box-shadow: 0 2px 5px 0 rgba(#000, 0.05);
 		@include transition(background-color);
 
@@ -31,6 +31,7 @@
 
 	&__btn {
 		outline: none;
+		white-space: nowrap;
 
 		&:focus {
 			box-shadow: none;
@@ -40,6 +41,7 @@
 		&--signup {
 			overflow: hidden;
 			position: relative;
+			min-width: 65px;
 			padding-left: 0;
 			padding-right: 0;
 			font-size: 15px;
@@ -218,6 +220,74 @@
 		}
 
 		&-wrapper {}
+	}
+
+	.hamburger {
+		position: relative;
+
+		&.is-active {
+			z-index: 999;
+		}
+	}
+
+	&__menu {
+		display: none;
+		z-index: 998;
+		position: absolute;
+		top: -5px;
+		left: 0;
+		width: 100%;
+		min-height: 444px;
+		padding-left: 18px;
+		padding-right: 29px;
+		border-radius: 6px;
+		background-color: #ffffff;
+		box-shadow: 0 3px 15px 1px rgba(17, 30, 79, 0.1);
+
+		&.is-open {
+			display: block;
+		}
+
+		&-body {
+			min-height: calc(444px - 90px);
+			padding: 20px 0 29px 0;
+		}
+
+		&-row {}
+		&-col {
+			min-width: 270px;
+		}
+
+		&-footer {
+			min-height: 90px;
+			border-top: 2px solid #d8d9d8;
+		}
+
+		.header__nav {
+			.dropdown-menu {
+				position: static;
+				margin: 0;
+
+				&-wrapper {
+					padding: 0;
+					box-shadow: none;
+					background-color: transparent;
+				}
+			}
+
+			.dropdown-toggle {
+				cursor: default;
+				pointer-events: none;
+
+				&:hover {
+					color: #333333;
+				}
+			}
+
+			.dropdown-item {
+				padding-left: 0;
+			}
+		}
 	}
 }
 

@@ -137,7 +137,7 @@
 				@include transition(color);
 
 				&:hover {
-					color: #696eed;
+					color: #696eed !important;
 					@include transition(color);
 				}
 			}
@@ -188,6 +188,9 @@
 	&--signin,
 	&--signup {
 		.modal {
+			&-dialog {
+				max-width: 411px;
+			}
 			&-body {
 				&-cover {
 					max-width: 240px;

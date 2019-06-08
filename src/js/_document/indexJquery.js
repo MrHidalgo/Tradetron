@@ -40,6 +40,7 @@ $(document).ready((ev) => {
 
     // lib
 		initSwiper();
+		initHamburger();
 		// ==========================================
 
     // callback

@@ -12,6 +12,14 @@
 	animation-duration: 1s;
 	animation-fill-mode: both;
 }
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
 @keyframes slideIn {
 	0% {
 		transform: translateY(0);
@@ -21,6 +29,10 @@
 		transform:translateY(36px);
 		opacity: 1;
 	}
+}
+.fadeIn {
+	animation-duration: 0.5s;
+	animation-name: fadeIn;
 }
 .slideIn {
 	animation-duration: 0.3s;
