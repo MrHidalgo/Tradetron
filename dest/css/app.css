@@ -2309,35 +2309,49 @@ picture {
   padding-top: 117px;
 }
 
-/* line 8, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 575px) {
+  /* line 3, src/scss/_components/home/_help.scss */
+  .help {
+    padding-top: 75px;
+  }
+}
+
+/* line 11, src/scss/_components/home/_help.scss */
 .help__bg {
   top: 0;
   left: 0;
 }
 
-/* line 13, src/scss/_components/home/_help.scss */
+/* line 16, src/scss/_components/home/_help.scss */
 .help__wrapper {
   z-index: 2;
 }
 
-/* line 16, src/scss/_components/home/_help.scss */
+/* line 19, src/scss/_components/home/_help.scss */
 .help__wrapper-0 {
   padding-bottom: 154px;
 }
 
-/* line 20, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 575px) {
+  /* line 19, src/scss/_components/home/_help.scss */
+  .help__wrapper-0 {
+    padding-bottom: 100px;
+  }
+}
+
+/* line 26, src/scss/_components/home/_help.scss */
 .help__wrapper-1 {
   padding-bottom: 100px;
 }
 
-/* line 24, src/scss/_components/home/_help.scss */
+/* line 30, src/scss/_components/home/_help.scss */
 .help__wrapper-bg {
   top: 0;
   left: 0;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 28, src/scss/_components/home/_help.scss */
+  /* line 34, src/scss/_components/home/_help.scss */
   .help__wrapper-bg img {
     position: absolute;
     left: 0;
@@ -2351,19 +2365,19 @@ picture {
   }
 }
 
-/* line 41, src/scss/_components/home/_help.scss */
+/* line 47, src/scss/_components/home/_help.scss */
 .help__title {
   padding-bottom: 15px;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 41, src/scss/_components/home/_help.scss */
+  /* line 47, src/scss/_components/home/_help.scss */
   .help__title {
     text-align: center;
   }
 }
 
-/* line 48, src/scss/_components/home/_help.scss */
+/* line 54, src/scss/_components/home/_help.scss */
 .help__text {
   padding-bottom: 43px;
   line-height: 1.5;
@@ -2371,27 +2385,27 @@ picture {
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 48, src/scss/_components/home/_help.scss */
+  /* line 54, src/scss/_components/home/_help.scss */
   .help__text {
     text-align: center;
   }
 }
 
-/* line 56, src/scss/_components/home/_help.scss */
+/* line 62, src/scss/_components/home/_help.scss */
 .help__text-wrapper {
   width: 100%;
   max-width: 460px;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 56, src/scss/_components/home/_help.scss */
+  /* line 62, src/scss/_components/home/_help.scss */
   .help__text-wrapper {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 66, src/scss/_components/home/_help.scss */
+/* line 72, src/scss/_components/home/_help.scss */
 .help .input-group {
   width: 100%;
   max-width: 445px;
@@ -2399,7 +2413,7 @@ picture {
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 66, src/scss/_components/home/_help.scss */
+  /* line 72, src/scss/_components/home/_help.scss */
   .help .input-group {
     max-width: 460px;
     margin-left: auto;
@@ -2407,7 +2421,7 @@ picture {
   }
 }
 
-/* line 76, src/scss/_components/home/_help.scss */
+/* line 82, src/scss/_components/home/_help.scss */
 .help .input-group .form-control {
   z-index: 0;
   padding-right: 100px;
@@ -2457,7 +2471,7 @@ picture {
   letter-spacing: 0.1px;
 }
 
-/* line 93, src/scss/_components/home/_help.scss */
+/* line 99, src/scss/_components/home/_help.scss */
 .help .input-group .btn {
   z-index: 0;
   width: 75px;
@@ -2466,7 +2480,7 @@ picture {
           box-shadow: none;
 }
 
-/* line 99, src/scss/_components/home/_help.scss */
+/* line 105, src/scss/_components/home/_help.scss */
 .help .input-group .btn:hover, .help .input-group .btn:focus {
   background-color: #6772e5;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -2474,7 +2488,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 104, src/scss/_components/home/_help.scss */
+/* line 110, src/scss/_components/home/_help.scss */
 .help .input-group .btn:hover .icon-font, .help .input-group .btn:focus .icon-font {
   color: #ffffff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2482,7 +2496,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 110, src/scss/_components/home/_help.scss */
+/* line 116, src/scss/_components/home/_help.scss */
 .help .input-group .btn .icon-font {
   color: #d7d8d8;
   font-size: 22px;
@@ -2491,7 +2505,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 118, src/scss/_components/home/_help.scss */
+/* line 124, src/scss/_components/home/_help.scss */
 .help .accordion {
   width: 100%;
   max-width: 570px;
@@ -2499,13 +2513,13 @@ picture {
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 118, src/scss/_components/home/_help.scss */
+  /* line 124, src/scss/_components/home/_help.scss */
   .help .accordion {
     margin-right: auto;
   }
 }
 
-/* line 126, src/scss/_components/home/_help.scss */
+/* line 132, src/scss/_components/home/_help.scss */
 .help .accordion .card {
   overflow: unset;
   margin-bottom: 15px;
@@ -2513,15 +2527,15 @@ picture {
   background-color: transparent;
 }
 
-/* line 132, src/scss/_components/home/_help.scss */
+/* line 138, src/scss/_components/home/_help.scss */
 .help .accordion .card:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 136, src/scss/_components/home/_help.scss */
+/* line 142, src/scss/_components/home/_help.scss */
 .help .accordion .card-header {
   overflow: hidden;
-  height: 50px;
+  min-height: 50px;
   border: none;
   -webkit-border-radius: 6px !important;
           border-radius: 6px !important;
@@ -2530,7 +2544,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 144, src/scss/_components/home/_help.scss */
+@media screen and (max-width: 575px) {
+  /* line 142, src/scss/_components/home/_help.scss */
+  .help .accordion .card-header {
+    min-height: 70px;
+  }
+}
+
+/* line 153, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button {
   font-size: 16px;
   line-height: 1.5;
@@ -2540,12 +2561,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 150, src/scss/_components/home/_help.scss */
+/* line 159, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button:focus {
   text-decoration: none;
 }
 
-/* line 154, src/scss/_components/home/_help.scss */
+/* line 163, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button:hover {
   text-decoration: none;
   color: #6772e5;
@@ -2554,7 +2575,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 164, src/scss/_components/home/_help.scss */
+/* line 173, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button.is-active > div:nth-of-type(2) span:before {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2565,7 +2586,7 @@ picture {
   height: 2px;
 }
 
-/* line 171, src/scss/_components/home/_help.scss */
+/* line 180, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button.is-active > div:nth-of-type(2) span:after {
   top: 0;
   left: 50%;
@@ -2581,7 +2602,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 185, src/scss/_components/home/_help.scss */
+/* line 194, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -2591,19 +2612,19 @@ picture {
   max-width: 100%;
 }
 
-/* line 190, src/scss/_components/home/_help.scss */
+/* line 199, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) {
   width: 45px;
 }
 
-/* line 193, src/scss/_components/home/_help.scss */
+/* line 202, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) span {
   position: relative;
   width: 14px;
   height: 14px;
 }
 
-/* line 198, src/scss/_components/home/_help.scss */
+/* line 207, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) span:before, .help .accordion .card-header button > div:nth-of-type(2) span:after {
   content: '';
   position: absolute;
@@ -2612,7 +2633,7 @@ picture {
   background-color: #6772e5;
 }
 
-/* line 206, src/scss/_components/home/_help.scss */
+/* line 215, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) span:before {
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2623,7 +2644,7 @@ picture {
   height: 2px;
 }
 
-/* line 213, src/scss/_components/home/_help.scss */
+/* line 222, src/scss/_components/home/_help.scss */
 .help .accordion .card-header button > div:nth-of-type(2) span:after {
   top: 0;
   left: 50%;
@@ -2639,12 +2660,12 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 227, src/scss/_components/home/_help.scss */
+/* line 236, src/scss/_components/home/_help.scss */
 .help .accordion .card-body {
   line-height: 1.5;
 }
 
-/* line 233, src/scss/_components/home/_help.scss */
+/* line 242, src/scss/_components/home/_help.scss */
 .help__contacts {
   width: 100%;
   max-width: 504px;
@@ -2654,7 +2675,7 @@ picture {
   padding-bottom: 50px;
 }
 
-/* line 241, src/scss/_components/home/_help.scss */
+/* line 250, src/scss/_components/home/_help.scss */
 .help__contacts-title {
   padding-bottom: 20px;
   font-size: 32px;
@@ -2662,7 +2683,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 249, src/scss/_components/home/_help.scss */
+/* line 258, src/scss/_components/home/_help.scss */
 .help__contacts .form-group label {
   padding-bottom: 5px;
   font-size: 12px;
@@ -2671,7 +2692,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 257, src/scss/_components/home/_help.scss */
+/* line 266, src/scss/_components/home/_help.scss */
 .help__contacts .form-group .form-control {
   height: 38px;
   border: none;
@@ -2720,20 +2741,20 @@ picture {
   color: #333333;
 }
 
-/* line 273, src/scss/_components/home/_help.scss */
+/* line 282, src/scss/_components/home/_help.scss */
 .help__contacts .form-group textarea {
   resize: none;
   min-height: 120px;
 }
 
-/* line 279, src/scss/_components/home/_help.scss */
+/* line 288, src/scss/_components/home/_help.scss */
 .help__contacts button {
   max-width: 110px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 284, src/scss/_components/home/_help.scss */
+/* line 293, src/scss/_components/home/_help.scss */
 .help__contacts button:hover {
   border-color: #fff;
   color: #ffffff;

@@ -4,6 +4,9 @@
 	overflow: hidden;
 	position: relative;
 	padding-top: 117px;
+	@include adaptive(575) {
+		padding-top: 75px;
+	}
 
 	&__bg {
 		top: 0;
@@ -15,6 +18,9 @@
 
 		&-0 {
 			padding-bottom: 154px;
+			@include adaptive(575) {
+				padding-bottom: 100px;
+			}
 		}
 
 		&-1 {
@@ -135,11 +141,14 @@
 
 			&-header {
 				overflow: hidden;
-				height: 50px;
+				min-height: 50px;
 				border: none;
 				border-radius: 6px !important;
 				box-shadow: 0 2px 20px 0 rgba(17, 30, 79, 0.08);
 				background-color: #ffffff;
+				@include adaptive(575) {
+					min-height: 70px;
+				}
 
 				button {
 					font-size: 16px;
