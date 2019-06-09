@@ -153,9 +153,14 @@ var initSwiper = function initSwiper() {
 		speed: 750,
 		slidesPerView: 5,
 		spaceBetween: 20,
+		centeredSlides: false,
 		navigation: {
 			nextEl: '.features__carousel-btn--next',
 			prevEl: '.features__carousel-btn--prev'
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
 		},
 		breakpoints: {
 			1365: {
@@ -164,11 +169,12 @@ var initSwiper = function initSwiper() {
 			1023: {
 				slidesPerView: 3,
 				spaceBetween: 20
+			},
+			575: {
+				slidesPerView: 1,
+				spaceBetween: 20,
+				centeredSlides: true
 			}
-			// 575: {
-			//   slidesPerView: 2,
-			// 	spaceBetween: 20,
-			// },
 		}
 	};
 	var mySwiperFeatures = undefined;
@@ -178,7 +184,7 @@ var initSwiper = function initSwiper() {
 		watchOverflow: true,
 		normalizeSlideIndex: true,
 		grabCursor: false,
-		freeMode: true,
+		freeMode: false,
 		effect: 'slide',
 		speed: 750,
 		slidesPerView: 2,
@@ -190,6 +196,11 @@ var initSwiper = function initSwiper() {
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true
+		},
+		breakpoints: {
+			767: {
+				slidesPerView: 1
+			}
 		}
 	};
 	var mySwiperPricing = undefined;
@@ -209,6 +220,12 @@ var initSwiper = function initSwiper() {
 			}
 
 			$('.pricing__carousel').attr('style', '');
+		}
+
+		if ($(window).width() < 768) {
+			$('.pricing__carousel .swiper-pagination').attr('style', 'width:' + $(window).width() + 'px;');
+		} else {
+			$('.pricing__carousel .swiper-pagination').attr('style', '');
 		}
 	});
 	$(window).on('load', function () {

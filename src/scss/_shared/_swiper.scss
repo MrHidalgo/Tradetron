@@ -17,37 +17,29 @@
 	&-features {
 		padding-top: 50px;
 		padding-bottom: 30px;
+		@include adaptive(767) {
+			overflow: unset;
+			width: 80%;
+		}
 
 		.swiper {
 			&-slide {
 				cursor: pointer;
-				overflow: hidden;
-				height: 94px;
+				display: flex;
+				align-items: flex-end;
+				height: 114px;
 				border-radius: 6px;
-				box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
-				background-color: #ffffff;
-				@include transition(height, transform, box-shadow, background-color);
 
 				&:hover {
-					//background-color: transparent;
-					box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
-					@include transition(box-shadow, background-color);
-
-					&:before {
-						//opacity: 1;
-						//@include transition(opacity);
-					}
-
-					p,
-					.icon-font {
-						//color: #ffffff;
-						//@include transition(color);
+					.swiper-slide-cover {
+						box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
+						@include transition(box-shadow);
 					}
 				}
 
 				&:before {
-					opacity: 0;
 					content: '';
+					opacity: 0;
 					z-index: -1;
 					position: absolute;
 					top: 0;
@@ -58,11 +50,23 @@
 					@include transition(opacity);
 				}
 
+				&-cover {
+					width: 100%;
+					height: 94px;
+					border-radius: 6px;
+					box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+					background-color: #ffffff;
+					@include transition(height, box-shadow, background-color);
+				}
+
 				&-active {
-					transform: translateY(-20px);
-					height: 114px;
-					background-color: transparent;
-					@include transition(height, transform, background-color);
+					overflow: hidden;
+
+					.swiper-slide-cover {
+						height: 114px;
+						background-color: transparent;
+						@include transition(height, background-color);
+					}
 
 					&:before {
 						opacity: 1;
@@ -76,6 +80,17 @@
 					}
 				}
 			}
+
+			&-pagination {
+				opacity: 0;
+				visibility: hidden;
+				bottom: auto;
+				top: 100%;
+				@include adaptive(767) {
+					opacity: 1;
+					visibility: visible;
+				}
+			}
 		}
 	}
 
@@ -86,14 +101,19 @@
 		@include adaptive(1023) {
 			overflow: hidden;
 		}
+		@include adaptive(767) {
+			overflow: unset;
+			width: 275px;
+			margin-left: 0;
+		}
 
 		.swiper {
 			&-wrapper {
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
-				@include adaptive(1023) {
-
+				@include adaptive(767) {
+					width: 275px;
 				}
 			}
 
@@ -109,11 +129,20 @@
 					width: 275px !important;
 					max-width: 275px !important;
 				}
+				@include adaptive(767) {
+					width: auto;
+					max-width: unset;
+				}
 			}
 
 			&-pagination {
 				opacity: 0;
 				visibility: hidden;
+				@include adaptive(767) {
+					opacity: 1;
+					visibility: visible;
+					margin-left: -15px;
+				}
 			}
 		}
 	}

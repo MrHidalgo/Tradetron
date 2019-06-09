@@ -48,11 +48,17 @@
 			> div {
 				&:nth-of-type(1) {
 					margin-right: 60px;
+					@include adaptive(767) {
+						margin-right: 0;
+					}
 				}
 
 				.pricing__title,
 				.pricing__desc {
 					text-align: left !important;
+					@include adaptive(767) {
+						text-align: center !important;
+					}
 				}
 			}
 		}
@@ -136,6 +142,11 @@
 				opacity: 1;
 				visibility: visible;
 				position: static;
+			}
+			@include adaptive(767) {
+				opacity: 0;
+				visibility: hidden;
+				position: absolute;
 			}
 
 			a {

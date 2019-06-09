@@ -4,20 +4,50 @@
 	min-height: 600px;
 	background-image: url('../img/img-features-bg.png');
 	background-position: top left;
+	@include adaptive(767) {
+		min-height: 400px;
+		background-size: cover;
+		background-position: center;
+	}
 
 	&__wrapper {
 		padding-top: 168px;
+		@include adaptive(767) {
+			padding-top: 130px;
+			padding-bottom: 130px;
+		}
 	}
 
 	&__header {
 		padding-bottom: 18px;
+		@include adaptive(767) {
+			padding-bottom: 0;
+			text-align: center;
+		}
+	}
+
+	&__title {
+		@include adaptive(767) {
+			width: 100%;
+			text-align: center;
+		}
 	}
 
 	&__carousel {
 		width: 100%;
 		margin-left: auto;
+		@include adaptive(767) {
+			max-width: unset !important;
+			margin-left: auto;
+		}
 
 		&-btn {
+			@include adaptive(767) {
+				opacity: 0;
+				visibility: hidden;
+				position: absolute;
+			}
+
 			a {
 				width: 65px;
 				height: 65px;

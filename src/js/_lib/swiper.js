@@ -66,9 +66,14 @@ const initSwiper = () => {
 		speed: 750,
 		slidesPerView: 5,
 		spaceBetween: 20,
+		centeredSlides: false,
 		navigation: {
 			nextEl: '.features__carousel-btn--next',
 			prevEl: '.features__carousel-btn--prev',
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
 		},
 		breakpoints: {
 		  1365: {
@@ -78,10 +83,11 @@ const initSwiper = () => {
 		    slidesPerView: 3,
 				spaceBetween: 20,
 		  },
-		  // 575: {
-		  //   slidesPerView: 2,
-			// 	spaceBetween: 20,
-		  // },
+		  575: {
+		    slidesPerView: 1,
+				spaceBetween: 20,
+				centeredSlides: true
+		  },
 		}
 	};
 	let mySwiperFeatures = undefined;
@@ -91,7 +97,7 @@ const initSwiper = () => {
 		watchOverflow: true,
 		normalizeSlideIndex: true,
 		grabCursor: false,
-		freeMode: true,
+		freeMode: false,
 		effect: 'slide',
 		speed: 750,
 		slidesPerView: 2,
@@ -104,6 +110,11 @@ const initSwiper = () => {
 			el: '.swiper-pagination',
 			clickable: true,
 		},
+		breakpoints: {
+			767: {
+				slidesPerView: 1,
+			},
+		}
 	};
 	let mySwiperPricing = undefined;
 
@@ -122,6 +133,12 @@ const initSwiper = () => {
 			}
 
 			$('.pricing__carousel').attr('style', '');
+		}
+
+		if($(window).width() < 768) {
+			$('.pricing__carousel .swiper-pagination').attr('style', 'width:' + $(window).width() + 'px;');
+		} else {
+			$('.pricing__carousel .swiper-pagination').attr('style', '');
 		}
 	});
 	$(window).on('load', () => {
