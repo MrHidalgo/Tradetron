@@ -19,7 +19,7 @@ header#header.header
 					.header__menu.animate.fadeIn(mobile-block-js)
 						.header__menu-body.d-flex
 
-							.header__menu-row.d-flex
+							.header__menu-row.d-flex.w-100
 								.header__menu-col
 									.header__nav-wrapper
 										.header__nav
@@ -101,7 +101,7 @@ header#header.header
 															div
 																span!= "Brokers"
 
-									.header__nav-wrapper
+									.header__nav-wrapper.d-flex.d-md-none
 										.header__nav
 											a(href="#" class="" title="")!= "Pricing"
 										.header__nav
@@ -110,7 +110,6 @@ header#header.header
 											a(href="#" class="" title="")!= "Affiliates"
 										.header__nav
 											a(href="#" class="" title="")!= "Contact"
-
 
 						.header__menu-footer.d-flex.align-items-center.justify-content-between
 							div
