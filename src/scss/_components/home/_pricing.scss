@@ -1,6 +1,7 @@
 // SECTION pricing :: START
 
 .pricing {
+	overflow: hidden;
 	padding-top: 74px;
 	padding-bottom: 104px;
 	@include adaptive(1023) {
