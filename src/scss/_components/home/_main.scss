@@ -10,11 +10,58 @@
 	@include adaptive(1023) {
 		padding-bottom: 95px;
 	}
+	@include adaptive(767) {
+		overflow: unset;
+		padding-bottom: 0;
+	}
 
 	&__bg {
 		z-index: 0;
 		top: 0;
 		left: 0;
+
+		&-0 {
+			@include adaptive(767) {
+				overflow: hidden;
+			}
+		}
+
+		&-1 {
+			@include adaptive(767) {
+				position: relative !important;
+				padding-top: 100px;
+				padding-bottom: 100px;
+
+				.main__bg-row,
+				.main__bg-col {
+					position: static !important;
+					padding: 0;
+				}
+
+				.main__bg-col {
+					&-1 {
+						display: none;
+					}
+					&-2 {
+						width: 100%;
+						max-width: 100%;
+					}
+				}
+
+				.main__bg-img {
+					&-2 {
+						display: none !important;
+					}
+					&-3 {
+						top: 0;
+					}
+					&-4 {
+						position: relative !important;
+						display: block;
+					}
+				}
+			}
+		}
 
 		&-img {
 			&-1 {
@@ -24,7 +71,11 @@
 					left: -100px;
 				}
 				@include adaptive(1023) {
-					left: -175px;
+					left: -120px;
+				}
+				@include adaptive(575) {
+					top: -20px;
+					left: -150px;
 				}
 			}
 
@@ -36,6 +87,9 @@
 			&-3 {
 				top: 114px;
 				right: 0;
+			}
+			&-4 {
+				display: none;
 			}
 		}
 
