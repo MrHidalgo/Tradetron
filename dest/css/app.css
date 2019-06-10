@@ -1703,6 +1703,11 @@ picture {
 }
 
 /* line 132, src/scss/_components/_modal.scss */
+.modal form .form-group--error {
+  display: none;
+}
+
+/* line 136, src/scss/_components/_modal.scss */
 .modal form .form-group > a {
   display: block;
   font-size: 12px;
@@ -1713,7 +1718,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 139, src/scss/_components/_modal.scss */
+/* line 143, src/scss/_components/_modal.scss */
 .modal form .form-group > a:hover {
   color: #696eed !important;
   -webkit-transition: color 0.3s ease-in-out;
@@ -1721,21 +1726,21 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 146, src/scss/_components/_modal.scss */
+/* line 150, src/scss/_components/_modal.scss */
 .modal form .form-helper {
   top: 0;
   left: 0;
   height: 34px;
 }
 
-/* line 151, src/scss/_components/_modal.scss */
+/* line 155, src/scss/_components/_modal.scss */
 .modal form .form-helper span {
   font-size: 14px;
   letter-spacing: 0.1px;
   color: #eb3b5a;
 }
 
-/* line 158, src/scss/_components/_modal.scss */
+/* line 162, src/scss/_components/_modal.scss */
 .modal form .form-control {
   outline: none;
   height: 40px;
@@ -1776,13 +1781,13 @@ picture {
   color: #333333;
 }
 
-/* line 170, src/scss/_components/_modal.scss */
+/* line 174, src/scss/_components/_modal.scss */
 .modal form .form-control:focus, .modal form .form-control.focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 176, src/scss/_components/_modal.scss */
+/* line 180, src/scss/_components/_modal.scss */
 .modal form label {
   padding-bottom: 5px;
   font-size: 12px;
@@ -1790,17 +1795,17 @@ picture {
   letter-spacing: 0.1px;
 }
 
-/* line 182, src/scss/_components/_modal.scss */
+/* line 186, src/scss/_components/_modal.scss */
 .modal form label a {
   color: #696eed;
 }
 
-/* line 191, src/scss/_components/_modal.scss */
+/* line 195, src/scss/_components/_modal.scss */
 .modal--signin .modal-dialog, .modal--signup .modal-dialog {
   max-width: 411px;
 }
 
-/* line 195, src/scss/_components/_modal.scss */
+/* line 199, src/scss/_components/_modal.scss */
 .modal--signin .modal-body-cover, .modal--signup .modal-body-cover {
   max-width: 240px;
   margin-left: auto;

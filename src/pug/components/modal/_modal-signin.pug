@@ -19,13 +19,13 @@
 							input#modalPasswordSignIn.form-control(type='password', aria-describedby='passwordHelp')
 							a#passwordHelp.form-text.text-muted(href="") Forgot password?
 
-						.form-group.position-relative
+						.form-group.form-group--error.position-relative
 							.form-helper.position-absolute.d-flex.align-items-start
 								span!= "Wrong email/password"
 
 						button.btn.c-btn.c-btn--bg(type='submit') Sign in
 
-						p.modal__link.d-flex.align-items-center.justify-content-center!= "Don’t have an account?&nbsp;<a href='#'> Sign up</a>"
+						p.modal__link.d-flex.align-items-center.justify-content-center!= "Don’t have an account?&nbsp;<a href='#' data-dismiss='modal' data-toggle='modal' data-target='#signupModal'> Sign up</a>"
 
 					.modal__or
 						p
