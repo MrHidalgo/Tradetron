@@ -3334,12 +3334,12 @@ picture {
 /* line 39, src/scss/_components/features/_power.scss */
 .power__wrapper .col-12:nth-of-type(1) {
   position: relative;
-  top: -38px;
+  top: -28px;
 }
 
 /* line 43, src/scss/_components/features/_power.scss */
 .power__wrapper .col-12:nth-of-type(2) {
-  padding-top: 100px;
+  padding-top: 110px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -3433,6 +3433,60 @@ picture {
   font-size: 16px;
   line-height: 1.38;
   letter-spacing: 0.1px;
+}
+
+/* line 3, src/scss/_components/features/_trading.scss */
+.trading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+/* line 7, src/scss/_components/features/_trading.scss */
+.trading__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 7, src/scss/_components/features/_trading.scss */
+  .trading__bg {
+    position: static;
+  }
+}
+
+/* line 15, src/scss/_components/features/_trading.scss */
+.trading__bg > div {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 15, src/scss/_components/features/_trading.scss */
+  .trading__bg > div {
+    width: 100%;
+    padding-right: 15px;
+  }
+}
+
+/* line 24, src/scss/_components/features/_trading.scss */
+.trading__title {
+  padding-bottom: 12px;
+}
+
+/* line 28, src/scss/_components/features/_trading.scss */
+.trading__text {
+  padding-bottom: 10px;
+}
+
+/* line 32, src/scss/_components/features/_trading.scss */
+.trading__list {
+  padding-left: 1rem;
+}
+
+/* line 35, src/scss/_components/features/_trading.scss */
+.trading__list-item {
+  list-style-type: disc;
+  padding-bottom: 10px;
 }
 
 /* line 3, src/scss/_components/features/_builder.scss */

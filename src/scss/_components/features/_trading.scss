@@ -1,0 +1,42 @@
+// SECTION trading :: START
+
+.trading {
+	padding-top: 60px;
+	padding-bottom: 30px;
+
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		@include adaptive(767) {
+			position: static;
+		}
+
+		> div {
+			width: 50%;
+			@include adaptive(767) {
+				width: 100%;
+				padding-right: 15px;
+			}
+		}
+	}
+
+	&__title {
+		padding-bottom: 12px;
+	}
+
+	&__text {
+		padding-bottom: 10px;
+	}
+
+	&__list {
+		padding-left: 1rem;
+
+		&-item {
+			list-style-type: disc;
+			padding-bottom: 10px;
+		}
+	}
+}
+
+// SECTION trading :: END

@@ -38,10 +38,10 @@
 		.col-12 {
 			&:nth-of-type(1) {
 				position: relative;
-				top: -38px;
+				top: -28px;
 			}
 			&:nth-of-type(2) {
-				padding-top: 100px;
+				padding-top: 110px;
 				@include adaptive(1023) {
 					padding-top: 40px;
 				}
