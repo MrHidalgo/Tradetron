@@ -1,0 +1,60 @@
+// SECTION types :: START
+
+.types {
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 16px;
+
+	&__bg {
+		padding-top: 150px;
+	}
+
+	&__wrapper {}
+
+	&__title {
+		padding-bottom: 6px;
+	}
+
+	&__text {
+		max-width: 485px;
+		padding-bottom: 38px;
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 1.63;
+	}
+
+	.card {
+		min-height: 333px;
+		border: none;
+		border-radius: 6px;
+		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+		background-color: #ffffff;
+		@include adaptive(991) {
+			min-height: 237px;
+		}
+		@include adaptive(767) {
+			min-height: unset;
+		}
+
+		&__title {
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 1.33;
+		}
+
+		&__line {
+			width: 50px;
+			height: 4px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			background-color: #6772e5;
+		}
+
+		&__text {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+	}
+}
+
+// SECTION types :: END
