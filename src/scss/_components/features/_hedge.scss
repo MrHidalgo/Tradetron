@@ -1,0 +1,68 @@
+// SECTION hedge :: START
+
+.hedge {
+	padding-top: 50px;
+	padding-bottom: 12px;
+
+	&__title {
+		padding-bottom: 12px;
+	}
+
+	&__text {
+		width: 100%;
+		max-width: 790px;
+		padding-bottom: 51px;
+	}
+
+	&__list {
+		@include adaptive(991) {
+			width: 100%;
+			max-width: 435px;
+		}
+
+		&-left {
+			width: 41px;
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+
+		.icon-success {
+			color: #60c697;
+			font-size: 30px;
+		}
+
+		p {
+			padding-bottom: 5px;
+			font-size: 18px;
+			font-weight: bold;
+			line-height: 1.22;
+			letter-spacing: 0.1px;
+		}
+
+		span {
+			width: 100%;
+			max-width: 490px;
+			font-size: 16px;
+			line-height: 1.38;
+			letter-spacing: 0.1px;
+		}
+
+		ul {
+			li {
+				width: 100%;
+				max-width: 490px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				font-size: 16px;
+				line-height: 1.38;
+				letter-spacing: 0.1px;
+			}
+		}
+	}
+}
+
+// SECTION hedge :: END

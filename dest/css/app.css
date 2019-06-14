@@ -163,7 +163,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-twitter:before, .icon-users:before {
+.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-success:before, .icon-twitter:before, .icon-users:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,139 +174,144 @@
   text-transform: none;
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-file:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-google-plus:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-graphene:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-hand:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-id-card:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-innovation:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-layers:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-line-chart:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-linkedin:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-plus:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-safebox:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-search:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-settings:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
+/* line 119, src/scss/_generated/_spriteFont.scss */
 .icon-signin:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 119, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 116, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 119, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
+}
+
+/* line 119, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -3352,6 +3357,82 @@ picture {
 /* line 57, src/scss/_components/features/_power.scss */
 .power__text + .c-text {
   padding-top: 12px;
+}
+
+/* line 3, src/scss/_components/features/_hedge.scss */
+.hedge {
+  padding-top: 50px;
+  padding-bottom: 12px;
+}
+
+/* line 7, src/scss/_components/features/_hedge.scss */
+.hedge__title {
+  padding-bottom: 12px;
+}
+
+/* line 11, src/scss/_components/features/_hedge.scss */
+.hedge__text {
+  width: 100%;
+  max-width: 790px;
+  padding-bottom: 51px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 17, src/scss/_components/features/_hedge.scss */
+  .hedge__list {
+    width: 100%;
+    max-width: 435px;
+  }
+}
+
+/* line 23, src/scss/_components/features/_hedge.scss */
+.hedge__list-left {
+  width: 41px;
+}
+
+/* line 27, src/scss/_components/features/_hedge.scss */
+.hedge__list-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 33, src/scss/_components/features/_hedge.scss */
+.hedge__list .icon-success {
+  color: #60c697;
+  font-size: 30px;
+}
+
+/* line 38, src/scss/_components/features/_hedge.scss */
+.hedge__list p {
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: 0.1px;
+}
+
+/* line 46, src/scss/_components/features/_hedge.scss */
+.hedge__list span {
+  width: 100%;
+  max-width: 490px;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.1px;
+}
+
+/* line 55, src/scss/_components/features/_hedge.scss */
+.hedge__list ul li {
+  width: 100%;
+  max-width: 490px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.1px;
 }
 
 /* line 3, src/scss/_components/features/_builder.scss */

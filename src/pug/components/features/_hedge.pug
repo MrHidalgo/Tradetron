@@ -1,0 +1,51 @@
+// SECTION hedge :: START
+
+mixin hedgeListTemplates(titleVal, descVal)
+	.hedge__list.pb-5.d-flex.ml-auto.mr-auto
+		.hedge__list-left
+			i.icon-font.icon-success
+		.hedge__list-right
+			p!= titleVal
+			span.d-block!= descVal
+
+section#hedge.hedge
+	.hedge__wrapper
+
+		.container
+			.row
+				.col
+
+					h2.hedge__title.c-subtitle.text-center!= "Hedge Fund on a platter"
+					p.hedge__text.c-text.text-center.ml-auto.mr-auto!= "Here are some of the features that will be available to your strategy. Or as you might like to call it, your mini hedge fund."
+
+		.container
+			.row
+				.col-12.col-lg-6
+
+					+hedgeListTemplates('Minimum Multiple for subscriber', 'Your subscriber has full control in deciding position sizing using the minimum multiple feature.')
+
+					.hedge__list.pb-5.d-flex.ml-auto.mr-auto
+						.hedge__list-left
+							i.icon-font.icon-success
+						.hedge__list-right
+							p!= "Fees"
+							span.d-block!= "These can be calculated in a number of ways:"
+							ul
+								li!= "- Free for a certain number of days"
+							span.d-block!= "In paid mode:"
+							ul
+								li!= "- A fixed amount per month"
+								li!= "- A percentage on profits (settled as per your time period with a specified hurdle rate on a high watermark basis)"
+
+					+hedgeListTemplates('Display Positions to Non Subscribers', 'After a specified buffer period you have the option to display your historical trades publicly. This can offer non-subscribers valuable insight as to your trading style.')
+					+hedgeListTemplates('Recreate old positions for new subscriber', 'Imagine a subscriber is joining you midway. You can get him up to speed by recreating old positions of your strategy in his portfolio.')
+
+				.col-12.col-lg-6
+
+					+hedgeListTemplates('Allow others to duplicate your strategy', 'You also have the option to employ an open-source approach by keeping strategy rules that have worked for you open to others and increase your fan following.')
+					+hedgeListTemplates('Subscription with a private link only', 'You have the choice to make a strategy public but not have it listed on the marketplace. With this option only subscribers who have access to a private link will be able to view it.')
+					+hedgeListTemplates('Confirm each subscriber manually', 'You can decide who you want to confirm as a subscriber and who can view the strategies you have on display.')
+					+hedgeListTemplates('Hide Subscribers from others', 'If you want to keep your subscriber list private, that option is available to you.')
+
+
+// SECTION hedge :: END
