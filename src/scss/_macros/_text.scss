@@ -1,0 +1,12 @@
+// TEXT :: START
+
+.c-text {
+	font-size: 18px;
+	line-height: 1.56;
+	letter-spacing: 0.1px;
+	@include adaptive(767) {
+		font-size: 16px;
+	}
+}
+
+// TEXT :: END

@@ -37,7 +37,8 @@
 @import "_macros/social";
 @import "_macros/nav";
 @import "_macros/title";
-//@import "_macros/subtitle";
+@import "_macros/subtitle";
+@import "_macros/text";
 @import "_macros/btn";
 //@import "_macros/modal";
 //@import "_macros/form";
@@ -54,3 +55,5 @@
 @import "_components/home/pricing";
 @import "_components/home/partners";
 @import "_components/home/help";
+
+@import "_components/features/power";

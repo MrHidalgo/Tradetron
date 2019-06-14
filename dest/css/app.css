@@ -929,6 +929,33 @@ picture {
   }
 }
 
+/* line 3, src/scss/_macros/_subtitle.scss */
+.c-subtitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3, src/scss/_macros/_subtitle.scss */
+  .c-subtitle {
+    font-size: 25px;
+  }
+}
+
+/* line 3, src/scss/_macros/_text.scss */
+.c-text {
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 3, src/scss/_macros/_text.scss */
+  .c-text {
+    font-size: 16px;
+  }
+}
+
 /* line 24, src/scss/_macros/_btn.scss */
 .c-btn {
   outline: none;
@@ -3249,6 +3276,81 @@ picture {
 .help__contacts button:hover {
   border-color: #fff;
   color: #ffffff;
+}
+
+/* line 3, src/scss/_components/features/_power.scss */
+.power {
+  overflow: hidden;
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+/* line 9, src/scss/_components/features/_power.scss */
+.power__bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 13, src/scss/_components/features/_power.scss */
+.power__bg-img {
+  height: 110px;
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+/* line 18, src/scss/_components/features/_power.scss */
+.power__bg-img--top {
+  top: 0;
+  left: 0;
+  background-image: url("../img/img-features-bg-top.png");
+}
+
+/* line 24, src/scss/_components/features/_power.scss */
+.power__bg-img--bottom {
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/img-features-bg-bottom.png");
+}
+
+/* line 32, src/scss/_components/features/_power.scss */
+.power__wrapper {
+  background-color: #f5f9fe;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 32, src/scss/_components/features/_power.scss */
+  .power__wrapper {
+    padding-bottom: 40px;
+  }
+}
+
+/* line 39, src/scss/_components/features/_power.scss */
+.power__wrapper .col-12:nth-of-type(1) {
+  position: relative;
+  top: -38px;
+}
+
+/* line 43, src/scss/_components/features/_power.scss */
+.power__wrapper .col-12:nth-of-type(2) {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 43, src/scss/_components/features/_power.scss */
+  .power__wrapper .col-12:nth-of-type(2) {
+    padding-top: 40px;
+  }
+}
+
+/* line 52, src/scss/_components/features/_power.scss */
+.power__subtitle {
+  padding-bottom: 12px;
+}
+
+/* line 57, src/scss/_components/features/_power.scss */
+.power__text + .c-text {
+  padding-top: 12px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
