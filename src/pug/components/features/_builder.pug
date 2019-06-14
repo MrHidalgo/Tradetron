@@ -1,0 +1,73 @@
+// SECTION builder :: START
+
+section#builder.builder
+
+	.builder__bg.position-absolute.w-100.h-100
+		.builder__bg-img.builder__bg-img--top.position-absolute.w-100
+		.builder__bg-img.builder__bg-img--bottom.position-absolute.w-100
+
+	.builder__wrapper.builder__wrapper-0
+		.container
+			.row
+				.col
+
+					h2.builder__subtitle.c-subtitle!= "Position Builder"
+					p.builder__text.builder__text-1.c-text!= "So most readymade algos which allow you to trade options give <br>you the facility to select the strike, expiry and quantity which is fixed. We go beyond that.. <br>way beyond -we allow you to add a custom formula which you can build using our powerful keywords and it will eventually translate into whats required by you at runtime."
+
+	.builder__wrapper.builder__wrapper-1
+		.container
+			.row
+				.col
+					p.builder__desc-title.c-text!= "Example"
+					p.builder__desc.c-text!= "Imagine a scenario where you want to make an algo where you short the current weeks straddle and buy the next week straddle. With our Position Builder it’s very simple."
+
+					ul.builder__list
+						li.builder__list-item
+							p.builder__list-text.c-text!= "Don’t choose a fixed expiry which you will need to keep updating every week. Simply select it as a formula it in the expiry drop down."
+						li.builder__list-item
+							p.builder__list-text.c-text!= "For Strike select a 0.20 delta strike for both calls and puts to make a strangle."
+						li.builder__list-item
+							p.builder__list-text.c-text!= "If you want to have the strikes 1 SD away from a spot based on the current volatility or you want to have a 5% buffer from the current spot price simply key in the formula: Spot - 5% for Puts and Spot + 5% for calls."
+						li.builder__list-item
+							p.builder__list-text.c-text!= "Your strangle strategy is ready and good to go."
+						li.builder__list-item
+							p.builder__list-text.c-text!= "For quantity, select the actual quantity or the lots or then a formula to make the strategy deltaneutral."
+
+	.builder__wrapper.builder__wrapper-2
+		.container
+			.row
+				.col-12.col-md-6.col-lg-4.pb-5.pb-lg-0
+					p.builder__desc.c-text!= "Use a fixed strike or a <strong>formula for defining Strike using the following keywords</strong>"
+					ul.builder__list
+						li.builder__list-item
+							p.builder__list-text.c-text!= "CurrWeek"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "CurrMonth"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "NextWeek + 2"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "NextMonth"
+
+				.col-12.col-md-6.col-lg-4.pb-5.pb-lg-0
+					p.builder__desc.c-text!= "User a fixed quantity or a <strong>formula for defining quantity using the following keywords</strong>"
+					ul.builder__list
+						li.builder__list-item
+							p.builder__list-text.c-text!= "DeltaNeutral"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "GammaNeutral"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "VegaNeutral"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "ThetaNeutra"
+
+				.col-12.col-md-6.col-lg-4
+					p.builder__desc.c-text!= "User a fixed expiry or a <strong>formula for defining expiry using the following keywords</strong>"
+					ul.builder__list
+						li.builder__list-item
+							p.builder__list-text.c-text!= "ATM + / - x no of strikes"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "Spot + / - x %"
+						li.builder__list-item
+							p.builder__list-text.c-text!= "Delta x number"
+
+// SECTION builder :: END

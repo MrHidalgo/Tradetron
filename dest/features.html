@@ -222,6 +222,105 @@
         </div>
       </section>
       <!-- SECTION power :: END-->
+      <!-- SECTION builder :: START-->
+      <section class="builder" id="builder">
+        <div class="builder__bg position-absolute w-100 h-100">
+          <div class="builder__bg-img builder__bg-img--top position-absolute w-100"></div>
+          <div class="builder__bg-img builder__bg-img--bottom position-absolute w-100"></div>
+        </div>
+        <div class="builder__wrapper builder__wrapper-0">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2 class="builder__subtitle c-subtitle">Position Builder</h2>
+                <p class="builder__text builder__text-1 c-text">So most readymade algos which allow you to trade options give <br>you the facility to select the strike, expiry and quantity which is fixed. We go beyond that.. <br>way beyond -we allow you to add a custom formula which you can build using our powerful keywords and it will eventually translate into whats required by you at runtime.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="builder__wrapper builder__wrapper-1">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p class="builder__desc-title c-text">Example</p>
+                <p class="builder__desc c-text">Imagine a scenario where you want to make an algo where you short the current weeks straddle and buy the next week straddle. With our Position Builder it’s very simple.</p>
+                <ul class="builder__list">
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">Don’t choose a fixed expiry which you will need to keep updating every week. Simply select it as a formula it in the expiry drop down.</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">For Strike select a 0.20 delta strike for both calls and puts to make a strangle.</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">If you want to have the strikes 1 SD away from a spot based on the current volatility or you want to have a 5% buffer from the current spot price simply key in the formula: Spot - 5% for Puts and Spot + 5% for calls.</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">Your strangle strategy is ready and good to go.</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">For quantity, select the actual quantity or the lots or then a formula to make the strategy deltaneutral.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="builder__wrapper builder__wrapper-2">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 pb-5 pb-lg-0">
+                <p class="builder__desc c-text">Use a fixed strike or a <strong>formula for defining Strike using the following keywords</strong></p>
+                <ul class="builder__list">
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">CurrWeek</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">CurrMonth</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">NextWeek + 2</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">NextMonth</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 pb-5 pb-lg-0">
+                <p class="builder__desc c-text">User a fixed quantity or a <strong>formula for defining quantity using the following keywords</strong></p>
+                <ul class="builder__list">
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">DeltaNeutral</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">GammaNeutral</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">VegaNeutral</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">ThetaNeutra</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <p class="builder__desc c-text">User a fixed expiry or a <strong>formula for defining expiry using the following keywords</strong></p>
+                <ul class="builder__list">
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">ATM + / - x no of strikes</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">Spot + / - x %</p>
+                  </li>
+                  <li class="builder__list-item">
+                    <p class="builder__list-text c-text">Delta x number</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION builder :: END-->
     </div>
     <!-- FOOTER :: START-->
     <footer class="footer" id="footer">

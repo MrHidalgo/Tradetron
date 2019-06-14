@@ -947,6 +947,7 @@ picture {
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.1px;
+  color: rgba(51, 51, 51, 0.8);
 }
 
 @media screen and (max-width: 767px) {
@@ -3351,6 +3352,87 @@ picture {
 /* line 57, src/scss/_components/features/_power.scss */
 .power__text + .c-text {
   padding-top: 12px;
+}
+
+/* line 3, src/scss/_components/features/_builder.scss */
+.builder {
+  overflow: hidden;
+  position: relative;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+/* line 9, src/scss/_components/features/_builder.scss */
+.builder__bg {
+  top: 0;
+  left: 0;
+}
+
+/* line 13, src/scss/_components/features/_builder.scss */
+.builder__bg-img {
+  height: 110px;
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+/* line 18, src/scss/_components/features/_builder.scss */
+.builder__bg-img--top {
+  top: 0;
+  left: 0;
+  background-image: url("../img/img-features-bg-top.png");
+}
+
+/* line 24, src/scss/_components/features/_builder.scss */
+.builder__bg-img--bottom {
+  bottom: 0;
+  left: 0;
+  background-image: url("../img/img-features-bg-bottom.png");
+}
+
+/* line 32, src/scss/_components/features/_builder.scss */
+.builder__wrapper {
+  background-color: #f5f9fe;
+}
+
+/* line 35, src/scss/_components/features/_builder.scss */
+.builder__wrapper-0 {
+  padding-bottom: 28px;
+}
+
+/* line 39, src/scss/_components/features/_builder.scss */
+.builder__wrapper-1 {
+  padding-bottom: 50px;
+}
+
+/* line 44, src/scss/_components/features/_builder.scss */
+.builder__wrapper-2 .builder__list {
+  padding-top: 10px;
+}
+
+/* line 49, src/scss/_components/features/_builder.scss */
+.builder__wrapper .container {
+  position: relative;
+  top: -50px;
+}
+
+/* line 55, src/scss/_components/features/_builder.scss */
+.builder__subtitle {
+  padding-bottom: 12px;
+}
+
+/* line 61, src/scss/_components/features/_builder.scss */
+.builder__desc strong, .builder__desc-title {
+  font-weight: bold;
+}
+
+/* line 67, src/scss/_components/features/_builder.scss */
+.builder__list {
+  padding-left: 1rem;
+}
+
+/* line 70, src/scss/_components/features/_builder.scss */
+.builder__list-item {
+  list-style-type: disc;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
