@@ -3,4 +3,7 @@ ProjectTitle: Tradetron
 PageList:
 - file: index.html
   titleName: Home
-  ready: 55
+  ready: 90
+- file: features.html
+  titleName: Features
+  ready: 1

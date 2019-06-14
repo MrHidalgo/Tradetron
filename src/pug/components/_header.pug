@@ -24,7 +24,7 @@ header#header.header
 									.header__nav-wrapper
 										.header__nav
 											.dropdown
-												button.btn.dropdown-toggle.d-flex.pl-0(type='button')
+												button.btn.dropdown-toggle.d-flex.pl-0(type='button' class!= (pageClassName === 'p-features') ?'is-active':'')
 													span!= 'Features'
 												.dropdown-menu.d-block
 													.dropdown-menu-wrapper.d-flex.flex-column
@@ -135,7 +135,7 @@ header#header.header
 					.header__nav-wrapper.d-flex.align-items-center.justify-content-center
 						.header__nav
 							.dropdown
-								button#dropdownMenuFutures.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+								button#dropdownMenuFutures.btn.dropdown-toggle.d-flex.align-items-center(type='button', class!= (pageClassName === 'p-features') ?'is-active':'', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 									span!= 'Features'
 									i.icon-font.icon-corner
 								.dropdown-menu.animate.slideIn(aria-labelledby='dropdownMenuFutures')

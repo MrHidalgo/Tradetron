@@ -15,6 +15,108 @@
 		padding-bottom: 0;
 	}
 
+	&--features {
+		.main {
+			&__bg {
+				&-1 {
+					@include adaptive(1023) {
+						position: relative !important;
+						padding-top: 100px;
+						padding-bottom: 50px;
+
+						.main__bg-row,
+						.main__bg-col {
+							position: static !important;
+							padding: 0;
+						}
+
+						.main__bg-col {
+							&-1 {
+								display: none;
+							}
+							&-2 {
+								width: 100%;
+								max-width: 100%;
+								padding-left: 15px;
+								padding-right: 15px;
+							}
+						}
+
+						.main__bg-img {
+							&-2 {
+								display: none !important;
+							}
+							&-3 {
+								top: 0;
+								max-height: 100%;
+							}
+							&-4 {
+								position: relative !important;
+								display: block;
+								margin-left: auto;
+								margin-right: auto;
+							}
+						}
+					}
+				}
+				&-col {
+					&-1 {
+						@include adaptive(1365) {
+							width: 750px;
+						}
+						@include adaptive(1279) {
+							width: 575px;
+						}
+						@include adaptive(1023) {
+							width: 0;
+						}
+					}
+
+					&-2 {
+						@include adaptive(1365) {
+							max-width: calc(100% - 750px);
+						}
+						@include adaptive(1279) {
+							max-width: calc(100% - 575px);
+						}
+						@include adaptive(1023) {
+							max-width: 100%;
+						}
+					}
+				}
+			}
+
+			&__text-wrapper {
+				width: 100%;
+				max-width: 610px;
+				@include adaptive(1279) {
+					max-width: 495px;
+				}
+				@include adaptive(1023) {
+					max-width: 100%;
+				}
+			}
+
+			&__title {
+				padding-bottom: 48px;
+				@include adaptive(1023) {
+					padding-bottom: 21px;
+				}
+			}
+
+			&__subtitle {
+				font-size: 30px;
+				font-weight: bold;
+				line-height: 2.67;
+				letter-spacing: 0.5px;
+				@include adaptive(767) {
+					font-size: 25px;
+					letter-spacing: 0.2px;
+				}
+			}
+		}
+	}
+
 	&__bg {
 		z-index: 0;
 		top: 0;
@@ -139,6 +241,9 @@
 			font-size: 65px;
 		}
 		@include adaptive(1023) {
+			font-size: 50px;
+		}
+		@include adaptive(767) {
 			font-size: 40px;
 		}
 	}

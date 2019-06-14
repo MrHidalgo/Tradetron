@@ -207,27 +207,35 @@ var initSwiper = function initSwiper() {
 
 	$(window).on('load resize orientationchange', function () {
 		// FEATURES SLIDER OFFSET
-		$('.features__carousel').attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
+		var _featureCarousel = $('.features__carousel'),
+		    _pricingCarousel = $('.pricing__carousel');
+
+		if (_featureCarousel.length > 0) {
+			_featureCarousel.attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
+		}
 		// FEATURES SLIDER OFFSET :: END
 
-		if ($(window).width() < 1024) {
-			$('.pricing__carousel').attr('style', 'max-width:calc(100% - ' + $('.pricing__header').offset().left + 'px);');
-			mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
-		} else {
-			if (mySwiperPricing !== undefined) {
-				mySwiperPricing.destroy(true, true);
-				mySwiperPricing = undefined;
+		if (_pricingCarousel.length > 0) {
+			if ($(window).width() < 1024) {
+				$('.pricing__carousel').attr('style', 'max-width:calc(100% - ' + $('.pricing__header').offset().left + 'px);');
+				mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
+			} else {
+				if (mySwiperPricing !== undefined) {
+					mySwiperPricing.destroy(true, true);
+					mySwiperPricing = undefined;
+				}
+
+				$('.pricing__carousel').attr('style', '');
 			}
 
-			$('.pricing__carousel').attr('style', '');
-		}
-
-		if ($(window).width() < 768) {
-			$('.pricing__carousel .swiper-pagination').attr('style', 'width:' + $(window).width() + 'px;');
-		} else {
-			$('.pricing__carousel .swiper-pagination').attr('style', '');
+			if ($(window).width() < 768) {
+				$('.pricing__carousel .swiper-pagination').attr('style', 'width:' + $(window).width() + 'px;');
+			} else {
+				$('.pricing__carousel .swiper-pagination').attr('style', '');
+			}
 		}
 	});
+
 	$(window).on('load', function () {
 		mySwiperFeatures = new Swiper('.swiper-container-features', mySwiperFeaturesOpt);
 	});
