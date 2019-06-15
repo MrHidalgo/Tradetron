@@ -16,6 +16,14 @@
 	}
 
 	&--features {
+		padding-bottom: 140px;
+		@include adaptive(1023) {
+			padding-bottom: 95px;
+		}
+		@include adaptive(767) {
+			padding-bottom: 50px;
+		}
+
 		.main {
 			&__bg {
 				&-1 {
