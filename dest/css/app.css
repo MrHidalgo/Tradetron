@@ -3324,6 +3324,22 @@ picture {
   padding-top: 72px;
 }
 
+/* line 3, src/scss/_components/features/_strategy.scss */
+.strategy {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+/* line 7, src/scss/_components/features/_strategy.scss */
+.strategy__title {
+  padding-bottom: 12px;
+}
+
+/* line 11, src/scss/_components/features/_strategy.scss */
+.strategy__text {
+  padding-bottom: 50px;
+}
+
 /* line 3, src/scss/_components/features/_power.scss */
 .power {
   overflow: hidden;
