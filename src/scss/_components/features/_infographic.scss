@@ -1,0 +1,18 @@
+// SECTION infographic :: START
+
+.infographic {
+	&--user {
+		padding-bottom: 120px;
+
+
+		img {
+			position: relative;
+			left: 104px;
+			@include adaptive(991) {
+				left: 0;
+			}
+		}
+	}
+}
+
+// SECTION infographic :: END

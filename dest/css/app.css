@@ -3648,7 +3648,7 @@ picture {
 .types {
   position: relative;
   padding-top: 60px;
-  padding-bottom: 16px;
+  padding-bottom: 80px;
 }
 
 /* line 8, src/scss/_components/features/_types.scss */
@@ -3715,6 +3715,24 @@ picture {
 .types .card__text {
   font-size: 16px;
   line-height: 1.5;
+}
+
+/* line 4, src/scss/_components/features/_infographic.scss */
+.infographic--user {
+  padding-bottom: 120px;
+}
+
+/* line 8, src/scss/_components/features/_infographic.scss */
+.infographic--user img {
+  position: relative;
+  left: 104px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 8, src/scss/_components/features/_infographic.scss */
+  .infographic--user img {
+    left: 0;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */
