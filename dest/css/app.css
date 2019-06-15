@@ -3719,7 +3719,7 @@ picture {
 
 /* line 4, src/scss/_components/features/_infographic.scss */
 .infographic--user {
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 /* line 8, src/scss/_components/features/_infographic.scss */
@@ -3733,6 +3733,51 @@ picture {
   .infographic--user img {
     left: 0;
   }
+}
+
+/* line 3, src/scss/_components/features/_reports.scss */
+.reports {
+  padding-top: 60px;
+  padding-bottom: 78px;
+}
+
+/* line 7, src/scss/_components/features/_reports.scss */
+.reports__title {
+  padding-bottom: 12px;
+}
+
+/* line 11, src/scss/_components/features/_reports.scss */
+.reports__text {
+  padding-bottom: 40px;
+}
+
+/* line 16, src/scss/_components/features/_reports.scss */
+.reports__block-left {
+  width: 41px;
+}
+
+/* line 20, src/scss/_components/features/_reports.scss */
+.reports__block-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 26, src/scss/_components/features/_reports.scss */
+.reports__block .icon-success {
+  color: #60c697;
+  font-size: 30px;
+}
+
+/* line 31, src/scss/_components/features/_reports.scss */
+.reports__block p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.38;
+  letter-spacing: 0.1px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

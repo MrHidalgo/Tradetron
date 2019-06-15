@@ -1,0 +1,40 @@
+// SECTION reports :: START
+
+.reports {
+	padding-top: 60px;
+	padding-bottom: 78px;
+
+	&__title {
+		padding-bottom: 12px;
+	}
+
+	&__text {
+		padding-bottom: 40px;
+	}
+
+	&__block {
+		&-left {
+			width: 41px;
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+
+		.icon-success {
+			color: #60c697;
+			font-size: 30px;
+		}
+
+		p {
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 1.38;
+			letter-spacing: 0.1px;
+		}
+	}
+}
+
+// SECTION reports :: END
