@@ -3594,9 +3594,11 @@ picture {
   -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
   background-color: #ffffff;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  -o-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 992px) {
@@ -3617,6 +3619,17 @@ picture {
 }
 
 /* line 74, src/scss/_components/features/_disposal.scss */
+.disposal__card .card:hover {
+  -webkit-box-shadow: 0 0 10px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 0 10px 0 rgba(17, 30, 79, 0.1);
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 79, src/scss/_components/features/_disposal.scss */
 .disposal__card .card.swiper-slide-active {
   background-color: transparent;
   -webkit-transition: background-color 0.3s ease-in-out;
@@ -3624,7 +3637,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 78, src/scss/_components/features/_disposal.scss */
+/* line 83, src/scss/_components/features/_disposal.scss */
 .disposal__card .card.swiper-slide-active:before {
   opacity: 1;
   width: 100%;
@@ -3633,7 +3646,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 84, src/scss/_components/features/_disposal.scss */
+/* line 89, src/scss/_components/features/_disposal.scss */
 .disposal__card .card.swiper-slide-active .card-body {
   -webkit-transform: translateY(0) !important;
       -ms-transform: translateY(0) !important;
@@ -3645,7 +3658,7 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 89, src/scss/_components/features/_disposal.scss */
+/* line 94, src/scss/_components/features/_disposal.scss */
 .disposal__card .card.swiper-slide-active p,
 .disposal__card .card.swiper-slide-active .icon-font {
   color: #ffffff;
@@ -3655,21 +3668,21 @@ picture {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 96, src/scss/_components/features/_disposal.scss */
+  /* line 101, src/scss/_components/features/_disposal.scss */
   .disposal__card .card.is-active {
     background-color: transparent;
     -webkit-transition: background-color 0.3s ease-in-out;
     -o-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
-  /* line 101, src/scss/_components/features/_disposal.scss */
+  /* line 106, src/scss/_components/features/_disposal.scss */
   .disposal__card .card.is-active:before {
     opacity: 1;
     -webkit-transition: opacity 0.3s ease-in-out;
     -o-transition: opacity 0.3s ease-in-out;
     transition: opacity 0.3s ease-in-out;
   }
-  /* line 106, src/scss/_components/features/_disposal.scss */
+  /* line 111, src/scss/_components/features/_disposal.scss */
   .disposal__card .card.is-active .card-body {
     -webkit-transform: translateY(-10px);
         -ms-transform: translateY(-10px);
@@ -3680,7 +3693,7 @@ picture {
     transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
-  /* line 111, src/scss/_components/features/_disposal.scss */
+  /* line 116, src/scss/_components/features/_disposal.scss */
   .disposal__card .card.is-active p,
   .disposal__card .card.is-active .icon-font {
     color: #ffffff;
@@ -3690,7 +3703,7 @@ picture {
   }
 }
 
-/* line 119, src/scss/_components/features/_disposal.scss */
+/* line 124, src/scss/_components/features/_disposal.scss */
 .disposal__card .card:before {
   content: '';
   opacity: 0;
@@ -3713,13 +3726,13 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 119, src/scss/_components/features/_disposal.scss */
+  /* line 124, src/scss/_components/features/_disposal.scss */
   .disposal__card .card:before {
     top: -9px;
   }
 }
 
-/* line 136, src/scss/_components/features/_disposal.scss */
+/* line 141, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body {
   z-index: 2;
   position: relative;
@@ -3730,12 +3743,12 @@ picture {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 142, src/scss/_components/features/_disposal.scss */
+/* line 147, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body > div:nth-of-type(1) {
   width: 65px;
 }
 
-/* line 146, src/scss/_components/features/_disposal.scss */
+/* line 151, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3745,7 +3758,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 153, src/scss/_components/features/_disposal.scss */
+/* line 158, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body p {
   font-size: 16px;
   font-weight: 600;
@@ -3756,7 +3769,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 161, src/scss/_components/features/_disposal.scss */
+/* line 166, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font {
   color: #b3c5dc;
   -webkit-transition: color 0.3s ease-in-out;
@@ -3764,57 +3777,57 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 165, src/scss/_components/features/_disposal.scss */
+/* line 170, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-checklist {
   font-size: 48px;
 }
 
-/* line 168, src/scss/_components/features/_disposal.scss */
+/* line 173, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-analytics {
   font-size: 40px;
 }
 
-/* line 171, src/scss/_components/features/_disposal.scss */
+/* line 176, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-puzzle {
   font-size: 43px;
 }
 
-/* line 174, src/scss/_components/features/_disposal.scss */
+/* line 179, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-maze {
   font-size: 44px;
 }
 
-/* line 177, src/scss/_components/features/_disposal.scss */
+/* line 182, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-idea {
   font-size: 40px;
 }
 
-/* line 180, src/scss/_components/features/_disposal.scss */
+/* line 185, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-stop {
   font-size: 47px;
 }
 
-/* line 183, src/scss/_components/features/_disposal.scss */
+/* line 188, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-workflow {
   font-size: 48px;
 }
 
-/* line 186, src/scss/_components/features/_disposal.scss */
+/* line 191, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-shield {
   font-size: 42px;
 }
 
-/* line 189, src/scss/_components/features/_disposal.scss */
+/* line 194, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-clock {
   font-size: 48px;
 }
 
-/* line 192, src/scss/_components/features/_disposal.scss */
+/* line 197, src/scss/_components/features/_disposal.scss */
 .disposal__card .card-body .icon-font.icon-deadline {
   font-size: 42px;
 }
 
-/* line 200, src/scss/_components/features/_disposal.scss */
+/* line 205, src/scss/_components/features/_disposal.scss */
 .disposal__desc {
   display: none;
   -webkit-animation-fill-mode: both;
@@ -3825,36 +3838,36 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 206, src/scss/_components/features/_disposal.scss */
+/* line 211, src/scss/_components/features/_disposal.scss */
 .disposal__desc.is-active {
   display: block;
 }
 
-/* line 210, src/scss/_components/features/_disposal.scss */
+/* line 215, src/scss/_components/features/_disposal.scss */
 .disposal__desc p,
 .disposal__desc span {
   font-size: 16px;
   line-height: 1.63;
 }
 
-/* line 216, src/scss/_components/features/_disposal.scss */
+/* line 221, src/scss/_components/features/_disposal.scss */
 .disposal__desc p {
   padding-bottom: 10px;
 }
 
-/* line 220, src/scss/_components/features/_disposal.scss */
+/* line 225, src/scss/_components/features/_disposal.scss */
 .disposal__desc ul {
   padding-left: 1rem;
 }
 
-/* line 223, src/scss/_components/features/_disposal.scss */
+/* line 228, src/scss/_components/features/_disposal.scss */
 .disposal__desc ul li {
   list-style-type: disc;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
-/* line 228, src/scss/_components/features/_disposal.scss */
+/* line 233, src/scss/_components/features/_disposal.scss */
 .disposal__desc ul li:first-of-type {
   padding-top: 0;
 }

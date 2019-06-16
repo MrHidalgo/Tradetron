@@ -61,7 +61,7 @@
 			border-radius: 6px;
 			box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
 			background-color: #ffffff;
-			@include transition(background-color);
+			@include transition(background-color, box-shadow);
 			@include respond(large) {
 				max-width: calc((100% - 30px) / 2);
 				margin-left: 15px;
@@ -69,6 +69,11 @@
 			}
 			@include adaptive(575) {
 				max-width: unset;
+			}
+
+			&:hover {
+				box-shadow: 0 0 10px 0 rgba(17, 30, 79, 0.1);
+				@include transition(box-shadow);
 			}
 
 			&.swiper-slide-active {
