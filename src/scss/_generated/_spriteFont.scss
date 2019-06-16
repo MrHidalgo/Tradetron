@@ -36,110 +36,140 @@
 	@if $filename == bar-chart {
 		$char: "\E003";
 	}
-	@if $filename == chart {
+	@if $filename == calculator {
 		$char: "\E004";
 	}
-	@if $filename == check {
+	@if $filename == calendar {
 		$char: "\E005";
 	}
-	@if $filename == checklist {
+	@if $filename == chart {
 		$char: "\E006";
 	}
-	@if $filename == chip {
+	@if $filename == check {
 		$char: "\E007";
 	}
-	@if $filename == clock {
+	@if $filename == checklist {
 		$char: "\E008";
 	}
-	@if $filename == close {
+	@if $filename == chip {
 		$char: "\E009";
 	}
-	@if $filename == corner {
+	@if $filename == clock {
 		$char: "\E00A";
 	}
-	@if $filename == deadline {
+	@if $filename == close {
 		$char: "\E00B";
 	}
-	@if $filename == edit {
+	@if $filename == controls {
 		$char: "\E00C";
 	}
-	@if $filename == email {
+	@if $filename == corner {
 		$char: "\E00D";
 	}
-	@if $filename == facebook {
+	@if $filename == deadline {
 		$char: "\E00E";
 	}
-	@if $filename == favorites {
+	@if $filename == diagram {
 		$char: "\E00F";
 	}
-	@if $filename == file {
+	@if $filename == edit {
 		$char: "\E010";
 	}
-	@if $filename == google-plus {
+	@if $filename == email {
 		$char: "\E011";
 	}
-	@if $filename == graphene {
+	@if $filename == facebook {
 		$char: "\E012";
 	}
-	@if $filename == hand {
+	@if $filename == favorites {
 		$char: "\E013";
 	}
-	@if $filename == id-card {
+	@if $filename == file-2 {
 		$char: "\E014";
 	}
-	@if $filename == idea {
+	@if $filename == file {
 		$char: "\E015";
 	}
-	@if $filename == innovation {
+	@if $filename == google-plus {
 		$char: "\E016";
 	}
-	@if $filename == layers {
+	@if $filename == graphene {
 		$char: "\E017";
 	}
-	@if $filename == line-chart {
+	@if $filename == hand {
 		$char: "\E018";
 	}
-	@if $filename == linkedin {
+	@if $filename == id-card {
 		$char: "\E019";
 	}
-	@if $filename == maze {
+	@if $filename == idea {
 		$char: "\E01A";
 	}
-	@if $filename == plus {
+	@if $filename == information {
 		$char: "\E01B";
 	}
-	@if $filename == puzzle {
+	@if $filename == innovation {
 		$char: "\E01C";
 	}
-	@if $filename == safebox {
+	@if $filename == layers {
 		$char: "\E01D";
 	}
-	@if $filename == search {
+	@if $filename == line-chart {
 		$char: "\E01E";
 	}
-	@if $filename == settings {
+	@if $filename == linkedin {
 		$char: "\E01F";
 	}
-	@if $filename == shield {
+	@if $filename == maze {
 		$char: "\E020";
 	}
-	@if $filename == signin {
+	@if $filename == money {
 		$char: "\E021";
 	}
-	@if $filename == stop {
+	@if $filename == photos {
 		$char: "\E022";
 	}
-	@if $filename == success {
+	@if $filename == plus {
 		$char: "\E023";
 	}
-	@if $filename == twitter {
+	@if $filename == puzzle {
 		$char: "\E024";
 	}
-	@if $filename == users {
+	@if $filename == safebox {
 		$char: "\E025";
 	}
-	@if $filename == workflow {
+	@if $filename == search {
 		$char: "\E026";
+	}
+	@if $filename == settings {
+		$char: "\E027";
+	}
+	@if $filename == shield {
+		$char: "\E028";
+	}
+	@if $filename == signin {
+		$char: "\E029";
+	}
+	@if $filename == star {
+		$char: "\E02A";
+	}
+	@if $filename == stop {
+		$char: "\E02B";
+	}
+	@if $filename == stopwatch {
+		$char: "\E02C";
+	}
+	@if $filename == success {
+		$char: "\E02D";
+	}
+	@if $filename == twitter {
+		$char: "\E02E";
+	}
+	@if $filename == users {
+		$char: "\E02F";
+	}
+	@if $filename == workflow {
+		$char: "\E030";
 	}
 
 	@return $char;
@@ -168,6 +198,14 @@
 	@include icon(bar-chart);
 
 }
+.icon-calculator {
+	@include icon(calculator);
+
+}
+.icon-calendar {
+	@include icon(calendar);
+
+}
 .icon-chart {
 	@include icon(chart);
 
@@ -192,12 +230,20 @@
 	@include icon(close);
 
 }
+.icon-controls {
+	@include icon(controls);
+
+}
 .icon-corner {
 	@include icon(corner);
 
 }
 .icon-deadline {
 	@include icon(deadline);
+
+}
+.icon-diagram {
+	@include icon(diagram);
 
 }
 .icon-edit {
@@ -214,6 +260,10 @@
 }
 .icon-favorites {
 	@include icon(favorites);
+
+}
+.icon-file-2 {
+	@include icon(file-2);
 
 }
 .icon-file {
@@ -240,6 +290,10 @@
 	@include icon(idea);
 
 }
+.icon-information {
+	@include icon(information);
+
+}
 .icon-innovation {
 	@include icon(innovation);
 
@@ -258,6 +312,14 @@
 }
 .icon-maze {
 	@include icon(maze);
+
+}
+.icon-money {
+	@include icon(money);
+
+}
+.icon-photos {
+	@include icon(photos);
 
 }
 .icon-plus {
@@ -288,8 +350,16 @@
 	@include icon(signin);
 
 }
+.icon-star {
+	@include icon(star);
+
+}
 .icon-stop {
 	@include icon(stop);
+
+}
+.icon-stopwatch {
+	@include icon(stopwatch);
 
 }
 .icon-success {

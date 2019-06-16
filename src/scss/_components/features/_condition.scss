@@ -1,0 +1,137 @@
+// SECTION condition :: START
+
+.condition {
+	overflow: hidden;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	&__wrapper {
+		&-1 {
+			.container  {
+				@include adaptive(767) {
+					max-width: 100%;
+				}
+			}
+		}
+	}
+
+	&__title {
+		padding-bottom: 12px;
+	}
+
+	&__text {
+		padding-bottom: 100px;
+	}
+
+	&__carousel {
+		.swiper-wrapper {
+			flex-wrap: wrap;
+			@include adaptive(767) {
+				flex-wrap: unset;
+			}
+
+			.card {
+				width: 100%;
+				max-width: calc(100% / 4);
+				@include adaptive(1279) {
+					max-width: calc(100% / 3);
+				}
+				@include adaptive(991) {
+					max-width: calc(100% / 2);
+				}
+				@include adaptive(767) {
+					width: 235px !important;
+					max-width: 235px !important;
+				}
+			}
+		}
+	}
+
+	.card {
+		margin-bottom: 70px;
+		border: none;
+		background-color: transparent;
+
+		&-title {
+			margin: 0;
+			padding-bottom: 15px;
+			font-size: 22px;
+			font-weight: bold;
+			line-height: 1.27;
+			@include adaptive(991) {
+				br {
+					display: none;
+				}
+
+				span {
+					display: block;
+				}
+			}
+		}
+
+		&-text {
+			max-width: 230px;
+			margin: 0;
+			padding-bottom: 15px;
+			font-size: 16px;
+			line-height: 1.5;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
+		}
+
+		&-line {
+			margin-bottom: 15px;
+			width: 50px;
+			height: 4px;
+			background-color: #6772e5;
+		}
+
+		@each $className, $wImg, $hImg, $imgIdx, $fzIcons in
+				(0, 139px, 97px, 1, 47px),
+				(1, 122px, 96px, 2, 47px),
+				(2, 139px, 99px, 3, 48px),
+				(3, 114px, 99px, 4, 47px),
+				(4, 139px, 97px, 1, 47px),
+				(5, 122px, 96px, 2, 47px),
+				(6, 139px, 99px, 3, 45px),
+				(7, 114px, 99px, 4, 47px),
+				(8, 139px, 97px, 1, 47px),
+				(9, 122px, 96px, 2, 47px)
+		{
+			&-#{$className} {
+				.card {
+					&-img {
+						width: $wImg;
+						height: $hImg;
+						margin-bottom: 20px;
+						background-image: url('../img/img-do-card-bg-#{$imgIdx}.png');
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: contain;
+
+						.icon-font {
+							color: #ffffff;
+							font-size: $fzIcons;
+
+							@if($className == 1 OR $className == 3 OR $className == 5) {
+								left: 7px;
+							}
+							@if($className == 2 OR $className == 6) {
+								top: -5px;
+							}
+							@if($className == 4 OR $className == 8) {
+								top: 3px;
+							}
+							@if($className == 7 OR $className == 9) {
+								left: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// SECTION condition :: END

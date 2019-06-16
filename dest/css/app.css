@@ -163,7 +163,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-corner:before, .icon-deadline:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-idea:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-maze:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-shield:before, .icon-signin:before, .icon-stop:before, .icon-success:before, .icon-twitter:before, .icon-users:before, .icon-workflow:before {
+.icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-calculator:before, .icon-calendar:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-corner:before, .icon-deadline:before, .icon-diagram:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-shield:before, .icon-signin:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-users:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,194 +174,244 @@
   text-transform: none;
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
+/* line 179, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
+/* line 179, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
+/* line 179, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-chart:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-calculator:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-check:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-calendar:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-checklist:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-chart:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-chip:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-check:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-clock:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-checklist:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-chip:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-corner:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-clock:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-deadline:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-controls:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-corner:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-deadline:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-favorites:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-diagram:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-file-2:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 149, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
+}
+
+/* line 179, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -694,20 +744,47 @@ picture {
 }
 
 /* line 43, src/scss/_shared/_swiper.scss */
+.swiper-container-condition {
+  overflow: unset;
+}
+
+/* line 47, src/scss/_shared/_swiper.scss */
+.swiper-container-condition .swiper-slide {
+  height: auto;
+}
+
+/* line 51, src/scss/_shared/_swiper.scss */
+.swiper-container-condition .swiper-pagination {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 51, src/scss/_shared/_swiper.scss */
+  .swiper-container-condition .swiper-pagination {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+/* line 63, src/scss/_shared/_swiper.scss */
 .swiper-container-features {
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 43, src/scss/_shared/_swiper.scss */
+  /* line 63, src/scss/_shared/_swiper.scss */
   .swiper-container-features {
     overflow: unset;
     width: 80%;
   }
 }
 
-/* line 52, src/scss/_shared/_swiper.scss */
+/* line 72, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide {
   cursor: pointer;
   display: -webkit-box;
@@ -723,7 +800,7 @@ picture {
           border-radius: 6px;
 }
 
-/* line 60, src/scss/_shared/_swiper.scss */
+/* line 80, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:hover .swiper-slide-cover {
   -webkit-box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
           box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
@@ -734,7 +811,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 66, src/scss/_shared/_swiper.scss */
+/* line 86, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:before {
   content: '';
   opacity: 0;
@@ -752,7 +829,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 79, src/scss/_shared/_swiper.scss */
+/* line 99, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-cover {
   width: 100%;
   height: 94px;
@@ -768,12 +845,12 @@ picture {
   transition: height 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 88, src/scss/_shared/_swiper.scss */
+/* line 108, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active {
   overflow: hidden;
 }
 
-/* line 91, src/scss/_shared/_swiper.scss */
+/* line 111, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active .swiper-slide-cover {
   height: 114px;
   background-color: transparent;
@@ -782,7 +859,7 @@ picture {
   transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 97, src/scss/_shared/_swiper.scss */
+/* line 117, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active:before {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -790,7 +867,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 102, src/scss/_shared/_swiper.scss */
+/* line 122, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active p,
 .swiper-container-features .swiper-slide-active .icon-font {
   color: #ffffff;
@@ -799,7 +876,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 110, src/scss/_shared/_swiper.scss */
+/* line 130, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-pagination {
   opacity: 0;
   visibility: hidden;
@@ -808,14 +885,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 110, src/scss/_shared/_swiper.scss */
+  /* line 130, src/scss/_shared/_swiper.scss */
   .swiper-container-features .swiper-pagination {
     opacity: 1;
     visibility: visible;
   }
 }
 
-/* line 123, src/scss/_shared/_swiper.scss */
+/* line 143, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing {
   overflow: unset;
   padding-top: 45px;
@@ -823,14 +900,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 123, src/scss/_shared/_swiper.scss */
+  /* line 143, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing {
     overflow: hidden;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 123, src/scss/_shared/_swiper.scss */
+  /* line 143, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing {
     overflow: unset;
     width: 275px;
@@ -838,7 +915,7 @@ picture {
   }
 }
 
-/* line 137, src/scss/_shared/_swiper.scss */
+/* line 157, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -855,13 +932,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 137, src/scss/_shared/_swiper.scss */
+  /* line 157, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-wrapper {
     width: 275px;
   }
 }
 
-/* line 146, src/scss/_shared/_swiper.scss */
+/* line 166, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-slide {
   width: 100%;
   max-width: -webkit-calc((100% - (14px * 3)) / 4);
@@ -876,7 +953,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 146, src/scss/_shared/_swiper.scss */
+  /* line 166, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-slide {
     width: 275px !important;
     max-width: 275px !important;
@@ -884,21 +961,21 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 146, src/scss/_shared/_swiper.scss */
+  /* line 166, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-slide {
     width: auto;
     max-width: unset;
   }
 }
 
-/* line 164, src/scss/_shared/_swiper.scss */
+/* line 184, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-pagination {
   opacity: 0;
   visibility: hidden;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 164, src/scss/_shared/_swiper.scss */
+  /* line 184, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-pagination {
     opacity: 1;
     visibility: visible;
@@ -906,7 +983,7 @@ picture {
   }
 }
 
-/* line 178, src/scss/_shared/_swiper.scss */
+/* line 198, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -918,13 +995,13 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 183, src/scss/_shared/_swiper.scss */
+  /* line 203, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
 }
 
-/* line 192, src/scss/_shared/_swiper.scss */
+/* line 212, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -941,7 +1018,7 @@ picture {
   bottom: 0;
 }
 
-/* line 198, src/scss/_shared/_swiper.scss */
+/* line 218, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet {
   opacity: 1;
   width: 12px;
@@ -956,7 +1033,7 @@ picture {
   transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
-/* line 207, src/scss/_shared/_swiper.scss */
+/* line 227, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet-active {
   width: 30px;
   -webkit-border-radius: 7px;
@@ -4006,6 +4083,317 @@ picture {
 /* line 18, src/scss/_components/features/_stages.scss */
 .stages img {
   margin-bottom: 50px;
+}
+
+/* line 3, src/scss/_components/features/_condition.scss */
+.condition {
+  overflow: hidden;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 10, src/scss/_components/features/_condition.scss */
+  .condition__wrapper-1 .container {
+    max-width: 100%;
+  }
+}
+
+/* line 18, src/scss/_components/features/_condition.scss */
+.condition__title {
+  padding-bottom: 12px;
+}
+
+/* line 22, src/scss/_components/features/_condition.scss */
+.condition__text {
+  padding-bottom: 100px;
+}
+
+/* line 27, src/scss/_components/features/_condition.scss */
+.condition__carousel .swiper-wrapper {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 27, src/scss/_components/features/_condition.scss */
+  .condition__carousel .swiper-wrapper {
+    -webkit-flex-wrap: unset;
+        -ms-flex-wrap: unset;
+            flex-wrap: unset;
+  }
+}
+
+/* line 33, src/scss/_components/features/_condition.scss */
+.condition__carousel .swiper-wrapper .card {
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 33, src/scss/_components/features/_condition.scss */
+  .condition__carousel .swiper-wrapper .card {
+    max-width: -webkit-calc(100% / 3);
+    max-width: calc(100% / 3);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 33, src/scss/_components/features/_condition.scss */
+  .condition__carousel .swiper-wrapper .card {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 33, src/scss/_components/features/_condition.scss */
+  .condition__carousel .swiper-wrapper .card {
+    width: 235px !important;
+    max-width: 235px !important;
+  }
+}
+
+/* line 50, src/scss/_components/features/_condition.scss */
+.condition .card {
+  margin-bottom: 70px;
+  border: none;
+  background-color: transparent;
+}
+
+/* line 55, src/scss/_components/features/_condition.scss */
+.condition .card-title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.27;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 62, src/scss/_components/features/_condition.scss */
+  .condition .card-title br {
+    display: none;
+  }
+  /* line 66, src/scss/_components/features/_condition.scss */
+  .condition .card-title span {
+    display: block;
+  }
+}
+
+/* line 72, src/scss/_components/features/_condition.scss */
+.condition .card-text {
+  max-width: 230px;
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 72, src/scss/_components/features/_condition.scss */
+  .condition .card-text {
+    max-width: 100%;
+  }
+}
+
+/* line 83, src/scss/_components/features/_condition.scss */
+.condition .card-line {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 4px;
+  background-color: #6772e5;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-0 .card-img {
+  width: 139px;
+  height: 97px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-0 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-1 .card-img {
+  width: 122px;
+  height: 96px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-1 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  left: 7px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-2 .card-img {
+  width: 139px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-2 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 48px;
+  top: -5px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-3 .card-img {
+  width: 114px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-3 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  left: 7px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-4 .card-img {
+  width: 139px;
+  height: 97px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-4 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  top: 3px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-5 .card-img {
+  width: 122px;
+  height: 96px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-5 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  left: 7px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-6 .card-img {
+  width: 139px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-6 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 45px;
+  top: -5px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-7 .card-img {
+  width: 114px;
+  height: 99px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-7 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  left: 5px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-8 .card-img {
+  width: 139px;
+  height: 97px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-8 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  top: 3px;
+}
+
+/* line 104, src/scss/_components/features/_condition.scss */
+.condition .card-9 .card-img {
+  width: 122px;
+  height: 96px;
+  margin-bottom: 20px;
+  background-image: url("../img/img-do-card-bg-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+/* line 113, src/scss/_components/features/_condition.scss */
+.condition .card-9 .card-img .icon-font {
+  color: #ffffff;
+  font-size: 47px;
+  left: 5px;
 }
 
 /* line 3, src/scss/_components/features/_builder.scss */

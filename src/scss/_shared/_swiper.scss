@@ -40,6 +40,26 @@
 		}
 	}
 
+	&-condition {
+		overflow: unset;
+
+		.swiper {
+			&-slide {
+				height: auto;
+			}
+
+			&-pagination {
+				opacity: 0;
+				visibility: hidden;
+				@include adaptive(767) {
+					opacity: 1;
+					visibility: visible;
+					transform: translateY(-20px);
+				}
+			}
+		}
+	}
+
 	&-features {
 		padding-top: 50px;
 		padding-bottom: 30px;

@@ -152,11 +152,30 @@ const initSwiper = () => {
 	};
 	let mySwiperDisposal = undefined;
 
+  const mySwiperConditionOpt = {
+		loop: false,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: false,
+		freeMode: false,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 'auto',
+		spaceBetween: 15,
+		centeredSlides: false,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	};
+	let mySwiperCondition = undefined;
+
 	$(window).on('load resize orientationchange', () => {
 		// FEATURES SLIDER OFFSET
 		const _featureCarousel = $('.features__carousel'),
 			_pricingCarousel = $('.pricing__carousel'),
-			_disposalCarousel = $('.disposal__card');
+			_disposalCarousel = $('.disposal__card'),
+			_conditionCarousel = $('.condition__carousel');
 
 		if(_featureCarousel.length > 0) {
 			_featureCarousel.attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
@@ -193,6 +212,19 @@ const initSwiper = () => {
 				}
 
 				_disposalCarousel.attr('style', '');
+			}
+		}
+
+		if (_conditionCarousel.length > 0) {
+			if($(window).width() < 768) {
+				mySwiperCondition = new Swiper('.swiper-container-condition', mySwiperConditionOpt);
+			} else {
+				if(mySwiperCondition !== undefined) {
+					mySwiperCondition.destroy(true, true);
+					mySwiperCondition = undefined;
+				}
+
+				_conditionCarousel.attr('style', '');
 			}
 		}
 	});
