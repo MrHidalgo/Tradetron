@@ -170,12 +170,31 @@ const initSwiper = () => {
 	};
 	let mySwiperCondition = undefined;
 
+  const mySwiperMoreOpt = {
+		loop: false,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: false,
+		freeMode: false,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 'auto',
+		spaceBetween: 15,
+		centeredSlides: false,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	};
+	let mySwiperMore = undefined;
+
 	$(window).on('load resize orientationchange', () => {
 		// FEATURES SLIDER OFFSET
 		const _featureCarousel = $('.features__carousel'),
 			_pricingCarousel = $('.pricing__carousel'),
 			_disposalCarousel = $('.disposal__card'),
-			_conditionCarousel = $('.condition__carousel');
+			_conditionCarousel = $('.condition__carousel'),
+			_moreCarousel = $('.more__carousel');
 
 		if(_featureCarousel.length > 0) {
 			_featureCarousel.attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
@@ -225,6 +244,19 @@ const initSwiper = () => {
 				}
 
 				_conditionCarousel.attr('style', '');
+			}
+		}
+
+		if (_moreCarousel.length > 0) {
+			if($(window).width() < 768) {
+				mySwiperMore = new Swiper('.swiper-container-more', mySwiperMoreOpt);
+			} else {
+				if(mySwiperMore !== undefined) {
+					mySwiperMore.destroy(true, true);
+					mySwiperMore = undefined;
+				}
+
+				_moreCarousel.attr('style', '');
 			}
 		}
 	});

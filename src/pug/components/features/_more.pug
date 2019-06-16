@@ -1,0 +1,40 @@
+// SECTION more :: START
+
+mixin moreBlock(classMod, iconName, title, txt)
+	.card.swiper-slide(class!= 'card-' + classMod)
+		.card-img.d-flex.align-items-center.justify-content-center
+			i.icon-font.position-relative(class!= 'icon-' + iconName)
+
+		.card-body.p-0
+			h5.card-title!= title
+
+			.card-line
+
+			p.card-text!= txt
+
+section#more.more
+
+	.more__wrapper.more__wrapper-0
+
+		.container
+			.row
+				.col
+					h2.more__title.c-subtitle.text-center!= "More of everything"
+					p.more__text.c-text.text-center!= "From multiple asset classes to multiple exchanges. And everything in between. We have it all. Ready to use as per your convenience."
+
+	.more__wrapper.more__wrapper-1
+
+		.container
+			.row
+				.col
+
+					.more__carousel
+						mixin swiperContent()
+							+moreBlock('0', 'agenda', 'Multiple Asset<br>Classes', ' Indices<br>• Equitie<br>• Fore<br>• Future<br>• Option<br>• Cryptocurrencie<br>• Commodities')
+							+moreBlock('1', 'share', 'Multiple Exchanges', '• NSE<br>• MCX<br>• NYSE<br>• NASDAQ<br>• Bitcoin Exchanges')
+							+moreBlock('2', 'internet', 'Multiple Currencies', 'Event (Corporate results, Central Bank Policy, Important political events), Holiday')
+							+moreBlock('3', 'smartphone', 'Multiple Communication methods', ' Whatsapp<br>• SMS<br>• Email<br>• Voice Call')
+
+						+swiper('swiper-container-more', 'swiperContent', true, false, false)
+
+// SECTION more :: END
