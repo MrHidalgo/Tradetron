@@ -118,10 +118,45 @@ const initSwiper = () => {
 	};
 	let mySwiperPricing = undefined;
 
+  const mySwiperDisposalOpt = {
+		loop: true,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: false,
+		freeMode: false,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 3,
+		spaceBetween: 15,
+		centeredSlides: true,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		breakpoints: {
+			575: {
+				slidesPerView: 1,
+				centeredSlides: false
+			},
+		},
+		on: {
+			slideChangeTransitionStart: function() {
+				const _ID = this.activeIndex - 1;
+
+				$('.disposal__desc').hide();
+				$('.disposal__desc[data-text-id="' + _ID + '"]').show();
+
+				this.pagination.update();
+			}
+		}
+	};
+	let mySwiperDisposal = undefined;
+
 	$(window).on('load resize orientationchange', () => {
 		// FEATURES SLIDER OFFSET
 		const _featureCarousel = $('.features__carousel'),
-			_pricingCarousel = $('.pricing__carousel');
+			_pricingCarousel = $('.pricing__carousel'),
+			_disposalCarousel = $('.disposal__card');
 
 		if(_featureCarousel.length > 0) {
 			_featureCarousel.attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
@@ -130,7 +165,7 @@ const initSwiper = () => {
 
 		if(_pricingCarousel.length > 0) {
 			if($(window).width() < 1024) {
-				$('.pricing__carousel').attr('style', 'max-width:calc(100% - ' + $('.pricing__header').offset().left + 'px);');
+				_pricingCarousel.attr('style', 'max-width:calc(100% - ' + $('.pricing__header').offset().left + 'px);');
 				mySwiperPricing = new Swiper('.swiper-container-pricing', mySwiperPricingOpt);
 			} else {
 				if(mySwiperPricing !== undefined) {
@@ -138,13 +173,26 @@ const initSwiper = () => {
 					mySwiperPricing = undefined;
 				}
 
-				$('.pricing__carousel').attr('style', '');
+				_pricingCarousel.attr('style', '');
 			}
 
 			if($(window).width() < 768) {
 				$('.pricing__carousel .swiper-pagination').attr('style', 'width:' + $(window).width() + 'px;');
 			} else {
 				$('.pricing__carousel .swiper-pagination').attr('style', '');
+			}
+		}
+
+		if (_disposalCarousel.length > 0) {
+			if($(window).width() < 991) {
+				mySwiperDisposal = new Swiper('.swiper-container-disposal', mySwiperDisposalOpt);
+			} else {
+				if(mySwiperDisposal !== undefined) {
+					mySwiperDisposal.destroy(true, true);
+					mySwiperDisposal = undefined;
+				}
+
+				_disposalCarousel.attr('style', '');
 			}
 		}
 	});

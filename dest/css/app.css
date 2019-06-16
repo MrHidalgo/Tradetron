@@ -163,7 +163,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-chip:before, .icon-close:before, .icon-corner:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-plus:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-signin:before, .icon-success:before, .icon-twitter:before, .icon-users:before {
+.icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-corner:before, .icon-deadline:before, .icon-edit:before, .icon-email:before, .icon-facebook:before, .icon-favorites:before, .icon-file:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-idea:before, .icon-innovation:before, .icon-layers:before, .icon-line-chart:before, .icon-linkedin:before, .icon-maze:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-shield:before, .icon-signin:before, .icon-stop:before, .icon-success:before, .icon-twitter:before, .icon-users:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,144 +174,194 @@
   text-transform: none;
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-arrow:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-analytics:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-bar-chart:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-arrow:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-chart:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-bar-chart:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-check:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-chart:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-chip:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-check:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-checklist:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-corner:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-chip:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-clock:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-corner:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-favorites:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-deadline:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 119, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
+}
+
+/* line 149, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -610,20 +660,54 @@ picture {
 }
 
 /* line 20, src/scss/_shared/_swiper.scss */
+.swiper-container-disposal {
+  overflow: unset;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 20, src/scss/_shared/_swiper.scss */
+  .swiper-container-disposal {
+    padding-bottom: 70px;
+  }
+}
+
+/* line 27, src/scss/_shared/_swiper.scss */
+.swiper-container-disposal .swiper-slide {
+  height: auto;
+}
+
+/* line 31, src/scss/_shared/_swiper.scss */
+.swiper-container-disposal .swiper-pagination {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 31, src/scss/_shared/_swiper.scss */
+  .swiper-container-disposal .swiper-pagination {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+            transform: translateY(-20px);
+  }
+}
+
+/* line 43, src/scss/_shared/_swiper.scss */
 .swiper-container-features {
   padding-top: 50px;
   padding-bottom: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 20, src/scss/_shared/_swiper.scss */
+  /* line 43, src/scss/_shared/_swiper.scss */
   .swiper-container-features {
     overflow: unset;
     width: 80%;
   }
 }
 
-/* line 29, src/scss/_shared/_swiper.scss */
+/* line 52, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide {
   cursor: pointer;
   display: -webkit-box;
@@ -639,7 +723,7 @@ picture {
           border-radius: 6px;
 }
 
-/* line 37, src/scss/_shared/_swiper.scss */
+/* line 60, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:hover .swiper-slide-cover {
   -webkit-box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
           box-shadow: 0 0.5px 10px 0 rgba(17, 30, 79, 0.05);
@@ -650,7 +734,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 43, src/scss/_shared/_swiper.scss */
+/* line 66, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide:before {
   content: '';
   opacity: 0;
@@ -668,7 +752,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 56, src/scss/_shared/_swiper.scss */
+/* line 79, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-cover {
   width: 100%;
   height: 94px;
@@ -684,12 +768,12 @@ picture {
   transition: height 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 65, src/scss/_shared/_swiper.scss */
+/* line 88, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active {
   overflow: hidden;
 }
 
-/* line 68, src/scss/_shared/_swiper.scss */
+/* line 91, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active .swiper-slide-cover {
   height: 114px;
   background-color: transparent;
@@ -698,7 +782,7 @@ picture {
   transition: height 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-/* line 74, src/scss/_shared/_swiper.scss */
+/* line 97, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active:before {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -706,7 +790,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 79, src/scss/_shared/_swiper.scss */
+/* line 102, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-slide-active p,
 .swiper-container-features .swiper-slide-active .icon-font {
   color: #ffffff;
@@ -715,7 +799,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 87, src/scss/_shared/_swiper.scss */
+/* line 110, src/scss/_shared/_swiper.scss */
 .swiper-container-features .swiper-pagination {
   opacity: 0;
   visibility: hidden;
@@ -724,14 +808,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 87, src/scss/_shared/_swiper.scss */
+  /* line 110, src/scss/_shared/_swiper.scss */
   .swiper-container-features .swiper-pagination {
     opacity: 1;
     visibility: visible;
   }
 }
 
-/* line 100, src/scss/_shared/_swiper.scss */
+/* line 123, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing {
   overflow: unset;
   padding-top: 45px;
@@ -739,14 +823,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 100, src/scss/_shared/_swiper.scss */
+  /* line 123, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing {
     overflow: hidden;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 100, src/scss/_shared/_swiper.scss */
+  /* line 123, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing {
     overflow: unset;
     width: 275px;
@@ -754,7 +838,7 @@ picture {
   }
 }
 
-/* line 114, src/scss/_shared/_swiper.scss */
+/* line 137, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -771,13 +855,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 114, src/scss/_shared/_swiper.scss */
+  /* line 137, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-wrapper {
     width: 275px;
   }
 }
 
-/* line 123, src/scss/_shared/_swiper.scss */
+/* line 146, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-slide {
   width: 100%;
   max-width: -webkit-calc((100% - (14px * 3)) / 4);
@@ -792,7 +876,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 123, src/scss/_shared/_swiper.scss */
+  /* line 146, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-slide {
     width: 275px !important;
     max-width: 275px !important;
@@ -800,21 +884,21 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 123, src/scss/_shared/_swiper.scss */
+  /* line 146, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-slide {
     width: auto;
     max-width: unset;
   }
 }
 
-/* line 141, src/scss/_shared/_swiper.scss */
+/* line 164, src/scss/_shared/_swiper.scss */
 .swiper-container-pricing .swiper-pagination {
   opacity: 0;
   visibility: hidden;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 141, src/scss/_shared/_swiper.scss */
+  /* line 164, src/scss/_shared/_swiper.scss */
   .swiper-container-pricing .swiper-pagination {
     opacity: 1;
     visibility: visible;
@@ -822,7 +906,7 @@ picture {
   }
 }
 
-/* line 155, src/scss/_shared/_swiper.scss */
+/* line 178, src/scss/_shared/_swiper.scss */
 .swiper-container-partners .swiper-wrapper {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -834,13 +918,13 @@ picture {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 160, src/scss/_shared/_swiper.scss */
+  /* line 183, src/scss/_shared/_swiper.scss */
   .swiper-container-partners .swiper-slide {
     width: auto !important;
   }
 }
 
-/* line 169, src/scss/_shared/_swiper.scss */
+/* line 192, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination {
   display: -webkit-box;
   display: -webkit-flex;
@@ -857,7 +941,7 @@ picture {
   bottom: 0;
 }
 
-/* line 175, src/scss/_shared/_swiper.scss */
+/* line 198, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet {
   opacity: 1;
   width: 12px;
@@ -872,7 +956,7 @@ picture {
   transition: width 0.3s ease-in-out, border-radius 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out;
 }
 
-/* line 184, src/scss/_shared/_swiper.scss */
+/* line 207, src/scss/_shared/_swiper.scss */
 .swiper-container .swiper-pagination-bullet-active {
   width: 30px;
   -webkit-border-radius: 7px;
@@ -3338,6 +3422,364 @@ picture {
 /* line 11, src/scss/_components/features/_strategy.scss */
 .strategy__text {
   padding-bottom: 50px;
+}
+
+/* line 3, src/scss/_components/features/_disposal.scss */
+.disposal {
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 86px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 10, src/scss/_components/features/_disposal.scss */
+  .disposal__wrapper-1 .container {
+    max-width: 100%;
+  }
+}
+
+/* line 17, src/scss/_components/features/_disposal.scss */
+.disposal__wrapper-1 .col-12:nth-of-type(1) {
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* line 17, src/scss/_components/features/_disposal.scss */
+  .disposal__wrapper-1 .col-12:nth-of-type(1) {
+    padding-right: 15px;
+  }
+}
+
+/* line 23, src/scss/_components/features/_disposal.scss */
+.disposal__wrapper-1 .col-12:nth-of-type(2) {
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 23, src/scss/_components/features/_disposal.scss */
+  .disposal__wrapper-1 .col-12:nth-of-type(2) {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 23, src/scss/_components/features/_disposal.scss */
+  .disposal__wrapper-1 .col-12:nth-of-type(2) {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 23, src/scss/_components/features/_disposal.scss */
+  .disposal__wrapper-1 .col-12:nth-of-type(2) {
+    max-width: 540px;
+  }
+}
+
+/* line 41, src/scss/_components/features/_disposal.scss */
+.disposal__title {
+  padding-bottom: 50px;
+}
+
+/* line 46, src/scss/_components/features/_disposal.scss */
+.disposal__card .swiper-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 46, src/scss/_components/features/_disposal.scss */
+  .disposal__card .swiper-wrapper {
+    margin-left: 0;
+    -webkit-flex-wrap: unset;
+        -ms-flex-wrap: unset;
+            flex-wrap: unset;
+  }
+}
+
+/* line 56, src/scss/_components/features/_disposal.scss */
+.disposal__card .card {
+  width: 100%;
+  max-width: -webkit-calc((100% - 30px) / 2);
+  max-width: calc((100% - 30px) / 2);
+  min-height: 94px;
+  border: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+  background-color: #ffffff;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 56, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card {
+    max-width: -webkit-calc((100% - 30px) / 2);
+    max-width: calc((100% - 30px) / 2);
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 56, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card {
+    max-width: unset;
+  }
+}
+
+/* line 74, src/scss/_components/features/_disposal.scss */
+.disposal__card .card.swiper-slide-active {
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* line 78, src/scss/_components/features/_disposal.scss */
+.disposal__card .card.swiper-slide-active:before {
+  opacity: 1;
+  width: 100%;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 84, src/scss/_components/features/_disposal.scss */
+.disposal__card .card.swiper-slide-active .card-body {
+  -webkit-transform: translateY(0) !important;
+      -ms-transform: translateY(0) !important;
+          transform: translateY(0) !important;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 89, src/scss/_components/features/_disposal.scss */
+.disposal__card .card.swiper-slide-active p,
+.disposal__card .card.swiper-slide-active .icon-font {
+  color: #ffffff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 96, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card.is-active {
+    background-color: transparent;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  /* line 101, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card.is-active:before {
+    opacity: 1;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+  }
+  /* line 106, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card.is-active .card-body {
+    -webkit-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  /* line 111, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card.is-active p,
+  .disposal__card .card.is-active .icon-font {
+    color: #ffffff;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+/* line 119, src/scss/_components/features/_disposal.scss */
+.disposal__card .card:before {
+  content: '';
+  opacity: 0;
+  z-index: 0;
+  position: absolute;
+  top: -18px;
+  left: 0;
+  height: -webkit-calc(100% + 18px);
+  height: calc(100% + 18px);
+  width: -webkit-calc(100% + 12px);
+  width: calc(100% + 12px);
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-image: -webkit-linear-gradient(334deg, #ff5980, #ffa882);
+  background-image: -o-linear-gradient(334deg, #ff5980, #ffa882);
+  background-image: linear-gradient(116deg, #ff5980, #ffa882);
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 119, src/scss/_components/features/_disposal.scss */
+  .disposal__card .card:before {
+    top: -9px;
+  }
+}
+
+/* line 136, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body {
+  z-index: 2;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 142, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body > div:nth-of-type(1) {
+  width: 65px;
+}
+
+/* line 146, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 153, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #b3c5dc;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 161, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font {
+  color: #b3c5dc;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 165, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-checklist {
+  font-size: 48px;
+}
+
+/* line 168, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-analytics {
+  font-size: 40px;
+}
+
+/* line 171, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-puzzle {
+  font-size: 43px;
+}
+
+/* line 174, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-maze {
+  font-size: 44px;
+}
+
+/* line 177, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-idea {
+  font-size: 40px;
+}
+
+/* line 180, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-stop {
+  font-size: 47px;
+}
+
+/* line 183, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-workflow {
+  font-size: 48px;
+}
+
+/* line 186, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-shield {
+  font-size: 42px;
+}
+
+/* line 189, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-clock {
+  font-size: 48px;
+}
+
+/* line 192, src/scss/_components/features/_disposal.scss */
+.disposal__card .card-body .icon-font.icon-deadline {
+  font-size: 42px;
+}
+
+/* line 200, src/scss/_components/features/_disposal.scss */
+.disposal__desc {
+  display: none;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+}
+
+/* line 206, src/scss/_components/features/_disposal.scss */
+.disposal__desc.is-active {
+  display: block;
+}
+
+/* line 210, src/scss/_components/features/_disposal.scss */
+.disposal__desc p,
+.disposal__desc span {
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+/* line 216, src/scss/_components/features/_disposal.scss */
+.disposal__desc p {
+  padding-bottom: 10px;
+}
+
+/* line 220, src/scss/_components/features/_disposal.scss */
+.disposal__desc ul {
+  padding-left: 1rem;
+}
+
+/* line 223, src/scss/_components/features/_disposal.scss */
+.disposal__desc ul li {
+  list-style-type: disc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 228, src/scss/_components/features/_disposal.scss */
+.disposal__desc ul li:first-of-type {
+  padding-top: 0;
 }
 
 /* line 3, src/scss/_components/features/_power.scss */

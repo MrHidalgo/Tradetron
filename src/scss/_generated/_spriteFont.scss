@@ -27,89 +27,119 @@
 @function icon-char($filename) {
 	$char: "";
 
-	@if $filename == arrow {
+	@if $filename == analytics {
 		$char: "\E001";
 	}
-	@if $filename == bar-chart {
+	@if $filename == arrow {
 		$char: "\E002";
 	}
-	@if $filename == chart {
+	@if $filename == bar-chart {
 		$char: "\E003";
 	}
-	@if $filename == check {
+	@if $filename == chart {
 		$char: "\E004";
 	}
-	@if $filename == chip {
+	@if $filename == check {
 		$char: "\E005";
 	}
-	@if $filename == close {
+	@if $filename == checklist {
 		$char: "\E006";
 	}
-	@if $filename == corner {
+	@if $filename == chip {
 		$char: "\E007";
 	}
-	@if $filename == edit {
+	@if $filename == clock {
 		$char: "\E008";
 	}
-	@if $filename == email {
+	@if $filename == close {
 		$char: "\E009";
 	}
-	@if $filename == facebook {
+	@if $filename == corner {
 		$char: "\E00A";
 	}
-	@if $filename == favorites {
+	@if $filename == deadline {
 		$char: "\E00B";
 	}
-	@if $filename == file {
+	@if $filename == edit {
 		$char: "\E00C";
 	}
-	@if $filename == google-plus {
+	@if $filename == email {
 		$char: "\E00D";
 	}
-	@if $filename == graphene {
+	@if $filename == facebook {
 		$char: "\E00E";
 	}
-	@if $filename == hand {
+	@if $filename == favorites {
 		$char: "\E00F";
 	}
-	@if $filename == id-card {
+	@if $filename == file {
 		$char: "\E010";
 	}
-	@if $filename == innovation {
+	@if $filename == google-plus {
 		$char: "\E011";
 	}
-	@if $filename == layers {
+	@if $filename == graphene {
 		$char: "\E012";
 	}
-	@if $filename == line-chart {
+	@if $filename == hand {
 		$char: "\E013";
 	}
-	@if $filename == linkedin {
+	@if $filename == id-card {
 		$char: "\E014";
 	}
-	@if $filename == plus {
+	@if $filename == idea {
 		$char: "\E015";
 	}
-	@if $filename == safebox {
+	@if $filename == innovation {
 		$char: "\E016";
 	}
-	@if $filename == search {
+	@if $filename == layers {
 		$char: "\E017";
 	}
-	@if $filename == settings {
+	@if $filename == line-chart {
 		$char: "\E018";
 	}
-	@if $filename == signin {
+	@if $filename == linkedin {
 		$char: "\E019";
 	}
-	@if $filename == success {
+	@if $filename == maze {
 		$char: "\E01A";
 	}
-	@if $filename == twitter {
+	@if $filename == plus {
 		$char: "\E01B";
 	}
-	@if $filename == users {
+	@if $filename == puzzle {
 		$char: "\E01C";
+	}
+	@if $filename == safebox {
+		$char: "\E01D";
+	}
+	@if $filename == search {
+		$char: "\E01E";
+	}
+	@if $filename == settings {
+		$char: "\E01F";
+	}
+	@if $filename == shield {
+		$char: "\E020";
+	}
+	@if $filename == signin {
+		$char: "\E021";
+	}
+	@if $filename == stop {
+		$char: "\E022";
+	}
+	@if $filename == success {
+		$char: "\E023";
+	}
+	@if $filename == twitter {
+		$char: "\E024";
+	}
+	@if $filename == users {
+		$char: "\E025";
+	}
+	@if $filename == workflow {
+		$char: "\E026";
 	}
 
 	@return $char;
@@ -126,6 +156,10 @@
 	}
 }
 
+.icon-analytics {
+	@include icon(analytics);
+
+}
 .icon-arrow {
 	@include icon(arrow);
 
@@ -142,8 +176,16 @@
 	@include icon(check);
 
 }
+.icon-checklist {
+	@include icon(checklist);
+
+}
 .icon-chip {
 	@include icon(chip);
+
+}
+.icon-clock {
+	@include icon(clock);
 
 }
 .icon-close {
@@ -152,6 +194,10 @@
 }
 .icon-corner {
 	@include icon(corner);
+
+}
+.icon-deadline {
+	@include icon(deadline);
 
 }
 .icon-edit {
@@ -190,6 +236,10 @@
 	@include icon(id-card);
 
 }
+.icon-idea {
+	@include icon(idea);
+
+}
 .icon-innovation {
 	@include icon(innovation);
 
@@ -206,8 +256,16 @@
 	@include icon(linkedin);
 
 }
+.icon-maze {
+	@include icon(maze);
+
+}
 .icon-plus {
 	@include icon(plus);
+
+}
+.icon-puzzle {
+	@include icon(puzzle);
 
 }
 .icon-safebox {
@@ -222,8 +280,16 @@
 	@include icon(settings);
 
 }
+.icon-shield {
+	@include icon(shield);
+
+}
 .icon-signin {
 	@include icon(signin);
+
+}
+.icon-stop {
+	@include icon(stop);
 
 }
 .icon-success {
@@ -236,5 +302,9 @@
 }
 .icon-users {
 	@include icon(users);
+
+}
+.icon-workflow {
+	@include icon(workflow);
 
 }

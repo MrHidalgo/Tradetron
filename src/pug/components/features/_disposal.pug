@@ -1,0 +1,99 @@
+// SECTION disposal :: START
+
+section#disposal.disposal
+	.disposal__wrapper.disposal__wrapper-0
+
+		.container
+			.row
+				.col
+
+					h2.disposal__title.c-subtitle.text-center!= "The features at your disposal"
+
+	.disposal__wrapper.disposal__wrapper-1
+		.container
+			.row
+				.col-12.col-lg-6
+
+					.disposal__card
+
+						mixin swiperContent()
+							a.card.swiper-slide.is-active(href="#" title="" data-btn-id='0')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-checklist
+									div.d-flex.align-items-center
+										p!= "Order Management"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='1')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-analytics
+									div.d-flex.align-items-center
+										p!= "Price Execution"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='2')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-puzzle
+									div.d-flex.align-items-center
+										p!= "Tranches"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='3')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-maze
+									div.d-flex.align-items-center
+										p!= "Lot Rounding off"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='4')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-idea
+									div.d-flex.align-items-center
+										p!= "Market Making"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='5')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-stop
+									div.d-flex.align-items-center
+										p!= "Trailing Stop"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='6')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-workflow
+									div.d-flex.align-items-center
+										p!= "Re-activate strategy frequency"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='7')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-shield
+									div.d-flex.align-items-center
+										p!= "Overnight protection"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='8')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-clock
+									div.d-flex.align-items-center
+										p!= "No-Trading time zone padding"
+							a.card.swiper-slide(href="#" class="" title="" data-btn-id='9')
+								.card-body.d-flex.p-3.align-items-center
+									div
+										i.icon-font.icon-deadline
+									div.d-flex.align-items-center
+										p!= "Rollover on expiry"
+
+						+swiper('swiper-container-disposal', 'swiperContent', true, false, false)
+
+				.col-12.col-lg-6
+					each val, idx in [1,2,3,4,5,6,7,8,9,10]
+						.disposal__desc(class!= (idx === 0) ?'is-active':'', data-text-id!= idx)
+							p!= "This is specifically for when you are using a market making strategy where you are buying and selling the same instrument at a different price. Inventory Page 4 of 27 risk occurs when only one position fills and not the other. To handle this you have these options:"
+							ul.d-flex.flex-column
+								li
+									span!= "To update unfilled positions price as per your specified time"
+								li
+									span!= "To update new prices if underlying IV or spot price changes"
+								li
+									span!= "To cancel unfilled positions"
+								li
+									span!= "To wait for unfilled positions to get filled before increasing book size"
+								li
+									span!= "To exit unfilled positions at market price after a specified time"
+
+// SECTION disposal :: END

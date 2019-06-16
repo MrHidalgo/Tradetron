@@ -1,0 +1,236 @@
+// SECTION disposal :: START
+
+.disposal {
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 86px;
+
+	&__wrapper {
+		&-1 {
+			.container {
+				@include adaptive(991) {
+					max-width: 100%;
+				}
+			}
+
+			.col-12 {
+				&:nth-of-type(1) {
+					padding-right: 40px;
+					@include adaptive(1279) {
+						padding-right: 15px;
+					}
+				}
+				&:nth-of-type(2) {
+					padding-left: 40px;
+					@include adaptive(1023) {
+						padding-left: 15px;
+					}
+					@include adaptive(991) {
+						max-width: 720px;
+						margin-left: auto;
+						margin-right: auto;
+					}
+					@include adaptive(767) {
+						max-width: 540px;
+					}
+				}
+			}
+		}
+	}
+
+	&__title {
+		padding-bottom: 50px;
+	}
+
+	&__card {
+		.swiper-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: -15px;
+			@include adaptive(991) {
+				margin-left: 0;
+				flex-wrap: unset;
+			}
+		}
+
+		.card {
+			width: 100%;
+			max-width: calc((100% - 30px) / 2);
+			min-height: 94px;
+			border: none;
+			border-radius: 6px;
+			box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
+			background-color: #ffffff;
+			@include transition(background-color);
+			@include respond(large) {
+				max-width: calc((100% - 30px) / 2);
+				margin-left: 15px;
+				margin-bottom: 15px;
+			}
+			@include adaptive(575) {
+				max-width: unset;
+			}
+
+			&.swiper-slide-active {
+				background-color: transparent;
+				@include transition(background-color);
+
+				&:before {
+					opacity: 1;
+					width: 100%;
+					@include transition(opacity);
+				}
+
+				.card-body {
+					transform: translateY(0) !important;
+					@include transition(transform);
+				}
+
+				p,
+				.icon-font {
+					color: #ffffff;
+					@include transition(color);
+				}
+			}
+
+			&.is-active {
+				@include respond(large) {
+					background-color: transparent;
+					@include transition(background-color);
+
+					&:before {
+						opacity: 1;
+						@include transition(opacity);
+					}
+
+					.card-body {
+						transform: translateY(-10px);
+						@include transition(transform);
+					}
+
+					p,
+					.icon-font {
+						color: #ffffff;
+						@include transition(color);
+					}
+				}
+			}
+
+			&:before {
+				content: '';
+				opacity: 0;
+				z-index: 0;
+				position: absolute;
+				top: -18px;
+				left: 0;
+				height: calc(100% + 18px);
+				width: calc(100% + 12px);
+				border-radius: 6px;
+				background-image: linear-gradient(116deg, #ff5980, #ffa882);
+				@include transition(opacity);
+				@include adaptive(991) {
+					top: -9px;
+				}
+			}
+
+			&-body {
+				z-index: 2;
+				position: relative;
+				@include transition(transform);
+
+				& > div {
+					&:nth-of-type(1) {
+						width: 65px;
+					}
+
+					&:nth-of-type(2) {
+						flex: 1;
+						min-width: 1px;
+						max-width: 100%;
+					}
+				}
+
+				p {
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 1.5;
+					color: #b3c5dc;
+					@include transition(color);
+				}
+
+				.icon-font {
+					color: #b3c5dc;
+					@include transition(color);
+
+					&.icon-checklist {
+						font-size: 48px;
+					}
+					&.icon-analytics {
+						font-size: 40px;
+					}
+					&.icon-puzzle {
+						font-size: 43px;
+					}
+					&.icon-maze {
+						font-size: 44px;
+					}
+					&.icon-idea {
+						font-size: 40px;
+					}
+					&.icon-stop {
+						font-size: 47px;
+					}
+					&.icon-workflow {
+						font-size: 48px;
+					}
+					&.icon-shield {
+						font-size: 42px;
+					}
+					&.icon-clock {
+						font-size: 48px;
+					}
+					&.icon-deadline {
+						font-size: 42px;
+					}
+				}
+			}
+		}
+	}
+
+	&__desc {
+		display: none;
+		animation-fill-mode: both;
+		animation-duration: 0.5s;
+		animation-name: fadeIn;
+
+		&.is-active {
+			display: block;
+		}
+
+		p,
+		span {
+			font-size: 16px;
+			line-height: 1.63;
+		}
+
+		p {
+			padding-bottom: 10px;
+		}
+
+		ul {
+			padding-left: 1rem;
+
+			li {
+				list-style-type: disc;
+				padding-top: 5px;
+				padding-bottom: 5px;
+
+				&:first-of-type {
+					padding-top: 0;
+				}
+			}
+		}
+	}
+}
+
+// SECTION disposal :: END

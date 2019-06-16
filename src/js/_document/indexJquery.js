@@ -22,6 +22,22 @@ $(document).ready((ev) => {
 			$(ev.currentTarget).toggleClass('is-active');
 		});
 	};
+
+
+	const initFeaturesDisposalCard = () => {
+		$('.disposal__card .card').on('click', (ev) => {
+			const _btn = $(ev.currentTarget),
+				_btnID = _btn.data('btn-id');
+
+			if($(window).width() > 991) {
+				$('.disposal__card .card').removeClass('is-active');
+				_btn.addClass('is-active');
+
+				$('.disposal__desc').hide();
+				$('.disposal__desc[data-text-id="' + _btnID + '"]').show();
+			}
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -46,6 +62,7 @@ $(document).ready((ev) => {
     // callback
 		// ==========================================
 		initCollapseButton();
+		initFeaturesDisposalCard();
   };
   initJquery();
 });
