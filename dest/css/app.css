@@ -3742,8 +3742,8 @@ picture {
   display: none;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-name: fadeIn;
           animation-name: fadeIn;
 }
@@ -3985,6 +3985,27 @@ picture {
 .trading__list-item {
   list-style-type: disc;
   padding-bottom: 10px;
+}
+
+/* line 3, src/scss/_components/features/_stages.scss */
+.stages {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+/* line 8, src/scss/_components/features/_stages.scss */
+.stages__title-0 {
+  padding-bottom: 50px;
+}
+
+/* line 12, src/scss/_components/features/_stages.scss */
+.stages__title-1, .stages__title-2 {
+  padding-bottom: 12px;
+}
+
+/* line 18, src/scss/_components/features/_stages.scss */
+.stages img {
+  margin-bottom: 50px;
 }
 
 /* line 3, src/scss/_components/features/_builder.scss */

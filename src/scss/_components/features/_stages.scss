@@ -1,0 +1,23 @@
+// SECTION stages :: START
+
+.stages {
+	padding-top: 50px;
+	padding-bottom: 60px;
+
+	&__title {
+		&-0 {
+			padding-bottom: 50px;
+		}
+
+		&-1,
+		&-2 {
+			padding-bottom: 12px;
+		}
+	}
+
+	img {
+		margin-bottom: 50px;
+	}
+}
+
+// SECTION stages :: END
