@@ -213,27 +213,19 @@ var initSwiper = function initSwiper() {
 		freeMode: false,
 		effect: 'slide',
 		speed: 750,
-		slidesPerView: 3,
+		slidesPerView: 'auto',
 		spaceBetween: 15,
 		centeredSlides: true,
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true
 		},
-		breakpoints: {
-			575: {
-				slidesPerView: 1,
-				centeredSlides: false
-			}
-		},
 		on: {
 			slideChangeTransitionStart: function slideChangeTransitionStart() {
-				var _ID = this.activeIndex - 1;
+				var _ID = this.$el.find('.swiper-slide-active').data('btn-id');
 
 				$('.disposal__desc').hide();
 				$('.disposal__desc[data-text-id="' + _ID + '"]').show();
-
-				this.pagination.update();
 			}
 		}
 	};
@@ -257,12 +249,46 @@ var initSwiper = function initSwiper() {
 	};
 	var mySwiperCondition = undefined;
 
+	var mySwiperMoreOpt = {
+		loop: false,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
+		grabCursor: false,
+		freeMode: false,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 'auto',
+		spaceBetween: 15,
+		centeredSlides: false,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		}
+	};
+	var mySwiperMore = undefined;
+
 	$(window).on('load resize orientationchange', function () {
 		// FEATURES SLIDER OFFSET
 		var _featureCarousel = $('.features__carousel'),
 		    _pricingCarousel = $('.pricing__carousel'),
 		    _disposalCarousel = $('.disposal__card'),
-		    _conditionCarousel = $('.condition__carousel');
+		    _conditionCarousel = $('.condition__carousel'),
+		    _moreCarousel = $('.more__carousel');
+
+		var _swiperInitDestroy = function _swiperInitDestroy(nodeCarouselName, windowWidth, swiperName, swiperClassName, swiperOptName) {
+			if (nodeCarouselName.length > 0) {
+				if ($(window).width() < windowWidth) {
+					swiperName = new Swiper(swiperClassName, swiperOptName);
+				} else {
+					if (swiperName !== undefined) {
+						swiperName.destroy(true, true);
+						swiperName = undefined;
+					}
+
+					nodeCarouselName.attr('style', '');
+				}
+			}
+		};
 
 		if (_featureCarousel.length > 0) {
 			_featureCarousel.attr('style', 'max-width:calc(100% - ' + $('.features__title').offset().left + 'px);');
@@ -289,31 +315,9 @@ var initSwiper = function initSwiper() {
 			}
 		}
 
-		if (_disposalCarousel.length > 0) {
-			if ($(window).width() < 991) {
-				mySwiperDisposal = new Swiper('.swiper-container-disposal', mySwiperDisposalOpt);
-			} else {
-				if (mySwiperDisposal !== undefined) {
-					mySwiperDisposal.destroy(true, true);
-					mySwiperDisposal = undefined;
-				}
-
-				_disposalCarousel.attr('style', '');
-			}
-		}
-
-		if (_conditionCarousel.length > 0) {
-			if ($(window).width() < 768) {
-				mySwiperCondition = new Swiper('.swiper-container-condition', mySwiperConditionOpt);
-			} else {
-				if (mySwiperCondition !== undefined) {
-					mySwiperCondition.destroy(true, true);
-					mySwiperCondition = undefined;
-				}
-
-				_conditionCarousel.attr('style', '');
-			}
-		}
+		_swiperInitDestroy(_disposalCarousel, 991, mySwiperDisposal, '.swiper-container-disposal', mySwiperDisposalOpt);
+		_swiperInitDestroy(_conditionCarousel, 768, mySwiperCondition, '.swiper-container-condition', mySwiperConditionOpt);
+		_swiperInitDestroy(_moreCarousel, 768, mySwiperMore, '.swiper-container-more', mySwiperMoreOpt);
 	});
 
 	$(window).on('load', function () {
