@@ -38,10 +38,12 @@
 				}
 				@include adaptive(991) {
 					max-width: calc(100% / 2);
+					padding-left: 50px;
 				}
 				@include adaptive(767) {
 					width: 235px !important;
 					max-width: 235px !important;
+					padding-left: 0;
 				}
 			}
 		}

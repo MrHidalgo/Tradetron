@@ -4206,6 +4206,7 @@ picture {
   .condition__carousel .swiper-wrapper .card {
     max-width: -webkit-calc(100% / 2);
     max-width: calc(100% / 2);
+    padding-left: 50px;
   }
 }
 
@@ -4214,17 +4215,18 @@ picture {
   .condition__carousel .swiper-wrapper .card {
     width: 235px !important;
     max-width: 235px !important;
+    padding-left: 0;
   }
 }
 
-/* line 50, src/scss/_components/features/_condition.scss */
+/* line 52, src/scss/_components/features/_condition.scss */
 .condition .card {
   margin-bottom: 70px;
   border: none;
   background-color: transparent;
 }
 
-/* line 55, src/scss/_components/features/_condition.scss */
+/* line 57, src/scss/_components/features/_condition.scss */
 .condition .card-title {
   margin: 0;
   padding-bottom: 15px;
@@ -4234,17 +4236,17 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 62, src/scss/_components/features/_condition.scss */
+  /* line 64, src/scss/_components/features/_condition.scss */
   .condition .card-title br {
     display: none;
   }
-  /* line 66, src/scss/_components/features/_condition.scss */
+  /* line 68, src/scss/_components/features/_condition.scss */
   .condition .card-title span {
     display: block;
   }
 }
 
-/* line 72, src/scss/_components/features/_condition.scss */
+/* line 74, src/scss/_components/features/_condition.scss */
 .condition .card-text {
   max-width: 230px;
   margin: 0;
@@ -4254,13 +4256,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 72, src/scss/_components/features/_condition.scss */
+  /* line 74, src/scss/_components/features/_condition.scss */
   .condition .card-text {
     max-width: 100%;
   }
 }
 
-/* line 83, src/scss/_components/features/_condition.scss */
+/* line 85, src/scss/_components/features/_condition.scss */
 .condition .card-line {
   margin-bottom: 15px;
   width: 50px;
@@ -4268,7 +4270,7 @@ picture {
   background-color: #6772e5;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-0 .card-img {
   width: 139px;
   height: 97px;
@@ -4280,13 +4282,13 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-0 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-1 .card-img {
   width: 122px;
   height: 96px;
@@ -4298,14 +4300,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-1 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   left: 7px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-2 .card-img {
   width: 139px;
   height: 99px;
@@ -4317,14 +4319,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-2 .card-img .icon-font {
   color: #ffffff;
   font-size: 48px;
   top: -5px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-3 .card-img {
   width: 114px;
   height: 99px;
@@ -4336,14 +4338,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-3 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   left: 7px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-4 .card-img {
   width: 139px;
   height: 97px;
@@ -4355,14 +4357,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-4 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   top: 3px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-5 .card-img {
   width: 122px;
   height: 96px;
@@ -4374,14 +4376,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-5 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   left: 7px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-6 .card-img {
   width: 139px;
   height: 99px;
@@ -4393,14 +4395,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-6 .card-img .icon-font {
   color: #ffffff;
   font-size: 45px;
   top: -5px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-7 .card-img {
   width: 114px;
   height: 99px;
@@ -4412,14 +4414,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-7 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   left: 5px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-8 .card-img {
   width: 139px;
   height: 97px;
@@ -4431,14 +4433,14 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-8 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
   top: 3px;
 }
 
-/* line 104, src/scss/_components/features/_condition.scss */
+/* line 106, src/scss/_components/features/_condition.scss */
 .condition .card-9 .card-img {
   width: 122px;
   height: 96px;
@@ -4450,7 +4452,7 @@ picture {
           background-size: contain;
 }
 
-/* line 113, src/scss/_components/features/_condition.scss */
+/* line 115, src/scss/_components/features/_condition.scss */
 .condition .card-9 .card-img .icon-font {
   color: #ffffff;
   font-size: 47px;
