@@ -185,7 +185,7 @@
                 <div class="main__text-wrapper">
                   <h1 class="main__title">Features</h1>
                   <h2 class="main__subtitle">Trading Engine</h2>
-                  <p class="main__desc">You set the conditions in your strategy and leave the rest to us. We will check them constantly (as soon as a new price tick arrives for any instrument in your strategy) and once any condition (Entry / Repair / Exit) are satisfied, the trades are taken. Thanks to our trading engine, all of this can be handled with ease and you will never again worry about missing an opportunity. A state of the art distributed architecture which can span multiple servers all hosted on the cloud is at work to see that your strategy is given all the attention it deserves. Every strategy has a dedicated bot working on it so even if the system has 1 strategy to take care or 1 million, the architecture which automatically scales the servers based on the load at hand, takes care that there is no latency issue your strategy faces.</p>
+                  <p class="main__desc">You set the conditions in your strategy and leave the rest to us. We will check them constantly (as soon as a new price tick arrives for any instrument in your strategy) and once any conditions (Entry / Repair / Exit) are satisfied, the trades are taken. Thanks to our trading engine, all of this can be handled with ease and you will never again worry about missing an opportunity. A state of the art distributed architecture which can span multiple servers all hosted on the cloud is at work to see that your strategy is given all the attention it deserves. Every strategy has a dedicated bot working on it so even if the system has 1 strategy to take care or 1 million, the architecture which automatically scales the servers based on the load at hand, takes care that there is no latency issue your strategy faces.</p>
                 </div>
               </div>
             </div>
@@ -207,7 +207,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <h2 class="broker__title c-subtitle text-center">Here’s how we do it.<br>With a little broker from 3 bots and a message broker.</h2>
+                <h2 class="broker__title c-subtitle text-center">Here’s how we do it.<br>With a little help from 3 bots and a message broker.</h2>
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <p class="broker__text c-text">Independent parts, working across servers and hosted on the cloud (Digital Ocean) to reduce the chances of a bottleneck caused due to an unforeseen situation in any one area of operation. Tick by tick data is streamed and stored in InfluxData, a super reliable and scalable database app built keeping in mind streaming data and ability to handle billions of records in a minute. All this, so you can perform strategy management in an efficient, foolproof, failproof manner.</p>
+                <p class="broker__text c-text">Independent parts, working across servers and hosted on the cloud (<a href='https://www.digitalocean.com/'>Digital Ocean</a>) to reduce the chances of a bottleneck caused due to an unforeseen situation in any one area of operation. Tick by tick data is streamed and stored in <a href='https://www.influxdata.com/'>InfluxData</a>, a super reliable and scalable database app built keeping in mind streaming data and ability to handle thousands of records in a second. All this, so you can perform strategy management in an efficient, foolproof, failproof manner.</p>
               </div>
             </div>
           </div>
@@ -414,7 +414,7 @@
               </div>
               <div class="col-12 col-lg-6">
                 <h2 class="power__subtitle power__subtitle-2 c-subtitle">The power of underlying list</h2>
-                <p class="power__text c-text">Per set, you can either choose a single underlying or a list of underlyings on which you can run your conditions. Never before have you seen the power of creating a complex multi position strategy on a list of underlyings. Now you can ! Apply your favorite technical indicator or any other criterion (IV, 52 week high, etc) on a list of underlyings and then take any number of positions for the ones which satisfy the condition.</p>
+                <p class="power__text c-text">Per set, you can either choose a single underlying or a list of underlyings on which you can run your conditions. Never before have you seen the power of creating a complex multi position strategy on a list of underlyings. Now you can apply technical indicator or any other criterion (IV, 52 week high, etc) on a list of underlyings and then take any number of positions for the ones which satisfy the condition.</p>
               </div>
             </div>
           </div>
@@ -566,8 +566,8 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <h2 class="condition__title c-subtitle text-center">Condition Builder</h2>
-                <p class="condition__text c-text text-center">Keywords are the building blocks of algo trading. With them you can make conditions that vary from simple (a=1 and b=2) to multi layered ones (a=1 and (b=2 or b=3)). Now instead of going through the cumbersome process of coding keywords yourself, we offer you a wide gamut of ready- made keywords. Convenient and incredibly quick. Use a powerful web based drag and drop interface to build complex conditions in a jiffy .. without writing a single line of code.</p>
+                <h2 class="condition__title c-subtitle text-center">Keywords</h2>
+                <p class="condition__text c-text text-center">Keywords are the building blocks of algo trading. With them you can make conditions that vary from simple (a=1 and b=2) to multi layered ones (a=1 and (b=2 or b=3)). Now instead of going through the cumbersome process of coding keywords yourself, we offer you a wide gamut of readymade keywords. Convenient and incredibly quick. Use a powerful web based drag and drop interface to build complex conditions in a jiffy .. without writing a single line of code.</p>
               </div>
             </div>
           </div>
@@ -624,7 +624,7 @@
                                                 <div class="card-body p-0">
                                                   <h5 class="card-title">RuntimeVariables</h5>
                                                   <div class="card-line"></div>
-                                                  <p class="card-text">LastRepairedUnderlyingPric, LastRepairedInstrumentPric, TrailingStopLossTriggered, TrailingStopLossAtProfit, TrailingStopLoss, EntryDate, EntryTime, EntryValue, EntryATMStrike, EntryDelta, EntryVega, EntryTheta, EntryGamma, EntryRho, EntryIV, EntryIVRank, EntryIVPercentile</p>
+                                                  <p class="card-text">LastRepairedUnderlyingPrice, LastRepairedInstrumentPrice, TrailingStopLossTriggered, TrailingStopLossAtProfit, TrailingStopLoss, EntryDate, EntryTime, EntryValue, EntryATMStrike, EntryDelta, EntryVega, EntryTheta, EntryGamma, EntryRho, EntryIV, EntryIVRank, EntryIVPercentile</p>
                                                 </div>
                                               </div>
                                               <div class="card swiper-slide card-6">
@@ -807,7 +807,7 @@
                             <li class="card__list-item d-flex">
                               <div><i class="icon-font icon-check"></i></div>
                               <div>
-                                <p>Quant model strategies: using any statistical / mathematical logic you can think of can be used to develop the conditions for Entry / Repair or Exiting. Could be Trend following or mean reverting; intraday or positional.</p>
+                                <p>Quant model strategies: using any statistical / mathematical logic you can think of can be used to develop the conditions for Entry / Repair or Exiting. Could be trend following or mean reverting; intraday or positional.</p>
                               </div>
                             </li>
                             <li class="card__list-item d-flex">
@@ -819,7 +819,7 @@
                             <li class="card__list-item d-flex">
                               <div><i class="icon-font icon-check"></i></div>
                               <div>
-                                <p>Volatility based strategies like Skew scalping, Reverse Gamma scalping strategies to scalp theta during a high IV environment or Gamma scalping in a high vol environment by paying daily theta using multiple option instruments of one or multiple underlings. The building blocks of the strategy are combinations of instruments, such as strangles, butterflies or any other complex set you can imagine.</p>
+                                <p>Volatility based strategies like Skew scalping, Reverse Gamma scalping strategies to scalp theta during a low vol environment or Gamma scalping in a high vol environment by paying daily theta using multiple option instruments of one or multiple underlings. The building blocks of the strategy are combinations of instruments, such as strangles, butterflies or any other complex set you can imagine.</p>
                               </div>
                             </li>
                             <li class="card__list-item d-flex">
@@ -849,7 +849,7 @@
                             <li class="card__list-item d-flex">
                               <div><i class="icon-font icon-check"></i></div>
                               <div>
-                                <p>Market making strategies by submitting a bid and asking for the same instrument based on prevalent spreads.</p>
+                                <p>Market making strategies by submitting a bid and ask price for the same instrument based on prevalent spreads.</p>
                               </div>
                             </li>
                     </ul>
@@ -881,7 +881,7 @@
               <div class="col-12 col-lg-6 pb-4">
                 <div class="card">
                   <div class="card-body">
-                    <p class="card__title">Paper Tradign</p>
+                    <p class="card__title">Paper Trading</p>
                     <div class="card__line"></div>
                     <p class="card__text">A paper trade is simulated trading which allows investors to buy and sell securities without risking real money. We offer you just that with Tradetron.</p>
                   </div>
@@ -998,7 +998,7 @@
                                                 <div class="card-body p-0">
                                                   <h5 class="card-title">Multiple Asset<br>Classes</h5>
                                                   <div class="card-line"></div>
-                                                  <p class="card-text"> Indices<br>• Equitie<br>• Fore<br>• Future<br>• Option<br>• Cryptocurrencie<br>• Commodities</p>
+                                                  <p class="card-text">• Indices<br>• Equities<br>• Forex<br>• Futures<br>• Option<br>• Cryptocurrencie<br>• Commodities</p>
                                                 </div>
                                               </div>
                                               <div class="card swiper-slide card-1">
@@ -1014,7 +1014,7 @@
                                                 <div class="card-body p-0">
                                                   <h5 class="card-title">Multiple Currencies</h5>
                                                   <div class="card-line"></div>
-                                                  <p class="card-text">Event (Corporate results, Central Bank Policy, Important political events), Holiday</p>
+                                                  <p class="card-text">• USD<br>• INR<br>• EUR<br>• GBP</p>
                                                 </div>
                                               </div>
                                               <div class="card swiper-slide card-3">
@@ -1022,7 +1022,7 @@
                                                 <div class="card-body p-0">
                                                   <h5 class="card-title">Multiple Communication methods</h5>
                                                   <div class="card-line"></div>
-                                                  <p class="card-text"> Whatsapp<br>• SMS<br>• Email<br>• Voice Call</p>
+                                                  <p class="card-text">• Whatsapp<br>• SMS<br>• Email<br>• Voice Call</p>
                                                 </div>
                                               </div>
                     </div>

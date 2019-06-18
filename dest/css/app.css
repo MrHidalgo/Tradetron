@@ -3534,7 +3534,7 @@ picture {
 
 /* line 3, src/scss/_components/features/_strategy.scss */
 .strategy {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 50px;
 }
 
@@ -4073,7 +4073,7 @@ picture {
 
 /* line 3, src/scss/_components/features/_trading.scss */
 .trading {
-  padding-top: 60px;
+  padding-top: 75px;
   padding-bottom: 30px;
 }
 
@@ -4127,7 +4127,7 @@ picture {
 
 /* line 3, src/scss/_components/features/_stages.scss */
 .stages {
-  padding-top: 50px;
+  padding-top: 75px;
   padding-bottom: 60px;
 }
 

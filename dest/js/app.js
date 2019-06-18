@@ -233,8 +233,8 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperConditionOpt = {
 		loop: false,
-		// watchOverflow: true,
-		// normalizeSlideIndex: true,
+		watchOverflow: true,
+		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
