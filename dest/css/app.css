@@ -3755,7 +3755,7 @@ picture {
   width: 100%;
   max-width: -webkit-calc((100% - 30px) / 2);
   max-width: calc((100% - 30px) / 2);
-  min-height: 94px;
+  height: 94px;
   border: none;
   -webkit-border-radius: 6px;
           border-radius: 6px;
