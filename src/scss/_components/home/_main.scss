@@ -214,6 +214,13 @@
 		}
 	}
 
+	&--pricing {
+		padding-bottom: 100px;
+		@include adaptive(767) {
+			padding-bottom: 75px;
+		}
+	}
+
 	&__bg {
 		z-index: 0;
 		top: 0;

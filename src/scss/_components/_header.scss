@@ -109,10 +109,16 @@
 			margin-right: 10px;
 			font-size: 15px;
 			letter-spacing: 0.5px;
-			color: #333333;
+			color: #333;
+			@include transition(color);
 
 			&:hover {
 				color: #6772e5;
+			}
+
+			&.is-active {
+				color: #6772e5;
+				@include transition(color);
 			}
 		}
 

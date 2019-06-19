@@ -10,3 +10,6 @@ PageList:
 - file: use-cases.html
   titleName: Use Cases
   ready: 90
+- file: pricing.html
+  titleName: Pricing
+  ready: 1

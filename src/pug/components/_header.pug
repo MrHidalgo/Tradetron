@@ -115,7 +115,7 @@ header#header.header
 							div
 								.header__nav-wrapper.d-flex.align-items-center.justify-content-center
 									.header__nav
-										a(href="#" class="" title="")!= "Pricing"
+										a(href="#" class!= (pageClassName === 'p-pricing') ?'is-active':'' title="")!= "Pricing"
 									.header__nav
 										a(href="#" class="" title="")!= "Strategy Market"
 									.header__nav
@@ -216,7 +216,7 @@ header#header.header
 												span!= "Brokers"
 
 						.header__nav
-							a(href="#" class="" title="")!= "Pricing"
+							a(href="#" class!= (pageClassName === 'p-pricing') ?'is-active':'' title="")!= "Pricing"
 						.header__nav
 							a(href="#" class="" title="")!= "Strategy Market"
 						.header__nav
