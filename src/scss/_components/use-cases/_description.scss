@@ -1,0 +1,36 @@
+// SECTION description :: START
+
+.description {
+	padding-bottom: 150px;
+	@include adaptive(767) {
+		padding-bottom: 100px;
+	}
+
+	&__bg {
+		top: 0;
+		left: 0;
+		transform: translateY(-30%);
+		@include adaptive(991) {
+			z-index: -1;
+			transform: translateY(-70%);
+		}
+		@include adaptive(767) {
+			z-index: 0;
+			transform: translateY(0);
+		}
+	}
+
+	&__title {
+		padding-bottom: 10px;
+	}
+
+	&__text {
+		padding-bottom: 50px;
+
+		&--last {
+			padding-bottom: 0;
+		}
+	}
+}
+
+// SECTION description :: END

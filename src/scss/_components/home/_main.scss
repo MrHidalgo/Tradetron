@@ -164,10 +164,16 @@
 
 				&-img {
 					&-2 {
+						top: 350px;
 						right: 20px;
+						@include adaptive(1439) {
+							right: 0;
+						}
 						@include adaptive(1199) {
 							max-width: unset;
-							transform: translate(35%, 100px);
+							top: 230px;
+							right: 0;
+							transform: translate(30%, 100px);
 						}
 					}
 				}
