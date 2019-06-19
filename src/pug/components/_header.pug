@@ -79,7 +79,7 @@ header#header.header
 									.header__nav-wrapper
 										.header__nav
 											.dropdown
-												button.btn.dropdown-toggle.d-flex.pl-0(type='button')
+												button.btn.dropdown-toggle.d-flex.pl-0(type='button' class!= (pageClassName === 'p-useCases') ?'is-active':'')
 													span!= 'Use cases'
 												.dropdown-menu.d-block
 													.dropdown-menu-wrapper.d-flex.flex-column
@@ -191,7 +191,7 @@ header#header.header
 
 						.header__nav
 							.dropdown
-								button#dropdownMenuUsecases.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+								button#dropdownMenuUsecases.btn.dropdown-toggle.d-flex.align-items-center(type='button', class!= (pageClassName === 'p-useCases') ?'is-active':'', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 									span!= 'Use cases'
 									i.icon-font.icon-corner
 								.dropdown-menu.animate.slideIn(aria-labelledby='dropdownMenuUsecases')

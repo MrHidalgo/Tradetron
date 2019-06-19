@@ -6,4 +6,7 @@ PageList:
   ready: 90
 - file: features.html
   titleName: Features
-  ready: 75
+  ready: 90
+- file: use-cases.html
+  titleName: Use Cases
+  ready: 1

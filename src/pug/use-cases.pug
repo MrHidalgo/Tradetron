@@ -1,0 +1,15 @@
+---
+title: Tradetron | Use Cases
+
+pageClassName: p-useCases
+---
+extends shared/_layout
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/use-cases/_main
+
+block modal
+	include components/modal/_modal-signin
+	include components/modal/_modal-signup
