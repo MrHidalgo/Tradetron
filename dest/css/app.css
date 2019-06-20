@@ -2953,10 +2953,19 @@ picture {
 
 /* line 20, src/scss/_components/home/_pricing.scss */
 .pricing--pricing .pricing__title {
+  padding-bottom: 0;
+}
+
+/* line 24, src/scss/_components/home/_pricing.scss */
+.pricing--pricing .pricing__header {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 30px;
 }
 
-/* line 26, src/scss/_components/home/_pricing.scss */
+/* line 29, src/scss/_components/home/_pricing.scss */
 .pricing--pricing .pricing__header > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -2966,13 +2975,13 @@ picture {
   max-width: 100%;
 }
 
-/* line 33, src/scss/_components/home/_pricing.scss */
+/* line 36, src/scss/_components/home/_pricing.scss */
 .pricing--pricing .pricing__header .pricing__title {
   text-align: left !important;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 41, src/scss/_components/home/_pricing.scss */
+  /* line 44, src/scss/_components/home/_pricing.scss */
   .pricing .container--carousel {
     max-width: 100%;
     padding-left: 0;
@@ -2980,24 +2989,24 @@ picture {
   }
 }
 
-/* line 50, src/scss/_components/home/_pricing.scss */
+/* line 53, src/scss/_components/home/_pricing.scss */
 .pricing__bg {
   top: 0;
   left: 0;
   padding-top: 175px;
 }
 
-/* line 56, src/scss/_components/home/_pricing.scss */
+/* line 59, src/scss/_components/home/_pricing.scss */
 .pricing__wrapper {
   z-index: 2;
 }
 
-/* line 60, src/scss/_components/home/_pricing.scss */
+/* line 63, src/scss/_components/home/_pricing.scss */
 .pricing__title {
   padding-bottom: 11px;
 }
 
-/* line 64, src/scss/_components/home/_pricing.scss */
+/* line 67, src/scss/_components/home/_pricing.scss */
 .pricing__desc {
   width: 100%;
   max-width: 730px;
@@ -3008,7 +3017,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 73, src/scss/_components/home/_pricing.scss */
+  /* line 76, src/scss/_components/home/_pricing.scss */
   .pricing__header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3019,21 +3028,21 @@ picture {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  /* line 79, src/scss/_components/home/_pricing.scss */
+  /* line 82, src/scss/_components/home/_pricing.scss */
   .pricing__header > div:nth-of-type(1) {
     margin-right: 60px;
   }
 }
 
 @media screen and (max-width: 1023px) and (max-width: 767px) {
-  /* line 79, src/scss/_components/home/_pricing.scss */
+  /* line 82, src/scss/_components/home/_pricing.scss */
   .pricing__header > div:nth-of-type(1) {
     margin-right: 0;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 86, src/scss/_components/home/_pricing.scss */
+  /* line 89, src/scss/_components/home/_pricing.scss */
   .pricing__header > div .pricing__title,
   .pricing__header > div .pricing__desc {
     text-align: left !important;
@@ -3041,14 +3050,14 @@ picture {
 }
 
 @media screen and (max-width: 1023px) and (max-width: 767px) {
-  /* line 86, src/scss/_components/home/_pricing.scss */
+  /* line 89, src/scss/_components/home/_pricing.scss */
   .pricing__header > div .pricing__title,
   .pricing__header > div .pricing__desc {
     text-align: center !important;
   }
 }
 
-/* line 97, src/scss/_components/home/_pricing.scss */
+/* line 100, src/scss/_components/home/_pricing.scss */
 .pricing__plan {
   padding-bottom: 15px;
   font-size: 16px;
@@ -3056,7 +3065,7 @@ picture {
   line-height: 1.5;
 }
 
-/* line 104, src/scss/_components/home/_pricing.scss */
+/* line 107, src/scss/_components/home/_pricing.scss */
 .pricing__price {
   white-space: nowrap;
   padding-bottom: 30px;
@@ -3065,29 +3074,29 @@ picture {
   line-height: 1;
 }
 
-/* line 111, src/scss/_components/home/_pricing.scss */
+/* line 114, src/scss/_components/home/_pricing.scss */
 .pricing__price span {
   position: relative;
   top: -7px;
   font-size: 20px;
 }
 
-/* line 118, src/scss/_components/home/_pricing.scss */
+/* line 121, src/scss/_components/home/_pricing.scss */
 .pricing__list {
   padding-bottom: 30px;
 }
 
-/* line 121, src/scss/_components/home/_pricing.scss */
+/* line 124, src/scss/_components/home/_pricing.scss */
 .pricing__list-item {
   padding-bottom: 10px;
 }
 
-/* line 125, src/scss/_components/home/_pricing.scss */
+/* line 128, src/scss/_components/home/_pricing.scss */
 .pricing__list-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 128, src/scss/_components/home/_pricing.scss */
+/* line 131, src/scss/_components/home/_pricing.scss */
 .pricing__list-item > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -3097,7 +3106,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 135, src/scss/_components/home/_pricing.scss */
+/* line 138, src/scss/_components/home/_pricing.scss */
 .pricing__list-item p,
 .pricing__list-item span {
   font-size: 14px;
@@ -3105,37 +3114,37 @@ picture {
   line-height: 1.71;
 }
 
-/* line 142, src/scss/_components/home/_pricing.scss */
+/* line 145, src/scss/_components/home/_pricing.scss */
 .pricing__list-item span {
   opacity: 0.6;
 }
 
-/* line 146, src/scss/_components/home/_pricing.scss */
+/* line 149, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font {
   position: relative;
   top: 5px;
 }
 
-/* line 150, src/scss/_components/home/_pricing.scss */
+/* line 153, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font.icon-check {
   color: #22c993;
   font-size: 11px;
 }
 
-/* line 154, src/scss/_components/home/_pricing.scss */
+/* line 157, src/scss/_components/home/_pricing.scss */
 .pricing__list-item .icon-font.icon-close {
   color: rgba(51, 51, 51, 0.6);
   font-size: 14px;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 162, src/scss/_components/home/_pricing.scss */
+  /* line 165, src/scss/_components/home/_pricing.scss */
   .pricing__carousel {
     margin-left: auto;
   }
 }
 
-/* line 167, src/scss/_components/home/_pricing.scss */
+/* line 170, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn {
   opacity: 0;
   visibility: hidden;
@@ -3143,7 +3152,7 @@ picture {
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 167, src/scss/_components/home/_pricing.scss */
+  /* line 170, src/scss/_components/home/_pricing.scss */
   .pricing__carousel-btn {
     opacity: 1;
     visibility: visible;
@@ -3152,7 +3161,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 167, src/scss/_components/home/_pricing.scss */
+  /* line 170, src/scss/_components/home/_pricing.scss */
   .pricing__carousel-btn {
     opacity: 0;
     visibility: hidden;
@@ -3160,7 +3169,7 @@ picture {
   }
 }
 
-/* line 182, src/scss/_components/home/_pricing.scss */
+/* line 185, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a {
   width: 65px;
   height: 65px;
@@ -3178,7 +3187,7 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 192, src/scss/_components/home/_pricing.scss */
+/* line 195, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a.swiper-button-disabled {
   opacity: 0.75;
   pointer-events: none;
@@ -3190,20 +3199,20 @@ picture {
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 199, src/scss/_components/home/_pricing.scss */
+/* line 202, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn a .icon-font {
   color: #fff;
   font-size: 26px;
 }
 
-/* line 206, src/scss/_components/home/_pricing.scss */
+/* line 209, src/scss/_components/home/_pricing.scss */
 .pricing__carousel-btn--prev .icon-font {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
 
-/* line 214, src/scss/_components/home/_pricing.scss */
+/* line 217, src/scss/_components/home/_pricing.scss */
 .pricing__type-title {
   white-space: nowrap;
   padding-right: 15px;
@@ -3212,41 +3221,41 @@ picture {
   letter-spacing: 0.08px;
 }
 
-/* line 223, src/scss/_components/home/_pricing.scss */
+/* line 226, src/scss/_components/home/_pricing.scss */
 .pricing__type-row > div {
   margin-right: 10px;
 }
 
-/* line 226, src/scss/_components/home/_pricing.scss */
+/* line 229, src/scss/_components/home/_pricing.scss */
 .pricing__type-row > div:last-of-type {
   margin-right: 0;
 }
 
-/* line 232, src/scss/_components/home/_pricing.scss */
+/* line 235, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper {
   padding-right: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 232, src/scss/_components/home/_pricing.scss */
+  /* line 235, src/scss/_components/home/_pricing.scss */
   .pricing__type-wrapper {
     padding-right: 0;
   }
 }
 
-/* line 238, src/scss/_components/home/_pricing.scss */
+/* line 241, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label {
   cursor: pointer;
 }
 
-/* line 241, src/scss/_components/home/_pricing.scss */
+/* line 244, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* line 247, src/scss/_components/home/_pricing.scss */
+/* line 250, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label input:checked + span {
   border-color: #333;
   color: #333;
@@ -3255,7 +3264,7 @@ picture {
   transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 252, src/scss/_components/home/_pricing.scss */
+/* line 255, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label input:checked + span:after {
   opacity: 1;
   background-color: #333333;
@@ -3269,7 +3278,7 @@ picture {
   transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 262, src/scss/_components/home/_pricing.scss */
+/* line 265, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label span {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3287,6 +3296,7 @@ picture {
   -webkit-border-radius: 6px;
           border-radius: 6px;
   border: 1px solid #DCE4F1;
+  background-color: #ffffff;
   font-weight: 600;
   font-size: 16px;
   color: rgba(51, 51, 51, 0.65);
@@ -3296,7 +3306,7 @@ picture {
   transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 278, src/scss/_components/home/_pricing.scss */
+/* line 282, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label span:before, .pricing__type-wrapper label span:after {
   content: '';
   position: absolute;
@@ -3305,7 +3315,7 @@ picture {
           border-radius: 50%;
 }
 
-/* line 286, src/scss/_components/home/_pricing.scss */
+/* line 290, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label span:before {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
@@ -3317,7 +3327,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 295, src/scss/_components/home/_pricing.scss */
+/* line 299, src/scss/_components/home/_pricing.scss */
 .pricing__type-wrapper label span:after {
   opacity: 0;
   left: 12px;
@@ -3337,7 +3347,7 @@ picture {
   transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 311, src/scss/_components/home/_pricing.scss */
+/* line 315, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-title {
   white-space: nowrap;
   padding-right: 15px;
@@ -3346,30 +3356,30 @@ picture {
   letter-spacing: 0.08px;
 }
 
-/* line 319, src/scss/_components/home/_pricing.scss */
+/* line 323, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-row {
   width: 180px;
 }
 
-/* line 323, src/scss/_components/home/_pricing.scss */
+/* line 327, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-wrapper {
   width: 100%;
   padding-left: 20px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 323, src/scss/_components/home/_pricing.scss */
+  /* line 327, src/scss/_components/home/_pricing.scss */
   .pricing__exchange-wrapper {
     padding-left: 0;
   }
 }
 
-/* line 330, src/scss/_components/home/_pricing.scss */
+/* line 334, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-wrapper .form-group {
   margin-bottom: 0;
 }
 
-/* line 334, src/scss/_components/home/_pricing.scss */
+/* line 338, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-wrapper .form-control {
   outline: none;
   height: 40px;
@@ -3410,7 +3420,7 @@ picture {
   color: #333333;
 }
 
-/* line 346, src/scss/_components/home/_pricing.scss */
+/* line 350, src/scss/_components/home/_pricing.scss */
 .pricing__exchange-wrapper .form-control:focus, .pricing__exchange-wrapper .form-control.focus {
   -webkit-box-shadow: none;
           box-shadow: none;

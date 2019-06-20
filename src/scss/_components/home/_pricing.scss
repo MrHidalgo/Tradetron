@@ -18,10 +18,13 @@
 			}
 
 			&__title {
-				padding-bottom: 30px;
+				padding-bottom: 0;
 			}
 
 			&__header {
+				align-items: center;
+				padding-bottom: 30px;
+
 				> div {
 					&:nth-of-type(1) {
 						flex: 1;
@@ -269,6 +272,7 @@
 					padding-right: 15px;
 					border-radius: 6px;
 					border: 1px solid #DCE4F1;
+					background-color: #ffffff;
 					font-weight: 600;
 					font-size: 16px;
 					color: rgba(#333, 0.65);
