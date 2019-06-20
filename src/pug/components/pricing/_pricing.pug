@@ -1,0 +1,147 @@
+// SECTION pricing :: START
+
+section#pricing.pricing.pricing--pricing.position-relative
+
+	.help__bg.position-absolute.w-100.h-100.d-flex.justify-content-end.align-items-start
+		img(src="img/img-help-bg-1.png" srcset="img/img-help-bg-1@2x.png 2x, img/img-help-bg-1@3x.png 3x" alt="" title="")
+
+	.pricing__wrapper.position-relative
+
+		.container
+			.row
+				.col
+
+					.pricing__header
+						div
+							h2.pricing__title.c-subtitle!= "Choose one of our plans:"
+
+						.pricing__carousel-btn.d-flex.align-items-center
+							a.pricing__carousel-btn--prev.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+								i.icon-font.icon-arrow
+							a.pricing__carousel-btn--next.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+								i.icon-font.icon-arrow
+
+		.container
+			.row
+				.col
+
+					.pricing__option.d-flex.align-items-start.align-items-md-start.flex-column.flex-md-row
+
+						.pricing__type-wrapper.d-flex.flex-column.flex-lg-row.align-items-start.align-items-lg-center.pb-4.pb-md-0
+							p.pricing__type-title.pb-3.pb-lg-0!= "Type of subscription plans"
+							.pricing__type-row.d-flex.align-items-center
+								div
+									label.position-relative
+										input.position-absolute(type="radio" name="radio_" checked)
+										span.position-relative!= "Monthly"
+								div
+									label.position-relative
+										input.position-absolute(type="radio" name="radio_")
+										span.position-relative!= "Yearly"
+
+						.pricing__exchange-wrapper.d-flex.flex-column.flex-lg-row.align-items-start.align-items-lg-center
+							p.pricing__exchange-title.pb-3.pb-lg-0!= "Exchange sets"
+							.pricing__exchange-row
+
+								form.d-flex.flex-column
+									.form-group
+										select.form-control
+											option India Exchanges
+											option India Exchanges
+											option India Exchanges
+
+		.container.container--carousel
+			.row
+				.col
+
+					.pricing__carousel
+
+						mixin swiperContent()
+							.swiper-slide
+								p.pricing__plan!= "Basic Plan"
+								p.pricing__price.d-flex.align-items-end!= "Free"
+
+								ul.pricing__list.d-flex.flex-column
+									-
+										let arr1 = [
+											'Unlimited Private Strategies',
+											'Create 1 Public Strategies',
+											'Follow/Execute 5 strategies',
+											'30% sharing of strategy fees you earn from your followers',
+											'Paper Trading',
+											'Offline execution',
+											'Auto execution with one click',
+											'Fully Automatic execution (with affiliated brokers)'
+										];
+									each val, idx in arr1
+										li.pricing__list-item.d-flex
+											div
+												if(idx > 1)
+													i.icon-font.icon-close
+												else
+													i.icon-font.icon-check
+											div
+												if(idx > 1)
+													span!= val
+												else
+													p!= val
+
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+
+							.swiper-slide
+								p.pricing__plan!= "Standart Plan"
+								p.pricing__price.d-flex.align-items-end!= "$49<span>.99/mo</span>"
+
+								ul.pricing__list.d-flex.flex-column
+									each val, idx in arr1
+										li.pricing__list-item.d-flex
+											div
+												if(idx > 2)
+													i.icon-font.icon-close
+												else
+													i.icon-font.icon-check
+											div
+												if(idx > 2)
+													span!= val
+												else
+													p!= val
+
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+
+							.swiper-slide
+								p.pricing__plan!= "Pro Plan"
+								p.pricing__price.d-flex.align-items-end!= "$99<span>.99/mo</span>"
+
+								ul.pricing__list.d-flex.flex-column
+									each val, idx in arr1
+										li.pricing__list-item.d-flex
+											div
+												if(idx > 4)
+													i.icon-font.icon-close
+												else
+													i.icon-font.icon-check
+											div
+												if(idx > 4)
+													span!= val
+												else
+													p!= val
+
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+
+							.swiper-slide
+								p.pricing__plan!= "Expert Plan"
+								p.pricing__price.d-flex.align-items-end!= "$199<span>.99/mo</span>"
+
+								ul.pricing__list.d-flex.flex-column
+									each val, idx in arr1
+										li.pricing__list-item.d-flex
+											div
+												i.icon-font.icon-check
+											div
+												p!= val
+
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+
+						+swiper('swiper-container-pricing', 'swiperContent', true, false, false)
+
+// SECTION pricing :: END

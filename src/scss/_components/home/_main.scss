@@ -215,10 +215,7 @@
 	}
 
 	&--pricing {
-		padding-bottom: 100px;
-		@include adaptive(767) {
-			padding-bottom: 75px;
-		}
+		padding-bottom: 50px;
 	}
 
 	&__bg {

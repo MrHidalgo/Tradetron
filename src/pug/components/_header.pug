@@ -103,7 +103,7 @@ header#header.header
 
 									.header__nav-wrapper.d-flex.d-md-none
 										.header__nav
-											a(href="#" class="" title="")!= "Pricing"
+											a(href="#" class!= (pageClassName === 'p-pricing') ?'is-active':'' title="")!= "Pricing"
 										.header__nav
 											a(href="#" class="" title="")!= "Strategy Market"
 										.header__nav

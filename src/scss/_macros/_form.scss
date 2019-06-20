@@ -5,7 +5,7 @@
 // ==================================================
 
 // form
-$form-width: 600px;
+$form-width: 100%;
 
 // group
 $form-field-group-two-margin: 15px;
@@ -13,7 +13,7 @@ $form-field-group-three-margin: 15px;
 
 // field
 $form-field-margin: 30px;
-$form-field-input-height: 50px;
+$form-field-input-height: 40px;
 $form-field-radio-height: $form-field-input-height;
 $form-field-checkbox-height: $form-field-input-height;
 $form-field-select-height: $form-field-input-height;
@@ -69,13 +69,13 @@ $form-checkbox-icon-inner-border-color: rgba(#000, 1);
 $form-checkbox-icon-inner-border-width: 1px;
 
 // select
-$form-select-border-radius: 5px;
+$form-select-border-radius: 6px;
 $form-select-border-width: 1px;
-$form-select-border-color: gray;
+$form-select-border-color: #DCE4F1;
 $form-select-box-shadow: none;
-$form-select-icon-width: 50px;
-$form-select-value-padding-left: 20px;
-$form-select-value-color: #000;
+$form-select-icon-width: 30px;
+$form-select-value-padding-left: 10px;
+$form-select-value-color: #333;
 $form-select-value-font-size: $form-input-font-size;
 $form-select-value-font-weight: normal;
 $form-select-placeholder-color: $form-input-placeholder-color;
@@ -103,8 +103,8 @@ $form-notify-font-weight: bold;
 .c-form {
   width: 100%;
   max-width: $form-width;
-  margin-left: auto;
-  margin-right: auto;
+  //margin-left: auto;
+  //margin-right: auto;
 
   &.is-focus {}
 
@@ -442,15 +442,20 @@ $form-notify-font-weight: bold;
       height: 100%;
 
       i {
-        padding: 3px;
-        border: solid #000;
-        border-width: 0 2px 2px 0;
-        transform: rotate(45deg);
+				position: relative;
+				top: 3px;
+        //padding: 3px;
+				border-width: 4px;
+				border-style: solid;
+				border-color: #333 transparent transparent transparent;
+        //border: solid #000;
+        //border-width: 0 2px 2px 0;
+        //transform: rotate(45deg);
         @include transition(transform, border-color);
 
         .is-focus & {
-          transform: rotate(225deg);
-          @include transition(transform);
+          //transform: rotate(180deg);
+          //@include transition(transform);
         }
       }
     }
