@@ -3,8 +3,12 @@
 #pricingProModal.modal.modal--pricing.fade(tabindex='-1', role='dialog', aria-labelledby='pricingPro', aria-hidden='true')
 	.modal-dialog.modal-dialog-centered(role='document')
 		form.modal-content.px-3.py-4
-			.modal-header.justify-content-center.pb-3
+
+			.modal-header.justify-content-center.pb-3.position-relative
 				h5#pricingPro.modal-title Pro Plan
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
 
 			.modal-body
 				.modal-body-cover
@@ -12,7 +16,7 @@
 						p.modal-body-title!= "Summary of subscription plan :"
 
 					.modal-body-col
-						p.modal-body-subtitle.pb-2!= "Standard Plan <span>(one month)</span>"
+						p.modal-body-subtitle.pb-2!= "Pro Plan&nbsp;<span>(one month)</span>"
 						ul.pricing__list.d-flex.flex-column.pb-0
 							li.pricing__list-item.d-flex
 								div
@@ -117,11 +121,11 @@
 										.d-flex
 											.form-group.mb-0
 												label(for='modalExpiredPricing') Expiry Date
-												input#modalExpiredPricing.form-control(type='text' placeholder="")
+												input#modalExpiredPricing.form-control(type='text' placeholder="MM/YY")
 
 											.form-group.d-md-none.mb-0
 												label(for='modalCVVPricing-1') CVV
-												input#modalCVVPricing-1.form-control(type='text' placeholder="MM/YY")
+												input#modalCVVPricing-1.form-control(type='text' placeholder="")
 
 								.modal__credit.modal__credit-1.position-absolute.d-none.d-md-block
 									.modal__credit-line
@@ -129,7 +133,7 @@
 										.modal__credit-form
 											.form-group
 												label(for='modalCVVPricing') CVV
-												input#modalCVVPricing.form-control(type='text' placeholder="MM/YY")
+												input#modalCVVPricing.form-control(type='text' placeholder="")
 
 						.modal__tabs-content(data-contentTabs="3")
 

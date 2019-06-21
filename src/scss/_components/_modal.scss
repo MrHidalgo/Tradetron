@@ -2,6 +2,17 @@
 
 .modal {
 
+	&__close {
+		z-index: 10;
+		cursor: pointer;
+		top: 0;
+		right: 0;
+		font-size: 20px;
+		@include adaptive(767) {
+			right: 15px;
+		}
+	}
+
 	&-header {
 		border-bottom: 0;
 	}
@@ -221,6 +232,15 @@
 				color: #ffffff;
 			}
 
+			input {
+				@include inputPlaceholder {
+					opacity: 0.3;
+					font-size: 14px;
+					color: rgba(#333, 0.3);
+					letter-spacing: 0.09px;
+				}
+			}
+
 			.modal__credit {
 				&-form {
 					> div {
@@ -371,6 +391,9 @@
 				@include adaptive(991) {
 					max-width: 738px;
 				}
+				@include adaptive(767) {
+					max-width: 500px;
+				}
 			}
 
 			&-body {
@@ -441,8 +464,9 @@
 					button {
 						outline: none;
 						width: 120px;
-						border: 1px solid #6A6FED;
 						border-radius: 6px;
+						border: 1px solid #6A6FED;
+						background-color: #ffffff;
 						letter-spacing: 0.44px;
 						text-align: center;
 						color: #6772E5;
