@@ -1,0 +1,190 @@
+// MODAL pricing :: START
+
+#pricingExpertModal.modal.modal--pricing.fade(tabindex='-1', role='dialog', aria-labelledby='pricingExpert', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form.modal-content.px-3.py-4
+			.modal-header.justify-content-center.pb-3
+				h5#pricingExpert.modal-title Expert Plan
+
+			.modal-body
+				.modal-body-cover
+					.modal-body-col
+						p.modal-body-title!= "Summary of subscription plan :"
+
+					.modal-body-col
+						p.modal-body-subtitle.pb-2!= "Standard Plan <span>(one month)</span>"
+						ul.pricing__list.d-flex.flex-column.pb-0
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= "Unlimited Private Strategies"
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= "Create 1 Public Strategies"
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= "Follow/Execute 5 strategies"
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= '30% sharing of strategy fees you earn from your followers'
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= 'Paper Trading'
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= 'Offline execution\''
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= 'Auto execution with one click'
+							li.pricing__list-item.d-flex
+								div
+									i.icon-font.icon-check
+								div
+									p!= 'Fully Automatic execution (with affiliated brokers)'
+
+				.modal__divider.mt-4.mb-4
+
+				.modal-body-cover.pb-4
+					.modal-body-col
+						p.modal-body-title!= "Total :"
+					.modal-body-col
+						p.modal-body-total!= "$49.99"
+
+				.modal-body-cover.pb-4
+					.modal-body-col
+						p.modal-body-title!= "Coupon if any :"
+					.modal-body-col
+
+						.form-group.d-flex.justify-content-between.modal-body-inputGroup.mb-0
+							input(type="text" class="form-control" placeholder="" name)
+							button.d-flex.align-items-center.justify-content-center(type="button")!= "Apply"
+
+				.modal-body-cover.pb-4
+					.modal-body-col
+						p.modal-body-title!= "NET :"
+					.modal-body-col
+						p.modal-body-total!= "$9.99"
+
+				.modal-body-cover
+					.modal-body-col
+						p.modal-body-title!= "Type of subscription :"
+					.modal-body-col
+						.pricing__type-wrapper.d-flex.flex-column
+							.pricing__type-row.d-flex.align-items-center
+								div
+									label.position-relative
+										input.position-absolute(type="radio" name="radio_" checked)
+										span.position-relative!= "One time"
+								div
+									label.position-relative
+										input.position-absolute(type="radio" name="radio_")
+										span.position-relative!= "Monthly"
+								div
+									label.position-relative
+										input.position-absolute(type="radio" name="radio_")
+										span.position-relative!= "Yearly"
+
+				.modal__divider.mt-4.mb-4
+
+				p.modal-body-heading.pb-3!= "Payment Option"
+
+				.modal__tabs-wrapper.d-block.d-md-flex
+					.modal__tabs-wrapper--left.d-block.d-md-flex.flex-column.position-relative
+						a.modal__tabs.d-flex.align-items-center.justify-content-center.is-active(href="#" data-btnTabs-id="0" class="" title="")!= "Wallet"
+						a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="1" class="" title="")!= "RazorPay"
+						a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="2" class="" title="")!= "Credit Card"
+						a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="3" class="" title="")!= "Netbanking"
+						a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="4" class="" title="")!= "Paytm"
+						a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="5" class="" title="")!= "Stripe"
+
+					.modal__tabs-wrapper--right
+						.modal__tabs-content.is-active(data-contentTabs="0") Wallet content
+						.modal__tabs-content(data-contentTabs="1") RazorPay content
+						.modal__tabs-content(data-contentTabs="2")
+
+							p.modal-body-heading.pb-3!= "Enter your Card Details"
+
+							.modal__credit-wrapper.position-relative
+								.modal__credit.modal__credit-0
+
+									.form-group
+										label(for='modalCardNumberPricing') Card number
+										input#modalCardNumberPricing.form-control(type='text' placeholder="")
+
+									.modal__credit-form.d-flex.flex-wrap.flex-md-nowrap
+										.form-group
+											label(for='modalNameoOnTheRoadPricing') Name on the card
+											input#modalNameoOnTheRoadPricing.form-control(type='text' placeholder="")
+
+										.d-flex
+											.form-group.mb-0
+												label(for='modalExpiredPricing') Expiry Date
+												input#modalExpiredPricing.form-control(type='text' placeholder="")
+
+											.form-group.d-md-none.mb-0
+												label(for='modalCVVPricing-1') CVV
+												input#modalCVVPricing-1.form-control(type='text' placeholder="MM/YY")
+
+								.modal__credit.modal__credit-1.position-absolute.d-none.d-md-block
+									.modal__credit-line
+									.modal__credit-body
+										.modal__credit-form
+											.form-group
+												label(for='modalCVVPricing') CVV
+												input#modalCVVPricing.form-control(type='text' placeholder="MM/YY")
+
+						.modal__tabs-content(data-contentTabs="3")
+
+							.modal-body-cover
+								.modal-body-col
+
+									.form-group.mb-0
+										label(for='modalChooseBankPricing') Select Bank
+										select#modalChooseBankPricing.form-control
+											option HDFC
+											option HDFC
+											option HDFC
+
+								.modal-body-col
+
+						.modal__tabs-content(data-contentTabs="4")
+
+							.modal-body-cover
+								.modal-body-col
+
+									.form-group
+										label(for='modalMobileNumberPricing') Mobile number
+										input#modalMobileNumberPricing.form-control(type='text')
+
+								.modal-body-col
+
+							.modal-body-cover
+								.modal-body-col
+
+									.form-group.mb-0
+										label(for='modalOtpPricing') OTP
+										input#modalOtpPricing.form-control(type='text')
+
+								.modal-body-col
+
+						.modal__tabs-content(data-contentTabs="5") Stripe content
+
+
+				button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Purchase a plan"
+
+
+
+// MODAL pricing :: END

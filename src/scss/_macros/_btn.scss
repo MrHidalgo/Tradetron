@@ -53,6 +53,11 @@ $btn-color--border: rgba(#000, 1);
 			background-color: transparent;
 			@include transition(border-color, background-color, color);
 		}
+
+		&:focus {
+			background-color: $bth-background-color;
+			color: $bth-color;
+		}
   }
 }
 

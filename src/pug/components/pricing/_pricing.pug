@@ -86,7 +86,7 @@ section#pricing.pricing.pricing--pricing.position-relative
 												else
 													p!= val
 
-								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="" data-toggle="modal" data-target="#pricingBasicModal")!= "Choose Plan"
 
 							.swiper-slide
 								p.pricing__plan!= "Standart Plan"
@@ -106,7 +106,7 @@ section#pricing.pricing.pricing--pricing.position-relative
 												else
 													p!= val
 
-								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="" data-toggle="modal" data-target="#pricingStandartModal")!= "Choose Plan"
 
 							.swiper-slide
 								p.pricing__plan!= "Pro Plan"
@@ -126,7 +126,7 @@ section#pricing.pricing.pricing--pricing.position-relative
 												else
 													p!= val
 
-								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="" data-toggle="modal" data-target="#pricingProModal")!= "Choose Plan"
 
 							.swiper-slide
 								p.pricing__plan!= "Expert Plan"
@@ -140,7 +140,7 @@ section#pricing.pricing.pricing--pricing.position-relative
 											div
 												p!= val
 
-								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
+								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="" data-toggle="modal" data-target="#pricingExpertModal")!= "Choose Plan"
 
 						+swiper('swiper-container-pricing', 'swiperContent', true, false, false)
 

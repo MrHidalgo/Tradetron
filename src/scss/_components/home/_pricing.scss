@@ -263,13 +263,14 @@
 				}
 
 				span {
+					white-space: nowrap;
 					display: flex;
 					align-items: center;
 					position: relative;
 					top: 1px;
 					height: 40px;
 					padding-left: 35px;
-					padding-right: 15px;
+					padding-right: 10px;
 					border-radius: 6px;
 					border: 1px solid #DCE4F1;
 					background-color: #ffffff;

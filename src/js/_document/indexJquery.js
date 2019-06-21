@@ -38,6 +38,21 @@ $(document).ready((ev) => {
 			}
 		});
 	};
+
+
+	const initModalTabs = () => {
+		$('.modal__tabs').on('click', (ev) => {
+			const _el = $(ev.currentTarget),
+				_elID = _el.data('btntabs-id'),
+				_parentNode = _el.closest('.modal__tabs-wrapper');
+
+			_parentNode.find('.modal__tabs').removeClass('is-active');
+			_el.addClass('is-active');
+
+			_parentNode.find('.modal__tabs-content').removeClass('is-active');
+			_parentNode.find('.modal__tabs-content[data-contenttabs="' + _elID + '"]').addClass('is-active');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -63,6 +78,7 @@ $(document).ready((ev) => {
 		// ==========================================
 		initCollapseButton();
 		initFeaturesDisposalCard();
+		initModalTabs();
   };
   initJquery();
 });

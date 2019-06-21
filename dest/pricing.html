@@ -303,7 +303,7 @@
                                               <div><span>Fully Automatic execution (with affiliated brokers)</span>
                                               </div>
                                             </li>
-                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="">Choose Plan</a>
+                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#pricingBasicModal">Choose Plan</a>
                                         </div>
                                         <div class="swiper-slide">
                                           <p class="pricing__plan">Standart Plan</p>
@@ -360,7 +360,7 @@
                                               <div><span>Fully Automatic execution (with affiliated brokers)</span>
                                               </div>
                                             </li>
-                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="">Choose Plan</a>
+                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#pricingStandartModal">Choose Plan</a>
                                         </div>
                                         <div class="swiper-slide">
                                           <p class="pricing__plan">Pro Plan</p>
@@ -419,7 +419,7 @@
                                               <div><span>Fully Automatic execution (with affiliated brokers)</span>
                                               </div>
                                             </li>
-                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="">Choose Plan</a>
+                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#pricingProModal">Choose Plan</a>
                                         </div>
                                         <div class="swiper-slide">
                                           <p class="pricing__plan">Expert Plan</p>
@@ -473,7 +473,7 @@
                                                 <p>Fully Automatic execution (with affiliated brokers)</p>
                                               </div>
                                             </li>
-                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="">Choose Plan</a>
+                                          </ul><a class="pricing__btn c-btn c-btn--bg" href="#" title="" data-toggle="modal" data-target="#pricingExpertModal">Choose Plan</a>
                                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -676,6 +676,767 @@
       </div>
     </div>
     <!-- MODAL sign in :: END-->
+    <!-- MODAL pricing :: START-->
+    <div class="modal modal--pricing fade" id="pricingBasicModal" tabindex="-1" role="dialog" aria-labelledby="pricingBasic" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content px-1 px-md-3 py-4">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="pricingBasic">Basic Plan</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Summary of subscription plan :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-subtitle pb-2">Standard Plan <span>(one month)</span></p>
+                <ul class="pricing__list d-flex flex-column pb-0">
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Unlimited Private Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Create 1 Public Strategies</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <div class="modal-body-cover modal-body-cover--ww pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Total :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$49.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Coupon if any :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="form-group d-flex flex-column flex-sm-row justify-content-between modal-body-inputGroup mb-0">
+                  <input class="form-control" type="text" placeholder="" name>
+                  <button class="d-flex align-items-center justify-content-center" type="button">Apply</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body-cover modal-body-cover--ww pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">NET :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$9.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Type of subscription :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="pricing__type-wrapper d-none d-md-flex flex-column">
+                  <div class="pricing__type-row d-flex align-items-center">
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_" checked><span class="position-relative">One time</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Monthly</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Yearly</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-block d-md-none">
+                  <div class="form-group mb-0">
+                    <select class="form-control">
+                      <option>One time</option>
+                      <option>Monthly</option>
+                      <option>Yearly</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <p class="modal-body-heading pb-3">Payment Option</p>
+            <div class="modal__tabs-wrapper d-block d-md-flex">
+              <div class="modal__tabs-wrapper--left d-block d-md-flex flex-column position-relative"><a class="modal__tabs d-flex align-items-center justify-content-center is-active" href="#" data-btnTabs-id="0" title="">Wallet</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="1" title="">RazorPay</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="2" title="">Credit Card</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="3" title="">Netbanking</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="4" title="">Paytm</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="5" title="">Stripe</a></div>
+              <div class="modal__tabs-wrapper--right">
+                <div class="modal__tabs-content is-active" data-contentTabs="0">Wallet content</div>
+                <div class="modal__tabs-content" data-contentTabs="1">RazorPay content</div>
+                <div class="modal__tabs-content" data-contentTabs="2">
+                  <p class="modal-body-heading pb-3">Enter your Card Details</p>
+                  <div class="modal__credit-wrapper position-relative">
+                    <div class="modal__credit modal__credit-0">
+                      <div class="form-group">
+                        <label for="modalCardNumberPricing">Card number</label>
+                        <input class="form-control" id="modalCardNumberPricing" type="text" placeholder="">
+                      </div>
+                      <div class="modal__credit-form d-flex flex-wrap flex-md-nowrap">
+                        <div class="form-group">
+                          <label for="modalNameoOnTheRoadPricing">Name on the card</label>
+                          <input class="form-control" id="modalNameoOnTheRoadPricing" type="text" placeholder="">
+                        </div>
+                        <div class="d-flex">
+                          <div class="form-group mb-0">
+                            <label for="modalExpiredPricing">Expiry Date</label>
+                            <input class="form-control" id="modalExpiredPricing" type="text" placeholder="">
+                          </div>
+                          <div class="form-group d-md-none mb-0">
+                            <label for="modalCVVPricing-1">CVV</label>
+                            <input class="form-control" id="modalCVVPricing-1" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal__credit modal__credit-1 position-absolute d-none d-md-block">
+                      <div class="modal__credit-line"></div>
+                      <div class="modal__credit-body">
+                        <div class="modal__credit-form">
+                          <div class="form-group">
+                            <label for="modalCVVPricing">CVV</label>
+                            <input class="form-control" id="modalCVVPricing" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="3">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalChooseBankPricing">Select Bank</label>
+                        <select class="form-control" id="modalChooseBankPricing">
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="4">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group">
+                        <label for="modalMobileNumberPricing">Mobile number</label>
+                        <input class="form-control" id="modalMobileNumberPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalOtpPricing">OTP</label>
+                        <input class="form-control" id="modalOtpPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="5">Stripe content</div>
+              </div>
+            </div>
+            <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Purchase a plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL pricing :: END-->
+    <!-- MODAL pricing :: START-->
+    <div class="modal modal--pricing fade" id="pricingStandartModal" tabindex="-1" role="dialog" aria-labelledby="pricingStandart" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content px-3 py-4">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="pricingStandart">Standart Plan</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Summary of subscription plan :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-subtitle pb-2">Standard Plan <span>(one month)</span></p>
+                <ul class="pricing__list d-flex flex-column pb-0">
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Unlimited Private Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Create 1 Public Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Follow/Execute 5 strategies</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Total :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$49.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Coupon if any :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="form-group d-flex justify-content-between modal-body-inputGroup mb-0">
+                  <input class="form-control" type="text" placeholder="" name>
+                  <button class="d-flex align-items-center justify-content-center" type="button">Apply</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">NET :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$9.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Type of subscription :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="pricing__type-wrapper d-flex flex-column">
+                  <div class="pricing__type-row d-flex align-items-center">
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_" checked><span class="position-relative">One time</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Monthly</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Yearly</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <p class="modal-body-heading pb-3">Payment Option</p>
+            <div class="modal__tabs-wrapper d-block d-md-flex">
+              <div class="modal__tabs-wrapper--left d-block d-md-flex flex-column position-relative"><a class="modal__tabs d-flex align-items-center justify-content-center is-active" href="#" data-btnTabs-id="0" title="">Wallet</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="1" title="">RazorPay</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="2" title="">Credit Card</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="3" title="">Netbanking</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="4" title="">Paytm</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="5" title="">Stripe</a></div>
+              <div class="modal__tabs-wrapper--right">
+                <div class="modal__tabs-content is-active" data-contentTabs="0">Wallet content</div>
+                <div class="modal__tabs-content" data-contentTabs="1">RazorPay content</div>
+                <div class="modal__tabs-content" data-contentTabs="2">
+                  <p class="modal-body-heading pb-3">Enter your Card Details</p>
+                  <div class="modal__credit-wrapper position-relative">
+                    <div class="modal__credit modal__credit-0">
+                      <div class="form-group">
+                        <label for="modalCardNumberPricing">Card number</label>
+                        <input class="form-control" id="modalCardNumberPricing" type="text" placeholder="">
+                      </div>
+                      <div class="modal__credit-form d-flex flex-wrap flex-md-nowrap">
+                        <div class="form-group">
+                          <label for="modalNameoOnTheRoadPricing">Name on the card</label>
+                          <input class="form-control" id="modalNameoOnTheRoadPricing" type="text" placeholder="">
+                        </div>
+                        <div class="d-flex">
+                          <div class="form-group mb-0">
+                            <label for="modalExpiredPricing">Expiry Date</label>
+                            <input class="form-control" id="modalExpiredPricing" type="text" placeholder="">
+                          </div>
+                          <div class="form-group d-md-none mb-0">
+                            <label for="modalCVVPricing-1">CVV</label>
+                            <input class="form-control" id="modalCVVPricing-1" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal__credit modal__credit-1 position-absolute d-none d-md-block">
+                      <div class="modal__credit-line"></div>
+                      <div class="modal__credit-body">
+                        <div class="modal__credit-form">
+                          <div class="form-group">
+                            <label for="modalCVVPricing">CVV</label>
+                            <input class="form-control" id="modalCVVPricing" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="3">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalChooseBankPricing">Select Bank</label>
+                        <select class="form-control" id="modalChooseBankPricing">
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="4">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group">
+                        <label for="modalMobileNumberPricing">Mobile number</label>
+                        <input class="form-control" id="modalMobileNumberPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalOtpPricing">OTP</label>
+                        <input class="form-control" id="modalOtpPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="5">Stripe content</div>
+              </div>
+            </div>
+            <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Purchase a plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL pricing :: END-->
+    <!-- MODAL pricing :: START-->
+    <div class="modal modal--pricing fade" id="pricingProModal" tabindex="-1" role="dialog" aria-labelledby="pricingPro" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content px-3 py-4">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="pricingPro">Pro Plan</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Summary of subscription plan :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-subtitle pb-2">Standard Plan <span>(one month)</span></p>
+                <ul class="pricing__list d-flex flex-column pb-0">
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Unlimited Private Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Create 1 Public Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Follow/Execute 5 strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>30% sharing of strategy fees you earn from your followers</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Paper Trading</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Total :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$49.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Coupon if any :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="form-group d-flex justify-content-between modal-body-inputGroup mb-0">
+                  <input class="form-control" type="text" placeholder="" name>
+                  <button class="d-flex align-items-center justify-content-center" type="button">Apply</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">NET :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$9.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Type of subscription :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="pricing__type-wrapper d-flex flex-column">
+                  <div class="pricing__type-row d-flex align-items-center">
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_" checked><span class="position-relative">One time</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Monthly</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Yearly</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <p class="modal-body-heading pb-3">Payment Option</p>
+            <div class="modal__tabs-wrapper d-block d-md-flex">
+              <div class="modal__tabs-wrapper--left d-block d-md-flex flex-column position-relative"><a class="modal__tabs d-flex align-items-center justify-content-center is-active" href="#" data-btnTabs-id="0" title="">Wallet</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="1" title="">RazorPay</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="2" title="">Credit Card</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="3" title="">Netbanking</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="4" title="">Paytm</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="5" title="">Stripe</a></div>
+              <div class="modal__tabs-wrapper--right">
+                <div class="modal__tabs-content is-active" data-contentTabs="0">Wallet content</div>
+                <div class="modal__tabs-content" data-contentTabs="1">RazorPay content</div>
+                <div class="modal__tabs-content" data-contentTabs="2">
+                  <p class="modal-body-heading pb-3">Enter your Card Details</p>
+                  <div class="modal__credit-wrapper position-relative">
+                    <div class="modal__credit modal__credit-0">
+                      <div class="form-group">
+                        <label for="modalCardNumberPricing">Card number</label>
+                        <input class="form-control" id="modalCardNumberPricing" type="text" placeholder="">
+                      </div>
+                      <div class="modal__credit-form d-flex flex-wrap flex-md-nowrap">
+                        <div class="form-group">
+                          <label for="modalNameoOnTheRoadPricing">Name on the card</label>
+                          <input class="form-control" id="modalNameoOnTheRoadPricing" type="text" placeholder="">
+                        </div>
+                        <div class="d-flex">
+                          <div class="form-group mb-0">
+                            <label for="modalExpiredPricing">Expiry Date</label>
+                            <input class="form-control" id="modalExpiredPricing" type="text" placeholder="">
+                          </div>
+                          <div class="form-group d-md-none mb-0">
+                            <label for="modalCVVPricing-1">CVV</label>
+                            <input class="form-control" id="modalCVVPricing-1" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal__credit modal__credit-1 position-absolute d-none d-md-block">
+                      <div class="modal__credit-line"></div>
+                      <div class="modal__credit-body">
+                        <div class="modal__credit-form">
+                          <div class="form-group">
+                            <label for="modalCVVPricing">CVV</label>
+                            <input class="form-control" id="modalCVVPricing" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="3">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalChooseBankPricing">Select Bank</label>
+                        <select class="form-control" id="modalChooseBankPricing">
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="4">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group">
+                        <label for="modalMobileNumberPricing">Mobile number</label>
+                        <input class="form-control" id="modalMobileNumberPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalOtpPricing">OTP</label>
+                        <input class="form-control" id="modalOtpPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="5">Stripe content</div>
+              </div>
+            </div>
+            <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Purchase a plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL pricing :: END-->
+    <!-- MODAL pricing :: START-->
+    <div class="modal modal--pricing fade" id="pricingExpertModal" tabindex="-1" role="dialog" aria-labelledby="pricingExpert" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content px-3 py-4">
+          <div class="modal-header justify-content-center pb-3">
+            <h5 class="modal-title" id="pricingExpert">Expert Plan</h5>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Summary of subscription plan :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-subtitle pb-2">Standard Plan <span>(one month)</span></p>
+                <ul class="pricing__list d-flex flex-column pb-0">
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Unlimited Private Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Create 1 Public Strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Follow/Execute 5 strategies</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>30% sharing of strategy fees you earn from your followers</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Paper Trading</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Offline execution'</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Auto execution with one click</p>
+                    </div>
+                  </li>
+                  <li class="pricing__list-item d-flex">
+                    <div><i class="icon-font icon-check"></i></div>
+                    <div>
+                      <p>Fully Automatic execution (with affiliated brokers)</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Total :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$49.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Coupon if any :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="form-group d-flex justify-content-between modal-body-inputGroup mb-0">
+                  <input class="form-control" type="text" placeholder="" name>
+                  <button class="d-flex align-items-center justify-content-center" type="button">Apply</button>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body-cover pb-4">
+              <div class="modal-body-col">
+                <p class="modal-body-title">NET :</p>
+              </div>
+              <div class="modal-body-col">
+                <p class="modal-body-total">$9.99</p>
+              </div>
+            </div>
+            <div class="modal-body-cover">
+              <div class="modal-body-col">
+                <p class="modal-body-title">Type of subscription :</p>
+              </div>
+              <div class="modal-body-col">
+                <div class="pricing__type-wrapper d-flex flex-column">
+                  <div class="pricing__type-row d-flex align-items-center">
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_" checked><span class="position-relative">One time</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Monthly</span>
+                      </label>
+                    </div>
+                    <div>
+                      <label class="position-relative">
+                        <input class="position-absolute" type="radio" name="radio_"><span class="position-relative">Yearly</span>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal__divider mt-4 mb-4"></div>
+            <p class="modal-body-heading pb-3">Payment Option</p>
+            <div class="modal__tabs-wrapper d-block d-md-flex">
+              <div class="modal__tabs-wrapper--left d-block d-md-flex flex-column position-relative"><a class="modal__tabs d-flex align-items-center justify-content-center is-active" href="#" data-btnTabs-id="0" title="">Wallet</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="1" title="">RazorPay</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="2" title="">Credit Card</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="3" title="">Netbanking</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="4" title="">Paytm</a><a class="modal__tabs d-flex align-items-center justify-content-center" href="#" data-btnTabs-id="5" title="">Stripe</a></div>
+              <div class="modal__tabs-wrapper--right">
+                <div class="modal__tabs-content is-active" data-contentTabs="0">Wallet content</div>
+                <div class="modal__tabs-content" data-contentTabs="1">RazorPay content</div>
+                <div class="modal__tabs-content" data-contentTabs="2">
+                  <p class="modal-body-heading pb-3">Enter your Card Details</p>
+                  <div class="modal__credit-wrapper position-relative">
+                    <div class="modal__credit modal__credit-0">
+                      <div class="form-group">
+                        <label for="modalCardNumberPricing">Card number</label>
+                        <input class="form-control" id="modalCardNumberPricing" type="text" placeholder="">
+                      </div>
+                      <div class="modal__credit-form d-flex flex-wrap flex-md-nowrap">
+                        <div class="form-group">
+                          <label for="modalNameoOnTheRoadPricing">Name on the card</label>
+                          <input class="form-control" id="modalNameoOnTheRoadPricing" type="text" placeholder="">
+                        </div>
+                        <div class="d-flex">
+                          <div class="form-group mb-0">
+                            <label for="modalExpiredPricing">Expiry Date</label>
+                            <input class="form-control" id="modalExpiredPricing" type="text" placeholder="">
+                          </div>
+                          <div class="form-group d-md-none mb-0">
+                            <label for="modalCVVPricing-1">CVV</label>
+                            <input class="form-control" id="modalCVVPricing-1" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal__credit modal__credit-1 position-absolute d-none d-md-block">
+                      <div class="modal__credit-line"></div>
+                      <div class="modal__credit-body">
+                        <div class="modal__credit-form">
+                          <div class="form-group">
+                            <label for="modalCVVPricing">CVV</label>
+                            <input class="form-control" id="modalCVVPricing" type="text" placeholder="MM/YY">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="3">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalChooseBankPricing">Select Bank</label>
+                        <select class="form-control" id="modalChooseBankPricing">
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                          <option>HDFC</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="4">
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group">
+                        <label for="modalMobileNumberPricing">Mobile number</label>
+                        <input class="form-control" id="modalMobileNumberPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                  <div class="modal-body-cover">
+                    <div class="modal-body-col">
+                      <div class="form-group mb-0">
+                        <label for="modalOtpPricing">OTP</label>
+                        <input class="form-control" id="modalOtpPricing" type="text">
+                      </div>
+                    </div>
+                    <div class="modal-body-col"></div>
+                  </div>
+                </div>
+                <div class="modal__tabs-content" data-contentTabs="5">Stripe content</div>
+              </div>
+            </div>
+            <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Purchase a plan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL pricing :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>
