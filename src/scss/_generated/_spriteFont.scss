@@ -30,158 +30,197 @@
 	@if $filename == agenda {
 		$char: "\E001";
 	}
-	@if $filename == analytics {
+	@if $filename == alert {
 		$char: "\E002";
 	}
-	@if $filename == arrow {
+	@if $filename == analytics {
 		$char: "\E003";
 	}
-	@if $filename == bar-chart {
+	@if $filename == arrow {
 		$char: "\E004";
 	}
-	@if $filename == calculator {
+	@if $filename == bar-chart {
 		$char: "\E005";
 	}
-	@if $filename == calendar {
+	@if $filename == bell {
 		$char: "\E006";
 	}
-	@if $filename == chart {
+	@if $filename == calculator {
 		$char: "\E007";
 	}
-	@if $filename == check {
+	@if $filename == calendar {
 		$char: "\E008";
 	}
-	@if $filename == checklist {
+	@if $filename == cancel {
 		$char: "\E009";
 	}
-	@if $filename == chip {
+	@if $filename == chart {
 		$char: "\E00A";
 	}
-	@if $filename == clock {
+	@if $filename == check {
 		$char: "\E00B";
 	}
-	@if $filename == close {
+	@if $filename == checklist {
 		$char: "\E00C";
 	}
-	@if $filename == controls {
+	@if $filename == chip {
 		$char: "\E00D";
 	}
-	@if $filename == corner {
+	@if $filename == clock {
 		$char: "\E00E";
 	}
-	@if $filename == deadline {
+	@if $filename == close {
 		$char: "\E00F";
 	}
-	@if $filename == diagram {
+	@if $filename == controls {
 		$char: "\E010";
 	}
-	@if $filename == edit {
+	@if $filename == copy {
 		$char: "\E011";
 	}
-	@if $filename == email {
+	@if $filename == corner {
 		$char: "\E012";
 	}
-	@if $filename == facebook {
+	@if $filename == deadline {
 		$char: "\E013";
 	}
-	@if $filename == favorites {
+	@if $filename == diagram {
 		$char: "\E014";
 	}
-	@if $filename == file-2 {
+	@if $filename == duplicate {
 		$char: "\E015";
 	}
-	@if $filename == file {
+	@if $filename == edit {
 		$char: "\E016";
 	}
-	@if $filename == google-plus {
+	@if $filename == email {
 		$char: "\E017";
 	}
-	@if $filename == graphene {
+	@if $filename == envelope {
 		$char: "\E018";
 	}
-	@if $filename == hand {
+	@if $filename == facebook {
 		$char: "\E019";
 	}
-	@if $filename == id-card {
+	@if $filename == favorites {
 		$char: "\E01A";
 	}
-	@if $filename == idea {
+	@if $filename == file-2 {
 		$char: "\E01B";
 	}
-	@if $filename == information {
+	@if $filename == file {
 		$char: "\E01C";
 	}
-	@if $filename == innovation {
+	@if $filename == garbage {
 		$char: "\E01D";
 	}
-	@if $filename == internet {
+	@if $filename == google-plus {
 		$char: "\E01E";
 	}
-	@if $filename == layers {
+	@if $filename == graphene {
 		$char: "\E01F";
 	}
-	@if $filename == line-chart {
+	@if $filename == hand {
 		$char: "\E020";
 	}
-	@if $filename == linkedin {
+	@if $filename == id-card {
 		$char: "\E021";
 	}
-	@if $filename == maze {
+	@if $filename == idea {
 		$char: "\E022";
 	}
-	@if $filename == money {
+	@if $filename == information {
 		$char: "\E023";
 	}
-	@if $filename == photos {
+	@if $filename == innovation {
 		$char: "\E024";
 	}
-	@if $filename == plus {
+	@if $filename == internet {
 		$char: "\E025";
 	}
-	@if $filename == puzzle {
+	@if $filename == key {
 		$char: "\E026";
 	}
-	@if $filename == safebox {
+	@if $filename == layers {
 		$char: "\E027";
 	}
-	@if $filename == search {
+	@if $filename == line-chart {
 		$char: "\E028";
 	}
-	@if $filename == settings {
+	@if $filename == link {
 		$char: "\E029";
 	}
-	@if $filename == share {
+	@if $filename == linkedin {
 		$char: "\E02A";
 	}
-	@if $filename == shield {
+	@if $filename == maze {
 		$char: "\E02B";
 	}
-	@if $filename == signin {
+	@if $filename == money {
 		$char: "\E02C";
 	}
-	@if $filename == smartphone {
+	@if $filename == photos {
 		$char: "\E02D";
 	}
-	@if $filename == star {
+	@if $filename == plus {
 		$char: "\E02E";
 	}
-	@if $filename == stop {
+	@if $filename == puzzle {
 		$char: "\E02F";
 	}
-	@if $filename == stopwatch {
+	@if $filename == safebox {
 		$char: "\E030";
 	}
-	@if $filename == success {
+	@if $filename == search {
 		$char: "\E031";
 	}
-	@if $filename == twitter {
+	@if $filename == settings {
 		$char: "\E032";
 	}
-	@if $filename == users {
+	@if $filename == share {
 		$char: "\E033";
 	}
-	@if $filename == workflow {
+	@if $filename == shield {
 		$char: "\E034";
+	}
+	@if $filename == signin {
+		$char: "\E035";
+	}
+	@if $filename == smartphone {
+		$char: "\E036";
+	}
+	@if $filename == star {
+		$char: "\E037";
+	}
+	@if $filename == stop {
+		$char: "\E038";
+	}
+	@if $filename == stopwatch {
+		$char: "\E039";
+	}
+	@if $filename == success {
+		$char: "\E03A";
+	}
+	@if $filename == twitter {
+		$char: "\E03B";
+	}
+	@if $filename == upload {
+		$char: "\E03C";
+	}
+	@if $filename == user-profile {
+		$char: "\E03D";
+	}
+	@if $filename == user {
+		$char: "\E03E";
+	}
+	@if $filename == users {
+		$char: "\E03F";
+	}
+	@if $filename == wallet {
+		$char: "\E040";
+	}
+	@if $filename == workflow {
+		$char: "\E041";
 	}
 
 	@return $char;
@@ -202,6 +241,10 @@
 	@include icon(agenda);
 
 }
+.icon-alert {
+	@include icon(alert);
+
+}
 .icon-analytics {
 	@include icon(analytics);
 
@@ -214,12 +257,20 @@
 	@include icon(bar-chart);
 
 }
+.icon-bell {
+	@include icon(bell);
+
+}
 .icon-calculator {
 	@include icon(calculator);
 
 }
 .icon-calendar {
 	@include icon(calendar);
+
+}
+.icon-cancel {
+	@include icon(cancel);
 
 }
 .icon-chart {
@@ -250,6 +301,10 @@
 	@include icon(controls);
 
 }
+.icon-copy {
+	@include icon(copy);
+
+}
 .icon-corner {
 	@include icon(corner);
 
@@ -262,12 +317,20 @@
 	@include icon(diagram);
 
 }
+.icon-duplicate {
+	@include icon(duplicate);
+
+}
 .icon-edit {
 	@include icon(edit);
 
 }
 .icon-email {
 	@include icon(email);
+
+}
+.icon-envelope {
+	@include icon(envelope);
 
 }
 .icon-facebook {
@@ -284,6 +347,10 @@
 }
 .icon-file {
 	@include icon(file);
+
+}
+.icon-garbage {
+	@include icon(garbage);
 
 }
 .icon-google-plus {
@@ -318,12 +385,20 @@
 	@include icon(internet);
 
 }
+.icon-key {
+	@include icon(key);
+
+}
 .icon-layers {
 	@include icon(layers);
 
 }
 .icon-line-chart {
 	@include icon(line-chart);
+
+}
+.icon-link {
+	@include icon(link);
 
 }
 .icon-linkedin {
@@ -398,8 +473,24 @@
 	@include icon(twitter);
 
 }
+.icon-upload {
+	@include icon(upload);
+
+}
+.icon-user-profile {
+	@include icon(user-profile);
+
+}
+.icon-user {
+	@include icon(user);
+
+}
 .icon-users {
 	@include icon(users);
+
+}
+.icon-wallet {
+	@include icon(wallet);
 
 }
 .icon-workflow {

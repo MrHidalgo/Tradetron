@@ -1,0 +1,233 @@
+// HEADER :: START
+
+header#header.header.header--login
+
+	.header__wrapper
+
+		.container
+			.row.align-items-center
+
+				.col-12.col-xl-3.d-flex.align-items-center.justify-content-between.d-xl-block
+
+					.logotype.logotype--header
+						a.logotype__link.d-flex.align-items-start(href="#" class="" title="")
+							img.logotype__img.img-fluid(src="img/img-logotype-dark.png" srcset="img/img-logotype-dark@2x.png 2x, img/img-logotype-dark@3x.png 3x" alt="" title="")
+
+					.d-flex.align-items-center.d-xl-none
+						.header__nav.header__nav--alert.mr-2
+							.header__nav
+								a(href="#" class="" title="")
+									i.icon-font.icon-alert
+									span!= "1"
+
+						+hamburger()
+
+					.header__menu.animate.fadeIn(mobile-block-js)
+						.header__menu-body.d-flex
+
+							.header__menu-row.d-flex.w-100
+								.header__menu-col
+									.header__nav-wrapper
+										.header__nav.header__nav--profile
+											.dropdown
+												button.btn.dropdown-toggle.d-flex.align-items-center.pl-0(type='button')
+													p
+														u
+														i.icon-font.icon-user-profile
+													span!= 'John Smith'
+												.dropdown-menu.d-block
+													.dropdown-menu-wrapper.d-flex.flex-column
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-user
+															div
+																span!= "Profile"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-envelope
+															div
+																span!= "Subscriptions"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-file
+															div
+																span!= "Broker & Exchanges"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-favorites
+															div
+																span!= "Coupons"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-link
+															div
+																span!= "Linked Accounts"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-bell
+															div
+																span!= "Notifications"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-key
+															div
+																span!= "Change Password"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-cancel
+															div
+																span!= "Logout"
+
+								.header__menu-col
+									.header__nav-wrapper
+										.header__nav.header__nav--wallet
+											.dropdown
+												button.btn.dropdown-toggle.d-flex.align-items-center.pl-0(type='button')
+													i.icon-font.icon-wallet
+													span!= 'Wallet'
+												.dropdown-menu.d-block
+													.dropdown-menu-wrapper.d-flex.flex-column
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-id-card
+															div
+																span!= "Accounts"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-hand
+															div
+																span!= "Add Funds"
+
+														a.dropdown-item.d-flex.align-items-center(href='#')
+															div
+																i.icon-font.icon-money
+															div
+																span!= "Withdraw Funds"
+
+									.header__nav-wrapper
+										.header__nav
+											a(href="#" class!= (pageClassName === 'p-dashboard') ? 'is-active' : '' title="")!= "Dashboard"
+										.header__nav
+											a(href="#" class="" title="")!= "Strategy"
+										.header__nav
+											a(href="#" class="" title="")!= "My Subscribers"
+										.header__nav
+											a(href="#" class="" title="")!= "Reports"
+
+				.col-6.d-none.d-xl-block
+
+					.header__nav-wrapper.d-flex.align-items-center.justify-content-center
+						.header__nav
+							a(href="#" class!= (pageClassName === 'p-dashboard') ?'is-active':'' title="")!= "Dashboard"
+						.header__nav
+							a(href="#" class="" title="")!= "Strategy"
+						.header__nav
+							a(href="#" class="" title="")!= "My Subscribers"
+						.header__nav
+							a(href="#" class="" title="")!= "Reports"
+
+				.col-3.d-none.d-xl-block.pl-0
+
+					.header__profile-wrapper.d-flex.align-items-center.justify-content-end
+
+						.header__nav.header__nav--alert
+							.header__nav
+								a(href="#" class="" title="")
+									i.icon-font.icon-alert
+									span!= "1"
+
+						.header__nav.header__nav--wallet
+							.dropdown
+								button#dropdownMenuWallet.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+									i.icon-font.icon-wallet
+									span!= 'Wallet'
+								.dropdown-menu.animate.slideIn(aria-labelledby='dropdownMenuWallet')
+									.dropdown-menu-corner.position-absolute
+									.dropdown-menu-wrapper.d-flex.flex-column
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-id-card
+											div
+												span!= "Accounts"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-hand
+											div
+												span!= "Add Funds"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-money
+											div
+												span!= "Withdraw Funds"
+
+						.header__nav.header__nav--profile
+							.dropdown
+								button#dropdownMenuProfile.btn.dropdown-toggle.d-flex.align-items-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+									p
+										u
+										i.icon-font.icon-user-profile
+									span!= 'John Smith'
+									i.icon-font.icon-corner
+								.dropdown-menu.animate.slideIn(aria-labelledby='dropdownMenuProfile')
+									.dropdown-menu-corner.position-absolute
+									.dropdown-menu-wrapper.d-flex.flex-column
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-user
+											div
+												span!= "Profile"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-envelope
+											div
+												span!= "Subscriptions"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-file
+											div
+												span!= "Broker & Exchanges"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-favorites
+											div
+												span!= "Coupons"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-link
+											div
+												span!= "Linked Accounts"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-bell
+											div
+												span!= "Notifications"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-key
+											div
+												span!= "Change Password"
+
+										a.dropdown-item.d-flex.align-items-center(href='#')
+											div
+												i.icon-font.icon-cancel
+											div
+												span!= "Logout"
+
+
+// HEADER :: END

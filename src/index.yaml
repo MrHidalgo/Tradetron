@@ -12,4 +12,7 @@ PageList:
   ready: 90
 - file: pricing.html
   titleName: Pricing
-  ready: 35
+  ready: 90
+- file: dashboard.html
+  titleName: Dashboard
+  ready: 1
