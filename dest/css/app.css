@@ -6122,4 +6122,278 @@ picture {
   padding-bottom: 0;
 }
 
+/* line 3, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard {
+  overflow: unset;
+  padding-top: 100px;
+}
+
+/* line 7, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 374px) {
+  /* line 12, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option-exposure, .dashboard__option-margin, .dashboard__option-pl {
+    width: 100%;
+    max-width: 50%;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* line 21, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option-exposure p, .dashboard__option-margin p, .dashboard__option-pl p {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.47px;
+}
+
+/* line 27, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option-exposure span, .dashboard__option-margin span, .dashboard__option-pl span {
+  font-size: 18px;
+  letter-spacing: 0.47px;
+}
+
+@media screen and (max-width: 374px) {
+  /* line 33, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option-exposure {
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+
+/* line 39, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option-exposure span {
+  color: #22c993;
+}
+
+@media screen and (max-width: 374px) {
+  /* line 44, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option-margin {
+    text-align: right;
+  }
+}
+
+/* line 52, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option-margin span, .dashboard__option-pl span {
+  color: #f05858;
+}
+
+/* line 57, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown {
+  width: 100%;
+}
+
+@media screen and (max-width: 374px) {
+  /* line 57, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option .dropdown {
+    max-width: 100% !important;
+  }
+  /* line 62, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option .dropdown:nth-of-type(2) {
+    padding-top: 0.5rem;
+  }
+}
+
+/* line 67, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--border {
+  max-width: 167px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 70, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option .dropdown--border:nth-of-type(3) {
+    margin-left: -webkit-calc(140px + 1.5rem);
+    margin-left: calc(140px + 1.5rem);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 70, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__option .dropdown--border:nth-of-type(3) {
+    margin-left: auto;
+  }
+}
+
+/* line 79, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--border .dropdown-toggle {
+  background-color: #ffffff;
+  border: 1px solid rgba(185, 185, 185, 0.3);
+}
+
+/* line 85, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--bg {
+  max-width: 140px;
+}
+
+/* line 88, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--bg .dropdown-toggle {
+  background-color: #6772e5;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* line 93, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--bg .dropdown-toggle:hover {
+  color: #fff;
+}
+
+/* line 99, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown--bg.show .btn {
+  color: #fff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 106, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-toggle {
+  width: 100%;
+  height: 40px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  font-size: 14px;
+  letter-spacing: 0.44px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 115, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-toggle:focus, .dashboard__option .dropdown-toggle.focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 121, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-toggle.is-active {
+  color: #fff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 126, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-toggle .icon-font {
+  margin-left: 5px;
+  font-size: 8px;
+}
+
+/* line 132, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-menu {
+  left: auto !important;
+  right: 0;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background-color: transparent;
+}
+
+/* line 142, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-menu-corner {
+  z-index: 0;
+  top: -5px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 153, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-menu-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 162, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item {
+  min-height: 20px;
+  padding: 0 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 168, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item:hover {
+  background-color: transparent;
+}
+
+/* line 171, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item:hover .icon-font,
+.dashboard__option .dropdown-item:hover span {
+  color: #6772e5;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 178, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 181, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item > div:nth-of-type(1) {
+  width: 30px;
+}
+
+/* line 184, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 22px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 194, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 201, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__option .dropdown-item .icon-font {
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
 /*# sourceMappingURL=maps/app.css.map */

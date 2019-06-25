@@ -1,0 +1,98 @@
+// SECTION main :: START
+
+section#main.main.dashboard.position-relative
+
+	.main__bg.main__bg-0.position-absolute.w-100.h-100
+		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
+
+	.main__wrapper.dashboard__wrapper.position-relative
+
+		.container
+			.row
+				.col
+
+					.dashboard__option.py-2.py-lg-0
+						.container
+							.row
+								.col-12.col-md-7.d-flex.align-items-center.flex-wrap.flex-lg-nowrap
+
+									.dropdown.dropdown--bg.mr-sm-4
+										button#dropdownDashOptionNew.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= 'New window'
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashOptionNew')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "New Marketwatch"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "New Chart"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "New Option Chain"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "New Heatmap"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "New Order Book"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "All Positions"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Tile Windows"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Default Windows"
+
+									.dropdown.dropdown--border.ml-auto.ml-md-0.mr-lg-4
+										button#dropdownDashOptionStrategy.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= 'Select Strategy'
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashOptionStrategy')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Select All"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Stop And Reverse"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Stop And Reverse"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Gama scalping"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Stop And Reverse"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Calendar Spread"
+
+									.dropdown.dropdown--border.pt-2.pt-lg-0
+										button#dropdownDashOptionDay.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= 'Select Day/Expiry'
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashOptionDay')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Today"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Weekly"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Monthly"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Quarterly"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "6 Months"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Yearly"
+
+								.col-12.col-md-5.d-flex.align-items-center.justify-content-between.justify-content-md-start.justify-content-lg-end.py-2.flex-wrap.flex-lg-nowrap
+									.dashboard__option-pl.d-flex.flex-column
+										p!= "P&L:"
+										span!= "$ 2300 (1.15%)"
+									.dashboard__option-margin.d-flex.flex-column.pl-3.pl-md-5
+										p!= "Margin:"
+										span!= "$ 50k"
+									.dashboard__option-exposure.d-flex.flex-column.pt-md-2.pt-lg-0.pl-3.pl-md-0.pl-lg-5.mr-md-auto.mr-lg-0
+										p!= "Exposure:"
+										span!= "$ 5 Mil"
+
+
+	.main__bg.main__bg-1.position-absolute.w-100.h-100
+		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
+			.main__bg-col.main__bg-col-1.position-absolute
+			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end.position-absolute
+				img.main__bg-img.main__bg-img-3.img-fluid.d-block.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
+
+// SECTION main :: END

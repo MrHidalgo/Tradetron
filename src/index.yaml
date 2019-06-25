@@ -3,13 +3,13 @@ ProjectTitle: Tradetron
 PageList:
 - file: index.html
   titleName: Home
-  ready: 90
+  ready: 95
 - file: features.html
   titleName: Features
-  ready: 90
+  ready: 95
 - file: use-cases.html
   titleName: Use Cases
-  ready: 90
+  ready: 95
 - file: pricing.html
   titleName: Pricing
   ready: 90
