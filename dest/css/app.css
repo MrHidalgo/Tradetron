@@ -6449,7 +6449,7 @@ picture {
   font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   /* line 143, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block .table th {
     white-space: nowrap;

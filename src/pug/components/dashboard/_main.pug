@@ -197,12 +197,12 @@ section#main.main.dashboard.position-relative
 												td Submitted
 											tr
 												td.pl-0(scope="row") April 30 12:35:10 pm
-												td Reliance
+												td AAPL
 												td 50
-												td Rs. 2
-												td Rs. 23,343
-												td Trade swift
-												td Submitted
+												td $2
+												td $ 234
+												td Trade station
+												td Rejected
 											tr
 												td(scope="row")
 												td!= "<strong>Total</strong>"
@@ -238,8 +238,48 @@ section#main.main.dashboard.position-relative
 													div
 														span!= "Delete list"
 
-							.dashboard__block-body.pl-3.pr-3
-							//.dashboard__block-footer.pl-3.pr-3.pb-3
+							.dashboard__block-body.pl-3.pr-3.pb-4
+
+								.table-responsive
+									table.table.mb-0
+										thead
+											tr
+												th.pl-0(scope="col") Date/Time
+												th(scope="col") Symbol
+												th(scope="col") Qty
+												th(scope="col") Price
+												th(scope="col") MTM Price
+												th(scope="col") Value
+												th(scope="col") Profit / Loss
+												th(scope="col") Profit / Loss %
+										tbody
+											tr
+												td.pl-0(scope="row") April 30 12:35:10 pm
+												td Reliance
+												td 50000
+												td Rs. 2
+												td Rs. 23
+												td Rs. 24,34,344
+												td Rs. 4,00,023
+												td 250%
+											tr
+												td.pl-0(scope="row") April 30 12:35:10 pm
+												td AAPL
+												td 400
+												td $20
+												td $23
+												td $45,000
+												td $24,000
+												td 250%
+											tr
+												td.pl-0(scope="row")
+												td!= "<strong>Total</strong>"
+												td!= "<strong>50400</strong>"
+												td
+												td
+												td!= "<strong>Rs.<br>4,00,023 <br>$ 24,000</strong>"
+												td!= "<strong>Rs.<br>4,00,023 <br>$ 24,000</strong>"
+												td
 
 						.dashboard__block.dashboard__block-chart
 
