@@ -5,7 +5,7 @@ section#main.main.dashboard.position-relative
 	.main__bg.main__bg-0.position-absolute.w-100.h-100
 		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
 
-	.main__wrapper.dashboard__wrapper.position-relative
+	.main__wrapper.dashboard__wrapper.dashboard__wrapper-0.position-relative
 
 		.container
 			.row
@@ -87,6 +87,419 @@ section#main.main.dashboard.position-relative
 									.dashboard__option-exposure.d-flex.flex-column.pt-md-2.pt-lg-0.pl-3.pl-md-0.pl-lg-5.mr-md-auto.mr-lg-0
 										p!= "Exposure:"
 										span!= "$ 5 Mil"
+
+	.main__wrapper.dashboard__wrapper.dashboard__wrapper-1
+
+		.container
+			.row
+				.col
+
+					.dashboard__block-wrapper
+
+						.dashboard__block.dashboard__block-notification
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Notifications"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3.pb-4
+
+								table.table.mb-0
+									tbody
+										tr
+											td.pl-0
+												p!= "<span>April 30 |</span> <span>12:35:10 pm</span>"
+											td
+												span Order Submitted to lorem ipsum dolor sit amet, integer ornare aenean morbi nam, iaculis accumsan, dignissim quam
+										tr
+											td.pl-0
+												p!= "<span>April 30 |</span> <span>12:35:10 pm</span>"
+											td
+												span Order Submitted to lorem ipsum dolor sit amet, integer ornare aenean morbi nam, iaculis accumsan, dignissim quam
+										tr
+											td.pl-0
+												p!= "<span>April 30 |</span> <span>12:35:10 pm</span>"
+											td
+												span Order Submitted to lorem ipsum dolor sit amet, integer ornare aenean morbi nam, iaculis accumsan, dignissim quam
+										tr
+											td.pl-0
+												p!= "<span>April 30 |</span> <span>12:35:10 pm</span>"
+											td
+												span Order Submitted to lorem ipsum dolor sit amet, integer ornare aenean morbi nam, iaculis accumsan, dignissim quam
+
+						.dashboard__block.dashboard__block-orderBook
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Order Book"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+							//.dashboard__block-footer.pl-3.pr-3.pb-3
+
+						.dashboard__block.dashboard__block-allPositions
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "All Positions"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+							//.dashboard__block-footer.pl-3.pr-3.pb-3
+
+						.dashboard__block.dashboard__block-chart
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Chart"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+							//.dashboard__block-footer.pl-3.pr-3.pb-3
+
+						.dashboard__block.dashboard__block-heatMap
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Heat Map"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+							//.dashboard__block-footer.pl-3.pr-3.pb-3
+
+						.dashboard__block.dashboard__block-optionChain
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Option Chain"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+									p.mr-3!= "View Options Contracts for:"
+
+									.dropdown.dropdown--border.mr-3
+										button#dropdownDashBlockExchange.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Exchange"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExchange')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-3
+										button#dropdownDashBlockUnderlying.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Underlying"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockUnderlying')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-3
+										button#dropdownDashBlockExpiry.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Expiry"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExpiry')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2(href="#" class="" title="")
+										span!= "Go"
+
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+							.dashboard__block-footer.p-3
+								.d-flex.align-items-center.justify-content-between.pb-3
+									.dashboard__block-info
+										p!= "Net Geeks: Delta 0.7593 | Gamma 0.4294 | Theta 0.3523 | Vega 0.4638"
+
+									.dashboard__block-payoff.d-flex.align-items-center.justify-content-end
+										.d-flex.align-items-center.pr-2
+											p!= "Margin:"
+											input(type="text")
+										.d-flex.align-items-center.pr-2
+											p!= "Premium-buy:"
+											input(type="text")
+										.d-flex.align-items-center.pr-2
+											p!= "Sell:"
+											input(type="text")
+										.d-flex.align-items-center.pr-2
+											p!= "Net:"
+											input(type="text")
+										a.dashboard__block-btn.dashboard__block-btn--border.d-flex.align-items-center.justify-content-center.mr-2(href="#" class="" title="")
+											span!= "Payoff chart"
+
+								.d-flex.align-items-center.justify-content-end.dashboard__block-strategy
+
+									p.pr-2!= "Strategy"
+									.dropdown.dropdown--border.mr-3
+										button#dropdownDashBlockStrategy.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Choose strategy"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockStrategy')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									p.pr-2!= "Create new strategy"
+									input.mr-3(type="text")
+
+									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2(href="#" class="" title="")
+										span!= "Go"
+
+
+						.dashboard__block.dashboard__block-marketWatch
+
+							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									i.icon-font.icon-close
+
+								p.dashboard__block-title!= "Market watch"
+
+								.dashboard__block-header--option.d-flex.align-items-center
+
+									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2(href="#" class="" title="")
+										span!= "+ New List"
+
+									.dropdown.dropdown--border.mr-3
+										button#dropdownDashBlockSelectList.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Select list"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockSelectList')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown
+										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											i.icon-font.icon-more
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-copy
+													div
+														span!= "Duplicate list"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-cvs
+													div
+														span!= "Export as CSV"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													div
+														i.icon-font.icon-garbage
+													div
+														span!= "Delete list"
+
+							.dashboard__block-body.pl-3.pr-3
+
+								.dashboard__block-option.d-flex.align-items-center.pb-3
+
+									.dropdown.dropdown--border.mr-2
+										button#dropdownDashBlockExchange.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Exchange"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExchange')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-2
+										button#dropdownDashBlockUnderlying.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Underlying"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockUnderlying')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-2
+										button#dropdownDashBlockType.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Type"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockType')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-2
+										button#dropdownDashBlockStrike.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Strike"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockStrike')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									.dropdown.dropdown--border.mr-2
+										button#dropdownDashBlockExpiry.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+											span!= "Expiry"
+										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExpiry')
+											.dropdown-menu-corner.position-absolute
+											.dropdown-menu-wrapper.d-flex.flex-column
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "Some action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More action"
+												a.dropdown-item.d-flex.align-items-center(href='#')
+													span!= "More"
+
+									a.dashboard__block-btn.dashboard__block-btn--border.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+										span!= "Add"
+
+
+							//.dashboard__block-footer.pl-3.pr-3.pb-3
 
 
 	.main__bg.main__bg-1.position-absolute.w-100.h-100

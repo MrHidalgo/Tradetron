@@ -81,146 +81,152 @@
 	@if $filename == corner {
 		$char: "\E012";
 	}
-	@if $filename == deadline {
+	@if $filename == cvs {
 		$char: "\E013";
 	}
-	@if $filename == diagram {
+	@if $filename == deadline {
 		$char: "\E014";
 	}
-	@if $filename == duplicate {
+	@if $filename == diagram {
 		$char: "\E015";
 	}
-	@if $filename == edit {
+	@if $filename == duplicate {
 		$char: "\E016";
 	}
-	@if $filename == email {
+	@if $filename == edit {
 		$char: "\E017";
 	}
-	@if $filename == envelope {
+	@if $filename == email {
 		$char: "\E018";
 	}
-	@if $filename == facebook {
+	@if $filename == envelope {
 		$char: "\E019";
 	}
-	@if $filename == favorites {
+	@if $filename == facebook {
 		$char: "\E01A";
 	}
-	@if $filename == file-2 {
+	@if $filename == favorites {
 		$char: "\E01B";
 	}
-	@if $filename == file {
+	@if $filename == file-2 {
 		$char: "\E01C";
 	}
-	@if $filename == garbage {
+	@if $filename == file {
 		$char: "\E01D";
 	}
-	@if $filename == google-plus {
+	@if $filename == garbage {
 		$char: "\E01E";
 	}
-	@if $filename == graphene {
+	@if $filename == google-plus {
 		$char: "\E01F";
 	}
-	@if $filename == hand {
+	@if $filename == graphene {
 		$char: "\E020";
 	}
-	@if $filename == id-card {
+	@if $filename == hand {
 		$char: "\E021";
 	}
-	@if $filename == idea {
+	@if $filename == id-card {
 		$char: "\E022";
 	}
-	@if $filename == information {
+	@if $filename == idea {
 		$char: "\E023";
 	}
-	@if $filename == innovation {
+	@if $filename == information {
 		$char: "\E024";
 	}
-	@if $filename == internet {
+	@if $filename == innovation {
 		$char: "\E025";
 	}
-	@if $filename == key {
+	@if $filename == internet {
 		$char: "\E026";
 	}
-	@if $filename == layers {
+	@if $filename == key {
 		$char: "\E027";
 	}
-	@if $filename == line-chart {
+	@if $filename == layers {
 		$char: "\E028";
 	}
-	@if $filename == link {
+	@if $filename == line-chart {
 		$char: "\E029";
 	}
-	@if $filename == linkedin {
+	@if $filename == link {
 		$char: "\E02A";
 	}
-	@if $filename == maze {
+	@if $filename == linkedin {
 		$char: "\E02B";
 	}
-	@if $filename == money {
+	@if $filename == maze {
 		$char: "\E02C";
 	}
-	@if $filename == photos {
+	@if $filename == money {
 		$char: "\E02D";
 	}
-	@if $filename == plus {
+	@if $filename == more {
 		$char: "\E02E";
 	}
-	@if $filename == puzzle {
+	@if $filename == photos {
 		$char: "\E02F";
 	}
-	@if $filename == safebox {
+	@if $filename == plus {
 		$char: "\E030";
 	}
-	@if $filename == search {
+	@if $filename == puzzle {
 		$char: "\E031";
 	}
-	@if $filename == settings {
+	@if $filename == safebox {
 		$char: "\E032";
 	}
-	@if $filename == share {
+	@if $filename == search {
 		$char: "\E033";
 	}
-	@if $filename == shield {
+	@if $filename == settings {
 		$char: "\E034";
 	}
-	@if $filename == signin {
+	@if $filename == share {
 		$char: "\E035";
 	}
-	@if $filename == smartphone {
+	@if $filename == shield {
 		$char: "\E036";
 	}
-	@if $filename == star {
+	@if $filename == signin {
 		$char: "\E037";
 	}
-	@if $filename == stop {
+	@if $filename == smartphone {
 		$char: "\E038";
 	}
-	@if $filename == stopwatch {
+	@if $filename == star {
 		$char: "\E039";
 	}
-	@if $filename == success {
+	@if $filename == stop {
 		$char: "\E03A";
 	}
-	@if $filename == twitter {
+	@if $filename == stopwatch {
 		$char: "\E03B";
 	}
-	@if $filename == upload {
+	@if $filename == success {
 		$char: "\E03C";
 	}
-	@if $filename == user-profile {
+	@if $filename == twitter {
 		$char: "\E03D";
 	}
-	@if $filename == user {
+	@if $filename == upload {
 		$char: "\E03E";
 	}
-	@if $filename == users {
+	@if $filename == user-profile {
 		$char: "\E03F";
 	}
-	@if $filename == wallet {
+	@if $filename == user {
 		$char: "\E040";
 	}
-	@if $filename == workflow {
+	@if $filename == users {
 		$char: "\E041";
+	}
+	@if $filename == wallet {
+		$char: "\E042";
+	}
+	@if $filename == workflow {
+		$char: "\E043";
 	}
 
 	@return $char;
@@ -307,6 +313,10 @@
 }
 .icon-corner {
 	@include icon(corner);
+
+}
+.icon-cvs {
+	@include icon(cvs);
 
 }
 .icon-deadline {
@@ -411,6 +421,10 @@
 }
 .icon-money {
 	@include icon(money);
+
+}
+.icon-more {
+	@include icon(more);
 
 }
 .icon-photos {

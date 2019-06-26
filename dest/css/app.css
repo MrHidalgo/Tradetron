@@ -163,7 +163,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-deadline:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,329 +174,339 @@
   text-transform: none;
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-controls:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-copy:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
+/* line 236, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-deadline:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-cvs:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-diagram:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-deadline:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-duplicate:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-diagram:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-duplicate:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-envelope:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-envelope:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-favorites:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-file-2:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-file-2:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-garbage:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-garbage:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-internet:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-key:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-internet:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-key:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-link:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-link:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-money:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 230, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
+}
+
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
+  content: "";
+}
+
+/* line 236, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 /* line 1, src/scss/_shared/_main-setting-reset.scss */
@@ -692,7 +702,151 @@ picture {
   letter-spacing: 0.4px;
 }
 
-/* line 11, src/scss/_shared/_common.scss */
+/* line 10, src/scss/_shared/_common.scss */
+.dropdown-toggle {
+  height: 40px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  font-size: 14px;
+  letter-spacing: 0.44px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 18, src/scss/_shared/_common.scss */
+.dropdown-toggle:focus, .dropdown-toggle.focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* line 24, src/scss/_shared/_common.scss */
+.dropdown-toggle.is-active {
+  color: #fff;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 29, src/scss/_shared/_common.scss */
+.dropdown-toggle .icon-font {
+  margin-left: 5px;
+  font-size: 8px;
+}
+
+/* line 35, src/scss/_shared/_common.scss */
+.dropdown-menu {
+  left: auto !important;
+  right: 0 !important;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  border: none;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  background-color: transparent;
+}
+
+/* line 45, src/scss/_shared/_common.scss */
+.dropdown-menu-corner {
+  z-index: 0;
+  top: -5px;
+  right: 12px;
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 56, src/scss/_shared/_common.scss */
+.dropdown-menu-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* line 65, src/scss/_shared/_common.scss */
+.dropdown-item {
+  min-height: 20px;
+  padding: 0 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 71, src/scss/_shared/_common.scss */
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/* line 74, src/scss/_shared/_common.scss */
+.dropdown-item:hover .icon-font,
+.dropdown-item:hover span {
+  color: #6772e5;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 81, src/scss/_shared/_common.scss */
+.dropdown-item > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 84, src/scss/_shared/_common.scss */
+.dropdown-item > div:nth-of-type(1) {
+  width: 30px;
+}
+
+/* line 87, src/scss/_shared/_common.scss */
+.dropdown-item > div:nth-of-type(2) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 22px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 97, src/scss/_shared/_common.scss */
+.dropdown-item span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 104, src/scss/_shared/_common.scss */
+.dropdown-item .icon-font {
+  font-size: 18px;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 114, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -744,7 +898,7 @@ picture {
   }
 }
 
-/* line 33, src/scss/_shared/_common.scss */
+/* line 136, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -752,7 +906,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 37, src/scss/_shared/_common.scss */
+/* line 140, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -6129,7 +6283,13 @@ picture {
 }
 
 /* line 7, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard .main__bg {
+  z-index: -1;
+}
+
+/* line 11, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option {
+  margin-bottom: 20px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
   -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
@@ -6138,7 +6298,7 @@ picture {
 }
 
 @media screen and (max-width: 374px) {
-  /* line 12, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 17, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option-exposure, .dashboard__option-margin, .dashboard__option-pl {
     width: 100%;
     max-width: 50%;
@@ -6146,67 +6306,67 @@ picture {
   }
 }
 
-/* line 21, src/scss/_components/dashboard/_dashboard.scss */
+/* line 26, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option-exposure p, .dashboard__option-margin p, .dashboard__option-pl p {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.47px;
 }
 
-/* line 27, src/scss/_components/dashboard/_dashboard.scss */
+/* line 32, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option-exposure span, .dashboard__option-margin span, .dashboard__option-pl span {
   font-size: 18px;
   letter-spacing: 0.47px;
 }
 
 @media screen and (max-width: 374px) {
-  /* line 33, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 38, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option-exposure {
     padding-left: 0 !important;
     padding-bottom: 0 !important;
   }
 }
 
-/* line 39, src/scss/_components/dashboard/_dashboard.scss */
+/* line 44, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option-exposure span {
   color: #22c993;
 }
 
 @media screen and (max-width: 374px) {
-  /* line 44, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 49, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option-margin {
     text-align: right;
   }
 }
 
-/* line 52, src/scss/_components/dashboard/_dashboard.scss */
+/* line 57, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option-margin span, .dashboard__option-pl span {
   color: #f05858;
 }
 
-/* line 57, src/scss/_components/dashboard/_dashboard.scss */
+/* line 62, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown {
   width: 100%;
 }
 
 @media screen and (max-width: 374px) {
-  /* line 57, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 62, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option .dropdown {
     max-width: 100% !important;
   }
-  /* line 62, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 67, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option .dropdown:nth-of-type(2) {
     padding-top: 0.5rem;
   }
 }
 
-/* line 67, src/scss/_components/dashboard/_dashboard.scss */
+/* line 72, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--border {
   max-width: 167px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 70, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 75, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option .dropdown--border:nth-of-type(3) {
     margin-left: -webkit-calc(140px + 1.5rem);
     margin-left: calc(140px + 1.5rem);
@@ -6214,36 +6374,36 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 70, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 75, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__option .dropdown--border:nth-of-type(3) {
     margin-left: auto;
   }
 }
 
-/* line 79, src/scss/_components/dashboard/_dashboard.scss */
+/* line 84, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--border .dropdown-toggle {
   background-color: #ffffff;
   border: 1px solid rgba(185, 185, 185, 0.3);
 }
 
-/* line 85, src/scss/_components/dashboard/_dashboard.scss */
+/* line 90, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--bg {
   max-width: 140px;
 }
 
-/* line 88, src/scss/_components/dashboard/_dashboard.scss */
+/* line 93, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--bg .dropdown-toggle {
   background-color: #6772e5;
   color: #ffffff;
   font-weight: bold;
 }
 
-/* line 93, src/scss/_components/dashboard/_dashboard.scss */
+/* line 98, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--bg .dropdown-toggle:hover {
   color: #fff;
 }
 
-/* line 99, src/scss/_components/dashboard/_dashboard.scss */
+/* line 104, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown--bg.show .btn {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -6251,149 +6411,244 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 106, src/scss/_components/dashboard/_dashboard.scss */
+/* line 111, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__option .dropdown-toggle {
   width: 100%;
-  height: 40px;
+}
+
+/* line 117, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block {
+  margin-bottom: 20px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
-  font-size: 14px;
-  letter-spacing: 0.44px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+  background-color: #ffffff;
+}
+
+/* line 124, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 127, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table th,
+.dashboard__block-notification .table td {
+  border-color: #D8D8D8;
+}
+
+/* line 132, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table p,
+.dashboard__block-notification .table span {
+  font-size: 12px;
+  letter-spacing: 0.23px;
+}
+
+/* line 138, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table p {
+  font-weight: 500;
+}
+
+/* line 141, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table p span {
+  white-space: nowrap;
+}
+
+/* line 150, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .dropdown--border .dropdown-toggle {
+  min-width: 128px;
+  background-color: #ffffff;
+  border: 1px solid rgba(185, 185, 185, 0.3);
+}
+
+/* line 155, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .dropdown--border .dropdown-toggle:after {
+  display: block;
+}
+
+/* line 161, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .dropdown-toggle {
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-/* line 115, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-toggle:focus, .dashboard__option .dropdown-toggle.focus {
+/* line 164, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .dropdown-toggle:focus, .dashboard__block .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 121, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-toggle.is-active {
+/* line 170, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-/* line 126, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-toggle .icon-font {
-  margin-left: 5px;
-  font-size: 8px;
+/* line 177, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-header {
+  min-height: 60px;
+  padding-right: 55px;
 }
 
-/* line 132, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-menu {
-  left: auto !important;
+/* line 183, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-header .dropdown-toggle .icon-font {
+  color: #AEAEAE;
+  font-size: 5px;
+}
+
+/* line 188, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-header .dropdown-toggle:after {
+  display: none;
+}
+
+/* line 195, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-close {
+  overflow: hidden;
+  z-index: 10;
+  position: absolute;
+  top: 0;
   right: 0;
-  margin: 0;
-  margin-top: 5px;
-  padding: 0;
+  width: 30px;
+  height: 30px;
+  -webkit-border-top-right-radius: 6px;
+          border-top-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+  background-color: #b3c5dc;
+}
+
+/* line 207, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-close .icon-font {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+/* line 213, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.42px;
+}
+
+/* line 219, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-btn {
+  height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: 1px solid #6772e5;
+  background-color: #6772e5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.44px;
+  text-align: center;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 233, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-btn--border {
+  background-color: transparent;
+  color: #6772e5;
+}
+
+/* line 237, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-btn--border:hover {
+  background-color: #6772e5 !important;
+  color: #ffffff;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 244, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-btn:hover {
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 251, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-info p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+/* line 260, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-payoff p {
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.2px;
+}
+
+/* line 267, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-payoff input {
+  outline: none;
+  width: 40px;
+  height: 10px;
   border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -webkit-border-radius: 0;
           border-radius: 0;
-  background-color: transparent;
+  border-bottom: 1px solid #333;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.2px;
 }
 
-/* line 142, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-menu-corner {
-  z-index: 0;
-  top: -5px;
-  right: 12px;
-  width: 10px;
-  height: 10px;
-  -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+/* line 281, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-payoff .dashboard__block-btn {
+  height: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
 }
 
-/* line 153, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-menu-wrapper {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* line 162, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item {
-  min-height: 20px;
-  padding: 0 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-/* line 168, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item:hover {
-  background-color: transparent;
-}
-
-/* line 171, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item:hover .icon-font,
-.dashboard__option .dropdown-item:hover span {
-  color: #6772e5;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
-}
-
-/* line 178, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item > div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/* line 181, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item > div:nth-of-type(1) {
-  width: 30px;
-}
-
-/* line 184, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item > div:nth-of-type(2) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 22px;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  min-width: 1px;
-  max-width: 100%;
-}
-
-/* line 194, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item span {
-  text-transform: uppercase;
+/* line 290, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-strategy p {
   font-size: 12px;
   font-weight: 500;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  letter-spacing: 0.08px;
 }
 
-/* line 201, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__option .dropdown-item .icon-font {
-  font-size: 18px;
-  -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+/* line 296, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-strategy input {
+  outline: none;
+  width: 175px;
+  height: 40px;
+  padding: 0 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: solid 1px rgba(185, 185, 185, 0.3);
+}
+
+/* line 310, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-option p {
+  font-size: 14px;
+  letter-spacing: 0.09px;
+}
+
+/* line 317, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-option .dropdown--border .dropdown-toggle {
+  width: auto;
+  min-width: unset;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
