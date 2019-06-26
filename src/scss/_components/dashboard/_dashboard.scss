@@ -161,6 +161,59 @@
 			}
 		}
 
+		&-chart {
+
+		}
+
+		&-optionChain {
+			table.table {
+				font-size: 10px;
+
+				thead {
+					tr {
+						&:nth-of-type(1) {
+							th {
+								padding: 0.2rem;
+								background-color: #d4deeb;
+								text-align: center;
+							}
+						}
+
+						th {
+							padding: 0.5rem 0.2rem;
+							border-color: #d4deeb;
+						}
+					}
+				}
+
+				tbody {
+					td {
+						padding: 0.4rem 0.2rem;
+					}
+
+					input {
+						outline: none;
+						width: 44px;
+						height: 20px;
+						padding: 0 5px;
+						border-radius: 6px;
+						box-shadow: none;
+						border: solid 1px rgba(185, 185, 185, 0.3);
+						background-color: #ffffff;
+					}
+				}
+
+				.bg {
+					background-color: #d4deeb;
+					text-align: center;
+				}
+
+				.inner-bg {
+					background-color: rgba(#ffad0d, 0.2);
+				}
+			}
+		}
+
 		&-marketWatch {
 			.table {
 				th {

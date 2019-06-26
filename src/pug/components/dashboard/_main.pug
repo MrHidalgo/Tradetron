@@ -307,8 +307,8 @@ section#main.main.dashboard.position-relative
 													div
 														span!= "Delete list"
 
-							.dashboard__block-body.pl-3.pr-3
-							//.dashboard__block-footer.pl-3.pr-3.pb-3
+							.dashboard__block-body.pl-3.pr-3.pb-4
+								img.d-block.img-fluid.ml-auto.mr-auto(src="img/img-table-chart.jpg" srcset="img/img-table-chart@2x.jpg 2x, img/img-table-chart@3x.jpg 3x" alt="" title="")
 
 						.dashboard__block.dashboard__block-heatMap
 
@@ -336,8 +336,8 @@ section#main.main.dashboard.position-relative
 													div
 														span!= "Delete list"
 
-							.dashboard__block-body.pl-3.pr-3
-							//.dashboard__block-footer.pl-3.pr-3.pb-3
+							.dashboard__block-body.pl-3.pr-3.pb-4
+								img.d-block.img-fluid.ml-auto.mr-auto(src="img/img-heatMap.jpg" srcset="img/img-heatMap@2x.jpg 2x, img/img-heatMap@3x.jpg 3x" alt="" title="")
 
 						.dashboard__block.dashboard__block-optionChain
 
@@ -410,6 +410,65 @@ section#main.main.dashboard.position-relative
 														span!= "Delete list"
 
 							.dashboard__block-body.pl-3.pr-3
+
+								.table-responsive
+									table.table.mb-0
+										thead
+											tr
+												th.pl-0(scope="col" colspan="7") CALLS
+												th(scope="col" colspan="7") EXPIRY: MAY 30 2019
+												th(scope="col" colspan="7") PUTS
+											tr
+												th.pl-0(scope="col") Chart
+												th(scope="col") OI
+												th(scope="col") Theta
+												th(scope="col") Vega
+												th(scope="col") Gamma
+												th(scope="col") Delta
+												th(scope="col") IV
+												th(scope="col") Volume
+												th(scope="col") LTP
+												th(scope="col") Qty
+												th.bg(scope="col")!= "Strike<br>Price"
+												th(scope="col") Qty
+												th(scope="col") LTP
+												th(scope="col") Volume
+												th(scope="col") IV
+												th(scope="col") Delta
+												th(scope="col") Gamma
+												th(scope="col") Vega
+												th(scope="col") Theta
+												th(scope="col") OI
+												th.text-right(scope="col") Chart
+										tbody
+											each val, idx in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+												tr
+													td.pl-0(scope="row")
+														img(src="img/img-small-chart.svg" alt="" title="")
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') -
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') -
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') -
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') -
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') -
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') 4,950
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') 2,171.50
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'') 2,524.90
+													td(class!= (idx >= 0 && idx < 8)?'inner-bg':'')
+														input(type="text")
+													td.bg 93,00.00
+													td(class!= (idx >= 8)?'inner-bg':'')
+														input(type="text")
+													td(class!= (idx >= 8)?'inner-bg':'') -
+													td(class!= (idx >= 8)?'inner-bg':'') 0.45
+													td(class!= (idx >= 8)?'inner-bg':'') 225
+													td(class!= (idx >= 8)?'inner-bg':'') -
+													td(class!= (idx >= 8)?'inner-bg':'') 0.05
+													td(class!= (idx >= 8)?'inner-bg':'') 91.66
+													td(class!= (idx >= 8)?'inner-bg':'') 8
+													td(class!= (idx >= 8)?'inner-bg':'') 300
+													td.text-right
+														img(src="img/img-small-chart.svg" alt="" title="")
+
 							.dashboard__block-footer.p-3
 								.d-flex.align-items-center.justify-content-between.pb-3
 									.dashboard__block-info
@@ -574,9 +633,7 @@ section#main.main.dashboard.position-relative
 									a.dashboard__block-btn.dashboard__block-btn--border.d-flex.align-items-center.justify-content-center.mb-2.mb-md-0(href="#" class="" title="")
 										span!= "Add"
 
-
-
-
+										
 								.table-responsive.pt-3.pb-4
 									table.table.mb-0
 										thead
