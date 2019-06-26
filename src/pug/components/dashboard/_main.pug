@@ -456,18 +456,18 @@ section#main.main.dashboard.position-relative
 
 						.dashboard__block.dashboard__block-marketWatch
 
-							.dashboard__block-header.pl-3.position-relative.d-flex.align-items-center.justify-content-between
+							.dashboard__block-header.pl-3.pt-3.pt-md-0.pb-3.pb-md-0.position-relative.d-flex.align-items-md-center.justify-content-between.flex-column.flex-md-row
 								a.dashboard__block-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
 									i.icon-font.icon-close
 
-								p.dashboard__block-title!= "Market watch"
+								p.dashboard__block-title.pb-3.pb-md-0!= "Market watch"
 
-								.dashboard__block-header--option.d-flex.align-items-center
+								.dashboard__block-header--option.d-flex.align-items-center.flex-wrap.flex-md-nowrap
 
-									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2(href="#" class="" title="")
+									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2.mb-2.mb-md-0(href="#" class="" title="")
 										span!= "+ New List"
 
-									.dropdown.dropdown--border.mr-3
+									.dropdown.dropdown--border.mr-0.mr-md-3.mb-2.mb-md-0
 										button#dropdownDashBlockSelectList.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Select list"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockSelectList')
@@ -480,7 +480,7 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									.dropdown
+									.dropdown.dropdown--more
 										button#dropdownDashBlockMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											i.icon-font.icon-more
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockMore')
@@ -504,9 +504,9 @@ section#main.main.dashboard.position-relative
 
 							.dashboard__block-body.pl-3.pr-3
 
-								.dashboard__block-option.d-flex.align-items-center.pb-3
+								.dashboard__block-option.d-flex.align-items-center.pb-1.pb-md-3.flex-wrap.flex-md-nowrap
 
-									.dropdown.dropdown--border.mr-2
+									.dropdown.dropdown--border.mr-2.mb-2.mb-md-0
 										button#dropdownDashBlockExchange.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Exchange"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExchange')
@@ -519,7 +519,7 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									.dropdown.dropdown--border.mr-2
+									.dropdown.dropdown--border.mr-2.mb-2.mb-md-0
 										button#dropdownDashBlockUnderlying.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Underlying"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockUnderlying')
@@ -532,7 +532,7 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									.dropdown.dropdown--border.mr-2
+									.dropdown.dropdown--border.mr-2.mb-2.mb-md-0
 										button#dropdownDashBlockType.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Type"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockType')
@@ -545,7 +545,7 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									.dropdown.dropdown--border.mr-2
+									.dropdown.dropdown--border.mr-2.mb-2.mb-md-0
 										button#dropdownDashBlockStrike.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Strike"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockStrike')
@@ -558,7 +558,7 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									.dropdown.dropdown--border.mr-2
+									.dropdown.dropdown--border.mr-2.mb-2.mb-md-0
 										button#dropdownDashBlockExpiry.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 											span!= "Expiry"
 										.dropdown-menu.animate.slideIn(aria-labelledby='dropdownDashBlockExpiry')
@@ -571,11 +571,66 @@ section#main.main.dashboard.position-relative
 												a.dropdown-item.d-flex.align-items-center(href='#')
 													span!= "More"
 
-									a.dashboard__block-btn.dashboard__block-btn--border.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									a.dashboard__block-btn.dashboard__block-btn--border.d-flex.align-items-center.justify-content-center.mb-2.mb-md-0(href="#" class="" title="")
 										span!= "Add"
 
 
-							//.dashboard__block-footer.pl-3.pr-3.pb-3
+
+
+								.table-responsive.pt-3.pb-4
+									table.table.mb-0
+										thead
+											th.pl-0(scope="col")
+												a.d-flex.align-items-center(href="#" class="" title="")
+													!= "Symbol"
+											th(scope="col") Chart
+											th(scope="col") Price
+											th(scope="col") Change%
+											th(scope="col")
+										tbody
+											tr
+												td.pl-0(scope="row")
+													p Reliance
+													span!= "<a href='#'>Reliance Industries Ltd</a> | NSE"
+												td
+													img(src="img/img-mw-table-chart-1.svg" alt="" title="")
+												td Rs. 23
+												td +1.5%
+												td
+													.action.d-flex.align-items-center
+														a.buy.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Buy"
+														a.sell.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Sell"
+														a.remove.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+															i.icon-font.icon-close
+											tr
+												td.pl-0(scope="row")
+													p Reliance
+													span!= "<a href='#'>Reliance Industries Ltd</a> | NSE"
+												td
+													img(src="img/img-mw-table-chart-2.svg" alt="" title="")
+												td Rs. 10780
+												td -0.5%
+												td
+													.action.d-flex.align-items-center
+														a.buy.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Buy"
+														a.sell.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Sell"
+														a.remove.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+															i.icon-font.icon-close
+											tr
+												td.pl-0(scope="row")
+													p Reliance
+													span!= "<a href='#'>Reliance Industries Ltd</a> | NSE"
+												td
+													img(src="img/img-mw-table-chart-1.svg" alt="" title="")
+												td Rs. 430
+												td +0.82%
+												td
+													.action.d-flex.align-items-center
+														a.buy.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Buy"
+														a.sell.mr-2.d-flex.align-items-center.justify-content-center(href="#" class="" title="")!= "Sell"
+														a.remove.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+															i.icon-font.icon-close
+
 
 
 	.main__bg.main__bg-1.position-absolute.w-100.h-100
