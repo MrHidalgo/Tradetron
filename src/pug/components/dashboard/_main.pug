@@ -173,8 +173,44 @@ section#main.main.dashboard.position-relative
 													div
 														span!= "Delete list"
 
-							.dashboard__block-body.pl-3.pr-3
-							//.dashboard__block-footer.pl-3.pr-3.pb-3
+							.dashboard__block-body.pl-3.pr-3.pb-4
+
+								.table-responsive
+									table.table.mb-0
+										thead
+											tr
+												th(scope="col").pl-0 Date/Time
+												th(scope="col") Symbol
+												th(scope="col") Qty
+												th(scope="col") Limit Price
+												th(scope="col") Value
+												th(scope="col") Broker
+												th(scope="col") Status
+										tbody
+											tr
+												td.pl-0(scope="row") April 30 12:35:10 pm
+												td Reliance
+												td 50000
+												td Rs. 2
+												td Rs. 23,343
+												td Trade swift
+												td Submitted
+											tr
+												td.pl-0(scope="row") April 30 12:35:10 pm
+												td Reliance
+												td 50
+												td Rs. 2
+												td Rs. 23,343
+												td Trade swift
+												td Submitted
+											tr
+												td(scope="row")
+												td!= "<strong>Total</strong>"
+												td!= "<strong>50050</strong>"
+												td
+												td
+												td
+												td
 
 						.dashboard__block.dashboard__block-allPositions
 

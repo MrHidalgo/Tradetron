@@ -120,20 +120,36 @@
 		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 		background-color: #ffffff;
 
+		.table {
+			font-size: 12px;
+			letter-spacing: 0.23px;
+
+			thead {
+				th {
+					border-bottom: none;
+				}
+			}
+
+			th,
+			td {
+				border-color: #D8D8D8;
+			}
+
+			th,
+			strong {
+				font-weight: bold;
+			}
+
+			th {
+				@include adaptive(767) {
+					white-space: nowrap;
+				}
+			}
+		}
+
 		&-notification {
 			.table {
 				border-bottom: 1px solid #D8D8D8;
-
-				th,
-				td {
-					border-color: #D8D8D8;
-				}
-
-				p,
-				span {
-					font-size: 12px;
-					letter-spacing: 0.23px;
-				}
 
 				p {
 					font-weight: 500;

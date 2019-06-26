@@ -6426,61 +6426,78 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 124, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__block-notification .table {
-  border-bottom: 1px solid #D8D8D8;
-}
-
-/* line 127, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__block-notification .table th,
-.dashboard__block-notification .table td {
-  border-color: #D8D8D8;
-}
-
-/* line 132, src/scss/_components/dashboard/_dashboard.scss */
-.dashboard__block-notification .table p,
-.dashboard__block-notification .table span {
+/* line 123, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .table {
   font-size: 12px;
   letter-spacing: 0.23px;
 }
 
+/* line 128, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .table thead th {
+  border-bottom: none;
+}
+
+/* line 133, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .table th,
+.dashboard__block .table td {
+  border-color: #D8D8D8;
+}
+
 /* line 138, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block .table th,
+.dashboard__block .table strong {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 143, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block .table th {
+    white-space: nowrap;
+  }
+}
+
+/* line 151, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-notification .table {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 154, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p {
   font-weight: 500;
 }
 
-/* line 141, src/scss/_components/dashboard/_dashboard.scss */
+/* line 157, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p span {
   white-space: nowrap;
 }
 
-/* line 150, src/scss/_components/dashboard/_dashboard.scss */
+/* line 166, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle {
   min-width: 128px;
   background-color: #ffffff;
   border: 1px solid rgba(185, 185, 185, 0.3);
 }
 
-/* line 155, src/scss/_components/dashboard/_dashboard.scss */
+/* line 171, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle:after {
   display: block;
 }
 
-/* line 161, src/scss/_components/dashboard/_dashboard.scss */
+/* line 177, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle {
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-/* line 164, src/scss/_components/dashboard/_dashboard.scss */
+/* line 180, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle:focus, .dashboard__block .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 170, src/scss/_components/dashboard/_dashboard.scss */
+/* line 186, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -6488,24 +6505,24 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 177, src/scss/_components/dashboard/_dashboard.scss */
+/* line 193, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header {
   min-height: 60px;
   padding-right: 55px;
 }
 
-/* line 183, src/scss/_components/dashboard/_dashboard.scss */
+/* line 199, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle .icon-font {
   color: #AEAEAE;
   font-size: 5px;
 }
 
-/* line 188, src/scss/_components/dashboard/_dashboard.scss */
+/* line 204, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle:after {
   display: none;
 }
 
-/* line 195, src/scss/_components/dashboard/_dashboard.scss */
+/* line 211, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close {
   overflow: hidden;
   z-index: 10;
@@ -6521,20 +6538,20 @@ picture {
   background-color: #b3c5dc;
 }
 
-/* line 207, src/scss/_components/dashboard/_dashboard.scss */
+/* line 223, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close .icon-font {
   color: #ffffff;
   font-size: 10px;
 }
 
-/* line 213, src/scss/_components/dashboard/_dashboard.scss */
+/* line 229, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-title {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.42px;
 }
 
-/* line 219, src/scss/_components/dashboard/_dashboard.scss */
+/* line 235, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn {
   height: 40px;
   padding-left: 20px;
@@ -6553,13 +6570,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 233, src/scss/_components/dashboard/_dashboard.scss */
+/* line 249, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border {
   background-color: transparent;
   color: #6772e5;
 }
 
-/* line 237, src/scss/_components/dashboard/_dashboard.scss */
+/* line 253, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border:hover {
   background-color: #6772e5 !important;
   color: #ffffff;
@@ -6568,7 +6585,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 244, src/scss/_components/dashboard/_dashboard.scss */
+/* line 260, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn:hover {
   background-color: transparent;
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -6576,7 +6593,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 251, src/scss/_components/dashboard/_dashboard.scss */
+/* line 267, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-info p {
   font-size: 10px;
   font-weight: 600;
@@ -6584,7 +6601,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 260, src/scss/_components/dashboard/_dashboard.scss */
+/* line 276, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff p {
   font-size: 10px;
   font-weight: 600;
@@ -6592,7 +6609,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 267, src/scss/_components/dashboard/_dashboard.scss */
+/* line 283, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff input {
   outline: none;
   width: 40px;
@@ -6609,7 +6626,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 281, src/scss/_components/dashboard/_dashboard.scss */
+/* line 297, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff .dashboard__block-btn {
   height: 23px;
   padding-left: 10px;
@@ -6617,14 +6634,14 @@ picture {
   font-size: 10px;
 }
 
-/* line 290, src/scss/_components/dashboard/_dashboard.scss */
+/* line 306, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy p {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.08px;
 }
 
-/* line 296, src/scss/_components/dashboard/_dashboard.scss */
+/* line 312, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy input {
   outline: none;
   width: 175px;
@@ -6637,13 +6654,13 @@ picture {
   border: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 310, src/scss/_components/dashboard/_dashboard.scss */
+/* line 326, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option p {
   font-size: 14px;
   letter-spacing: 0.09px;
 }
 
-/* line 317, src/scss/_components/dashboard/_dashboard.scss */
+/* line 333, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option .dropdown--border .dropdown-toggle {
   width: auto;
   min-width: unset;
