@@ -139,6 +139,29 @@
 			font-size: 12px;
 			letter-spacing: 0.23px;
 
+			.dropdown {
+				&:hover {
+					.dropdown-menu {
+						display: block;
+						top: 0;
+						transform: translate3d(0px, -65px, 0px);
+					}
+				}
+
+				&-toggle {
+					padding-left: 0;
+
+					&:after {
+						display: none;
+					}
+				}
+
+				&-menu-corner {
+					right: 50%;
+					margin-right: -7px;
+				}
+			}
+
 			thead {
 				th {
 					border-bottom: none;
@@ -269,6 +292,13 @@
 
 		&-marketWatch {
 			.table {
+				&-responsive {
+					overflow-x: unset;
+					@include adaptive(767) {
+						overflow-x: auto;
+					}
+				}
+
 				th {
 					border-top: none;
 				}
