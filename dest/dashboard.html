@@ -964,7 +964,7 @@
                     <div class="dashboard__block-footer p-3">
                       <div class="d-flex align-items-center justify-content-start justify-content-md-center justify-content-lg-between pb-3 flex-wrap flex-lg-nowrap">
                         <div class="dashboard__block-info pb-2 pb-lg-0">
-                          <p>Net Geeks: Delta 0.7593 | Gamma 0.4294 | Theta 0.3523 | Vega 0.4638</p>
+                          <p class="pb-2 pb md-0">Net Geeks: Delta 0.7593 | Gamma 0.4294 | Theta 0.3523 | Vega 0.4638</p>
                         </div>
                         <div class="dashboard__block-payoff d-flex align-items-center justify-content-start justify-content-md-end flex-wrap flex-md-nowrap">
                           <div class="d-flex align-items-center pr-2 mb-1 mb-md-0">
@@ -1089,7 +1089,7 @@
                               </td>
                               <td>+1.5%</td>
                               <td>
-                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#buyRelianceModal">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#sellRelianceModal">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
                               </td>
                             </tr>
                             <tr>
@@ -1108,7 +1108,7 @@
                               </td>
                               <td>-0.5%</td>
                               <td>
-                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#buyRelianceModal">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#sellRelianceModal">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
                               </td>
                             </tr>
                             <tr>
@@ -1127,7 +1127,7 @@
                               </td>
                               <td>+0.82%</td>
                               <td>
-                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                                <div class="action d-flex align-items-center"><a class="buy mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#buyRelianceModal">Buy</a><a class="sell mr-2 d-flex align-items-center justify-content-center" href="#" title="" data-toggle="modal" data-target="#sellRelianceModal">Sell</a><a class="remove d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a></div>
                               </td>
                             </tr>
                           </tbody>
@@ -1242,6 +1242,136 @@
       </div>
     </footer>
     <!-- FOOTER :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--buy fade" id="buyRelianceModal" tabindex="-1" role="dialog" aria-labelledby="BuyReliance" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="BuyReliance">Buy Reliance</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal__field-group modal__field-group--4">
+                <div class="modal__field">
+                  <label>Qty:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Entry Price:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Target Price:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>StopLoss Price:</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <div class="modal__field-group modal__field-group--3">
+                <div class="modal__field"></div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <div class="modal__field-group modal__field-group--2">
+                <div class="modal__field">
+                  <div class="form-group mb-0">
+                    <label>Strategy</label>
+                    <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="modal__field">
+                  <label>Create new strategy</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Buy</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--buy fade" id="sellRelianceModal" tabindex="-1" role="dialog" aria-labelledby="SellReliance" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="SellReliance">Sell Reliance</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal__field-group modal__field-group--4">
+                <div class="modal__field">
+                  <label>Qty:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Entry Price:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Target Price:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>StopLoss Price:</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <div class="modal__field-group modal__field-group--3">
+                <div class="modal__field"></div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+                <div class="modal__field">
+                  <label>Trigger:</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <div class="modal__field-group modal__field-group--2">
+                <div class="modal__field">
+                  <div class="form-group mb-0">
+                    <label>Strategy</label>
+                    <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="modal__field">
+                  <label>Create new strategy</label>
+                  <input type="text" name="">
+                </div>
+              </div>
+              <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Sell</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>

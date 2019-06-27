@@ -15,4 +15,4 @@ PageList:
   ready: 95
 - file: dashboard.html
   titleName: Dashboard
-  ready: 1
+  ready: 75

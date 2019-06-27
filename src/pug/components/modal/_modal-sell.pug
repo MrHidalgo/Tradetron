@@ -1,0 +1,54 @@
+// MODAL sign in :: START
+
+#sellRelianceModal.modal.modal--buy.fade(tabindex='-1', role='dialog', aria-labelledby='SellReliance', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#SellReliance.modal-title Sell Reliance
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					.modal__field-group.modal__field-group--4
+						.modal__field
+							label Qty:
+							input(type="text" name="")
+						.modal__field
+							label Entry Price:
+							input(type="text" name="")
+						.modal__field
+							label Target Price:
+							input(type="text" name="")
+						.modal__field
+							label StopLoss Price:
+							input(type="text" name="")
+					.modal__field-group.modal__field-group--3
+						.modal__field
+						.modal__field
+							label Trigger:
+							input(type="text" name="")
+						.modal__field
+							label Trigger:
+							input(type="text" name="")
+						.modal__field
+							label Trigger:
+							input(type="text" name="")
+					.modal__field-group.modal__field-group--2
+						.modal__field
+							.form-group.mb-0
+								label Strategy
+								select.form-control
+									option 1
+									option 2
+									option 3
+						.modal__field
+							label Create new strategy
+							input(type="text" name="")
+
+					button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Sell"
+
+
+// MODAL sign in :: END

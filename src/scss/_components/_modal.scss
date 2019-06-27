@@ -368,6 +368,141 @@
 		}
 	}
 
+	&--buy {
+		.modal {
+			&-dialog {
+				max-width: 411px;
+			}
+
+			&__close {
+				top: 15px;
+				right: 20px;
+			}
+
+			&-title {
+				font-size: 20px;
+			}
+
+			&-body-cover {
+				@include adaptive(767) {
+					display: flex;
+					align-items: flex-end;
+					flex-wrap: wrap;
+				}
+			}
+
+			&__field {
+				width: 100%;
+
+				&-group {
+					display: flex;
+					align-items: flex-start;
+					justify-content: space-between;
+					padding-bottom: 15px;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					&--4 {
+						@include adaptive(767) {
+							width: 50%;
+							padding-right: 10px;
+						}
+
+						.modal__field {
+							max-width: calc((100% - 45px) / 4);
+							@include adaptive(767) {
+								max-width: 100%;
+								margin-bottom: 10px;
+
+								&:last-of-type {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+					&--3 {
+						@include adaptive(767) {
+							width: 50%;
+							padding-left: 10px;
+						}
+
+						.modal__field {
+							max-width: calc((100% - 45px) / 4);
+							@include adaptive(767) {
+								max-width: 100%;
+								margin-bottom: 10px;
+
+								&:last-of-type {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+					&--2 {
+						@include adaptive(767) {
+							width: 100%;
+						}
+
+						.modal__field {
+							max-width: calc((100% - 15px) / 2);
+							@include adaptive(767) {
+								max-width: 100%;
+								margin-bottom: 10px;
+
+								&:last-of-type {
+									margin-bottom: 0;
+								}
+							}
+						}
+					}
+				}
+
+				label {
+					white-space: nowrap;
+					font-size: 12px;
+					font-weight: 500;
+					letter-spacing: 0.08px;
+				}
+
+				select,
+				input {
+					outline: none;
+					width: 100%;
+					height: 40px;
+					padding: 0 15px;
+					border-radius: 6px;
+					box-shadow: none;
+					background-color: #ffffff;
+					border: solid 1px rgba(185, 185, 185, 0.3);
+					font-size: 14px;
+					letter-spacing: 0.09px;
+					color: rgba(#333333, 0.65);
+					@include inputPlaceholder {
+						font-size: 14px;
+						letter-spacing: 0.09px;
+						color: rgba(#333333, 0.65);
+					}
+				}
+			}
+
+			&-body-submit {
+				margin-left: auto;
+				margin-right: auto;
+				width: 235px;
+				height: 40px;
+				border-radius: 6px;
+				border-color: #6772e5;
+				background-color: #6772e5;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: 0.44px;
+				text-align: center;
+				color: #ffffff;
+			}
+		}
+	}
+
 	&--signin,
 	&--signup {
 		.modal {
