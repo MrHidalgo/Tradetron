@@ -6,6 +6,21 @@
 
 	.main__bg {
 		z-index: -1;
+
+		&-1 {
+			@include adaptive(767) {
+				position: absolute !important;
+				top: 15%;
+			}
+		}
+	}
+
+	&__bg {
+		z-index: -1;
+		bottom: 0;
+		left: 0;
+		display: flex;
+		align-items: flex-end;
 	}
 
 	&__option {
@@ -212,6 +227,44 @@
 					background-color: rgba(#ffad0d, 0.2);
 				}
 			}
+
+			.dashboard__block-title {
+				display: flex;
+				align-items: center;
+				height: 60px;
+			}
+
+			.dropdown.dropdown--more {
+				@include adaptive(991) {
+					position: absolute;
+					right: 55px;
+					top: 9px;
+				}
+			}
+
+			.dashboard__block-header {
+				@include adaptive(991) {
+					padding-right: 1rem;
+				}
+
+				&--option {
+					@include adaptive(991) {
+						justify-content: flex-end;
+						width: 100%;
+						padding-bottom: 1rem;
+					}
+
+					.dropdown {
+						&.dropdown--border {
+							.dropdown-toggle {
+								min-width: unset;
+								padding-left: 10px !important;
+								padding-right: 10px !important;
+							}
+						}
+					}
+				}
+			}
 		}
 
 		&-marketWatch {
@@ -405,6 +458,9 @@
 				font-weight: 600;
 				line-height: 1;
 				letter-spacing: 0.2px;
+				@include adaptive(767) {
+					width: 100%;
+				}
 			}
 
 			input {
