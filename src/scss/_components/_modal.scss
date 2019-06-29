@@ -506,9 +506,15 @@
 	&--signin,
 	&--signup {
 		.modal {
+			&__close {
+				top: 15px;
+				right: 20px;
+			}
+
 			&-dialog {
 				max-width: 411px;
 			}
+
 			&-body {
 				&-cover {
 					max-width: 240px;
