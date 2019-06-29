@@ -547,6 +547,9 @@
 				font-size: 12px;
 				font-weight: 500;
 				letter-spacing: 0.08px;
+				@include adaptive(424) {
+					width: 100%;
+				}
 			}
 
 			input {
@@ -557,6 +560,19 @@
 				box-shadow: none;
 				border-radius: 6px;
 				border: solid 1px rgba(185, 185, 185, 0.3);
+				@include adaptive(424) {
+					width: 100%;
+					margin-right: 0 !important;
+				}
+			}
+
+			a,
+			.dropdown,
+			.dropdown-toggle {
+				@include adaptive(424) {
+					width: 100%;
+					margin-right: 0 !important;
+				}
 			}
 		}
 

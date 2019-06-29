@@ -7171,7 +7171,14 @@ picture {
   letter-spacing: 0.08px;
 }
 
-/* line 552, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 424px) {
+  /* line 546, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy p {
+    width: 100%;
+  }
+}
+
+/* line 555, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy input {
   outline: none;
   width: 175px;
@@ -7184,13 +7191,31 @@ picture {
   border: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 566, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 424px) {
+  /* line 555, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy input {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* line 569, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy a,
+  .dashboard__block-strategy .dropdown,
+  .dashboard__block-strategy .dropdown-toggle {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}
+
+/* line 582, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option p {
   font-size: 14px;
   letter-spacing: 0.09px;
 }
 
-/* line 573, src/scss/_components/dashboard/_dashboard.scss */
+/* line 589, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option .dropdown--border .dropdown-toggle {
   width: auto;
   min-width: unset;
