@@ -487,10 +487,12 @@
 			}
 
 			&-body-submit {
+				outline: none;
 				margin-left: auto;
 				margin-right: auto;
 				width: 235px;
 				height: 40px;
+				box-shadow: none;
 				border-radius: 6px;
 				border-color: #6772e5;
 				background-color: #6772e5;
