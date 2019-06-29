@@ -30,20 +30,20 @@ section#pricing.pricing.position-relative
 
 						mixin swiperContent()
 							.swiper-slide
-								p.pricing__plan!= "Basic Plan"
+								p.pricing__plan!= "Free"
 								p.pricing__price.d-flex.align-items-end!= "Free"
 
 								ul.pricing__list.d-flex.flex-column
 									-
 										let arr1 = [
-											'Unlimited Private Strategies',
-											'Create 1 Public Strategies',
-											'Follow/Execute 5 strategies',
-											'30% sharing of strategy fees you earn from your followers',
-											'Paper Trading',
-											'Offline execution',
-											'Auto execution with one click',
-											'Fully Automatic execution (with affiliated brokers)'
+										'Unlimited Private Strategies',
+										'Create 1 Public Strategies',
+										'Follow/Execute 5 strategies',
+										'30% sharing of strategy fees you earn from your followers',
+										'Paper Trading',
+										'Offline execution',
+										'Auto execution with one click',
+										'Fully Automatic execution (with affiliated brokers)'
 										];
 									each val, idx in arr1
 										li.pricing__list-item.d-flex
@@ -61,8 +61,8 @@ section#pricing.pricing.position-relative
 								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
 
 							.swiper-slide
-								p.pricing__plan!= "Standart Plan"
-								p.pricing__price.d-flex.align-items-end!= "$49<span>.99/mo</span>"
+								p.pricing__plan!= "Retail"
+								p.pricing__price.d-flex.align-items-end!= "<i>₹</i> 1000"
 
 								ul.pricing__list.d-flex.flex-column
 									each val, idx in arr1
@@ -81,8 +81,8 @@ section#pricing.pricing.position-relative
 								a.pricing__btn.c-btn.c-btn--bg(href="#" class="" title="")!= "Choose Plan"
 
 							.swiper-slide
-								p.pricing__plan!= "Pro Plan"
-								p.pricing__price.d-flex.align-items-end!= "$99<span>.99/mo</span>"
+								p.pricing__plan!= "Portfolio Managers"
+								p.pricing__price.d-flex.align-items-end!= "<i>₹</i> 5000"
 
 								ul.pricing__list.d-flex.flex-column
 									each val, idx in arr1
@@ -102,7 +102,7 @@ section#pricing.pricing.position-relative
 
 							.swiper-slide
 								p.pricing__plan!= "Expert Plan"
-								p.pricing__price.d-flex.align-items-end!= "$199<span>.99/mo</span>"
+								p.pricing__price.d-flex.align-items-end!= "<i>₹</i> 15000"
 
 								ul.pricing__list.d-flex.flex-column
 									each val, idx in arr1
