@@ -300,12 +300,33 @@
 
 				&--option {
 					@include adaptive(991) {
-						justify-content: flex-end;
+						justify-content: flex-start;
 						width: 100%;
 						padding-bottom: 1rem;
 					}
 
+					.dashboard__block-btn {
+						@include adaptive(767) {
+							width: 100%;
+							margin-right: 0 !important;
+						}
+					}
+
 					.dropdown {
+						@include adaptive(767) {
+							width: 100%;
+							margin-right: 0 !important;
+
+							&-toggle,
+							&-menu {
+								width: 100%;
+							}
+
+							&--more {
+								width: auto;
+							}
+						}
+
 						&.dropdown--border {
 							.dropdown-toggle {
 								min-width: unset;

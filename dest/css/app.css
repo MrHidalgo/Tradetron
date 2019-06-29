@@ -6887,16 +6887,40 @@ picture {
 @media screen and (max-width: 991px) {
   /* line 301, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-optionChain .dashboard__block-header--option {
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     width: 100%;
     padding-bottom: 1rem;
   }
 }
 
-/* line 310, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 308, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-optionChain .dashboard__block-header--option .dashboard__block-btn {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 315, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-optionChain .dashboard__block-header--option .dropdown {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  /* line 320, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-optionChain .dashboard__block-header--option .dropdown-toggle, .dashboard__block-optionChain .dashboard__block-header--option .dropdown-menu {
+    width: 100%;
+  }
+  /* line 325, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-optionChain .dashboard__block-header--option .dropdown--more {
+    width: auto;
+  }
+}
+
+/* line 331, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain .dashboard__block-header--option .dropdown.dropdown--border .dropdown-toggle {
   min-width: unset;
   padding-left: 10px !important;
@@ -6904,19 +6928,19 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 323, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 344, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dashboard__block-btn {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 332, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 353, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-menu {
     left: 0;
     right: auto !important;
   }
-  /* line 336, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 357, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-menu-corner {
     right: auto;
     left: 12px;
@@ -6924,57 +6948,57 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 329, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 350, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dropdown {
     width: 100%;
     margin-right: 0 !important;
   }
-  /* line 348, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 369, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-toggle, .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-menu {
     width: 100%;
   }
-  /* line 352, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 373, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-toggle-corner, .dashboard__block-marketWatch .dashboard__block-body .dropdown .dropdown-menu-corner {
     left: auto;
     right: 12px;
   }
 }
 
-/* line 363, src/scss/_components/dashboard/_dashboard.scss */
+/* line 384, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table-responsive {
   overflow-x: unset;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 363, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 384, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .table-responsive {
     overflow-x: auto;
   }
 }
 
-/* line 370, src/scss/_components/dashboard/_dashboard.scss */
+/* line 391, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table th {
   border-top: none;
 }
 
-/* line 375, src/scss/_components/dashboard/_dashboard.scss */
+/* line 396, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td {
   font-size: 14px;
 }
 
-/* line 379, src/scss/_components/dashboard/_dashboard.scss */
+/* line 400, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td[scope="row"] span {
   white-space: nowrap;
   display: block;
   font-size: 12px;
 }
 
-/* line 384, src/scss/_components/dashboard/_dashboard.scss */
+/* line 405, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td[scope="row"] span a {
   text-decoration: underline;
 }
 
-/* line 393, src/scss/_components/dashboard/_dashboard.scss */
+/* line 414, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .action a {
   width: 35px;
   height: 24px;
@@ -6985,39 +7009,39 @@ picture {
   text-align: center;
 }
 
-/* line 403, src/scss/_components/dashboard/_dashboard.scss */
+/* line 424, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .buy,
 .dashboard__block-marketWatch .table .sell {
   color: #ffffff;
 }
 
-/* line 408, src/scss/_components/dashboard/_dashboard.scss */
+/* line 429, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .buy {
   background-color: #22c993;
 }
 
-/* line 412, src/scss/_components/dashboard/_dashboard.scss */
+/* line 433, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .sell {
   background-color: #f05858;
 }
 
-/* line 419, src/scss/_components/dashboard/_dashboard.scss */
+/* line 440, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table {
   border-bottom: 1px solid #D8D8D8;
 }
 
-/* line 422, src/scss/_components/dashboard/_dashboard.scss */
+/* line 443, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p {
   font-weight: 500;
 }
 
-/* line 425, src/scss/_components/dashboard/_dashboard.scss */
+/* line 446, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p span {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 433, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 454, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block .dropdown--more {
     position: absolute;
     top: 9px;
@@ -7025,33 +7049,33 @@ picture {
   }
 }
 
-/* line 441, src/scss/_components/dashboard/_dashboard.scss */
+/* line 462, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle {
   min-width: 128px;
   background-color: #ffffff;
   border: 1px solid rgba(185, 185, 185, 0.3);
 }
 
-/* line 446, src/scss/_components/dashboard/_dashboard.scss */
+/* line 467, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle:after {
   display: block;
 }
 
-/* line 452, src/scss/_components/dashboard/_dashboard.scss */
+/* line 473, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle {
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-/* line 455, src/scss/_components/dashboard/_dashboard.scss */
+/* line 476, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle:focus, .dashboard__block .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 461, src/scss/_components/dashboard/_dashboard.scss */
+/* line 482, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -7059,31 +7083,31 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 468, src/scss/_components/dashboard/_dashboard.scss */
+/* line 489, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header {
   min-height: 60px;
   padding-right: 55px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 468, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 489, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-header {
     padding-right: 1rem;
   }
 }
 
-/* line 477, src/scss/_components/dashboard/_dashboard.scss */
+/* line 498, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle .icon-font {
   color: #AEAEAE;
   font-size: 5px;
 }
 
-/* line 482, src/scss/_components/dashboard/_dashboard.scss */
+/* line 503, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle:after {
   display: none;
 }
 
-/* line 489, src/scss/_components/dashboard/_dashboard.scss */
+/* line 510, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close {
   overflow: hidden;
   position: absolute;
@@ -7098,20 +7122,20 @@ picture {
   background-color: #b3c5dc;
 }
 
-/* line 500, src/scss/_components/dashboard/_dashboard.scss */
+/* line 521, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close .icon-font {
   color: #ffffff;
   font-size: 10px;
 }
 
-/* line 506, src/scss/_components/dashboard/_dashboard.scss */
+/* line 527, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-title {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.42px;
 }
 
-/* line 512, src/scss/_components/dashboard/_dashboard.scss */
+/* line 533, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn {
   height: 40px;
   padding-left: 20px;
@@ -7130,13 +7154,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 526, src/scss/_components/dashboard/_dashboard.scss */
+/* line 547, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border {
   background-color: transparent;
   color: #6772e5;
 }
 
-/* line 530, src/scss/_components/dashboard/_dashboard.scss */
+/* line 551, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border:hover {
   background-color: #6772e5 !important;
   color: #ffffff;
@@ -7145,7 +7169,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 537, src/scss/_components/dashboard/_dashboard.scss */
+/* line 558, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn:hover {
   background-color: transparent;
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -7153,7 +7177,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 544, src/scss/_components/dashboard/_dashboard.scss */
+/* line 565, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-info p {
   font-size: 10px;
   font-weight: 600;
@@ -7161,7 +7185,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 553, src/scss/_components/dashboard/_dashboard.scss */
+/* line 574, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff p {
   font-size: 10px;
   font-weight: 600;
@@ -7170,13 +7194,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 553, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 574, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-payoff p {
     width: 100%;
   }
 }
 
-/* line 563, src/scss/_components/dashboard/_dashboard.scss */
+/* line 584, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff input {
   outline: none;
   width: 40px;
@@ -7193,7 +7217,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 577, src/scss/_components/dashboard/_dashboard.scss */
+/* line 598, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff .dashboard__block-btn {
   height: 23px;
   padding-left: 10px;
@@ -7201,7 +7225,7 @@ picture {
   font-size: 10px;
 }
 
-/* line 586, src/scss/_components/dashboard/_dashboard.scss */
+/* line 607, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy p {
   font-size: 12px;
   font-weight: 500;
@@ -7209,13 +7233,13 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 586, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 607, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy p {
     width: 100%;
   }
 }
 
-/* line 595, src/scss/_components/dashboard/_dashboard.scss */
+/* line 616, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy input {
   outline: none;
   width: 175px;
@@ -7229,7 +7253,7 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 595, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 616, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy input {
     width: 100%;
     margin-right: 0 !important;
@@ -7237,7 +7261,7 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 609, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 630, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy a,
   .dashboard__block-strategy .dropdown,
   .dashboard__block-strategy .dropdown-toggle {
@@ -7246,13 +7270,13 @@ picture {
   }
 }
 
-/* line 622, src/scss/_components/dashboard/_dashboard.scss */
+/* line 643, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option p {
   font-size: 14px;
   letter-spacing: 0.09px;
 }
 
-/* line 629, src/scss/_components/dashboard/_dashboard.scss */
+/* line 650, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option .dropdown--border .dropdown-toggle {
   width: auto;
   min-width: unset;
