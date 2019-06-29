@@ -126,6 +126,12 @@
 			&-toggle {
 				width: 100%;
 			}
+
+			&-menu {
+				@include adaptive(374) {
+					width: 100%;
+				}
+			}
 		}
 	}
 
@@ -442,7 +448,6 @@
 
 		&-close {
 			overflow: hidden;
-			z-index: 10;
 			position: absolute;
 			top: 0;
 			right: 0;

@@ -497,6 +497,7 @@
 			.dropdown-toggle {
 				cursor: default;
 				pointer-events: none;
+				height: auto;
 
 				&:hover {
 					color: #333333;
