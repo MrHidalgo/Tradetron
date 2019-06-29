@@ -319,6 +319,46 @@
 		}
 
 		&-marketWatch {
+			.dashboard__block-body {
+				.dashboard__block-btn {
+					@include adaptive(424) {
+						width: 100%;
+					}
+				}
+
+				.dropdown {
+					@include adaptive(767) {
+						.dropdown {
+							&-menu {
+								left: 0;
+								right: auto !important;
+
+								&-corner {
+									right: auto;
+									left: 12px;
+								}
+							}
+						}
+					}
+					@include adaptive(424) {
+						width: 100%;
+						margin-right: 0 !important;
+
+						.dropdown {
+							&-toggle,
+							&-menu {
+								width: 100%;
+
+								&-corner {
+									left: auto;
+									right: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+
 			.table {
 				&-responsive {
 					overflow-x: unset;
