@@ -7232,6 +7232,13 @@ picture {
   letter-spacing: 0.08px;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 607, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy p {
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 424px) {
   /* line 607, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy p {
@@ -7239,7 +7246,7 @@ picture {
   }
 }
 
-/* line 616, src/scss/_components/dashboard/_dashboard.scss */
+/* line 619, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy input {
   outline: none;
   width: 175px;
@@ -7253,7 +7260,7 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 616, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 619, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy input {
     width: 100%;
     margin-right: 0 !important;
@@ -7261,7 +7268,7 @@ picture {
 }
 
 @media screen and (max-width: 424px) {
-  /* line 630, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 633, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-strategy a,
   .dashboard__block-strategy .dropdown,
   .dashboard__block-strategy .dropdown-toggle {
@@ -7270,13 +7277,30 @@ picture {
   }
 }
 
-/* line 643, src/scss/_components/dashboard/_dashboard.scss */
+@media screen and (max-width: 767px) {
+  /* line 643, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy .dropdown,
+  .dashboard__block-strategy input {
+    width: -webkit-calc(100% - 150px);
+    width: calc(100% - 150px);
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 651, src/scss/_components/dashboard/_dashboard.scss */
+  .dashboard__block-strategy .dropdown-toggle {
+    width: 100%;
+  }
+}
+
+/* line 661, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option p {
   font-size: 14px;
   letter-spacing: 0.09px;
 }
 
-/* line 650, src/scss/_components/dashboard/_dashboard.scss */
+/* line 668, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option .dropdown--border .dropdown-toggle {
   width: auto;
   min-width: unset;

@@ -608,6 +608,9 @@
 				font-size: 12px;
 				font-weight: 500;
 				letter-spacing: 0.08px;
+				@include adaptive(767) {
+					width: 150px;
+				}
 				@include adaptive(424) {
 					width: 100%;
 				}
@@ -630,9 +633,24 @@
 			a,
 			.dropdown,
 			.dropdown-toggle {
+
 				@include adaptive(424) {
 					width: 100%;
 					margin-right: 0 !important;
+				}
+			}
+
+			.dropdown,
+			input {
+				@include adaptive(767) {
+					width: calc(100% - 150px);
+					margin-right: 0 !important;
+				}
+			}
+
+			.dropdown-toggle {
+				@include adaptive(767) {
+					width: 100%;
 				}
 			}
 		}
