@@ -123,8 +123,7 @@ a {
 	color: #333333;
 	@include transition(color);
 
-  &:hover,
-  &:focus {
+  &:hover {
     text-decoration: none;
 		color: #6772e5;
 		@include transition(color);

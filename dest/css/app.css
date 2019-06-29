@@ -676,7 +676,7 @@ a {
 }
 
 /* line 126, src/scss/_shared/_main-setting-reset.scss */
-a:hover, a:focus {
+a:hover {
   text-decoration: none;
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -684,14 +684,14 @@ a:hover, a:focus {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 135, src/scss/_shared/_main-setting-reset.scss */
+/* line 134, src/scss/_shared/_main-setting-reset.scss */
 input[type="text"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 
-/* line 139, src/scss/_shared/_main-setting-reset.scss */
+/* line 138, src/scss/_shared/_main-setting-reset.scss */
 picture {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1710,7 +1710,7 @@ picture {
 
 /* line 172, src/scss/_components/_header.scss */
 .header__nav--alert a .icon-font {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 /* line 178, src/scss/_components/_header.scss */
