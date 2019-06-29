@@ -234,6 +234,21 @@
 				tbody {
 					td {
 						padding: 0.4rem 0.2rem;
+
+						a {
+							img {
+								transform-origin: center;
+								@include transition(opacity, transform);
+							}
+
+							&:hover {
+								img {
+									opacity: 0.75;
+									transform: scale(1.05);
+									@include transition(opacity, transform);
+								}
+							}
+						}
 					}
 
 					input {
