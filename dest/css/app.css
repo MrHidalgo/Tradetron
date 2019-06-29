@@ -6770,18 +6770,28 @@ picture {
   text-align: center;
 }
 
-/* line 220, src/scss/_components/dashboard/_dashboard.scss */
+/* line 218, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-optionChain table.table thead tr:nth-of-type(1) th:nth-of-type(1) {
+  padding-left: 44px;
+}
+
+/* line 221, src/scss/_components/dashboard/_dashboard.scss */
+.dashboard__block-optionChain table.table thead tr:nth-of-type(1) th:nth-of-type(3) {
+  padding-right: 44px;
+}
+
+/* line 227, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain table.table thead tr th {
   padding: 0.5rem 0.2rem;
   border-color: #d4deeb;
 }
 
-/* line 228, src/scss/_components/dashboard/_dashboard.scss */
+/* line 235, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain table.table tbody td {
   padding: 0.4rem 0.2rem;
 }
 
-/* line 232, src/scss/_components/dashboard/_dashboard.scss */
+/* line 239, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain table.table tbody input {
   outline: none;
   width: 44px;
@@ -6795,18 +6805,18 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 244, src/scss/_components/dashboard/_dashboard.scss */
+/* line 251, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain table.table .bg {
   background-color: #d4deeb;
   text-align: center;
 }
 
-/* line 249, src/scss/_components/dashboard/_dashboard.scss */
+/* line 256, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain table.table .inner-bg {
   background-color: rgba(255, 173, 13, 0.2);
 }
 
-/* line 254, src/scss/_components/dashboard/_dashboard.scss */
+/* line 261, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain .dashboard__block-title {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6820,7 +6830,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 260, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 267, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-optionChain .dropdown.dropdown--more {
     position: absolute;
     right: 55px;
@@ -6829,14 +6839,14 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 268, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 275, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-optionChain .dashboard__block-header {
     padding-right: 1rem;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 273, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 280, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-optionChain .dashboard__block-header--option {
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
@@ -6847,48 +6857,48 @@ picture {
   }
 }
 
-/* line 282, src/scss/_components/dashboard/_dashboard.scss */
+/* line 289, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-optionChain .dashboard__block-header--option .dropdown.dropdown--border .dropdown-toggle {
   min-width: unset;
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
 
-/* line 295, src/scss/_components/dashboard/_dashboard.scss */
+/* line 302, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table-responsive {
   overflow-x: unset;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 295, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 302, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-marketWatch .table-responsive {
     overflow-x: auto;
   }
 }
 
-/* line 302, src/scss/_components/dashboard/_dashboard.scss */
+/* line 309, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table th {
   border-top: none;
 }
 
-/* line 307, src/scss/_components/dashboard/_dashboard.scss */
+/* line 314, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td {
   font-size: 14px;
 }
 
-/* line 311, src/scss/_components/dashboard/_dashboard.scss */
+/* line 318, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td[scope="row"] span {
   white-space: nowrap;
   display: block;
   font-size: 12px;
 }
 
-/* line 316, src/scss/_components/dashboard/_dashboard.scss */
+/* line 323, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table tbody td[scope="row"] span a {
   text-decoration: underline;
 }
 
-/* line 325, src/scss/_components/dashboard/_dashboard.scss */
+/* line 332, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .action a {
   width: 35px;
   height: 24px;
@@ -6899,39 +6909,39 @@ picture {
   text-align: center;
 }
 
-/* line 335, src/scss/_components/dashboard/_dashboard.scss */
+/* line 342, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .buy,
 .dashboard__block-marketWatch .table .sell {
   color: #ffffff;
 }
 
-/* line 340, src/scss/_components/dashboard/_dashboard.scss */
+/* line 347, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .buy {
   background-color: #22c993;
 }
 
-/* line 344, src/scss/_components/dashboard/_dashboard.scss */
+/* line 351, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-marketWatch .table .sell {
   background-color: #f05858;
 }
 
-/* line 351, src/scss/_components/dashboard/_dashboard.scss */
+/* line 358, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table {
   border-bottom: 1px solid #D8D8D8;
 }
 
-/* line 354, src/scss/_components/dashboard/_dashboard.scss */
+/* line 361, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p {
   font-weight: 500;
 }
 
-/* line 357, src/scss/_components/dashboard/_dashboard.scss */
+/* line 364, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-notification .table p span {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 365, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 372, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block .dropdown--more {
     position: absolute;
     top: 9px;
@@ -6939,33 +6949,33 @@ picture {
   }
 }
 
-/* line 373, src/scss/_components/dashboard/_dashboard.scss */
+/* line 380, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle {
   min-width: 128px;
   background-color: #ffffff;
   border: 1px solid rgba(185, 185, 185, 0.3);
 }
 
-/* line 378, src/scss/_components/dashboard/_dashboard.scss */
+/* line 385, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown--border .dropdown-toggle:after {
   display: block;
 }
 
-/* line 384, src/scss/_components/dashboard/_dashboard.scss */
+/* line 391, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle {
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
-/* line 387, src/scss/_components/dashboard/_dashboard.scss */
+/* line 394, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle:focus, .dashboard__block .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 393, src/scss/_components/dashboard/_dashboard.scss */
+/* line 400, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -6973,31 +6983,31 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 400, src/scss/_components/dashboard/_dashboard.scss */
+/* line 407, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header {
   min-height: 60px;
   padding-right: 55px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 400, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 407, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-header {
     padding-right: 1rem;
   }
 }
 
-/* line 409, src/scss/_components/dashboard/_dashboard.scss */
+/* line 416, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle .icon-font {
   color: #AEAEAE;
   font-size: 5px;
 }
 
-/* line 414, src/scss/_components/dashboard/_dashboard.scss */
+/* line 421, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-header .dropdown-toggle:after {
   display: none;
 }
 
-/* line 421, src/scss/_components/dashboard/_dashboard.scss */
+/* line 428, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close {
   overflow: hidden;
   z-index: 10;
@@ -7013,20 +7023,20 @@ picture {
   background-color: #b3c5dc;
 }
 
-/* line 433, src/scss/_components/dashboard/_dashboard.scss */
+/* line 440, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-close .icon-font {
   color: #ffffff;
   font-size: 10px;
 }
 
-/* line 439, src/scss/_components/dashboard/_dashboard.scss */
+/* line 446, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-title {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.42px;
 }
 
-/* line 445, src/scss/_components/dashboard/_dashboard.scss */
+/* line 452, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn {
   height: 40px;
   padding-left: 20px;
@@ -7045,13 +7055,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 459, src/scss/_components/dashboard/_dashboard.scss */
+/* line 466, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border {
   background-color: transparent;
   color: #6772e5;
 }
 
-/* line 463, src/scss/_components/dashboard/_dashboard.scss */
+/* line 470, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn--border:hover {
   background-color: #6772e5 !important;
   color: #ffffff;
@@ -7060,7 +7070,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 470, src/scss/_components/dashboard/_dashboard.scss */
+/* line 477, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-btn:hover {
   background-color: transparent;
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -7068,7 +7078,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 477, src/scss/_components/dashboard/_dashboard.scss */
+/* line 484, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-info p {
   font-size: 10px;
   font-weight: 600;
@@ -7076,7 +7086,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 486, src/scss/_components/dashboard/_dashboard.scss */
+/* line 493, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff p {
   font-size: 10px;
   font-weight: 600;
@@ -7085,13 +7095,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 486, src/scss/_components/dashboard/_dashboard.scss */
+  /* line 493, src/scss/_components/dashboard/_dashboard.scss */
   .dashboard__block-payoff p {
     width: 100%;
   }
 }
 
-/* line 496, src/scss/_components/dashboard/_dashboard.scss */
+/* line 503, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff input {
   outline: none;
   width: 40px;
@@ -7108,7 +7118,7 @@ picture {
   letter-spacing: 0.2px;
 }
 
-/* line 510, src/scss/_components/dashboard/_dashboard.scss */
+/* line 517, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-payoff .dashboard__block-btn {
   height: 23px;
   padding-left: 10px;
@@ -7116,14 +7126,14 @@ picture {
   font-size: 10px;
 }
 
-/* line 519, src/scss/_components/dashboard/_dashboard.scss */
+/* line 526, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy p {
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.08px;
 }
 
-/* line 525, src/scss/_components/dashboard/_dashboard.scss */
+/* line 532, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-strategy input {
   outline: none;
   width: 175px;
@@ -7136,13 +7146,13 @@ picture {
   border: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 539, src/scss/_components/dashboard/_dashboard.scss */
+/* line 546, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option p {
   font-size: 14px;
   letter-spacing: 0.09px;
 }
 
-/* line 546, src/scss/_components/dashboard/_dashboard.scss */
+/* line 553, src/scss/_components/dashboard/_dashboard.scss */
 .dashboard__block-option .dropdown--border .dropdown-toggle {
   width: auto;
   min-width: unset;
