@@ -59,7 +59,7 @@ each val, idx in cardArr
 					i.icon-font.icon-heart
 					i.icon-font.icon-heart-fill
 
-		.strategy__card-header.pt-5.pt-sm-3.pl-3.d-flex.align-items-start.align-md-items-center.justify-content-between.flex-column.flex-md-row
+		.strategy__card-header.pt-5.pt-sm-3.pl-3.d-flex.align-items-start.align-items-md-center.justify-content-between.flex-column.flex-md-row
 			div
 				p.strategy__card-created.pb-2!= "created : 10 Apr 2019"
 				p.strategy__card-title.d-flex.align-items-center.flex-wrap!= cardArr[idx].title + "<span>(20 subscribers)</span>"
@@ -103,16 +103,16 @@ each val, idx in cardArr
 					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
 
 		.strategy__card-footer.p-3.d-flex.flex-wrap.flex-md-nowrap
-			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pr-4.pr-md-5.pr-lg-4.pr-xl-5.pl-4.pl-md-0
+			div.d-flex.flex-column.justify-content-center.justify-content-md-between.pr-4.pr-md-5.pr-lg-4.pr-xl-5.pl-4.pl-md-0
 				span.pb-3.pb-md-0!= "ROI"
 				p!= cardArr[idx].roi
-			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
+			div.d-flex.flex-column.justify-content-center.justify-content-md-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
 				span.pb-3.pb-md-0!= "DD"
 				p!= cardArr[idx].dd
-			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
+			div.d-flex.flex-column.justify-content-center.justify-content-md-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
 				span.pb-3.pb-md-0!= "Min Capital"
 				p!= cardArr[idx].minCapital
-			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5
+			div.d-flex.flex-column.justify-content-center.justify-content-md-between.pl-4.pl-xl-5
 				span.pb-3.pb-md-0!= "Fees per month"
 				p!= cardArr[idx].feesPerMonth
 
