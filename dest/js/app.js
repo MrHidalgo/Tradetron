@@ -458,6 +458,15 @@ $(document).ready(function (ev) {
 			$(ev.currentTarget).toggleClass('is-active');
 		});
 	};
+
+	var initStrategyFilterToggle = function initStrategyFilterToggle() {
+		$('.strategy__option-btn').on('click', function (ev) {
+			$('.strategy__filter').addClass('is-open');
+		});
+		$('.strategy__filter-close').on('click', function (ev) {
+			$('.strategy__filter').removeClass('is-open');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -484,6 +493,7 @@ $(document).ready(function (ev) {
 		initModalTabs();
 		initStrategyTabs();
 		initStrategyCardBadge();
+		initStrategyFilterToggle();
 	};
 	initJquery();
 });

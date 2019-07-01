@@ -1,6 +1,11 @@
 // SECTION strategy filter :: START
 
 form(action='' autocomplete='off').strategy__section.strategy__filter.d-flex.flex-column.py-4.px-3
+
+	a.strategy__filter-close.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+		i.icon-font.icon-close
+		span!= "Close"
+
 	.strategy__filter-row.pb-4
 		p.strategy__filter-title.pb-2!= "Search Strategies"
 
@@ -26,47 +31,49 @@ form(action='' autocomplete='off').strategy__section.strategy__filter.d-flex.fle
 			a(href="#" class="" title="")
 				i.icon-font.icon-star
 
-	.strategy__filter-row.pb-4
-		p.strategy__filter-title.pb-2!= "Sort by"
+	.strategy__filter-col
+		.strategy__filter-row.pb-4
+			p.strategy__filter-title.pb-2!= "Sort by"
 
-		.strategy__filter-link.strategy__filter.d-flex.flex-column
-			a(href="#" class="" title="")!= "Latest"
-			a(href="#" class="" title="")!= "Min Fees"
-			a(href="#" class="" title="")!= "Max ROI"
-			a(href="#" class="" title="")!= "Min Drawdown"
-			a(href="#" class="" title="")!= "Max Subscribers"
-			a(href="#" class="" title="")!= "Min Positions"
-			a(href="#" class="" title="")!= "Min Capital"
-			a(href="#" class="" title="")!= "Max Sharpe Ratio"
-			a(href="#" class="" title="")!= "Max Sortino Ratio"
+			.strategy__filter-link.d-flex.flex-column
+				a(href="#" class="" title="")!= "Latest"
+				a(href="#" class="" title="")!= "Min Fees"
+				a(href="#" class="" title="")!= "Max ROI"
+				a(href="#" class="" title="")!= "Min Drawdown"
+				a(href="#" class="" title="")!= "Max Subscribers"
+				a(href="#" class="" title="")!= "Min Positions"
+				a(href="#" class="" title="")!= "Min Capital"
+				a(href="#" class="" title="")!= "Max Sharpe Ratio"
+				a(href="#" class="" title="")!= "Max Sortino Ratio"
 
-	.strategy__filter-row.pb-4
-		p.strategy__filter-title.pb-2!= "Tags"
+	.strategy__filter-col
+		.strategy__filter-row.pb-4
+			p.strategy__filter-title.pb-2!= "Tags"
 
-		.form-group.mb-0
-			select.form-control
-				option(value="" selected) Select from the list
-				option(value="") 2
-				option(value="") 3
+			.form-group.mb-0
+				select.form-control
+					option(value="" selected) Select from the list
+					option(value="") 2
+					option(value="") 3
 
-	.strategy__filter-row.pb-4
-		p.strategy__filter-title.pb-2!= "Fixed Fee"
+		.strategy__filter-row.pb-4
+			p.strategy__filter-title.pb-2!= "Fixed Fee"
 
-		.form-group.form-check
-			input#strategyFilterFeeFree.form-check-input(type='checkbox')
-			label.form-check-label(for='strategyFilterFeeFree') Free
-		.form-group.form-check.mb-0
-			input#strategyFilterFeePaid.form-check-input(type='checkbox')
-			label.form-check-label(for='strategyFilterFeePaid') Paid
+			.form-group.form-check
+				input#strategyFilterFeeFree.form-check-input(type='checkbox')
+				label.form-check-label(for='strategyFilterFeeFree') Free
+			.form-group.form-check.mb-0
+				input#strategyFilterFeePaid.form-check-input(type='checkbox')
+				label.form-check-label(for='strategyFilterFeePaid') Paid
 
-	.strategy__filter-row.pb-1
-		p.strategy__filter-title.pb-2!= "Favorite"
+		.strategy__filter-row.pb-1
+			p.strategy__filter-title.pb-2!= "Favorite"
 
-		.form-group.form-check
-			input#strategyFilterFavoriteStrategies.form-check-input(type='checkbox')
-			label.form-check-label(for='strategyFilterFavoriteStrategies') Strategies
-		.form-group.form-check.mb-0
-			input#strategyFilterFavoriteCreators.form-check-input(type='checkbox')
-			label.form-check-label(for='strategyFilterFavoriteCreators') Creators
+			.form-group.form-check
+				input#strategyFilterFavoriteStrategies.form-check-input(type='checkbox')
+				label.form-check-label(for='strategyFilterFavoriteStrategies') Strategies
+			.form-group.form-check.mb-0
+				input#strategyFilterFavoriteCreators.form-check-input(type='checkbox')
+				label.form-check-label(for='strategyFilterFavoriteCreators') Creators
 
 // SECTION strategy filter :: END

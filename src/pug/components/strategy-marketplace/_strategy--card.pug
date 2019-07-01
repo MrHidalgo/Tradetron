@@ -102,16 +102,16 @@ each val, idx in cardArr
 					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
 
 		.strategy__card-footer.p-3.d-flex
-			div.pr-3.d-flex.flex-column.justify-content-between.w-100
+			div.d-flex.flex-column.justify-content-between.pr-4.pr-md-5.pr-lg-4.pr-xl-5
 				span!= "ROI"
 				p!= cardArr[idx].roi
-			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
 				span!= "DD"
 				p!= cardArr[idx].dd
-			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
 				span!= "Min Capital"
 				p!= cardArr[idx].minCapital
-			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5
 				span!= "Fees per month"
 				p!= cardArr[idx].feesPerMonth
 

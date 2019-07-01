@@ -189,7 +189,7 @@
                   <div class="strategy__wrapper-left">
                     <!-- strategy FILTER-->
                     <!-- SECTION strategy filter :: START-->
-                    <form class="strategy__section strategy__filter d-flex flex-column py-4 px-3" action="" autocomplete="off">
+                    <form class="strategy__section strategy__filter d-flex flex-column py-4 px-3" action="" autocomplete="off"><a class="strategy__filter-close d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i><span>Close</span></a>
                       <div class="strategy__filter-row pb-4">
                         <p class="strategy__filter-title pb-2">Search Strategies</p>
                         <div class="strategy__filter-search">
@@ -205,40 +205,44 @@
                         <p class="strategy__filter-title pb-2">Sort by rating</p>
                         <div class="strategy__filter-rating d-flex align-items-center"><a class="pr-1" href="#" title=""><i class="icon-font icon-star"></i></a><a class="pr-1" href="#" title=""><i class="icon-font icon-star"></i></a><a class="pr-1" href="#" title=""><i class="icon-font icon-star"></i></a><a class="pr-1" href="#" title=""><i class="icon-font icon-star"></i></a><a href="#" title=""><i class="icon-font icon-star"></i></a></div>
                       </div>
-                      <div class="strategy__filter-row pb-4">
-                        <p class="strategy__filter-title pb-2">Sort by</p>
-                        <div class="strategy__filter-link strategy__filter d-flex flex-column"><a href="#" title="">Latest</a><a href="#" title="">Min Fees</a><a href="#" title="">Max ROI</a><a href="#" title="">Min Drawdown</a><a href="#" title="">Max Subscribers</a><a href="#" title="">Min Positions</a><a href="#" title="">Min Capital</a><a href="#" title="">Max Sharpe Ratio</a><a href="#" title="">Max Sortino Ratio</a></div>
-                      </div>
-                      <div class="strategy__filter-row pb-4">
-                        <p class="strategy__filter-title pb-2">Tags</p>
-                        <div class="form-group mb-0">
-                          <select class="form-control">
-                            <option value="" selected>Select from the list</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                          </select>
+                      <div class="strategy__filter-col">
+                        <div class="strategy__filter-row pb-4">
+                          <p class="strategy__filter-title pb-2">Sort by</p>
+                          <div class="strategy__filter-link d-flex flex-column"><a href="#" title="">Latest</a><a href="#" title="">Min Fees</a><a href="#" title="">Max ROI</a><a href="#" title="">Min Drawdown</a><a href="#" title="">Max Subscribers</a><a href="#" title="">Min Positions</a><a href="#" title="">Min Capital</a><a href="#" title="">Max Sharpe Ratio</a><a href="#" title="">Max Sortino Ratio</a></div>
                         </div>
                       </div>
-                      <div class="strategy__filter-row pb-4">
-                        <p class="strategy__filter-title pb-2">Fixed Fee</p>
-                        <div class="form-group form-check">
-                          <input class="form-check-input" id="strategyFilterFeeFree" type="checkbox">
-                          <label class="form-check-label" for="strategyFilterFeeFree">Free</label>
+                      <div class="strategy__filter-col">
+                        <div class="strategy__filter-row pb-4">
+                          <p class="strategy__filter-title pb-2">Tags</p>
+                          <div class="form-group mb-0">
+                            <select class="form-control">
+                              <option value="" selected>Select from the list</option>
+                              <option value="">2</option>
+                              <option value="">3</option>
+                            </select>
+                          </div>
                         </div>
-                        <div class="form-group form-check mb-0">
-                          <input class="form-check-input" id="strategyFilterFeePaid" type="checkbox">
-                          <label class="form-check-label" for="strategyFilterFeePaid">Paid</label>
+                        <div class="strategy__filter-row pb-4">
+                          <p class="strategy__filter-title pb-2">Fixed Fee</p>
+                          <div class="form-group form-check">
+                            <input class="form-check-input" id="strategyFilterFeeFree" type="checkbox">
+                            <label class="form-check-label" for="strategyFilterFeeFree">Free</label>
+                          </div>
+                          <div class="form-group form-check mb-0">
+                            <input class="form-check-input" id="strategyFilterFeePaid" type="checkbox">
+                            <label class="form-check-label" for="strategyFilterFeePaid">Paid</label>
+                          </div>
                         </div>
-                      </div>
-                      <div class="strategy__filter-row pb-1">
-                        <p class="strategy__filter-title pb-2">Favorite</p>
-                        <div class="form-group form-check">
-                          <input class="form-check-input" id="strategyFilterFavoriteStrategies" type="checkbox">
-                          <label class="form-check-label" for="strategyFilterFavoriteStrategies">Strategies</label>
-                        </div>
-                        <div class="form-group form-check mb-0">
-                          <input class="form-check-input" id="strategyFilterFavoriteCreators" type="checkbox">
-                          <label class="form-check-label" for="strategyFilterFavoriteCreators">Creators</label>
+                        <div class="strategy__filter-row pb-1">
+                          <p class="strategy__filter-title pb-2">Favorite</p>
+                          <div class="form-group form-check">
+                            <input class="form-check-input" id="strategyFilterFavoriteStrategies" type="checkbox">
+                            <label class="form-check-label" for="strategyFilterFavoriteStrategies">Strategies</label>
+                          </div>
+                          <div class="form-group form-check mb-0">
+                            <input class="form-check-input" id="strategyFilterFavoriteCreators" type="checkbox">
+                            <label class="form-check-label" for="strategyFilterFavoriteCreators">Creators</label>
+                          </div>
                         </div>
                       </div>
                     </form>
@@ -255,6 +259,24 @@
                     </div>
                     <!-- SECTION strategy tabs :: END-->
                     <!-- strategy TABS :: end-->
+                    <!-- strategy OPTION-->
+                    <!-- SECTION strategy option :: START-->
+                    <div class="strategy__option mb-4 align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <p class="strategy__option-title">Search Strategies</p>
+                        <div class="strategy__option-search">
+                          <div class="input-group input-group--reverse">
+                            <input class="form-control" type="text" placeholder="Search">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button"><i class="icon-font icon-search"></i></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div><a class="strategy__option-btn d-flex justify-content-center align-items-center" href="#" title=""><i class="icon-font icon-filter"></i><span>Filters</span></a></div>
+                    </div>
+                    <!-- SECTION strategy option :: END-->
+                    <!-- strategy OPTION :: end-->
                     <!-- strategy CARD-->
                     <!-- SECTION strategy tabs :: START-->
                     <div class="strategy__section strategy__card position-relative mb-4 d-flex flex-column justify-content-between strategy__card--featured">
@@ -282,16 +304,16 @@
                         </div>
                       </div>
                       <div class="strategy__card-footer p-3 d-flex">
-                        <div class="pr-3 d-flex flex-column justify-content-between w-100"><span>ROI</span>
+                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
                           <p>20 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
                       </div>
@@ -320,16 +342,16 @@
                         </div>
                       </div>
                       <div class="strategy__card-footer p-3 d-flex">
-                        <div class="pr-3 d-flex flex-column justify-content-between w-100"><span>ROI</span>
+                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
                           <p>20 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
                       </div>
@@ -358,16 +380,16 @@
                         </div>
                       </div>
                       <div class="strategy__card-footer p-3 d-flex">
-                        <div class="pr-3 d-flex flex-column justify-content-between w-100"><span>ROI</span>
+                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
                           <p>40 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
                           <p>15 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
                           <p>Rs.10000</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
                       </div>
@@ -396,16 +418,16 @@
                         </div>
                       </div>
                       <div class="strategy__card-footer p-3 d-flex">
-                        <div class="pr-3 d-flex flex-column justify-content-between w-100"><span>ROI</span>
+                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
                           <p>200 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
                       </div>
@@ -434,16 +456,16 @@
                         </div>
                       </div>
                       <div class="strategy__card-footer p-3 d-flex">
-                        <div class="pr-3 d-flex flex-column justify-content-between w-100"><span>ROI</span>
+                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
                           <p>-20 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
                           <p>50 %</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="pl-5 pr-3 d-flex flex-column justify-content-between w-100"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
                       </div>

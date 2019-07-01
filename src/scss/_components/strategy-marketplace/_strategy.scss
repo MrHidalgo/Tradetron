@@ -54,6 +54,59 @@
 	}
 
 	&__filter {
+		position: relative;
+		@include adaptive(1023) {
+			display: none !important;
+			z-index: 100;
+			position: absolute;
+			top: 80px;
+			left: 15px;
+			flex-wrap: wrap;
+			flex-direction: row !important;
+			width: calc(100% - 30px);
+
+			&.is-open {
+				display: flex !important;
+				animation-fill-mode: both;
+				animation-duration: 0.55s;
+				animation-name: fadeIn;
+			}
+
+			.strategy__filter {
+				&-col {
+					width: 50%;
+				}
+				&-row {
+					width: 50%;
+
+					> * {
+						width: 100%;
+						max-width: 241px;
+					}
+				}
+			}
+		}
+
+		&-close {
+			white-space: nowrap;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 100px;
+			height: 35px;
+
+			.icon-font {
+				font-size: 16px;
+			}
+
+			span {
+				padding-left: 10px;
+				font-size: 15px;
+				font-weight: 500;
+				letter-spacing: 0.47px;
+			}
+		}
+
 		&-title {
 			font-size: 16px;
 			font-weight: bold;
@@ -122,6 +175,61 @@
 				background-color: #d8d8d8;
 				@include transition(opacity);
 			}
+		}
+	}
+
+	&__option {
+		display: none !important;
+		@include adaptive(1023) {
+			display: flex !important;
+		}
+
+		> div {
+			&:nth-of-type(1) {
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+				padding-right: 15px;
+			}
+			&:nth-of-type(2) {
+				width: 100px;
+			}
+		}
+
+		&-title {
+			white-space: nowrap;
+			padding-right: 15px;
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+		}
+
+		&-search {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+
+		&-btn {
+			height: 40px;
+			border-radius: 6px;
+			box-shadow: 0 1px 38px -5px rgba(17, 30, 79, 0.17);
+			background-color: #fff;
+
+			.icon-font {
+				font-size: 20px;
+			}
+
+			span {
+				padding-left: 10px;
+				font-size: 15px;
+				font-weight: 500;
+				letter-spacing: 0.47px;
+			}
+		}
+
+		.form-control {
+			height: 40px;
 		}
 	}
 
@@ -328,15 +436,12 @@
 				min-height: 60px;
 
 				&:nth-of-type(1) {
-					max-width: 131px;
 					border-right: 1px solid #d8d8d8;
 				}
 				&:nth-of-type(2) {
-					max-width: 191px;
 					border-right: 1px solid #d8d8d8;
 				}
 				&:nth-of-type(3) {
-					max-width: 210px;
 					border-right: 1px solid #d8d8d8;
 				}
 				&:nth-of-type(4) {
@@ -352,6 +457,7 @@
 			}
 
 			p {
+				white-space: nowrap;
 				font-size: 25px;
 				font-weight: 600;
 				line-height: 0.96;

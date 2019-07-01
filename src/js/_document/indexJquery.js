@@ -68,6 +68,16 @@ $(document).ready((ev) => {
 			$(ev.currentTarget).toggleClass('is-active');
 		});
 	};
+
+
+	const initStrategyFilterToggle = () => {
+		$('.strategy__option-btn').on('click', (ev) => {
+			$('.strategy__filter').addClass('is-open');
+		});
+		$('.strategy__filter-close').on('click', (ev) => {
+			$('.strategy__filter').removeClass('is-open');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -96,6 +106,7 @@ $(document).ready((ev) => {
 		initModalTabs();
 		initStrategyTabs();
 		initStrategyCardBadge();
+		initStrategyFilterToggle();
   };
   initJquery();
 });

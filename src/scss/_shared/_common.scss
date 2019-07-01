@@ -112,7 +112,26 @@
 
 // FORM
 .input-group {
+	overflow: hidden;
+	border-radius: 6px;
+	background-color: #ffffff;
+
+	&--reverse {
+		&.input-group {
+			button.btn {
+				border-left: transparent !important;
+				border-right: solid 1px rgba(185, 185, 185, 0.3);
+			}
+
+			.form-control {
+				border-left: solid 1px rgba(185, 185, 185, 0.3);
+				border-right: transparent !important;
+			}
+		}
+	}
+
 	button.btn {
+		border-radius: 6px;
 		border: solid 1px rgba(185, 185, 185, 0.3);
 		border-right: transparent;
 		
@@ -129,7 +148,7 @@
 
 		.icon-font {
 			opacity: 0.35;
-			font-size: 14px;
+			font-size: 17px;
 			color: #333333;
 		}
 	}

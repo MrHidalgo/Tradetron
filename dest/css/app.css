@@ -163,7 +163,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,354 +174,359 @@
   text-transform: none;
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-controls:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-copy:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-cvs:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-deadline:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-diagram:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-duplicate:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-envelope:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-file-2:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
+/* line 248, src/scss/_generated/_spriteFont.scss */
 .icon-file:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-garbage:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-garbage:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-heart-fill:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-heart:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-heart-fill:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-heart:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-internet:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-key:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-internet:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-key:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-link:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-link:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-money:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-more:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
 }
 
-/* line 245, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
   content: "";
+}
+
+/* line 248, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -868,18 +873,40 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 115, src/scss/_shared/_common.scss */
+/* line 114, src/scss/_shared/_common.scss */
+.input-group {
+  overflow: hidden;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+}
+
+/* line 121, src/scss/_shared/_common.scss */
+.input-group--reverse.input-group button.btn {
+  border-left: transparent !important;
+  border-right: solid 1px rgba(185, 185, 185, 0.3);
+}
+
+/* line 126, src/scss/_shared/_common.scss */
+.input-group--reverse.input-group .form-control {
+  border-left: solid 1px rgba(185, 185, 185, 0.3);
+  border-right: transparent !important;
+}
+
+/* line 133, src/scss/_shared/_common.scss */
 .input-group button.btn {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
   border: solid 1px rgba(185, 185, 185, 0.3);
   border-right: transparent;
 }
 
-/* line 119, src/scss/_shared/_common.scss */
+/* line 138, src/scss/_shared/_common.scss */
 .input-group button.btn:hover {
   background-color: transparent;
 }
 
-/* line 123, src/scss/_shared/_common.scss */
+/* line 142, src/scss/_shared/_common.scss */
 .input-group button.btn:focus, .input-group button.btn:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -887,14 +914,14 @@ picture {
   border-color: rgba(185, 185, 185, 0.3) !important;
 }
 
-/* line 130, src/scss/_shared/_common.scss */
+/* line 149, src/scss/_shared/_common.scss */
 .input-group button.btn .icon-font {
   opacity: 0.35;
-  font-size: 14px;
+  font-size: 17px;
   color: #333333;
 }
 
-/* line 137, src/scss/_shared/_common.scss */
+/* line 156, src/scss/_shared/_common.scss */
 .input-group .form-control {
   height: 45px;
   -webkit-border-radius: 6px;
@@ -952,14 +979,14 @@ picture {
   color: #333333;
 }
 
-/* line 154, src/scss/_shared/_common.scss */
+/* line 173, src/scss/_shared/_common.scss */
 .input-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 161, src/scss/_shared/_common.scss */
+/* line 180, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 45px;
@@ -972,14 +999,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 170, src/scss/_shared/_common.scss */
+/* line 189, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 179, src/scss/_shared/_common.scss */
+/* line 198, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1031,7 +1058,7 @@ picture {
   }
 }
 
-/* line 201, src/scss/_shared/_common.scss */
+/* line 220, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1039,7 +1066,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 205, src/scss/_shared/_common.scss */
+/* line 224, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -7523,20 +7550,95 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 57, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 56, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter {
+  position: relative;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 56, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter {
+    display: none !important;
+    z-index: 100;
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    width: -webkit-calc(100% - 30px);
+    width: calc(100% - 30px);
+  }
+  /* line 68, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter.is-open {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-duration: 0.55s;
+            animation-duration: 0.55s;
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+  }
+  /* line 76, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-col {
+    width: 50%;
+  }
+  /* line 79, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-row {
+    width: 50%;
+  }
+  /* line 82, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-row > * {
+    width: 100%;
+    max-width: 241px;
+  }
+}
+
+/* line 90, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter-close {
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 35px;
+}
+
+/* line 98, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter-close .icon-font {
+  font-size: 16px;
+}
+
+/* line 102, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter-close span {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.47px;
+}
+
+/* line 110, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-title {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-/* line 64, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 117, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-rating a {
   color: #dadada;
   font-size: 20px;
 }
 
-/* line 71, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 124, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-link a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7552,7 +7654,7 @@ picture {
   line-height: 1.71;
 }
 
-/* line 82, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 135, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7564,7 +7666,7 @@ picture {
           align-items: center;
 }
 
-/* line 86, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 139, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7584,7 +7686,7 @@ picture {
   max-width: calc(100% / 3);
 }
 
-/* line 95, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 148, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7602,12 +7704,12 @@ picture {
   text-align: center;
 }
 
-/* line 105, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 158, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active {
   color: #6772e5;
 }
 
-/* line 108, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 161, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7615,7 +7717,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 114, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 167, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn:after {
   opacity: 0;
   content: '';
@@ -7630,22 +7732,100 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 128, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 181, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option {
+  display: none !important;
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 181, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__option {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+/* line 188, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  padding-right: 15px;
+}
+
+/* line 194, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option > div:nth-of-type(2) {
+  width: 100px;
+}
+
+/* line 199, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option-title {
+  white-space: nowrap;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* line 207, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option-search {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 213, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option-btn {
+  height: 40px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 38px -5px rgba(17, 30, 79, 0.17);
+          box-shadow: 0 1px 38px -5px rgba(17, 30, 79, 0.17);
+  background-color: #fff;
+}
+
+/* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option-btn .icon-font {
+  font-size: 20px;
+}
+
+/* line 223, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option-btn span {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.47px;
+}
+
+/* line 231, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__option .form-control {
+  height: 40px;
+}
+
+/* line 236, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card {
   min-height: 270px;
 }
 
-/* line 133, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 241, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-header {
   padding-right: 203px;
 }
 
-/* line 136, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 244, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-badge {
   width: 186px;
 }
 
-/* line 142, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 250, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge {
   position: absolute;
   top: 0;
@@ -7659,7 +7839,7 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 152, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 260, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge p {
   font-size: 14px;
   font-weight: bold;
@@ -7668,7 +7848,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 163, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 271, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7676,7 +7856,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 167, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 275, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart-fill {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7684,7 +7864,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 175, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 283, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font {
   font-size: 21px;
   color: #ffffff;
@@ -7693,7 +7873,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 180, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 288, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font.icon-heart-fill {
   opacity: 0;
   position: absolute;
@@ -7704,7 +7884,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 193, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 301, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn {
   max-width: 177px;
   height: 40px;
@@ -7717,7 +7897,7 @@ picture {
   text-align: center;
 }
 
-/* line 203, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 311, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg {
   background-color: #6772e5;
   color: #ffffff;
@@ -7726,7 +7906,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 208, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 316, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg:hover {
   border-color: #6772e5;
   background-color: transparent;
@@ -7735,7 +7915,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 215, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 323, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border {
   border-color: #6772e5;
   background-color: transparent;
@@ -7745,7 +7925,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 221, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 329, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border:hover {
   background-color: #6772e5;
   color: #ffffff;
@@ -7754,26 +7934,26 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 229, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 337, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-created {
   font-size: 12px;
   line-height: 2;
 }
 
-/* line 234, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 342, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* line 238, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 346, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title span {
   padding-left: 15px;
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 250, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 358, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a.is-active .icon-font.icon-star {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7781,7 +7961,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 254, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 362, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a.is-active .icon-font.icon-star-fill {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7789,7 +7969,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 262, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 370, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a .icon-font {
   font-size: 15px;
   color: #989898;
@@ -7798,7 +7978,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 267, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 375, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a .icon-font.icon-star-fill {
   opacity: 0;
   position: absolute;
@@ -7809,24 +7989,24 @@ picture {
   color: #ff5980;
 }
 
-/* line 279, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 387, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating p {
   padding-top: 5px;
   text-align: center;
 }
 
-/* line 285, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 393, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 289, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 397, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by a {
   color: #6772e5;
 }
 
-/* line 295, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 403, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-tags a {
   height: 25px;
   -webkit-border-radius: 12.5px;
@@ -7838,13 +8018,13 @@ picture {
   color: #6772e5;
 }
 
-/* line 306, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 414, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-header {
   min-height: 60px;
   padding-right: 80px;
 }
 
-/* line 313, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 421, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7855,35 +8035,32 @@ picture {
   padding-right: 15px;
 }
 
-/* line 320, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 428, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(2) {
   width: 177px;
 }
 
-/* line 327, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 435, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div {
   min-height: 60px;
 }
 
-/* line 330, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 438, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(1) {
-  max-width: 131px;
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 334, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 441, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(2) {
-  max-width: 191px;
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 338, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 444, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(3) {
-  max-width: 210px;
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 342, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 447, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(4) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7893,14 +8070,15 @@ picture {
   min-width: 1px;
 }
 
-/* line 349, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 454, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer span {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 354, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 459, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer p {
+  white-space: nowrap;
   font-size: 25px;
   font-weight: 600;
   line-height: 0.96;

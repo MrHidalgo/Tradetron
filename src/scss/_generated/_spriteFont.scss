@@ -114,128 +114,131 @@
 	@if $filename == file {
 		$char: "\E01D";
 	}
-	@if $filename == garbage {
+	@if $filename == filter {
 		$char: "\E01E";
 	}
-	@if $filename == google-plus {
+	@if $filename == garbage {
 		$char: "\E01F";
 	}
-	@if $filename == graphene {
+	@if $filename == google-plus {
 		$char: "\E020";
 	}
-	@if $filename == hand {
+	@if $filename == graphene {
 		$char: "\E021";
 	}
-	@if $filename == heart-fill {
+	@if $filename == hand {
 		$char: "\E022";
 	}
-	@if $filename == heart {
+	@if $filename == heart-fill {
 		$char: "\E023";
 	}
-	@if $filename == id-card {
+	@if $filename == heart {
 		$char: "\E024";
 	}
-	@if $filename == idea {
+	@if $filename == id-card {
 		$char: "\E025";
 	}
-	@if $filename == information {
+	@if $filename == idea {
 		$char: "\E026";
 	}
-	@if $filename == innovation {
+	@if $filename == information {
 		$char: "\E027";
 	}
-	@if $filename == internet {
+	@if $filename == innovation {
 		$char: "\E028";
 	}
-	@if $filename == key {
+	@if $filename == internet {
 		$char: "\E029";
 	}
-	@if $filename == layers {
+	@if $filename == key {
 		$char: "\E02A";
 	}
-	@if $filename == line-chart {
+	@if $filename == layers {
 		$char: "\E02B";
 	}
-	@if $filename == link {
+	@if $filename == line-chart {
 		$char: "\E02C";
 	}
-	@if $filename == linkedin {
+	@if $filename == link {
 		$char: "\E02D";
 	}
-	@if $filename == maze {
+	@if $filename == linkedin {
 		$char: "\E02E";
 	}
-	@if $filename == money {
+	@if $filename == maze {
 		$char: "\E02F";
 	}
-	@if $filename == more {
+	@if $filename == money {
 		$char: "\E030";
 	}
-	@if $filename == photos {
+	@if $filename == more {
 		$char: "\E031";
 	}
-	@if $filename == plus {
+	@if $filename == photos {
 		$char: "\E032";
 	}
-	@if $filename == puzzle {
+	@if $filename == plus {
 		$char: "\E033";
 	}
-	@if $filename == safebox {
+	@if $filename == puzzle {
 		$char: "\E034";
 	}
-	@if $filename == search {
+	@if $filename == safebox {
 		$char: "\E035";
 	}
-	@if $filename == settings {
+	@if $filename == search {
 		$char: "\E036";
 	}
-	@if $filename == share {
+	@if $filename == settings {
 		$char: "\E037";
 	}
-	@if $filename == shield {
+	@if $filename == share {
 		$char: "\E038";
 	}
-	@if $filename == signin {
+	@if $filename == shield {
 		$char: "\E039";
 	}
-	@if $filename == smartphone {
+	@if $filename == signin {
 		$char: "\E03A";
 	}
-	@if $filename == star-fill {
+	@if $filename == smartphone {
 		$char: "\E03B";
 	}
-	@if $filename == star {
+	@if $filename == star-fill {
 		$char: "\E03C";
 	}
-	@if $filename == stop {
+	@if $filename == star {
 		$char: "\E03D";
 	}
-	@if $filename == stopwatch {
+	@if $filename == stop {
 		$char: "\E03E";
 	}
-	@if $filename == success {
+	@if $filename == stopwatch {
 		$char: "\E03F";
 	}
-	@if $filename == twitter {
+	@if $filename == success {
 		$char: "\E040";
 	}
-	@if $filename == upload {
+	@if $filename == twitter {
 		$char: "\E041";
 	}
-	@if $filename == user-profile {
+	@if $filename == upload {
 		$char: "\E042";
 	}
-	@if $filename == user {
+	@if $filename == user-profile {
 		$char: "\E043";
 	}
-	@if $filename == users {
+	@if $filename == user {
 		$char: "\E044";
 	}
-	@if $filename == wallet {
+	@if $filename == users {
 		$char: "\E045";
 	}
-	@if $filename == workflow {
+	@if $filename == wallet {
 		$char: "\E046";
+	}
+	@if $filename == workflow {
+		$char: "\E047";
 	}
 
 	@return $char;
@@ -366,6 +369,10 @@
 }
 .icon-file {
 	@include icon(file);
+
+}
+.icon-filter {
+	@include icon(filter);
 
 }
 .icon-garbage {
