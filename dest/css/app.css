@@ -7602,7 +7602,40 @@ picture {
   }
 }
 
-/* line 90, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 56, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    width: 280px;
+    right: 15px;
+    left: auto;
+  }
+  /* line 96, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-col {
+    width: 100%;
+  }
+  /* line 99, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-row {
+    width: 100%;
+  }
+  /* line 102, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-row > * {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 56, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter {
+    right: 0;
+  }
+}
+
+/* line 112, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close {
   white-space: nowrap;
   position: absolute;
@@ -7612,12 +7645,12 @@ picture {
   height: 35px;
 }
 
-/* line 98, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 120, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close .icon-font {
   font-size: 16px;
 }
 
-/* line 102, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 124, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close span {
   padding-left: 10px;
   font-size: 15px;
@@ -7625,20 +7658,20 @@ picture {
   letter-spacing: 0.47px;
 }
 
-/* line 110, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 132, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-title {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-/* line 117, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 139, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-rating a {
   color: #dadada;
   font-size: 20px;
 }
 
-/* line 124, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 146, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-link a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7654,7 +7687,7 @@ picture {
   line-height: 1.71;
 }
 
-/* line 135, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 157, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7666,7 +7699,22 @@ picture {
           align-items: center;
 }
 
-/* line 139, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 157, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    left: -15px;
+    width: -webkit-calc(100% + 30px);
+    width: calc(100% + 30px);
+    display: block;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+  }
+}
+
+/* line 170, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7686,7 +7734,15 @@ picture {
   max-width: calc(100% / 3);
 }
 
-/* line 148, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 170, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__tabs > div {
+    display: inline-block;
+    max-width: 150px;
+  }
+}
+
+/* line 183, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7704,12 +7760,22 @@ picture {
   text-align: center;
 }
 
-/* line 158, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 183, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__tabs-btn {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* line 196, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active {
   color: #6772e5;
 }
 
-/* line 161, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 199, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7717,7 +7783,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 167, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 205, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn:after {
   opacity: 0;
   content: '';
@@ -7732,13 +7798,13 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 181, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option {
   display: none !important;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 181, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__option {
     display: -webkit-box !important;
     display: -webkit-flex !important;
@@ -7747,7 +7813,7 @@ picture {
   }
 }
 
-/* line 188, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 226, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7758,12 +7824,12 @@ picture {
   padding-right: 15px;
 }
 
-/* line 194, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 232, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option > div:nth-of-type(2) {
   width: 100px;
 }
 
-/* line 199, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 237, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-title {
   white-space: nowrap;
   padding-right: 15px;
@@ -7772,7 +7838,14 @@ picture {
   line-height: 1.5;
 }
 
-/* line 207, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 237, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__option-title {
+    display: none;
+  }
+}
+
+/* line 248, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-search {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7782,7 +7855,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 213, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 254, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -7792,12 +7865,12 @@ picture {
   background-color: #fff;
 }
 
-/* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 260, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn .icon-font {
   font-size: 20px;
 }
 
-/* line 223, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 264, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn span {
   padding-left: 10px;
   font-size: 15px;
@@ -7805,27 +7878,34 @@ picture {
   letter-spacing: 0.47px;
 }
 
-/* line 231, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 272, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option .form-control {
   height: 40px;
 }
 
-/* line 236, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 277, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card {
   min-height: 270px;
 }
 
-/* line 241, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 282, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-header {
   padding-right: 203px;
 }
 
-/* line 244, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 282, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card--featured .strategy__card-header {
+    padding-right: 1rem;
+  }
+}
+
+/* line 288, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-badge {
   width: 186px;
 }
 
-/* line 250, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 294, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge {
   position: absolute;
   top: 0;
@@ -7839,7 +7919,14 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 260, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 294, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-badge {
+    height: 40px;
+  }
+}
+
+/* line 307, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge p {
   font-size: 14px;
   font-weight: bold;
@@ -7848,7 +7935,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 271, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 318, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7856,7 +7943,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 275, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 322, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart-fill {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7864,7 +7951,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 283, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 330, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font {
   font-size: 21px;
   color: #ffffff;
@@ -7873,7 +7960,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 288, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 335, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font.icon-heart-fill {
   opacity: 0;
   position: absolute;
@@ -7884,7 +7971,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 301, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 348, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn {
   max-width: 177px;
   height: 40px;
@@ -7897,7 +7984,7 @@ picture {
   text-align: center;
 }
 
-/* line 311, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 358, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg {
   background-color: #6772e5;
   color: #ffffff;
@@ -7906,7 +7993,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 316, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 363, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg:hover {
   border-color: #6772e5;
   background-color: transparent;
@@ -7915,7 +8002,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 323, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 370, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border {
   border-color: #6772e5;
   background-color: transparent;
@@ -7925,7 +8012,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 329, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 376, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border:hover {
   background-color: #6772e5;
   color: #ffffff;
@@ -7934,26 +8021,26 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 337, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 384, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-created {
   font-size: 12px;
   line-height: 2;
 }
 
-/* line 342, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 389, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* line 346, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 393, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title span {
   padding-left: 15px;
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 358, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 405, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a.is-active .icon-font.icon-star {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7961,7 +8048,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 362, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 409, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a.is-active .icon-font.icon-star-fill {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7969,7 +8056,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 370, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 417, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a .icon-font {
   font-size: 15px;
   color: #989898;
@@ -7978,7 +8065,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 375, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 422, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating a .icon-font.icon-star-fill {
   opacity: 0;
   position: absolute;
@@ -7989,24 +8076,31 @@ picture {
   color: #ff5980;
 }
 
-/* line 387, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 434, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating p {
-  padding-top: 5px;
   text-align: center;
 }
 
-/* line 393, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 434, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-rating p {
+    position: relative;
+    top: 1px;
+  }
+}
+
+/* line 443, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 397, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 447, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by a {
   color: #6772e5;
 }
 
-/* line 403, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 453, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-tags a {
   height: 25px;
   -webkit-border-radius: 12.5px;
@@ -8018,13 +8112,13 @@ picture {
   color: #6772e5;
 }
 
-/* line 414, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 464, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-header {
   min-height: 60px;
   padding-right: 80px;
 }
 
-/* line 421, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 471, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8032,35 +8126,80 @@ picture {
           flex: 1;
   min-width: 1px;
   max-width: 100%;
-  padding-right: 15px;
 }
 
-/* line 428, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 477, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(2) {
   width: 177px;
 }
 
-/* line 435, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 484, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div {
   min-height: 60px;
 }
 
-/* line 438, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 484, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div {
+    width: 100%;
+    max-width: 50%;
+    min-height: 95px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 494, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(1) {
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 441, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 494, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(1) {
+    position: relative;
+  }
+  /* line 499, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(1):after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+  }
+}
+
+/* line 510, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(2) {
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 444, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 767px) {
+  /* line 510, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(2) {
+    position: relative;
+    border-right: none;
+  }
+  /* line 516, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(2):after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+  }
+}
+
+/* line 527, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(3) {
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 447, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(4) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8070,18 +8209,25 @@ picture {
   min-width: 1px;
 }
 
-/* line 454, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 537, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer span {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 459, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 542, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer p {
   white-space: nowrap;
   font-size: 25px;
   font-weight: 600;
   line-height: 0.96;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 542, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer p {
+    white-space: normal;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */

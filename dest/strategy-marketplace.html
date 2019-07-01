@@ -189,7 +189,7 @@
                   <div class="strategy__wrapper-left">
                     <!-- strategy FILTER-->
                     <!-- SECTION strategy filter :: START-->
-                    <form class="strategy__section strategy__filter d-flex flex-column py-4 px-3" action="" autocomplete="off"><a class="strategy__filter-close d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i><span>Close</span></a>
+                    <form class="strategy__section strategy__filter d-flex flex-column py-4 px-3" action="" autocomplete="off"><a class="strategy__filter-close d-flex align-items-center justify-content-center d-lg-none" href="#" title=""><i class="icon-font icon-close"></i><span>Close</span></a>
                       <div class="strategy__filter-row pb-4">
                         <p class="strategy__filter-title pb-2">Search Strategies</p>
                         <div class="strategy__filter-search">
@@ -266,7 +266,7 @@
                         <p class="strategy__option-title">Search Strategies</p>
                         <div class="strategy__option-search">
                           <div class="input-group input-group--reverse">
-                            <input class="form-control" type="text" placeholder="Search">
+                            <input class="form-control" type="text" placeholder="Search startegy">
                             <div class="input-group-append">
                               <button class="btn btn-outline-secondary" type="button"><i class="icon-font icon-search"></i></button>
                             </div>
@@ -283,191 +283,206 @@
                       <div class="strategy__card-badge d-flex align-items-center justify-content-center">
                         <p>Featured Startegy</p>
                       </div>
-                      <div class="strategy__card-header pt-3 pl-3 d-flex align-items-center justify-content-between">
+                      <div class="strategy__card-header pt-5 pt-sm-3 pl-3 d-flex align-items-start align-md-items-center justify-content-between flex-column flex-md-row">
                         <div>
                           <p class="strategy__card-created pb-2">created : 10 Apr 2019</p>
                           <p class="strategy__card-title d-flex align-items-center flex-wrap">Reversal<span>(20 subscribers)</span></p>
+                          <p class="strategy__card-by pb-2 d-flex d-md-none">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                         </div>
                         <div>
-                          <div class="strategy__card-rating d-flex flex-column">
+                          <div class="strategy__card-rating d-flex flex-row flex-md-column align-items-center">
                             <div class="d-flex align-items-center"><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a></div>
-                            <p>2 ratings</p>
+                            <p class="pl-2 pl-md-2 pt-1 pt-md-0 pb-1">2 ratings</p>
                           </div>
                         </div>
                       </div>
                       <div class="strategy__card-body pt-3 pl-3 pr-3 d-flex">
-                        <div>
-                          <p class="strategy__card-by pb-2">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
+                        <div class="pr-0 pr-md-3">
+                          <p class="strategy__card-by pb-2 d-none d-md-flex">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                           <div class="strategy__card-tags d-flex align-items-center flex-wrap"><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Bullish</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Theta Positive</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Low Gamma</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Trades Futures</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Options on Forex</a></div>
                         </div>
-                        <div class="d-flex flex-column"><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
+                        <div class="d-none d-md-flex flex-column"><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                         </div>
                       </div>
-                      <div class="strategy__card-footer p-3 d-flex">
-                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
+                      <div class="strategy__card-footer p-3 d-flex flex-wrap flex-md-nowrap">
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5 pl-4 pl-md-0"><span class="pb-3 pb-md-0">ROI</span>
                           <p>20 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5"><span class="pb-3 pb-md-0">Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
+                      </div>
+                      <div class="strategy__card-button p-3 d-flex align-items-center justify-content-center d-md-none"><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                       </div>
                     </div>
                     <div class="strategy__section strategy__card position-relative mb-4 d-flex flex-column justify-content-between strategy__card--">
                       <div class="strategy__card-badge d-flex align-items-center justify-content-center"><a class="position-relative" href="#" title=""><i class="icon-font icon-heart"></i><i class="icon-font icon-heart-fill"></i></a>
                       </div>
-                      <div class="strategy__card-header pt-3 pl-3 d-flex align-items-center justify-content-between">
+                      <div class="strategy__card-header pt-5 pt-sm-3 pl-3 d-flex align-items-start align-md-items-center justify-content-between flex-column flex-md-row">
                         <div>
                           <p class="strategy__card-created pb-2">created : 10 Apr 2019</p>
                           <p class="strategy__card-title d-flex align-items-center flex-wrap">Midbass<span>(20 subscribers)</span></p>
+                          <p class="strategy__card-by pb-2 d-flex d-md-none">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                         </div>
                         <div>
-                          <div class="strategy__card-rating d-flex flex-column">
+                          <div class="strategy__card-rating d-flex flex-row flex-md-column align-items-center">
                             <div class="d-flex align-items-center"><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a></div>
-                            <p>2 ratings</p>
+                            <p class="pl-2 pl-md-2 pt-1 pt-md-0 pb-1">2 ratings</p>
                           </div>
                         </div>
                       </div>
                       <div class="strategy__card-body pt-3 pl-3 pr-3 d-flex">
-                        <div>
-                          <p class="strategy__card-by pb-2">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
+                        <div class="pr-0 pr-md-3">
+                          <p class="strategy__card-by pb-2 d-none d-md-flex">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                           <div class="strategy__card-tags d-flex align-items-center flex-wrap"><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Bullish</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Theta Positive</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Low Gamma</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Trades Futures</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Options on Forex</a></div>
                         </div>
-                        <div class="d-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
+                        <div class="d-none d-md-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                         </div>
                       </div>
-                      <div class="strategy__card-footer p-3 d-flex">
-                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
+                      <div class="strategy__card-footer p-3 d-flex flex-wrap flex-md-nowrap">
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5 pl-4 pl-md-0"><span class="pb-3 pb-md-0">ROI</span>
                           <p>20 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5"><span class="pb-3 pb-md-0">Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
+                      </div>
+                      <div class="strategy__card-button p-3 d-flex align-items-center justify-content-center d-md-none"><a class="strategy__card-btn strategy__card-btn--bg mr-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border ml-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                       </div>
                     </div>
                     <div class="strategy__section strategy__card position-relative mb-4 d-flex flex-column justify-content-between strategy__card--">
                       <div class="strategy__card-badge d-flex align-items-center justify-content-center"><a class="position-relative" href="#" title=""><i class="icon-font icon-heart"></i><i class="icon-font icon-heart-fill"></i></a>
                       </div>
-                      <div class="strategy__card-header pt-3 pl-3 d-flex align-items-center justify-content-between">
+                      <div class="strategy__card-header pt-5 pt-sm-3 pl-3 d-flex align-items-start align-md-items-center justify-content-between flex-column flex-md-row">
                         <div>
                           <p class="strategy__card-created pb-2">created : 10 Apr 2019</p>
                           <p class="strategy__card-title d-flex align-items-center flex-wrap">Covered Call<span>(20 subscribers)</span></p>
+                          <p class="strategy__card-by pb-2 d-flex d-md-none">by: <a href='#'>Tradetron</a></p>
                         </div>
                         <div>
-                          <div class="strategy__card-rating d-flex flex-column">
+                          <div class="strategy__card-rating d-flex flex-row flex-md-column align-items-center">
                             <div class="d-flex align-items-center"><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a></div>
-                            <p>2 ratings</p>
+                            <p class="pl-2 pl-md-2 pt-1 pt-md-0 pb-1">2 ratings</p>
                           </div>
                         </div>
                       </div>
                       <div class="strategy__card-body pt-3 pl-3 pr-3 d-flex">
-                        <div>
-                          <p class="strategy__card-by pb-2">by: <a href='#'>Tradetron</a></p>
+                        <div class="pr-0 pr-md-3">
+                          <p class="strategy__card-by pb-2 d-none d-md-flex">by: <a href='#'>Tradetron</a></p>
                           <div class="strategy__card-tags d-flex align-items-center flex-wrap"><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Bullish</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Theta Positive</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Low Gamma</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Trades Futures</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Options on Forex</a></div>
                         </div>
-                        <div class="d-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
+                        <div class="d-none d-md-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                         </div>
                       </div>
-                      <div class="strategy__card-footer p-3 d-flex">
-                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
+                      <div class="strategy__card-footer p-3 d-flex flex-wrap flex-md-nowrap">
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5 pl-4 pl-md-0"><span class="pb-3 pb-md-0">ROI</span>
                           <p>40 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">DD</span>
                           <p>15 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">Min Capital</span>
                           <p>Rs.10000</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5"><span class="pb-3 pb-md-0">Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
+                      </div>
+                      <div class="strategy__card-button p-3 d-flex align-items-center justify-content-center d-md-none"><a class="strategy__card-btn strategy__card-btn--bg mr-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border ml-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                       </div>
                     </div>
                     <div class="strategy__section strategy__card position-relative mb-4 d-flex flex-column justify-content-between strategy__card--">
                       <div class="strategy__card-badge d-flex align-items-center justify-content-center"><a class="position-relative is-active" href="#" title=""><i class="icon-font icon-heart"></i><i class="icon-font icon-heart-fill"></i></a>
                       </div>
-                      <div class="strategy__card-header pt-3 pl-3 d-flex align-items-center justify-content-between">
+                      <div class="strategy__card-header pt-5 pt-sm-3 pl-3 d-flex align-items-start align-md-items-center justify-content-between flex-column flex-md-row">
                         <div>
                           <p class="strategy__card-created pb-2">created : 10 Apr 2019</p>
                           <p class="strategy__card-title d-flex align-items-center flex-wrap">Pair Trading kickass<span>(20 subscribers)</span></p>
+                          <p class="strategy__card-by pb-2 d-flex d-md-none">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                         </div>
                         <div>
-                          <div class="strategy__card-rating d-flex flex-column">
+                          <div class="strategy__card-rating d-flex flex-row flex-md-column align-items-center">
                             <div class="d-flex align-items-center"><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a></div>
-                            <p>2 ratings</p>
+                            <p class="pl-2 pl-md-2 pt-1 pt-md-0 pb-1">2 ratings</p>
                           </div>
                         </div>
                       </div>
                       <div class="strategy__card-body pt-3 pl-3 pr-3 d-flex">
-                        <div>
-                          <p class="strategy__card-by pb-2">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
+                        <div class="pr-0 pr-md-3">
+                          <p class="strategy__card-by pb-2 d-none d-md-flex">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                           <div class="strategy__card-tags d-flex align-items-center flex-wrap"><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Bullish</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Theta Positive</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Low Gamma</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Trades Futures</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Options on Forex</a></div>
                         </div>
-                        <div class="d-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
+                        <div class="d-none d-md-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                         </div>
                       </div>
-                      <div class="strategy__card-footer p-3 d-flex">
-                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
+                      <div class="strategy__card-footer p-3 d-flex flex-wrap flex-md-nowrap">
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5 pl-4 pl-md-0"><span class="pb-3 pb-md-0">ROI</span>
                           <p>200 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">DD</span>
                           <p>25 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5"><span class="pb-3 pb-md-0">Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
+                      </div>
+                      <div class="strategy__card-button p-3 d-flex align-items-center justify-content-center d-md-none"><a class="strategy__card-btn strategy__card-btn--bg mr-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border ml-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                       </div>
                     </div>
                     <div class="strategy__section strategy__card position-relative mb-4 d-flex flex-column justify-content-between strategy__card--">
                       <div class="strategy__card-badge d-flex align-items-center justify-content-center"><a class="position-relative" href="#" title=""><i class="icon-font icon-heart"></i><i class="icon-font icon-heart-fill"></i></a>
                       </div>
-                      <div class="strategy__card-header pt-3 pl-3 d-flex align-items-center justify-content-between">
+                      <div class="strategy__card-header pt-5 pt-sm-3 pl-3 d-flex align-items-start align-md-items-center justify-content-between flex-column flex-md-row">
                         <div>
                           <p class="strategy__card-created pb-2">created : 10 Apr 2019</p>
                           <p class="strategy__card-title d-flex align-items-center flex-wrap">Momentum<span>(20 subscribers)</span></p>
+                          <p class="strategy__card-by pb-2 d-flex d-md-none">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                         </div>
                         <div>
-                          <div class="strategy__card-rating d-flex flex-column">
+                          <div class="strategy__card-rating d-flex flex-row flex-md-column align-items-center">
                             <div class="d-flex align-items-center"><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="is-active position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a><a class="position-relative pr-1" href="#" title=""><i class="icon-font icon-star"></i><i class="icon-font icon-star-fill"></i></a></div>
-                            <p>2 ratings</p>
+                            <p class="pl-2 pl-md-2 pt-1 pt-md-0 pb-1">2 ratings</p>
                           </div>
                         </div>
                       </div>
                       <div class="strategy__card-body pt-3 pl-3 pr-3 d-flex">
-                        <div>
-                          <p class="strategy__card-by pb-2">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
+                        <div class="pr-0 pr-md-3">
+                          <p class="strategy__card-by pb-2 d-none d-md-flex">by: <a href='#'>Neutrino Advisory Services LLP</a></p>
                           <div class="strategy__card-tags d-flex align-items-center flex-wrap"><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Bullish</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Theta Positive</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Low Gamma</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Trades Futures</a><a class="mr-1 mb-1 px-3 py-1" href="#" title="">Options on Forex</a></div>
                         </div>
-                        <div class="d-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
+                        <div class="d-none d-md-flex flex-column"><a class="strategy__card-btn strategy__card-btn--bg mb-2 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                         </div>
                       </div>
-                      <div class="strategy__card-footer p-3 d-flex">
-                        <div class="d-flex flex-column justify-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>ROI</span>
+                      <div class="strategy__card-footer p-3 d-flex flex-wrap flex-md-nowrap">
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pr-4 pr-md-5 pr-lg-4 pr-xl-5 pl-4 pl-md-0"><span class="pb-3 pb-md-0">ROI</span>
                           <p>-20 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>DD</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">DD</span>
                           <p>50 %</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span>Min Capital</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5 pr-4 pr-md-5 pr-lg-4 pr-xl-5"><span class="pb-3 pb-md-0">Min Capital</span>
                           <p>Rs.50000</p>
                         </div>
-                        <div class="d-flex flex-column justify-content-between pl-4 pl-xl-5"><span>Fees per month</span>
+                        <div class="d-flex flex-column justify-content-center justify-md-content-between pl-4 pl-xl-5"><span class="pb-3 pb-md-0">Fees per month</span>
                           <p>Rs.5000 + 20%</p>
                         </div>
+                      </div>
+                      <div class="strategy__card-button p-3 d-flex align-items-center justify-content-center d-md-none"><a class="strategy__card-btn strategy__card-btn--bg mr-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Subscribe</a><a class="strategy__card-btn strategy__card-btn--border ml-1 d-flex align-items-center justify-content-center w-100" href="#" title="">Duplicate</a>
                       </div>
                     </div>
                     <!-- SECTION strategy tabs :: END-->

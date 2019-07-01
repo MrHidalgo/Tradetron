@@ -59,12 +59,13 @@ each val, idx in cardArr
 					i.icon-font.icon-heart
 					i.icon-font.icon-heart-fill
 
-		.strategy__card-header.pt-3.pl-3.d-flex.align-items-center.justify-content-between
+		.strategy__card-header.pt-5.pt-sm-3.pl-3.d-flex.align-items-start.align-md-items-center.justify-content-between.flex-column.flex-md-row
 			div
 				p.strategy__card-created.pb-2!= "created : 10 Apr 2019"
 				p.strategy__card-title.d-flex.align-items-center.flex-wrap!= cardArr[idx].title + "<span>(20 subscribers)</span>"
+				p.strategy__card-by.pb-2.d-flex.d-md-none!= "by: <a href='#'>" + cardArr[idx].by + "</a>"
 			div
-				.strategy__card-rating.d-flex.flex-column
+				.strategy__card-rating.d-flex.flex-row.flex-md-column.align-items-center
 					div.d-flex.align-items-center
 						a.is-active.position-relative.pr-1(href="#" class="" title="")
 							i.icon-font.icon-star
@@ -81,11 +82,11 @@ each val, idx in cardArr
 						a.position-relative.pr-1(href="#" class="" title="")
 							i.icon-font.icon-star
 							i.icon-font.icon-star-fill
-					p!= "2 ratings"
+					p.pl-2.pl-md-2.pt-1.pt-md-0.pb-1!= "2 ratings"
 
 		.strategy__card-body.pt-3.pl-3.pr-3.d-flex
-			div
-				p.strategy__card-by.pb-2!= "by: <a href='#'>" + cardArr[idx].by + "</a>"
+			div.pr-0.pr-md-3
+				p.strategy__card-by.pb-2.d-none.d-md-flex!= "by: <a href='#'>" + cardArr[idx].by + "</a>"
 
 				.strategy__card-tags.d-flex.align-items-center.flex-wrap
 					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
@@ -94,25 +95,32 @@ each val, idx in cardArr
 					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
 					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
 
-			div.d-flex.flex-column
+			div.d-none.d-md-flex.flex-column
 				if(cardArr[idx].classMod === 'featured')
 					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
 				else
 					a.strategy__card-btn.strategy__card-btn--bg.mb-2.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Subscribe"
 					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
 
-		.strategy__card-footer.p-3.d-flex
-			div.d-flex.flex-column.justify-content-between.pr-4.pr-md-5.pr-lg-4.pr-xl-5
-				span!= "ROI"
+		.strategy__card-footer.p-3.d-flex.flex-wrap.flex-md-nowrap
+			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pr-4.pr-md-5.pr-lg-4.pr-xl-5.pl-4.pl-md-0
+				span.pb-3.pb-md-0!= "ROI"
 				p!= cardArr[idx].roi
-			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
-				span!= "DD"
+			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
+				span.pb-3.pb-md-0!= "DD"
 				p!= cardArr[idx].dd
-			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
-				span!= "Min Capital"
+			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5.pr-4.pr-md-5.pr-lg-4.pr-xl-5
+				span.pb-3.pb-md-0!= "Min Capital"
 				p!= cardArr[idx].minCapital
-			div.d-flex.flex-column.justify-content-between.pl-4.pl-xl-5
-				span!= "Fees per month"
+			div.d-flex.flex-column.justify-content-center.justify-md-content-between.pl-4.pl-xl-5
+				span.pb-3.pb-md-0!= "Fees per month"
 				p!= cardArr[idx].feesPerMonth
+
+		.strategy__card-button.p-3.d-flex.align-items-center.justify-content-center.d-md-none
+			if(cardArr[idx].classMod === 'featured')
+				a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
+			else
+				a.strategy__card-btn.strategy__card-btn--bg.mr-1.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Subscribe"
+				a.strategy__card-btn.strategy__card-btn--border.ml-1.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
 
 // SECTION strategy tabs :: END

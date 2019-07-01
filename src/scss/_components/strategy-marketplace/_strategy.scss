@@ -86,6 +86,28 @@
 				}
 			}
 		}
+		@include adaptive(767) {
+			flex-direction: column !important;
+			width: 280px;
+			right: 15px;
+			left: auto;
+
+			.strategy__filter {
+				&-col {
+					width: 100%;
+				}
+				&-row {
+					width: 100%;
+
+					> * {
+						max-width: 100%;
+					}
+				}
+			}
+		}
+		@include adaptive(575) {
+			right: 0;
+		}
 
 		&-close {
 			white-space: nowrap;
@@ -135,6 +157,15 @@
 	&__tabs {
 		display: flex;
 		align-items: center;
+		@include adaptive(575) {
+			overflow-x: auto;
+			white-space: nowrap;
+			position: relative;
+			left: -15px;
+			width: calc(100% + 30px);
+			display: block;
+			border-radius: 0;
+		}
 
 		> div {
 			display: flex;
@@ -143,6 +174,10 @@
 			min-height: 100%;
 			width: 100%;
 			max-width: calc(100% / 3);
+			@include adaptive(575) {
+				display: inline-block;
+				max-width: 150px;
+			}
 		}
 
 		&-btn {
@@ -154,6 +189,9 @@
 			font-weight: 500;
 			letter-spacing: 0.47px;
 			text-align: center;
+			@include adaptive(575) {
+				justify-content: center;
+			}
 
 			&.is-active {
 				color: #6772e5;
@@ -202,6 +240,9 @@
 			font-size: 16px;
 			font-weight: bold;
 			line-height: 1.5;
+			@include adaptive(767) {
+				display: none;
+			}
 		}
 
 		&-search {
@@ -240,6 +281,9 @@
 			.strategy__card {
 				&-header {
 					padding-right: 203px;
+					@include adaptive(575) {
+						padding-right: 1rem;
+					}
 				}
 				&-badge {
 					width: 186px;
@@ -256,6 +300,9 @@
 			border-bottom-left-radius: 6px;
 			background-color: #b3c5dc;
 			box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
+			@include adaptive(575) {
+				height: 40px;
+			}
 
 			p {
 				font-size: 14px;
@@ -385,8 +432,11 @@
 			}
 
 			p {
-				padding-top: 5px;
 				text-align: center;
+				@include adaptive(767) {
+					position: relative;
+					top: 1px;
+				}
 			}
 		}
 
@@ -422,7 +472,6 @@
 					flex: 1;
 					min-width: 1px;
 					max-width: 100%;
-					padding-right: 15px;
 				}
 
 				&:nth-of-type(2) {
@@ -434,12 +483,46 @@
 		&-footer {
 			> div {
 				min-height: 60px;
+				@include adaptive(767) {
+					width: 100%;
+					max-width: 50%;
+					min-height: 95px;
+					margin-top: 15px;
+					margin-bottom: 15px;
+				}
 
 				&:nth-of-type(1) {
 					border-right: 1px solid #d8d8d8;
+					@include adaptive(767) {
+						position: relative;
+
+						&:after {
+							content: '';
+							position: absolute;
+							bottom: -15px;
+							left: 0;
+							width: 100%;
+							height: 1px;
+							background-color: #d8d8d8;
+						}
+					}
 				}
 				&:nth-of-type(2) {
 					border-right: 1px solid #d8d8d8;
+					@include adaptive(767) {
+						position: relative;
+						border-right: none;
+
+						&:after {
+							content: '';
+							position: absolute;
+							bottom: -15px;
+							left: 0;
+							width: 100%;
+							height: 1px;
+							background-color: #d8d8d8;
+						}
+					}
 				}
 				&:nth-of-type(3) {
 					border-right: 1px solid #d8d8d8;
@@ -461,7 +544,14 @@
 				font-size: 25px;
 				font-weight: 600;
 				line-height: 0.96;
+				@include adaptive(767) {
+					white-space: normal;
+				}
 			}
+		}
+
+		&-button {
+
 		}
 	}
 }
