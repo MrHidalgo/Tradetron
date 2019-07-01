@@ -1,0 +1,17 @@
+---
+title: Tradetron | Strategy Marketplace
+
+pageClassName: p-strategy-marketplace
+---
+extends shared/_layout
+
+block header
+	include components/_header-login
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/strategy-marketplace/_strategy
+
+block modal
+

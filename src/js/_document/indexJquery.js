@@ -53,6 +53,21 @@ $(document).ready((ev) => {
 			_parentNode.find('.modal__tabs-content[data-contenttabs="' + _elID + '"]').addClass('is-active');
 		});
 	};
+
+
+	const initStrategyTabs = () => {
+		$('.strategy__tabs a').on('click', (ev) => {
+			$('.strategy__tabs a').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
+
+
+	const initStrategyCardBadge = () => {
+		$('.strategy__card-badge a').on('click', (ev) => {
+			$(ev.currentTarget).toggleClass('is-active');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -79,6 +94,8 @@ $(document).ready((ev) => {
 		initCollapseButton();
 		initFeaturesDisposalCard();
 		initModalTabs();
+		initStrategyTabs();
+		initStrategyCardBadge();
   };
   initJquery();
 });

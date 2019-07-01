@@ -4,6 +4,7 @@ PageList:
 - file: index.html
   titleName: Home
   ready: 95
+
 - file: features.html
   titleName: Features
   ready: 95
@@ -15,4 +16,17 @@ PageList:
   ready: 95
 - file: dashboard.html
   titleName: Dashboard
-  ready: 75
+  ready: 95
+
+- file: strategy-marketplace.html
+  titleName: Strategy Marketplace
+  ready: 55
+- file: user-profile.html
+  titleName: User Profile
+  ready: 0
+- file: strategy-profile.html
+  titleName: Strategy Profile
+  ready: 0
+- file: account-profile.html
+  titleName: Account Profile
+  ready: 0

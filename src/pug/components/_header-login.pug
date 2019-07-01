@@ -128,7 +128,7 @@ header#header.header.header--login
 						.header__nav
 							a(href="#" class!= (pageClassName === 'p-dashboard') ?'is-active':'' title="")!= "Dashboard"
 						.header__nav
-							a(href="#" class="" title="")!= "Strategy"
+							a(href="#" class!= (pageClassName === 'p-strategy-marketplace')?'is-active':'' title="")!= "Strategy"
 						.header__nav
 							a(href="#" class="" title="")!= "My Subscribers"
 						.header__nav

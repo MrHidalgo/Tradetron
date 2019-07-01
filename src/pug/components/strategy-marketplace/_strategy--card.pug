@@ -1,0 +1,118 @@
+// SECTION strategy tabs :: START
+
+-
+	let cardArr = [
+		{
+			classMod: 'featured',
+			title: 'Reversal',
+			by: 'Neutrino Advisory Services LLP',
+			roi: '20 %',
+			dd: '25 %',
+			minCapital: 'Rs.50000',
+			feesPerMonth: 'Rs.5000 + 20%',
+		},
+		{
+			classMod: '',
+			title: 'Midbass',
+			by: 'Neutrino Advisory Services LLP',
+			roi: '20 %',
+			dd: '25 %',
+			minCapital: 'Rs.50000',
+			feesPerMonth: 'Rs.5000 + 20%',
+		},
+		{
+			classMod: '',
+			title: 'Covered Call',
+			by: 'Tradetron',
+			roi: '40 %',
+			dd: '15 %',
+			minCapital: 'Rs.10000',
+			feesPerMonth: 'Rs.5000 + 20%',
+		},
+		{
+			classMod: '',
+			title: 'Pair Trading kickass',
+			by: 'Neutrino Advisory Services LLP',
+			roi: '200 %',
+			dd: '25 %',
+			minCapital: 'Rs.50000',
+			feesPerMonth: 'Rs.5000 + 20%',
+		},
+		{
+			classMod: '',
+			title: 'Momentum',
+			by: 'Neutrino Advisory Services LLP',
+			roi: '-20 %',
+			dd: '50 %',
+			minCapital: 'Rs.50000',
+			feesPerMonth: 'Rs.5000 + 20%',
+		}
+	];
+
+each val, idx in cardArr
+	.strategy__section.strategy__card.position-relative.mb-4.d-flex.flex-column.justify-content-between(class!= 'strategy__card--' + cardArr[idx].classMod)
+		.strategy__card-badge.d-flex.align-items-center.justify-content-center
+			if(cardArr[idx].classMod === 'featured')
+				p!= "Featured Startegy"
+			else
+				a.position-relative(href="#" class!= (idx === 3)?'is-active':'' title="")
+					i.icon-font.icon-heart
+					i.icon-font.icon-heart-fill
+
+		.strategy__card-header.pt-3.pl-3.d-flex.align-items-center.justify-content-between
+			div
+				p.strategy__card-created.pb-2!= "created : 10 Apr 2019"
+				p.strategy__card-title.d-flex.align-items-center.flex-wrap!= cardArr[idx].title + "<span>(20 subscribers)</span>"
+			div
+				.strategy__card-rating.d-flex.flex-column
+					div.d-flex.align-items-center
+						a.is-active.position-relative.pr-1(href="#" class="" title="")
+							i.icon-font.icon-star
+							i.icon-font.icon-star-fill
+						a.is-active.position-relative.pr-1(href="#" class="" title="")
+							i.icon-font.icon-star
+							i.icon-font.icon-star-fill
+						a.is-active.position-relative.pr-1(href="#" class="" title="")
+							i.icon-font.icon-star
+							i.icon-font.icon-star-fill
+						a.is-active.position-relative.pr-1(href="#" class="" title="")
+							i.icon-font.icon-star
+							i.icon-font.icon-star-fill
+						a.position-relative.pr-1(href="#" class="" title="")
+							i.icon-font.icon-star
+							i.icon-font.icon-star-fill
+					p!= "2 ratings"
+
+		.strategy__card-body.pt-3.pl-3.pr-3.d-flex
+			div
+				p.strategy__card-by.pb-2!= "by: <a href='#'>" + cardArr[idx].by + "</a>"
+
+				.strategy__card-tags.d-flex.align-items-center.flex-wrap
+					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
+					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Theta Positive"
+					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Low Gamma"
+					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
+					a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
+
+			div.d-flex.flex-column
+				if(cardArr[idx].classMod === 'featured')
+					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
+				else
+					a.strategy__card-btn.strategy__card-btn--bg.mb-2.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Subscribe"
+					a.strategy__card-btn.strategy__card-btn--border.d-flex.align-items-center.justify-content-center.w-100(href="#" class="" title="")!= "Duplicate"
+
+		.strategy__card-footer.p-3.d-flex
+			div.pr-3.d-flex.flex-column.justify-content-between.w-100
+				span!= "ROI"
+				p!= cardArr[idx].roi
+			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+				span!= "DD"
+				p!= cardArr[idx].dd
+			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+				span!= "Min Capital"
+				p!= cardArr[idx].minCapital
+			div.pl-5.pr-3.d-flex.flex-column.justify-content-between.w-100
+				span!= "Fees per month"
+				p!= cardArr[idx].feesPerMonth
+
+// SECTION strategy tabs :: END

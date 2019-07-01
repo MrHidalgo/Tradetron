@@ -445,6 +445,19 @@ $(document).ready(function (ev) {
 			_parentNode.find('.modal__tabs-content[data-contenttabs="' + _elID + '"]').addClass('is-active');
 		});
 	};
+
+	var initStrategyTabs = function initStrategyTabs() {
+		$('.strategy__tabs a').on('click', function (ev) {
+			$('.strategy__tabs a').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
+
+	var initStrategyCardBadge = function initStrategyCardBadge() {
+		$('.strategy__card-badge a').on('click', function (ev) {
+			$(ev.currentTarget).toggleClass('is-active');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -469,6 +482,8 @@ $(document).ready(function (ev) {
 		initCollapseButton();
 		initFeaturesDisposalCard();
 		initModalTabs();
+		initStrategyTabs();
+		initStrategyCardBadge();
 	};
 	initJquery();
 });
