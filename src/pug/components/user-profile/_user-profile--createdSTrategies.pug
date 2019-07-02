@@ -22,6 +22,58 @@
 								div
 									span!= "More action"
 
+		.u-profile__created-carousel
+			mixin swiperContent()
+				.swiper-slide
+					p.swiper-slide-title!= "Midbass <span>(20 subscribers)</span>"
+					.swiper-slide-block
+						div
+							p!= "ROI"
+							span!= "20 %"
+						div
+							p!= "DD"
+							span!= "25 %"
+						div
+							p!= "Min Capital"
+							span!= "Rs.50000"
+						div
+							p!= "Fees per month"
+							span!= "Rs.5000 + 20%"
+
+				.swiper-slide
+					p.swiper-slide-title!= "Covered call <span>(2 subscribers)</span>"
+					.swiper-slide-block
+						div
+							p!= "ROI"
+							span!= "20 %"
+						div
+							p!= "DD"
+							span!= "25 %"
+						div
+							p!= "Min Capital"
+							span!= "Rs.50000"
+						div
+							p!= "Fees per month"
+							span!= "Rs.5000 + 20%"
+
+				.swiper-slide
+					p.swiper-slide-title!= "Momentum</span>"
+					.swiper-slide-block
+						div
+							p!= "ROI"
+							span!= "20 %"
+						div
+							p!= "DD"
+							span!= "25 %"
+						div
+							p!= "Min Capital"
+							span!= "Rs.50000"
+						div
+							p!= "Fees per month"
+							span!= "Rs.5000 + 20%"
+
+			+swiper('swiper-container-created', 'swiperContent', true, false, false)
+
 		.u-profile__created-table
 			.u-profile__created-table-head
 				div

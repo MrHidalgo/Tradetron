@@ -8410,7 +8410,15 @@ picture {
   }
 }
 
-/* line 95, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 86, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main {
+    padding-top: 130px;
+    padding-left: 0;
+  }
+}
+
+/* line 99, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-bg {
   z-index: 0;
   top: 0;
@@ -8425,7 +8433,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 107, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 111, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-body {
     display: -webkit-box;
     display: -webkit-flex;
@@ -8435,35 +8443,54 @@ picture {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
   }
-  /* line 113, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 117, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-body > div:nth-of-type(1), .u-profile__main-body > div:nth-of-type(2) {
     width: 50%;
   }
-  /* line 117, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 121, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-body > div:nth-of-type(2) {
     padding-top: 1rem;
   }
-  /* line 120, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 124, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-body > div:nth-of-type(3) {
     width: 100%;
     padding-left: 0 !important;
   }
 }
 
-/* line 128, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 111, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-body {
+    display: block;
+  }
+  /* line 134, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-body > div:nth-of-type(1), .u-profile__main-body > div:nth-of-type(2), .u-profile__main-body > div:nth-of-type(3) {
+    width: 100%;
+  }
+  /* line 139, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-body > div:nth-of-type(2) {
+    padding-top: 0;
+  }
+  /* line 142, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-body > div:nth-of-type(3) {
+    padding-left: 1rem !important;
+  }
+}
+
+/* line 149, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-photo {
   position: absolute;
   top: 15px;
   left: 15px;
 }
 
-/* line 133, src/scss/_components/user-profile/_user-profile.scss */
+/* line 154, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-photo .icon-font {
   color: rgba(255, 255, 255, 0.8);
   font-size: 19px;
 }
 
-/* line 139, src/scss/_components/user-profile/_user-profile.scss */
+/* line 160, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-badge {
   position: absolute;
   top: 15px;
@@ -8491,7 +8518,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 156, src/scss/_components/user-profile/_user-profile.scss */
+/* line 177, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-image {
   position: relative;
   width: 155px;
@@ -8506,7 +8533,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 156, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 177, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-image {
     position: absolute;
     top: 135px;
@@ -8514,7 +8541,16 @@ picture {
   }
 }
 
-/* line 170, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 177, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-image {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* line 196, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-image > div {
   overflow: hidden;
   position: absolute;
@@ -8529,7 +8565,7 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 186, src/scss/_components/user-profile/_user-profile.scss */
+/* line 212, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-name {
   font-size: 20px;
   font-weight: 600;
@@ -8538,13 +8574,20 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 186, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 212, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-name {
     text-align: left;
   }
 }
 
-/* line 196, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 212, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-name {
+    text-align: center;
+  }
+}
+
+/* line 225, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-from {
   font-size: 16px;
   letter-spacing: 0.38px;
@@ -8552,47 +8595,54 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 196, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 225, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-from {
     text-align: left;
   }
 }
 
-/* line 205, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 225, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-from {
+    text-align: center;
+  }
+}
+
+/* line 237, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-stat {
   padding-left: 15px;
   padding-right: 15px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 205, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 237, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-stat {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* line 213, src/scss/_components/user-profile/_user-profile.scss */
+/* line 245, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-stat > div {
   width: 50%;
   text-align: center;
 }
 
-/* line 218, src/scss/_components/user-profile/_user-profile.scss */
+/* line 250, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-stat p {
   font-size: 30px;
   font-weight: 600;
   line-height: 0.8;
 }
 
-/* line 224, src/scss/_components/user-profile/_user-profile.scss */
+/* line 256, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-stat span {
   font-size: 14px;
   letter-spacing: 0.33px;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 230, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 262, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -8601,7 +8651,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 230, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 262, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social {
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
@@ -8609,7 +8659,16 @@ picture {
   }
 }
 
-/* line 238, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 374px) {
+  /* line 262, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-social {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 274, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-social > div {
   width: 100%;
   max-width: -webkit-calc(100% / 6);
@@ -8619,7 +8678,7 @@ picture {
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 238, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 274, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social > div {
     max-width: -webkit-calc(100% / 3);
     max-width: calc(100% / 3);
@@ -8628,19 +8687,41 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 238, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 274, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social > div {
     width: auto;
     max-width: unset;
     padding-bottom: 0;
   }
-  /* line 252, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 288, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social > div:first-of-type {
     padding-left: 0;
   }
 }
 
-/* line 258, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 274, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-social > div {
+    width: 100%;
+    max-width: -webkit-calc(100% / 6);
+    max-width: calc(100% / 6);
+  }
+  /* line 296, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-social > div:first-of-type {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 274, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-social > div {
+    max-width: -webkit-calc(100% / 3);
+    max-width: calc(100% / 3);
+    padding-bottom: 15px;
+  }
+}
+
+/* line 306, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-social a {
   width: 45px;
   height: 45px;
@@ -8654,41 +8735,48 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 258, src/scss/_components/user-profile/_user-profile.scss */
+  /* line 306, src/scss/_components/user-profile/_user-profile.scss */
   .u-profile__main-social a {
     margin-left: 0;
   }
 }
 
-/* line 269, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 306, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__main-social a {
+    margin-left: auto;
+  }
+}
+
+/* line 320, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__main-social a .icon-font {
   color: #ffffff;
   font-size: 20px;
 }
 
-/* line 280, src/scss/_components/user-profile/_user-profile.scss */
+/* line 331, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__about .u-profile__section-body p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.38px;
 }
 
-/* line 290, src/scss/_components/user-profile/_user-profile.scss */
+/* line 341, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box {
   border-bottom: 1px solid #D8D8D8;
 }
 
-/* line 293, src/scss/_components/user-profile/_user-profile.scss */
+/* line 344, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box:last-of-type {
   border-bottom: none;
 }
 
-/* line 298, src/scss/_components/user-profile/_user-profile.scss */
+/* line 349, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box > div:nth-of-type(1) {
   width: 65px;
 }
 
-/* line 301, src/scss/_components/user-profile/_user-profile.scss */
+/* line 352, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8698,7 +8786,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 308, src/scss/_components/user-profile/_user-profile.scss */
+/* line 359, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8711,7 +8799,7 @@ picture {
           flex-direction: column;
 }
 
-/* line 313, src/scss/_components/user-profile/_user-profile.scss */
+/* line 364, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-image {
   overflow: hidden;
   position: relative;
@@ -8721,7 +8809,7 @@ picture {
           border-radius: 50%;
 }
 
-/* line 325, src/scss/_components/user-profile/_user-profile.scss */
+/* line 376, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-title {
   font-size: 15px;
   font-weight: 600;
@@ -8729,7 +8817,7 @@ picture {
   letter-spacing: 0.35px;
 }
 
-/* line 331, src/scss/_components/user-profile/_user-profile.scss */
+/* line 382, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-title span {
   padding-left: 15px;
   font-size: 15px;
@@ -8739,34 +8827,56 @@ picture {
   color: #657786;
 }
 
-/* line 341, src/scss/_components/user-profile/_user-profile.scss */
+/* line 392, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-desc {
   font-size: 15px;
   line-height: 1.33;
   letter-spacing: 0.35px;
 }
 
-/* line 346, src/scss/_components/user-profile/_user-profile.scss */
+/* line 397, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__tweets-box-desc a {
-  padding-left: 15px;
+  padding-left: 10px;
   color: #1b95e0;
 }
 
-/* line 356, src/scss/_components/user-profile/_user-profile.scss */
+/* line 408, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created .u-profile__section-cover, .u-profile__subscribed .u-profile__section-cover {
   min-height: 313px;
 }
 
-/* line 363, src/scss/_components/user-profile/_user-profile.scss */
-.u-profile__created--empty .u-profile__created-table-body, .u-profile__subscribed--empty .u-profile__created-table-body {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (max-width: 767px) {
+  /* line 408, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__created .u-profile__section-cover, .u-profile__subscribed .u-profile__section-cover {
+    min-height: unset;
+  }
 }
 
-/* line 366, src/scss/_components/user-profile/_user-profile.scss */
-.u-profile__created--empty .u-profile__created-table-body p, .u-profile__subscribed--empty .u-profile__created-table-body p {
+/* line 415, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created .u-profile__section-header, .u-profile__subscribed .u-profile__section-header {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 423, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-info,
+.u-profile__created--empty .u-profile__subscribed-info, .u-profile__subscribed--empty .u-profile__created-info,
+.u-profile__subscribed--empty .u-profile__subscribed-info {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 423, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__created--empty .u-profile__created-info,
+  .u-profile__created--empty .u-profile__subscribed-info, .u-profile__subscribed--empty .u-profile__created-info,
+  .u-profile__subscribed--empty .u-profile__subscribed-info {
+    display: block;
+  }
+}
+
+/* line 429, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-info p,
+.u-profile__created--empty .u-profile__subscribed-info p, .u-profile__subscribed--empty .u-profile__created-info p,
+.u-profile__subscribed--empty .u-profile__subscribed-info p {
   padding-top: 105px;
   padding-bottom: 105px;
   text-align: center;
@@ -8777,7 +8887,132 @@ picture {
   color: rgba(51, 51, 51, 0.6);
 }
 
-/* line 381, src/scss/_components/user-profile/_user-profile.scss */
+/* line 442, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-table-body,
+.u-profile__created--empty .u-profile__subscribed-table-body, .u-profile__subscribed--empty .u-profile__created-table-body,
+.u-profile__subscribed--empty .u-profile__subscribed-table-body {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 445, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-table-body p,
+.u-profile__created--empty .u-profile__subscribed-table-body p, .u-profile__subscribed--empty .u-profile__created-table-body p,
+.u-profile__subscribed--empty .u-profile__subscribed-table-body p {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.35px;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+/* line 460, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel, .u-profile__subscribed-carousel {
+  display: none;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 460, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__created-carousel, .u-profile__subscribed-carousel {
+    display: block;
+  }
+}
+
+/* line 468, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-container, .u-profile__subscribed-carousel .swiper-container {
+  padding-bottom: 50px;
+}
+
+/* line 473, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-title, .u-profile__subscribed-carousel .swiper-slide-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* line 477, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-title span, .u-profile__subscribed-carousel .swiper-slide-title span {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 484, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block, .u-profile__subscribed-carousel .swiper-slide-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+/* line 489, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block > div, .u-profile__subscribed-carousel .swiper-slide-block > div {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  min-height: 125px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 499, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block > div:nth-of-type(1), .u-profile__created-carousel .swiper-slide-block > div:nth-of-type(2), .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(1), .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+/* line 503, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block > div:nth-of-type(1):after, .u-profile__created-carousel .swiper-slide-block > div:nth-of-type(2):after, .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(1):after, .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(2):after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #d8d8d8;
+}
+
+/* line 514, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block > div:nth-of-type(2), .u-profile__created-carousel .swiper-slide-block > div:nth-of-type(4), .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(2), .u-profile__subscribed-carousel .swiper-slide-block > div:nth-of-type(4) {
+  padding-left: 15px;
+  border-left: 1px solid #D8D8D8;
+}
+
+/* line 521, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block p, .u-profile__subscribed-carousel .swiper-slide-block p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 527, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-carousel .swiper-slide-block span, .u-profile__subscribed-carousel .swiper-slide-block span {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 0.96;
+}
+
+/* line 537, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table, .u-profile__subscribed-table {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8790,7 +9025,14 @@ picture {
           flex-direction: column;
 }
 
-/* line 385, src/scss/_components/user-profile/_user-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 537, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile__created-table, .u-profile__subscribed-table {
+    display: none;
+  }
+}
+
+/* line 544, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-head, .u-profile__created-table-body, .u-profile__subscribed-table-head, .u-profile__subscribed-table-body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8803,7 +9045,7 @@ picture {
   border-bottom: 1px solid #D8D8D8;
 }
 
-/* line 391, src/scss/_components/user-profile/_user-profile.scss */
+/* line 550, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-head > div, .u-profile__created-table-body > div, .u-profile__subscribed-table-head > div, .u-profile__subscribed-table-body > div {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8813,12 +9055,12 @@ picture {
   padding-right: 15px;
 }
 
-/* line 398, src/scss/_components/user-profile/_user-profile.scss */
+/* line 557, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-head, .u-profile__subscribed-table-head {
   min-height: 40px;
 }
 
-/* line 401, src/scss/_components/user-profile/_user-profile.scss */
+/* line 560, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-head p, .u-profile__subscribed-table-head p {
   white-space: nowrap;
   font-size: 14px;
@@ -8827,17 +9069,17 @@ picture {
   letter-spacing: 0.27px;
 }
 
-/* line 410, src/scss/_components/user-profile/_user-profile.scss */
+/* line 569, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-body, .u-profile__subscribed-table-body {
   min-height: 65px;
 }
 
-/* line 413, src/scss/_components/user-profile/_user-profile.scss */
+/* line 572, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-body:last-of-type, .u-profile__subscribed-table-body:last-of-type {
   border-bottom: none;
 }
 
-/* line 418, src/scss/_components/user-profile/_user-profile.scss */
+/* line 577, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-body > div p, .u-profile__subscribed-table-body > div p {
   text-decoration: underline;
   font-size: 16px;
@@ -8846,14 +9088,14 @@ picture {
   letter-spacing: 0.31px;
 }
 
-/* line 426, src/scss/_components/user-profile/_user-profile.scss */
+/* line 585, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-body > div span, .u-profile__subscribed-table-body > div span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.31px;
 }
 
-/* line 432, src/scss/_components/user-profile/_user-profile.scss */
+/* line 591, src/scss/_components/user-profile/_user-profile.scss */
 .u-profile__created-table-body > div a, .u-profile__subscribed-table-body > div a {
   font-size: 16px;
   line-height: 1.5;

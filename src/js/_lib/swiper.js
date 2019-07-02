@@ -7,12 +7,34 @@
  */
 const initSwiper = () => {
 
+  const mySwiperUProfileCreated = new Swiper('.swiper-container-created', {
+    loop: true,
+    grabCursor: true,
+    effect: 'slide',
+		speed: 750,
+    slidesPerView: 1,
+    spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		}
+  });
+
+  const mySwiperUProfileSubscribed = new Swiper('.swiper-container-subscribed', {
+    loop: true,
+    grabCursor: true,
+    effect: 'slide',
+		speed: 750,
+    slidesPerView: 1,
+    spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		}
+  });
+
   const mySwiperPartners = new Swiper('.swiper-container-partners', {
     loop: true,
-    watchOverflow: true,
-    normalizeSlideIndex: true,
-    grabCursor: false,
-    freeMode: false,
     effect: 'slide',
 		speed: 4000,
 		autoplay: {
@@ -39,8 +61,6 @@ const initSwiper = () => {
 
 	const mySwiperMain = new Swiper('.swiper-container-main', {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: true,
 		freeMode: false,
 		effect: 'fade',
@@ -58,8 +78,6 @@ const initSwiper = () => {
 
   const mySwiperFeaturesOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -97,8 +115,6 @@ const initSwiper = () => {
 
   const mySwiperPricingOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -123,8 +139,6 @@ const initSwiper = () => {
 
   const mySwiperDisposalOpt = {
 		loop: true,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -149,8 +163,6 @@ const initSwiper = () => {
 
   const mySwiperConditionOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -167,8 +179,6 @@ const initSwiper = () => {
 
   const mySwiperMoreOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',

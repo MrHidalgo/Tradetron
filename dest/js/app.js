@@ -94,12 +94,34 @@ var initSvg4everybody = function initSvg4everybody() {
  */
 var initSwiper = function initSwiper() {
 
+	var mySwiperUProfileCreated = new Swiper('.swiper-container-created', {
+		loop: true,
+		grabCursor: true,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 1,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		}
+	});
+
+	var mySwiperUProfileSubscribed = new Swiper('.swiper-container-subscribed', {
+		loop: true,
+		grabCursor: true,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 1,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		}
+	});
+
 	var mySwiperPartners = new Swiper('.swiper-container-partners', {
 		loop: true,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
-		grabCursor: false,
-		freeMode: false,
 		effect: 'slide',
 		speed: 4000,
 		autoplay: {
@@ -126,8 +148,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperMain = new Swiper('.swiper-container-main', {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: true,
 		freeMode: false,
 		effect: 'fade',
@@ -145,8 +165,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperFeaturesOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -184,8 +202,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperPricingOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -210,8 +226,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperDisposalOpt = {
 		loop: true,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -236,8 +250,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperConditionOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',
@@ -254,8 +266,6 @@ var initSwiper = function initSwiper() {
 
 	var mySwiperMoreOpt = {
 		loop: false,
-		watchOverflow: true,
-		normalizeSlideIndex: true,
 		grabCursor: false,
 		freeMode: false,
 		effect: 'slide',

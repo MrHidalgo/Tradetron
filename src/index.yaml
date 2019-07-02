@@ -20,10 +20,10 @@ PageList:
 
 - file: strategy-marketplace.html
   titleName: Strategy Marketplace
-  ready: 90
+  ready: 95
 - file: user-profile.html
   titleName: User Profile
-  ready: 75
+  ready: 90
 - file: strategy-profile.html
   titleName: Strategy Profile
   ready: 0
