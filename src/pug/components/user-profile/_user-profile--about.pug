@@ -1,0 +1,27 @@
+.u-profile__about.u-profile__section.mb-4
+	.u-profile__section-cover.px-3.py-4
+
+		.u-profile__section-header.pb-3
+			div
+				p.u-profile__section-title!= "About:"
+			div
+
+				.dropdown.dropdown--more
+					button#dropdownUProfileAboutMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+						i.icon-font.icon-more
+					.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileAboutMore')
+						.dropdown-menu-corner.position-absolute
+						.dropdown-menu-wrapper.d-flex.flex-column
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Some action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "More action"
+
+		.u-profile__section-body
+			p.pb-3!= "Lorem ipsum dolor sit amet, in velit sed est sed ligula magna. Scelerisque in, lobortis nulla, magnis sunt risus leo rutrum phasellus. Volutpat sit donec ut sed, nibh feugiat id, integer aliquam morbi, libero cursus id mi. Donec lorem condimentum, nec dignissim adipiscing curabitur integer, mi adipiscing imperdiet congue, at consectetuer, luctus velit facilisi."
+			p!= "Eget eget a ac wisi, augue purus nunc tortor etiam, imperdiet diam ut ipsum, massa donec ut sem. Tellus orci sagittis consectetuer et sapien curae, ultricies ac aliquam est, ut quisque vulputate suspendisse id sociosqu, sodales scelerisque vestibulum enim, aliquam imperdiet libero beatae."

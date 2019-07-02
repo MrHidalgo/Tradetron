@@ -1,4 +1,18 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap;");
+/* line 14, src/scss/_utilities/_extend.scss */
+.u-profile__main-image img, .u-profile__tweets-box-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 /*!
  * Hamburgers
  * @description Tasty CSS-animated hamburgers
@@ -6,7 +20,6 @@
  * @site https://jonsuh.com/hamburgers
  * @link https://github.com/jonsuh/hamburgers
  */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap;");
 /* line 3, src/scss/_vendor/hamburger/_base.scss */
 .hamburger {
   padding: 0 0;
@@ -163,7 +176,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -174,359 +187,374 @@
   text-transform: none;
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
+/* line 257, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-controls:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-comment:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-copy:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-controls:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-corner:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-copy:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-cvs:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-corner:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-deadline:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-cvs:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-diagram:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-deadline:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-duplicate:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-desktop:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-diagram:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-duplicate:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-envelope:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-favorites:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-envelope:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-file-2:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-envelope1:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-garbage:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-file-2:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-garbage:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-heart-fill:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-heart:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-heart-fill:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-heart:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-internet:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-key:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-internet:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-link:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-key:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-money:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-link:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-more:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 248, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
+}
+
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
+  content: "";
+}
+
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
+  content: "";
+}
+
+/* line 257, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -8228,6 +8256,425 @@ picture {
   .strategy__card-footer p {
     white-space: normal;
   }
+}
+
+/* line 3, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile {
+  overflow: unset;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 8, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile .main__bg {
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 11, src/scss/_components/user-profile/_user-profile.scss */
+  .u-profile .main__bg-1 {
+    position: absolute !important;
+    top: 15%;
+  }
+}
+
+/* line 19, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__bg {
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/* line 27, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 30, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__wrapper-left {
+  width: 395px;
+  padding-right: 30px;
+}
+
+/* line 35, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__wrapper-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 42, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section {
+  width: 100%;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+  background-color: #ffffff;
+}
+
+/* line 48, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 54, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section-header .dropdown-toggle {
+  height: 30px;
+}
+
+/* line 57, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section-header .dropdown-toggle .icon-font {
+  color: #AEAEAE;
+  font-size: 5px;
+}
+
+/* line 62, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section-header .dropdown-toggle:after {
+  display: none;
+}
+
+/* line 69, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__section-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.47px;
+}
+
+/* line 76, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main {
+  overflow: hidden;
+  padding-top: 130px;
+}
+
+/* line 80, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-bg {
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 200px;
+  background-color: #6772e5;
+  background-image: url("../img/img-profile-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+/* line 92, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-body {
+  position: relative;
+}
+
+/* line 96, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-image {
+  position: relative;
+  width: 155px;
+  height: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-image: -webkit-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: -o-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
+}
+
+/* line 105, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-image > div {
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: -webkit-calc(100% - 2px);
+  width: calc(100% - 2px);
+  height: -webkit-calc(100% - 2px);
+  height: calc(100% - 2px);
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #ffffff;
+}
+
+/* line 121, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-name {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.47px;
+  text-align: center;
+}
+
+/* line 128, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-from {
+  font-size: 16px;
+  letter-spacing: 0.38px;
+  text-align: center;
+}
+
+/* line 135, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-stat > div {
+  width: 50%;
+  text-align: center;
+}
+
+/* line 140, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-stat p {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+/* line 146, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-stat span {
+  font-size: 14px;
+  letter-spacing: 0.33px;
+}
+
+/* line 153, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-social > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 6);
+  max-width: calc(100% / 6);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 159, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-social a {
+  width: 45px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-image: -webkit-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: -o-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
+}
+
+/* line 167, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__main-social a .icon-font {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* line 178, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__about .u-profile__section-body p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+
+/* line 188, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box {
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 191, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box:last-of-type {
+  border-bottom: none;
+}
+
+/* line 196, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box > div:nth-of-type(1) {
+  width: 65px;
+}
+
+/* line 199, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 206, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 211, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-image {
+  overflow: hidden;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+/* line 223, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.35px;
+}
+
+/* line 229, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-title span {
+  padding-left: 15px;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.6;
+  letter-spacing: 0.35px;
+  color: #657786;
+}
+
+/* line 239, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-desc {
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.35px;
+}
+
+/* line 244, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__tweets-box-desc a {
+  padding-left: 15px;
+  color: #1b95e0;
+}
+
+/* line 254, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created .u-profile__section-cover, .u-profile__subscribed .u-profile__section-cover {
+  min-height: 313px;
+}
+
+/* line 261, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-table-body, .u-profile__subscribed--empty .u-profile__created-table-body {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 264, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created--empty .u-profile__created-table-body p, .u-profile__subscribed--empty .u-profile__created-table-body p {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 0.35px;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+/* line 279, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table, .u-profile__subscribed-table {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 283, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-head, .u-profile__created-table-body, .u-profile__subscribed-table-head, .u-profile__subscribed-table-body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #D8D8D8;
+}
+
+/* line 289, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-head > div, .u-profile__created-table-body > div, .u-profile__subscribed-table-head > div, .u-profile__subscribed-table-body > div {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 100%;
+  padding-right: 15px;
+}
+
+/* line 296, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-head, .u-profile__subscribed-table-head {
+  min-height: 40px;
+}
+
+/* line 299, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-head p, .u-profile__subscribed-table-head p {
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 0.27px;
+}
+
+/* line 308, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-body, .u-profile__subscribed-table-body {
+  min-height: 65px;
+}
+
+/* line 311, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-body:last-of-type, .u-profile__subscribed-table-body:last-of-type {
+  border-bottom: none;
+}
+
+/* line 316, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-body > div p, .u-profile__subscribed-table-body > div p {
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.31px;
+}
+
+/* line 324, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-body > div span, .u-profile__subscribed-table-body > div span {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.31px;
+}
+
+/* line 330, src/scss/_components/user-profile/_user-profile.scss */
+.u-profile__created-table-body > div a, .u-profile__subscribed-table-body > div a {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.31px;
+  color: #6772e5;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

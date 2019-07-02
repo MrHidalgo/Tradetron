@@ -1,0 +1,40 @@
+.u-profile__subscribed.u-profile__subscribed--empty.u-profile__section.mb-4
+	.u-profile__section-cover.px-3.py-4
+
+		.u-profile__section-header.pb-3
+			div
+				p.u-profile__section-title!= "Subscribed strategies"
+			div
+
+				.dropdown.dropdown--more
+					button#dropdownUProfileSubscribedMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+						i.icon-font.icon-more
+					.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileSubscribedMore')
+						.dropdown-menu-corner.position-absolute
+						.dropdown-menu-wrapper.d-flex.flex-column
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Some action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "More action"
+
+		.u-profile__created-table
+			.u-profile__created-table-head
+				div
+					p!= "Name"
+				div
+					p!= "ROI"
+				div
+					p!= "DD"
+				div
+					p!= "Min Capital"
+				div
+					p!= "Fees per month"
+				div
+					p!= "Subscribers"
+			.u-profile__created-table-body
+				p!= "You have no created strategies yet"

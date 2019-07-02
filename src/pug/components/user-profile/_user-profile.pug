@@ -1,0 +1,52 @@
+// SECTION user profile :: START
+
+section#u-profile.main.u-profile.position-relative
+
+	.main__bg.main__bg-0.position-absolute.w-100.h-100
+		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
+
+	.u-profile__bg.position-absolute.w-100.h-100
+		img(src="img/img-do-bg.png" srcset="img/img-do-bg@2x.png 2x, img/img-do-bg@3x.png 3x" alt="" title="")
+
+	.main__wrapper
+
+			.container
+				.row
+					.col
+
+						.u-profile__wrapper
+
+							.u-profile__wrapper-left
+
+								// user profile MAIN
+								include _user-profile--main
+								// user profile MAIN :: end
+
+							.u-profile__wrapper-right
+
+								// user profile ABOUT
+								include _user-profile--about
+								// user profile ABOUT :: end
+
+								// user profile LATEST TWEETS
+								include _user-profile--latestTweets
+								// user profile LATEST TWEETS :: end
+
+								// user profile CREATED STRATEGIES
+								include _user-profile--createdSTrategiesEmpty
+								include _user-profile--createdSTrategies
+								// user profile CREATED STRATEGIES :: end
+
+								// user profile SUBSCRIBED STRATEGIES
+								include _user-profile--subscribedStrategiesEmpty
+								include _user-profile--subscribedStrategies
+								// user profile SUBSCRIBED STRATEGIES :: end
+
+	.main__bg.main__bg-1.position-absolute.w-100.h-100
+		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
+			.main__bg-col.main__bg-col-1.position-absolute
+			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end.position-absolute
+				img.main__bg-img.main__bg-img-3.img-fluid.d-block.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
+
+
+// SECTION user profile :: END

@@ -1,0 +1,48 @@
+.u-profile__tweets.u-profile__section.mb-4
+	.u-profile__section-cover.px-3.py-4
+
+		.u-profile__section-header.pb-3
+			div
+				p.u-profile__section-title!= "Latest tweets"
+			div
+
+				.dropdown.dropdown--more
+					button#dropdownUProfileTweetsMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+						i.icon-font.icon-more
+					.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileTweetsMore')
+						.dropdown-menu-corner.position-absolute
+						.dropdown-menu-wrapper.d-flex.flex-column
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "Some action"
+							a.dropdown-item.d-flex.align-items-center(href='#')
+								div
+									span!= "More action"
+
+		.u-profile__section-body
+
+			.u-profile__tweets-box-wrapper
+				.u-profile__tweets-box.pb-4.mb-4.d-flex
+					div
+						.u-profile__tweets-box-image
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+					div
+						p.u-profile__tweets-box-title.pb-1!= "John Snow<span>@J.Snow</span><span>16h</span>"
+						p.u-profile__tweets-box-desc!= "Lorem ipsum dolor sit amet, in velit sed est sed ligula magna. Scelerisque in, lobortis nulla, magnis sunt risus leo rutrum phasellus.<a href='#'>#loremipsum</a>"
+				.u-profile__tweets-box.pb-4.mb-4.d-flex
+					div
+						.u-profile__tweets-box-image
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+					div
+						p.u-profile__tweets-box-title.pb-1!= "John Snow<span>@J.Snow</span><span>16h</span>"
+						p.u-profile__tweets-box-desc!= "Lorem ipsum dolor sit amet, in velit sed est sed ligula magna. Scelerisque in, lobortis nulla, magnis sunt risus leo rutrum phasellus.<a href='#'>#loremipsum</a>"
+				.u-profile__tweets-box.d-flex
+					div
+						.u-profile__tweets-box-image
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+					div
+						p.u-profile__tweets-box-title.pb-1!= "John Snow<span>@J.Snow</span><span>16h</span>"
+						p.u-profile__tweets-box-desc!= "Lorem ipsum dolor sit amet, in velit sed est sed ligula magna. Scelerisque in, lobortis nulla, magnis sunt risus leo rutrum phasellus.<a href='#'>#loremipsum</a>"
