@@ -183,71 +183,74 @@
 	@if $filename == more {
 		$char: "\E034";
 	}
-	@if $filename == photos {
+	@if $filename == photo-camera {
 		$char: "\E035";
 	}
-	@if $filename == plus {
+	@if $filename == photos {
 		$char: "\E036";
 	}
-	@if $filename == puzzle {
+	@if $filename == plus {
 		$char: "\E037";
 	}
-	@if $filename == safebox {
+	@if $filename == puzzle {
 		$char: "\E038";
 	}
-	@if $filename == search {
+	@if $filename == safebox {
 		$char: "\E039";
 	}
-	@if $filename == settings {
+	@if $filename == search {
 		$char: "\E03A";
 	}
-	@if $filename == share {
+	@if $filename == settings {
 		$char: "\E03B";
 	}
-	@if $filename == shield {
+	@if $filename == share {
 		$char: "\E03C";
 	}
-	@if $filename == signin {
+	@if $filename == shield {
 		$char: "\E03D";
 	}
-	@if $filename == smartphone {
+	@if $filename == signin {
 		$char: "\E03E";
 	}
-	@if $filename == star-fill {
+	@if $filename == smartphone {
 		$char: "\E03F";
 	}
-	@if $filename == star {
+	@if $filename == star-fill {
 		$char: "\E040";
 	}
-	@if $filename == stop {
+	@if $filename == star {
 		$char: "\E041";
 	}
-	@if $filename == stopwatch {
+	@if $filename == stop {
 		$char: "\E042";
 	}
-	@if $filename == success {
+	@if $filename == stopwatch {
 		$char: "\E043";
 	}
-	@if $filename == twitter {
+	@if $filename == success {
 		$char: "\E044";
 	}
-	@if $filename == upload {
+	@if $filename == twitter {
 		$char: "\E045";
 	}
-	@if $filename == user-profile {
+	@if $filename == upload {
 		$char: "\E046";
 	}
-	@if $filename == user {
+	@if $filename == user-profile {
 		$char: "\E047";
 	}
-	@if $filename == users {
+	@if $filename == user {
 		$char: "\E048";
 	}
-	@if $filename == wallet {
+	@if $filename == users {
 		$char: "\E049";
 	}
-	@if $filename == workflow {
+	@if $filename == wallet {
 		$char: "\E04A";
+	}
+	@if $filename == workflow {
+		$char: "\E04B";
 	}
 
 	@return $char;
@@ -470,6 +473,10 @@
 }
 .icon-more {
 	@include icon(more);
+
+}
+.icon-photo-camera {
+	@include icon(photo-camera);
 
 }
 .icon-photos {

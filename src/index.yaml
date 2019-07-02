@@ -23,7 +23,7 @@ PageList:
   ready: 90
 - file: user-profile.html
   titleName: User Profile
-  ready: 1
+  ready: 75
 - file: strategy-profile.html
   titleName: Strategy Profile
   ready: 0
