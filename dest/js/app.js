@@ -477,6 +477,26 @@ $(document).ready(function (ev) {
 			$('.strategy__filter').removeClass('is-open');
 		});
 	};
+
+	var initStrategyFilterRating = function initStrategyFilterRating() {
+		var _ratingBtn = $('.strategy__filter-rating a');
+
+		_ratingBtn.hover(function (ev) {
+			_ratingBtn.removeClass('is-hover');
+
+			$(ev.currentTarget).prevAll().addClass('is-hover');
+			$(ev.currentTarget).addClass('is-hover');
+		}, function (ev) {
+			_ratingBtn.removeClass('is-hover');
+		});
+
+		_ratingBtn.on('click', function (ev) {
+			_ratingBtn.removeClass('is-choose');
+
+			$(ev.currentTarget).prevAll().addClass('is-choose');
+			$(ev.currentTarget).addClass('is-choose');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -504,6 +524,7 @@ $(document).ready(function (ev) {
 		initStrategyTabs();
 		initStrategyCardBadge();
 		initStrategyFilterToggle();
+		initStrategyFilterRating();
 	};
 	initJquery();
 });

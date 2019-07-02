@@ -78,6 +78,30 @@ $(document).ready((ev) => {
 			$('.strategy__filter').removeClass('is-open');
 		});
 	};
+
+
+	const initStrategyFilterRating = () => {
+		const _ratingBtn = $('.strategy__filter-rating a');
+
+		_ratingBtn.hover(
+			(ev) => {
+				_ratingBtn.removeClass('is-hover');
+
+				$(ev.currentTarget).prevAll().addClass('is-hover');
+				$(ev.currentTarget).addClass('is-hover');
+			},
+			(ev) => {
+				_ratingBtn.removeClass('is-hover');
+			}
+		);
+
+		_ratingBtn.on('click', (ev) => {
+			_ratingBtn.removeClass('is-choose');
+
+			$(ev.currentTarget).prevAll().addClass('is-choose');
+			$(ev.currentTarget).addClass('is-choose');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -107,6 +131,7 @@ $(document).ready((ev) => {
 		initStrategyTabs();
 		initStrategyCardBadge();
 		initStrategyFilterToggle();
+		initStrategyFilterRating();
   };
   initJquery();
 });

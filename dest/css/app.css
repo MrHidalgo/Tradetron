@@ -1948,6 +1948,15 @@ picture {
 }
 
 /* line 210, src/scss/_components/_header.scss */
+.header__nav--profile .dropdown button span {
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 130px;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/* line 217, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p {
   position: relative;
   display: -webkit-box;
@@ -1970,7 +1979,7 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 221, src/scss/_components/_header.scss */
+/* line 228, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p u {
   position: absolute;
   top: 2px;
@@ -1983,14 +1992,14 @@ picture {
   background-color: #ffad0d;
 }
 
-/* line 232, src/scss/_components/_header.scss */
+/* line 239, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p .icon-font {
   margin: 0;
   color: #cccccc;
   font-size: 18px;
 }
 
-/* line 242, src/scss/_components/_header.scss */
+/* line 249, src/scss/_components/_header.scss */
 .header__nav > a {
   white-space: nowrap;
   margin-left: 10px;
@@ -2003,12 +2012,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 251, src/scss/_components/_header.scss */
+/* line 258, src/scss/_components/_header.scss */
 .header__nav > a:hover {
   color: #6772e5;
 }
 
-/* line 255, src/scss/_components/_header.scss */
+/* line 262, src/scss/_components/_header.scss */
 .header__nav > a.is-active {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2016,7 +2025,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 263, src/scss/_components/_header.scss */
+/* line 270, src/scss/_components/_header.scss */
 .header__nav .dropdown.show .btn {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2024,7 +2033,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 269, src/scss/_components/_header.scss */
+/* line 276, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle {
   font-size: 15px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2032,24 +2041,24 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 273, src/scss/_components/_header.scss */
+/* line 280, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:after {
   display: none;
 }
 
-/* line 277, src/scss/_components/_header.scss */
+/* line 284, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:hover {
   color: #6772e5;
 }
 
-/* line 281, src/scss/_components/_header.scss */
+/* line 288, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:focus, .header__nav .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 287, src/scss/_components/_header.scss */
+/* line 294, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle.is-active {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2057,13 +2066,13 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 292, src/scss/_components/_header.scss */
+/* line 299, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 298, src/scss/_components/_header.scss */
+/* line 305, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu {
   left: auto !important;
   right: 0;
@@ -2076,7 +2085,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 308, src/scss/_components/_header.scss */
+/* line 315, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -2091,7 +2100,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 319, src/scss/_components/_header.scss */
+/* line 326, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2102,7 +2111,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 328, src/scss/_components/_header.scss */
+/* line 335, src/scss/_components/_header.scss */
 .header__nav .dropdown-item {
   min-height: 20px;
   padding: 0 25px;
@@ -2110,12 +2119,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 334, src/scss/_components/_header.scss */
+/* line 341, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 337, src/scss/_components/_header.scss */
+/* line 344, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover .icon-font,
 .header__nav .dropdown-item:hover span {
   color: #6772e5;
@@ -2124,7 +2133,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 344, src/scss/_components/_header.scss */
+/* line 351, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2132,12 +2141,12 @@ picture {
   display: flex;
 }
 
-/* line 347, src/scss/_components/_header.scss */
+/* line 354, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 350, src/scss/_components/_header.scss */
+/* line 357, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2156,7 +2165,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 360, src/scss/_components/_header.scss */
+/* line 367, src/scss/_components/_header.scss */
 .header__nav .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -2166,7 +2175,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 367, src/scss/_components/_header.scss */
+/* line 374, src/scss/_components/_header.scss */
 .header__nav .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2174,17 +2183,17 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 377, src/scss/_components/_header.scss */
+/* line 384, src/scss/_components/_header.scss */
 .header .hamburger {
   position: relative;
 }
 
-/* line 380, src/scss/_components/_header.scss */
+/* line 387, src/scss/_components/_header.scss */
 .header .hamburger.is-active {
   z-index: 999;
 }
 
-/* line 385, src/scss/_components/_header.scss */
+/* line 392, src/scss/_components/_header.scss */
 .header__menu {
   display: none;
   z-index: 998;
@@ -2203,32 +2212,32 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 385, src/scss/_components/_header.scss */
+  /* line 392, src/scss/_components/_header.scss */
   .header__menu {
     position: fixed;
     top: 0;
     padding-top: 80px;
     padding-right: 18px;
   }
-  /* line 404, src/scss/_components/_header.scss */
+  /* line 411, src/scss/_components/_header.scss */
   .header--fixed .header__menu {
     padding-top: 55px;
   }
 }
 
-/* line 409, src/scss/_components/_header.scss */
+/* line 416, src/scss/_components/_header.scss */
 .header__menu.is-open {
   display: block;
 }
 
-/* line 413, src/scss/_components/_header.scss */
+/* line 420, src/scss/_components/_header.scss */
 .header__menu-body {
   min-height: -webkit-calc(444px - 90px);
   min-height: calc(444px - 90px);
   padding: 20px 0 29px 0;
 }
 
-/* line 418, src/scss/_components/_header.scss */
+/* line 425, src/scss/_components/_header.scss */
 .header__menu-col {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2243,13 +2252,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 418, src/scss/_components/_header.scss */
+  /* line 425, src/scss/_components/_header.scss */
   .header__menu-col {
     width: 100%;
     min-width: 0;
     max-width: 50%;
   }
-  /* line 427, src/scss/_components/_header.scss */
+  /* line 434, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2266,21 +2275,21 @@ picture {
             justify-content: space-between;
     padding-bottom: 12px;
   }
-  /* line 436, src/scss/_components/_header.scss */
+  /* line 443, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) .header__nav-wrapper:nth-of-type(2) .header__nav {
     min-height: 22px;
     padding-left: 0;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  /* line 442, src/scss/_components/_header.scss */
+  /* line 449, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) .header__nav-wrapper:nth-of-type(2) .header__nav a {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 374px) {
-  /* line 453, src/scss/_components/_header.scss */
+  /* line 460, src/scss/_components/_header.scss */
   .header__menu-col .header__nav .dropdown-item span {
     overflow: hidden;
     white-space: nowrap;
@@ -2290,21 +2299,21 @@ picture {
   }
 }
 
-/* line 464, src/scss/_components/_header.scss */
+/* line 471, src/scss/_components/_header.scss */
 .header__menu-footer {
   min-height: 90px;
   border-top: 2px solid #d8d9d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 469, src/scss/_components/_header.scss */
+  /* line 476, src/scss/_components/_header.scss */
   .header__menu-footer > div:nth-of-type(1) {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 478, src/scss/_components/_header.scss */
+  /* line 485, src/scss/_components/_header.scss */
   .header__menu .header__nav-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2318,14 +2327,14 @@ picture {
   }
 }
 
-/* line 485, src/scss/_components/_header.scss */
+/* line 492, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-menu {
   position: static;
   margin: 0;
   float: none;
 }
 
-/* line 490, src/scss/_components/_header.scss */
+/* line 497, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-menu-wrapper {
   padding: 0;
   -webkit-box-shadow: none;
@@ -2333,19 +2342,19 @@ picture {
   background-color: transparent;
 }
 
-/* line 497, src/scss/_components/_header.scss */
+/* line 504, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-toggle {
   cursor: default;
   pointer-events: none;
   height: auto;
 }
 
-/* line 502, src/scss/_components/_header.scss */
+/* line 509, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-toggle:hover {
   color: #333333;
 }
 
-/* line 507, src/scss/_components/_header.scss */
+/* line 514, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-item {
   padding-left: 0;
 }
@@ -7624,11 +7633,15 @@ picture {
   .strategy__filter .strategy__filter-col {
     width: 50%;
   }
-  /* line 79, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 81, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__filter .strategy__filter-col:last-of-type .strategy__filter-row {
+    width: 100%;
+  }
+  /* line 87, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__filter .strategy__filter-row {
     width: 50%;
   }
-  /* line 82, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 90, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__filter .strategy__filter-row > * {
     width: 100%;
     max-width: 241px;
@@ -7647,15 +7660,15 @@ picture {
     right: 15px;
     left: auto;
   }
-  /* line 96, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 104, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__filter .strategy__filter-col {
     width: 100%;
   }
-  /* line 99, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 107, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__filter .strategy__filter-row {
     width: 100%;
   }
-  /* line 102, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 110, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__filter .strategy__filter-row > * {
     max-width: 100%;
   }
@@ -7668,7 +7681,7 @@ picture {
   }
 }
 
-/* line 112, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 120, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close {
   white-space: nowrap;
   position: absolute;
@@ -7678,12 +7691,12 @@ picture {
   height: 35px;
 }
 
-/* line 120, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 128, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close .icon-font {
   font-size: 16px;
 }
 
-/* line 124, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 132, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-close span {
   padding-left: 10px;
   font-size: 15px;
@@ -7691,20 +7704,43 @@ picture {
   letter-spacing: 0.47px;
 }
 
-/* line 132, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 140, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-title {
   font-size: 16px;
   font-weight: bold;
   line-height: 1.5;
 }
 
-/* line 139, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 147, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-rating a {
+  position: relative;
   color: #dadada;
   font-size: 20px;
 }
 
-/* line 146, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 155, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter-rating a.is-hover .icon-font.icon-star-fill, .strategy__filter-rating a.is-choose .icon-font.icon-star-fill {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 163, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__filter-rating a .icon-font.icon-star-fill {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ff5980;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 178, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__filter-link a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7720,7 +7756,7 @@ picture {
   line-height: 1.71;
 }
 
-/* line 157, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 189, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7733,7 +7769,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 157, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 189, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__tabs {
     overflow-x: auto;
     white-space: nowrap;
@@ -7747,7 +7783,7 @@ picture {
   }
 }
 
-/* line 170, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 202, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7768,14 +7804,14 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 170, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 202, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__tabs > div {
     display: inline-block;
     max-width: 150px;
   }
 }
 
-/* line 183, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 215, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7794,7 +7830,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 183, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 215, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__tabs-btn {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -7803,12 +7839,12 @@ picture {
   }
 }
 
-/* line 196, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 228, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active {
   color: #6772e5;
 }
 
-/* line 199, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 231, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7816,7 +7852,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 205, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 237, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__tabs-btn:after {
   opacity: 0;
   content: '';
@@ -7831,13 +7867,13 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 251, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option {
   display: none !important;
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 219, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 251, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__option {
     display: -webkit-box !important;
     display: -webkit-flex !important;
@@ -7846,7 +7882,7 @@ picture {
   }
 }
 
-/* line 226, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 258, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7857,12 +7893,12 @@ picture {
   padding-right: 15px;
 }
 
-/* line 232, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 264, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option > div:nth-of-type(2) {
   width: 100px;
 }
 
-/* line 237, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 269, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-title {
   white-space: nowrap;
   padding-right: 15px;
@@ -7872,13 +7908,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 237, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 269, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__option-title {
     display: none;
   }
 }
 
-/* line 248, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 280, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-search {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -7888,7 +7924,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 254, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 286, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -7898,12 +7934,12 @@ picture {
   background-color: #fff;
 }
 
-/* line 260, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 292, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn .icon-font {
   font-size: 20px;
 }
 
-/* line 264, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 296, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option-btn span {
   padding-left: 10px;
   font-size: 15px;
@@ -7911,34 +7947,34 @@ picture {
   letter-spacing: 0.47px;
 }
 
-/* line 272, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 304, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__option .form-control {
   height: 40px;
 }
 
-/* line 277, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 309, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card {
   min-height: 270px;
 }
 
-/* line 282, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 314, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-header {
   padding-right: 203px;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 282, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 314, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card--featured .strategy__card-header {
     padding-right: 1rem;
   }
 }
 
-/* line 288, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 320, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card--featured .strategy__card-badge {
   width: 186px;
 }
 
-/* line 294, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 326, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge {
   position: absolute;
   top: 0;
@@ -7953,13 +7989,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 294, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 326, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-badge {
     height: 40px;
   }
 }
 
-/* line 307, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 339, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge p {
   font-size: 14px;
   font-weight: bold;
@@ -7968,7 +8004,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 318, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 350, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart {
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7976,7 +8012,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 322, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 354, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a.is-active .icon-font.icon-heart-fill {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -7984,7 +8020,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 330, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 362, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font {
   font-size: 21px;
   color: #ffffff;
@@ -7993,7 +8029,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 335, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 367, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-badge a .icon-font.icon-heart-fill {
   opacity: 0;
   position: absolute;
@@ -8004,7 +8040,7 @@ picture {
   color: #ff5980;
 }
 
-/* line 348, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 380, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn {
   max-width: 177px;
   height: 40px;
@@ -8017,7 +8053,7 @@ picture {
   text-align: center;
 }
 
-/* line 358, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 390, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg {
   background-color: #6772e5;
   color: #ffffff;
@@ -8026,7 +8062,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 363, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 395, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--bg:hover {
   border-color: #6772e5;
   background-color: transparent;
@@ -8035,7 +8071,7 @@ picture {
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 370, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 402, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border {
   border-color: #6772e5;
   background-color: transparent;
@@ -8045,7 +8081,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 376, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 408, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-btn--border:hover {
   background-color: #6772e5;
   color: #ffffff;
@@ -8054,43 +8090,27 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 384, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 416, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-created {
   font-size: 12px;
   line-height: 2;
 }
 
-/* line 389, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 421, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* line 393, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 425, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-title span {
   padding-left: 15px;
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 405, src/scss/_components/strategy-marketplace/_strategy.scss */
-.strategy__card-rating a.is-active .icon-font.icon-star {
-  opacity: 0;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-}
-
-/* line 409, src/scss/_components/strategy-marketplace/_strategy.scss */
-.strategy__card-rating a.is-active .icon-font.icon-star-fill {
-  opacity: 1;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-}
-
-/* line 417, src/scss/_components/strategy-marketplace/_strategy.scss */
-.strategy__card-rating a .icon-font {
+/* line 435, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__card-rating span .icon-font {
   font-size: 15px;
   color: #989898;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -8098,42 +8118,36 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 422, src/scss/_components/strategy-marketplace/_strategy.scss */
-.strategy__card-rating a .icon-font.icon-star-fill {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* line 440, src/scss/_components/strategy-marketplace/_strategy.scss */
+.strategy__card-rating span .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 434, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 446, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating p {
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 434, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 446, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-rating p {
     position: relative;
     top: 1px;
   }
 }
 
-/* line 443, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 455, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 447, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 459, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by a {
   color: #6772e5;
 }
 
-/* line 453, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 465, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-tags a {
   height: 25px;
   -webkit-border-radius: 12.5px;
@@ -8145,13 +8159,13 @@ picture {
   color: #6772e5;
 }
 
-/* line 464, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 476, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-header {
   min-height: 60px;
   padding-right: 80px;
 }
 
-/* line 471, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 483, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8161,18 +8175,18 @@ picture {
   max-width: 100%;
 }
 
-/* line 477, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 489, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(2) {
   width: 177px;
 }
 
-/* line 484, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 496, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div {
   min-height: 60px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 484, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 496, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div {
     width: 100%;
     max-width: 50%;
@@ -8182,17 +8196,29 @@ picture {
   }
 }
 
-/* line 494, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 496, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div {
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* line 511, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(1) {
   border-right: 1px solid #d8d8d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 494, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 511, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(1) {
     position: relative;
   }
-  /* line 499, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 516, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(1):after {
     content: '';
     position: absolute;
@@ -8204,18 +8230,25 @@ picture {
   }
 }
 
-/* line 510, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 511, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(1) {
+    padding-left: 0 !important;
+  }
+}
+
+/* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(2) {
   border-right: 1px solid #d8d8d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 510, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(2) {
     position: relative;
     border-right: none;
   }
-  /* line 516, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 536, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(2):after {
     content: '';
     position: absolute;
@@ -8227,12 +8260,26 @@ picture {
   }
 }
 
-/* line 527, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(2) {
+    padding-left: 1rem !important;
+  }
+}
+
+/* line 550, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(3) {
   border-right: 1px solid #d8d8d8;
 }
 
-/* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 550, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(3) {
+    padding-left: 0 !important;
+  }
+}
+
+/* line 556, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(4) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8242,13 +8289,27 @@ picture {
   min-width: 1px;
 }
 
-/* line 537, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 556, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer > div:nth-of-type(4) {
+    padding-left: 1rem !important;
+  }
+}
+
+/* line 566, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer span {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 542, src/scss/_components/strategy-marketplace/_strategy.scss */
+@media screen and (max-width: 575px) {
+  /* line 566, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer span {
+    font-size: 14px;
+  }
+}
+
+/* line 574, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer p {
   white-space: nowrap;
   font-size: 25px;
@@ -8257,9 +8318,17 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 542, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 574, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer p {
     white-space: normal;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 574, src/scss/_components/strategy-marketplace/_strategy.scss */
+  .strategy__card-footer p {
+    font-size: 20px;
   }
 }
 
