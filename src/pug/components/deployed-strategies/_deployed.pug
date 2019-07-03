@@ -36,15 +36,23 @@ section#deployed.main.strategy.deployed.position-relative
 								include _deployed--summary
 								// deployed :: end
 
-
 	.main__wrapper
 
 		.container
 			.row
 				.col
 
-					.deployed__wrapper
+					.deployed__wrapper.pt-4
 
+						// deployed
+						include _deployed--archivedMore
+						// deployed :: end
+
+						p.deployed__subtitle.pt-2!= "Archived Strategies"
+
+						// deployed
+						include _deployed--archived
+						// deployed :: end
 
 	.main__bg.main__bg-1.position-absolute.w-100.h-100
 		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between

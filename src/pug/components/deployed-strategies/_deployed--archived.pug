@@ -1,0 +1,53 @@
+// SECTION strategy summary :: START
+
+.strategy__section.deployed__archived.p-3
+
+	.deployed__archived-head.mb-3.pb-3
+		p!= "Pair Trade by <a href='#'>Neutrino</a>"
+
+	.deployed__archived-body
+
+		.deployed__archived-info.pb-2
+			div.pb-2
+				p!= "Entry on: <span>26 July 2018</span>"
+			div.pb-2
+				p!= "Exit Date: <span>07 August 2018</span>"
+			div.pb-2
+				p!= "Margin: <span>Rs.500000</span>"
+			div.pb-2
+				p!= "Execution: <span>Paper Trading</span>"
+			div.pb-2
+				p!= "Broker: <span>Fidelity</span>"
+
+		.deployed__archived-table
+			.table-responsive
+				table.table
+					tbody
+						tr
+							td
+								p!= "<span class='nowrap'>1. Nifty_10700_CE_May30</span> NSE Exchange"
+							td
+								p!= "<span class='nowrap'>750 Qty</span>"
+							td
+								p!= "<span class='nowrap'>Entry Price: Rs. 300</span><br><span class='nowrap'>Exit Price: Rs. 500</span>"
+							td
+								p!= "<span class='nowrap'>Rs.21000</span>"
+						tr
+							td
+								p!= "<span class='nowrap'>2. Nifty_10700_CE_May30 NSE</span> Exchange"
+							td
+								p!= "<span class='nowrap'>-750 Qty</span>"
+							td
+								p!= "Entry Price: Rs. 300<br>Exit Price: Rs. 500"
+							td
+								p!= "<span class='nowrap'>Rs.22000</span>"
+						tr.total
+							td
+								p Total
+							td
+								p 0
+							td
+							td
+								p!= "<span class='nowrap'>Rs.1000</span>"
+
+// SECTION strategy summary :: END

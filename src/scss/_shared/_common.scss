@@ -7,6 +7,23 @@
 }
 
 .dropdown {
+	&--more {
+		.dropdown {
+			&-toggle {
+				height: 30px;
+
+				.icon-font {
+					color: #AEAEAE;
+					font-size: 5px;
+				}
+
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+
 	&-toggle {
 		height: 40px;
 		border-radius: 6px;

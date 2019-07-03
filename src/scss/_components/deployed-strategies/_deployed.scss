@@ -2,6 +2,17 @@
 
 .deployed {
 
+	&__subtitle {
+		padding-bottom: 20px;
+		font-weight: bold;
+		font-size: 30px;
+		letter-spacing: 0.33px;
+		text-align: center;
+		@include adaptive(767) {
+			font-size: 25px;
+		}
+	}
+
 	&__summary {
 		min-height: 100px;
 		background-color: #6772E5;
@@ -59,6 +70,99 @@
 						font-weight: 600;
 						@include adaptive(374) {
 							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&__archived {
+		.nowrap {
+			white-space: nowrap;
+		}
+
+		.status {
+			span {
+				color: #6772e5;
+			}
+		}
+
+		.deatils {
+			td {
+				border-top: none;
+				padding-top: 0;
+			}
+
+			p {
+				font-weight: 500;
+				font-size: 12px;
+				letter-spacing: 0.23px;
+			}
+		}
+
+
+		&-head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border-bottom: 1px solid #EAEAEA;
+
+			p {
+				font-weight: 600;
+				font-size: 20px;
+				letter-spacing: 0.47px;
+				@include adaptive(767) {
+					font-size: 18px;
+				}
+
+				a {
+					color: #6772e5;
+				}
+			}
+		}
+
+		&-info {
+			display: flex;
+			flex-wrap: wrap;
+
+			> div {
+				width: 100%;
+				max-width: calc(100% / 3);
+				@include adaptive(991) {
+					max-width: calc(100% / 2);
+				}
+				@include adaptive(767) {
+					max-width: 100%;
+				}
+
+				p {
+					font-weight: bold;
+					font-size: 20px;
+					letter-spacing: 0.47px;
+					@include adaptive(767) {
+						font-size: 18px;
+					}
+
+					span {
+						font-weight: normal;
+					}
+				}
+			}
+		}
+
+		&-table {
+			table {
+				tbody {
+					td {
+						vertical-align: middle;
+						font-size: 14px;
+						letter-spacing: 0.27px;
+					}
+
+					.total {
+						td {
+							font-weight: 600;
 						}
 					}
 				}

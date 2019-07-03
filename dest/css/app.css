@@ -762,7 +762,23 @@ picture {
   letter-spacing: 0.4px;
 }
 
-/* line 10, src/scss/_shared/_common.scss */
+/* line 12, src/scss/_shared/_common.scss */
+.dropdown--more .dropdown-toggle {
+  height: 30px;
+}
+
+/* line 15, src/scss/_shared/_common.scss */
+.dropdown--more .dropdown-toggle .icon-font {
+  color: #AEAEAE;
+  font-size: 5px;
+}
+
+/* line 20, src/scss/_shared/_common.scss */
+.dropdown--more .dropdown-toggle:after {
+  display: none;
+}
+
+/* line 27, src/scss/_shared/_common.scss */
 .dropdown-toggle {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -774,14 +790,14 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 18, src/scss/_shared/_common.scss */
+/* line 35, src/scss/_shared/_common.scss */
 .dropdown-toggle:focus, .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 24, src/scss/_shared/_common.scss */
+/* line 41, src/scss/_shared/_common.scss */
 .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -789,13 +805,13 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 29, src/scss/_shared/_common.scss */
+/* line 46, src/scss/_shared/_common.scss */
 .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 35, src/scss/_shared/_common.scss */
+/* line 52, src/scss/_shared/_common.scss */
 .dropdown-menu {
   left: auto !important;
   right: 0 !important;
@@ -808,7 +824,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 45, src/scss/_shared/_common.scss */
+/* line 62, src/scss/_shared/_common.scss */
 .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -823,7 +839,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 56, src/scss/_shared/_common.scss */
+/* line 73, src/scss/_shared/_common.scss */
 .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -834,7 +850,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 65, src/scss/_shared/_common.scss */
+/* line 82, src/scss/_shared/_common.scss */
 .dropdown-item {
   min-height: 20px;
   padding: 0 15px;
@@ -842,12 +858,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 71, src/scss/_shared/_common.scss */
+/* line 88, src/scss/_shared/_common.scss */
 .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 74, src/scss/_shared/_common.scss */
+/* line 91, src/scss/_shared/_common.scss */
 .dropdown-item:hover .icon-font,
 .dropdown-item:hover span {
   color: #6772e5;
@@ -856,7 +872,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 81, src/scss/_shared/_common.scss */
+/* line 98, src/scss/_shared/_common.scss */
 .dropdown-item > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -864,12 +880,12 @@ picture {
   display: flex;
 }
 
-/* line 84, src/scss/_shared/_common.scss */
+/* line 101, src/scss/_shared/_common.scss */
 .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 87, src/scss/_shared/_common.scss */
+/* line 104, src/scss/_shared/_common.scss */
 .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -888,7 +904,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 97, src/scss/_shared/_common.scss */
+/* line 114, src/scss/_shared/_common.scss */
 .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -898,7 +914,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 104, src/scss/_shared/_common.scss */
+/* line 121, src/scss/_shared/_common.scss */
 .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -906,7 +922,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 114, src/scss/_shared/_common.scss */
+/* line 131, src/scss/_shared/_common.scss */
 .input-group {
   overflow: hidden;
   -webkit-border-radius: 6px;
@@ -914,19 +930,19 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 121, src/scss/_shared/_common.scss */
+/* line 138, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group button.btn {
   border-left: transparent !important;
   border-right: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 126, src/scss/_shared/_common.scss */
+/* line 143, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group .form-control {
   border-left: solid 1px rgba(185, 185, 185, 0.3);
   border-right: transparent !important;
 }
 
-/* line 133, src/scss/_shared/_common.scss */
+/* line 150, src/scss/_shared/_common.scss */
 .input-group button.btn {
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -934,12 +950,12 @@ picture {
   border-right: transparent;
 }
 
-/* line 138, src/scss/_shared/_common.scss */
+/* line 155, src/scss/_shared/_common.scss */
 .input-group button.btn:hover {
   background-color: transparent;
 }
 
-/* line 142, src/scss/_shared/_common.scss */
+/* line 159, src/scss/_shared/_common.scss */
 .input-group button.btn:focus, .input-group button.btn:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -947,14 +963,14 @@ picture {
   border-color: rgba(185, 185, 185, 0.3) !important;
 }
 
-/* line 149, src/scss/_shared/_common.scss */
+/* line 166, src/scss/_shared/_common.scss */
 .input-group button.btn .icon-font {
   opacity: 0.35;
   font-size: 17px;
   color: #333333;
 }
 
-/* line 156, src/scss/_shared/_common.scss */
+/* line 173, src/scss/_shared/_common.scss */
 .input-group .form-control {
   height: 45px;
   -webkit-border-radius: 6px;
@@ -1012,21 +1028,21 @@ picture {
   color: #333333;
 }
 
-/* line 173, src/scss/_shared/_common.scss */
+/* line 190, src/scss/_shared/_common.scss */
 .input-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 180, src/scss/_shared/_common.scss */
+/* line 197, src/scss/_shared/_common.scss */
 .form-group label {
   font-weight: 600;
   font-size: 14px;
   color: #333333;
 }
 
-/* line 186, src/scss/_shared/_common.scss */
+/* line 203, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 45px;
@@ -1039,14 +1055,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 195, src/scss/_shared/_common.scss */
+/* line 212, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 204, src/scss/_shared/_common.scss */
+/* line 221, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1098,7 +1114,7 @@ picture {
   }
 }
 
-/* line 226, src/scss/_shared/_common.scss */
+/* line 243, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1106,7 +1122,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 230, src/scss/_shared/_common.scss */
+/* line 247, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -8423,6 +8439,22 @@ picture {
 }
 
 /* line 5, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__subtitle {
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.33px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 5, src/scss/_components/deployed-strategies/_deployed.scss */
+  .deployed__subtitle {
+    font-size: 25px;
+  }
+}
+
+/* line 16, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary {
   min-height: 100px;
   background-color: #6772E5;
@@ -8430,14 +8462,14 @@ picture {
           border-radius: 6px;
 }
 
-/* line 10, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 21, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-title {
   font-weight: 600;
   font-size: 20px;
   color: #FFFFFF;
 }
 
-/* line 16, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 27, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -8450,7 +8482,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 16, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 27, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__summary-block {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -8462,7 +8494,7 @@ picture {
   }
 }
 
-/* line 24, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 35, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-block > div {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8475,7 +8507,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 24, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 35, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__summary-block > div {
     -webkit-box-flex: unset;
     -webkit-flex: unset;
@@ -8484,12 +8516,12 @@ picture {
     width: 100%;
     text-align: left;
   }
-  /* line 35, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 46, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__summary-block > div:nth-of-type(1), .deployed__summary-block > div:nth-of-type(3) {
     max-width: 45%;
     padding-right: 15px;
   }
-  /* line 41, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 52, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__summary-block > div:nth-of-type(2), .deployed__summary-block > div:nth-of-type(4) {
     max-width: 55%;
     border-right: none;
@@ -8497,28 +8529,151 @@ picture {
   }
 }
 
-/* line 49, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 60, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-block > div:last-of-type {
   border-right: none;
 }
 
-/* line 53, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 64, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-block > div p {
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0.27px;
 }
 
-/* line 58, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 69, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__summary-block > div p strong {
   font-weight: 600;
 }
 
 @media screen and (max-width: 374px) {
-  /* line 58, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 69, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__summary-block > div p strong {
     display: block;
   }
+}
+
+/* line 81, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .nowrap {
+  white-space: nowrap;
+}
+
+/* line 86, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .status span {
+  color: #6772e5;
+}
+
+/* line 92, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .deatils td {
+  border-top: none;
+  padding-top: 0;
+}
+
+/* line 97, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .deatils p {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.23px;
+}
+
+/* line 105, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* line 111, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-head p {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.47px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 111, src/scss/_components/deployed-strategies/_deployed.scss */
+  .deployed__archived-head p {
+    font-size: 18px;
+  }
+}
+
+/* line 119, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-head p a {
+  color: #6772e5;
+}
+
+/* line 125, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-info > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+
+@media screen and (max-width: 991px) {
+  /* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+  .deployed__archived-info > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+  .deployed__archived-info > div {
+    max-width: 100%;
+  }
+}
+
+/* line 139, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-info > div p {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.47px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 139, src/scss/_components/deployed-strategies/_deployed.scss */
+  .deployed__archived-info > div p {
+    font-size: 18px;
+  }
+}
+
+/* line 147, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-info > div p span {
+  font-weight: normal;
+}
+
+/* line 157, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-table table tbody td {
+  vertical-align: middle;
+  font-size: 14px;
+  letter-spacing: 0.27px;
+}
+
+/* line 164, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-table table tbody .total td {
+  font-weight: 600;
 }
 
 /* line 3, src/scss/_components/user-profile/_user-profile.scss */

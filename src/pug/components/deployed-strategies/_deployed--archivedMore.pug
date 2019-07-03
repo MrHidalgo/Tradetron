@@ -1,0 +1,87 @@
+// SECTION strategy summary :: START
+
+.strategy__section.deployed__archived.deployed__archived--more.mb-4.p-3
+
+	.deployed__archived-head.mb-3.pb-3
+		div
+			p!= "Pair Trade by <a href='#'>Neutrino</a>"
+		div
+		.dropdown.dropdown--more
+			button#dropdownUProfileAboutMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+				i.icon-font.icon-more
+			.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileAboutMore')
+				.dropdown-menu-corner.position-absolute
+				.dropdown-menu-wrapper.d-flex.flex-column
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Action"
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Some action"
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "More action"
+
+	.deployed__archived-body
+
+		.deployed__archived-info.pb-2
+			div.pb-2
+				p!= "Deployed on: <span>26 July 2018</span>"
+			div.pb-2
+				p!= "Margin: <span>Rs.500000</span>"
+			div.pb-2
+				p!= "Broker: <span>Fidelity</span>"
+			div.pb-2
+				p!= "Execution: <span>Paper Trading</span>"
+			div.pb-2
+				p.status!= "Status: <span>Active</span>"
+			div.pb-2
+				p!= "Counter: <span>1</span>"
+
+		.deployed__archived-table
+			.table-responsive
+				table.table
+					tbody
+						tr
+							td
+								p!= "<span class='nowrap'>1. Nifty_10700_CE_May30</span> NSE Exchange"
+							td
+								p!= "<span class='nowrap'>750 Qty</span>"
+							td
+								p!= "<span class='nowrap'>Entry Price: Rs. 300</span><br><span class='nowrap'>Exit Price: Rs. 500</span>"
+							td
+								p!= "<span class='nowrap'>Amt Rs. 21000</span><br><span class='nowrap'>Amt Rs. 22500</span>"
+							td
+								p!= "<span class='nowrap'>Rs.21000</span>"
+						tr.deatils
+							td(colspan='5')
+								p!= "IV _____ | Delta ____ | Gamma ____ | Theta _____ | Vega _____ | Spot ______ | DTE ______ "
+						tr
+							td
+								p!= "<span class='nowrap'>2. Nifty_10700_CE_May30 NSE</span> Exchange"
+							td
+								p!= "<span class='nowrap'>-750 Qty</span>"
+							td
+								p!= "Entry Price: Rs. 300<br>Exit Price: Rs. 500"
+							td
+								p!= "<span class='nowrap'>Amt Rs. 21000</span><br><span class='nowrap'>Amt Rs. 22500</span>"
+							td
+								p!= "<span class='nowrap'>Rs.22000</span>"
+						tr.deatils
+							td(colspan='5')
+								p!= "IV _____ | Delta ____ | Gamma ____ | Theta _____ | Vega _____ | Spot ______ | DTE ______ "
+						tr.total
+							td
+								p Total
+							td
+								p 0
+							td
+							td
+								p!= "<span class='nowrap'>AmtRs. 21000</span>"
+							td
+								p!= "<span class='nowrap'>Rs.1000</span>"
+						tr.deatils
+							td(colspan='5')
+								p!= "IV _____ | Delta ____ | Gamma ____ | Theta _____ | Vega _____ | Spot ______ | DTE ______ "
+
+// SECTION strategy summary :: END
