@@ -340,6 +340,18 @@
 		}
 
 		&-marketWatch {
+			.input-group {
+				.form-control {
+					height: 40px;
+				}
+
+				.btn {
+					&:hover {
+						color: #6772e5;
+					}
+				}
+			}
+
 			.dashboard__block-body {
 				.dashboard__block-btn {
 					@include adaptive(424) {

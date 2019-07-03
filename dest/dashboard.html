@@ -1002,7 +1002,15 @@
                   <div class="dashboard__block dashboard__block-marketWatch">
                     <div class="dashboard__block-header pl-3 pt-3 pt-md-0 pb-3 pb-md-0 position-relative d-flex align-items-md-center justify-content-between flex-column flex-md-row"><a class="dashboard__block-close d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i></a>
                       <p class="dashboard__block-title pb-3 pb-md-0">Market watch</p>
-                      <div class="dashboard__block-header--option d-flex align-items-center flex-wrap flex-md-nowrap"><a class="dashboard__block-btn d-flex align-items-center justify-content-center mr-2 mb-2 mb-md-0" href="#" title=""><span>+ New List</span></a>
+                      <div class="dashboard__block-header--option d-flex align-items-center flex-wrap flex-md-nowrap">
+                        <!--a.dashboard__block-btn.d-flex.align-items-center.justify-content-center(href="#" class="" title="")-->
+                        <!--	span!= "+ New List"-->
+                        <div class="input-group input-group--reverse mr-2 mb-2 mb-md-0">
+                          <input class="form-control" type="text" placeholder="">
+                          <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">+</button>
+                          </div>
+                        </div>
                         <div class="dropdown dropdown--border mr-0 mr-md-3 mb-2 mb-md-0">
                           <button class="btn dropdown-toggle d-flex align-items-center justify-content-center pl-0 pr-0" id="dropdownDashBlockSelectList" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Select list</span></button>
                           <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownDashBlockSelectList">

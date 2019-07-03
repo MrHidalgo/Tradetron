@@ -530,8 +530,13 @@ section#main.main.dashboard.position-relative
 
 								.dashboard__block-header--option.d-flex.align-items-center.flex-wrap.flex-md-nowrap
 
-									a.dashboard__block-btn.d-flex.align-items-center.justify-content-center.mr-2.mb-2.mb-md-0(href="#" class="" title="")
-										span!= "+ New List"
+									//a.dashboard__block-btn.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+									//	span!= "+ New List"
+
+									.input-group.input-group--reverse.mr-2.mb-2.mb-md-0
+										input.form-control(type='text', placeholder="")
+										.input-group-append
+											button.btn.btn-outline-secondary(type='button') +
 
 									.dropdown.dropdown--border.mr-0.mr-md-3.mb-2.mb-md-0
 										button#dropdownDashBlockSelectList.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.pl-0.pr-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
