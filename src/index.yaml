@@ -30,3 +30,7 @@ PageList:
 - file: account-profile.html
   titleName: Account Profile
   ready: 0
+
+- file: deployed-strategies.html
+  titleName: Deployed Strategies
+  ready: 1

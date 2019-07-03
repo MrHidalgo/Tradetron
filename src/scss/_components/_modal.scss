@@ -24,6 +24,25 @@
 		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.07);
 	}
 
+	&-body {
+		&-submit {
+			outline: none;
+			margin-left: auto;
+			margin-right: auto;
+			width: 235px;
+			height: 40px;
+			box-shadow: none;
+			border-radius: 6px;
+			border-color: #6772e5;
+			background-color: #6772e5;
+			font-size: 16px;
+			font-weight: bold;
+			letter-spacing: 0.44px;
+			text-align: center;
+			color: #ffffff;
+		}
+	}
+
 	&-title {
 		font-size: 30px;
 		font-weight: bold;
@@ -368,12 +387,9 @@
 		}
 	}
 
+	&--filter,
 	&--buy {
 		.modal {
-			&-dialog {
-				max-width: 411px;
-			}
-
 			&__close {
 				top: 15px;
 				right: 20px;
@@ -381,6 +397,51 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--filter {
+		.modal {
+			&-dialog {
+				max-width: 960px;
+			}
+
+			&-body {
+				&-form {
+					overflow: hidden;
+					display: flex;
+					align-items: flex-start;
+					flex-wrap: wrap;
+					margin-left: -45px;
+					@include adaptive(575) {
+						margin-left: -15px;
+					}
+
+					> div {
+						width: 100%;
+						max-width: calc(100% / 5);
+						padding-left: 45px;
+						@include adaptive(991) {
+							max-width: calc(100% / 4);
+						}
+						@include adaptive(767) {
+							max-width: calc(100% / 3);
+						}
+						@include adaptive(575) {
+							max-width: calc(100% / 2);
+							padding-left: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&--buy {
+		.modal {
+			&-dialog {
+				max-width: 411px;
 			}
 
 			&-body-cover {
@@ -483,45 +544,6 @@
 						letter-spacing: 0.09px;
 						color: rgba(#333333, 0.65);
 					}
-				}
-			}
-
-			&-body-submit {
-				outline: none;
-				margin-left: auto;
-				margin-right: auto;
-				width: 235px;
-				height: 40px;
-				box-shadow: none;
-				border-radius: 6px;
-				border-color: #6772e5;
-				background-color: #6772e5;
-				font-size: 16px;
-				font-weight: bold;
-				letter-spacing: 0.44px;
-				text-align: center;
-				color: #ffffff;
-			}
-		}
-	}
-
-	&--signin,
-	&--signup {
-		.modal {
-			&__close {
-				top: 15px;
-				right: 20px;
-			}
-
-			&-dialog {
-				max-width: 411px;
-			}
-
-			&-body {
-				&-cover {
-					max-width: 240px;
-					margin-left: auto;
-					margin-right: auto;
 				}
 			}
 		}
@@ -638,20 +660,27 @@
 						text-align: right;
 					}
 				}
+			}
+		}
+	}
 
-				&-submit {
+	&--signin,
+	&--signup {
+		.modal {
+			&__close {
+				top: 15px;
+				right: 20px;
+			}
+
+			&-dialog {
+				max-width: 411px;
+			}
+
+			&-body {
+				&-cover {
+					max-width: 240px;
 					margin-left: auto;
 					margin-right: auto;
-					width: 235px;
-					height: 40px;
-					border-radius: 6px;
-					border-color: #6772e5;
-					background-color: #6772e5;
-					font-size: 16px;
-					font-weight: bold;
-					letter-spacing: 0.44px;
-					text-align: center;
-					color: #ffffff;
 				}
 			}
 		}

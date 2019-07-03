@@ -71,7 +71,7 @@ $(document).ready((ev) => {
 
 
 	const initStrategyFilterToggle = () => {
-		$('.strategy__option-btn').on('click', (ev) => {
+		$('.strategy__option-btn').not('[data-toggle="modal"]').on('click', (ev) => {
 			$('.strategy__filter').addClass('is-open');
 		});
 		$('.strategy__filter-close').on('click', (ev) => {

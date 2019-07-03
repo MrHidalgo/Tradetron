@@ -1,0 +1,23 @@
+// SECTION strategy filter :: START
+
+form(action='' autocomplete='off').strategy__section.strategy__filter.d-flex.flex-column.py-4.px-3
+
+	a.strategy__filter-close.d-flex.align-items-center.justify-content-center.d-lg-none(href="#" class="" title="")
+		i.icon-font.icon-close
+		span!= "Close"
+
+	.strategy__filter-row
+		p.strategy__filter-title.pb-2!= "Search Strategies"
+
+		.strategy__filter-search.mb-4
+			.input-group
+				.input-group-prepend
+					button.btn.btn-outline-secondary(type='button')
+						i.icon-font.icon-search
+				input.form-control(type='text', placeholder='Search')
+
+		a.strategy__filter-btn(href="#" class="" title="" data-toggle="modal" data-target="#deployedFilterModal")
+			i.icon-font.icon-filter
+			!= "Filters"
+
+// SECTION strategy filter :: END

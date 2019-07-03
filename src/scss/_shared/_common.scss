@@ -177,6 +177,12 @@
 	}
 }
 .form-group {
+	label {
+		font-weight: 600;
+		font-size: 14px;
+		color: #333333;
+	}
+
 	select {
 		outline: none;
 		height: 45px;

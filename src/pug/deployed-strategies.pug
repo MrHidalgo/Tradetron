@@ -1,0 +1,17 @@
+---
+title: Tradetron | Deployed Strategies
+
+pageClassName: p-deployed-strategies
+---
+extends shared/_layout
+
+block header
+	include components/_header-login
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/deployed-strategies/_deployed
+
+block modal
+	include components/modal/_modal-filter

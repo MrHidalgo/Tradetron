@@ -470,7 +470,7 @@ $(document).ready(function (ev) {
 	};
 
 	var initStrategyFilterToggle = function initStrategyFilterToggle() {
-		$('.strategy__option-btn').on('click', function (ev) {
+		$('.strategy__option-btn').not('[data-toggle="modal"]').on('click', function (ev) {
 			$('.strategy__filter').addClass('is-open');
 		});
 		$('.strategy__filter-close').on('click', function (ev) {

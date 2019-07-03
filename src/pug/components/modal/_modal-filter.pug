@@ -1,0 +1,42 @@
+// MODAL sign in :: START
+
+-
+	let arrSelect = [
+		'Tags',
+		'Creator',
+		'Execution',
+		'Profit/Loss',
+		'Exchanges',
+		'InstrumentType',
+		'Archived/Live ',
+		'Status',
+		'Year'
+	];
+
+#deployedFilterModal.modal.modal--filter.fade(tabindex='-1', role='dialog', aria-labelledby='DeployedFilter', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#DeployedFilter.modal-title Filter by:
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					.modal-body-form
+						each val, idx in arrSelect
+							div
+								.form-group.mb-4
+									label(for='modalFilterSelect' + idx)= val
+									select(id='modalFilterSelect' + idx).form-control
+										option 1
+										option 2
+										option 3
+
+					button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Filter"
+
+
+// MODAL sign in :: END
