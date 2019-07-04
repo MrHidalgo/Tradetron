@@ -278,7 +278,7 @@
                         <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownUProfileAboutMore">
                           <div class="dropdown-menu-corner position-absolute"></div>
                           <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#" data-toggle="modal" data-target="#deployedPayoffChartModal">
-                              <div><span>Payoff Chart</span></div></a><a class="dropdown-item d-flex align-items-center" href="#" data-toggle="modal" data-target="#">
+                              <div><span>Payoff Chart</span></div></a><a class="dropdown-item d-flex align-items-center" href="#" data-toggle="modal" data-target="#deployedStrategyPayoffChartModal">
                               <div><span>Strategy Payoff Chart</span></div></a><a class="dropdown-item d-flex align-items-center" href="#" data-toggle="modal" data-target="#deployedCalcModal">
                               <div><span>Price Calculator</span></div></a></div>
                         </div>
@@ -916,6 +916,207 @@
                     </tr>
                     <tr>
                       <td><span class='nowrap'>Position 2</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <p class="modal-body-subtitle pt-3 pb-2">Option strategy payoff chart</p>
+            <div class="modal-body-chart"><img src="img/img-modal-chart.png" alt="" title=""></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--chart fade" id="deployedStrategyPayoffChartModal" tabindex="-1" role="dialog" aria-labelledby="DeployedStrategyPayoffChart" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="DeployedStrategyPayoffChart">Strategy Payoff Chart</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <p class="modal-body-name pb-2">Strategy Name: <span>Midbass</span></p>
+            <p class="modal-body-text pb-3">Change the following to see effect on payoff chart</p>
+            <div class="modal-body-table">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">Position</th>
+                      <th scope="col">Qty</th>
+                      <th scope="col">Rate</th>
+                      <th scope="col">IV</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span class='nowrap'>Position 1</span></td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>Position 2</span></td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                      <td>
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="">
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <button class="modal-body-submit mt-3 mb-4 d-flex align-items-center justify-content-center" type="submit">Calculate</button>
+            <div class="modal-body-input pb-3">
+              <div>
+                <div class="form-group mb-0">
+                  <label>Select graph:</label>
+                  <select class="form-control">
+                    <option>P&L</option>
+                    <option>P&L</option>
+                    <option>P&L</option>
+                  </select>
+                </div>
+              </div>
+              <div><a href="#" title="">Expand All</a><span>|</span><a href="#" title="">Collapse All</a></div>
+            </div>
+            <div class="modal-body-table">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col">14 May</th>
+                      <th scope="col">15 May</th>
+                      <th scope="col">16 May</th>
+                      <th scope="col">17 May</th>
+                      <th scope="col">18 May</th>
+                      <th scope="col">19 May</th>
+                      <th scope="col">20 May</th>
+                      <th scope="col">21 May</th>
+                      <th scope="col">22 May</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span class='nowrap'>10400 (-6%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (-5%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (-4%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (-3%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (-1%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (6%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (2%)</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td><span class='nowrap'>10400 (3%)</span></td>
                       <td></td>
                       <td></td>
                       <td></td>

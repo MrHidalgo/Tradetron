@@ -1,0 +1,121 @@
+// MODAL sign in :: START
+
+#deployedStrategyPayoffChartModal.modal.modal--chart.fade(tabindex='-1', role='dialog', aria-labelledby='DeployedStrategyPayoffChart', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#DeployedStrategyPayoffChart.modal-title Strategy Payoff Chart
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				p.modal-body-name.pb-2!= "Strategy Name: <span>Midbass</span>"
+				p.modal-body-text.pb-3!= "Change the following to see effect on payoff chart"
+
+				.modal-body-table
+
+					.table-responsive
+						table.table.table-bordered
+							thead
+								tr
+									th(scope='col') Position
+									th(scope='col') Qty
+									th(scope='col') Rate
+									th(scope='col') IV
+							tbody
+								tr
+									td!= "<span class='nowrap'>Position 1</span>"
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+								tr
+									td!= "<span class='nowrap'>Position 2</span>"
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+
+				button.modal-body-submit.mt-3.mb-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Calculate"
+
+				.modal-body-input.pb-3
+					div
+						.form-group.mb-0
+							label!= "Select graph:"
+							select.form-control
+								option P&L
+								option P&L
+								option P&L
+					div
+						a(href="#" class="" title="")!= "Expand All"
+						span |
+						a(href="#" class="" title="")!= "Collapse All"
+
+				.modal-body-table
+
+					.table-responsive
+						table.table.table-bordered
+							thead
+								tr
+									th(scope='col')
+									th(scope='col') 14 May
+									th(scope='col') 15 May
+									th(scope='col') 16 May
+									th(scope='col') 17 May
+									th(scope='col') 18 May
+									th(scope='col') 19 May
+									th(scope='col') 20 May
+									th(scope='col') 21 May
+									th(scope='col') 22 May
+							tbody
+								tr
+									td!= "<span class='nowrap'>10400 (-6%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (-5%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (-4%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (-3%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (-1%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (6%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (2%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+								tr
+									td!= "<span class='nowrap'>10400 (3%)</span>"
+									each v, i in [1,2,3,4,5,6,7,8,9]
+										td
+
+				p.modal-body-subtitle.pt-3.pb-2!= "Option strategy payoff chart"
+
+				.modal-body-chart
+					img(src="img/img-modal-chart.png" alt="" title="")
+
+// MODAL sign in :: END
