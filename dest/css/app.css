@@ -1043,6 +1043,19 @@ picture {
 }
 
 /* line 203, src/scss/_shared/_common.scss */
+.form-group input {
+  outline: none;
+  height: 45px;
+  padding: 0 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: solid 1px rgba(185, 185, 185, 0.3);
+  background-color: #ffffff;
+}
+
+/* line 213, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 45px;
@@ -1055,14 +1068,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 212, src/scss/_shared/_common.scss */
+/* line 222, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 221, src/scss/_shared/_common.scss */
+/* line 231, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1114,7 +1127,7 @@ picture {
   }
 }
 
-/* line 243, src/scss/_shared/_common.scss */
+/* line 253, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1122,7 +1135,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 247, src/scss/_shared/_common.scss */
+/* line 257, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -3043,23 +3056,145 @@ picture {
   color: #696eed;
 }
 
-/* line 393, src/scss/_components/_modal.scss */
-.modal--filter .modal__close, .modal--buy .modal__close {
+/* line 394, src/scss/_components/_modal.scss */
+.modal--filter .modal__close, .modal--calc .modal__close, .modal--buy .modal__close {
   top: 15px;
   right: 20px;
 }
 
-/* line 398, src/scss/_components/_modal.scss */
-.modal--filter .modal-title, .modal--buy .modal-title {
+/* line 399, src/scss/_components/_modal.scss */
+.modal--filter .modal-title, .modal--calc .modal-title, .modal--buy .modal-title {
   font-size: 20px;
 }
 
-/* line 406, src/scss/_components/_modal.scss */
+/* line 407, src/scss/_components/_modal.scss */
+.modal--calc .modal-dialog {
+  max-width: 790px;
+}
+
+/* line 412, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-text {
+  font-size: 18px;
+  color: #333333;
+}
+
+/* line 417, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 417, src/scss/_components/_modal.scss */
+  .modal--calc .modal-body-input {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 425, src/scss/_components/_modal.scss */
+  .modal--calc .modal-body-input > div {
+    width: 100%;
+  }
+}
+
+/* line 430, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input > div:last-of-type {
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 430, src/scss/_components/_modal.scss */
+  .modal--calc .modal-body-input > div:last-of-type {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+}
+
+/* line 439, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input .form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 439, src/scss/_components/_modal.scss */
+  .modal--calc .modal-body-input .form-group {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 446, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input .form-group label {
+  padding-right: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.1px;
+}
+
+/* line 453, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input .form-group p {
+  padding-left: 15px;
+  white-space: nowrap;
+}
+
+/* line 459, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-input a {
+  font-weight: 600;
+  font-size: 14px;
+  color: #6772E5;
+  letter-spacing: 0.27px;
+}
+
+/* line 471, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-table .table-bordered thead th {
+  border-bottom-width: 1px;
+}
+
+/* line 477, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-table table th,
+.modal--calc .modal-body-table table td {
+  vertical-align: middle;
+}
+
+/* line 482, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-table table th {
+  font-weight: bold;
+}
+
+/* line 486, src/scss/_components/_modal.scss */
+.modal--calc .modal-body-table table select,
+.modal--calc .modal-body-table table input {
+  height: 30px;
+  min-width: 120px;
+}
+
+/* line 499, src/scss/_components/_modal.scss */
 .modal--filter .modal-dialog {
   max-width: 960px;
 }
 
-/* line 411, src/scss/_components/_modal.scss */
+/* line 504, src/scss/_components/_modal.scss */
 .modal--filter .modal-body-form {
   overflow: hidden;
   display: -webkit-box;
@@ -3077,13 +3212,13 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 411, src/scss/_components/_modal.scss */
+  /* line 504, src/scss/_components/_modal.scss */
   .modal--filter .modal-body-form {
     margin-left: -15px;
   }
 }
 
-/* line 421, src/scss/_components/_modal.scss */
+/* line 514, src/scss/_components/_modal.scss */
 .modal--filter .modal-body-form > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
@@ -3092,7 +3227,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 421, src/scss/_components/_modal.scss */
+  /* line 514, src/scss/_components/_modal.scss */
   .modal--filter .modal-body-form > div {
     max-width: -webkit-calc(100% / 4);
     max-width: calc(100% / 4);
@@ -3100,7 +3235,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 421, src/scss/_components/_modal.scss */
+  /* line 514, src/scss/_components/_modal.scss */
   .modal--filter .modal-body-form > div {
     max-width: -webkit-calc(100% / 3);
     max-width: calc(100% / 3);
@@ -3108,7 +3243,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 421, src/scss/_components/_modal.scss */
+  /* line 514, src/scss/_components/_modal.scss */
   .modal--filter .modal-body-form > div {
     max-width: -webkit-calc(100% / 2);
     max-width: calc(100% / 2);
@@ -3116,13 +3251,13 @@ picture {
   }
 }
 
-/* line 443, src/scss/_components/_modal.scss */
+/* line 536, src/scss/_components/_modal.scss */
 .modal--buy .modal-dialog {
   max-width: 411px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 447, src/scss/_components/_modal.scss */
+  /* line 540, src/scss/_components/_modal.scss */
   .modal--buy .modal-body-cover {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3138,12 +3273,12 @@ picture {
   }
 }
 
-/* line 455, src/scss/_components/_modal.scss */
+/* line 548, src/scss/_components/_modal.scss */
 .modal--buy .modal__field {
   width: 100%;
 }
 
-/* line 458, src/scss/_components/_modal.scss */
+/* line 551, src/scss/_components/_modal.scss */
 .modal--buy .modal__field-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3161,7 +3296,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 458, src/scss/_components/_modal.scss */
+  /* line 551, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -3170,83 +3305,83 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 467, src/scss/_components/_modal.scss */
+  /* line 560, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--4 {
     width: 50%;
     padding-right: 10px;
   }
 }
 
-/* line 473, src/scss/_components/_modal.scss */
+/* line 566, src/scss/_components/_modal.scss */
 .modal--buy .modal__field-group--4 .modal__field {
   max-width: -webkit-calc((100% - 45px) / 4);
   max-width: calc((100% - 45px) / 4);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 473, src/scss/_components/_modal.scss */
+  /* line 566, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--4 .modal__field {
     max-width: 100%;
     margin-bottom: 10px;
   }
-  /* line 479, src/scss/_components/_modal.scss */
+  /* line 572, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--4 .modal__field:last-of-type {
     margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 485, src/scss/_components/_modal.scss */
+  /* line 578, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--3 {
     width: 50%;
     padding-left: 10px;
   }
 }
 
-/* line 491, src/scss/_components/_modal.scss */
+/* line 584, src/scss/_components/_modal.scss */
 .modal--buy .modal__field-group--3 .modal__field {
   max-width: -webkit-calc((100% - 45px) / 4);
   max-width: calc((100% - 45px) / 4);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 491, src/scss/_components/_modal.scss */
+  /* line 584, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--3 .modal__field {
     max-width: 100%;
     margin-bottom: 10px;
   }
-  /* line 497, src/scss/_components/_modal.scss */
+  /* line 590, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--3 .modal__field:last-of-type {
     margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 503, src/scss/_components/_modal.scss */
+  /* line 596, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--2 {
     width: 100%;
   }
 }
 
-/* line 508, src/scss/_components/_modal.scss */
+/* line 601, src/scss/_components/_modal.scss */
 .modal--buy .modal__field-group--2 .modal__field {
   max-width: -webkit-calc((100% - 15px) / 2);
   max-width: calc((100% - 15px) / 2);
 }
 
 @media screen and (max-width: 767px) {
-  /* line 508, src/scss/_components/_modal.scss */
+  /* line 601, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--2 .modal__field {
     max-width: 100%;
     margin-bottom: 10px;
   }
-  /* line 514, src/scss/_components/_modal.scss */
+  /* line 607, src/scss/_components/_modal.scss */
   .modal--buy .modal__field-group--2 .modal__field:last-of-type {
     margin-bottom: 0;
   }
 }
 
-/* line 522, src/scss/_components/_modal.scss */
+/* line 615, src/scss/_components/_modal.scss */
 .modal--buy .modal__field label {
   white-space: nowrap;
   font-size: 12px;
@@ -3254,7 +3389,7 @@ picture {
   letter-spacing: 0.08px;
 }
 
-/* line 529, src/scss/_components/_modal.scss */
+/* line 622, src/scss/_components/_modal.scss */
 .modal--buy .modal__field select,
 .modal--buy .modal__field input {
   outline: none;
@@ -3312,26 +3447,26 @@ picture {
   color: rgba(51, 51, 51, 0.65);
 }
 
-/* line 554, src/scss/_components/_modal.scss */
+/* line 647, src/scss/_components/_modal.scss */
 .modal--pricing .modal-dialog {
   max-width: 790px;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 554, src/scss/_components/_modal.scss */
+  /* line 647, src/scss/_components/_modal.scss */
   .modal--pricing .modal-dialog {
     max-width: 738px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 554, src/scss/_components/_modal.scss */
+  /* line 647, src/scss/_components/_modal.scss */
   .modal--pricing .modal-dialog {
     max-width: 500px;
   }
 }
 
-/* line 565, src/scss/_components/_modal.scss */
+/* line 658, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-cover {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3340,7 +3475,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 565, src/scss/_components/_modal.scss */
+  /* line 658, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-cover {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -3349,31 +3484,31 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 571, src/scss/_components/_modal.scss */
+  /* line 664, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-cover--ww {
     -webkit-flex-wrap: nowrap;
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
   }
-  /* line 575, src/scss/_components/_modal.scss */
+  /* line 668, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-cover--ww > .modal-body-col {
     width: 100%;
   }
 }
 
-/* line 582, src/scss/_components/_modal.scss */
+/* line 675, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-col {
   width: 50%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 582, src/scss/_components/_modal.scss */
+  /* line 675, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-col {
     width: 100%;
   }
 }
 
-/* line 589, src/scss/_components/_modal.scss */
+/* line 682, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-title {
   text-transform: uppercase;
   font-size: 18px;
@@ -3381,13 +3516,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 589, src/scss/_components/_modal.scss */
+  /* line 682, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-title {
     padding-bottom: 10px;
   }
 }
 
-/* line 598, src/scss/_components/_modal.scss */
+/* line 691, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-subtitle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3402,20 +3537,20 @@ picture {
   line-height: 1.33;
 }
 
-/* line 605, src/scss/_components/_modal.scss */
+/* line 698, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-subtitle span {
   font-size: 16px;
   font-weight: normal;
 }
 
-/* line 611, src/scss/_components/_modal.scss */
+/* line 704, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-heading {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.27px;
 }
 
-/* line 618, src/scss/_components/_modal.scss */
+/* line 711, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-inputGroup input {
   width: 100%;
   max-width: -webkit-calc(100% - 150px);
@@ -3426,14 +3561,14 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 618, src/scss/_components/_modal.scss */
+  /* line 711, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-inputGroup input {
     max-width: 100%;
     margin-bottom: 5px;
   }
 }
 
-/* line 629, src/scss/_components/_modal.scss */
+/* line 722, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-inputGroup button {
   outline: none;
   width: 120px;
@@ -3451,14 +3586,14 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 629, src/scss/_components/_modal.scss */
+  /* line 722, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-inputGroup button {
     width: 100%;
     height: 40px;
   }
 }
 
-/* line 645, src/scss/_components/_modal.scss */
+/* line 738, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-inputGroup button:hover, .modal--pricing .modal-body-inputGroup button:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -3469,7 +3604,7 @@ picture {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* line 655, src/scss/_components/_modal.scss */
+/* line 748, src/scss/_components/_modal.scss */
 .modal--pricing .modal-body-total {
   font-size: 16px;
   font-weight: bold;
@@ -3477,24 +3612,24 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 655, src/scss/_components/_modal.scss */
+  /* line 748, src/scss/_components/_modal.scss */
   .modal--pricing .modal-body-total {
     text-align: right;
   }
 }
 
-/* line 670, src/scss/_components/_modal.scss */
+/* line 763, src/scss/_components/_modal.scss */
 .modal--signin .modal__close, .modal--signup .modal__close {
   top: 15px;
   right: 20px;
 }
 
-/* line 675, src/scss/_components/_modal.scss */
+/* line 768, src/scss/_components/_modal.scss */
 .modal--signin .modal-dialog, .modal--signup .modal-dialog {
   max-width: 411px;
 }
 
-/* line 680, src/scss/_components/_modal.scss */
+/* line 773, src/scss/_components/_modal.scss */
 .modal--signin .modal-body-cover, .modal--signup .modal-body-cover {
   max-width: 240px;
   margin-left: auto;

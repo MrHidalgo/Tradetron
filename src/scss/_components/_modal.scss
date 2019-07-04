@@ -388,6 +388,7 @@
 	}
 
 	&--filter,
+	&--calc,
 	&--buy {
 		.modal {
 			&__close {
@@ -397,6 +398,98 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--calc {
+		.modal {
+			&-dialog {
+				max-width: 790px;
+			}
+
+			&-body {
+				&-text {
+					font-size: 18px;
+					color: #333333;
+				}
+
+				&-input {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					> div {
+						@include adaptive(767) {
+							width: 100%;
+						}
+
+						&:last-of-type {
+							padding-left: 15px;
+							@include adaptive(767) {
+								padding-left: 0;
+								padding-top: 15px;
+							}
+						}
+					}
+
+					.form-group {
+						display: flex;
+						align-items: center;
+						@include adaptive(767) {
+							flex-wrap: wrap;
+						}
+
+						label {
+							padding-right: 15px;
+							font-weight: 600;
+							font-size: 18px;
+							letter-spacing: 0.1px;
+						}
+
+						p {
+							padding-left: 15px;
+							white-space: nowrap;
+						}
+					}
+
+					a {
+						font-weight: 600;
+						font-size: 14px;
+						color: #6772E5;
+						letter-spacing: 0.27px;
+					}
+				}
+
+				&-table {
+
+					.table-bordered {
+						thead {
+							th {
+								border-bottom-width: 1px;
+							}
+						}
+					}
+					table {
+						th,
+						td {
+							vertical-align: middle;
+						}
+
+						th {
+							font-weight: bold;
+						}
+
+						select,
+						input {
+							height: 30px;
+							min-width: 120px;
+						}
+					}
+				}
 			}
 		}
 	}

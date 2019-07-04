@@ -200,6 +200,16 @@
 		color: #333333;
 	}
 
+	input {
+		outline: none;
+		height: 45px;
+		padding: 0 15px;
+		box-shadow: none;
+		border-radius: 6px;
+		border: solid 1px rgba(185, 185, 185, 0.3);
+		background-color: #ffffff;
+	}
+
 	select {
 		outline: none;
 		height: 45px;

@@ -1,0 +1,107 @@
+// MODAL sign in :: START
+
+#deployedCalcModal.modal.modal--calc.fade(tabindex='-1', role='dialog', aria-labelledby='DeployedCalc', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#DeployedCalc.modal-title Option Price Calculator
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					p.modal-body-text.pb-3!= "Change following inputs for Nifty (CMP 11300) to see effect on option price"
+
+					.modal-body-form
+						.modal-body-input.pb-3
+							div
+								.form-group.mb-0
+									label(for='priceCalcUnderlying') Underlying Price
+									input#priceCalcUnderlying(type='text', value='')
+									p!= "- / +"
+							div
+
+						.modal-body-input.pb-3
+							div
+								.form-group.mb-0
+									label(for='priceCalcChangeDays') Change Days to Expiry Result
+									input#priceCalcChangeDays(type='text', value='')
+									p!= "- / +"
+							div
+								a(href="#" class="" title="")!= "+ Add column"
+
+						.modal-body-table
+							.table-responsive
+								table.table.table-bordered
+									thead
+										tr
+											th(scope='col') Select Strike
+											th(scope='col')
+												.form-group.mb-0
+													select.form-control
+														option 10500 Call
+														option 10500 Call
+														option 10500 Call
+											th(scope='col') 10400 Put
+											th(scope='col') Total
+									tbody
+										tr
+											td Select Implied Volitality
+											td
+												.form-group.mb-0
+													input.form-control(type='text', placeholder='')
+											td
+												.form-group.mb-0
+													input.form-control(type='text', placeholder='')
+											td
+										tr
+											td Qty
+											td
+												.form-group.mb-0
+													input.form-control(type='text', placeholder='')
+											td
+												.form-group.mb-0
+													input.form-control(type='text', placeholder='')
+											td
+										tr
+											td Price
+											td
+											td
+											td
+										tr
+											td Time Value
+											td
+											td
+											td
+										tr
+											td Delta
+											td
+											td
+											td
+										tr
+											td Gamma
+											td
+											td
+											td
+										tr
+											td Theta
+											td
+											td
+											td
+										tr
+											td Vega
+											td
+											td
+											td
+										tr
+											th(scope="row") Total
+											td
+											td
+											td
+
+
+
+// MODAL sign in :: END

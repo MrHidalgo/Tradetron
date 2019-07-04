@@ -279,8 +279,8 @@
                           <div class="dropdown-menu-corner position-absolute"></div>
                           <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
                               <div><span>Action</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
-                              <div><span>Some action</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
-                              <div><span>More action</span></div></a></div>
+                              <div><span>Some action</span></div></a><a class="dropdown-item d-flex align-items-center" href="#" data-toggle="modal" data-target="#deployedCalcModal">
+                              <div><span>Price Calculator</span></div></a></div>
                         </div>
                       </div>
                     </div>
@@ -667,6 +667,138 @@
                 </div>
               </div>
               <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Filter</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL sign in :: END-->
+    <!-- MODAL sign in :: START-->
+    <div class="modal modal--calc fade" id="deployedCalcModal" tabindex="-1" role="dialog" aria-labelledby="DeployedCalc" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="DeployedCalc">Option Price Calculator</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <p class="modal-body-text pb-3">Change following inputs for Nifty (CMP 11300) to see effect on option price</p>
+              <div class="modal-body-form">
+                <div class="modal-body-input pb-3">
+                  <div>
+                    <div class="form-group mb-0">
+                      <label for="priceCalcUnderlying">Underlying Price</label>
+                      <input id="priceCalcUnderlying" type="text" value="">
+                      <p>- / +</p>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+                <div class="modal-body-input pb-3">
+                  <div>
+                    <div class="form-group mb-0">
+                      <label for="priceCalcChangeDays">Change Days to Expiry Result</label>
+                      <input id="priceCalcChangeDays" type="text" value="">
+                      <p>- / +</p>
+                    </div>
+                  </div>
+                  <div><a href="#" title="">+ Add column</a></div>
+                </div>
+                <div class="modal-body-table">
+                  <div class="table-responsive">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col">Select Strike</th>
+                          <th scope="col">
+                            <div class="form-group mb-0">
+                              <select class="form-control">
+                                <option>10500 Call</option>
+                                <option>10500 Call</option>
+                                <option>10500 Call</option>
+                              </select>
+                            </div>
+                          </th>
+                          <th scope="col">10400 Put</th>
+                          <th scope="col">Total</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Select Implied Volitality</td>
+                          <td>
+                            <div class="form-group mb-0">
+                              <input class="form-control" type="text" placeholder="">
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-group mb-0">
+                              <input class="form-control" type="text" placeholder="">
+                            </div>
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Qty</td>
+                          <td>
+                            <div class="form-group mb-0">
+                              <input class="form-control" type="text" placeholder="">
+                            </div>
+                          </td>
+                          <td>
+                            <div class="form-group mb-0">
+                              <input class="form-control" type="text" placeholder="">
+                            </div>
+                          </td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Price</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Time Value</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Delta</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Gamma</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Theta</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>Vega</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Total</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </form>
