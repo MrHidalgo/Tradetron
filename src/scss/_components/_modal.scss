@@ -388,6 +388,7 @@
 	}
 
 	&--filter,
+	&--chart,
 	&--calc,
 	&--buy {
 		.modal {
@@ -398,6 +399,134 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--chart {
+		.modal {
+			&-dialog {
+				max-width: 790px;
+			}
+
+			&-body {
+				&-name {
+					font-weight: 600;
+					font-size: 18px;
+
+					span {
+						color: #6772e5;
+					}
+				}
+
+				&-text {
+					font-size: 18px;
+				}
+
+				&-subtitle {
+					font-weight: 600;
+					font-size: 18px;
+				}
+
+				&-chart {
+					img {
+						display: block;
+						max-width: 100%;
+						height: auto;
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+
+				&-table {
+					.nowrap {
+						white-space: nowrap;
+					}
+
+					.table-bordered {
+						thead {
+							th {
+								border-bottom-width: 1px;
+							}
+						}
+					}
+					table {
+						th,
+						td {
+							vertical-align: middle;
+						}
+
+						th {
+							font-weight: bold;
+						}
+
+						select,
+						input {
+							height: 30px;
+							min-width: 120px;
+						}
+					}
+				}
+
+				&-input {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					> div {
+						@include adaptive(767) {
+							width: 100%;
+						}
+
+						&:last-of-type {
+							display: flex;
+							align-items: center;
+							padding-left: 15px;
+							@include adaptive(767) {
+								padding-left: 0;
+								padding-top: 15px;
+							}
+
+							span {
+								margin-left: 10px;
+								margin-right: 10px;
+							}
+						}
+					}
+
+					.form-group {
+						display: flex;
+						align-items: center;
+						@include adaptive(767) {
+							flex-wrap: wrap;
+						}
+
+						select {
+							min-width: 100px;
+						}
+
+						label {
+							white-space: nowrap;
+							padding-right: 15px;
+							font-weight: 600;
+							font-size: 18px;
+							letter-spacing: 0.1px;
+						}
+
+						p {
+							padding-left: 15px;
+							white-space: nowrap;
+						}
+					}
+
+					a {
+						font-size: 16px;
+						letter-spacing: 0.1px;
+					}
+				}
 			}
 		}
 	}

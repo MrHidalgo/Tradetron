@@ -1,0 +1,103 @@
+// MODAL sign in :: START
+
+#deployedPayoffChartModal.modal.modal--chart.fade(tabindex='-1', role='dialog', aria-labelledby='DeployedPayoffChart', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#DeployedPayoffChart.modal-title Strategy Payoff Chart
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				p.modal-body-name.pb-2!= "Strategy Name: <span>Midbass</span>"
+				p.modal-body-text.pb-3!= "Change the following to see effect on payoff chart"
+
+				.modal-body-table
+
+					.table-responsive
+						table.table.table-bordered
+							thead
+								tr
+									th(scope='col') Position
+									th(scope='col') Qty
+									th(scope='col') Rate
+									th(scope='col') IV
+							tbody
+								tr
+									td!= "<span class='nowrap'>Position 1</span>"
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+								tr
+									td!= "<span class='nowrap'>Position 2</span>"
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+									td
+										.form-group.mb-0
+											input.form-control(type='text', placeholder='')
+
+				button.modal-body-submit.mt-3.mb-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Calculate"
+
+				.modal-body-input.pb-3
+					div
+						.form-group.mb-0
+							label!= "Select graph:"
+							select.form-control
+								option P&L
+								option P&L
+								option P&L
+					div
+						a(href="#" class="" title="")!= "Expand All"
+						span |
+						a(href="#" class="" title="")!= "Collapse All"
+
+				.modal-body-table
+
+					.table-responsive
+						table.table.table-bordered
+							thead
+								tr
+									th.text-center(scope='col' colspan='10') Theoritical Values on Black Scholes Model
+								tr
+									th(scope='col') Position
+									th(scope='col') Qty
+									th(scope='col') Entry rate
+									th(scope='col') Price
+									th(scope='col') Delta
+									th(scope='col') Vega
+									th(scope='col') Theta
+									th(scope='col') Gamma
+									th(scope='col') Time Value
+									th(scope='col') P&L
+							tbody
+								each val, idx in [1,2]
+									tr
+										td!= "<span class='nowrap'>Position " + val + "</span>"
+										td
+										td
+										td
+										td
+										td
+										td
+										td
+										td
+										td
+
+				p.modal-body-subtitle.pt-3.pb-2!= "Option strategy payoff chart"
+
+				.modal-body-chart
+					img(src="img/img-modal-chart.png" alt="" title="")
+
+// MODAL sign in :: END

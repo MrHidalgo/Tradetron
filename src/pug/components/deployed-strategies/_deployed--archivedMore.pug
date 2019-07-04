@@ -12,12 +12,12 @@
 			.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileAboutMore')
 				.dropdown-menu-corner.position-absolute
 				.dropdown-menu-wrapper.d-flex.flex-column
-					a.dropdown-item.d-flex.align-items-center(href='#')
+					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#deployedPayoffChartModal")
 						div
-							span!= "Action"
-					a.dropdown-item.d-flex.align-items-center(href='#')
+							span!= "Payoff Chart"
+					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#")
 						div
-							span!= "Some action"
+							span!= "Strategy Payoff Chart"
 					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#deployedCalcModal")
 						div
 							span!= "Price Calculator"
