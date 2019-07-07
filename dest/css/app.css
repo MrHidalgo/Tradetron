@@ -9816,4 +9816,135 @@ picture {
   color: #6772e5;
 }
 
+/* line 4, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper {
+  z-index: 2;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+/* line 9, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper:last-of-type {
+  padding-bottom: 0;
+}
+
+/* line 14, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 18, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-1 .s-profile__wrapper-right > div {
+  margin-bottom: 30px;
+}
+
+/* line 21, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-1 .s-profile__wrapper-right > div:last-of-type {
+  margin-bottom: 0;
+}
+
+/* line 28, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 32, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-left {
+  width: 300px;
+  padding-right: 30px;
+}
+
+/* line 37, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 44, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__section {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+}
+
+/* line 49, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__section-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* line 79, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-star > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 86, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-star span {
+  font-size: 14px;
+}
+
+/* line 90, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-star .icon-font {
+  font-size: 26px;
+  color: #989898;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 95, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-star .icon-font.icon-star-fill {
+  color: #ff5980;
+}
+
+/* line 102, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-progress span {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+  position: relative;
+  background-color: rgba(216, 216, 216, 0.52);
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+  height: 5px;
+}
+
+/* line 112, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-progress span i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #6772E5;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
+/* line 122, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__rating-progress p {
+  width: 30px;
+  font-size: 14px;
+}
+
 /*# sourceMappingURL=maps/app.css.map */

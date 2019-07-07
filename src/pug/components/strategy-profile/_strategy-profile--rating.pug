@@ -1,0 +1,46 @@
+// SECTION strategy rating :: START
+
+.s-profile__section.s-profile__rating.p-3
+
+	p.s-profile__section-title.pb-3!= "Rating"
+
+	.s-profile__rating-star.d-flex.align-items-center.pb-4
+		div.d-flex.align-items-center
+			span.position-relative.pr-1
+				i.icon-font.icon-star-fill
+			span.position-relative.pr-1
+				i.icon-font.icon-star-fill
+			span.position-relative.pr-1
+				i.icon-font.icon-star-fill
+			span.position-relative.pr-1
+				i.icon-font.icon-star-fill
+			span.position-relative.pr-1
+				i.icon-font.icon-star
+
+		div.text-center
+			p!= "2 ratings"
+
+	.s-profile__rating-progress.d-flex.flex-column
+
+		div.pb-3.d-flex.align-items-center
+			span.d-flex
+				i(style="width:50%;")
+			p.text-center!= "1"
+		div.pb-3.d-flex.align-items-center
+			span.d-flex
+				i(style="width:50%;")
+			p.text-center!= "1"
+		div.pb-3.d-flex.align-items-center
+			span.d-flex
+				i
+			p.text-center!= "0"
+		div.pb-3.d-flex.align-items-center
+			span.d-flex
+				i
+			p.text-center!= "0"
+		div.d-flex.align-items-center
+			span.d-flex
+				i
+			p.text-center!= "0"
+
+// SECTION strategy rating :: END

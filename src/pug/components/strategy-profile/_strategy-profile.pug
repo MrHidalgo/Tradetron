@@ -1,0 +1,67 @@
+// SECTION strategy :: START
+
+section#s-profile.main.s-profile.position-relative
+
+	.main__bg.main__bg-0.position-absolute.w-100.h-100
+		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
+
+	.strategy__bg.position-absolute.w-100.h-100
+		img(src="img/img-do-bg.png" srcset="img/img-do-bg@2x.png 2x, img/img-do-bg@3x.png 3x" alt="" title="")
+
+	.main__wrapper
+
+			.container
+				.row
+					.col
+
+						.s-profile__wrapper.s-profile__wrapper-0
+
+							// strategy profile description
+							include _strategy-profile--description
+							// strategy profile description :: end
+
+						.s-profile__wrapper.s-profile__wrapper-1
+
+							.s-profile__wrapper-left
+
+								// strategy profile statistics
+								include _strategy-profile--statistics
+								// strategy profile statistics :: end
+
+							.s-profile__wrapper-right
+
+								// strategy profile followers
+								include _strategy-profile--followers
+								// strategy profile followers :: end
+
+								// strategy profile visited
+								include _strategy-profile--visited
+								// strategy profile visited :: end
+
+						.s-profile__wrapper.s-profile__wrapper-2
+
+							// strategy profile history
+							include _strategy-profile--history
+							// strategy profile history :: end
+
+						.s-profile__wrapper.s-profile__wrapper-3
+							.s-profile__wrapper-left
+
+								// strategy profile rating
+								include _strategy-profile--rating
+								// strategy profile rating :: end
+
+							.s-profile__wrapper-right
+
+								// strategy profile feedback
+								include _strategy-profile--feedback
+								// strategy profile feedback :: end
+
+	.main__bg.main__bg-1.position-absolute.w-100.h-100
+		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
+			.main__bg-col.main__bg-col-1.position-absolute
+			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end.position-absolute
+				img.main__bg-img.main__bg-img-3.img-fluid.d-block.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
+
+
+// SECTION strategy :: END

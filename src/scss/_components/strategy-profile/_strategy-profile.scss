@@ -1,0 +1,135 @@
+// SECTION strategy profile :: START
+
+.s-profile {
+	&__wrapper {
+		z-index: 2;
+		position: relative;
+		padding-bottom: 30px;
+
+		&:last-of-type {
+			padding-bottom: 0;
+		}
+
+		&-0 {}
+		&-1 {
+			display: flex;
+
+			.s-profile__wrapper-right {
+				> div {
+					margin-bottom: 30px;
+
+					&:last-of-type {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		&-2 {}
+		&-3 {
+			display: flex;
+		}
+
+		&-left {
+			width: 300px;
+			padding-right: 30px;
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+	}
+
+	&__section {
+		border-radius: 6px;
+		background-color: #ffffff;
+		box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
+
+		&-title {
+			font-weight: 600;
+			font-size: 20px;
+		}
+	}
+
+	// description
+	&__description {}
+	// description :: end
+
+	// statistics
+	&__statistics {}
+	// statistics :: end
+
+	// followers
+	&__followers {}
+	// followers :: end
+
+	// visited
+	&__visited {}
+	// visited :: end
+
+	// history
+	&__history {}
+	// history :: end
+
+	// rating
+	&__rating {
+		&-star {
+			> div {
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			span {
+				font-size: 14px;
+			}
+
+			.icon-font {
+				font-size: 26px;
+				color: #989898;
+				@include transition(opacity);
+
+				&.icon-star-fill {
+					color: #ff5980;
+				}
+			}
+		}
+
+		&-progress {
+			span {
+				overflow: hidden;
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+				position: relative;
+				background-color: rgba(#D8D8D8, 0.52);
+				border-radius: 8px;
+				height: 5px;
+
+				i {
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 5px;
+					background: #6772E5;
+					border-radius: 8px;
+				}
+			}
+
+			p {
+				width: 30px;
+				font-size: 14px;
+			}
+		}
+	}
+	// rating :: end
+
+	// feedback
+	&__feedback {}
+	// feedback :: end
+}
+
+// SECTION strategy profile :: END
