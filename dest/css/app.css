@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap;");
 /* line 14, src/scss/_utilities/_extend.scss */
-.u-profile__main-image img, .u-profile__tweets-box-image img, .s-profile__followers-block-img img {
+.u-profile__main-image img, .u-profile__tweets-box-image img, .s-profile__followers-block-img img, .s-profile__visited-block-img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -9948,24 +9948,81 @@ picture {
   text-align: center;
 }
 
+/* line 114, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block {
+  padding-right: 50px;
+}
+
+/* line 117, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* line 120, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-wrapper > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 5);
+  max-width: calc(100% / 5);
+}
+
+/* line 126, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 131, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-img {
+  overflow: hidden;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #eeeeee;
+}
+
+/* line 143, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-img .icon-font {
+  color: #cccccc;
+  font-size: 40px;
+}
+
+/* line 150, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-rating .icon-font {
+  font-size: 15px;
+  color: #989898;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 155, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited-block-rating .icon-font.icon-star-fill {
+  color: #ff5980;
+}
+
+/* line 168, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table thead th {
   border-width: 0;
 }
 
-/* line 125, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 173, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th,
 .s-profile__history table td {
   vertical-align: middle;
 }
 
-/* line 130, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 178, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th {
   font-weight: bold;
   letter-spacing: 0.27px;
 }
 
-/* line 142, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 190, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -9975,12 +10032,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 149, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 197, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star span {
   font-size: 14px;
 }
 
-/* line 153, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 201, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font {
   font-size: 26px;
   color: #989898;
@@ -9989,12 +10046,12 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 158, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 206, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 165, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 213, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -10010,7 +10067,7 @@ picture {
   height: 5px;
 }
 
-/* line 175, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 223, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span i {
   position: absolute;
   top: 0;
@@ -10021,7 +10078,7 @@ picture {
           border-radius: 8px;
 }
 
-/* line 185, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 233, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress p {
   width: 30px;
   font-size: 14px;

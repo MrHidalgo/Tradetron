@@ -110,7 +110,55 @@
 	// followers :: end
 
 	// visited
-	&__visited {}
+	&__visited {
+		&-block {
+			padding-right: 50px;
+
+			&-wrapper {
+				display: flex;
+
+				> div {
+					width: 100%;
+					max-width: calc(100% / 5);
+				}
+			}
+
+			p {
+				font-weight: bold;
+				font-size: 16px;
+			}
+
+			&-img {
+				overflow: hidden;
+				position: relative;
+				width: 90px;
+				height: 90px;
+				border-radius: 6px;
+				background-color: #eeeeee;
+
+				img {
+					@extend %imageResCoverAbs;
+				}
+
+				.icon-font {
+					color: #cccccc;
+					font-size: 40px;
+				}
+			}
+
+			&-rating {
+				.icon-font {
+					font-size: 15px;
+					color: #989898;
+					@include transition(opacity);
+
+					&.icon-star-fill {
+						color: #ff5980;
+					}
+				}
+			}
+		}
+	}
 	// visited :: end
 
 	// history
