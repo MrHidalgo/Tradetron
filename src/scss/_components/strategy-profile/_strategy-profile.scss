@@ -61,11 +61,52 @@
 	// description :: end
 
 	// statistics
-	&__statistics {}
+	&__statistics {
+		min-height: 100%;
+	}
 	// statistics :: end
 
 	// followers
-	&__followers {}
+	&__followers {
+		&-head {
+			a {
+				font-size: 18px;
+				text-align: center;
+			}
+		}
+
+		&-block {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			&-wrapper {
+				display: flex;
+
+				> div {
+					width: 100%;
+					max-width: calc(100% / 5);
+				}
+			}
+
+			&-img {
+				overflow: hidden;
+				position: relative;
+				width: 95px;
+				height: 95px;
+				border-radius: 50%;
+
+				img {
+					@extend %imageResCoverAbs;
+				}
+			}
+
+			p {
+				font-size: 15px;
+				text-align: center;
+			}
+		}
+	}
 	// followers :: end
 
 	// visited
