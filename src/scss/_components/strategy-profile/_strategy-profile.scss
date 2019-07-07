@@ -239,7 +239,94 @@
 	// rating :: end
 
 	// feedback
-	&__feedback {}
+	&__feedback {
+		.strategy__filter-rating {
+			.icon-font {
+				font-size: 26px;
+			}
+		}
+
+		&-form {
+			textarea {
+				resize: none;
+				outline: none;
+				position: relative;
+				width: 100%;
+				min-height: 80px;
+				background: #FFFFFF;
+				border: 1px solid rgba(185,185,185,0.30);
+				border-radius: 6px;
+				font-size: 14px;
+				letter-spacing: 0.09px;
+				@include inputPlaceholder {
+					font-size: 14px;
+					color: rgba(#333333, 0.54);
+					letter-spacing: 0.09px;
+				}
+			}
+
+			button {
+				max-width: 180px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			hr {
+				height: 1px;
+				border: none;
+				background-color: #eaeaea;
+			}
+		}
+
+		&-comment {
+			border-bottom: 1px solid #eaeaea;
+
+			&:last-of-type {
+				border: none;
+			}
+
+			> div {
+				&:nth-of-type(1) {
+					width: 60px;
+				}
+				&:nth-of-type(2) {
+					flex: 1;
+					min-width: 1px;
+					max-width: 100%;
+				}
+			}
+
+			&-img {
+				overflow: hidden;
+				position: relative;
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+
+				img {
+					@extend %imageResCoverAbs;
+				}
+			}
+
+			p {
+				font-weight: 500;
+				font-size: 16px;
+				letter-spacing: 0.5px;
+			}
+
+			i {
+				font-style: normal;
+				font-size: 14px;
+				letter-spacing: 0.44px;
+			}
+
+			span {
+				font-size: 15px;
+				color: rgba(#333333, 0.8);
+				letter-spacing: 0.47px;
+			}
+		}
+	}
 	// feedback :: end
 }
 

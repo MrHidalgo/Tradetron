@@ -2,4 +2,58 @@
 
 .s-profile__section.s-profile__feedback.p-3
 
+	.s-profile__feedback-head.pb-3
+		p.s-profile__section-title!= "Leave feedback"
+
+	.s-profile__feedback-body
+
+		.s-profile__feedback-form
+			div.pb-3
+				.strategy__filter-rating.d-flex.align-items-center
+					a.pr-1(href="#" class="" title="")
+						i.icon-font.icon-star
+						i.icon-font.icon-star-fill
+					a.pr-1(href="#" class="" title="")
+						i.icon-font.icon-star
+						i.icon-font.icon-star-fill
+					a.pr-1(href="#" class="" title="")
+						i.icon-font.icon-star
+						i.icon-font.icon-star-fill
+					a.pr-1(href="#" class="" title="")
+						i.icon-font.icon-star
+						i.icon-font.icon-star-fill
+					a(href="#" class="" title="")
+						i.icon-font.icon-star
+						i.icon-font.icon-star-fill
+			div.pb-3
+				textarea.p-2(name="" placeholder="Write your feedback...")
+
+			div.pb-5
+				button.c-btn.c-btn--bg(typew="submit")!= "Submit"
+
+			hr.mb-5
+
+		.s-profile__feedback-comment-wrapper.d-flex.flex-column.pb-4
+			.s-profile__feedback-comment.pb-4.mb-4.d-flex
+				div
+					.s-profile__feedback-comment-img
+						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+				div.d-flex.flex-column
+					div.pb-3.d-flex.align-items-center.justify-content-between
+						p!= "Ryan Payne"
+						i!= "3 days ago"
+					div
+						span!= "Lorem ipsum dolor sit amet, eros convallis neque, lorem arcu vel pede duis ante nulla. Rutrum mi praesent urna vitae platea non, aliquam suspendisse eros id turpis. Mauris rutrum viverra nunc. Consectetuer fringilla sed tellus et, diam semper aliquam mollis, posuere wisi eros. Payne"
+
+			.s-profile__feedback-comment.d-flex
+				div
+					.s-profile__feedback-comment-img
+						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+				div.d-flex.flex-column
+					div.pb-3.d-flex.align-items-center.justify-content-between
+						p!= "Ryan Payne"
+						i!= "3 days ago"
+					div
+						span!= "Lorem ipsum dolor sit amet, eros convallis neque, lorem arcu vel pede duis ante nulla. Rutrum mi praesent urna vitae platea non, aliquam suspendisse eros id turpis."
+
 // SECTION strategy profile feedback :: END
