@@ -176,7 +176,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,379 +187,384 @@
   text-transform: none;
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-comment:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-controls:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-copy:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-cvs:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-deadline:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-desktop:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-diagram:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-duplicate:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-envelope:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-envelope1:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
+/* line 263, src/scss/_generated/_spriteFont.scss */
 .icon-file-2:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-file-export:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-garbage:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-garbage:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-heart-fill:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-heart:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-heart-fill:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-heart:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-internet:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-key:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-internet:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-key:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-link:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-link:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-money:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-more:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-photo-camera:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-photo-camera:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
 }
 
-/* line 260, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
   content: "";
+}
+
+/* line 263, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -9894,13 +9899,44 @@ picture {
   min-height: 100%;
 }
 
-/* line 72, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 68, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-head .icon-file-export {
+  font-size: 24px;
+}
+
+/* line 74, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-block > div {
+  width: 100%;
+}
+
+/* line 77, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-block > div:nth-of-type(odd) {
+  max-width: 55%;
+  padding-right: 15px;
+}
+
+/* line 81, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-block > div:nth-of-type(even) {
+  max-width: 45%;
+}
+
+/* line 86, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-block span {
+  font-size: 13px;
+}
+
+/* line 90, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__statistics-block p {
+  font-weight: 600;
+}
+
+/* line 100, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-head a {
   font-size: 18px;
   text-align: center;
 }
 
-/* line 78, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 106, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9917,7 +9953,7 @@ picture {
           align-items: center;
 }
 
-/* line 83, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 111, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9925,14 +9961,14 @@ picture {
   display: flex;
 }
 
-/* line 86, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 114, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
   max-width: calc(100% / 5);
 }
 
-/* line 92, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 120, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-img {
   overflow: hidden;
   position: relative;
@@ -9942,18 +9978,18 @@ picture {
           border-radius: 50%;
 }
 
-/* line 104, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 132, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block p {
   font-size: 15px;
   text-align: center;
 }
 
-/* line 114, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 142, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block {
   padding-right: 50px;
 }
 
-/* line 117, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 145, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9961,20 +9997,20 @@ picture {
   display: flex;
 }
 
-/* line 120, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 148, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
   max-width: calc(100% / 5);
 }
 
-/* line 126, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 154, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block p {
   font-weight: bold;
   font-size: 16px;
 }
 
-/* line 131, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 159, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img {
   overflow: hidden;
   position: relative;
@@ -9985,13 +10021,13 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 143, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 171, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img .icon-font {
   color: #cccccc;
   font-size: 40px;
 }
 
-/* line 150, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 178, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font {
   font-size: 15px;
   color: #989898;
@@ -10000,29 +10036,29 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 155, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 183, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 168, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 196, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table thead th {
   border-width: 0;
 }
 
-/* line 173, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 201, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th,
 .s-profile__history table td {
   vertical-align: middle;
 }
 
-/* line 178, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 206, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th {
   font-weight: bold;
   letter-spacing: 0.27px;
 }
 
-/* line 190, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 218, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10032,12 +10068,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 197, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 225, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star span {
   font-size: 14px;
 }
 
-/* line 201, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 229, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font {
   font-size: 26px;
   color: #989898;
@@ -10046,12 +10082,12 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 206, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 234, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 213, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 241, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -10067,7 +10103,7 @@ picture {
   height: 5px;
 }
 
-/* line 223, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 251, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span i {
   position: absolute;
   top: 0;
@@ -10078,18 +10114,18 @@ picture {
           border-radius: 8px;
 }
 
-/* line 233, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 261, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress p {
   width: 30px;
   font-size: 14px;
 }
 
-/* line 244, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 272, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback .strategy__filter-rating .icon-font {
   font-size: 26px;
 }
 
-/* line 250, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 278, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form textarea {
   resize: none;
   outline: none;
@@ -10139,36 +10175,36 @@ picture {
   letter-spacing: 0.09px;
 }
 
-/* line 268, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 296, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form button {
   max-width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 274, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 302, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form hr {
   height: 1px;
   border: none;
   background-color: #eaeaea;
 }
 
-/* line 281, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 309, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 284, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 312, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment:last-of-type {
   border: none;
 }
 
-/* line 289, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 317, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(1) {
   width: 60px;
 }
 
-/* line 292, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 320, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10178,7 +10214,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 299, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 327, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment-img {
   overflow: hidden;
   position: relative;
@@ -10188,21 +10224,21 @@ picture {
           border-radius: 50%;
 }
 
-/* line 311, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 339, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment p {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
 
-/* line 317, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 345, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment i {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.44px;
 }
 
-/* line 323, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 351, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment span {
   font-size: 15px;
   color: rgba(51, 51, 51, 0.8);

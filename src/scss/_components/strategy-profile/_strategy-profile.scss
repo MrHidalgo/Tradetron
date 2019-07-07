@@ -63,6 +63,34 @@
 	// statistics
 	&__statistics {
 		min-height: 100%;
+
+		&-head {
+			.icon-file-export {
+				font-size: 24px;
+			}
+		}
+
+		&-block {
+			> div {
+				width: 100%;
+
+				&:nth-of-type(odd) {
+					max-width: 55%;
+					padding-right: 15px;
+				}
+				&:nth-of-type(even) {
+					max-width: 45%;
+				}
+			}
+
+			span {
+				font-size: 13px;
+			}
+
+			p {
+				font-weight: 600;
+			}
+		}
 	}
 	// statistics :: end
 

@@ -2,4 +2,52 @@
 
 .s-profile__section.s-profile__statistics.p-3
 
+	.s-profile__statistics-head.pb-3.d-flex.align-items-center.justify-content-between
+		div
+			p.s-profile__section-title!= "Statistics"
+		div
+		a(href="#" class="" title="")
+			i.icon-font.icon-file-export
+
+	.s-profile__statistics-body
+		div.pb-3
+			.form-group
+				select.form-control
+					option!= "Month"
+					option!= "Month"
+					option!= "Month"
+
+		div
+			.s-profile__statistics-block.d-flex.flex-wrap
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Avg Capital Used"
+					p!= "$723692"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "ROI"
+					p!= "20%"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Drawdown"
+					p!= "-34.23%"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Total Trades"
+					p!= "64"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Avg Holding Period"
+					p!= "21"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Winning Trades"
+					p!= "15"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Losing Trades"
+					p!= "8%"
+				div.pb-3.d-flex.flex-column.pb-4
+					span.pb-1!= "Win/Loss Ratio"
+					p!= "4.03"
+				div.pb-3.d-flex.flex-column
+					span.pb-1!= "Sharpe Ratio"
+					p!= "3.05"
+				div.pb-3.d-flex.flex-column
+					span.pb-1!= "Sortino Ratio"
+					p!= "2.32"
+
 // SECTION strategy statistics :: END
