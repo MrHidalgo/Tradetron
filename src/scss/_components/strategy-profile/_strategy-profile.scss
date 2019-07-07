@@ -1,9 +1,13 @@
 // SECTION strategy profile :: START
 
 .s-profile {
-	&__wrapper {
-		z-index: 2;
+
+	.main__wrapper {
+		z-index: 1;
 		position: relative;
+	}
+
+	&__wrapper {
 		padding-bottom: 30px;
 
 		&:last-of-type {
@@ -69,7 +73,25 @@
 	// visited :: end
 
 	// history
-	&__history {}
+	&__history {
+		table {
+			thead {
+				th {
+					border-width: 0;
+				}
+			}
+
+			th,
+			td {
+				vertical-align: middle;
+			}
+
+			th {
+				font-weight: bold;
+				letter-spacing: 0.27px;
+			}
+		}
+	}
 	// history :: end
 
 	// rating

@@ -9816,19 +9816,23 @@ picture {
   color: #6772e5;
 }
 
-/* line 4, src/scss/_components/strategy-profile/_strategy-profile.scss */
-.s-profile__wrapper {
-  z-index: 2;
+/* line 5, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile .main__wrapper {
+  z-index: 1;
   position: relative;
+}
+
+/* line 10, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__wrapper {
   padding-bottom: 30px;
 }
 
-/* line 9, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 13, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper:last-of-type {
   padding-bottom: 0;
 }
 
-/* line 14, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 18, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-1 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9836,17 +9840,17 @@ picture {
   display: flex;
 }
 
-/* line 18, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 22, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-1 .s-profile__wrapper-right > div {
   margin-bottom: 30px;
 }
 
-/* line 21, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 25, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-1 .s-profile__wrapper-right > div:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 28, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 32, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-3 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9854,13 +9858,13 @@ picture {
   display: flex;
 }
 
-/* line 32, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 36, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-left {
   width: 300px;
   padding-right: 30px;
 }
 
-/* line 37, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 41, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -9870,7 +9874,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 44, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 48, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__section {
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -9879,13 +9883,30 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 49, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 53, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__section-title {
   font-weight: 600;
   font-size: 20px;
 }
 
 /* line 79, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__history table thead th {
+  border-width: 0;
+}
+
+/* line 84, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__history table th,
+.s-profile__history table td {
+  vertical-align: middle;
+}
+
+/* line 89, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__history table th {
+  font-weight: bold;
+  letter-spacing: 0.27px;
+}
+
+/* line 101, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -9895,12 +9916,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 86, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 108, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star span {
   font-size: 14px;
 }
 
-/* line 90, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 112, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font {
   font-size: 26px;
   color: #989898;
@@ -9909,12 +9930,12 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 95, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 117, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 102, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 124, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -9930,7 +9951,7 @@ picture {
   height: 5px;
 }
 
-/* line 112, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 134, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span i {
   position: absolute;
   top: 0;
@@ -9941,7 +9962,7 @@ picture {
           border-radius: 8px;
 }
 
-/* line 122, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 144, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress p {
   width: 30px;
   font-size: 14px;

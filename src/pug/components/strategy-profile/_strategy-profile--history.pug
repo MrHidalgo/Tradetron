@@ -1,5 +1,48 @@
 // SECTION strategy history :: START
 
-.s-profile__section.s-profile__history.p-3
+.s-profile__section.s-profile__history.py-4.px-3
+
+	.s-profile__history-head.d-flex.align-items-center.justify-content-between.pb-3
+		div
+			p.s-profile__section-title!= "Trading History"
+		div
+		.dropdown.dropdown--more
+			button#dropdownSProfileHistoryMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+				i.icon-font.icon-more
+			.dropdown-menu.animate.slideIn(aria-labelledby='dropdownSProfileHistoryMore')
+				.dropdown-menu-corner.position-absolute
+				.dropdown-menu-wrapper.d-flex.flex-column
+					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#deployedPayoffChartModal")
+						div
+							span!= "Action"
+					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#deployedStrategyPayoffChartModal")
+						div
+							span!= "More action"
+					a.dropdown-item.d-flex.align-items-center(href='#' data-toggle="modal" data-target="#deployedCalcModal")
+						div
+							span!= "Action"
+
+	.s-profile__history-body
+
+		.table-responsive
+
+			table.table.mb-0
+				thead
+					tr
+						th(scope="col")!= "Instrument"
+						th(scope="col")!= "Entry Date"
+						th(scope="col")!= "Entry Price"
+						th(scope="col")!= "Exit Date"
+						th(scope="col")!= "Exit Price"
+						th(scope="col")!= "P&L"
+				tbody
+					each val, idx in [1,2,3]
+						tr
+							td!= "AAPL"
+							td!= "05 May 2019"
+							td!= "1.30191"
+							td!= "06 May 2019"
+							td!= "1.30123"
+							td!= "-0.0004"
 
 // SECTION strategy history :: END
