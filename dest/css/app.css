@@ -9009,11 +9009,27 @@ picture {
 /* line 97, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived .deatils p {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 0.23px;
 }
 
-/* line 105, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 104, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .red,
+.deployed__archived .green {
+  font-style: normal;
+}
+
+/* line 109, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .red {
+  color: #f05858;
+}
+
+/* line 113, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived .green {
+  color: #22c993;
+}
+
+/* line 118, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9030,7 +9046,7 @@ picture {
   border-bottom: 1px solid #EAEAEA;
 }
 
-/* line 111, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 124, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-head p {
   font-weight: 600;
   font-size: 20px;
@@ -9038,18 +9054,18 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 111, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 124, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__archived-head p {
     font-size: 18px;
   }
 }
 
-/* line 119, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 132, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-head p a {
   color: #6772e5;
 }
 
-/* line 125, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 138, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9060,7 +9076,7 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 142, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-info > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
@@ -9068,7 +9084,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 142, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__archived-info > div {
     max-width: -webkit-calc(100% / 2);
     max-width: calc(100% / 2);
@@ -9076,13 +9092,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 129, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 142, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__archived-info > div {
     max-width: 100%;
   }
 }
 
-/* line 139, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 152, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-info > div p {
   font-weight: bold;
   font-size: 20px;
@@ -9090,25 +9106,25 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 139, src/scss/_components/deployed-strategies/_deployed.scss */
+  /* line 152, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__archived-info > div p {
     font-size: 18px;
   }
 }
 
-/* line 147, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 160, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-info > div p span {
   font-weight: normal;
 }
 
-/* line 157, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 170, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody td {
   vertical-align: middle;
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 164, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 177, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody .total td {
   font-weight: 600;
 }

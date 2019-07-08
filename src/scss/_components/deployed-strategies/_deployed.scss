@@ -96,9 +96,22 @@
 
 			p {
 				font-weight: 500;
-				font-size: 12px;
+				font-size: 10px;
 				letter-spacing: 0.23px;
 			}
+		}
+
+		.red,
+		.green {
+			font-style: normal;
+		}
+
+		.red {
+			color: #f05858;
+		}
+
+		.green {
+			color: #22c993;
 		}
 
 
