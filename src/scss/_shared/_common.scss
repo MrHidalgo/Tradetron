@@ -227,6 +227,31 @@
 }
 // FORM :: end
 
+// TOOLTIP
+.tooltip {
+	&.show {
+		opacity: 1;
+	}
+
+	.arrow {
+		&:before {
+			border-top-color: #fff;
+		}
+	}
+
+	&-inner {
+		opacity: 1;
+		padding: 15px;
+		background-color: rgba(#fff, 0.95);
+		box-shadow: 0 10px 50px 0 rgba(0,0,0,0.20);
+		color: #333;
+		font-weight: 500;
+		font-size: 10px;
+		text-align: left;
+	}
+}
+// TOOLTIP :: end
+
 // animation
 .animate {
 	animation-duration: 1s;

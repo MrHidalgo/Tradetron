@@ -15,7 +15,7 @@ $bth-color: rgba(#fff, 1);
 $bth-font-size: 14px;
 $bth-font-weight: bold;
 
-$btn-color--border: rgba(#000, 1);
+$btn-color--border: rgba(#6772e5, 1);
 
 // ==================================================
 // ==================================================
@@ -42,6 +42,13 @@ $btn-color--border: rgba(#000, 1);
   &--border {
     background-color: transparent;
     color: $btn-color--border;
+		@include transition(background-color, color);
+
+		&:hover {
+			background-color: $bth-background-color;
+			color: #ffffff;
+			@include transition(background-color, color);
+		}
   }
 
   &--bg {

@@ -1,5 +1,92 @@
 // SECTION strategy description :: START
 
-.s-profile__section.s-profile__description.p-3
+.s-profile__section.s-profile__description.p-3.position-relative
+
+	.strategy__card-badge.d-flex.align-items-center.justify-content-center
+		a.position-relative(href="#" title="")
+			i.icon-font.icon-heart
+			i.icon-font.icon-heart-fill
+
+	.s-profile__description-head
+		div
+
+			.s-profile__description-profile.d-flex
+				div
+					.s-profile__description-profile-img
+						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+				div
+					p.s-profile__description-profile-created.pb-2!= "created : 08 Apr 2019   |   Last Traded : 03 May 2019"
+					p.s-profile__description-profile-name.pb-2!= "Midbass <span>(20 subscribers)</span>"
+
+					.s-profile__description-profile-by.d-flex.align-items-center.pb-3
+						div
+							p!= "by: <a href='#'>Neutrino Advisory Services LLP</a>"
+						div.pl-2.d-flex.align-items-center
+							a.d-flex.align-items-center.justify-content-center.mr-1(href="#" class="" title="")
+								i.icon-font.icon-comment
+							a.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+								i.icon-font.icon-envelope1
+
+					.s-profile__description-profile-tags.d-flex.align-items-center.flex-wrap.pb-3
+						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
+						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Theta Positive"
+						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Low Gamma"
+						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
+						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
+
+		div
+			.s-profile__description-rating.d-flex.flex-column.pb-4
+				div
+					div.d-flex.align-items-center
+						span.position-relative.pr-1
+							i.icon-font.icon-star-fill
+						span.position-relative.pr-1
+							i.icon-font.icon-star-fill
+						span.position-relative.pr-1
+							i.icon-font.icon-star-fill
+						span.position-relative.pr-1
+							i.icon-font.icon-star-fill
+						span.position-relative
+							i.icon-font.icon-star
+				div
+					span!= "2 ratings"
+
+			.s-profile__description-btn.d-flex.flex-column.pb-3
+				a.c-btn.c-btn--bg.mb-2(href="#" class="" title="")!= "Subscribe"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Duplicate"
+
+			.s-profile__description-option.d-flex.align-items-center.pb-2
+				div
+					a.d-flex.align-items-center(href="#" class="" title="")
+						i.icon-font.icon-warning
+						span!= "Report"
+				div
+					a.d-flex.align-items-center(href="#" class="" title="")
+						i.icon-font.icon-share-1
+						span!= "Share"
+
+	.s-profile__description-body
+
+		div.pb-5
+			p.s-profile__section-title.pb-2!= "Strategy description"
+			p.s-profile__description-text.pb-1!= "The classic value investor buys undervalued stocks and waits until they appreciate in value. It usually takes between 3 and 5 years for an average trade. I apply value investing to growths stocks. This is what allows me to make much more frequent trades and to possibly increase my returns. Growths stocks are much more volatile. This is what gives me an opportunity to make 2 to 6 trades a year, harvesting a target of 10 to 15% profits for each trade and an annual return of 20 to 50%."
+			p.s-profile__description-text!= "It took me 10 years of investing/trading to develop and test this strategy. My background in technology and lifetime hobby of being an investor allows me to find undervalued tech companies with strong growth prospects and wide moats mostly. Most analysts can't understand the business behind such companies, i.e. what makes them often undervalued and fluctuate under fundamental values. But the prices almost always quickly return back as businesses report strong growth or bring a portion of good news."
+
+	.s-profile__description-footer.pb-3.d-flex
+		div.d-flex.flex-column
+			span.pb-1!= "Exchanges"
+			p!= "NSE | NYSE"
+		div.d-flex.flex-column
+			span.pb-1!= "Capital Required"
+			p!= "Rs.50000"
+		div.d-flex.flex-column
+			span.pb-1!= "Min. Multiple"
+			p!= "100 %"
+		div.d-flex.flex-column
+			span.pb-1!= "Free for"
+			p!= "7 days"
+		div.d-flex.flex-column
+			span.pb-1.d-flex.flex-wrap.align-items-center!= "Fees per month <i data-toggle='tooltip' data-placement='top' title='Settled quarterly with hurdle rate of RS.1000 on a high watermark basis'>i</i>"
+			p!= "Rs.5000 + 15% on profits"
 
 // SECTION strategy description :: END

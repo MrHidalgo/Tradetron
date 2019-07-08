@@ -497,6 +497,10 @@ $(document).ready(function (ev) {
 			$(ev.currentTarget).addClass('is-choose');
 		});
 	};
+
+	var initTooltip = function initTooltip() {
+		$('[data-toggle="tooltip"]').tooltip();
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -517,7 +521,6 @@ $(document).ready(function (ev) {
 		// ==========================================
 
 		// callback
-		// ==========================================
 		initCollapseButton();
 		initFeaturesDisposalCard();
 		initModalTabs();
@@ -525,6 +528,8 @@ $(document).ready(function (ev) {
 		initStrategyCardBadge();
 		initStrategyFilterToggle();
 		initStrategyFilterRating();
+		initTooltip();
+		// ==========================================
 	};
 	initJquery();
 });

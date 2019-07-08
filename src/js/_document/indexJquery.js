@@ -102,6 +102,11 @@ $(document).ready((ev) => {
 			$(ev.currentTarget).addClass('is-choose');
 		});
 	};
+
+
+	const initTooltip = () => {
+		$('[data-toggle="tooltip"]').tooltip();
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -124,7 +129,6 @@ $(document).ready((ev) => {
 		// ==========================================
 
     // callback
-		// ==========================================
 		initCollapseButton();
 		initFeaturesDisposalCard();
 		initModalTabs();
@@ -132,6 +136,8 @@ $(document).ready((ev) => {
 		initStrategyCardBadge();
 		initStrategyFilterToggle();
 		initStrategyFilterRating();
+		initTooltip();
+		// ==========================================
   };
   initJquery();
 });

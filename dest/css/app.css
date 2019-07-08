@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap;");
 /* line 14, src/scss/_utilities/_extend.scss */
-.u-profile__main-image img, .u-profile__tweets-box-image img, .s-profile__followers-block-img img, .s-profile__visited-block-img img, .s-profile__feedback-comment-img img {
+.u-profile__main-image img, .u-profile__tweets-box-image img, .s-profile__description-profile-img img, .s-profile__followers-block-img img, .s-profile__visited-block-img img, .s-profile__feedback-comment-img img {
   position: absolute;
   top: 0;
   left: 0;
@@ -176,7 +176,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share-1:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-warning:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,384 +187,394 @@
   text-transform: none;
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-comment:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-controls:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-copy:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-cvs:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-deadline:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-desktop:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-diagram:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-duplicate:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-envelope:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-envelope1:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-file-2:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-file-export:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-file:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-filter:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-garbage:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-google-plus:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-graphene:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-hand:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-heart-fill:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-heart:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-id-card:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-idea:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-information:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-innovation:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-internet:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-key:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-layers:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-line-chart:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-link:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-linkedin:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-maze:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-money:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-more:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-photo-camera:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-photos:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-plus:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-puzzle:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-safebox:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-search:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
+/* line 269, src/scss/_generated/_spriteFont.scss */
 .icon-settings:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-share-1:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
 }
 
-/* line 263, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
   content: "";
+}
+
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-warning:before {
+  content: "";
+}
+
+/* line 269, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -1075,7 +1085,30 @@ picture {
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 231, src/scss/_shared/_common.scss */
+/* line 232, src/scss/_shared/_common.scss */
+.tooltip.show {
+  opacity: 1;
+}
+
+/* line 237, src/scss/_shared/_common.scss */
+.tooltip .arrow:before {
+  border-top-color: #fff;
+}
+
+/* line 242, src/scss/_shared/_common.scss */
+.tooltip-inner {
+  opacity: 1;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
+  color: #333;
+  font-weight: 500;
+  font-size: 10px;
+  text-align: left;
+}
+
+/* line 256, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1127,7 +1160,7 @@ picture {
   }
 }
 
-/* line 253, src/scss/_shared/_common.scss */
+/* line 278, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1135,7 +1168,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 257, src/scss/_shared/_common.scss */
+/* line 282, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -1657,10 +1690,22 @@ picture {
 /* line 42, src/scss/_macros/_btn.scss */
 .c-btn--border {
   background-color: transparent;
-  color: black;
+  color: #6772e5;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 /* line 47, src/scss/_macros/_btn.scss */
+.c-btn--border:hover {
+  background-color: #6772e5;
+  color: #ffffff;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 54, src/scss/_macros/_btn.scss */
 .c-btn--bg {
   background-color: #6772e5;
   -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
@@ -1668,7 +1713,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-/* line 51, src/scss/_macros/_btn.scss */
+/* line 58, src/scss/_macros/_btn.scss */
 .c-btn--bg:hover {
   color: #6772e5;
   background-color: transparent;
@@ -1677,7 +1722,7 @@ picture {
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 57, src/scss/_macros/_btn.scss */
+/* line 64, src/scss/_macros/_btn.scss */
 .c-btn--bg:focus {
   background-color: #6772e5;
   color: white;
@@ -8520,7 +8565,7 @@ picture {
   font-weight: normal;
 }
 
-/* line 454, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 453, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating span .icon-font {
   font-size: 15px;
   color: #989898;
@@ -8529,36 +8574,36 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 459, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 458, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating span .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 465, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 464, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-rating p {
   text-align: center;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 465, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 464, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-rating p {
     position: relative;
     top: 1px;
   }
 }
 
-/* line 474, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 473, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 478, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 477, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-by a {
   color: #6772e5;
 }
 
-/* line 484, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 483, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-tags a {
   height: 25px;
   -webkit-border-radius: 12.5px;
@@ -8570,13 +8615,13 @@ picture {
   color: #6772e5;
 }
 
-/* line 495, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 494, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-header {
   min-height: 60px;
   padding-right: 80px;
 }
 
-/* line 502, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 501, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8586,18 +8631,18 @@ picture {
   max-width: 100%;
 }
 
-/* line 508, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 507, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-body > div:nth-of-type(2) {
   width: 177px;
 }
 
-/* line 515, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 514, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div {
   min-height: 60px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 515, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 514, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div {
     width: 100%;
     max-width: 50%;
@@ -8608,7 +8653,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 515, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 514, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div {
     -webkit-box-pack: start !important;
     -webkit-justify-content: flex-start !important;
@@ -8619,17 +8664,17 @@ picture {
   }
 }
 
-/* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 529, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(1) {
   border-right: 1px solid #d8d8d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 529, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(1) {
     position: relative;
   }
-  /* line 535, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 534, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(1):after {
     content: '';
     position: absolute;
@@ -8642,24 +8687,24 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 530, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 529, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(1) {
     padding-left: 0 !important;
   }
 }
 
-/* line 549, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 548, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(2) {
   border-right: 1px solid #d8d8d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 549, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 548, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(2) {
     position: relative;
     border-right: none;
   }
-  /* line 555, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 554, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(2):after {
     content: '';
     position: absolute;
@@ -8672,25 +8717,25 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 549, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 548, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(2) {
     padding-left: 1rem !important;
   }
 }
 
-/* line 569, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 568, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(3) {
   border-right: 1px solid #d8d8d8;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 569, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 568, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(3) {
     padding-left: 0 !important;
   }
 }
 
-/* line 575, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 574, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer > div:nth-of-type(4) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -8701,26 +8746,26 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 575, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 574, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer > div:nth-of-type(4) {
     padding-left: 1rem !important;
   }
 }
 
-/* line 585, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 584, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer span {
   font-size: 16px;
   line-height: 1.5;
 }
 
 @media screen and (max-width: 575px) {
-  /* line 585, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 584, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer span {
     font-size: 14px;
   }
 }
 
-/* line 593, src/scss/_components/strategy-marketplace/_strategy.scss */
+/* line 592, src/scss/_components/strategy-marketplace/_strategy.scss */
 .strategy__card-footer p {
   white-space: nowrap;
   font-size: 25px;
@@ -8729,7 +8774,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 593, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 592, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer p {
     white-space: normal;
     font-size: 23px;
@@ -8737,7 +8782,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 593, src/scss/_components/strategy-marketplace/_strategy.scss */
+  /* line 592, src/scss/_components/strategy-marketplace/_strategy.scss */
   .strategy__card-footer p {
     font-size: 20px;
   }
@@ -9894,49 +9939,289 @@ picture {
   font-size: 20px;
 }
 
-/* line 64, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 61, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 65, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-head > div:nth-of-type(1) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 71, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-head > div:nth-of-type(2) {
+  width: 180px;
+}
+
+/* line 78, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-rating .icon-font {
+  font-size: 15px;
+  color: #989898;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 83, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-rating .icon-font.icon-star-fill {
+  color: #ff5980;
+}
+
+/* line 91, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile > div:nth-of-type(1) {
+  width: 105px;
+}
+
+/* line 94, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile > div:nth-of-type(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 101, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-img {
+  overflow: hidden;
+  position: relative;
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #eeeeee;
+}
+
+/* line 113, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-img .icon-font {
+  color: #cccccc;
+  font-size: 40px;
+}
+
+/* line 119, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-created {
+  font-size: 10px;
+}
+
+/* line 123, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-name {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* line 127, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-name span {
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 135, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-by p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* line 139, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-by p > a {
+  color: #6772e5;
+}
+
+/* line 145, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-by > div > a {
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-image: -webkit-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: -o-linear-gradient(315deg, #FF5980 0%, #FFA882 100%);
+  background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
+}
+
+/* line 151, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-by > div > a .icon-font {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* line 155, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-by > div > a .icon-font.icon-envelope1 {
+  font-size: 10px;
+}
+
+/* line 164, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-profile-tags a {
+  height: 25px;
+  -webkit-border-radius: 12.5px;
+          border-radius: 12.5px;
+  background-color: rgba(179, 197, 220, 0.3);
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #6772e5;
+}
+
+/* line 177, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option > div {
+  position: relative;
+  width: 100%;
+  max-width: 50%;
+}
+
+/* line 183, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option > div:first-of-type:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #b3c5dc;
+}
+
+/* line 194, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option > div:last-of-type {
+  padding-left: 10px;
+}
+
+/* line 199, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option i,
+.s-profile__description-option span {
+  color: #B3C5DC;
+}
+
+/* line 204, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option i {
+  font-size: 21px;
+}
+
+/* line 208, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-option span {
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+/* line 215, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer > div {
+  position: relative;
+  width: 100%;
+  max-width: -webkit-calc(100% / 5);
+  max-width: calc(100% / 5);
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+/* line 222, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer > div:first-of-type {
+  padding-left: 0;
+}
+
+/* line 227, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer > div:last-of-type:after {
+  display: none;
+}
+
+/* line 232, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer > div:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 90%;
+  background-color: #EAEAEA;
+}
+
+/* line 243, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer span {
+  font-size: 16px;
+}
+
+/* line 246, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer span i {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #b3c5dc;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* line 262, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__description-footer p {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+/* line 271, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics {
   min-height: 100%;
 }
 
-/* line 68, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 275, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-head .icon-file-export {
   font-size: 24px;
 }
 
-/* line 74, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 281, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div {
   width: 100%;
 }
 
-/* line 77, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 284, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div:nth-of-type(odd) {
   max-width: 55%;
   padding-right: 15px;
 }
 
-/* line 81, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 288, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div:nth-of-type(even) {
   max-width: 45%;
 }
 
-/* line 86, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 293, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block span {
   font-size: 13px;
 }
 
-/* line 90, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 297, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block p {
   font-weight: 600;
 }
 
-/* line 100, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 307, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-head a {
   font-size: 18px;
   text-align: center;
 }
 
-/* line 106, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 313, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9953,7 +10238,7 @@ picture {
           align-items: center;
 }
 
-/* line 111, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 318, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9961,14 +10246,14 @@ picture {
   display: flex;
 }
 
-/* line 114, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 321, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
   max-width: calc(100% / 5);
 }
 
-/* line 120, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 327, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-img {
   overflow: hidden;
   position: relative;
@@ -9978,18 +10263,18 @@ picture {
           border-radius: 50%;
 }
 
-/* line 132, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 339, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block p {
   font-size: 15px;
   text-align: center;
 }
 
-/* line 142, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 349, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block {
   padding-right: 50px;
 }
 
-/* line 145, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 352, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9997,20 +10282,20 @@ picture {
   display: flex;
 }
 
-/* line 148, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 355, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-wrapper > div {
   width: 100%;
   max-width: -webkit-calc(100% / 5);
   max-width: calc(100% / 5);
 }
 
-/* line 154, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 361, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block p {
   font-weight: bold;
   font-size: 16px;
 }
 
-/* line 159, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 366, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img {
   overflow: hidden;
   position: relative;
@@ -10021,13 +10306,13 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 171, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 378, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img .icon-font {
   color: #cccccc;
   font-size: 40px;
 }
 
-/* line 178, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 385, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font {
   font-size: 15px;
   color: #989898;
@@ -10036,29 +10321,29 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 183, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 390, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 196, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 403, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table thead th {
   border-width: 0;
 }
 
-/* line 201, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 408, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th,
 .s-profile__history table td {
   vertical-align: middle;
 }
 
-/* line 206, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 413, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th {
   font-weight: bold;
   letter-spacing: 0.27px;
 }
 
-/* line 218, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 425, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10068,12 +10353,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 225, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 432, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star span {
   font-size: 14px;
 }
 
-/* line 229, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 436, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font {
   font-size: 26px;
   color: #989898;
@@ -10082,12 +10367,12 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 234, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 441, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 241, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 448, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -10103,7 +10388,7 @@ picture {
   height: 5px;
 }
 
-/* line 251, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 458, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span i {
   position: absolute;
   top: 0;
@@ -10114,18 +10399,18 @@ picture {
           border-radius: 8px;
 }
 
-/* line 261, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 468, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress p {
   width: 30px;
   font-size: 14px;
 }
 
-/* line 272, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 479, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback .strategy__filter-rating .icon-font {
   font-size: 26px;
 }
 
-/* line 278, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 485, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form textarea {
   resize: none;
   outline: none;
@@ -10175,36 +10460,36 @@ picture {
   letter-spacing: 0.09px;
 }
 
-/* line 296, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 503, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form button {
   max-width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 302, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 509, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form hr {
   height: 1px;
   border: none;
   background-color: #eaeaea;
 }
 
-/* line 309, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 516, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 312, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 519, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment:last-of-type {
   border: none;
 }
 
-/* line 317, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 524, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(1) {
   width: 60px;
 }
 
-/* line 320, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 527, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10214,7 +10499,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 327, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 534, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment-img {
   overflow: hidden;
   position: relative;
@@ -10224,21 +10509,21 @@ picture {
           border-radius: 50%;
 }
 
-/* line 339, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 546, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment p {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
 
-/* line 345, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 552, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment i {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.44px;
 }
 
-/* line 351, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 558, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment span {
   font-size: 15px;
   color: rgba(51, 51, 51, 0.8);

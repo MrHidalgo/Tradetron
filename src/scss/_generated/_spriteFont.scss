@@ -207,53 +207,59 @@
 	@if $filename == settings {
 		$char: "\E03C";
 	}
-	@if $filename == share {
+	@if $filename == share-1 {
 		$char: "\E03D";
 	}
-	@if $filename == shield {
+	@if $filename == share {
 		$char: "\E03E";
 	}
-	@if $filename == signin {
+	@if $filename == shield {
 		$char: "\E03F";
 	}
-	@if $filename == smartphone {
+	@if $filename == signin {
 		$char: "\E040";
 	}
-	@if $filename == star-fill {
+	@if $filename == smartphone {
 		$char: "\E041";
 	}
-	@if $filename == star {
+	@if $filename == star-fill {
 		$char: "\E042";
 	}
-	@if $filename == stop {
+	@if $filename == star {
 		$char: "\E043";
 	}
-	@if $filename == stopwatch {
+	@if $filename == stop {
 		$char: "\E044";
 	}
-	@if $filename == success {
+	@if $filename == stopwatch {
 		$char: "\E045";
 	}
-	@if $filename == twitter {
+	@if $filename == success {
 		$char: "\E046";
 	}
-	@if $filename == upload {
+	@if $filename == twitter {
 		$char: "\E047";
 	}
-	@if $filename == user-profile {
+	@if $filename == upload {
 		$char: "\E048";
 	}
-	@if $filename == user {
+	@if $filename == user-profile {
 		$char: "\E049";
 	}
-	@if $filename == users {
+	@if $filename == user {
 		$char: "\E04A";
 	}
-	@if $filename == wallet {
+	@if $filename == users {
 		$char: "\E04B";
 	}
-	@if $filename == workflow {
+	@if $filename == wallet {
 		$char: "\E04C";
+	}
+	@if $filename == warning {
+		$char: "\E04D";
+	}
+	@if $filename == workflow {
+		$char: "\E04E";
 	}
 
 	@return $char;
@@ -510,6 +516,10 @@
 	@include icon(settings);
 
 }
+.icon-share-1 {
+	@include icon(share-1);
+
+}
 .icon-share {
 	@include icon(share);
 
@@ -568,6 +578,10 @@
 }
 .icon-wallet {
 	@include icon(wallet);
+
+}
+.icon-warning {
+	@include icon(warning);
 
 }
 .icon-workflow {
