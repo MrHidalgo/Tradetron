@@ -7,63 +7,73 @@
 			i.icon-font.icon-heart
 			i.icon-font.icon-heart-fill
 
+	p.s-profile__description-profile-created.d-block.d-md-none.pr-5.pr-md-0!= "created : 08 Apr 2019   |   Last Traded : 03 May 2019"
+
 	.s-profile__description-head
 		div
 
 			.s-profile__description-profile.d-flex
 				div
-					.s-profile__description-profile-img
+					.s-profile__description-profile-img.d-none.d-md-flex
 						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
 				div
-					p.s-profile__description-profile-created.pb-2!= "created : 08 Apr 2019   |   Last Traded : 03 May 2019"
-					p.s-profile__description-profile-name.pb-2!= "Midbass <span>(20 subscribers)</span>"
-
-					.s-profile__description-profile-by.d-flex.align-items-center.pb-3
+					div.d-flex.d-md-block
 						div
-							p!= "by: <a href='#'>Neutrino Advisory Services LLP</a>"
-						div.pl-2.d-flex.align-items-center
-							a.d-flex.align-items-center.justify-content-center.mr-1(href="#" class="" title="")
-								i.icon-font.icon-comment
-							a.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
-								i.icon-font.icon-envelope1
+							.s-profile__description-profile-img.d-flex.d-md-none
+								img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						div.pl-3.pl-md-0
+							p.s-profile__description-profile-created.pb-2.d-none.d-md-block!= "created : 08 Apr 2019   |   Last Traded : 03 May 2019"
+							p.s-profile__description-profile-name.pb-2!= "Midbass <span>(20 subscribers)</span>"
 
-					.s-profile__description-profile-tags.d-flex.align-items-center.flex-wrap.pb-3
-						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
-						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Theta Positive"
-						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Low Gamma"
-						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
-						a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
+							.s-profile__description-profile-by.d-flex.align-items-center.pb-3
+								div
+									p!= "by: <a href='#'>Neutrino Advisory Services LLP</a>"
+								div.pl-2.d-flex.align-items-center
+									a.d-flex.align-items-center.justify-content-center.mr-1(href="#" class="" title="")
+										i.icon-font.icon-comment
+									a.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+										i.icon-font.icon-envelope1
+
+					div
+
+						.s-profile__description-profile-tags.d-flex.align-items-center.flex-wrap.pb-3
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Theta Positive"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Low Gamma"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
 
 		div
-			.s-profile__description-rating.d-flex.flex-column.pb-4
-				div
-					div.d-flex.align-items-center
-						span.position-relative.pr-1
-							i.icon-font.icon-star-fill
-						span.position-relative.pr-1
-							i.icon-font.icon-star-fill
-						span.position-relative.pr-1
-							i.icon-font.icon-star-fill
-						span.position-relative.pr-1
-							i.icon-font.icon-star-fill
-						span.position-relative
-							i.icon-font.icon-star
-				div
-					span!= "2 ratings"
+			div
+				.s-profile__description-rating.d-flex.flex-column.pb-4
+					div
+						div.d-flex.align-items-center
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative
+								i.icon-font.icon-star
+					div
+						span!= "2 ratings"
+			div
+				.s-profile__description-btn.d-flex.flex-column.pb-3
+					a.c-btn.c-btn--bg.mb-2(href="#" class="" title="")!= "Subscribe"
+					a.c-btn.c-btn--border(href="#" class="" title="")!= "Duplicate"
 
-			.s-profile__description-btn.d-flex.flex-column.pb-3
-				a.c-btn.c-btn--bg.mb-2(href="#" class="" title="")!= "Subscribe"
-				a.c-btn.c-btn--border(href="#" class="" title="")!= "Duplicate"
-
-			.s-profile__description-option.d-flex.align-items-center.pb-2
-				div
-					a.d-flex.align-items-center(href="#" class="" title="")
-						i.icon-font.icon-warning
-						span!= "Report"
-				div
-					a.d-flex.align-items-center(href="#" class="" title="")
-						i.icon-font.icon-share-1
-						span!= "Share"
+				.s-profile__description-option.d-flex.align-items-center.pb-2
+					div
+						a.d-flex.align-items-center(href="#" class="" title="")
+							i.icon-font.icon-warning
+							span!= "Report"
+					div
+						a.d-flex.align-items-center(href="#" class="" title="")
+							i.icon-font.icon-share-1
+							span!= "Share"
 
 	.s-profile__description-body
 

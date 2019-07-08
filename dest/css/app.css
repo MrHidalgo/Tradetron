@@ -9925,13 +9925,31 @@ picture {
   display: flex;
 }
 
-/* line 47, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 43, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__wrapper-3 {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 50, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-left {
   width: 300px;
   padding-right: 30px;
 }
 
-/* line 52, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 50, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__wrapper-left {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 60, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -9941,7 +9959,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 59, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 67, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__section {
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -9950,13 +9968,13 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 64, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 72, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__section-title {
   font-weight: 600;
   font-size: 20px;
 }
 
-/* line 72, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 80, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9964,7 +9982,17 @@ picture {
   display: flex;
 }
 
-/* line 76, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 80, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding-top: 30px;
+  }
+}
+
+/* line 88, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-head > div:nth-of-type(1) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -9974,12 +10002,44 @@ picture {
   max-width: 100%;
 }
 
-/* line 82, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 94, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-head > div:nth-of-type(2) {
   width: 180px;
 }
 
-/* line 89, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 94, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head > div:nth-of-type(2) {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  /* line 100, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head > div:nth-of-type(2) > div {
+    width: 50%;
+  }
+  /* line 103, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head > div:nth-of-type(2) > div:last-of-type {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 94, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head > div:nth-of-type(2) {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+  /* line 111, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-head > div:nth-of-type(2) > div {
+    width: 100%;
+  }
+}
+
+/* line 120, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-rating .icon-font {
   font-size: 15px;
   color: #989898;
@@ -9988,17 +10048,24 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 94, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 125, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-rating .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 102, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 133, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile > div:nth-of-type(1) {
   width: 105px;
 }
 
-/* line 105, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 133, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-profile > div:nth-of-type(1) {
+    width: 0;
+  }
+}
+
+/* line 139, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10008,7 +10075,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 112, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 146, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-img {
   overflow: hidden;
   position: relative;
@@ -10019,42 +10086,42 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 124, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 158, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-img .icon-font {
   color: #cccccc;
   font-size: 40px;
 }
 
-/* line 130, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 164, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-created {
   font-size: 10px;
 }
 
-/* line 134, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 168, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-name {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* line 138, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 172, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-name span {
   padding-left: 15px;
   font-size: 14px;
   font-weight: normal;
 }
 
-/* line 146, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 180, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-by p {
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* line 150, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 184, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-by p > a {
   color: #6772e5;
 }
 
-/* line 156, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 190, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-by > div > a {
   width: 22px;
   height: 22px;
@@ -10065,18 +10132,18 @@ picture {
   background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
 }
 
-/* line 162, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 196, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-by > div > a .icon-font {
   color: #ffffff;
   font-size: 12px;
 }
 
-/* line 166, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 200, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-by > div > a .icon-font.icon-envelope1 {
   font-size: 10px;
 }
 
-/* line 175, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 209, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-profile-tags a {
   height: 25px;
   -webkit-border-radius: 12.5px;
@@ -10088,14 +10155,14 @@ picture {
   color: #6772e5;
 }
 
-/* line 188, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 222, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option > div {
   position: relative;
   width: 100%;
   max-width: 50%;
 }
 
-/* line 194, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 228, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option > div:first-of-type:after {
   content: '';
   position: absolute;
@@ -10106,29 +10173,29 @@ picture {
   background-color: #b3c5dc;
 }
 
-/* line 205, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 239, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option > div:last-of-type {
   padding-left: 10px;
 }
 
-/* line 210, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 244, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option i,
 .s-profile__description-option span {
   color: #B3C5DC;
 }
 
-/* line 215, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 249, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option i {
   font-size: 21px;
 }
 
-/* line 219, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 253, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-option span {
   padding-left: 5px;
   font-weight: 600;
 }
 
-/* line 226, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 260, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer > div {
   position: relative;
   width: 100%;
@@ -10139,14 +10206,14 @@ picture {
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 226, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  /* line 260, src/scss/_components/strategy-profile/_strategy-profile.scss */
   .s-profile__description-footer > div {
     padding-left: 15px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 226, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  /* line 260, src/scss/_components/strategy-profile/_strategy-profile.scss */
   .s-profile__description-footer > div {
     max-width: -webkit-calc(100% / 4);
     max-width: calc(100% / 4);
@@ -10154,32 +10221,54 @@ picture {
   }
 }
 
-/* line 240, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 260, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+  }
+}
+
+/* line 277, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer > div:first-of-type {
   padding-left: 0;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 283, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer > div:nth-of-type(2):after {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 288, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer > div:nth-of-type(3) {
+    padding-left: 0;
+  }
+}
+
 @media screen and (max-width: 991px) {
-  /* line 248, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  /* line 295, src/scss/_components/strategy-profile/_strategy-profile.scss */
   .s-profile__description-footer > div:nth-of-type(4):after {
     display: none;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 254, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  /* line 301, src/scss/_components/strategy-profile/_strategy-profile.scss */
   .s-profile__description-footer > div:last-of-type {
     padding-left: 0;
     margin-bottom: 0;
   }
 }
 
-/* line 260, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 307, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer > div:last-of-type:after {
   display: none;
 }
 
-/* line 265, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 312, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer > div:after {
   content: '';
   position: absolute;
@@ -10190,12 +10279,19 @@ picture {
   background-color: #EAEAEA;
 }
 
-/* line 276, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 323, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer span {
   font-size: 16px;
 }
 
-/* line 279, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 575px) {
+  /* line 323, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer span {
+    font-size: 12px;
+  }
+}
+
+/* line 329, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer span i {
   cursor: pointer;
   display: -webkit-box;
@@ -10221,63 +10317,138 @@ picture {
   font-size: 12px;
 }
 
-/* line 295, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 345, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__description-footer p {
   font-weight: 600;
   font-size: 25px;
 }
 
-/* line 304, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 345, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer p {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* line 345, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__description-footer p {
+    font-size: 20px;
+  }
+}
+
+/* line 360, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics {
   min-height: 100%;
 }
 
-/* line 308, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 364, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-head .icon-file-export {
   font-size: 24px;
 }
 
-/* line 314, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 370, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div {
   width: 100%;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 314, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  /* line 370, src/scss/_components/strategy-profile/_strategy-profile.scss */
   .s-profile__statistics-block > div {
     max-width: -webkit-calc(100% / 5) !important;
     max-width: calc(100% / 5) !important;
   }
 }
 
-/* line 320, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 376, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__statistics-block > div:nth-of-type(odd) {
+    max-width: 55% !important;
+    padding-right: 15px;
+  }
+  /* line 380, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__statistics-block > div:nth-of-type(even) {
+    max-width: 45% !important;
+  }
+}
+
+/* line 385, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div:nth-of-type(odd) {
   max-width: 55%;
   padding-right: 15px;
 }
 
-/* line 324, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 389, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block > div:nth-of-type(even) {
   max-width: 45%;
 }
 
-/* line 329, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 394, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block span {
   font-size: 13px;
 }
 
-/* line 333, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 398, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__statistics-block p {
   font-weight: 600;
 }
 
-/* line 343, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 408, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-head a {
   font-size: 18px;
   text-align: center;
 }
 
-/* line 349, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 415, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__followers .swiper-container {
+    width: -webkit-calc(100% + 2rem);
+    width: calc(100% + 2rem);
+    padding-bottom: 30px;
+    margin-left: -1rem;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 424, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__followers .swiper-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /* line 428, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__followers .swiper-wrapper > div {
+    width: 100%;
+    max-width: -webkit-calc(100% / 5);
+    max-width: calc(100% / 5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 435, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__followers .swiper-slide {
+    width: 135px;
+  }
+}
+
+/* line 441, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__followers .swiper-pagination {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 441, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__followers .swiper-pagination {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* line 449, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10294,22 +10465,7 @@ picture {
           align-items: center;
 }
 
-/* line 354, src/scss/_components/strategy-profile/_strategy-profile.scss */
-.s-profile__followers-block-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/* line 357, src/scss/_components/strategy-profile/_strategy-profile.scss */
-.s-profile__followers-block-wrapper > div {
-  width: 100%;
-  max-width: -webkit-calc(100% / 5);
-  max-width: calc(100% / 5);
-}
-
-/* line 363, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 454, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block-img {
   overflow: hidden;
   position: relative;
@@ -10319,39 +10475,73 @@ picture {
           border-radius: 50%;
 }
 
-/* line 375, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 466, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__followers-block p {
   font-size: 15px;
   text-align: center;
 }
 
-/* line 385, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 477, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__visited .swiper-container {
+    width: -webkit-calc(100% + 2rem);
+    width: calc(100% + 2rem);
+    padding-bottom: 30px;
+    margin-left: -1rem;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 486, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__visited .swiper-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  /* line 490, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__visited .swiper-wrapper > div {
+    width: 100%;
+    max-width: -webkit-calc(100% / 5);
+    max-width: calc(100% / 5);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 497, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__visited .swiper-slide {
+    width: 135px;
+  }
+}
+
+/* line 503, src/scss/_components/strategy-profile/_strategy-profile.scss */
+.s-profile__visited .swiper-pagination {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 503, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__visited .swiper-pagination {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+/* line 511, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block {
   padding-right: 50px;
 }
 
-/* line 388, src/scss/_components/strategy-profile/_strategy-profile.scss */
-.s-profile__visited-block-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-/* line 391, src/scss/_components/strategy-profile/_strategy-profile.scss */
-.s-profile__visited-block-wrapper > div {
-  width: 100%;
-  max-width: -webkit-calc(100% / 5);
-  max-width: calc(100% / 5);
-}
-
-/* line 397, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 514, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block p {
   font-weight: bold;
   font-size: 16px;
 }
 
-/* line 402, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 519, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img {
   overflow: hidden;
   position: relative;
@@ -10362,13 +10552,13 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 414, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 531, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-img .icon-font {
   color: #cccccc;
   font-size: 40px;
 }
 
-/* line 421, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 538, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font {
   font-size: 15px;
   color: #989898;
@@ -10377,29 +10567,36 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 426, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 543, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__visited-block-rating .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 439, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 556, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table thead th {
   border-width: 0;
 }
 
-/* line 444, src/scss/_components/strategy-profile/_strategy-profile.scss */
+@media screen and (max-width: 767px) {
+  /* line 556, src/scss/_components/strategy-profile/_strategy-profile.scss */
+  .s-profile__history table thead th {
+    white-space: nowrap;
+  }
+}
+
+/* line 564, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th,
 .s-profile__history table td {
   vertical-align: middle;
 }
 
-/* line 449, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 569, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__history table th {
   font-weight: bold;
   letter-spacing: 0.27px;
 }
 
-/* line 461, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 581, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10409,12 +10606,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 468, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 588, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star span {
   font-size: 14px;
 }
 
-/* line 472, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 592, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font {
   font-size: 26px;
   color: #989898;
@@ -10423,12 +10620,12 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 477, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 597, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-star .icon-font.icon-star-fill {
   color: #ff5980;
 }
 
-/* line 484, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 604, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span {
   overflow: hidden;
   -webkit-box-flex: 1;
@@ -10444,7 +10641,7 @@ picture {
   height: 5px;
 }
 
-/* line 494, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 614, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress span i {
   position: absolute;
   top: 0;
@@ -10455,18 +10652,18 @@ picture {
           border-radius: 8px;
 }
 
-/* line 504, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 624, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__rating-progress p {
   width: 30px;
   font-size: 14px;
 }
 
-/* line 515, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 635, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback .strategy__filter-rating .icon-font {
   font-size: 26px;
 }
 
-/* line 521, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 641, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form textarea {
   resize: none;
   outline: none;
@@ -10516,36 +10713,36 @@ picture {
   letter-spacing: 0.09px;
 }
 
-/* line 539, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 659, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form button {
   max-width: 180px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 545, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 665, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-form hr {
   height: 1px;
   border: none;
   background-color: #eaeaea;
 }
 
-/* line 552, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 672, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* line 555, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 675, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment:last-of-type {
   border: none;
 }
 
-/* line 560, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 680, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(1) {
   width: 60px;
 }
 
-/* line 563, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 683, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10555,7 +10752,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 570, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 690, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment-img {
   overflow: hidden;
   position: relative;
@@ -10565,21 +10762,21 @@ picture {
           border-radius: 50%;
 }
 
-/* line 582, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 702, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment p {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
 
-/* line 588, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 708, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment i {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.44px;
 }
 
-/* line 594, src/scss/_components/strategy-profile/_strategy-profile.scss */
+/* line 714, src/scss/_components/strategy-profile/_strategy-profile.scss */
 .s-profile__feedback-comment span {
   font-size: 15px;
   color: rgba(51, 51, 51, 0.8);

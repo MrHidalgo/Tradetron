@@ -11,31 +11,34 @@
 	.s-profile__followers-body
 
 		.s-profile__followers-block-wrapper.pb-3
-			div
-				a.s-profile__followers-block(href="#" class="" title="")
-					.s-profile__followers-block-img.mb-3
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p!= "Rebecca Jensen"
-			div
-				a.s-profile__followers-block(href="#" class="" title="")
-					.s-profile__followers-block-img.mb-3
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p!= "Rachel Morgan"
-			div
-				a.s-profile__followers-block(href="#" class="" title="")
-					.s-profile__followers-block-img.mb-3
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p!= "Glenn Walton"
-			div
-				a.s-profile__followers-block(href="#" class="" title="")
-					.s-profile__followers-block-img.mb-3
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p!= "Luis Ray"
-			div
-				a.s-profile__followers-block(href="#" class="" title="")
-					.s-profile__followers-block-img.mb-3
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p!= "Jared Murray"
+			mixin swiperContent()
+				.swiper-slide
+					a.s-profile__followers-block(href="#" class="" title="")
+						.s-profile__followers-block-img.mb-3
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p!= "Rebecca Jensen"
+				.swiper-slide
+					a.s-profile__followers-block(href="#" class="" title="")
+						.s-profile__followers-block-img.mb-3
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p!= "Rachel Morgan"
+				.swiper-slide
+					a.s-profile__followers-block(href="#" class="" title="")
+						.s-profile__followers-block-img.mb-3
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p!= "Glenn Walton"
+				.swiper-slide
+					a.s-profile__followers-block(href="#" class="" title="")
+						.s-profile__followers-block-img.mb-3
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p!= "Luis Ray"
+				.swiper-slide
+					a.s-profile__followers-block(href="#" class="" title="")
+						.s-profile__followers-block-img.mb-3
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p!= "Jared Murray"
+
+			+swiper('swiper-container-followers', 'swiperContent', true, false, false)
 
 
 

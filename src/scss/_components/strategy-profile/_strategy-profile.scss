@@ -42,11 +42,19 @@
 
 		&-3 {
 			display: flex;
+			@include adaptive(767) {
+				flex-wrap: wrap;
+			}
 		}
 
 		&-left {
 			width: 300px;
 			padding-right: 30px;
+			@include adaptive(767) {
+				width: 100%;
+				padding-right: 0;
+				padding-bottom: 30px;
+			}
 		}
 
 		&-right {
@@ -71,6 +79,10 @@
 	&__description {
 		&-head {
 			display: flex;
+			@include adaptive(767) {
+				flex-wrap: wrap;
+				padding-top: 30px;
+			}
 
 			> div {
 				&:nth-of-type(1) {
@@ -81,6 +93,25 @@
 
 				&:nth-of-type(2) {
 					width: 180px;
+					@include adaptive(767) {
+						display: flex;
+						width: 100%;
+
+						> div {
+							width: 50%;
+
+							&:last-of-type {
+								padding-bottom: 30px;
+							}
+						}
+					}
+					@include adaptive(374) {
+						flex-wrap: wrap;
+
+						> div {
+							width: 100%;
+						}
+					}
 				}
 			}
 		}
@@ -101,6 +132,9 @@
 			> div {
 				&:nth-of-type(1) {
 					width: 105px;
+					@include adaptive(767) {
+						width: 0;
+					}
 				}
 				&:nth-of-type(2) {
 					flex: 1;
@@ -236,13 +270,26 @@
 					max-width: calc(100% / 4);
 					margin-bottom: 40px;
 				}
+				@include adaptive(767) {
+					max-width: calc(100% / 2);
+				}
 
 				&:first-of-type {
 					padding-left: 0;
 				}
 
-				&:nth-of-type(2) {}
-				&:nth-of-type(3) {}
+				&:nth-of-type(2) {
+					@include adaptive(767) {
+						&:after {
+							display: none;
+						}
+					}
+				}
+				&:nth-of-type(3) {
+					@include adaptive(767) {
+						padding-left: 0;
+					}
+				}
 				&:nth-of-type(4) {
 					@include adaptive(991) {
 						&:after {
@@ -275,6 +322,9 @@
 
 			span {
 				font-size: 16px;
+				@include adaptive(575) {
+					font-size: 12px;
+				}
 
 				i {
 					cursor: pointer;
@@ -295,6 +345,12 @@
 			p {
 				font-weight: 600;
 				font-size: 25px;
+				@include adaptive(767) {
+					font-size: 23px;
+				}
+				@include adaptive(575) {
+					font-size: 20px;
+				}
 			}
 		}
 	}
@@ -315,6 +371,15 @@
 				width: 100%;
 				@include adaptive(991) {
 					max-width: calc(100% / 5) !important;
+				}
+				@include adaptive(767) {
+					&:nth-of-type(odd) {
+						max-width: 55% !important;
+						padding-right: 15px;
+					}
+					&:nth-of-type(even) {
+						max-width: 45% !important;
+					}
 				}
 
 				&:nth-of-type(odd) {
@@ -346,19 +411,45 @@
 			}
 		}
 
+		.swiper {
+			&-container {
+				@include adaptive(767) {
+					width: calc(100% + 2rem);
+					padding-bottom: 30px;
+					margin-left: -1rem;
+					padding-left: 15px;
+				}
+			}
+
+			&-wrapper {
+				@include respond(medium) {
+					display: flex;
+
+					> div {
+						width: 100%;
+						max-width: calc(100% / 5);
+					}
+				}
+			}
+
+			&-slide {
+				@include adaptive(767) {
+					width: 135px;
+				}
+			}
+
+			&-pagination {
+				display: none;
+				@include adaptive(767) {
+					display: flex;
+				}
+			}
+		}
+
 		&-block {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-
-			&-wrapper {
-				display: flex;
-
-				> div {
-					width: 100%;
-					max-width: calc(100% / 5);
-				}
-			}
 
 			&-img {
 				overflow: hidden;
@@ -382,17 +473,43 @@
 
 	// visited
 	&__visited {
-		&-block {
-			padding-right: 50px;
-
-			&-wrapper {
-				display: flex;
-
-				> div {
-					width: 100%;
-					max-width: calc(100% / 5);
+		.swiper {
+			&-container {
+				@include adaptive(767) {
+					width: calc(100% + 2rem);
+					padding-bottom: 30px;
+					margin-left: -1rem;
+					padding-left: 15px;
 				}
 			}
+
+			&-wrapper {
+				@include respond(medium) {
+					display: flex;
+
+					> div {
+						width: 100%;
+						max-width: calc(100% / 5);
+					}
+				}
+			}
+
+			&-slide {
+				@include adaptive(767) {
+					width: 135px;
+				}
+			}
+
+			&-pagination {
+				display: none;
+				@include adaptive(767) {
+					display: flex;
+				}
+			}
+		}
+
+		&-block {
+			padding-right: 50px;
 
 			p {
 				font-weight: bold;
@@ -438,6 +555,9 @@
 			thead {
 				th {
 					border-width: 0;
+					@include adaptive(767) {
+						white-space: nowrap;
+					}
 				}
 			}
 

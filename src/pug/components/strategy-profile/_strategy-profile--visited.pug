@@ -8,56 +8,61 @@
 	.s-profile__visited-body
 
 		.s-profile__visited-block-wrapper.pb-3
-			div
-				a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
-					.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
-						i.icon-font.icon-user-profile
-					p.pb-2!= "Midbass"
-					.s-profile__visited-block-rating
-						div.d-flex.align-items-center
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star
-			div
-				a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
-					.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
-						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
-					p.pb-2!= "Covered Call"
-					.s-profile__visited-block-rating
-						div.d-flex.align-items-center
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star
-			div
-				a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
-					.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
-						i.icon-font.icon-user-profile
-					p.pb-2!= "Momentum"
-					.s-profile__visited-block-rating
-						div.d-flex.align-items-center
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
-							span.position-relative.pr-1
-								i.icon-font.icon-star-fill
+			mixin swiperContent()
+				.swiper-slide
+					a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
+						.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
+							i.icon-font.icon-user-profile
+						p.pb-2!= "Midbass"
+						.s-profile__visited-block-rating
+							div.d-flex.align-items-center
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star
+
+				.swiper-slide
+					a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
+						.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p.pb-2!= "Covered Call"
+						.s-profile__visited-block-rating
+							div.d-flex.align-items-center
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star
+
+				.swiper-slide
+					a.s-profile__visited-block.d-flex.flex-column(href="#" class="" title="")
+						.s-profile__visited-block-img.mb-2.d-flex.align-items-center.justify-content-center
+							i.icon-font.icon-user-profile
+						p.pb-2!= "Momentum"
+						.s-profile__visited-block-rating
+							div.d-flex.align-items-center
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+								span.position-relative.pr-1
+									i.icon-font.icon-star-fill
+
+			+swiper('swiper-container-visited', 'swiperContent', true, false, false)
 
 // SECTION strategy visited :: END
