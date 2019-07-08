@@ -114,11 +114,11 @@
 				flex-wrap: wrap;
 
 				> div {
-					&:nth-of-type(1),
-					&:nth-of-type(2) {
-						width: 50%;
+					&:nth-of-type(1) {
+						width: 35%;
 					}
 					&:nth-of-type(2) {
+						width: 50%;
 						padding-top: 1rem;
 					}
 					&:nth-of-type(3) {
@@ -241,10 +241,20 @@
 				padding-left: 0;
 				padding-right: 0;
 			}
+			@include adaptive(767) {
+				justify-content: center;
+			}
 
 			> div {
 				width: 50%;
 				text-align: center;
+
+				@include adaptive(767) {
+					width: 35%;
+				}
+				@include adaptive(374) {
+					width: 45%;
+				}
 			}
 
 			p {

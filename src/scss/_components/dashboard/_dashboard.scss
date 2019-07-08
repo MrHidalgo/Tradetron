@@ -345,11 +345,19 @@
 					height: 40px;
 				}
 
-				.btn {
-					&:hover {
-						color: #6772e5;
+				.input-group-append {
+					button.btn {
+						border: 1px solid #6772e5 !important;
+						background-color: #6772e5;
+						color: #ffffff;
+
+						&:hover {
+							background-color: transparent;
+							color: #6772e5;
+						}
 					}
 				}
+
 			}
 
 			.dashboard__block-body {
