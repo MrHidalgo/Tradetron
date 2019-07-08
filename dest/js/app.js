@@ -559,6 +559,26 @@ $(document).ready(function (ev) {
 	var initTooltip = function initTooltip() {
 		$('[data-toggle="tooltip"]').tooltip();
 	};
+
+	var initAccountProfileMenu = function initAccountProfileMenu() {
+		$('[aProfile-btn-js]').on('click', function (ev) {
+			$('[aProfile-btn-js], [aProfile-dropInnerBtn-js], [aProfile-dropBtn-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+
+		$('[aProfile-dropBtn-js]').on('click', function (ev) {
+			if ($(ev.target).closest('[aProfile-dropInnerBtn-js]').length === 0) {
+				$('[aProfile-btn-js]').removeClass('is-active');
+				$(ev.currentTarget).addClass('is-active');
+				$(ev.currentTarget).find('.a-profile__menu-drop').slideToggle(350);
+			}
+		});
+
+		$('[aProfile-dropInnerBtn-js]').on('click', function (ev) {
+			$('[aProfile-dropInnerBtn-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -587,6 +607,7 @@ $(document).ready(function (ev) {
 		initStrategyFilterToggle();
 		initStrategyFilterRating();
 		initTooltip();
+		initAccountProfileMenu();
 		// ==========================================
 	};
 	initJquery();

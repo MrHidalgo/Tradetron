@@ -29,7 +29,7 @@ PageList:
   ready: 90
 - file: account-profile.html
   titleName: Account Profile
-  ready: 0
+  ready: 1
 
 - file: deployed-strategies.html
   titleName: Deployed Strategies

@@ -255,11 +255,14 @@
 	@if $filename == wallet {
 		$char: "\E04C";
 	}
-	@if $filename == warning {
+	@if $filename == wallet1 {
 		$char: "\E04D";
 	}
-	@if $filename == workflow {
+	@if $filename == warning {
 		$char: "\E04E";
+	}
+	@if $filename == workflow {
+		$char: "\E04F";
 	}
 
 	@return $char;
@@ -578,6 +581,10 @@
 }
 .icon-wallet {
 	@include icon(wallet);
+
+}
+.icon-wallet1 {
+	@include icon(wallet1);
 
 }
 .icon-warning {

@@ -1,0 +1,43 @@
+// SECTION account profile menu :: START
+
+mixin menu(iconName, val)
+	.a-profile__menu-btn(aProfile-btn-js class!= (val === 'Profile')?'is-active':'')
+		a.d-flex.align-items-center(href="#" class="" title="")
+			div
+				i.icon-font(class!= "icon-" + iconName)
+			div
+				p!= val
+
+.a-profile__section.p-3
+	.a-profile__menu.d-flex.flex-column
+
+		+menu('user', 'Profile')
+		.a-profile__menu-btn.a-profile__menu-btn--dropdown(aProfile-dropBtn-js)
+			a.d-flex.align-items-center(href="#" class="" title="")
+				div
+					i.icon-font.icon-wallet1
+				div
+					p!= "Wallet"
+				div
+					i.icon-font.icon-corner
+			.a-profile__menu-drop
+				a(href="#" class="" title="" aProfile-dropInnerBtn-js)
+					div
+					div
+						span!= "Ledger"
+				a(href="#" class="" title="" aProfile-dropInnerBtn-js)
+					div
+					div
+						span!= "Add Funds"
+				a(href="#" class="" title="" aProfile-dropInnerBtn-js)
+					div
+					div
+						span!= "Withdraw Funds"
+		+menu('envelope', 'Subscriptions')
+		+menu('file', 'Broker & Exchanges')
+		+menu('favorites', 'Coupons')
+		+menu('bell', 'Notifications')
+		+menu('key', 'Change Password')
+
+
+// SECTION account profile menu :: END

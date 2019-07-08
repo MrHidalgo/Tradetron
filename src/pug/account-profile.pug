@@ -1,0 +1,14 @@
+---
+title: Tradetron | Account Profile
+
+pageClassName: p-account-profile
+---
+extends shared/_layout
+
+block header
+	include components/_header-login
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/account-profile/_account-profile

@@ -1,0 +1,126 @@
+// SECTION account profile :: START
+
+.a-profile {
+	.main__wrapper {
+		z-index: 2;
+		position: relative;
+	}
+
+	&__wrapper {
+		display: flex;
+
+		&-left {
+			width: 250px;
+			padding-right: 30px;
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+	}
+
+	&__section {
+		border-radius: 6px;
+		background-color: #ffffff;
+		box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
+
+		&-head {
+			min-height: 58px;
+		}
+	}
+
+	// menu
+	&__menu {
+		&-btn {
+			padding-top: 10px;
+			padding-bottom: 10px;
+
+			&.is-active {
+				.icon-font,
+				p {
+					color: #6772e5;
+					@include transition(color);
+				}
+			}
+
+			&--dropdown {
+				> a {
+					> div {
+						&:nth-of-type(3) {
+							display: flex;
+							justify-content: flex-end;
+							width: 35px;
+						}
+					}
+				}
+			}
+
+			> a {
+				> div {
+					&:nth-of-type(1) {
+						width: 35px;
+					}
+
+					&:nth-of-type(2) {
+						flex: 1;
+						min-width: 1px;
+						max-width: 100%;
+					}
+				}
+
+				p {
+					font-weight: 500;
+					@include transition(color);
+				}
+
+				.icon-font {
+					font-size: 20px;
+					@include transition(color);
+
+					&.icon-corner {
+						width: 8px;
+						transform: rotate(-90deg);
+						font-size: 8px;
+					}
+				}
+			}
+		}
+
+		&-drop {
+			display: none;
+			width: calc(100% + 2rem);
+			margin-left: -1rem;
+			padding-top: 10px;
+
+			> a {
+				display: flex;
+				align-items: center;
+				min-height: 30px;
+				@include transition(background-color, color);
+
+				&.is-active {
+					background-color: #6772e5;
+					color: #ffffff;
+					@include transition(background-color, color);
+				}
+
+				> div {
+					&:nth-of-type(1) {
+						width: calc(35px + 1rem);
+					}
+
+					&:nth-of-type(2) {
+						flex: 1;
+						min-width: 1px;
+						max-width: 100%;
+					}
+				}
+			}
+		}
+	}
+	// menu :: end
+}
+
+// SECTION account profile :: END

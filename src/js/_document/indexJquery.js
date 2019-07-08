@@ -107,6 +107,27 @@ $(document).ready((ev) => {
 	const initTooltip = () => {
 		$('[data-toggle="tooltip"]').tooltip();
 	};
+
+
+	const initAccountProfileMenu = () => {
+		$('[aProfile-btn-js]').on('click', (ev) => {
+			$('[aProfile-btn-js], [aProfile-dropInnerBtn-js], [aProfile-dropBtn-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+
+		$('[aProfile-dropBtn-js]').on('click', (ev) => {
+			if($(ev.target).closest('[aProfile-dropInnerBtn-js]').length === 0) {
+				$('[aProfile-btn-js]').removeClass('is-active');
+				$(ev.currentTarget).addClass('is-active');
+				$(ev.currentTarget).find('.a-profile__menu-drop').slideToggle(350);
+			}
+		});
+
+		$('[aProfile-dropInnerBtn-js]').on('click', (ev) => {
+			$('[aProfile-dropInnerBtn-js]').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -137,6 +158,7 @@ $(document).ready((ev) => {
 		initStrategyFilterToggle();
 		initStrategyFilterRating();
 		initTooltip();
+		initAccountProfileMenu();
 		// ==========================================
   };
   initJquery();
