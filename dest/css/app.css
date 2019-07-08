@@ -1946,13 +1946,11 @@ picture {
 /* line 153, src/scss/_components/_header.scss */
 .header__nav--alert a {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-/* line 157, src/scss/_components/_header.scss */
+/* line 158, src/scss/_components/_header.scss */
 .header__nav--alert a span {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1980,54 +1978,136 @@ picture {
   font-size: 5px;
 }
 
-/* line 172, src/scss/_components/_header.scss */
+/* line 173, src/scss/_components/_header.scss */
 .header__nav--alert a .icon-font {
   font-size: 19px;
 }
 
-/* line 178, src/scss/_components/_header.scss */
+/* line 179, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 183, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item {
+  margin: 0 !important;
+  padding: 0 10px;
+}
+
+/* line 187, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--clear {
+  min-height: 50px;
+  font-size: 12px;
+}
+
+/* line 192, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text {
+  cursor: pointer;
+  white-space: normal;
+  position: relative;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 200, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text:hover {
+  background-color: #f4f4f4;
+  color: #6772e5;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* line 205, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text:hover a {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 212, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text p {
+  padding: 5px 30px 5px 0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+/* line 218, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text a {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  margin: 0;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 227, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper .dropdown-item--text a .icon-font {
+  color: #6772e5;
+  font-size: 10px;
+}
+
+/* line 235, src/scss/_components/_header.scss */
+.header__nav--alert .dropdown-menu-wrapper hr {
+  min-width: 210px;
+  height: 1px;
+  border: none;
+  background-color: #eee;
+}
+
+/* line 245, src/scss/_components/_header.scss */
 .header__nav--wallet {
   margin-right: 20px;
 }
 
-/* line 182, src/scss/_components/_header.scss */
+/* line 249, src/scss/_components/_header.scss */
 .header__nav--wallet .dropdown button {
   padding: 0;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 182, src/scss/_components/_header.scss */
+  /* line 249, src/scss/_components/_header.scss */
   .header__nav--wallet .dropdown button {
     padding: 0.375rem 0.75rem;
   }
 }
 
-/* line 188, src/scss/_components/_header.scss */
+/* line 255, src/scss/_components/_header.scss */
 .header__nav--wallet .dropdown button .icon-font {
   margin-right: 5px;
   margin-left: 0;
   font-size: 19px;
 }
 
-/* line 194, src/scss/_components/_header.scss */
+/* line 261, src/scss/_components/_header.scss */
 .header__nav--wallet .dropdown button span {
   position: relative;
   top: 1px;
 }
 
-/* line 204, src/scss/_components/_header.scss */
+/* line 271, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button {
   padding: 0;
 }
 
 @media screen and (max-width: 1199px) {
-  /* line 204, src/scss/_components/_header.scss */
+  /* line 271, src/scss/_components/_header.scss */
   .header__nav--profile .dropdown button {
     padding: 0.375rem 0.75rem;
   }
 }
 
-/* line 210, src/scss/_components/_header.scss */
+/* line 277, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button span {
   overflow: hidden;
   white-space: nowrap;
@@ -2036,7 +2116,7 @@ picture {
      text-overflow: ellipsis;
 }
 
-/* line 217, src/scss/_components/_header.scss */
+/* line 284, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p {
   position: relative;
   display: -webkit-box;
@@ -2059,7 +2139,7 @@ picture {
   background-color: #eeeeee;
 }
 
-/* line 228, src/scss/_components/_header.scss */
+/* line 295, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p u {
   position: absolute;
   top: 2px;
@@ -2072,14 +2152,14 @@ picture {
   background-color: #ffad0d;
 }
 
-/* line 239, src/scss/_components/_header.scss */
+/* line 306, src/scss/_components/_header.scss */
 .header__nav--profile .dropdown button p .icon-font {
   margin: 0;
   color: #cccccc;
   font-size: 18px;
 }
 
-/* line 249, src/scss/_components/_header.scss */
+/* line 316, src/scss/_components/_header.scss */
 .header__nav > a {
   white-space: nowrap;
   margin-left: 10px;
@@ -2092,12 +2172,12 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 258, src/scss/_components/_header.scss */
+/* line 325, src/scss/_components/_header.scss */
 .header__nav > a:hover {
   color: #6772e5;
 }
 
-/* line 262, src/scss/_components/_header.scss */
+/* line 329, src/scss/_components/_header.scss */
 .header__nav > a.is-active {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2105,7 +2185,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 270, src/scss/_components/_header.scss */
+/* line 337, src/scss/_components/_header.scss */
 .header__nav .dropdown.show .btn {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2113,7 +2193,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 276, src/scss/_components/_header.scss */
+/* line 343, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle {
   font-size: 15px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2121,24 +2201,24 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 280, src/scss/_components/_header.scss */
+/* line 347, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:after {
   display: none;
 }
 
-/* line 284, src/scss/_components/_header.scss */
+/* line 351, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:hover {
   color: #6772e5;
 }
 
-/* line 288, src/scss/_components/_header.scss */
+/* line 355, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle:focus, .header__nav .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 294, src/scss/_components/_header.scss */
+/* line 361, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle.is-active {
   color: #6772e5;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2146,13 +2226,13 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 299, src/scss/_components/_header.scss */
+/* line 366, src/scss/_components/_header.scss */
 .header__nav .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 305, src/scss/_components/_header.scss */
+/* line 372, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu {
   left: auto !important;
   right: 0;
@@ -2165,7 +2245,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 315, src/scss/_components/_header.scss */
+/* line 382, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -2180,7 +2260,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 326, src/scss/_components/_header.scss */
+/* line 393, src/scss/_components/_header.scss */
 .header__nav .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -2191,7 +2271,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 335, src/scss/_components/_header.scss */
+/* line 402, src/scss/_components/_header.scss */
 .header__nav .dropdown-item {
   min-height: 20px;
   padding: 0 25px;
@@ -2199,12 +2279,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 341, src/scss/_components/_header.scss */
+/* line 408, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 344, src/scss/_components/_header.scss */
+/* line 411, src/scss/_components/_header.scss */
 .header__nav .dropdown-item:hover .icon-font,
 .header__nav .dropdown-item:hover span {
   color: #6772e5;
@@ -2213,7 +2293,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 351, src/scss/_components/_header.scss */
+/* line 418, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2221,12 +2301,12 @@ picture {
   display: flex;
 }
 
-/* line 354, src/scss/_components/_header.scss */
+/* line 421, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 357, src/scss/_components/_header.scss */
+/* line 424, src/scss/_components/_header.scss */
 .header__nav .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2245,7 +2325,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 367, src/scss/_components/_header.scss */
+/* line 434, src/scss/_components/_header.scss */
 .header__nav .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -2255,7 +2335,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 374, src/scss/_components/_header.scss */
+/* line 441, src/scss/_components/_header.scss */
 .header__nav .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -2263,17 +2343,17 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 384, src/scss/_components/_header.scss */
+/* line 451, src/scss/_components/_header.scss */
 .header .hamburger {
   position: relative;
 }
 
-/* line 387, src/scss/_components/_header.scss */
+/* line 454, src/scss/_components/_header.scss */
 .header .hamburger.is-active {
   z-index: 999;
 }
 
-/* line 392, src/scss/_components/_header.scss */
+/* line 459, src/scss/_components/_header.scss */
 .header__menu {
   display: none;
   z-index: 998;
@@ -2292,32 +2372,32 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 392, src/scss/_components/_header.scss */
+  /* line 459, src/scss/_components/_header.scss */
   .header__menu {
     position: fixed;
     top: 0;
     padding-top: 80px;
     padding-right: 18px;
   }
-  /* line 411, src/scss/_components/_header.scss */
+  /* line 478, src/scss/_components/_header.scss */
   .header--fixed .header__menu {
     padding-top: 55px;
   }
 }
 
-/* line 416, src/scss/_components/_header.scss */
+/* line 483, src/scss/_components/_header.scss */
 .header__menu.is-open {
   display: block;
 }
 
-/* line 420, src/scss/_components/_header.scss */
+/* line 487, src/scss/_components/_header.scss */
 .header__menu-body {
   min-height: -webkit-calc(444px - 90px);
   min-height: calc(444px - 90px);
   padding: 20px 0 29px 0;
 }
 
-/* line 425, src/scss/_components/_header.scss */
+/* line 492, src/scss/_components/_header.scss */
 .header__menu-col {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2332,13 +2412,13 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 425, src/scss/_components/_header.scss */
+  /* line 492, src/scss/_components/_header.scss */
   .header__menu-col {
     width: 100%;
     min-width: 0;
     max-width: 50%;
   }
-  /* line 434, src/scss/_components/_header.scss */
+  /* line 501, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2355,21 +2435,21 @@ picture {
             justify-content: space-between;
     padding-bottom: 12px;
   }
-  /* line 443, src/scss/_components/_header.scss */
+  /* line 510, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) .header__nav-wrapper:nth-of-type(2) .header__nav {
     min-height: 22px;
     padding-left: 0;
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  /* line 449, src/scss/_components/_header.scss */
+  /* line 516, src/scss/_components/_header.scss */
   .header__menu-col:nth-of-type(2) .header__nav-wrapper:nth-of-type(2) .header__nav a {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 374px) {
-  /* line 460, src/scss/_components/_header.scss */
+  /* line 527, src/scss/_components/_header.scss */
   .header__menu-col .header__nav .dropdown-item span {
     overflow: hidden;
     white-space: nowrap;
@@ -2379,21 +2459,21 @@ picture {
   }
 }
 
-/* line 471, src/scss/_components/_header.scss */
+/* line 538, src/scss/_components/_header.scss */
 .header__menu-footer {
   min-height: 90px;
   border-top: 2px solid #d8d9d8;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 476, src/scss/_components/_header.scss */
+  /* line 543, src/scss/_components/_header.scss */
   .header__menu-footer > div:nth-of-type(1) {
     display: none;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 485, src/scss/_components/_header.scss */
+  /* line 552, src/scss/_components/_header.scss */
   .header__menu .header__nav-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2407,14 +2487,14 @@ picture {
   }
 }
 
-/* line 492, src/scss/_components/_header.scss */
+/* line 559, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-menu {
   position: static;
   margin: 0;
   float: none;
 }
 
-/* line 497, src/scss/_components/_header.scss */
+/* line 564, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-menu-wrapper {
   padding: 0;
   -webkit-box-shadow: none;
@@ -2422,19 +2502,19 @@ picture {
   background-color: transparent;
 }
 
-/* line 504, src/scss/_components/_header.scss */
+/* line 571, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-toggle {
   cursor: default;
   pointer-events: none;
   height: auto;
 }
 
-/* line 509, src/scss/_components/_header.scss */
+/* line 576, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-toggle:hover {
   color: #333333;
 }
 
-/* line 514, src/scss/_components/_header.scss */
+/* line 581, src/scss/_components/_header.scss */
 .header__menu .header__nav .dropdown-item {
   padding-left: 0;
 }

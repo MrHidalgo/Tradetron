@@ -139,10 +139,31 @@ header#header.header.header--login
 					.header__profile-wrapper.d-flex.align-items-center.justify-content-end
 
 						.header__nav.header__nav--alert.mr-2
-							.header__nav
-								a(href="#" class="" title="")
+							.dropdown
+								a#dropdownMenuAlert.d-flex(data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
 									i.icon-font.icon-alert
 									span!= "1"
+								.dropdown-menu.animate.slideIn(aria-labelledby='dropdownMenuAlert')
+									.dropdown-menu-corner.position-absolute
+									.dropdown-menu-wrapper
+										a.dropdown-item.dropdown-item--clear.d-flex.justify-content-end.align-items-center(href='#')!= "Clear all"
+										hr
+										.dropdown-item.dropdown-item--text
+											p!= "Lorem ipsum dolor sit amet, consectetuer massa, in et."
+											a(href="#" class="" title="")
+												i.icon-font.icon-close
+										.dropdown-item.dropdown-item--text
+											p!= "Lorem ipsum dolor sit amet, consectetuer massa, in et. Curabitur sem, mauris lectus"
+											a(href="#" class="" title="")
+												i.icon-font.icon-close
+										.dropdown-item.dropdown-item--text
+											p!= "Lorem ipsum dolor sit amet, consectetuer massa, in et. Curabitur sem, mauris lectus sed ut turpis diam vestibulum."
+											a(href="#" class="" title="")
+												i.icon-font.icon-close
+										.dropdown-item.dropdown-item--text
+											p!= "Lorem ipsum dolor sit amet, consectetuer massa, in et. Curabitur sem"
+											a(href="#" class="" title="")
+												i.icon-font.icon-close
 
 						.header__nav.header__nav--wallet
 							.dropdown
