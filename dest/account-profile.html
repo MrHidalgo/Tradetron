@@ -319,9 +319,236 @@
                       <!-- account profile coupons :: end-->
                       <!-- account profile notifications-->
                       <!-- SECTION account profile notifications :: START-->
-                      <div class="a-profile__section d-flex flex-column p-3 a-profile__notifications">
-                        <div class="a-profile__section-head"></div>
-                        <div class="a-profile__section-body"></div>
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__notifications">
+                        <div class="a-profile__section-head">
+                          <p class="a-profile__section-title">Notifications</p>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <form action="" autocomplete="off">
+                            <div class="a-profile__notifications-table">
+                              <table class="table mb-5">
+                                <thead>
+                                  <tr>
+                                    <th scope="row">Event</th>
+                                    <th scope="row">Communication Method</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>New Position</td>
+                                    <td>
+                                      <div class="pb-3 d-flex align-items-center justify-content-end"><span class="pr-4">Self</span>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfNew_sms">
+                                          <label class="form-check-label" for="notification_selfNew_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfNew_whatsapp">
+                                          <label class="form-check-label" for="notification_selfNew_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfNew_call">
+                                          <label class="form-check-label" for="notification_selfNew_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfNew_email">
+                                          <label class="form-check-label" for="notification_selfNew_email">Email</label>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex align-items-center justify-content-end"><span class="pr-4">Broker</span>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerNew_sms">
+                                          <label class="form-check-label" for="notification_brokerNew_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerNew_whatsapp">
+                                          <label class="form-check-label" for="notification_brokerNew_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerNew_call">
+                                          <label class="form-check-label" for="notification_brokerNew_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerNew_email">
+                                          <label class="form-check-label" for="notification_brokerNew_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Errors</td>
+                                    <td>
+                                      <div class="pb-3 d-flex align-items-center justify-content-end"><span class="pr-4">Self</span>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfError_sms">
+                                          <label class="form-check-label" for="notification_selfError_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfError_whatsapp">
+                                          <label class="form-check-label" for="notification_selfError_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfError_call">
+                                          <label class="form-check-label" for="notification_selfError_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfError_email">
+                                          <label class="form-check-label" for="notification_selfError_email">Email</label>
+                                        </div>
+                                      </div>
+                                      <div class="d-flex align-items-center justify-content-end"><span class="pr-4">Broker</span>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerError_sms">
+                                          <label class="form-check-label" for="notification_brokerError_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerError_whatsapp">
+                                          <label class="form-check-label" for="notification_brokerError_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerError_call">
+                                          <label class="form-check-label" for="notification_brokerError_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_brokerError_email">
+                                          <label class="form-check-label" for="notification_brokerError_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>New Message</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfMess_sms">
+                                          <label class="form-check-label" for="notification_selfMess_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfMess_whatsapp">
+                                          <label class="form-check-label" for="notification_selfMess_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfMess_call">
+                                          <label class="form-check-label" for="notification_selfMess_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfMess_email">
+                                          <label class="form-check-label" for="notification_selfMess_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>New Subscriber</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfSubscribe_sms">
+                                          <label class="form-check-label" for="notification_selfSubscribe_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfSubscribe_whatsapp">
+                                          <label class="form-check-label" for="notification_selfSubscribe_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfSubscribe_call">
+                                          <label class="form-check-label" for="notification_selfSubscribe_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfSubscribe_email">
+                                          <label class="form-check-label" for="notification_selfSubscribe_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>Daily Summary</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfDaily_email">
+                                          <label class="form-check-label" for="notification_selfDaily_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>Monthly Summary</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfMonthly_email">
+                                          <label class="form-check-label" for="notification_selfMonthly_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>Subscription Expiring</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfExpiring_sms">
+                                          <label class="form-check-label" for="notification_selfExpiring_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfExpiring_whatsapp">
+                                          <label class="form-check-label" for="notification_selfExpiring_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfExpiring_call">
+                                          <label class="form-check-label" for="notification_selfExpiring_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfExpiring_email">
+                                          <label class="form-check-label" for="notification_selfExpiring_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>Subscription Welcome</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfWelcome_sms">
+                                          <label class="form-check-label" for="notification_selfWelcome_sms">SMS</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfWelcome_whatsapp">
+                                          <label class="form-check-label" for="notification_selfWelcome_whatsapp">Whatsapp</label>
+                                        </div>
+                                        <div class="form-check form-check-inline pr-3">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfWelcome_call">
+                                          <label class="form-check-label" for="notification_selfWelcome_call">Call</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfWelcome_email">
+                                          <label class="form-check-label" for="notification_selfWelcome_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="middle">
+                                    <td>Subscription Broadcast</td>
+                                    <td>
+                                      <div class="d-flex align-items-center justify-content-end">
+                                        <div class="form-check form-check-inline">
+                                          <input class="form-check-input" type="checkbox" name="name_" id="notification_selfBroadCast_email">
+                                          <label class="form-check-label" for="notification_selfBroadCast_email">Email</label>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div class="a-profile__section-btn-wrapper">
+                              <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Save</button>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                       <!-- SECTION account profile notifications :: END-->
                       <!-- account profile notifications :: end-->

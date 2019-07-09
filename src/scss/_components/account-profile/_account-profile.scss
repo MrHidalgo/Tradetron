@@ -38,6 +38,7 @@
 			align-items: center;
 			width: 100%;
 			min-height: 58px;
+			border-bottom: 1px solid #EAEAEA;
 		}
 
 		&-body {
@@ -49,6 +50,10 @@
 			font-weight: 600;
 			font-size: 20px;
 			letter-spacing: 0.47px;
+
+			span {
+				font-weight: normal;
+			}
 		}
 
 		&-btn {
@@ -189,18 +194,62 @@
 
 
 	// notifications
-	&__notifications {}
+	&__notifications {
+		&-table {
+			table {
+				thead {
+					th {
+						border-top: none;
+						border-bottom-width: 1px;
+						font-size: 14px;
+						font-weight: bold;
+					}
+				}
+
+				tbody {
+					tr {
+						&:last-of-type {
+							td {
+								border-bottom: 1px solid #dee2e6;
+							}
+						}
+
+						&.middle {
+							td {
+								vertical-align: middle;
+							}
+						}
+
+						td {
+							&:nth-of-type(1) {
+								white-space: nowrap;
+							}
+						}
+					}
+				}
+			}
+
+			th,
+			td {
+				letter-spacing: 0.27px;
+
+			}
+
+			td {
+				padding-right: 80px;
+				font-size: 16px;
+
+				span {
+					min-width: 80px;
+				}
+			}
+		}
+	}
 	// notifications :: end
 
 
 	// changePassword
 	&__changePassword {
-		.a-profile__section {
-			&-head {
-				border-bottom: 1px solid #EAEAEA;
-			}
-		}
-
 		&-form {
 			width: 100%;
 			max-width: 620px;
