@@ -1,7 +1,133 @@
 // SECTION account profile brokenExchange :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__brokenExchange
+// LIST
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__brokenExchange.a-profile__brokenExchange--list
+	.a-profile__section-head.d-flex.justify-content-between.align-items-center
+		div
+			p.a-profile__section-title!= "List of Brokers"
+		div
+		a.d-flex.align-items-center(href="#" class="" title="")
+			i.icon-font.icon-file-export
+			span.pl-2!= "Export as CSV"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		.table-responsive
+			table.table
+				thead
+					tr
+						th.nowrap(scope='row')!= "Broker Name"
+						th.nowrap(scope='row')!= "Exchanges"
+						th(scope='row')!= "Cash Balance"
+						th(scope='row')!= "Collateral Balance"
+						th(scope='row')!= "Trading Margin"
+						th(scope='row')!= ""
+				tbody
+					-
+						let arr = [
+							'Tradetron Paper Trading',
+							'Mastertrust',
+							'Zerodha',
+							'Interactive Brokers'
+						];
+					each val, idx in [1,2,3,4]
+						tr
+							td!= arr[idx]
+							td NSE-FO, NSE-Cash, MCX
+							td Rs. 2000000
+							td Rs. 2000000
+							td Rs.1230000
+							td
+								div.d-flex.align-items-center
+									a.mr-2(href="#" class="" title="")
+										i.icon-font.icon-pencil-edit
+									a(href="#" class="" title="")
+										i.icon-font.icon-garbage
+
+// MANAGE
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__brokenExchange.a-profile__brokenExchange--manage
 	.a-profile__section-head
-	.a-profile__section-body
+		p.a-profile__section-title!= "Manage Brokers"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		form.a-profile__brokenExchange-form(action='' autocomplete='off')
+			.a-profile__brokenExchange-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_selectBroker")!= "Select Broker"
+						select(class="form-control" name="be_selectBroker" id='be_selectBroker')
+							option 1
+							option 2
+							option 3
+				div
+					.form-group.mb-4
+						label(for= "be_contactPerson")!= "Contact Person"
+						input(type="text" class="form-control" name="be_contactPerson" id='be_contactPerson')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_exchanges")!= "Exchanges"
+						select(class="form-control" name="be_exchanges" id='be_exchanges')
+							option 1
+							option 2
+							option 3
+				div
+					.form-group.mb-4
+						label(for= "be_brokerage_per_lot")!= "Brokerage per lot"
+						input(type="text" class="form-control" name="be_brokerage_per_lot" id='be_brokerage_per_lot')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_brokerage_per_transaction")!= "Brokerage per transaction"
+						input(type="text" class="form-control" name="be_brokerage_per_transaction" id='be_brokerage_per_transaction')
+				div
+					.form-group.mb-4
+						label(for= "be_brokerage_per_month")!= "Brokerage per month"
+						input(type="text" class="form-control" name="be_brokerage_per_month" id='be_brokerage_per_month')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_mobile")!= "Mobile"
+						input(type="text" class="form-control" name="be_mobile" id='be_mobile')
+				div
+					.form-group.mb-4
+						label(for= "be_email_id")!= "Email ID"
+						input(type="text" class="form-control" name="be_email_id" id='be_email_id')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_cash_balance")!= "Cash Balance"
+						input(type="text" class="form-control" name="be_cash_balance" id='be_cash_balance')
+				div
+					.form-group.mb-4
+						label(for= "be_collateral_balance")!= "Collateral Balance"
+						input(type="text" class="form-control" name="be_collateral_balance" id='be_collateral_balance')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "be_trading_margin")!= "Trading Margin"
+						input(type="text" class="form-control" name="be_trading_margin" id='be_trading_margin')
+				div
+
+			p.pt-3.pb-4!= "Connect to Broker"
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-5
+						label(for= "be_user_id")!= "User ID"
+						input(type="text" class="form-control" name="be_user_id" id='be_user_id')
+				div
+					.form-group.mb-5
+						label(for= "be_password")!= "Password"
+						input(type="text" class="form-control" name="be_password" id='be_password')
+
+			.a-profile__section-btn-wrapper
+				button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Save"
 
 // SECTION account profile brokenExchange :: END

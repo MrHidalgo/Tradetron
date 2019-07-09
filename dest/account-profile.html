@@ -303,14 +303,193 @@
                       <!-- account profile subscriptions :: end-->
                       <!-- account profile brokenExchange-->
                       <!-- SECTION account profile brokenExchange :: START-->
-                      <div class="a-profile__section d-flex flex-column p-3 a-profile__brokenExchange">
-                        <div class="a-profile__section-head"></div>
-                        <div class="a-profile__section-body"></div>
+                      <!-- LIST-->
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__brokenExchange a-profile__brokenExchange--list">
+                        <div class="a-profile__section-head d-flex justify-content-between align-items-center">
+                          <div>
+                            <p class="a-profile__section-title">List of Brokers</p>
+                          </div>
+                          <div></div><a class="d-flex align-items-center" href="#" title=""><i class="icon-font icon-file-export"></i><span class="pl-2">Export as CSV</span></a>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th class="nowrap" scope="row">Broker Name</th>
+                                  <th class="nowrap" scope="row">Exchanges</th>
+                                  <th scope="row">Cash Balance</th>
+                                  <th scope="row">Collateral Balance</th>
+                                  <th scope="row">Trading Margin</th>
+                                  <th scope="row"></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Tradetron Paper Trading</td>
+                                  <td>NSE-FO, NSE-Cash, MCX</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs.1230000</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Mastertrust</td>
+                                  <td>NSE-FO, NSE-Cash, MCX</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs.1230000</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Zerodha</td>
+                                  <td>NSE-FO, NSE-Cash, MCX</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs.1230000</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Interactive Brokers</td>
+                                  <td>NSE-FO, NSE-Cash, MCX</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs. 2000000</td>
+                                  <td>Rs.1230000</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- MANAGE-->
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__brokenExchange a-profile__brokenExchange--manage">
+                        <div class="a-profile__section-head">
+                          <p class="a-profile__section-title">Manage Brokers</p>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <form class="a-profile__brokenExchange-form" action="" autocomplete="off">
+                            <div class="a-profile__brokenExchange-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_selectBroker">Select Broker</label>
+                                  <select class="form-control" name="be_selectBroker" id="be_selectBroker">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_contactPerson">Contact Person</label>
+                                  <input class="form-control" type="text" name="be_contactPerson" id="be_contactPerson">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_exchanges">Exchanges</label>
+                                  <select class="form-control" name="be_exchanges" id="be_exchanges">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_brokerage_per_lot">Brokerage per lot</label>
+                                  <input class="form-control" type="text" name="be_brokerage_per_lot" id="be_brokerage_per_lot">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_brokerage_per_transaction">Brokerage per transaction</label>
+                                  <input class="form-control" type="text" name="be_brokerage_per_transaction" id="be_brokerage_per_transaction">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_brokerage_per_month">Brokerage per month</label>
+                                  <input class="form-control" type="text" name="be_brokerage_per_month" id="be_brokerage_per_month">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_mobile">Mobile</label>
+                                  <input class="form-control" type="text" name="be_mobile" id="be_mobile">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_email_id">Email ID</label>
+                                  <input class="form-control" type="text" name="be_email_id" id="be_email_id">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_cash_balance">Cash Balance</label>
+                                  <input class="form-control" type="text" name="be_cash_balance" id="be_cash_balance">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_collateral_balance">Collateral Balance</label>
+                                  <input class="form-control" type="text" name="be_collateral_balance" id="be_collateral_balance">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="be_trading_margin">Trading Margin</label>
+                                  <input class="form-control" type="text" name="be_trading_margin" id="be_trading_margin">
+                                </div>
+                              </div>
+                              <div></div>
+                            </div>
+                            <p class="pt-3 pb-4">Connect to Broker</p>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-5">
+                                  <label for="be_user_id">User ID</label>
+                                  <input class="form-control" type="text" name="be_user_id" id="be_user_id">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-5">
+                                  <label for="be_password">Password</label>
+                                  <input class="form-control" type="text" name="be_password" id="be_password">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__section-btn-wrapper">
+                              <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Save</button>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                       <!-- SECTION account profile brokenExchange :: END-->
                       <!-- account profile brokenExchange :: end-->
                       <!-- account profile coupons-->
                       <!-- SECTION account profile coupons :: START-->
+                      <!-- CREATE-->
                       <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__coupons a-profile__coupons--create">
                         <div class="a-profile__section-head">
                           <p class="a-profile__section-title">Create Coupons <span>(You can give them to your subscribers for a discounted pricing)</span></p>
@@ -321,13 +500,13 @@
                               <div>
                                 <div class="form-group mb-4">
                                   <label for="coupons_name">Coupon name</label>
-                                  <input class="form-control" type="email" name="coupons_name" id="coupons_name">
+                                  <input class="form-control" type="text" name="coupons_name" id="coupons_name">
                                 </div>
                               </div>
                               <div>
                                 <div class="form-group mb-4">
                                   <label for="coupons_number">Coupon number</label>
-                                  <input class="form-control" type="email" name="coupons_number" id="coupons_number">
+                                  <input class="form-control" type="text" name="coupons_number" id="coupons_number">
                                 </div>
                               </div>
                             </div>
@@ -345,7 +524,7 @@
                               <div>
                                 <div class="form-group mb-4">
                                   <label for="coupons_total">Total number of coupons</label>
-                                  <input class="form-control" type="email" name="coupons_total" id="coupons_total">
+                                  <input class="form-control" type="text" name="coupons_total" id="coupons_total">
                                 </div>
                               </div>
                             </div>
@@ -353,13 +532,13 @@
                               <div>
                                 <div class="form-group mb-5">
                                   <label for="coupon_startDate">Start date</label>
-                                  <input class="form-control" type="email" name="coupon_startDate" id="coupon_startDate">
+                                  <input class="form-control" type="text" name="coupon_startDate" id="coupon_startDate">
                                 </div>
                               </div>
                               <div>
                                 <div class="form-group mb-5">
                                   <label for="coupon_endDate">End date</label>
-                                  <input class="form-control" type="email" name="coupon_endDate" id="coupon_endDate">
+                                  <input class="form-control" type="text" name="coupon_endDate" id="coupon_endDate">
                                 </div>
                               </div>
                             </div>
