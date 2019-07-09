@@ -1,6 +1,7 @@
 // SECTION strategy profile :: START
 
 .s-profile {
+	padding-top: 120px;
 
 	.main__wrapper {
 		z-index: 1;
@@ -131,10 +132,10 @@
 		&-profile {
 			> div {
 				&:nth-of-type(1) {
-					width: 105px;
-					@include adaptive(767) {
-						width: 0;
-					}
+					//width: 105px;
+					//@include adaptive(767) {
+					//	width: 0;
+					//}
 				}
 				&:nth-of-type(2) {
 					flex: 1;
@@ -363,6 +364,17 @@
 		&-head {
 			.icon-file-export {
 				font-size: 24px;
+			}
+		}
+
+		&-body {
+			.form-group {
+				@include adaptive(991) {
+					max-width: 240px;
+				}
+				@include adaptive(767) {
+					max-width: 100%;
+				}
 			}
 		}
 
