@@ -311,9 +311,145 @@
                       <!-- account profile brokenExchange :: end-->
                       <!-- account profile coupons-->
                       <!-- SECTION account profile coupons :: START-->
-                      <div class="a-profile__section d-flex flex-column p-3 a-profile__coupons">
-                        <div class="a-profile__section-head"></div>
-                        <div class="a-profile__section-body"></div>
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__coupons a-profile__coupons--create">
+                        <div class="a-profile__section-head">
+                          <p class="a-profile__section-title">Create Coupons <span>(You can give them to your subscribers for a discounted pricing)</span></p>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <form class="a-profile__coupons-form" action="" autocomplete="off">
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="coupons_name">Coupon name</label>
+                                  <input class="form-control" type="email" name="coupons_name" id="coupons_name">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="coupons_number">Coupon number</label>
+                                  <input class="form-control" type="email" name="coupons_number" id="coupons_number">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="coupons_discount">Discount Amt/%</label>
+                                  <select class="form-control" name="coupons_discount" id="coupons_discount">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="coupons_total">Total number of coupons</label>
+                                  <input class="form-control" type="email" name="coupons_total" id="coupons_total">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__coupons-form-group">
+                              <div>
+                                <div class="form-group mb-5">
+                                  <label for="coupon_startDate">Start date</label>
+                                  <input class="form-control" type="email" name="coupon_startDate" id="coupon_startDate">
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group mb-5">
+                                  <label for="coupon_endDate">End date</label>
+                                  <input class="form-control" type="email" name="coupon_endDate" id="coupon_endDate">
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__section-btn-wrapper">
+                              <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Add</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <!-- LIST-->
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__coupons a-profile__coupons--list">
+                        <div class="a-profile__section-head">
+                          <p class="a-profile__section-title">Coupons List</p>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th class="nowrap" scope="row">Name</th>
+                                  <th class="nowrap" scope="row">Discount Amt</th>
+                                  <th class="nowrap" scope="row">Start Date</th>
+                                  <th class="nowrap" scope="row">End Date</th>
+                                  <th class="nowrap" scope="row">Total No</th>
+                                  <th class="nowrap" scope="row">Used</th>
+                                  <th class="nowrap" scope="row">Disabled</th>
+                                  <th class="nowrap" scope="row"></th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Lorem Ipsum dolor</td>
+                                  <td>10%</td>
+                                  <td>01 May 2019</td>
+                                  <td>01 May 2019</td>
+                                  <td>10</td>
+                                  <td>3</td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" name="name_" id="coupons_disabled">
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-file"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Lorem Ipsum dolor</td>
+                                  <td>10%</td>
+                                  <td>01 May 2019</td>
+                                  <td>01 May 2019</td>
+                                  <td>10</td>
+                                  <td>3</td>
+                                  <td>
+                                    <div class="form-check form-check-inline">
+                                      <input class="form-check-input" type="checkbox" name="name_" id="coupons_disabled">
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-file"></i></a></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- DETAILS-->
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__coupons a-profile__coupons--details">
+                        <div class="a-profile__section-head">
+                          <p class="a-profile__section-title">Usage Details</p>
+                        </div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th class="nowrap" scope="row">Date</th>
+                                  <th class="nowrap" scope="row">Coupon Number</th>
+                                  <th class="nowrap" scope="row">Name</th>
+                                  <th class="nowrap" scope="row">Amount Details</th>
+                                  <th class="nowrap" scope="row">Edit/Delete</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr></tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
                       </div>
                       <!-- SECTION account profile coupons :: END-->
                       <!-- account profile coupons :: end-->

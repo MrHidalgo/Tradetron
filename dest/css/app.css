@@ -176,7 +176,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share-1:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-wallet1:before, .icon-warning:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-pencil-edit:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share-1:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-wallet1:before, .icon-warning:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,399 +187,404 @@
   text-transform: none;
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-bar-chart:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-bell:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-calculator:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-calendar:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-cancel:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-chart:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-check:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-checklist:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-chip:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-clock:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-close:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-comment:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-controls:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-copy:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-corner:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-cvs:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-deadline:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-desktop:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-diagram:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-duplicate:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-edit:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-email:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-envelope:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-envelope1:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-facebook:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-favorites:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-file-2:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-file-export:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-file:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-filter:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-garbage:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-google-plus:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-graphene:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-hand:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-heart-fill:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-heart:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-id-card:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-idea:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-information:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-innovation:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-internet:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-key:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-layers:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-line-chart:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-link:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-linkedin:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-maze:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-money:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
+/* line 275, src/scss/_generated/_spriteFont.scss */
 .icon-more:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-photo-camera:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-pencil-edit:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-photo-camera:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-share-1:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-share-1:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-wallet1:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-warning:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-wallet1:before {
   content: "";
 }
 
-/* line 272, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-warning:before {
   content: "";
+}
+
+/* line 275, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -1051,12 +1056,13 @@ picture {
 
 /* line 196, src/scss/_shared/_common.scss */
 .form-group label {
+  padding-bottom: 5px;
   font-weight: 600;
   font-size: 14px;
   color: #333333;
 }
 
-/* line 202, src/scss/_shared/_common.scss */
+/* line 203, src/scss/_shared/_common.scss */
 .form-group input {
   outline: none;
   height: 45px;
@@ -1069,14 +1075,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 211, src/scss/_shared/_common.scss */
+/* line 212, src/scss/_shared/_common.scss */
 .form-group input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 217, src/scss/_shared/_common.scss */
+/* line 218, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 45px;
@@ -1089,24 +1095,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 226, src/scss/_shared/_common.scss */
+/* line 227, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 236, src/scss/_shared/_common.scss */
+/* line 237, src/scss/_shared/_common.scss */
 .tooltip.show {
   opacity: 1;
 }
 
-/* line 241, src/scss/_shared/_common.scss */
+/* line 242, src/scss/_shared/_common.scss */
 .tooltip .arrow:before {
   border-top-color: #fff;
 }
 
-/* line 246, src/scss/_shared/_common.scss */
+/* line 247, src/scss/_shared/_common.scss */
 .tooltip-inner {
   opacity: 1;
   padding: 15px;
@@ -1119,7 +1125,7 @@ picture {
   text-align: left;
 }
 
-/* line 260, src/scss/_shared/_common.scss */
+/* line 261, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1171,7 +1177,7 @@ picture {
   }
 }
 
-/* line 282, src/scss/_shared/_common.scss */
+/* line 283, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1179,7 +1185,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 286, src/scss/_shared/_common.scss */
+/* line 287, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -11004,15 +11010,17 @@ picture {
 
 /* line 54, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-title span {
+  vertical-align: middle;
+  font-size: 16px;
   font-weight: normal;
 }
 
-/* line 59, src/scss/_components/account-profile/_account-profile.scss */
+/* line 61, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-btn {
   max-width: 180px;
 }
 
-/* line 62, src/scss/_components/account-profile/_account-profile.scss */
+/* line 64, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-btn-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11024,13 +11032,13 @@ picture {
           justify-content: center;
 }
 
-/* line 71, src/scss/_components/account-profile/_account-profile.scss */
+/* line 73, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 76, src/scss/_components/account-profile/_account-profile.scss */
+/* line 78, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn.is-active .icon-font,
 .a-profile__menu-btn.is-active p {
   color: #6772e5;
@@ -11039,7 +11047,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 86, src/scss/_components/account-profile/_account-profile.scss */
+/* line 88, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn--dropdown > a > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11052,12 +11060,12 @@ picture {
   width: 35px;
 }
 
-/* line 97, src/scss/_components/account-profile/_account-profile.scss */
+/* line 99, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(1) {
   width: 35px;
 }
 
-/* line 101, src/scss/_components/account-profile/_account-profile.scss */
+/* line 103, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11067,7 +11075,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 108, src/scss/_components/account-profile/_account-profile.scss */
+/* line 110, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a p {
   font-weight: 500;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11075,7 +11083,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 113, src/scss/_components/account-profile/_account-profile.scss */
+/* line 115, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font {
   font-size: 20px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11083,7 +11091,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 117, src/scss/_components/account-profile/_account-profile.scss */
+/* line 119, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font.icon-corner {
   width: 8px;
   -webkit-transform: rotate(-90deg);
@@ -11092,7 +11100,7 @@ picture {
   font-size: 8px;
 }
 
-/* line 126, src/scss/_components/account-profile/_account-profile.scss */
+/* line 128, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop {
   display: none;
   width: -webkit-calc(100% + 2rem);
@@ -11101,7 +11109,7 @@ picture {
   padding-top: 10px;
 }
 
-/* line 132, src/scss/_components/account-profile/_account-profile.scss */
+/* line 134, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11117,7 +11125,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 138, src/scss/_components/account-profile/_account-profile.scss */
+/* line 140, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a.is-active {
   background-color: #6772e5;
   color: #ffffff;
@@ -11126,13 +11134,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 145, src/scss/_components/account-profile/_account-profile.scss */
+/* line 147, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(1) {
   width: -webkit-calc(35px + 1rem);
   width: calc(35px + 1rem);
 }
 
-/* line 149, src/scss/_components/account-profile/_account-profile.scss */
+/* line 151, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11142,8 +11150,13 @@ picture {
   max-width: 100%;
 }
 
+/* line 196, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons table .nowrap {
+  white-space: nowrap;
+}
+
 /* line 201, src/scss/_components/account-profile/_account-profile.scss */
-.a-profile__notifications-table table thead th {
+.a-profile__coupons table thead th {
   border-top: none;
   border-bottom-width: 1px;
   font-size: 14px;
@@ -11151,38 +11164,93 @@ picture {
 }
 
 /* line 212, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons table tbody tr:last-of-type td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* line 219, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons table tbody td {
+  font-size: 16px;
+}
+
+/* line 225, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons-form {
+  width: 100%;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 231, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons-form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 235, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons-form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 20px) / 2);
+  max-width: calc((100% - 20px) / 2);
+}
+
+/* line 249, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__notifications-table table .nowrap {
+  white-space: nowrap;
+}
+
+/* line 254, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__notifications-table table thead th {
+  border-top: none;
+  border-bottom-width: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 265, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 218, src/scss/_components/account-profile/_account-profile.scss */
+/* line 271, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr.middle td {
   vertical-align: middle;
 }
 
-/* line 224, src/scss/_components/account-profile/_account-profile.scss */
+/* line 276, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__notifications-table table tbody tr td {
+  font-size: 16px;
+}
+
+/* line 279, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr td:nth-of-type(1) {
   white-space: nowrap;
 }
 
-/* line 232, src/scss/_components/account-profile/_account-profile.scss */
+/* line 287, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table th,
 .a-profile__notifications-table td {
   letter-spacing: 0.27px;
 }
 
-/* line 238, src/scss/_components/account-profile/_account-profile.scss */
+/* line 293, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td {
   padding-right: 80px;
   font-size: 16px;
 }
 
-/* line 242, src/scss/_components/account-profile/_account-profile.scss */
+/* line 297, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td span {
   min-width: 80px;
 }
 
-/* line 253, src/scss/_components/account-profile/_account-profile.scss */
+/* line 308, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form {
   width: 100%;
   max-width: 620px;
@@ -11190,7 +11258,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 259, src/scss/_components/account-profile/_account-profile.scss */
+/* line 314, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11202,7 +11270,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 263, src/scss/_components/account-profile/_account-profile.scss */
+/* line 318, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);

@@ -1,7 +1,104 @@
 // SECTION account profile coupons :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__coupons
+// CREATE
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__coupons.a-profile__coupons--create
 	.a-profile__section-head
-	.a-profile__section-body
+		p.a-profile__section-title!= "Create Coupons <span>(You can give them to your subscribers for a discounted pricing)</span>"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		form.a-profile__coupons-form(action='' autocomplete='off')
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "coupons_name")!= "Coupon name"
+						input(type="email" class="form-control" name="coupons_name" id='coupons_name')
+				div
+					.form-group.mb-4
+						label(for= "coupons_number")!= "Coupon number"
+						input(type="email" class="form-control" name="coupons_number" id='coupons_number')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-4
+						label(for= "coupons_discount")!= "Discount Amt/%"
+						select(class="form-control" name="coupons_discount" id='coupons_discount')
+							option 1
+							option 2
+							option 3
+				div
+					.form-group.mb-4
+						label(for= "coupons_total")!= "Total number of coupons"
+						input(type="email" class="form-control" name="coupons_total" id='coupons_total')
+
+			.a-profile__coupons-form-group
+				div
+					.form-group.mb-5
+						label(for= "coupon_startDate")!= "Start date"
+						input(type="email" class="form-control" name="coupon_startDate" id='coupon_startDate')
+				div
+					.form-group.mb-5
+						label(for= "coupon_endDate")!= "End date"
+						input(type="email" class="form-control" name="coupon_endDate" id='coupon_endDate')
+
+			.a-profile__section-btn-wrapper
+				button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Add"
+
+// LIST
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__coupons.a-profile__coupons--list
+	.a-profile__section-head
+		p.a-profile__section-title!= "Coupons List"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		.table-responsive
+			table.table
+				thead
+					tr
+						th.nowrap(scope='row')!= "Name"
+						th.nowrap(scope='row')!= "Discount Amt"
+						th.nowrap(scope='row')!= "Start Date"
+						th.nowrap(scope='row')!= "End Date"
+						th.nowrap(scope='row')!= "Total No"
+						th.nowrap(scope='row')!= "Used"
+						th.nowrap(scope='row')!= "Disabled"
+						th.nowrap(scope='row')!= ""
+				tbody
+					each val, idx in [1,2]
+						tr
+							td Lorem Ipsum dolor
+							td 10%
+							td 01 May 2019
+							td 01 May 2019
+							td 10
+							td 3
+							td
+								.form-check.form-check-inline
+									input(class="form-check-input" type="checkbox" name="name_" id="coupons_disabled")
+							td
+								div.d-flex.align-items-center
+									a.mr-2(href="#" class="" title="")
+										i.icon-font.icon-pencil-edit
+									a(href="#" class="" title="")
+										i.icon-font.icon-file
+
+// DETAILS
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__coupons.a-profile__coupons--details
+	.a-profile__section-head
+		p.a-profile__section-title!= "Usage Details"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		.table-responsive
+			table.table
+				thead
+					tr
+						th.nowrap(scope='row')!= "Date"
+						th.nowrap(scope='row')!= "Coupon Number"
+						th.nowrap(scope='row')!= "Name"
+						th.nowrap(scope='row')!= "Amount Details"
+						th.nowrap(scope='row')!= "Edit/Delete"
+				tbody
+					tr
 
 // SECTION account profile coupons :: END

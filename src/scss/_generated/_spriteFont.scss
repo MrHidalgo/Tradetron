@@ -186,83 +186,86 @@
 	@if $filename == more {
 		$char: "\E035";
 	}
-	@if $filename == photo-camera {
+	@if $filename == pencil-edit {
 		$char: "\E036";
 	}
-	@if $filename == photos {
+	@if $filename == photo-camera {
 		$char: "\E037";
 	}
-	@if $filename == plus {
+	@if $filename == photos {
 		$char: "\E038";
 	}
-	@if $filename == puzzle {
+	@if $filename == plus {
 		$char: "\E039";
 	}
-	@if $filename == safebox {
+	@if $filename == puzzle {
 		$char: "\E03A";
 	}
-	@if $filename == search {
+	@if $filename == safebox {
 		$char: "\E03B";
 	}
-	@if $filename == settings {
+	@if $filename == search {
 		$char: "\E03C";
 	}
-	@if $filename == share-1 {
+	@if $filename == settings {
 		$char: "\E03D";
 	}
-	@if $filename == share {
+	@if $filename == share-1 {
 		$char: "\E03E";
 	}
-	@if $filename == shield {
+	@if $filename == share {
 		$char: "\E03F";
 	}
-	@if $filename == signin {
+	@if $filename == shield {
 		$char: "\E040";
 	}
-	@if $filename == smartphone {
+	@if $filename == signin {
 		$char: "\E041";
 	}
-	@if $filename == star-fill {
+	@if $filename == smartphone {
 		$char: "\E042";
 	}
-	@if $filename == star {
+	@if $filename == star-fill {
 		$char: "\E043";
 	}
-	@if $filename == stop {
+	@if $filename == star {
 		$char: "\E044";
 	}
-	@if $filename == stopwatch {
+	@if $filename == stop {
 		$char: "\E045";
 	}
-	@if $filename == success {
+	@if $filename == stopwatch {
 		$char: "\E046";
 	}
-	@if $filename == twitter {
+	@if $filename == success {
 		$char: "\E047";
 	}
-	@if $filename == upload {
+	@if $filename == twitter {
 		$char: "\E048";
 	}
-	@if $filename == user-profile {
+	@if $filename == upload {
 		$char: "\E049";
 	}
-	@if $filename == user {
+	@if $filename == user-profile {
 		$char: "\E04A";
 	}
-	@if $filename == users {
+	@if $filename == user {
 		$char: "\E04B";
 	}
-	@if $filename == wallet {
+	@if $filename == users {
 		$char: "\E04C";
 	}
-	@if $filename == wallet1 {
+	@if $filename == wallet {
 		$char: "\E04D";
 	}
-	@if $filename == warning {
+	@if $filename == wallet1 {
 		$char: "\E04E";
 	}
-	@if $filename == workflow {
+	@if $filename == warning {
 		$char: "\E04F";
+	}
+	@if $filename == workflow {
+		$char: "\E050";
 	}
 
 	@return $char;
@@ -489,6 +492,10 @@
 }
 .icon-more {
 	@include icon(more);
+
+}
+.icon-pencil-edit {
+	@include icon(pencil-edit);
 
 }
 .icon-photo-camera {

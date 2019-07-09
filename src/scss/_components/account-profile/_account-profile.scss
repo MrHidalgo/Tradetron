@@ -52,6 +52,8 @@
 			letter-spacing: 0.47px;
 
 			span {
+				vertical-align: middle;
+				font-size: 16px;
 				font-weight: normal;
 			}
 		}
@@ -189,7 +191,54 @@
 
 
 	// coupons
-	&__coupons {}
+	&__coupons {
+		table {
+			.nowrap {
+				white-space: nowrap;
+			}
+
+			thead {
+				th {
+					border-top: none;
+					border-bottom-width: 1px;
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+
+			tbody {
+				tr {
+					&:last-of-type {
+						td {
+							border-bottom: 1px solid #dee2e6;
+						}
+					}
+
+				}
+
+				td {
+					font-size: 16px;
+				}
+			}
+		}
+
+		&-form {
+			width: 100%;
+			max-width: 620px;
+			margin-left: auto;
+			margin-right: auto;
+
+			&-group {
+				display: flex;
+				justify-content: space-between;
+
+				> div {
+					width: 100%;
+					max-width: calc((100% - 20px) / 2);
+				}
+			}
+		}
+	}
 	// coupons :: end
 
 
@@ -197,6 +246,10 @@
 	&__notifications {
 		&-table {
 			table {
+				.nowrap {
+					white-space: nowrap;
+				}
+
 				thead {
 					th {
 						border-top: none;
@@ -221,6 +274,8 @@
 						}
 
 						td {
+							font-size: 16px;
+
 							&:nth-of-type(1) {
 								white-space: nowrap;
 							}
