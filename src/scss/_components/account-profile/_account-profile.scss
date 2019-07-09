@@ -1,6 +1,8 @@
 // SECTION account profile :: START
 
 .a-profile {
+	padding-bottom: 120px;
+
 	.main__wrapper {
 		z-index: 2;
 		position: relative;
@@ -18,16 +20,44 @@
 			flex: 1;
 			min-width: 1px;
 			max-width: 100%;
+
+			> div {
+				min-height: 1200px;
+			}
 		}
 	}
 
 	&__section {
+		margin-bottom: 30px;
 		border-radius: 6px;
 		background-color: #ffffff;
 		box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
 
 		&-head {
+			display: flex;
+			align-items: center;
+			width: 100%;
 			min-height: 58px;
+		}
+
+		&-body {
+			width: 100%;
+			min-height: 100%;
+		}
+
+		&-title {
+			font-weight: 600;
+			font-size: 20px;
+			letter-spacing: 0.47px;
+		}
+
+		&-btn {
+			max-width: 180px;
+
+			&-wrapper {
+				display: flex;
+				justify-content: center;
+			}
 		}
 	}
 
@@ -121,6 +151,74 @@
 		}
 	}
 	// menu :: end
+
+
+	// profile
+	&__profile {}
+	// profile :: end
+
+
+	// ledger
+	&__ledger {}
+	// ledger :: end
+
+
+	// addFunds
+	&__addFunds {}
+	// addFunds :: end
+
+
+	// withdrawFunds
+	&__withdrawFunds {}
+	// withdrawFunds :: end
+
+
+	// subscriptions
+	&__subscriptions {}
+	// subscriptions :: end
+
+
+	// brokenExchange
+	&__brokenExchange {}
+	// brokenExchange :: end
+
+
+	// coupons
+	&__coupons {}
+	// coupons :: end
+
+
+	// notifications
+	&__notifications {}
+	// notifications :: end
+
+
+	// changePassword
+	&__changePassword {
+		.a-profile__section {
+			&-head {
+				border-bottom: 1px solid #EAEAEA;
+			}
+		}
+
+		&-form {
+			width: 100%;
+			max-width: 620px;
+			margin-left: auto;
+			margin-right: auto;
+
+			&-group {
+				display: flex;
+				justify-content: space-between;
+
+				> div {
+					width: 100%;
+					max-width: calc((100% - 20px) / 2);
+				}
+			}
+		}
+	}
+	// changePassword :: end
 }
 
 // SECTION account profile :: END

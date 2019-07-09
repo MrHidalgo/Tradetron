@@ -1069,7 +1069,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 212, src/scss/_shared/_common.scss */
+/* line 211, src/scss/_shared/_common.scss */
+.form-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: rgba(185, 185, 185, 0.3);
+}
+
+/* line 217, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 45px;
@@ -1082,24 +1089,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 221, src/scss/_shared/_common.scss */
+/* line 226, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 231, src/scss/_shared/_common.scss */
+/* line 236, src/scss/_shared/_common.scss */
 .tooltip.show {
   opacity: 1;
 }
 
-/* line 236, src/scss/_shared/_common.scss */
+/* line 241, src/scss/_shared/_common.scss */
 .tooltip .arrow:before {
   border-top-color: #fff;
 }
 
-/* line 241, src/scss/_shared/_common.scss */
+/* line 246, src/scss/_shared/_common.scss */
 .tooltip-inner {
   opacity: 1;
   padding: 15px;
@@ -1112,7 +1119,7 @@ picture {
   text-align: left;
 }
 
-/* line 255, src/scss/_shared/_common.scss */
+/* line 260, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1164,7 +1171,7 @@ picture {
   }
 }
 
-/* line 277, src/scss/_shared/_common.scss */
+/* line 282, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1172,7 +1179,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 281, src/scss/_shared/_common.scss */
+/* line 286, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -10917,13 +10924,18 @@ picture {
   letter-spacing: 0.47px;
 }
 
-/* line 4, src/scss/_components/account-profile/_account-profile.scss */
+/* line 3, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile {
+  padding-bottom: 120px;
+}
+
+/* line 6, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile .main__wrapper {
   z-index: 2;
   position: relative;
 }
 
-/* line 9, src/scss/_components/account-profile/_account-profile.scss */
+/* line 11, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10931,13 +10943,13 @@ picture {
   display: flex;
 }
 
-/* line 12, src/scss/_components/account-profile/_account-profile.scss */
+/* line 14, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__wrapper-left {
   width: 250px;
   padding-right: 30px;
 }
 
-/* line 17, src/scss/_components/account-profile/_account-profile.scss */
+/* line 19, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10948,7 +10960,13 @@ picture {
 }
 
 /* line 24, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__wrapper-right > div {
+  min-height: 1200px;
+}
+
+/* line 30, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section {
+  margin-bottom: 30px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
   background-color: #ffffff;
@@ -10956,18 +10974,57 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 29, src/scss/_components/account-profile/_account-profile.scss */
+/* line 36, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
   min-height: 58px;
 }
 
-/* line 36, src/scss/_components/account-profile/_account-profile.scss */
+/* line 43, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__section-body {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* line 48, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__section-title {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.47px;
+}
+
+/* line 54, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__section-btn {
+  max-width: 180px;
+}
+
+/* line 57, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__section-btn-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* line 66, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 41, src/scss/_components/account-profile/_account-profile.scss */
+/* line 71, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn.is-active .icon-font,
 .a-profile__menu-btn.is-active p {
   color: #6772e5;
@@ -10976,7 +11033,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 51, src/scss/_components/account-profile/_account-profile.scss */
+/* line 81, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn--dropdown > a > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10989,12 +11046,12 @@ picture {
   width: 35px;
 }
 
-/* line 62, src/scss/_components/account-profile/_account-profile.scss */
+/* line 92, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(1) {
   width: 35px;
 }
 
-/* line 66, src/scss/_components/account-profile/_account-profile.scss */
+/* line 96, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11004,7 +11061,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 73, src/scss/_components/account-profile/_account-profile.scss */
+/* line 103, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a p {
   font-weight: 500;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11012,7 +11069,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 78, src/scss/_components/account-profile/_account-profile.scss */
+/* line 108, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font {
   font-size: 20px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11020,7 +11077,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 82, src/scss/_components/account-profile/_account-profile.scss */
+/* line 112, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font.icon-corner {
   width: 8px;
   -webkit-transform: rotate(-90deg);
@@ -11029,7 +11086,7 @@ picture {
   font-size: 8px;
 }
 
-/* line 91, src/scss/_components/account-profile/_account-profile.scss */
+/* line 121, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop {
   display: none;
   width: -webkit-calc(100% + 2rem);
@@ -11038,7 +11095,7 @@ picture {
   padding-top: 10px;
 }
 
-/* line 97, src/scss/_components/account-profile/_account-profile.scss */
+/* line 127, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11054,7 +11111,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 103, src/scss/_components/account-profile/_account-profile.scss */
+/* line 133, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a.is-active {
   background-color: #6772e5;
   color: #ffffff;
@@ -11063,13 +11120,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 110, src/scss/_components/account-profile/_account-profile.scss */
+/* line 140, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(1) {
   width: -webkit-calc(35px + 1rem);
   width: calc(35px + 1rem);
 }
 
-/* line 114, src/scss/_components/account-profile/_account-profile.scss */
+/* line 144, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11077,6 +11134,38 @@ picture {
           flex: 1;
   min-width: 1px;
   max-width: 100%;
+}
+
+/* line 199, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__changePassword .a-profile__section-head {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* line 204, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__changePassword-form {
+  width: 100%;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 210, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__changePassword-form-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/* line 214, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__changePassword-form-group > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 20px) / 2);
+  max-width: calc((100% - 20px) / 2);
 }
 
 /*# sourceMappingURL=maps/app.css.map */

@@ -207,6 +207,11 @@
 		border-radius: 6px;
 		border: solid 1px rgba(185, 185, 185, 0.3);
 		background-color: #ffffff;
+
+		&:focus {
+			box-shadow: none;
+			border-color: rgba(185, 185, 185, 0.3);
+		}
 	}
 
 	select {

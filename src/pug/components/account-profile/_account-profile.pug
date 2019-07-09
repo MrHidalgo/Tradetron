@@ -23,11 +23,43 @@ section#a-profile.main.a-profile.position-relative
 
 
 						.a-profile__wrapper-right
+							div
 
-							.a-profile__section.d-flex.p-3
-								.a-profile__section-head
-								.a-profile__section-body
+								// account profile
+								include _account-profile--profile
+								// account profile :: end
 
+								// account profile ledger
+								include _account-profile--ledger
+								// account profile ledger :: end
+
+								// account profile addFunds
+								include _account-profile--addFunds
+								// account profile addFunds :: end
+
+								// account profile withdrawFunds
+								include _account-profile--withdrawFunds
+								// account profile withdrawFunds :: end
+
+								// account profile subscriptions
+								include _account-profile--subscriptions
+								// account profile subscriptions :: end
+
+								// account profile brokenExchange
+								include _account-profile--brokenExchange
+								// account profile brokenExchange :: end
+
+								// account profile coupons
+								include _account-profile--coupons
+								// account profile coupons :: end
+
+								// account profile notifications
+								include _account-profile--notifications
+								// account profile notifications :: end
+
+								// account profile changePassword
+								include _account-profile--changePassword
+								// account profile changePassword :: end
 
 	.main__bg.main__bg-1.position-absolute.w-100.h-100
 		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
