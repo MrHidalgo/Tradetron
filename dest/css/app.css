@@ -10985,7 +10985,22 @@ picture {
   padding-right: 30px;
 }
 
-/* line 20, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 15, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__wrapper-left {
+    width: 230px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 15, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__wrapper-left {
+    display: none;
+  }
+}
+
+/* line 27, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -10995,12 +11010,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 25, src/scss/_components/account-profile/_account-profile.scss */
+/* line 32, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__wrapper-right > div {
   min-height: 1200px;
 }
 
-/* line 31, src/scss/_components/account-profile/_account-profile.scss */
+/* line 38, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section {
   margin-bottom: 30px;
   -webkit-border-radius: 6px;
@@ -11010,7 +11025,7 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 37, src/scss/_components/account-profile/_account-profile.scss */
+/* line 44, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-head {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11025,32 +11040,32 @@ picture {
   border-bottom: 1px solid #EAEAEA;
 }
 
-/* line 45, src/scss/_components/account-profile/_account-profile.scss */
+/* line 52, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-body {
   width: 100%;
   min-height: 100%;
 }
 
-/* line 50, src/scss/_components/account-profile/_account-profile.scss */
+/* line 57, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-title {
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.47px;
 }
 
-/* line 55, src/scss/_components/account-profile/_account-profile.scss */
+/* line 62, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-title span {
   vertical-align: middle;
   font-size: 16px;
   font-weight: normal;
 }
 
-/* line 62, src/scss/_components/account-profile/_account-profile.scss */
+/* line 69, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-btn {
   max-width: 180px;
 }
 
-/* line 65, src/scss/_components/account-profile/_account-profile.scss */
+/* line 72, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__section-btn-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11062,13 +11077,13 @@ picture {
           justify-content: center;
 }
 
-/* line 74, src/scss/_components/account-profile/_account-profile.scss */
+/* line 81, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 79, src/scss/_components/account-profile/_account-profile.scss */
+/* line 86, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn.is-active .icon-font,
 .a-profile__menu-btn.is-active p {
   color: #6772e5;
@@ -11077,7 +11092,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 89, src/scss/_components/account-profile/_account-profile.scss */
+/* line 96, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn--dropdown > a > div:nth-of-type(3) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11090,12 +11105,12 @@ picture {
   width: 35px;
 }
 
-/* line 100, src/scss/_components/account-profile/_account-profile.scss */
+/* line 107, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(1) {
   width: 35px;
 }
 
-/* line 104, src/scss/_components/account-profile/_account-profile.scss */
+/* line 111, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11105,7 +11120,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 111, src/scss/_components/account-profile/_account-profile.scss */
+/* line 118, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a p {
   font-weight: 500;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11113,7 +11128,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 116, src/scss/_components/account-profile/_account-profile.scss */
+/* line 123, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font {
   font-size: 20px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -11121,7 +11136,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 120, src/scss/_components/account-profile/_account-profile.scss */
+/* line 127, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-btn > a .icon-font.icon-corner {
   width: 8px;
   -webkit-transform: rotate(-90deg);
@@ -11130,7 +11145,7 @@ picture {
   font-size: 8px;
 }
 
-/* line 129, src/scss/_components/account-profile/_account-profile.scss */
+/* line 136, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop {
   display: none;
   width: -webkit-calc(100% + 2rem);
@@ -11139,7 +11154,7 @@ picture {
   padding-top: 10px;
 }
 
-/* line 135, src/scss/_components/account-profile/_account-profile.scss */
+/* line 142, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11155,7 +11170,7 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 141, src/scss/_components/account-profile/_account-profile.scss */
+/* line 148, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a.is-active {
   background-color: #6772e5;
   color: #ffffff;
@@ -11164,13 +11179,13 @@ picture {
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 148, src/scss/_components/account-profile/_account-profile.scss */
+/* line 155, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(1) {
   width: -webkit-calc(35px + 1rem);
   width: calc(35px + 1rem);
 }
 
-/* line 152, src/scss/_components/account-profile/_account-profile.scss */
+/* line 159, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__menu-drop > a > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11180,17 +11195,17 @@ picture {
   max-width: 100%;
 }
 
-/* line 168, src/scss/_components/account-profile/_account-profile.scss */
+/* line 175, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile--main .a-profile__section-head {
   border-bottom: none;
 }
 
-/* line 175, src/scss/_components/account-profile/_account-profile.scss */
+/* line 182, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile .a-profile__section-head a {
   color: rgba(51, 51, 51, 0.7);
 }
 
-/* line 176, src/scss/_components/account-profile/_account-profile.scss */
+/* line 183, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile .a-profile__section-head a p {
   width: 21px;
   height: 21px;
@@ -11200,7 +11215,7 @@ picture {
   font-size: 11px;
 }
 
-/* line 190, src/scss/_components/account-profile/_account-profile.scss */
+/* line 197, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile .u-profile__main-bg {
   width: -webkit-calc(100% + 2rem);
   width: calc(100% + 2rem);
@@ -11208,7 +11223,7 @@ picture {
   margin-left: -1rem;
 }
 
-/* line 197, src/scss/_components/account-profile/_account-profile.scss */
+/* line 204, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile .u-profile__main-image a {
   right: 10px;
   bottom: 0;
@@ -11222,14 +11237,14 @@ picture {
   font-size: 12px;
 }
 
-/* line 213, src/scss/_components/account-profile/_account-profile.scss */
+/* line 220, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main > div:nth-of-type(1) {
   width: 240px;
   padding-top: 80px;
   padding-right: 20px;
 }
 
-/* line 218, src/scss/_components/account-profile/_account-profile.scss */
+/* line 225, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main > div:nth-of-type(2) {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -11240,13 +11255,13 @@ picture {
   padding-top: 200px;
 }
 
-/* line 224, src/scss/_components/account-profile/_account-profile.scss */
+/* line 231, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main > div:nth-of-type(2) > div {
   width: 100%;
   max-width: 470px;
 }
 
-/* line 231, src/scss/_components/account-profile/_account-profile.scss */
+/* line 238, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main-since {
   width: 100%;
   max-width: 153px;
@@ -11254,25 +11269,25 @@ picture {
   margin-right: auto;
 }
 
-/* line 237, src/scss/_components/account-profile/_account-profile.scss */
+/* line 244, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main-since span {
   font-weight: bold;
   font-size: 12px;
   letter-spacing: 0.28px;
 }
 
-/* line 243, src/scss/_components/account-profile/_account-profile.scss */
+/* line 250, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-main-since p {
   font-size: 15px;
   letter-spacing: 0.28px;
 }
 
-/* line 250, src/scss/_components/account-profile/_account-profile.scss */
+/* line 257, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-form {
   width: 100%;
 }
 
-/* line 253, src/scss/_components/account-profile/_account-profile.scss */
+/* line 260, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11284,21 +11299,21 @@ picture {
           justify-content: space-between;
 }
 
-/* line 257, src/scss/_components/account-profile/_account-profile.scss */
+/* line 264, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 263, src/scss/_components/account-profile/_account-profile.scss */
+/* line 270, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-form p {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 0.42px;
 }
 
-/* line 270, src/scss/_components/account-profile/_account-profile.scss */
+/* line 277, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11313,14 +11328,29 @@ picture {
           flex-wrap: wrap;
 }
 
-/* line 275, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 277, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__profile-social {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+/* line 286, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-social > div {
   width: 100%;
   max-width: -webkit-calc((100% - 30px) / 2);
   max-width: calc((100% - 30px) / 2);
 }
 
-/* line 282, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 286, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__profile-social > div {
+    max-width: 100%;
+  }
+}
+
+/* line 296, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-social .form-group .input-group .input-group-prepend {
   width: 40px;
   margin-right: 0;
@@ -11329,41 +11359,41 @@ picture {
   background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
 }
 
-/* line 287, src/scss/_components/account-profile/_account-profile.scss */
+/* line 301, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-social .form-group .input-group .input-group-prepend .icon-font {
   color: #ffffff;
   font-size: 20px;
 }
 
-/* line 292, src/scss/_components/account-profile/_account-profile.scss */
+/* line 306, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__profile-social .form-group .input-group .form-control {
   font-size: 16px;
   font-style: normal;
   letter-spacing: 0.09px;
 }
 
-/* line 310, src/scss/_components/account-profile/_account-profile.scss */
+/* line 324, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger .a-profile__section-head div:nth-of-type(2) p {
   font-size: 18px;
   letter-spacing: 0.42px;
 }
 
-/* line 320, src/scss/_components/account-profile/_account-profile.scss */
+/* line 334, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger table .nowrap {
   white-space: nowrap;
 }
 
-/* line 323, src/scss/_components/account-profile/_account-profile.scss */
+/* line 337, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger table .red {
   color: #f05858;
 }
 
-/* line 326, src/scss/_components/account-profile/_account-profile.scss */
+/* line 340, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger table .green {
   color: #22c993;
 }
 
-/* line 331, src/scss/_components/account-profile/_account-profile.scss */
+/* line 345, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11371,36 +11401,42 @@ picture {
   font-weight: bold;
 }
 
-/* line 340, src/scss/_components/account-profile/_account-profile.scss */
+/* line 354, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger td {
-  padding-right: 80px;
   font-size: 16px;
 }
 
-/* line 344, src/scss/_components/account-profile/_account-profile.scss */
+/* line 357, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__ledger td span {
   font-size: 10px;
   letter-spacing: 0.31px;
 }
 
-/* line 359, src/scss/_components/account-profile/_account-profile.scss */
+/* line 372, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .a-profile__section-head div:nth-of-type(2) p {
   font-size: 18px;
   letter-spacing: 0.42px;
 }
 
-/* line 368, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 383, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__addFunds .modal__tabs-wrapper--right {
+    padding-left: 0;
+  }
+}
+
+/* line 391, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .form-group--select {
   width: 100%;
   max-width: 250px;
 }
 
-/* line 373, src/scss/_components/account-profile/_account-profile.scss */
+/* line 396, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .form-group--select .input-group-append {
   position: relative;
 }
 
-/* line 376, src/scss/_components/account-profile/_account-profile.scss */
+/* line 399, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .form-group--select .input-group-append:after {
   content: '';
   position: absolute;
@@ -11416,12 +11452,12 @@ picture {
   border-color: #fff transparent transparent transparent;
 }
 
-/* line 390, src/scss/_components/account-profile/_account-profile.scss */
+/* line 413, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .form-group--select .input-group .form-control {
   border-left: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 394, src/scss/_components/account-profile/_account-profile.scss */
+/* line 417, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__addFunds .form-group--select .input-group select {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -11436,7 +11472,7 @@ picture {
   color: #ffffff;
 }
 
-/* line 413, src/scss/_components/account-profile/_account-profile.scss */
+/* line 436, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds--account .a-profile__withdrawFunds-form {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11449,30 +11485,30 @@ picture {
   max-width: 100%;
 }
 
-/* line 418, src/scss/_components/account-profile/_account-profile.scss */
+/* line 441, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds--account .a-profile__withdrawFunds-form > div {
   width: 100%;
   max-width: -webkit-calc((100% - (40px + 180px)) / 2);
   max-width: calc((100% - (40px + 180px)) / 2);
 }
 
-/* line 422, src/scss/_components/account-profile/_account-profile.scss */
+/* line 445, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds--account .a-profile__withdrawFunds-form > div:last-of-type {
   max-width: 180px;
 }
 
-/* line 424, src/scss/_components/account-profile/_account-profile.scss */
+/* line 447, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds--account .a-profile__withdrawFunds-form > div:last-of-type label {
   opacity: 0;
 }
 
-/* line 436, src/scss/_components/account-profile/_account-profile.scss */
+/* line 459, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds .a-profile__section-head div:nth-of-type(2) p {
   font-size: 18px;
   letter-spacing: 0.42px;
 }
 
-/* line 445, src/scss/_components/account-profile/_account-profile.scss */
+/* line 468, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds-form {
   width: 100%;
   max-width: 620px;
@@ -11480,7 +11516,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 451, src/scss/_components/account-profile/_account-profile.scss */
+/* line 474, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11492,19 +11528,19 @@ picture {
           justify-content: space-between;
 }
 
-/* line 455, src/scss/_components/account-profile/_account-profile.scss */
+/* line 478, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 463, src/scss/_components/account-profile/_account-profile.scss */
+/* line 486, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds table .nowrap {
   white-space: nowrap;
 }
 
-/* line 472, src/scss/_components/account-profile/_account-profile.scss */
+/* line 495, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds table thead tr th:last-of-type,
 .a-profile__withdrawFunds table thead tr td:last-of-type,
 .a-profile__withdrawFunds table tbody tr th:last-of-type,
@@ -11512,7 +11548,7 @@ picture {
   width: 110px;
 }
 
-/* line 480, src/scss/_components/account-profile/_account-profile.scss */
+/* line 503, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11520,22 +11556,22 @@ picture {
   font-weight: bold;
 }
 
-/* line 489, src/scss/_components/account-profile/_account-profile.scss */
+/* line 512, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds table tbody td {
   font-size: 16px;
 }
 
-/* line 494, src/scss/_components/account-profile/_account-profile.scss */
+/* line 517, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds table td {
   vertical-align: middle;
 }
 
-/* line 501, src/scss/_components/account-profile/_account-profile.scss */
+/* line 524, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds .form-group--select .input-group-append {
   position: relative;
 }
 
-/* line 504, src/scss/_components/account-profile/_account-profile.scss */
+/* line 527, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds .form-group--select .input-group-append:after {
   content: '';
   position: absolute;
@@ -11551,12 +11587,12 @@ picture {
   border-color: #fff transparent transparent transparent;
 }
 
-/* line 518, src/scss/_components/account-profile/_account-profile.scss */
+/* line 541, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds .form-group--select .input-group .form-control {
   border-left: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 522, src/scss/_components/account-profile/_account-profile.scss */
+/* line 545, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__withdrawFunds .form-group--select .input-group select {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -11571,118 +11607,179 @@ picture {
   color: #ffffff;
 }
 
-/* line 541, src/scss/_components/account-profile/_account-profile.scss */
+/* line 564, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions .a-profile__section-head span {
   font-size: 16px;
 }
 
-/* line 544, src/scss/_components/account-profile/_account-profile.scss */
+/* line 567, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions .a-profile__section-head span strong {
   font-weight: bold;
 }
 
-/* line 551, src/scss/_components/account-profile/_account-profile.scss */
+/* line 574, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-option {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.31px;
 }
 
-/* line 556, src/scss/_components/account-profile/_account-profile.scss */
+/* line 579, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-option span {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* line 563, src/scss/_components/account-profile/_account-profile.scss */
+/* line 586, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-info p {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-weight: 500;
   letter-spacing: 0.26px;
+  line-height: 1;
 }
 
-/* line 570, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 586, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__subscriptions-info p {
+    font-size: 12px;
+  }
+}
+
+/* line 597, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p span {
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 597, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__subscriptions-info p span {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/* line 606, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 1px;
+  height: 100%;
+  background-color: #333333;
+}
+
+/* line 616, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p span:first-of-type {
+  padding-left: 0;
+}
+
+/* line 620, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p span:last-of-type {
+  padding-right: 0;
+}
+
+/* line 623, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p span:last-of-type:after {
+  display: none;
+}
+
+/* line 632, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-result p {
   font-size: 16px;
   letter-spacing: 0.31px;
 }
 
-/* line 576, src/scss/_components/account-profile/_account-profile.scss */
+/* line 638, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy {
   border-bottom: 1px solid #EAEAEA;
 }
 
-/* line 579, src/scss/_components/account-profile/_account-profile.scss */
+/* line 641, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy:last-of-type {
   border-bottom: 0;
 }
 
-/* line 585, src/scss/_components/account-profile/_account-profile.scss */
+/* line 647, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(1) p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.31px;
 }
 
-/* line 590, src/scss/_components/account-profile/_account-profile.scss */
+/* line 652, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(1) p span {
   text-decoration: underline;
   font-weight: 600;
 }
 
-/* line 595, src/scss/_components/account-profile/_account-profile.scss */
+/* line 657, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(1) p i {
   color: #6772e5;
   font-style: normal;
 }
 
-/* line 600, src/scss/_components/account-profile/_account-profile.scss */
+/* line 662, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(1) p:nth-of-type(2) {
   letter-spacing: 0.31px;
   font-size: 14px;
 }
 
-/* line 606, src/scss/_components/account-profile/_account-profile.scss */
+/* line 668, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(1) > span {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 612, src/scss/_components/account-profile/_account-profile.scss */
+/* line 674, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(2) p {
   letter-spacing: 0.31px;
 }
 
-/* line 616, src/scss/_components/account-profile/_account-profile.scss */
+/* line 678, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(2) span {
   padding-left: 10px;
   padding-right: 10px;
 }
 
-/* line 621, src/scss/_components/account-profile/_account-profile.scss */
+/* line 683, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__subscriptions-strategy > div:nth-of-type(2) a {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.31px;
 }
 
-/* line 637, src/scss/_components/account-profile/_account-profile.scss */
+/* line 699, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange .a-profile__section-head a {
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 642, src/scss/_components/account-profile/_account-profile.scss */
+/* line 704, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange .a-profile__section-head a .icon-font {
   font-size: 18px;
 }
 
-/* line 650, src/scss/_components/account-profile/_account-profile.scss */
+/* line 712, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table .nowrap {
   white-space: nowrap;
 }
 
-/* line 655, src/scss/_components/account-profile/_account-profile.scss */
+/* line 717, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11690,22 +11787,22 @@ picture {
   font-weight: bold;
 }
 
-/* line 666, src/scss/_components/account-profile/_account-profile.scss */
+/* line 728, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 673, src/scss/_components/account-profile/_account-profile.scss */
+/* line 735, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table tbody td {
   font-size: 16px;
 }
 
-/* line 678, src/scss/_components/account-profile/_account-profile.scss */
+/* line 740, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table td {
   vertical-align: middle;
 }
 
-/* line 683, src/scss/_components/account-profile/_account-profile.scss */
+/* line 745, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form {
   width: 100%;
   max-width: 620px;
@@ -11713,7 +11810,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 689, src/scss/_components/account-profile/_account-profile.scss */
+/* line 751, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11725,26 +11822,26 @@ picture {
           justify-content: space-between;
 }
 
-/* line 693, src/scss/_components/account-profile/_account-profile.scss */
+/* line 755, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 699, src/scss/_components/account-profile/_account-profile.scss */
+/* line 761, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form p {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.35px;
 }
 
-/* line 712, src/scss/_components/account-profile/_account-profile.scss */
+/* line 774, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table .nowrap {
   white-space: nowrap;
 }
 
-/* line 717, src/scss/_components/account-profile/_account-profile.scss */
+/* line 779, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11752,22 +11849,22 @@ picture {
   font-weight: bold;
 }
 
-/* line 728, src/scss/_components/account-profile/_account-profile.scss */
+/* line 790, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 735, src/scss/_components/account-profile/_account-profile.scss */
+/* line 797, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table tbody td {
   font-size: 16px;
 }
 
-/* line 740, src/scss/_components/account-profile/_account-profile.scss */
+/* line 802, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table td {
   vertical-align: middle;
 }
 
-/* line 745, src/scss/_components/account-profile/_account-profile.scss */
+/* line 807, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form {
   width: 100%;
   max-width: 620px;
@@ -11775,7 +11872,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 751, src/scss/_components/account-profile/_account-profile.scss */
+/* line 813, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11787,19 +11884,19 @@ picture {
           justify-content: space-between;
 }
 
-/* line 755, src/scss/_components/account-profile/_account-profile.scss */
+/* line 817, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 769, src/scss/_components/account-profile/_account-profile.scss */
+/* line 831, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table .nowrap {
   white-space: nowrap;
 }
 
-/* line 774, src/scss/_components/account-profile/_account-profile.scss */
+/* line 836, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11807,44 +11904,51 @@ picture {
   font-weight: bold;
 }
 
-/* line 785, src/scss/_components/account-profile/_account-profile.scss */
+/* line 847, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 791, src/scss/_components/account-profile/_account-profile.scss */
+/* line 853, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr.middle td {
   vertical-align: middle;
 }
 
-/* line 796, src/scss/_components/account-profile/_account-profile.scss */
+/* line 858, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr td {
   font-size: 16px;
 }
 
-/* line 799, src/scss/_components/account-profile/_account-profile.scss */
+/* line 861, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr td:nth-of-type(1) {
   white-space: nowrap;
 }
 
-/* line 807, src/scss/_components/account-profile/_account-profile.scss */
+/* line 869, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table th,
 .a-profile__notifications-table td {
   letter-spacing: 0.27px;
 }
 
-/* line 813, src/scss/_components/account-profile/_account-profile.scss */
+/* line 875, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td {
   padding-right: 80px;
   font-size: 16px;
 }
 
-/* line 817, src/scss/_components/account-profile/_account-profile.scss */
+@media screen and (max-width: 1199px) {
+  /* line 875, src/scss/_components/account-profile/_account-profile.scss */
+  .a-profile__notifications-table td {
+    padding-right: 0;
+  }
+}
+
+/* line 882, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td span {
   min-width: 80px;
 }
 
-/* line 828, src/scss/_components/account-profile/_account-profile.scss */
+/* line 893, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form {
   width: 100%;
   max-width: 620px;
@@ -11852,7 +11956,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 834, src/scss/_components/account-profile/_account-profile.scss */
+/* line 899, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11864,7 +11968,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 838, src/scss/_components/account-profile/_account-profile.scss */
+/* line 903, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);

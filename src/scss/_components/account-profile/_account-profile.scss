@@ -15,6 +15,13 @@
 		&-left {
 			width: 250px;
 			padding-right: 30px;
+			@include adaptive(1199) {
+				width: 230px;
+				padding-right: 20px;
+			}
+			@include adaptive(1023) {
+				display: none;
+			}
 		}
 
 		&-right {
@@ -271,10 +278,17 @@
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
+			@include adaptive(1199) {
+				width: 100%;
+				max-width: 420px;
+			}
 
 			> div {
 				width: 100%;
 				max-width: calc((100% - 30px) / 2);
+				@include adaptive(1199) {
+					max-width: 100%;
+				}
 			}
 
 			.form-group {
@@ -338,7 +352,6 @@
 		}
 
 		td {
-			padding-right: 80px;
 			font-size: 16px;
 
 			span {
@@ -360,6 +373,16 @@
 							font-size: 18px;
 							letter-spacing: 0.42px;
 						}
+					}
+				}
+			}
+		}
+
+		.modal__tabs {
+			&-wrapper {
+				&--right {
+					@include adaptive(1199) {
+						padding-left: 0;
 					}
 				}
 			}
@@ -535,7 +558,7 @@
 
 
 	// subscriptions
-	&__subscriptions {
+	&__subscriptions 	{
 		.a-profile__section {
 			&-head {
 				span {
@@ -561,8 +584,47 @@
 
 		&-info {
 			p {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
 				font-weight: 500;
 				letter-spacing: 0.26px;
+				line-height: 1;
+				@include adaptive(1199) {
+					font-size: 12px;
+				}
+
+				span {
+					position: relative;
+					padding-left: 5px;
+					padding-right: 5px;
+					@include adaptive(1199) {
+						padding-left: 30px;
+						padding-right: 30px;
+					}
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 0;
+						right: -5px;
+						width: 1px;
+						height: 100%;
+						background-color: #333333;
+					}
+
+					&:first-of-type {
+						padding-left: 0;
+					}
+
+					&:last-of-type {
+						padding-right: 0;
+
+						&:after {
+							display: none;
+						}
+					}
+				}
 			}
 		}
 
@@ -813,6 +875,9 @@
 			td {
 				padding-right: 80px;
 				font-size: 16px;
+				@include adaptive(1199) {
+					padding-right: 0;
+				}
 
 				span {
 					min-width: 80px;
