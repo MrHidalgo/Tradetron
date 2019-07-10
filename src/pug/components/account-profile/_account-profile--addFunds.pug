@@ -1,7 +1,7 @@
 // SECTION account profile addFunds :: START
 
 .a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__addFunds
-	.a-profile__section-head.d-flex.align-items-center.justify-content-between
+	.a-profile__section-head.d-flex.align-items-center.justify-content-between.flex-wrap.flex-md-nowrap
 		div
 			p.a-profile__section-title!= "Add Funds"
 		div
@@ -68,5 +68,8 @@
 				.modal__tabs-content(data-contentTabs="3") Netbanking content
 				.modal__tabs-content(data-contentTabs="4") Paytm content
 				.modal__tabs-content(data-contentTabs="5") Stripe content
+
+		.d-flex.d-md-none.pt-5.justify-content-center
+			button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Add Funds"
 
 // SECTION account profile addFunds :: END

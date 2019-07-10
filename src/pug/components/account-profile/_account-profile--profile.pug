@@ -19,7 +19,7 @@
 
 		p.u-profile__main-badge!= "Last seen 5 min ago"
 
-		.a-profile__profile-main.d-flex
+		.a-profile__profile-main.d-flex.flex-wrap.flex-md-nowrap
 			div
 				.u-profile__main-image
 					div
@@ -91,7 +91,7 @@
 
 						.a-profile__profile-form-group
 							div
-								.form-group.mb-5
+								.form-group.mb-3.mb-md-5
 									label(for= "profile_tax_label")!= "Tax Label"
 									input(type="text" class="form-control" name="profile_tax_label" id='profile_tax_label')
 							div

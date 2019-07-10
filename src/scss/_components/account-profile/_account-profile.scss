@@ -47,6 +47,10 @@
 			width: 100%;
 			min-height: 58px;
 			border-bottom: 1px solid #EAEAEA;
+			@include adaptive(767) {
+				padding-top: 15px;
+				padding-bottom: 15px;
+			}
 		}
 
 		&-body {
@@ -72,6 +76,23 @@
 			&-wrapper {
 				display: flex;
 				justify-content: center;
+			}
+		}
+
+		table {
+			thead,
+			tbody {
+				tr {
+					th,
+					td {
+						&:first-of-type {
+							padding-left: 0;
+						}
+						&:last-of-type {
+							padding-right: 0;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -177,6 +198,7 @@
 				}
 			}
 		}
+
 		.a-profile__section {
 			&-head {
 				a {
@@ -221,16 +243,25 @@
 					width: 240px;
 					padding-top: 80px;
 					padding-right: 20px;
+					@include adaptive(767) {
+						width: 100%;
+					}
 				}
 				&:nth-of-type(2) {
 					flex: 1;
 					min-width: 1px;
 					max-width: 100%;
 					padding-top: 200px;
+					@include adaptive(767) {
+						padding-top: 20px;
+					}
 
 					> div {
 						width: 100%;
 						max-width: 470px;
+						@include adaptive(767) {
+							max-width: 100%;
+						}
 					}
 				}
 			}
@@ -240,6 +271,10 @@
 				max-width: 153px;
 				margin-left: auto;
 				margin-right: auto;
+				@include adaptive(767) {
+					max-width: 100%;
+					text-align: center;
+				}
 
 				span {
 					font-weight: bold;
@@ -260,10 +295,16 @@
 			&-group {
 				display: flex;
 				justify-content: space-between;
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				> div {
 					width: 100%;
 					max-width: calc((100% - 20px) / 2);
+					@include adaptive(767) {
+						max-width: 100%;
+					}
 				}
 			}
 
@@ -319,8 +360,28 @@
 	&__ledger {
 		.a-profile__section {
 			&-head {
+				@include adaptive(767) {
+					flex-direction: column-reverse;
+				}
+
 				div {
+					@include adaptive(767) {
+						width: 100%;
+						max-width: 100%;
+					}
+
+					&:nth-of-type(1) {
+						@include adaptive(767) {
+							justify-content: space-between;
+						}
+					}
+
 					&:nth-of-type(2) {
+						@include adaptive(767) {
+							text-align: right;
+							padding-bottom: 30px;
+						}
+
 						p {
 							font-size: 18px;
 							letter-spacing: 0.42px;
@@ -347,6 +408,9 @@
 					border-bottom-width: 1px;
 					font-size: 14px;
 					font-weight: bold;
+					@include adaptive(767) {
+						min-width: 200px;
+					}
 				}
 			}
 		}
@@ -367,8 +431,24 @@
 	&__addFunds {
 		.a-profile__section {
 			&-head {
+				@include adaptive(767) {
+					flex-direction: column-reverse;
+				}
+
 				div {
+					@include adaptive(767) {
+						width: 100%;
+						max-width: 100%;
+					}
+
+					&:nth-of-type(1) {}
+
 					&:nth-of-type(2) {
+						@include adaptive(767) {
+							text-align: right;
+							padding-bottom: 30px;
+						}
+
 						p {
 							font-size: 18px;
 							letter-spacing: 0.42px;
@@ -437,13 +517,24 @@
 					display: flex;
 					justify-content: space-between;
 					max-width: 100%;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
 
 					> div {
 						width: 100%;
 						max-width: calc((100% - (40px + 180px)) / 2);
+						@include adaptive(767) {
+							max-width: 100%;
+						}
 
 						&:last-of-type {
 							max-width: 180px;
+							@include adaptive(767) {
+								margin-left: auto;
+								margin-right: auto;
+							}
+
 							label {
 								opacity: 0;
 							}
@@ -452,13 +543,32 @@
 				}
 			}
 		}
-		.a-profile__section {
-			&-head {
-				div {
-					&:nth-of-type(2) {
-						p {
-							font-size: 18px;
-							letter-spacing: 0.42px;
+
+		&--add {
+			.a-profile__section {
+				&-head {
+					@include adaptive(767) {
+						flex-direction: column-reverse;
+					}
+
+					div {
+						@include adaptive(767) {
+							width: 100%;
+							max-width: 100%;
+						}
+
+						&:nth-of-type(1) {}
+
+						&:nth-of-type(2) {
+							@include adaptive(767) {
+								text-align: right;
+								padding-bottom: 30px;
+							}
+
+							p {
+								font-size: 18px;
+								letter-spacing: 0.42px;
+							}
 						}
 					}
 				}
@@ -470,14 +580,23 @@
 			max-width: 620px;
 			margin-left: auto;
 			margin-right: auto;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&-group {
 				display: flex;
 				justify-content: space-between;
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				> div {
 					width: 100%;
 					max-width: calc((100% - 20px) / 2);
+					@include adaptive(767) {
+						max-width: 100%;
+					}
 				}
 			}
 		}
@@ -561,8 +680,17 @@
 	&__subscriptions 	{
 		.a-profile__section {
 			&-head {
+				> div {
+					@include adaptive(767) {
+						width: 100%;
+					}
+				}
+
 				span {
 					font-size: 16px;
+					@include adaptive(767) {
+						padding-top: 10px;
+					}
 
 					strong {
 						font-weight: bold;
@@ -593,6 +721,9 @@
 				@include adaptive(1199) {
 					font-size: 12px;
 				}
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				span {
 					position: relative;
@@ -601,6 +732,29 @@
 					@include adaptive(1199) {
 						padding-left: 30px;
 						padding-right: 30px;
+					}
+					@include adaptive(767) {
+						display: flex;
+						align-items: center;
+						width: 100%;
+						max-width: 50%;
+						min-height: 50px;
+
+						&:nth-of-type(1) {
+							margin-bottom: 10px;
+						}
+						&:nth-of-type(2) {
+							margin-bottom: 10px;
+
+							@include adaptive(767) {
+								&:after {
+									display: none;
+								}
+							}
+						}
+						&:nth-of-type(3) {
+							padding-left: 0;
+						}
 					}
 
 					&:after {
@@ -643,6 +797,22 @@
 			}
 
 			> div {
+				@include adaptive(767) {
+					width: 100%;
+
+					&:nth-of-type(1) {
+						padding-bottom: 30px;
+
+						p {
+							width: 100%;
+						}
+
+						> span {
+							display: none;
+						}
+					}
+				}
+
 				&:nth-of-type(1) {
 					p {
 						font-size: 16px;
@@ -713,6 +883,18 @@
 				white-space: nowrap;
 			}
 
+			thead,
+			tbody {
+				th,
+				td {
+					min-width: 175px;
+
+					&:last-of-type {
+						min-width: 100px;
+					}
+				}
+			}
+
 			thead {
 				th {
 					border-top: none;
@@ -747,14 +929,23 @@
 			max-width: 620px;
 			margin-left: auto;
 			margin-right: auto;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&-group {
 				display: flex;
 				justify-content: space-between;
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				> div {
 					width: 100%;
 					max-width: calc((100% - 20px) / 2);
+					@include adaptive(767) {
+						max-width: 100%;
+					}
 				}
 			}
 
@@ -775,6 +966,16 @@
 				white-space: nowrap;
 			}
 
+			thead,
+			tbody {
+				th,
+				td {
+					@include adaptive(767) {
+						min-width: 150px;
+					}
+				}
+			}
+
 			thead {
 				th {
 					border-top: none;
@@ -809,14 +1010,23 @@
 			max-width: 620px;
 			margin-left: auto;
 			margin-right: auto;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&-group {
 				display: flex;
 				justify-content: space-between;
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				> div {
 					width: 100%;
 					max-width: calc((100% - 20px) / 2);
+					@include adaptive(767) {
+						max-width: 100%;
+					}
 				}
 			}
 		}
@@ -884,6 +1094,22 @@
 				}
 			}
 		}
+
+		span {
+			@include adaptive(767) {
+				margin-bottom: 10px;
+			}
+		}
+
+		.form-check {
+			@include adaptive(767) {
+				margin-bottom: 10px;
+
+				&:last-of-type {
+					margin-bottom: 0;
+				}
+			}
+		}
 	}
 	// notifications :: end
 
@@ -895,14 +1121,23 @@
 			max-width: 620px;
 			margin-left: auto;
 			margin-right: auto;
+			@include adaptive(767) {
+				max-width: 100%;
+			}
 
 			&-group {
 				display: flex;
 				justify-content: space-between;
+				@include adaptive(767) {
+					flex-wrap: wrap;
+				}
 
 				> div {
 					width: 100%;
 					max-width: calc((100% - 20px) / 2);
+					@include adaptive(767) {
+						max-width: 100%;
+					}
 				}
 			}
 		}
