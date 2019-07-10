@@ -1,7 +1,40 @@
 // SECTION account profile ledger :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__ledger
-	.a-profile__section-head
-	.a-profile__section-body
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__ledger
+	.a-profile__section-head.d-flex.justify-content-between.align-items-center
+		div.d-flex.align-items-center
+			p.a-profile__section-title.mr-4!= "Ledger"
+			a.d-flex.align-items-center(href="#" class="" title="")
+				i.icon-font.icon-file-export
+				span.pl-2!= "Export as CSV"
+		div
+			p!= "<strong>Wallet Balance:</strong> Rs.3628492"
+
+	.a-profile__section-body.pt-3.pb-2
+
+		.table-responsive
+			table.table.mb-0
+				thead
+					tr
+						th(scope="row") Transaction
+						th(scope="row") Ref Num.
+						th(scope="row") Date
+						th(scope="row") Amount
+				tbody
+					each val, idx in [1,2,3]
+						tr
+							td Deposit to trading account lorem ipsum
+							td 6345839204
+							td.nowrap 07 May, 16:23
+							td
+								p.red Rs.50000
+								span.nowrap Balance: RS.3465872
+						tr
+							td Deposit to trading account lorem ipsum
+							td 6345839204
+							td.nowrap 07 May, 16:23
+							td
+								p.green Rs.50000
+								span.nowrap Balance: RS.3465872
 
 // SECTION account profile ledger :: END

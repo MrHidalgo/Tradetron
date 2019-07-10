@@ -1,7 +1,93 @@
 // SECTION account profile addFunds :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__addFunds
-	.a-profile__section-head
-	.a-profile__section-body
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__addFunds
+	.a-profile__section-head.d-flex.align-items-center.justify-content-between
+		div
+			p.a-profile__section-title!= "Add Funds"
+		div
+			p!= "<strong>Wallet Balance:</strong> Rs.3628492"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		.modal__tabs-wrapper.d-block.d-md-flex
+			.modal__tabs-wrapper--left.d-block.d-md-flex.flex-column.position-relative
+				a.modal__tabs.d-flex.align-items-center.justify-content-center.is-active(href="#" data-btnTabs-id="0" class="" title="")!= "Wallet"
+				a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="1" class="" title="")!= "RazorPay"
+				a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="2" class="" title="")!= "Credit Card"
+				a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="3" class="" title="")!= "Netbanking"
+				a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="4" class="" title="")!= "Paytm"
+				a.modal__tabs.d-flex.align-items-center.justify-content-center(href="#" data-btnTabs-id="5" class="" title="")!= "Stripe"
+
+			.modal__tabs-wrapper--right
+				.modal__tabs-content.is-active(data-contentTabs="0") Wallet content
+				.modal__tabs-content(data-contentTabs="1") RazorPay content
+				.modal__tabs-content(data-contentTabs="2")
+
+					p.modal-body-heading.pb-3!= "Enter your Card Details"
+
+					.modal__credit-wrapper.position-relative
+						.modal__credit.modal__credit-0
+
+							.form-group
+								label(for='modalCardNumberPricingPro') Card number
+								input#modalCardNumberPricingPro.form-control(type='text' placeholder="")
+
+							.modal__credit-form.d-flex.flex-wrap.flex-md-nowrap
+								.form-group
+									label(for='modalNameOnTheRoadPricingPro') Name on the card
+									input#modalNameOnTheRoadPricingPro.form-control(type='text' placeholder="")
+
+								.d-flex
+									.form-group.mb-0
+										label(for='modalExpiredPricingPro') Expiry Date
+										input#modalExpiredPricingPro.form-control(type='text' placeholder="MM/YY")
+
+									.form-group.d-md-none.mb-0
+										label(for='modalCVVPricing-1Pro') CVV
+										input#modalCVVPricing-1Pro.form-control(type='text' placeholder="")
+
+						.modal__credit.modal__credit-1.position-absolute.d-none.d-md-block
+							.modal__credit-line
+							.modal__credit-body
+								.modal__credit-form
+									.form-group
+										label(for='modalCVVPricingPro') CVV
+										input#modalCVVPricingPro.form-control(type='text' placeholder="")
+
+				.modal__tabs-content(data-contentTabs="3")
+
+					.modal-body-cover
+						.modal-body-col
+
+							.form-group.mb-0
+								label(for='modalChooseBankPricingPro') Select Bank
+								select#modalChooseBankPricingPro.form-control
+									option HDFC
+									option HDFC
+									option HDFC
+
+						.modal-body-col
+
+				.modal__tabs-content(data-contentTabs="4")
+
+					.modal-body-cover
+						.modal-body-col
+
+							.form-group
+								label(for='modalMobileNumberPricingPro') Mobile number
+								input#modalMobileNumberPricingPro.form-control(type='text')
+
+						.modal-body-col
+
+					.modal-body-cover
+						.modal-body-col
+
+							.form-group.mb-0
+								label(for='modalOtpPricingPro') OTP
+								input#modalOtpPricingPro.form-control(type='text')
+
+						.modal-body-col
+
+				.modal__tabs-content(data-contentTabs="5") Stripe content
 
 // SECTION account profile addFunds :: END

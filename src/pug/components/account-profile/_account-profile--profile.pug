@@ -1,7 +1,45 @@
 // SECTION account profile :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__profile
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__profile
+	.a-profile__section-head.d-flex.align-items-center.justify-content-between
+		div
+			p.a-profile__section-title!= "Profile"
+		div
+		a.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+			i.icon-font.icon-close
+			span.pl-2!= "Logout"
+	.a-profile__section-body.pb-4
+
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__profile
 	.a-profile__section-head
-	.a-profile__section-body
+		p.a-profile__section-title!= "Social Networks"
+
+	.a-profile__section-body.pt-4.pb-3
+
+		.a-profile__profile-social
+			div.mb-3
+				.form-group.mb-0
+					label(for="")!= "Twitter"
+					.input-group
+						.input-group-prepend.d-flex.align-items-center.justify-content-center
+							i.icon-font.icon-twitter
+						input.form-control(type='text', value='https://twitter.com/johnsmith', aria-label='Twitter', aria-describedby='basic-addon1')
+
+			div.mb-3
+				.form-group.mb-0
+					label(for="")!= "Facebook"
+					.input-group
+						.input-group-prepend.d-flex.align-items-center.justify-content-center
+							i.icon-font.icon-facebook
+						input.form-control(type='text', value='https://www.facebook.com/johnsmith', aria-label='Facebook', aria-describedby='basic-addon1')
+
+			div
+				.form-group.mb-0
+					label(for="")!= "Linkedin"
+					.input-group
+						.input-group-prepend.d-flex.align-items-center.justify-content-center
+							i.icon-font.icon-linkedin
+						input.form-control(type='text', value='https://www.linkedin.com/in/johnsmith', aria-label='Linkedin', aria-describedby='basic-addon1')
+
 
 // SECTION account profile :: END

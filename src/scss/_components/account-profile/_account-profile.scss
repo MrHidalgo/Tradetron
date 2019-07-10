@@ -1,6 +1,7 @@
 // SECTION account profile :: START
 
 .a-profile {
+	padding-top: 120px;
 	padding-bottom: 120px;
 
 	.main__wrapper {
@@ -161,22 +162,148 @@
 
 
 	// profile
-	&__profile {}
+	&__profile {
+		.a-profile__section {
+			&-head {
+				a {
+					color: rgba(#333, 0.7);
+				}
+			}
+		}
+
+		&-social {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+
+			> div {
+				width: 100%;
+				max-width: calc((100% - 30px) / 2);
+			}
+
+			.form-group {
+				.input-group {
+					.input-group-prepend {
+						width: 40px;
+						margin-right: 0;
+						background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
+
+						.icon-font {
+							color: #ffffff;
+							font-size: 20px;
+						}
+					}
+					.form-control {
+						font-size: 16px;
+						font-style: normal;
+						letter-spacing: 0.09px;
+					}
+				}
+			}
+		}
+	}
 	// profile :: end
 
 
 	// ledger
-	&__ledger {}
+	&__ledger {
+		.a-profile__section {
+			&-head {
+				div {
+					&:nth-of-type(2) {
+						p {
+							font-size: 18px;
+							letter-spacing: 0.42px;
+						}
+					}
+				}
+			}
+		}
+
+		table {
+			.nowrap {
+				white-space: nowrap;
+			}
+			.red {
+				color: #f05858;
+			}
+			.green {
+				color: #22c993;
+			}
+
+			thead {
+				th {
+					border-top: none;
+					border-bottom-width: 1px;
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+		}
+
+		td {
+			padding-right: 80px;
+			font-size: 16px;
+
+			span {
+				font-size: 10px;
+				letter-spacing: 0.31px;
+			}
+		}
+	}
 	// ledger :: end
 
 
 	// addFunds
-	&__addFunds {}
+	&__addFunds {
+		.a-profile__section {
+			&-head {
+				div {
+					&:nth-of-type(2) {
+						p {
+							font-size: 18px;
+							letter-spacing: 0.42px;
+						}
+					}
+				}
+			}
+		}
+	}
 	// addFunds :: end
 
 
 	// withdrawFunds
-	&__withdrawFunds {}
+	&__withdrawFunds {
+		.a-profile__section {
+			&-head {
+				div {
+					&:nth-of-type(2) {
+						p {
+							font-size: 18px;
+							letter-spacing: 0.42px;
+						}
+					}
+				}
+			}
+		}
+
+		&-form {
+			width: 100%;
+			max-width: 620px;
+			margin-left: auto;
+			margin-right: auto;
+
+			&-group {
+				display: flex;
+				justify-content: space-between;
+
+				> div {
+					width: 100%;
+					max-width: calc((100% - 20px) / 2);
+				}
+			}
+		}
+	}
 	// withdrawFunds :: end
 
 

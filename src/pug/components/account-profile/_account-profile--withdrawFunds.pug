@@ -1,7 +1,48 @@
 // SECTION account profile withdrawFunds :: START
 
-.a-profile__section.d-flex.flex-column.p-3.a-profile__withdrawFunds
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__withdrawFunds.a-profile__withdrawFunds--add
+	.a-profile__section-head.d-flex.align-items-center.justify-content-between
+		div
+			p.a-profile__section-title!= "Add Bank Details"
+		div
+			p!= "<strong>Wallet Balance:</strong> Rs.3628492"
+
+	.a-profile__section-body.pt-5.pb-4
+
+		form.a-profile__withdrawFunds-form(action='' autocomplete='off')
+			.a-profile__withdrawFunds-form-group
+				div
+					.form-group.mb-4
+						label(for= "withdrawFunds_bank")!= "Bank Name"
+						input(type="text" class="form-control" name="withdrawFunds_bank" id='withdrawFunds_bank')
+				div
+					.form-group.mb-4
+						label(for= "withdrawFunds_account")!= "Account Number"
+						input(type="text" class="form-control" name="withdrawFunds_account" id='withdrawFunds_account')
+
+			.a-profile__withdrawFunds-form-group
+				div
+					.form-group.mb-5
+						label(for= "withdrawFunds__ifsc")!= "IFSC Code"
+						input(type="text" class="form-control" name="withdrawFunds__ifsc" id='withdrawFunds__ifsc')
+				div
+					.form-group.mb-5
+						label(for= "withdrawFunds_swift")!= "SWIFT Code"
+						input(type="text" class="form-control" name="withdrawFunds_swift" id='withdrawFunds_swift')
+
+			.a-profile__section-btn-wrapper
+				button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Add"
+
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__withdrawFunds.a-profile__withdrawFunds--account
 	.a-profile__section-head
-	.a-profile__section-body
+		p.a-profile__section-title!= "Accounts"
+
+	.a-profile__section-body.pt-5.pb-4
+
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__withdrawFunds.a-profile__withdrawFunds--with
+	.a-profile__section-head
+		p.a-profile__section-title!= "Withdraw Funds"
+
+	.a-profile__section-body.pt-5.pb-4
 
 // SECTION account profile withdrawFunds :: END
