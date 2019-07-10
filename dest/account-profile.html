@@ -282,14 +282,124 @@
                     <div>
                       <!-- account profile-->
                       <!-- SECTION account profile :: START-->
-                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__profile">
+                      <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__profile a-profile__profile--main">
                         <div class="a-profile__section-head d-flex align-items-center justify-content-between">
                           <div>
                             <p class="a-profile__section-title">Profile</p>
                           </div>
-                          <div></div><a class="d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-close"></i><span class="pl-2">Logout</span></a>
+                          <div></div><a class="d-flex align-items-center justify-content-center" href="#" title="">
+                            <p class="d-flex align-items-center justify-content-center"><i class="icon-font icon-close"></i></p><span class="pl-2">Logout</span></a>
                         </div>
-                        <div class="a-profile__section-body pb-4"></div>
+                        <div class="a-profile__section-body pb-4 position-relative">
+                          <div class="u-profile__main-bg position-absolute"></div><a class="u-profile__main-photo" href="#" title=""><i class="icon-font icon-photo-camera"></i></a>
+                          <p class="u-profile__main-badge">Last seen 5 min ago</p>
+                          <div class="a-profile__profile-main d-flex">
+                            <div>
+                              <div class="u-profile__main-image">
+                                <div><img src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title=""></div><a class="position-absolute d-flex align-items-center justify-content-center" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a>
+                              </div>
+                              <div class="pt-4 pb-4">
+                                <div class="a-profile__profile-main-since"><span>Member since:</span>
+                                  <p>February 10, 2019</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <div>
+                                <form class="a-profile__profile-form" action="" autocomplete="off">
+                                  <div class="a-profile__profile-form-group">
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_name">Name</label>
+                                        <input class="form-control" type="text" name="profile_name" id="profile_name" value="John Smith">
+                                      </div>
+                                    </div>
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_email">Email</label>
+                                        <input class="form-control" type="text" name="profile_email" id="profile_email" value="johnsmith@gmail.com">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="a-profile__profile-form-group">
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_phone">Phone</label>
+                                        <input class="form-control" type="text" name="profile_phone" id="profile_phone" value="+123 456 6789">
+                                      </div>
+                                    </div>
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_address">Address</label>
+                                        <input class="form-control" type="text" name="profile_address" id="profile_address" value="221 Baker str.">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="a-profile__profile-form-group">
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_country">Country</label>
+                                        <select class="form-control" name="profile_country" id="profile_country">
+                                          <option selected>United Kingdom</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_city">City</label>
+                                        <input class="form-control" type="text" name="profile_city" id="profile_city" value="London">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="a-profile__profile-form-wgroup">
+                                    <div class="form-group mb-4">
+                                      <label for="profile_description">Profile Description</label>
+                                      <textarea class="form-control" id="profile_description" rows="3" style="resize:none;"></textarea>
+                                    </div>
+                                  </div>
+                                  <p class="pt-3 pb-3">Information for invoices you create</p>
+                                  <div class="a-profile__profile-form-group">
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_i_name">Name</label>
+                                        <input class="form-control" type="text" name="profile_i_name" id="profile_i_name" value="Lorem Ipsum">
+                                      </div>
+                                    </div>
+                                    <div>
+                                      <div class="form-group mb-3">
+                                        <label for="profile_currency">Currency</label>
+                                        <select class="form-control" name="profile_currency" id="profile_currency">
+                                          <option selected>USD ($)</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="a-profile__profile-form-group">
+                                    <div>
+                                      <div class="form-group mb-5">
+                                        <label for="profile_tax_label">Tax Label</label>
+                                        <input class="form-control" type="text" name="profile_tax_label" id="profile_tax_label">
+                                      </div>
+                                    </div>
+                                    <div>
+                                      <div class="form-group mb-5">
+                                        <label for="profile_tax_id">Tax ID</label>
+                                        <input class="form-control" type="text" name="profile_tax_id" id="profile_tax_id">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="a-profile__section-btn-wrapper">
+                                    <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Save</button>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__profile">
                         <div class="a-profile__section-head">
@@ -425,6 +535,20 @@
                               <div class="modal__tabs-content is-active" data-contentTabs="0">Wallet content</div>
                               <div class="modal__tabs-content" data-contentTabs="1">RazorPay content</div>
                               <div class="modal__tabs-content" data-contentTabs="2">
+                                <div class="form-group form-group--select mb-5">
+                                  <label>Amount</label>
+                                  <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="" aria-label="" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                      <select name="">
+                                        <option selected="">INR</option>
+                                        <option>Action</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
                                 <p class="modal-body-heading pb-3">Enter your Card Details</p>
                                 <div class="modal__credit-wrapper position-relative">
                                   <div class="modal__credit modal__credit-0">
@@ -462,41 +586,8 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="modal__tabs-content" data-contentTabs="3">
-                                <div class="modal-body-cover">
-                                  <div class="modal-body-col">
-                                    <div class="form-group mb-0">
-                                      <label for="modalChooseBankPricingPro">Select Bank</label>
-                                      <select class="form-control" id="modalChooseBankPricingPro">
-                                        <option>HDFC</option>
-                                        <option>HDFC</option>
-                                        <option>HDFC</option>
-                                      </select>
-                                    </div>
-                                  </div>
-                                  <div class="modal-body-col"></div>
-                                </div>
-                              </div>
-                              <div class="modal__tabs-content" data-contentTabs="4">
-                                <div class="modal-body-cover">
-                                  <div class="modal-body-col">
-                                    <div class="form-group">
-                                      <label for="modalMobileNumberPricingPro">Mobile number</label>
-                                      <input class="form-control" id="modalMobileNumberPricingPro" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="modal-body-col"></div>
-                                </div>
-                                <div class="modal-body-cover">
-                                  <div class="modal-body-col">
-                                    <div class="form-group mb-0">
-                                      <label for="modalOtpPricingPro">OTP</label>
-                                      <input class="form-control" id="modalOtpPricingPro" type="text">
-                                    </div>
-                                  </div>
-                                  <div class="modal-body-col"></div>
-                                </div>
-                              </div>
+                              <div class="modal__tabs-content" data-contentTabs="3">Netbanking content</div>
+                              <div class="modal__tabs-content" data-contentTabs="4">Paytm content</div>
                               <div class="modal__tabs-content" data-contentTabs="5">Stripe content</div>
                             </div>
                           </div>
@@ -555,13 +646,107 @@
                         <div class="a-profile__section-head">
                           <p class="a-profile__section-title">Accounts</p>
                         </div>
-                        <div class="a-profile__section-body pt-5 pb-4"></div>
+                        <div class="a-profile__section-body pt-3 pb-2">
+                          <form class="a-profile__withdrawFunds-form pb-2" action="" autocomplete="off">
+                            <div>
+                              <div class="form-group mb-4">
+                                <label for="withdrawFunds_add_acc">Add account</label>
+                                <select class="form-control" name="withdrawFunds_add_acc" id="withdrawFunds_add_acc">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="form-group mb-4">
+                                <label for="withdrawFunds_details">Account details</label>
+                                <input class="form-control" type="text" name="withdrawFunds_details" id="withdrawFunds_details">
+                              </div>
+                            </div>
+                            <div>
+                              <div class="form-group mb-4">
+                                <label>Button</label>
+                                <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Add</button>
+                              </div>
+                            </div>
+                          </form>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th class="nowrap" scope="row">Name</th>
+                                  <th class="nowrap" scope="row">Details</th>
+                                  <th class="nowrap" scope="row">Edit / Delete</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Paytm</td>
+                                  <td class="nowrap">№ 8493754892</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Paytm</td>
+                                  <td class="nowrap">№ 8493754892</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Paytm</td>
+                                  <td class="nowrap">№ 8493754892</td>
+                                  <td>
+                                    <div class="d-flex align-items-center"><a class="mr-2" href="#" title=""><i class="icon-font icon-pencil-edit"></i></a><a href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
                       </div>
                       <div class="a-profile__section d-flex flex-column px-3 pb-3 a-profile__withdrawFunds a-profile__withdrawFunds--with">
                         <div class="a-profile__section-head">
                           <p class="a-profile__section-title">Withdraw Funds</p>
                         </div>
-                        <div class="a-profile__section-body pt-5 pb-4"></div>
+                        <div class="a-profile__section-body pt-5 pb-4">
+                          <form class="a-profile__withdrawFunds-form" action="" autocomplete="off">
+                            <div class="a-profile__withdrawFunds-form-group">
+                              <div>
+                                <div class="form-group mb-4">
+                                  <label for="withdrawFunds_send_to">Send money to</label>
+                                  <select class="form-control" name="withdrawFunds_send_to" id="withdrawFunds_send_to">
+                                    <option selected="">Select Bank</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="form-group form-group--select mb-4">
+                                  <label>Amount</label>
+                                  <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="" aria-label="" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                      <select name="">
+                                        <option selected="">INR</option>
+                                        <option>Action</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="a-profile__section-btn-wrapper">
+                              <button class="a-profile__section-btn c-btn c-btn--bg" type="submit">Withdraw </button>
+                            </div>
+                          </form>
+                        </div>
                       </div>
                       <!-- SECTION account profile withdrawFunds :: END-->
                       <!-- account profile withdrawFunds :: end-->

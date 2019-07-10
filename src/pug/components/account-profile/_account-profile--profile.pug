@@ -1,14 +1,109 @@
 // SECTION account profile :: START
 
-.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__profile
+.a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__profile.a-profile__profile--main
 	.a-profile__section-head.d-flex.align-items-center.justify-content-between
 		div
 			p.a-profile__section-title!= "Profile"
 		div
 		a.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
-			i.icon-font.icon-close
+			p.d-flex.align-items-center.justify-content-center
+				i.icon-font.icon-close
 			span.pl-2!= "Logout"
-	.a-profile__section-body.pb-4
+
+	.a-profile__section-body.pb-4.position-relative
+
+		.u-profile__main-bg.position-absolute
+
+		a.u-profile__main-photo(href="#" class="" title="")
+			i.icon-font.icon-photo-camera
+
+		p.u-profile__main-badge!= "Last seen 5 min ago"
+
+		.a-profile__profile-main.d-flex
+			div
+				.u-profile__main-image
+					div
+						img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+
+					a.position-absolute.d-flex.align-items-center.justify-content-center(href="#" class="" title="")
+						i.icon-font.icon-pencil-edit
+
+				.pt-4.pb-4
+					.a-profile__profile-main-since
+						span!= "Member since:"
+						p!= "February 10, 2019"
+
+			div
+				div
+					form.a-profile__profile-form(action='' autocomplete='off')
+						.a-profile__profile-form-group
+							div
+								.form-group.mb-3
+									label(for= "profile_name")!= "Name"
+									input(type="text" class="form-control" name="profile_name" id='profile_name' value="John Smith")
+							div
+								.form-group.mb-3
+									label(for= "profile_email")!= "Email"
+									input(type="text" class="form-control" name="profile_email" id='profile_email' value="johnsmith@gmail.com")
+
+						.a-profile__profile-form-group
+							div
+								.form-group.mb-3
+									label(for= "profile_phone")!= "Phone"
+									input(type="text" class="form-control" name="profile_phone" id='profile_phone' value="+123 456 6789")
+							div
+								.form-group.mb-3
+									label(for= "profile_address")!= "Address"
+									input(type="text" class="form-control" name="profile_address" id='profile_address' value="221 Baker str.")
+
+						.a-profile__profile-form-group
+							div
+								.form-group.mb-3
+									label(for= "profile_country")!= "Country"
+									select(class="form-control" name="profile_country" id='profile_country')
+										option(selected) United Kingdom
+										option 2
+										option 3
+							div
+								.form-group.mb-3
+									label(for= "profile_city")!= "City"
+									input(type="text" class="form-control" name="profile_city" id='profile_city' value="London")
+
+						.a-profile__profile-form-wgroup
+							.form-group.mb-4
+								label(for= "profile_description")!= "Profile Description"
+								textarea#profile_description.form-control(rows='3' style="resize:none;")
+
+						p.pt-3.pb-3!= "Information for invoices you create"
+
+						.a-profile__profile-form-group
+							div
+								.form-group.mb-3
+									label(for= "profile_i_name")!= "Name"
+									input(type="text" class="form-control" name="profile_i_name" id='profile_i_name' value="Lorem Ipsum")
+							div
+								.form-group.mb-3
+									label(for= "profile_currency")!= "Currency"
+									select(class="form-control" name="profile_currency" id='profile_currency')
+										option(selected) USD ($)
+										option 2
+										option 3
+
+						.a-profile__profile-form-group
+							div
+								.form-group.mb-5
+									label(for= "profile_tax_label")!= "Tax Label"
+									input(type="text" class="form-control" name="profile_tax_label" id='profile_tax_label')
+							div
+								.form-group.mb-5
+									label(for= "profile_tax_id")!= "Tax ID"
+									input(type="text" class="form-control" name="profile_tax_id" id='profile_tax_id')
+
+
+						.a-profile__section-btn-wrapper
+							button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Save"
+
+
 
 .a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__profile
 	.a-profile__section-head

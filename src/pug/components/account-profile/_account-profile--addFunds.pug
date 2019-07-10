@@ -23,6 +23,17 @@
 				.modal__tabs-content(data-contentTabs="1") RazorPay content
 				.modal__tabs-content(data-contentTabs="2")
 
+					.form-group.form-group--select.mb-5
+						label!= "Amount"
+						.input-group
+							input.form-control(type='text', placeholder="", aria-label="", aria-describedby='button-addon2')
+							.input-group-append
+								select(name="")
+									option(selected="") INR
+									option Action
+									option 2
+									option 3
+
 					p.modal-body-heading.pb-3!= "Enter your Card Details"
 
 					.modal__credit-wrapper.position-relative
@@ -54,40 +65,8 @@
 										label(for='modalCVVPricingPro') CVV
 										input#modalCVVPricingPro.form-control(type='text' placeholder="")
 
-				.modal__tabs-content(data-contentTabs="3")
-
-					.modal-body-cover
-						.modal-body-col
-
-							.form-group.mb-0
-								label(for='modalChooseBankPricingPro') Select Bank
-								select#modalChooseBankPricingPro.form-control
-									option HDFC
-									option HDFC
-									option HDFC
-
-						.modal-body-col
-
-				.modal__tabs-content(data-contentTabs="4")
-
-					.modal-body-cover
-						.modal-body-col
-
-							.form-group
-								label(for='modalMobileNumberPricingPro') Mobile number
-								input#modalMobileNumberPricingPro.form-control(type='text')
-
-						.modal-body-col
-
-					.modal-body-cover
-						.modal-body-col
-
-							.form-group.mb-0
-								label(for='modalOtpPricingPro') OTP
-								input#modalOtpPricingPro.form-control(type='text')
-
-						.modal-body-col
-
+				.modal__tabs-content(data-contentTabs="3") Netbanking content
+				.modal__tabs-content(data-contentTabs="4") Paytm content
 				.modal__tabs-content(data-contentTabs="5") Stripe content
 
 // SECTION account profile addFunds :: END

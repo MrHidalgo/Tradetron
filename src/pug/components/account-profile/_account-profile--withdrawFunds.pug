@@ -37,12 +37,75 @@
 	.a-profile__section-head
 		p.a-profile__section-title!= "Accounts"
 
-	.a-profile__section-body.pt-5.pb-4
+	.a-profile__section-body.pt-3.pb-2
+
+		form.a-profile__withdrawFunds-form.pb-2(action='' autocomplete='off')
+			div
+				.form-group.mb-4
+					label(for= "withdrawFunds_add_acc")!= "Add account"
+					select(class="form-control" name="withdrawFunds_add_acc" id='withdrawFunds_add_acc')
+						option 1
+						option 2
+						option 3
+			div
+				.form-group.mb-4
+					label(for= "withdrawFunds_details")!= "Account details"
+					input(type="text" class="form-control" name="withdrawFunds_details" id='withdrawFunds_details')
+			div
+				.form-group.mb-4
+					label Button
+					button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Add"
+
+		.table-responsive
+			table.table
+				thead
+					tr
+						th.nowrap(scope='row')!= "Name"
+						th.nowrap(scope='row')!= "Details"
+						th.nowrap(scope='row')!= "Edit / Delete"
+				tbody
+					each val, idx in [1,2,3]
+						tr
+							td Paytm
+							td.nowrap № 8493754892
+							td
+								div.d-flex.align-items-center
+									a.mr-2(href="#" class="" title="")
+										i.icon-font.icon-pencil-edit
+									a(href="#" class="" title="")
+										i.icon-font.icon-garbage
+
 
 .a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__withdrawFunds.a-profile__withdrawFunds--with
 	.a-profile__section-head
 		p.a-profile__section-title!= "Withdraw Funds"
 
 	.a-profile__section-body.pt-5.pb-4
+
+		form.a-profile__withdrawFunds-form(action='' autocomplete='off')
+			.a-profile__withdrawFunds-form-group
+				div
+					.form-group.mb-4
+						label(for= "withdrawFunds_send_to")!= "Send money to"
+						select(class="form-control" name="withdrawFunds_send_to" id='withdrawFunds_send_to')
+							option(selected="") Select Bank
+							option 1
+							option 2
+							option 3
+				div
+					.form-group.form-group--select.mb-4
+						label!= "Amount"
+						.input-group
+							input.form-control(type='text', placeholder="", aria-label="", aria-describedby='button-addon2')
+							.input-group-append
+								select(name="")
+									option(selected="") INR
+									option Action
+									option 2
+									option 3
+
+
+			.a-profile__section-btn-wrapper
+				button.a-profile__section-btn.c-btn.c-btn--bg(type="submit")!= "Withdraw "
 
 // SECTION account profile withdrawFunds :: END
