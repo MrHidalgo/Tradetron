@@ -7,13 +7,49 @@
 		div
 			span!= "<strong>Retail</strong> |  Valid till : June 10 2019"
 
-	.a-profile__section-body.pt-5.pb-4
+	.a-profile__section-body.pt-3.pb-2
+
+		.a-profile__subscriptions-option.d-flex.align-items-center.justify-content-end.pb-3
+			a(href="#" class="" title="")!= "View Tax Invoice"
+			span!= "|"
+			a(href="#" class="" title="")!= "Upgrade"
+
+		.a-profile__subscriptions-info.pb-3
+			p!='1 public_strategies   |   10 private_strategies   |   unlimited deploy_strategies   |   20% Fee Sharing unlimited backtests'
+
+		.a-profile__subscriptions-result
+			div.pb-2
+				p!= "<strong>Executions:</strong> Paper Trading ; Live Auto"
+			div.pb-2
+				p!= "<strong>Exchanges: </strong> "
 
 
 .a-profile__section.d-flex.flex-column.px-3.pb-3.a-profile__subscriptions.a-profile__subscriptions--strategy
 	.a-profile__section-head
 		p.a-profile__section-title!= "Strategy Subscriptions"
 
-	.a-profile__section-body.pt-5.pb-4
+	.a-profile__section-body.pt-3.pb-2
+
+		.a-profile__subscriptions-strategy.pt-3.pb-3.d-flex.align-items-center.justify-content-between
+			div.d-flex.align-items-center
+				p!= "<span>Midbass</span> by <i>Neutrino</i>"
+				span!= "|"
+				p!= "Valid till : May 30 2019"
+			div.d-flex.align-items-center
+				p!= "Next billing : June 10 2019"
+				span!= "|"
+				a(href="#" class="" title="")!= "Cancel"
+
+		.a-profile__subscriptions-strategy.pt-3.pb-3.d-flex.align-items-center.justify-content-between
+			div.d-flex.align-items-center
+				p!= "<span>Midbass</span> by <i>Neutrino</i>"
+				span!= "|"
+				p!= "Valid till : May 30 2019"
+			div.d-flex.align-items-center
+				p!= "Next billing : August 03 2019"
+				span!= "|"
+				a(href="#" class="" title="")!= "Cancel"
+
+
 
 // SECTION account profile subscriptions :: END

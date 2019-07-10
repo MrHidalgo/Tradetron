@@ -762,14 +762,19 @@ a:hover {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 134, src/scss/_shared/_main-setting-reset.scss */
+/* line 133, src/scss/_shared/_main-setting-reset.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 138, src/scss/_shared/_main-setting-reset.scss */
 input[type="text"] {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 
-/* line 138, src/scss/_shared/_main-setting-reset.scss */
+/* line 142, src/scss/_shared/_main-setting-reset.scss */
 picture {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11167,24 +11172,108 @@ picture {
   font-weight: bold;
 }
 
-/* line 204, src/scss/_components/account-profile/_account-profile.scss */
+/* line 197, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-option {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.31px;
+}
+
+/* line 202, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-option span {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 209, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-info p {
+  font-weight: 500;
+  letter-spacing: 0.26px;
+}
+
+/* line 216, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-result p {
+  font-size: 16px;
+  letter-spacing: 0.31px;
+}
+
+/* line 222, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+/* line 225, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy:last-of-type {
+  border-bottom: 0;
+}
+
+/* line 231, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(1) p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.31px;
+}
+
+/* line 236, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(1) p span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* line 241, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(1) p i {
+  color: #6772e5;
+  font-style: normal;
+}
+
+/* line 246, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(1) p:nth-of-type(2) {
+  letter-spacing: 0.31px;
+  font-size: 14px;
+}
+
+/* line 252, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(1) > span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 258, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(2) p {
+  letter-spacing: 0.31px;
+}
+
+/* line 262, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(2) span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 267, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__subscriptions-strategy > div:nth-of-type(2) a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.31px;
+}
+
+/* line 283, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange .a-profile__section-head a {
   font-weight: 500;
   font-size: 12px;
   text-transform: uppercase;
 }
 
-/* line 209, src/scss/_components/account-profile/_account-profile.scss */
+/* line 288, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange .a-profile__section-head a .icon-font {
   font-size: 18px;
 }
 
-/* line 217, src/scss/_components/account-profile/_account-profile.scss */
+/* line 296, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table .nowrap {
   white-space: nowrap;
 }
 
-/* line 222, src/scss/_components/account-profile/_account-profile.scss */
+/* line 301, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11192,17 +11281,22 @@ picture {
   font-weight: bold;
 }
 
-/* line 233, src/scss/_components/account-profile/_account-profile.scss */
+/* line 312, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 240, src/scss/_components/account-profile/_account-profile.scss */
+/* line 319, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange table tbody td {
   font-size: 16px;
 }
 
-/* line 246, src/scss/_components/account-profile/_account-profile.scss */
+/* line 324, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__brokenExchange table td {
+  vertical-align: middle;
+}
+
+/* line 329, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form {
   width: 100%;
   max-width: 620px;
@@ -11210,7 +11304,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 252, src/scss/_components/account-profile/_account-profile.scss */
+/* line 335, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11222,26 +11316,26 @@ picture {
           justify-content: space-between;
 }
 
-/* line 256, src/scss/_components/account-profile/_account-profile.scss */
+/* line 339, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 262, src/scss/_components/account-profile/_account-profile.scss */
+/* line 345, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__brokenExchange-form p {
   font-weight: bold;
   font-size: 18px;
   letter-spacing: 0.35px;
 }
 
-/* line 275, src/scss/_components/account-profile/_account-profile.scss */
+/* line 358, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table .nowrap {
   white-space: nowrap;
 }
 
-/* line 280, src/scss/_components/account-profile/_account-profile.scss */
+/* line 363, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11249,17 +11343,22 @@ picture {
   font-weight: bold;
 }
 
-/* line 291, src/scss/_components/account-profile/_account-profile.scss */
+/* line 374, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 298, src/scss/_components/account-profile/_account-profile.scss */
+/* line 381, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons table tbody td {
   font-size: 16px;
 }
 
-/* line 304, src/scss/_components/account-profile/_account-profile.scss */
+/* line 386, src/scss/_components/account-profile/_account-profile.scss */
+.a-profile__coupons table td {
+  vertical-align: middle;
+}
+
+/* line 391, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form {
   width: 100%;
   max-width: 620px;
@@ -11267,7 +11366,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 310, src/scss/_components/account-profile/_account-profile.scss */
+/* line 397, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11279,19 +11378,19 @@ picture {
           justify-content: space-between;
 }
 
-/* line 314, src/scss/_components/account-profile/_account-profile.scss */
+/* line 401, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__coupons-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
   max-width: calc((100% - 20px) / 2);
 }
 
-/* line 328, src/scss/_components/account-profile/_account-profile.scss */
+/* line 415, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table .nowrap {
   white-space: nowrap;
 }
 
-/* line 333, src/scss/_components/account-profile/_account-profile.scss */
+/* line 420, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -11299,44 +11398,44 @@ picture {
   font-weight: bold;
 }
 
-/* line 344, src/scss/_components/account-profile/_account-profile.scss */
+/* line 431, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 350, src/scss/_components/account-profile/_account-profile.scss */
+/* line 437, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr.middle td {
   vertical-align: middle;
 }
 
-/* line 355, src/scss/_components/account-profile/_account-profile.scss */
+/* line 442, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr td {
   font-size: 16px;
 }
 
-/* line 358, src/scss/_components/account-profile/_account-profile.scss */
+/* line 445, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table table tbody tr td:nth-of-type(1) {
   white-space: nowrap;
 }
 
-/* line 366, src/scss/_components/account-profile/_account-profile.scss */
+/* line 453, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table th,
 .a-profile__notifications-table td {
   letter-spacing: 0.27px;
 }
 
-/* line 372, src/scss/_components/account-profile/_account-profile.scss */
+/* line 459, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td {
   padding-right: 80px;
   font-size: 16px;
 }
 
-/* line 376, src/scss/_components/account-profile/_account-profile.scss */
+/* line 463, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table td span {
   min-width: 80px;
 }
 
-/* line 387, src/scss/_components/account-profile/_account-profile.scss */
+/* line 474, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form {
   width: 100%;
   max-width: 620px;
@@ -11344,7 +11443,7 @@ picture {
   margin-right: auto;
 }
 
-/* line 393, src/scss/_components/account-profile/_account-profile.scss */
+/* line 480, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11356,7 +11455,7 @@ picture {
           justify-content: space-between;
 }
 
-/* line 397, src/scss/_components/account-profile/_account-profile.scss */
+/* line 484, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__changePassword-form-group > div {
   width: 100%;
   max-width: -webkit-calc((100% - 20px) / 2);
