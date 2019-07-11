@@ -9157,14 +9157,29 @@ picture {
   font-weight: normal;
 }
 
-/* line 170, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 169, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-table .result span {
+  display: inline-block;
+  width: 100px;
+}
+
+/* line 174, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-table .result i {
+  display: inline-block;
+  min-width: 100px;
+  max-width: 100%;
+  padding-left: 15px;
+  text-align: right;
+}
+
+/* line 185, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody td {
-  padding: 0.5rem;
+  padding: 0.5rem 0.75rem;
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 178, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 192, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody .total td {
   font-weight: 600;
 }

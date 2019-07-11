@@ -165,11 +165,25 @@
 		}
 
 		&-table {
+			.result {
+				span {
+					display: inline-block;
+					width: 100px;
+				}
+
+				i {
+					display: inline-block;
+					min-width: 100px;
+					max-width: 100%;
+					padding-left: 15px;
+					text-align: right;
+				}
+			}
+
 			table {
 				tbody {
 					td {
-						//vertical-align: middle;
-						padding: 0.5rem;
+						padding: 0.5rem 0.75rem;
 						font-size: 14px;
 						letter-spacing: 0.27px;
 					}
