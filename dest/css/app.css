@@ -12383,4 +12383,115 @@ picture {
   }
 }
 
+/* line 3, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/* line 7, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers .main__wrapper {
+  z-index: 2;
+  position: relative;
+}
+
+/* line 12, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__section {
+  margin-bottom: 20px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+  background-color: #ffffff;
+}
+
+/* line 20, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs {
+  height: 56px;
+}
+
+/* line 23, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs > div,
+.subscribers__tabs > span {
+  height: 100%;
+  text-align: center;
+}
+
+/* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs > div {
+  width: 100%;
+  max-width: -webkit-calc((100% - 60px) / 3);
+  max-width: calc((100% - 60px) / 3);
+}
+
+/* line 34, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs > span {
+  position: relative;
+  width: 30px;
+  height: -webkit-calc(100% - 2rem);
+  height: calc(100% - 2rem);
+}
+
+/* line 39, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs > span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: #979797;
+}
+
+/* line 51, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs-btn {
+  overflow: hidden;
+  height: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.47px;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  /* line 51, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__tabs-btn {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* line 62, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs-btn.is-active {
+  color: #6772e5;
+}
+
+/* line 65, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs-btn.is-active:after {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 71, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__tabs-btn:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  border: solid 1px #6772e5;
+  background-color: #d8d8d8;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
 /*# sourceMappingURL=maps/app.css.map */

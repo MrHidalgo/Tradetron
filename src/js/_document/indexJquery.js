@@ -63,6 +63,14 @@ $(document).ready((ev) => {
 	};
 
 
+	const initSubscribersTabs = () => {
+		$('.subscribers__tabs-btn').on('click', (ev) => {
+			$('.subscribers__tabs-btn').removeClass('is-active');
+			$(ev.currentTarget).addClass('is-active');
+		});
+	};
+
+
 	const initStrategyCardBadge = () => {
 		$('.strategy__card-badge a').on('click', (ev) => {
 			$(ev.currentTarget).toggleClass('is-active');
@@ -159,6 +167,7 @@ $(document).ready((ev) => {
 		initStrategyFilterRating();
 		initTooltip();
 		initAccountProfileMenu();
+		initSubscribersTabs();
 		// ==========================================
   };
   initJquery();

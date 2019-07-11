@@ -34,3 +34,12 @@ PageList:
 - file: deployed-strategies.html
   titleName: Deployed Strategies
   ready: 95
+- file: my-subscribers.html
+  titleName: My Subscribers
+  ready: 1
+- file: my-strategies.html
+  titleName: My Strategies
+  ready: 0
+- file: add-new-strategy.html
+  titleName: Add new strategy
+  ready: 0

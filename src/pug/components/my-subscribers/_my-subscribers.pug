@@ -1,0 +1,54 @@
+// SECTION my subscribers :: START
+
+section#subscribers.main.subscribers.position-relative
+
+	.main__bg.main__bg-0.position-absolute.w-100.h-100
+		img.main__bg-img.main__bg-img-1.position-absolute(src="img/img-main-bg-1.png" srcset="img/img-main-bg-1@2x.png 2x, img/img-main-bg-1@3x.png 3x" alt="" title="")
+
+	.strategy__bg.position-absolute.w-100.h-100
+		img(src="img/img-do-bg.png" srcset="img/img-do-bg@2x.png 2x, img/img-do-bg@3x.png 3x" alt="" title="")
+
+	.main__wrapper
+
+		.container
+			.row
+				.col
+
+					.subscribers__wrapper
+
+						// tabs
+						include _my-subscribers--tabs
+						// tabs :: end
+
+						// self
+						include _my-subscribers--subscribers
+						// self :: end
+
+						// reversion
+						include _my-subscribers--reversion
+						// reversion :: end
+
+						// midbass
+						include _my-subscribers--midbass
+						// midbass :: end
+
+						// total
+						include _my-subscribers--total
+						// total :: end
+
+						// broadcast
+						include _my-subscribers--broadcast
+						// broadcast :: end
+
+						// invoicing
+						include _my-subscribers--invoicing
+						// invoicing :: end
+
+	.main__bg.main__bg-1.position-absolute.w-100.h-100
+		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between
+			.main__bg-col.main__bg-col-1.position-absolute
+			.main__bg-col.main__bg-col-2.d-flex.align-items-start.justify-content-end.position-absolute
+				img.main__bg-img.main__bg-img-3.img-fluid.d-block.position-absolute(src="img/img-main-bg-2.png" srcset="img/img-main-bg-2@2x.png 2x, img/img-main-bg-2@3x.png 3x" alt="" title="")
+
+
+// SECTION my subscribers :: END

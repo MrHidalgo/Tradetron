@@ -1,0 +1,14 @@
+---
+title: Tradetron | My Subscribers
+
+pageClassName: p-my-subscribers
+---
+extends shared/_layout
+
+block header
+	include components/_header-login
+
+block content
+	div.body.body--start(class!= pageClassName)
+
+		include components/my-subscribers/_my-subscribers

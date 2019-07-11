@@ -1,0 +1,111 @@
+// SECTION subscribers :: START
+
+.subscribers {
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+	.main__wrapper {
+		z-index: 2;
+		position: relative;
+	}
+
+	&__section {
+		margin-bottom: 20px;
+		border-radius: 6px;
+		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+		background-color: #ffffff;
+	}
+
+	// tabs
+	&__tabs {
+		height: 56px;
+
+		> div,
+		> span {
+			height: 100%;
+			text-align: center;
+		}
+
+		> div {
+			width: 100%;
+			max-width: calc((100% - 60px) / 3);
+		}
+
+		> span {
+			position: relative;
+			width: 30px;
+			height: calc(100% - 2rem);
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 1px;
+				height: 100%;
+				background-color: #979797;
+			}
+		}
+
+		&-btn {
+			overflow: hidden;
+			height: 100%;
+			font-size: 15px;
+			font-weight: 500;
+			letter-spacing: 0.47px;
+			text-align: center;
+			@include adaptive(575) {
+				justify-content: center;
+			}
+
+			&.is-active {
+				color: #6772e5;
+
+				&:after {
+					opacity: 1;
+					@include transition(opacity);
+				}
+			}
+
+			&:after {
+				opacity: 0;
+				content: '';
+				position: absolute;
+				bottom: 0;
+				width: 100%;
+				height: 2px;
+				border: solid 1px #6772e5;
+				background-color: #d8d8d8;
+				@include transition(opacity);
+			}
+		}
+	}
+	// tabs :: end
+
+	// self
+	&__self {}
+	// self :: end
+
+	// reversion
+	&__reversion {}
+	// reversion :: end
+
+	// midbass
+	&__midbass {}
+	// midbass :: end
+
+	// total
+	&__total {}
+	// total :: end
+
+	// broadcast
+	&__broadcast {}
+	// broadcast :: end
+
+	// invoicing
+	&__invoicing {}
+	// invoicing :: end
+}
+
+// SECTION subscribers :: END
