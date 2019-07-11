@@ -180,95 +180,104 @@
 	@if $filename == linkedin {
 		$char: "\E033";
 	}
-	@if $filename == maze {
+	@if $filename == lock {
 		$char: "\E034";
 	}
-	@if $filename == money {
+	@if $filename == maze {
 		$char: "\E035";
 	}
-	@if $filename == more {
+	@if $filename == money {
 		$char: "\E036";
 	}
-	@if $filename == pencil-edit {
+	@if $filename == more {
 		$char: "\E037";
 	}
-	@if $filename == photo-camera {
+	@if $filename == pencil-edit {
 		$char: "\E038";
 	}
-	@if $filename == photos {
+	@if $filename == photo-camera {
 		$char: "\E039";
 	}
-	@if $filename == plus {
+	@if $filename == photos {
 		$char: "\E03A";
 	}
-	@if $filename == puzzle {
+	@if $filename == plus {
 		$char: "\E03B";
 	}
-	@if $filename == safebox {
+	@if $filename == puzzle {
 		$char: "\E03C";
 	}
-	@if $filename == search {
+	@if $filename == safebox {
 		$char: "\E03D";
 	}
-	@if $filename == settings {
+	@if $filename == search {
 		$char: "\E03E";
 	}
-	@if $filename == share-1 {
+	@if $filename == send-invoice {
 		$char: "\E03F";
 	}
-	@if $filename == share {
+	@if $filename == settings {
 		$char: "\E040";
 	}
-	@if $filename == shield {
+	@if $filename == share-1 {
 		$char: "\E041";
 	}
-	@if $filename == signin {
+	@if $filename == share {
 		$char: "\E042";
 	}
-	@if $filename == smartphone {
+	@if $filename == shield {
 		$char: "\E043";
 	}
-	@if $filename == star-fill {
+	@if $filename == signin {
 		$char: "\E044";
 	}
-	@if $filename == star {
+	@if $filename == smartphone {
 		$char: "\E045";
 	}
-	@if $filename == stop {
+	@if $filename == star-fill {
 		$char: "\E046";
 	}
-	@if $filename == stopwatch {
+	@if $filename == star {
 		$char: "\E047";
 	}
-	@if $filename == success {
+	@if $filename == stop {
 		$char: "\E048";
 	}
-	@if $filename == twitter {
+	@if $filename == stopwatch {
 		$char: "\E049";
 	}
-	@if $filename == upload {
+	@if $filename == success {
 		$char: "\E04A";
 	}
-	@if $filename == user-profile {
+	@if $filename == twitter {
 		$char: "\E04B";
 	}
-	@if $filename == user {
+	@if $filename == unlock {
 		$char: "\E04C";
 	}
-	@if $filename == users {
+	@if $filename == upload {
 		$char: "\E04D";
 	}
-	@if $filename == wallet {
+	@if $filename == user-profile {
 		$char: "\E04E";
 	}
-	@if $filename == wallet1 {
+	@if $filename == user {
 		$char: "\E04F";
 	}
-	@if $filename == warning {
+	@if $filename == users {
 		$char: "\E050";
 	}
-	@if $filename == workflow {
+	@if $filename == wallet {
 		$char: "\E051";
+	}
+	@if $filename == wallet1 {
+		$char: "\E052";
+	}
+	@if $filename == warning {
+		$char: "\E053";
+	}
+	@if $filename == workflow {
+		$char: "\E054";
 	}
 
 	@return $char;
@@ -489,6 +498,10 @@
 	@include icon(linkedin);
 
 }
+.icon-lock {
+	@include icon(lock);
+
+}
 .icon-maze {
 	@include icon(maze);
 
@@ -527,6 +540,10 @@
 }
 .icon-search {
 	@include icon(search);
+
+}
+.icon-send-invoice {
+	@include icon(send-invoice);
 
 }
 .icon-settings {
@@ -575,6 +592,10 @@
 }
 .icon-twitter {
 	@include icon(twitter);
+
+}
+.icon-unlock {
+	@include icon(unlock);
 
 }
 .icon-upload {

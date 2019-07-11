@@ -36,7 +36,7 @@ PageList:
   ready: 95
 - file: my-subscribers.html
   titleName: My Subscribers
-  ready: 1
+  ready: 90
 - file: my-strategies.html
   titleName: My Strategies
   ready: 0

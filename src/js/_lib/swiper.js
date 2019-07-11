@@ -225,6 +225,22 @@ const initSwiper = () => {
 	};
 	let mySwiperFollowers = undefined;
 
+  const mySwiperSubscribersOpt = {
+		loop: false,
+		grabCursor: true,
+		freeMode: false,
+		effect: 'slide',
+		speed: 750,
+		slidesPerView: 'auto',
+		spaceBetween: 15,
+		centeredSlides: false,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	};
+	let mySwiperSubscribers = undefined;
+
 	$(window).on('load resize orientationchange', () => {
 		// FEATURES SLIDER OFFSET
 		const _featureCarousel = $('.features__carousel'),
@@ -320,6 +336,19 @@ const initSwiper = () => {
 				}
 
 				$('.s-profile__visited-block-wrapper').find('.swiper-wrapper').attr('style', '');
+			}
+		}
+
+		if ($('.subscribers__self-block-wrapper').length > 0) {
+			if($(window).width() < 1023) {
+				mySwiperSubscribers = new Swiper('.swiper-container-visited', mySwiperSubscribersOpt);
+			} else {
+				if(mySwiperSubscribers !== undefined) {
+					mySwiperSubscribers.destroy(true, true);
+					mySwiperSubscribers = undefined;
+				}
+
+				$('.subscribers__self-block-wrapper').find('.swiper-wrapper').attr('style', '');
 			}
 		}
 	});

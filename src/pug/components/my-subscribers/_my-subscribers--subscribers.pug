@@ -6,7 +6,73 @@
 		div
 		a(href="#" class="" title="")!= "See all"
 
-	.subscribers__self-head.px-3.pb-3
+	.subscribers__self-head.px-3.pb-4.pt-4
+
+		.subscribers__self-block-wrapper
+
+			mixin swiperContent()
+				.swiper-slide
+					.subscribers__self-block.pb-2
+						.subscribers__self-block-img
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p.subscribers__self-block-name!= "Jared Murray"
+						.subscribers__self-block-social
+							a(href="#" class="" title="")
+								i.icon-font.icon-comment
+							a(href="#" class="" title="")
+								i.icon-font.icon-lock
+							a(href="#" class="" title="")
+								i.icon-font.icon-unlock
+							a(href="#" class="" title="")
+								i.icon-font.icon-send-invoice
+
+				.swiper-slide
+					.subscribers__self-block.pb-2
+						.subscribers__self-block-img
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p.subscribers__self-block-name!= "Helen Jackson"
+						.subscribers__self-block-social
+							a(href="#" class="" title="")
+								i.icon-font.icon-comment
+							a(href="#" class="" title="")
+								i.icon-font.icon-lock
+							a(href="#" class="" title="")
+								i.icon-font.icon-unlock
+							a(href="#" class="" title="")
+								i.icon-font.icon-send-invoice
+
+				.swiper-slide
+					.subscribers__self-block.pb-2
+						.subscribers__self-block-img
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p.subscribers__self-block-name!= "Alfred McBride"
+						.subscribers__self-block-social
+							a(href="#" class="" title="")
+								i.icon-font.icon-comment
+							a(href="#" class="" title="")
+								i.icon-font.icon-lock
+							a(href="#" class="" title="")
+								i.icon-font.icon-unlock
+							a(href="#" class="" title="")
+								i.icon-font.icon-send-invoice
+
+				.swiper-slide
+					.subscribers__self-block.pb-2
+						.subscribers__self-block-img
+							img(src="img/img-profile.png" srcset="img/img-profile@2x.png 2x" alt="" title="")
+						p.subscribers__self-block-name!= "Melvin Bush"
+						.subscribers__self-block-social
+							a(href="#" class="" title="")
+								i.icon-font.icon-comment
+							a(href="#" class="" title="")
+								i.icon-font.icon-lock
+							a(href="#" class="" title="")
+								i.icon-font.icon-unlock
+							a(href="#" class="" title="")
+								i.icon-font.icon-send-invoice
+
+			+swiper('swiper-container-subscribers', 'swiperContent', true, false, false)
+
 
 	.subscribers__self-footer.d-flex.align-items-center.justify-content-between.p-3
 		.position-relative.pr-3
@@ -16,4 +82,4 @@
 		.position-relative.px-3
 			p Fees on profit: RS.5000 +20%
 		.position-relative.pl-3
-			p See past reports
+			a(href="#" class="" title="") See past reports
