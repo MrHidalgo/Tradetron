@@ -151,10 +151,10 @@
 
 				p {
 					font-weight: bold;
-					font-size: 20px;
+					font-size: 18px;
 					letter-spacing: 0.47px;
 					@include adaptive(767) {
-						font-size: 18px;
+						font-size: 16px;
 					}
 
 					span {

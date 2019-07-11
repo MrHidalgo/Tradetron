@@ -206,7 +206,7 @@
 				th,
 				td {
 					@include adaptive(767) {
-						//min-width: 150px;
+						min-width: 150px;
 					}
 
 					&:first-of-type {

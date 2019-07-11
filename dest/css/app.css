@@ -9141,14 +9141,14 @@ picture {
 /* line 152, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-info > div p {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.47px;
 }
 
 @media screen and (max-width: 767px) {
   /* line 152, src/scss/_components/deployed-strategies/_deployed.scss */
   .deployed__archived-info > div p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -12598,6 +12598,16 @@ picture {
 /* line 200, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table .nowrap {
   white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 206, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__invoicing table thead th,
+  .subscribers__invoicing table thead td,
+  .subscribers__invoicing table tbody th,
+  .subscribers__invoicing table tbody td {
+    min-width: 150px;
+  }
 }
 
 /* line 212, src/scss/_components/my-subscribers/_my-subscribers.scss */
