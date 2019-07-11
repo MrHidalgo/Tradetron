@@ -232,7 +232,7 @@ const initSwiper = () => {
 		effect: 'slide',
 		speed: 750,
 		slidesPerView: 'auto',
-		spaceBetween: 15,
+		spaceBetween: 0,
 		centeredSlides: false,
 		pagination: {
 			el: '.swiper-pagination',
@@ -340,8 +340,8 @@ const initSwiper = () => {
 		}
 
 		if ($('.subscribers__self-block-wrapper').length > 0) {
-			if($(window).width() < 1023) {
-				mySwiperSubscribers = new Swiper('.swiper-container-visited', mySwiperSubscribersOpt);
+			if($(window).width() < 992) {
+				mySwiperSubscribers = new Swiper('.swiper-container-subscribers', mySwiperSubscribersOpt);
 			} else {
 				if(mySwiperSubscribers !== undefined) {
 					mySwiperSubscribers.destroy(true, true);

@@ -112,20 +112,23 @@
 
 		.swiper {
 			&-container {
-				@include adaptive(767) {
+				@include adaptive(991) {
 					padding-bottom: 50px;
 				}
 			}
 
 			&-wrapper {
-				@include respond(medium) {
+				@include respond(large) {
 					flex-wrap: wrap;
 				}
 			}
 
 			&-slide {
-				@include respond(medium) {
+				@include respond(large) {
 					width: 205px;
+				}
+				@include adaptive(991) {
+					width: 205px !important;
 				}
 
 				&:last-of-type {
@@ -137,7 +140,7 @@
 
 			&-pagination {
 				display: none;
-				@include adaptive(767) {
+				@include adaptive(991) {
 					display: flex;
 				}
 			}
@@ -563,6 +566,7 @@
 
 			thead {
 				th {
+					vertical-align: top;
 					border-top: none;
 					border-bottom-width: 1px;
 					font-size: 14px;
