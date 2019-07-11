@@ -234,8 +234,26 @@
                   <!-- self-->
                   <div class="subscribers__section subscribers__self">
                     <div class="subscribers__self-head p-3 d-flex align-items-center justify-content-between">
-                      <div>
-                        <p class="subscribers__section-title">My Subscribers <span>(4)</span></p>
+                      <div class="d-flex align-items-center">
+                        <p class="subscribers__section-title pr-4">My Subscribers <span>(4)</span></p>
+                        <div class="dropdown">
+                          <button class="dropdown-toggle px-3" id="subscribersBroadcastSelect" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+                          <div class="dropdown-menu animate slideIn" aria-labelledby="subscribersBroadcastSelect">
+                            <div class="dropdown-menu-corner position-absolute"></div>
+                            <div class="dropdown-menu-wrapper d-flex flex-column">
+                              <form class="px-3 py-2">
+                                <div class="form-check mb-3">
+                                  <input class="form-check-input" id="dropdownCheck1" type="checkbox">
+                                  <label class="form-check-label p-0" for="dropdownCheck1">Jared Murray</label>
+                                </div>
+                                <div class="form-check mb-0">
+                                  <input class="form-check-input" id="dropdownCheck4" type="checkbox">
+                                  <label class="form-check-label p-0" for="dropdownCheck4">Melvin Bush</label>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                       <div></div><a href="#" title="">See all</a>
                     </div>

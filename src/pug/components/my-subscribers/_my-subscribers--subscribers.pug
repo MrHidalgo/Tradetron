@@ -1,8 +1,22 @@
 .subscribers__section.subscribers__self
 
 	.subscribers__self-head.p-3.d-flex.align-items-center.justify-content-between
-		div
-			p.subscribers__section-title!= "My Subscribers <span>(4)</span>"
+		div.d-flex.align-items-center
+			p.subscribers__section-title.pr-4!= "My Subscribers <span>(4)</span>"
+
+			.dropdown
+				button#subscribersBroadcastSelect.dropdown-toggle.px-3(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+					| All
+				.dropdown-menu.animate.slideIn(aria-labelledby='subscribersBroadcastSelect')
+					.dropdown-menu-corner.position-absolute
+					.dropdown-menu-wrapper.d-flex.flex-column
+						form.px-3.py-2
+							.form-check.mb-3
+								input#dropdownCheck1.form-check-input(type='checkbox')
+								label.form-check-label.p-0(for='dropdownCheck1') Jared Murray
+							.form-check.mb-0
+								input#dropdownCheck4.form-check-input(type='checkbox')
+								label.form-check-label.p-0(for='dropdownCheck4') Melvin Bush
 		div
 		a(href="#" class="" title="")!= "See all"
 
