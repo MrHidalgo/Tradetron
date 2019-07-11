@@ -1,5 +1,57 @@
 // COMMON :: START
 
+// alert
+.alert {
+	border: none;
+
+	&__box {
+		position: relative;
+		min-height: 40px;
+		padding: 10px 50px;
+		margin-bottom: 20px;
+		border-radius: 6px;
+		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+		background-color: #ffffff;
+		@include adaptive(767) {
+			padding-left: 15px;
+			padding-right: 45px;
+		}
+
+		&.is-valid {
+			p {
+				color: #22C993;
+			}
+		}
+		&.is-invalid {
+			p {
+				color: #f05858;
+			}
+		}
+
+		p {
+			text-align: center;
+			font-weight: 500;
+			font-size: 12px;
+			letter-spacing: 0.38px;
+			@include adaptive(767) {
+				text-align: left;
+			}
+		}
+
+		a {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			right: 30px;
+			font-size: 14px;
+			@include adaptive(767) {
+				right: 15px;
+			}
+		}
+	}
+}
+// alert :: end
+
 // copyright
 .copyright {
 	font-size: 13px;

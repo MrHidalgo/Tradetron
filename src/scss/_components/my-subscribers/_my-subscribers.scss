@@ -502,14 +502,23 @@
 
 	// total
 	&__total {
-		@include adaptive(991) {
+		@include adaptive(767) {
+			justify-content: space-between;
+		}
+		@include adaptive(767) {
 			flex-wrap: wrap;
+			justify-content: flex-start;
 		}
 
 		> div {
 			width: 100%;
 			max-width: calc(100% / 3);
 			@include adaptive(991) {
+				width: auto;
+				max-width: unset;
+			}
+			@include adaptive(767) {
+				width: 100%;
 				max-width: 100%;
 				padding-left: 0 !important;
 				padding-bottom: 10px;
@@ -521,6 +530,10 @@
 		}
 
 		p {
+			@include adaptive(991) {
+				white-space: nowrap;
+			}
+
 			a {
 				color: #6772e5;
 			}
