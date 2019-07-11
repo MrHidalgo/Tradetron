@@ -1,5 +1,43 @@
 .subscribers__section.subscribers__broadcast.p-3
 	p.subscribers__section-title.pb-4!= "Broadcast Message"
 
+	.subscribers__broadcast-wrapper.d-flex
+		.subscribers__broadcast-wrapper-left
+
+			.form-group
+				label(for='subscribersBroadcastSelect') Select Subscribers
+				.dropdown
+					button#subscribersBroadcastSelect.dropdown-toggle.px-3(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+						| All
+					.dropdown-menu.animate.slideIn(aria-labelledby='subscribersBroadcastSelect')
+						.dropdown-menu-corner.position-absolute
+						.dropdown-menu-wrapper.d-flex.flex-column
+							form.px-3.py-2
+								.form-check.mb-3
+									input#dropdownCheck1.form-check-input(type='checkbox')
+									label.form-check-label.p-0(for='dropdownCheck1') Jared Murray
+								.form-check.mb-3
+									input#dropdownCheck2.form-check-input(type='checkbox')
+									label.form-check-label.p-0(for='dropdownCheck2') Helen Jackson
+								.form-check.mb-3
+									input#dropdownCheck3.form-check-input(type='checkbox')
+									label.form-check-label.p-0(for='dropdownCheck3') Alfred McBride
+								.form-check.mb-0
+									input#dropdownCheck4.form-check-input(type='checkbox')
+									label.form-check-label.p-0(for='dropdownCheck4') Melvin Bush
+
+			.subscribers__broadcast-attach.position-relative.d-flex.align-items-center.justify-content-center
+				input(type='file')
+				p.d-flex.align-items-center
+					i.icon-font.icon-attach
+					span!= "Attach file"
+
+		.subscribers__broadcast-wrapper-right
+
+			.form-group.mb-0
+				label(for='subscribersBroadcastMessage') Message
+				textarea#subscribersBroadcastMessage.form-control.p-3(placeholder="Write your message…")
+
+
 	.subscribers__section-btn.d-flex.justify-content-center.pt-4
 		a.c-btn.c-btn--bg(href="#" class="" title="")!= "Send"

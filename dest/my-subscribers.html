@@ -262,6 +262,83 @@
                     <div class="subscribers__reversion-info text-center pb-3">
                       <p>Fees : Rs.5000 + 20% on profits</p>
                     </div>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="row" colspan="3">Performance Details</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p class="pb-2"><span>Total P&L: </span>-Rs.30000</p>
+                              <p class="pb-2"><span>Invoiced till: </span>Rs.20000 (Fees)</p>
+                              <p class="pb-2"><span>High watermark: </span>Rs.20000</p>
+                              <p class="pb-5"><span>To be billed: </span>Rs.500 (<a href='#'>Create Invoice</a>)</p>
+                            </td>
+                            <td>
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Date</th>
+                                    <th>Valid Till</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>May 1</td>
+                                    <td>May 30</td>
+                                    <td>Rs.4000</td>
+                                    <td>Paid</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td>
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Invoice №</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>001</td>
+                                    <td>May 1</td>
+                                    <td>Rs.500</td>
+                                    <td>Paid</td>
+                                  </tr>
+                                  <tr>
+                                    <td>002</td>
+                                    <td>May 2</td>
+                                    <td>Rs.300</td>
+                                    <td>
+                                      <p>Pending</p>
+                                      <p>(Send reminder)</p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              <p><strong>Total Subscription Fees :</strong> Rs.4000</p>
+                            </td>
+                            <td>
+                              <p><strong>Total Fees on profit :</strong> Rs.3000</p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                   <!-- reversion :: end-->
                   <!-- midbass-->
@@ -269,6 +346,55 @@
                     <p class="subscribers__section-title pb-2 text-center">Midbass</p>
                     <div class="subscribers__midbass-info text-center pb-3">
                       <p>Fees : 20% on profits</p>
+                    </div>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="row">Performance Details</th>
+                            <th scope="row">Subscription Fees</th>
+                            <th scope="row">Fees on Profit</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <p class="pb-2"><span>Total P&L: </span>-Rs.30000</p>
+                              <p class="pb-2"><span>Invoiced till: </span>NA</p>
+                              <p class="pb-2"><span>High watermark: </span>Rs.20000</p>
+                              <p class="pb-5"><span>To be billed: </span>Rs.500 (<a href='#'>Create Invoice</a>)</p>
+                            </td>
+                            <td>
+                              <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>Date</th>
+                                    <th>Valid Till</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>May 1</td>
+                                    <td>May 30</td>
+                                    <td>Rs.4000</td>
+                                    <td>Paid</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td>No Invoices Raised</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td>
+                              <p><strong>Total Subscription Fees :</strong> Rs.4000</p>
+                            </td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                   <!-- midbass :: end-->
@@ -288,6 +414,49 @@
                   <!-- broadcast-->
                   <div class="subscribers__section subscribers__broadcast p-3">
                     <p class="subscribers__section-title pb-4">Broadcast Message</p>
+                    <div class="subscribers__broadcast-wrapper d-flex">
+                      <div class="subscribers__broadcast-wrapper-left">
+                        <div class="form-group">
+                          <label for="subscribersBroadcastSelect">Select Subscribers</label>
+                          <div class="dropdown">
+                            <button class="dropdown-toggle px-3" id="subscribersBroadcastSelect" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All</button>
+                            <div class="dropdown-menu animate slideIn" aria-labelledby="subscribersBroadcastSelect">
+                              <div class="dropdown-menu-corner position-absolute"></div>
+                              <div class="dropdown-menu-wrapper d-flex flex-column">
+                                <form class="px-3 py-2">
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" id="dropdownCheck1" type="checkbox">
+                                    <label class="form-check-label p-0" for="dropdownCheck1">Jared Murray</label>
+                                  </div>
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" id="dropdownCheck2" type="checkbox">
+                                    <label class="form-check-label p-0" for="dropdownCheck2">Helen Jackson</label>
+                                  </div>
+                                  <div class="form-check mb-3">
+                                    <input class="form-check-input" id="dropdownCheck3" type="checkbox">
+                                    <label class="form-check-label p-0" for="dropdownCheck3">Alfred McBride</label>
+                                  </div>
+                                  <div class="form-check mb-0">
+                                    <input class="form-check-input" id="dropdownCheck4" type="checkbox">
+                                    <label class="form-check-label p-0" for="dropdownCheck4">Melvin Bush</label>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="subscribers__broadcast-attach position-relative d-flex align-items-center justify-content-center">
+                          <input type="file">
+                          <p class="d-flex align-items-center"><i class="icon-font icon-attach"></i><span>Attach file</span></p>
+                        </div>
+                      </div>
+                      <div class="subscribers__broadcast-wrapper-right">
+                        <div class="form-group mb-0">
+                          <label for="subscribersBroadcastMessage">Message</label>
+                          <textarea class="form-control p-3" id="subscribersBroadcastMessage" placeholder="Write your message…"></textarea>
+                        </div>
+                      </div>
+                    </div>
                     <div class="subscribers__section-btn d-flex justify-content-center pt-4"><a class="c-btn c-btn--bg" href="#" title="">Send</a></div>
                   </div>
                   <!-- broadcast :: end-->

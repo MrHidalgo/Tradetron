@@ -176,7 +176,7 @@
 }
 
 /* line 23, src/scss/_generated/_spriteFont.scss */
-.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-pencil-edit:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share-1:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-wallet1:before, .icon-warning:before, .icon-workflow:before {
+.icon-agenda:before, .icon-alert:before, .icon-analytics:before, .icon-arrow:before, .icon-attach:before, .icon-bar-chart:before, .icon-bell:before, .icon-calculator:before, .icon-calendar:before, .icon-cancel:before, .icon-chart:before, .icon-check:before, .icon-checklist:before, .icon-chip:before, .icon-clock:before, .icon-close:before, .icon-comment:before, .icon-controls:before, .icon-copy:before, .icon-corner:before, .icon-cvs:before, .icon-deadline:before, .icon-desktop:before, .icon-diagram:before, .icon-duplicate:before, .icon-edit:before, .icon-email:before, .icon-envelope:before, .icon-envelope1:before, .icon-facebook:before, .icon-favorites:before, .icon-file-2:before, .icon-file-export:before, .icon-file:before, .icon-filter:before, .icon-garbage:before, .icon-google-plus:before, .icon-graphene:before, .icon-hand:before, .icon-heart-fill:before, .icon-heart:before, .icon-id-card:before, .icon-idea:before, .icon-information:before, .icon-innovation:before, .icon-internet:before, .icon-key:before, .icon-layers:before, .icon-line-chart:before, .icon-link:before, .icon-linkedin:before, .icon-maze:before, .icon-money:before, .icon-more:before, .icon-pencil-edit:before, .icon-photo-camera:before, .icon-photos:before, .icon-plus:before, .icon-puzzle:before, .icon-safebox:before, .icon-search:before, .icon-settings:before, .icon-share-1:before, .icon-share:before, .icon-shield:before, .icon-signin:before, .icon-smartphone:before, .icon-star-fill:before, .icon-star:before, .icon-stop:before, .icon-stopwatch:before, .icon-success:before, .icon-twitter:before, .icon-upload:before, .icon-user-profile:before, .icon-user:before, .icon-users:before, .icon-wallet:before, .icon-wallet1:before, .icon-warning:before, .icon-workflow:before {
   font-family: "iconFont", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -187,404 +187,409 @@
   text-transform: none;
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
+/* line 278, src/scss/_generated/_spriteFont.scss */
 .icon-agenda:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
+/* line 278, src/scss/_generated/_spriteFont.scss */
 .icon-alert:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
+/* line 278, src/scss/_generated/_spriteFont.scss */
 .icon-analytics:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
+/* line 278, src/scss/_generated/_spriteFont.scss */
 .icon-arrow:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-bar-chart:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-attach:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-bell:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-bar-chart:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-calculator:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-bell:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-calendar:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-calculator:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-cancel:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-calendar:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-chart:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-cancel:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-check:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-chart:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-checklist:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-check:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-chip:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-checklist:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-clock:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-chip:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-close:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-clock:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-comment:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-close:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-controls:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-comment:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-copy:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-controls:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-corner:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-copy:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-cvs:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-corner:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-deadline:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-cvs:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-desktop:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-deadline:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-diagram:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-desktop:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-duplicate:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-diagram:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-edit:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-duplicate:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-email:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-edit:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-envelope:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-email:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-envelope1:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-envelope:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-facebook:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-envelope1:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-favorites:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-facebook:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-file-2:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-favorites:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-file-export:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-file-2:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-file:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-file-export:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-filter:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-file:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-garbage:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-filter:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-google-plus:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-garbage:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-graphene:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-google-plus:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-hand:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-graphene:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-heart-fill:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-hand:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-heart:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-heart-fill:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-id-card:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-heart:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-idea:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-id-card:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-information:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-idea:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-innovation:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-information:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-internet:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-innovation:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-key:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-internet:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-layers:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-key:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-line-chart:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-layers:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-link:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-line-chart:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-linkedin:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-link:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-maze:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-linkedin:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-money:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-maze:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-more:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-money:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-pencil-edit:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-more:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-photo-camera:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-pencil-edit:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-photos:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-photo-camera:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-plus:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-photos:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-puzzle:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-plus:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-safebox:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-puzzle:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-search:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-safebox:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-settings:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-search:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-share-1:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-settings:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-share:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-share-1:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-shield:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-share:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-signin:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-shield:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-smartphone:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-signin:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-star-fill:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-smartphone:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-star:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-star-fill:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-stop:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-star:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-stopwatch:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-stop:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-success:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-stopwatch:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-twitter:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-success:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-upload:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-twitter:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-user-profile:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-upload:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-user:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-user-profile:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-users:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-user:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-wallet:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-users:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-wallet1:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-wallet:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-warning:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-wallet1:before {
   content: "";
 }
 
-/* line 275, src/scss/_generated/_spriteFont.scss */
-.icon-workflow:before {
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-warning:before {
   content: "";
+}
+
+/* line 278, src/scss/_generated/_spriteFont.scss */
+.icon-workflow:before {
+  content: "";
 }
 
 @font-face {
@@ -12586,37 +12591,336 @@ picture {
   letter-spacing: 0.38px;
 }
 
-/* line 164, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 161, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table .nowrap {
+  white-space: nowrap;
+}
+
+/* line 167, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table thead th,
+.subscribers__reversion table thead td,
+.subscribers__reversion table tbody th,
+.subscribers__reversion table tbody td {
+  border-right: 1px solid #dee2e6;
+}
+
+/* line 170, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table thead th:last-of-type,
+.subscribers__reversion table thead td:last-of-type,
+.subscribers__reversion table tbody th:last-of-type,
+.subscribers__reversion table tbody td:last-of-type {
+  border-right: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 167, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__reversion table thead th,
+  .subscribers__reversion table thead td,
+  .subscribers__reversion table tbody th,
+  .subscribers__reversion table tbody td {
+    min-width: 150px;
+  }
+}
+
+/* line 178, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table thead th:first-of-type,
+.subscribers__reversion table thead td:first-of-type,
+.subscribers__reversion table tbody th:first-of-type,
+.subscribers__reversion table tbody td:first-of-type {
+  padding-left: 0;
+}
+
+/* line 185, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table thead th {
+  border-bottom-width: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 195, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody tr:last-of-type td {
+  border-right: none;
+}
+
+/* line 203, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody td p span {
+  font-weight: 500;
+}
+
+/* line 211, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody td table thead th,
+.subscribers__reversion table tbody td table thead td,
+.subscribers__reversion table tbody td table tbody th,
+.subscribers__reversion table tbody td table tbody td {
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+
+/* line 219, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody td table thead th {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 228, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody td table tbody tr:last-of-type td {
+  border-bottom: none;
+}
+
+/* line 234, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion table tbody td table tbody td {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 248, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass-info {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 173, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 254, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table .nowrap {
+  white-space: nowrap;
+}
+
+/* line 260, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table thead th,
+.subscribers__midbass table thead td,
+.subscribers__midbass table tbody th,
+.subscribers__midbass table tbody td {
+  border-right: 1px solid #dee2e6;
+}
+
+/* line 263, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table thead th:last-of-type,
+.subscribers__midbass table thead td:last-of-type,
+.subscribers__midbass table tbody th:last-of-type,
+.subscribers__midbass table tbody td:last-of-type {
+  border-right: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 260, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__midbass table thead th,
+  .subscribers__midbass table thead td,
+  .subscribers__midbass table tbody th,
+  .subscribers__midbass table tbody td {
+    min-width: 150px;
+  }
+}
+
+/* line 271, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table thead th:first-of-type,
+.subscribers__midbass table thead td:first-of-type,
+.subscribers__midbass table tbody th:first-of-type,
+.subscribers__midbass table tbody td:first-of-type {
+  padding-left: 0;
+}
+
+/* line 278, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table thead th {
+  border-bottom-width: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 288, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody tr:last-of-type td {
+  border-right: none;
+}
+
+/* line 296, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody td p span {
+  font-weight: 500;
+}
+
+/* line 304, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody td table thead th,
+.subscribers__midbass table tbody td table thead td,
+.subscribers__midbass table tbody td table tbody th,
+.subscribers__midbass table tbody td table tbody td {
+  padding: 0.25rem 0.5rem;
+  border: none;
+}
+
+/* line 312, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody td table thead th {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 321, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody td table tbody tr:last-of-type td {
+  border-bottom: none;
+}
+
+/* line 327, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass table tbody td table tbody td {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 341, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
   max-width: calc(100% / 3);
 }
 
-/* line 179, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 347, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total p a {
   color: #6772e5;
 }
 
-/* line 193, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 357, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper-left {
+  width: 280px;
+  padding-right: 30px;
+}
+
+/* line 362, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 368, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown {
+  width: 100%;
+}
+
+/* line 371, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown-toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: solid 1px rgba(185, 185, 185, 0.3);
+  background-color: #ffffff;
+}
+
+/* line 382, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: rgba(185, 185, 185, 0.3);
+}
+
+/* line 388, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown-menu {
+  width: 100%;
+}
+
+/* line 391, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown-menu input {
+  height: auto;
+}
+
+/* line 395, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper .dropdown-menu label {
+  position: relative;
+  top: 2px;
+  letter-spacing: 0.27px;
+  font-weight: normal;
+}
+
+/* line 404, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-wrapper textarea {
+  resize: none;
+  min-height: 136px;
+  letter-spacing: 0.09px;
+}
+
+/* line 88, src/scss/_utilities/_mixin.scss */
+.subscribers__broadcast-wrapper textarea.placeholder {
+  color: rgba(51, 51, 51, 0.54);
+}
+
+/* line 89, src/scss/_utilities/_mixin.scss */
+.subscribers__broadcast-wrapper textarea:-moz-placeholder {
+  color: rgba(51, 51, 51, 0.54);
+}
+
+/* line 90, src/scss/_utilities/_mixin.scss */
+.subscribers__broadcast-wrapper textarea::-moz-placeholder {
+  color: rgba(51, 51, 51, 0.54);
+}
+
+/* line 91, src/scss/_utilities/_mixin.scss */
+.subscribers__broadcast-wrapper textarea:-ms-input-placeholder {
+  color: rgba(51, 51, 51, 0.54);
+}
+
+/* line 92, src/scss/_utilities/_mixin.scss */
+.subscribers__broadcast-wrapper textarea::-webkit-input-placeholder {
+  color: rgba(51, 51, 51, 0.54);
+}
+
+/* line 414, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-attach {
+  cursor: pointer;
+  width: 100%;
+  min-height: 80px;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  border: 1px dashed #B0C4E0;
+}
+
+/* line 421, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-attach input {
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 432, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-attach p {
+  cursor: pointer;
+  color: #b0c4e0;
+}
+
+/* line 437, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__broadcast-attach .icon-font {
+  font-size: 16px;
+}
+
+/* line 447, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing-info p {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 200, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 454, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table .nowrap {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 206, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 460, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__invoicing table thead th,
   .subscribers__invoicing table thead td,
   .subscribers__invoicing table tbody th,
@@ -12625,7 +12929,7 @@ picture {
   }
 }
 
-/* line 212, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 466, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th:first-of-type,
 .subscribers__invoicing table thead td:first-of-type,
 .subscribers__invoicing table tbody th:first-of-type,
@@ -12633,7 +12937,7 @@ picture {
   padding-left: 0;
 }
 
-/* line 219, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 473, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th {
   border-top: none;
   border-bottom-width: 1px;
@@ -12641,12 +12945,12 @@ picture {
   font-weight: bold;
 }
 
-/* line 230, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 484, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 237, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 491, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody td {
   font-size: 16px;
 }
