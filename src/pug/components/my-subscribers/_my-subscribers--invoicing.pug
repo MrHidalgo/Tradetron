@@ -1,1 +1,41 @@
-.subscribers__section.subscribers__invoicing
+.subscribers__section.subscribers__invoicing.px-3.py-4
+
+	p.subscribers__section-title.pb-3!= "Invoicing"
+
+	.subscribers__invoicing-info.pb-3
+		p.pb-2!= "<strong>Company Name:</strong> Apple Corp."
+		p.pb-2!= "<strong>Tax Id Label:</strong> 23-3475859"
+		p!= "<strong>Tax %:</strong> 21%"
+
+	.subscribers__invoicing-table
+
+		.table-responsive
+			table.table
+				thead
+					tr
+						th(scope="row")
+						th(scope="row") Subscriber Name
+						th(scope="row") Strategy Names
+						th(scope="row") Invoice Date
+						th(scope="row") Invoice Amount
+						th(scope="row") Additional Item Label
+						th(scope="row") Additional Item Amount
+						th(scope="row") Total
+				tbody
+					each val, idx in [1,2,3]
+						tr
+							td
+								.form-group.form-check.m-0
+									input.form-check-input.h-auto(type='checkbox')
+							td Tony Stark
+							td
+								p!= "Midbass<br>Mean<br>Reversion"
+							td.nowrap May 30 2019
+							td Rs.200
+							td -
+							td -
+							td Rs.200
+
+	.subscribers__section-btn.d-flex.justify-content-center.pt-4
+		a.c-btn.c-btn--bg(href="#" class="" title="")!= "Send"
+

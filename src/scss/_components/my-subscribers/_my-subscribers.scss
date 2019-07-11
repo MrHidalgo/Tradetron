@@ -14,6 +14,24 @@
 		border-radius: 6px;
 		box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 		background-color: #ffffff;
+
+		&-title {
+			font-size: 20px;
+			font-weight: 600;
+			letter-spacing: 0.47px;
+
+			span {
+				font-weight: normal;
+			}
+		}
+
+		&-btn {
+			a {
+				width: 100%;
+				max-width: 177px;
+				height: 40px;
+			}
+		}
 	}
 
 	// tabs
@@ -84,19 +102,85 @@
 	// tabs :: end
 
 	// self
-	&__self {}
+	&__self {
+		&-head {
+			a {
+				font-size: 18px;
+				letter-spacing: 0.43px;
+			}
+		}
+
+		&-footer {
+			min-height: 71px;
+			border-bottom-left-radius: 6px;
+			border-bottom-right-radius: 6px;
+			background-color: #6772e5;
+
+			> div {
+				width: 100%;
+				max-width: calc(100% / 4);
+				text-align: center;
+
+				&:first-of-type {
+					text-align: left;
+				}
+
+				&:last-of-type {
+					&:after {
+						display: none;
+					}
+				}
+
+				&:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 1px;
+					height: calc(100%);
+					background-color: #ffffff;
+				}
+			}
+
+			p {
+				letter-spacing: 0.27px;
+				color: #ffffff;
+			}
+		}
+	}
 	// self :: end
 
 	// reversion
-	&__reversion {}
+	&__reversion {
+		&-info {
+			font-size: 16px;
+			letter-spacing: 0.38px;
+		}
+	}
 	// reversion :: end
 
 	// midbass
-	&__midbass {}
+	&__midbass {
+		&-info {
+			font-size: 16px;
+			letter-spacing: 0.38px;
+		}
+	}
 	// midbass :: end
 
 	// total
-	&__total {}
+	&__total {
+		> div {
+			width: 100%;
+			max-width: calc(100% / 3);
+		}
+
+		p {
+			a {
+				color: #6772e5;
+			}
+		}
+	}
 	// total :: end
 
 	// broadcast
@@ -104,7 +188,58 @@
 	// broadcast :: end
 
 	// invoicing
-	&__invoicing {}
+	&__invoicing {
+		&-info {
+			p {
+				font-size: 16px;
+				letter-spacing: 0.38px;
+			}
+		}
+
+		table {
+			.nowrap {
+				white-space: nowrap;
+			}
+
+			thead,
+			tbody {
+				th,
+				td {
+					@include adaptive(767) {
+						//min-width: 150px;
+					}
+
+					&:first-of-type {
+						padding-left: 0;
+					}
+				}
+			}
+
+			thead {
+				th {
+					border-top: none;
+					border-bottom-width: 1px;
+					font-size: 14px;
+					font-weight: bold;
+				}
+			}
+
+			tbody {
+				tr {
+					&:last-of-type {
+						td {
+							border-bottom: 1px solid #dee2e6;
+						}
+					}
+
+				}
+
+				td {
+					font-size: 16px;
+				}
+			}
+		}
+	}
 	// invoicing :: end
 }
 

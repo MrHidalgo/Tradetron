@@ -12405,26 +12405,45 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 20, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 18, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__section-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.47px;
+}
+
+/* line 23, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__section-title span {
+  font-weight: normal;
+}
+
+/* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__section-btn a {
+  width: 100%;
+  max-width: 177px;
+  height: 40px;
+}
+
+/* line 38, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs {
   height: 56px;
 }
 
-/* line 23, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 41, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > div,
 .subscribers__tabs > span {
   height: 100%;
   text-align: center;
 }
 
-/* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 47, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > div {
   width: 100%;
   max-width: -webkit-calc((100% - 60px) / 3);
   max-width: calc((100% - 60px) / 3);
 }
 
-/* line 34, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 52, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > span {
   position: relative;
   width: 30px;
@@ -12432,7 +12451,7 @@ picture {
   height: calc(100% - 2rem);
 }
 
-/* line 39, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 57, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > span:after {
   content: '';
   position: absolute;
@@ -12446,7 +12465,7 @@ picture {
   background-color: #979797;
 }
 
-/* line 51, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 69, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn {
   overflow: hidden;
   height: 100%;
@@ -12457,7 +12476,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 51, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 69, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__tabs-btn {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -12466,12 +12485,12 @@ picture {
   }
 }
 
-/* line 62, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 80, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn.is-active {
   color: #6772e5;
 }
 
-/* line 65, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 83, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -12479,7 +12498,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 71, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 89, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn:after {
   opacity: 0;
   content: '';
@@ -12492,6 +12511,119 @@ picture {
   -webkit-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
+}
+
+/* line 107, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-head a {
+  font-size: 18px;
+  letter-spacing: 0.43px;
+}
+
+/* line 113, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer {
+  min-height: 71px;
+  -webkit-border-bottom-left-radius: 6px;
+          border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+          border-bottom-right-radius: 6px;
+  background-color: #6772e5;
+}
+
+/* line 119, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+  text-align: center;
+}
+
+/* line 124, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer > div:first-of-type {
+  text-align: left;
+}
+
+/* line 129, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer > div:last-of-type:after {
+  display: none;
+}
+
+/* line 134, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer > div:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: -webkit-calc(100%);
+  height: calc(100%);
+  background-color: #ffffff;
+}
+
+/* line 145, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-footer p {
+  letter-spacing: 0.27px;
+  color: #ffffff;
+}
+
+/* line 155, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion-info {
+  font-size: 16px;
+  letter-spacing: 0.38px;
+}
+
+/* line 164, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass-info {
+  font-size: 16px;
+  letter-spacing: 0.38px;
+}
+
+/* line 173, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__total > div {
+  width: 100%;
+  max-width: -webkit-calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+
+/* line 179, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__total p a {
+  color: #6772e5;
+}
+
+/* line 193, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing-info p {
+  font-size: 16px;
+  letter-spacing: 0.38px;
+}
+
+/* line 200, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing table .nowrap {
+  white-space: nowrap;
+}
+
+/* line 212, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing table thead th:first-of-type,
+.subscribers__invoicing table thead td:first-of-type,
+.subscribers__invoicing table tbody th:first-of-type,
+.subscribers__invoicing table tbody td:first-of-type {
+  padding-left: 0;
+}
+
+/* line 219, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing table thead th {
+  border-top: none;
+  border-bottom-width: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 230, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing table tbody tr:last-of-type td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* line 237, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__invoicing table tbody td {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */
