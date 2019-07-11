@@ -9159,12 +9159,12 @@ picture {
 
 /* line 170, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody td {
-  vertical-align: middle;
+  padding: 0.5rem;
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 177, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 178, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody .total td {
   font-weight: 600;
 }
