@@ -4,6 +4,17 @@
 	padding-top: 120px;
 	padding-bottom: 120px;
 
+	.main__bg {
+		z-index: -1;
+
+		&-1 {
+			@include adaptive(767) {
+				position: absolute !important;
+				top: 15%;
+			}
+		}
+	}
+
 	.main__wrapper {
 		z-index: 2;
 		position: relative;
@@ -19,6 +30,9 @@
 			font-size: 20px;
 			font-weight: 600;
 			letter-spacing: 0.47px;
+			@include adaptive(767) {
+				font-size: 18px;
+			}
 
 			span {
 				font-weight: normal;
@@ -37,11 +51,25 @@
 	// tabs
 	&__tabs {
 		height: 56px;
+		@include adaptive(575) {
+			overflow-x: auto;
+			white-space: nowrap;
+			position: relative;
+			left: -15px;
+			width: calc(100% + 30px);
+			display: block !important;
+			border-radius: 0;
+		}
 
 		> div,
 		> span {
 			height: 100%;
 			text-align: center;
+			@include adaptive(575) {
+				display: inline-block !important;
+				vertical-align: middle;
+				max-width: 200px !important;
+			}
 		}
 
 		> div {
@@ -107,6 +135,9 @@
 			a {
 				font-size: 18px;
 				letter-spacing: 0.43px;
+				@include adaptive(767) {
+					font-size: 16px;
+				}
 			}
 		}
 
@@ -201,11 +232,40 @@
 			border-bottom-left-radius: 6px;
 			border-bottom-right-radius: 6px;
 			background-color: #6772e5;
+			@include adaptive(991) {
+				align-items: flex-start !important;
+				flex-wrap: wrap;
+			}
 
 			> div {
 				width: 100%;
 				max-width: calc(100% / 4);
 				text-align: center;
+				@include adaptive(991) {
+					max-width: calc(100% / 2);
+					text-align: left;
+
+					&:nth-of-type(1),
+					&:nth-of-type(2) {
+						margin-bottom: 10px;
+					}
+
+					&:nth-of-type(3),
+					&:nth-of-type(4) {
+						margin-top: 10px;
+					}
+
+					&:nth-of-type(2) {
+						&:after {
+							display: none;
+						}
+					}
+
+					&:nth-of-type(3) {
+						text-align: left;
+						padding-left: 0 !important;
+					}
+				}
 
 				&:first-of-type {
 					text-align: left;
@@ -307,6 +367,10 @@
 							td {
 								padding: 0.25rem 0.5rem;
 								border: none;
+
+								@include adaptive(767) {
+									min-width: 90px;
+								}
 							}
 						}
 
@@ -355,6 +419,7 @@
 				th,
 				td {
 					border-right: 1px solid #dee2e6;
+
 					&:last-of-type {
 						border-right: none;
 					}
@@ -400,6 +465,10 @@
 							td {
 								padding: 0.25rem 0.5rem;
 								border: none;
+
+								@include adaptive(767) {
+									min-width: 90px;
+								}
 							}
 						}
 
@@ -433,9 +502,22 @@
 
 	// total
 	&__total {
+		@include adaptive(991) {
+			flex-wrap: wrap;
+		}
+
 		> div {
 			width: 100%;
 			max-width: calc(100% / 3);
+			@include adaptive(991) {
+				max-width: 100%;
+				padding-left: 0 !important;
+				padding-bottom: 10px;
+
+				&:last-of-type {
+					padding-bottom: 0;
+				}
+			}
 		}
 
 		p {
@@ -449,9 +531,18 @@
 	// broadcast
 	&__broadcast {
 		&-wrapper {
+			@include adaptive(767) {
+				flex-wrap: wrap;
+			}
+
 			&-left {
 				width: 280px;
 				padding-right: 30px;
+				@include adaptive(767) {
+					width: 100%;
+					padding-right: 0;
+					padding-bottom: 30px;
+				}
 			}
 
 			&-right {

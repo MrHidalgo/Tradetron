@@ -12425,12 +12425,25 @@ picture {
 }
 
 /* line 7, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers .main__bg {
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 10, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers .main__bg-1 {
+    position: absolute !important;
+    top: 15%;
+  }
+}
+
+/* line 18, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers .main__wrapper {
   z-index: 2;
   position: relative;
 }
 
-/* line 12, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 23, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__section {
   margin-bottom: 20px;
   -webkit-border-radius: 6px;
@@ -12440,45 +12453,77 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 18, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__section-title {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.47px;
 }
 
-/* line 23, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 767px) {
+  /* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__section-title {
+    font-size: 18px;
+  }
+}
+
+/* line 37, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__section-title span {
   font-weight: normal;
 }
 
-/* line 29, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 43, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__section-btn a {
   width: 100%;
   max-width: 177px;
   height: 40px;
 }
 
-/* line 38, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 52, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs {
   height: 56px;
 }
 
-/* line 41, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 575px) {
+  /* line 52, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    left: -15px;
+    width: -webkit-calc(100% + 30px);
+    width: calc(100% + 30px);
+    display: block !important;
+    -webkit-border-radius: 0;
+            border-radius: 0;
+  }
+}
+
+/* line 64, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > div,
 .subscribers__tabs > span {
   height: 100%;
   text-align: center;
 }
 
-/* line 47, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 575px) {
+  /* line 64, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__tabs > div,
+  .subscribers__tabs > span {
+    display: inline-block !important;
+    vertical-align: middle;
+    max-width: 200px !important;
+  }
+}
+
+/* line 75, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > div {
   width: 100%;
   max-width: -webkit-calc((100% - 60px) / 3);
   max-width: calc((100% - 60px) / 3);
 }
 
-/* line 52, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 80, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > span {
   position: relative;
   width: 30px;
@@ -12486,7 +12531,7 @@ picture {
   height: calc(100% - 2rem);
 }
 
-/* line 57, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 85, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs > span:after {
   content: '';
   position: absolute;
@@ -12500,7 +12545,7 @@ picture {
   background-color: #979797;
 }
 
-/* line 69, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 97, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn {
   overflow: hidden;
   height: 100%;
@@ -12511,7 +12556,7 @@ picture {
 }
 
 @media screen and (max-width: 575px) {
-  /* line 69, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 97, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__tabs-btn {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -12520,12 +12565,12 @@ picture {
   }
 }
 
-/* line 80, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 108, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn.is-active {
   color: #6772e5;
 }
 
-/* line 83, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 111, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn.is-active:after {
   opacity: 1;
   -webkit-transition: opacity 0.3s ease-in-out;
@@ -12533,7 +12578,7 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 89, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 117, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__tabs-btn:after {
   opacity: 0;
   content: '';
@@ -12548,21 +12593,28 @@ picture {
   transition: opacity 0.3s ease-in-out;
 }
 
-/* line 107, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 135, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-head a {
   font-size: 18px;
   letter-spacing: 0.43px;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 135, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-head a {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 991px) {
-  /* line 114, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 145, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-container {
     padding-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /* line 120, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 151, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -12571,31 +12623,31 @@ picture {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 126, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 157, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-slide {
     width: 205px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 126, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 157, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-slide {
     width: 205px !important;
   }
 }
 
-/* line 135, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 166, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self .swiper-slide:last-of-type .subscribers__self-block {
   border: none;
 }
 
-/* line 141, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 172, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self .swiper-pagination {
   display: none;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 141, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 172, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-pagination {
     display: -webkit-box;
     display: -webkit-flex;
@@ -12604,7 +12656,7 @@ picture {
   }
 }
 
-/* line 149, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 180, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12622,7 +12674,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 155, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 186, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-img {
   overflow: hidden;
   position: relative;
@@ -12633,7 +12685,7 @@ picture {
   margin-bottom: 10px;
 }
 
-/* line 168, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 199, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-name {
   padding-bottom: 10px;
   font-size: 18px;
@@ -12642,7 +12694,7 @@ picture {
   text-align: center;
 }
 
-/* line 176, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 207, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12654,7 +12706,7 @@ picture {
           justify-content: center;
 }
 
-/* line 180, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 211, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social > a {
   position: relative;
   display: -webkit-box;
@@ -12680,12 +12732,12 @@ picture {
   background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
 }
 
-/* line 193, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 224, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social .icon-font {
   color: #ffffff;
 }
 
-/* line 199, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 230, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer {
   min-height: 71px;
   -webkit-border-bottom-left-radius: 6px;
@@ -12695,7 +12747,20 @@ picture {
   background-color: #6772e5;
 }
 
-/* line 205, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 991px) {
+  /* line 230, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer {
+    -webkit-box-align: start !important;
+    -webkit-align-items: flex-start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 240, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -12703,17 +12768,43 @@ picture {
   text-align: center;
 }
 
-/* line 210, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 991px) {
+  /* line 240, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer > div {
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+    text-align: left;
+  }
+  /* line 248, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer > div:nth-of-type(1), .subscribers__self-footer > div:nth-of-type(2) {
+    margin-bottom: 10px;
+  }
+  /* line 253, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer > div:nth-of-type(3), .subscribers__self-footer > div:nth-of-type(4) {
+    margin-top: 10px;
+  }
+  /* line 259, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer > div:nth-of-type(2):after {
+    display: none;
+  }
+  /* line 264, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__self-footer > div:nth-of-type(3) {
+    text-align: left;
+    padding-left: 0 !important;
+  }
+}
+
+/* line 270, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:first-of-type {
   text-align: left;
 }
 
-/* line 215, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 275, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:last-of-type:after {
   display: none;
 }
 
-/* line 220, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 280, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:after {
   content: '';
   position: absolute;
@@ -12725,35 +12816,35 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 231, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 291, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer p,
 .subscribers__self-footer a {
   letter-spacing: 0.27px;
   color: #ffffff;
 }
 
-/* line 237, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 297, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer a {
   text-decoration: underline;
 }
 
-/* line 240, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 300, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer a:hover {
   color: #ffffff;
 }
 
-/* line 250, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 310, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion-info {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 256, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 316, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table .nowrap {
   white-space: nowrap;
 }
 
-/* line 262, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 322, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th,
 .subscribers__reversion table thead td,
 .subscribers__reversion table tbody th,
@@ -12761,7 +12852,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 265, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 325, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:last-of-type,
 .subscribers__reversion table thead td:last-of-type,
 .subscribers__reversion table tbody th:last-of-type,
@@ -12770,7 +12861,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 262, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 322, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__reversion table thead th,
   .subscribers__reversion table thead td,
   .subscribers__reversion table tbody th,
@@ -12779,7 +12870,7 @@ picture {
   }
 }
 
-/* line 273, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 333, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:first-of-type,
 .subscribers__reversion table thead td:first-of-type,
 .subscribers__reversion table tbody th:first-of-type,
@@ -12787,24 +12878,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 280, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 340, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 290, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 350, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 298, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 358, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td p span {
   font-weight: 500;
 }
 
-/* line 306, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 366, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th,
 .subscribers__reversion table tbody td table thead td,
 .subscribers__reversion table tbody td table tbody th,
@@ -12813,35 +12904,45 @@ picture {
   border: none;
 }
 
-/* line 314, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 767px) {
+  /* line 366, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__reversion table tbody td table thead th,
+  .subscribers__reversion table tbody td table thead td,
+  .subscribers__reversion table tbody td table tbody th,
+  .subscribers__reversion table tbody td table tbody td {
+    min-width: 90px;
+  }
+}
+
+/* line 378, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 323, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 387, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 329, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 393, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 343, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 407, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass-info {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 349, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 413, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table .nowrap {
   white-space: nowrap;
 }
 
-/* line 355, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 419, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th,
 .subscribers__midbass table thead td,
 .subscribers__midbass table tbody th,
@@ -12849,7 +12950,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 358, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 423, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:last-of-type,
 .subscribers__midbass table thead td:last-of-type,
 .subscribers__midbass table tbody th:last-of-type,
@@ -12858,7 +12959,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 355, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 419, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__midbass table thead th,
   .subscribers__midbass table thead td,
   .subscribers__midbass table tbody th,
@@ -12867,7 +12968,7 @@ picture {
   }
 }
 
-/* line 366, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 431, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:first-of-type,
 .subscribers__midbass table thead td:first-of-type,
 .subscribers__midbass table tbody th:first-of-type,
@@ -12875,24 +12976,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 373, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 438, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 383, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 448, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 391, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 456, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td p span {
   font-weight: 500;
 }
 
-/* line 399, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 464, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th,
 .subscribers__midbass table tbody td table thead td,
 .subscribers__midbass table tbody td table tbody th,
@@ -12901,42 +13002,92 @@ picture {
   border: none;
 }
 
-/* line 407, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 767px) {
+  /* line 464, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__midbass table tbody td table thead th,
+  .subscribers__midbass table tbody td table thead td,
+  .subscribers__midbass table tbody td table tbody th,
+  .subscribers__midbass table tbody td table tbody td {
+    min-width: 90px;
+  }
+}
+
+/* line 476, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 416, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 485, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 422, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 491, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 436, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 991px) {
+  /* line 504, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__total {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 509, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
   max-width: calc(100% / 3);
 }
 
-/* line 442, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 991px) {
+  /* line 509, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__total > div {
+    max-width: 100%;
+    padding-left: 0 !important;
+    padding-bottom: 10px;
+  }
+  /* line 517, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__total > div:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+/* line 524, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total p a {
   color: #6772e5;
 }
 
-/* line 452, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 767px) {
+  /* line 533, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__broadcast-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 538, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-left {
   width: 280px;
   padding-right: 30px;
 }
 
-/* line 457, src/scss/_components/my-subscribers/_my-subscribers.scss */
+@media screen and (max-width: 767px) {
+  /* line 538, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  .subscribers__broadcast-wrapper-left {
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 548, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -12946,12 +13097,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 463, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 554, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown {
   width: 100%;
 }
 
-/* line 466, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 557, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -12975,24 +13126,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 477, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 568, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 483, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 574, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu {
   width: 100%;
 }
 
-/* line 486, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 577, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu input {
   height: auto;
 }
 
-/* line 490, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 581, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu label {
   position: relative;
   top: 2px;
@@ -13000,7 +13151,7 @@ picture {
   font-weight: normal;
 }
 
-/* line 499, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 590, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper textarea {
   resize: none;
   min-height: 136px;
@@ -13032,7 +13183,7 @@ picture {
   color: rgba(51, 51, 51, 0.54);
 }
 
-/* line 509, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 600, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach {
   cursor: pointer;
   width: 100%;
@@ -13042,7 +13193,7 @@ picture {
   border: 1px dashed #B0C4E0;
 }
 
-/* line 516, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 607, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach input {
   cursor: pointer;
   z-index: 10;
@@ -13054,30 +13205,30 @@ picture {
   height: 100%;
 }
 
-/* line 527, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 618, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach p {
   cursor: pointer;
   color: #b0c4e0;
 }
 
-/* line 532, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 623, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach .icon-font {
   font-size: 16px;
 }
 
-/* line 542, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 633, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing-info p {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 549, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 640, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table .nowrap {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 555, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 646, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__invoicing table thead th,
   .subscribers__invoicing table thead td,
   .subscribers__invoicing table tbody th,
@@ -13086,7 +13237,7 @@ picture {
   }
 }
 
-/* line 561, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 652, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th:first-of-type,
 .subscribers__invoicing table thead td:first-of-type,
 .subscribers__invoicing table tbody th:first-of-type,
@@ -13094,7 +13245,7 @@ picture {
   padding-left: 0;
 }
 
-/* line 568, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 659, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th {
   vertical-align: top;
   border-top: none;
@@ -13103,12 +13254,12 @@ picture {
   font-weight: bold;
 }
 
-/* line 580, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 671, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 587, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 678, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody td {
   font-size: 16px;
 }
