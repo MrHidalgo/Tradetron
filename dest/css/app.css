@@ -13019,17 +13019,23 @@ picture {
 }
 
 /* line 383, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__reversion .subscribers__section-title {
+  color: #6772e5;
+}
+
+/* line 387, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion-info {
+  color: #6772e5;
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 389, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 394, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table .nowrap {
   white-space: nowrap;
 }
 
-/* line 395, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 400, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th,
 .subscribers__reversion table thead td,
 .subscribers__reversion table tbody th,
@@ -13037,7 +13043,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 398, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 403, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:last-of-type,
 .subscribers__reversion table thead td:last-of-type,
 .subscribers__reversion table tbody th:last-of-type,
@@ -13046,7 +13052,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 395, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 400, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__reversion table thead th,
   .subscribers__reversion table thead td,
   .subscribers__reversion table tbody th,
@@ -13055,7 +13061,7 @@ picture {
   }
 }
 
-/* line 406, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 411, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:first-of-type,
 .subscribers__reversion table thead td:first-of-type,
 .subscribers__reversion table tbody th:first-of-type,
@@ -13063,24 +13069,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 413, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 418, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 423, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 428, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 431, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 436, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td p span {
   font-weight: 500;
 }
 
-/* line 439, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 444, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th,
 .subscribers__reversion table tbody td table thead td,
 .subscribers__reversion table tbody td table tbody th,
@@ -13090,7 +13096,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 439, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 444, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__reversion table tbody td table thead th,
   .subscribers__reversion table tbody td table thead td,
   .subscribers__reversion table tbody td table tbody th,
@@ -13099,35 +13105,41 @@ picture {
   }
 }
 
-/* line 451, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 456, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 460, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 465, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 466, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 471, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 480, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 485, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__midbass .subscribers__section-title {
+  color: #6772e5;
+}
+
+/* line 489, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass-info {
+  color: #6772e5;
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 486, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 496, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table .nowrap {
   white-space: nowrap;
 }
 
-/* line 492, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 502, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th,
 .subscribers__midbass table thead td,
 .subscribers__midbass table tbody th,
@@ -13135,7 +13147,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 496, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 506, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:last-of-type,
 .subscribers__midbass table thead td:last-of-type,
 .subscribers__midbass table tbody th:last-of-type,
@@ -13144,7 +13156,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 492, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 502, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__midbass table thead th,
   .subscribers__midbass table thead td,
   .subscribers__midbass table tbody th,
@@ -13153,7 +13165,7 @@ picture {
   }
 }
 
-/* line 504, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 514, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:first-of-type,
 .subscribers__midbass table thead td:first-of-type,
 .subscribers__midbass table tbody th:first-of-type,
@@ -13161,24 +13173,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 511, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 521, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 521, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 531, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 529, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 539, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td p span {
   font-weight: 500;
 }
 
-/* line 537, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 547, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th,
 .subscribers__midbass table tbody td table thead td,
 .subscribers__midbass table tbody td table tbody th,
@@ -13188,7 +13200,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 537, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 547, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__midbass table tbody td table thead th,
   .subscribers__midbass table tbody td table thead td,
   .subscribers__midbass table tbody td table tbody th,
@@ -13197,25 +13209,25 @@ picture {
   }
 }
 
-/* line 549, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 559, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 558, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 568, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 564, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 574, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 577, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 587, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -13225,7 +13237,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 577, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 587, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -13237,7 +13249,7 @@ picture {
   }
 }
 
-/* line 586, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 596, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
@@ -13245,7 +13257,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 586, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 596, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div {
     width: auto;
     max-width: unset;
@@ -13253,33 +13265,33 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 586, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 596, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div {
     width: 100%;
     max-width: 100%;
     padding-left: 0 !important;
     padding-bottom: 10px;
   }
-  /* line 599, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 609, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div:last-of-type {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 605, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 615, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total p {
     white-space: nowrap;
   }
 }
 
-/* line 610, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 620, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total p a {
   color: #6772e5;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 619, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 629, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__broadcast-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -13287,14 +13299,14 @@ picture {
   }
 }
 
-/* line 624, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 634, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-left {
   width: 280px;
   padding-right: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 624, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 634, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__broadcast-wrapper-left {
     width: 100%;
     padding-right: 0;
@@ -13302,7 +13314,7 @@ picture {
   }
 }
 
-/* line 634, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 644, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -13312,12 +13324,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 640, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 650, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown {
   width: 100%;
 }
 
-/* line 643, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 653, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13341,24 +13353,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 654, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 664, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 660, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 670, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu {
   width: 100%;
 }
 
-/* line 663, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 673, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu input {
   height: auto;
 }
 
-/* line 667, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 677, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu label {
   position: relative;
   top: 2px;
@@ -13366,7 +13378,7 @@ picture {
   font-weight: normal;
 }
 
-/* line 676, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 686, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper textarea {
   resize: none;
   min-height: 136px;
@@ -13398,7 +13410,7 @@ picture {
   color: rgba(51, 51, 51, 0.54);
 }
 
-/* line 686, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 696, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach {
   cursor: pointer;
   width: 100%;
@@ -13408,7 +13420,7 @@ picture {
   border: 1px dashed #B0C4E0;
 }
 
-/* line 693, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 703, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach input {
   cursor: pointer;
   z-index: 10;
@@ -13420,30 +13432,30 @@ picture {
   height: 100%;
 }
 
-/* line 704, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 714, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach p {
   cursor: pointer;
   color: #b0c4e0;
 }
 
-/* line 709, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 719, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach .icon-font {
   font-size: 16px;
 }
 
-/* line 719, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 729, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing-info p {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 726, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 736, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table .nowrap {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 732, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 742, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__invoicing table thead th,
   .subscribers__invoicing table thead td,
   .subscribers__invoicing table tbody th,
@@ -13452,7 +13464,7 @@ picture {
   }
 }
 
-/* line 738, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 748, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th:first-of-type,
 .subscribers__invoicing table thead td:first-of-type,
 .subscribers__invoicing table tbody th:first-of-type,
@@ -13460,7 +13472,7 @@ picture {
   padding-left: 0;
 }
 
-/* line 745, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 755, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th {
   vertical-align: top;
   border-top: none;
@@ -13469,12 +13481,12 @@ picture {
   font-weight: bold;
 }
 
-/* line 757, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 767, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 764, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 774, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody td {
   font-size: 16px;
 }
