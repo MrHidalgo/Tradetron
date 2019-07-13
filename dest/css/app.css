@@ -898,6 +898,11 @@ picture {
 }
 
 /* line 79, src/scss/_shared/_common.scss */
+.dropdown--more .dropdown-item > div:nth-of-type(1) {
+  width: 30px;
+}
+
+/* line 87, src/scss/_shared/_common.scss */
 .dropdown-toggle {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -909,14 +914,14 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 87, src/scss/_shared/_common.scss */
+/* line 95, src/scss/_shared/_common.scss */
 .dropdown-toggle:focus, .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 93, src/scss/_shared/_common.scss */
+/* line 101, src/scss/_shared/_common.scss */
 .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -924,13 +929,13 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 98, src/scss/_shared/_common.scss */
+/* line 106, src/scss/_shared/_common.scss */
 .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 104, src/scss/_shared/_common.scss */
+/* line 112, src/scss/_shared/_common.scss */
 .dropdown-menu {
   left: auto !important;
   right: 0 !important;
@@ -943,7 +948,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 114, src/scss/_shared/_common.scss */
+/* line 122, src/scss/_shared/_common.scss */
 .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -958,7 +963,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 125, src/scss/_shared/_common.scss */
+/* line 133, src/scss/_shared/_common.scss */
 .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -969,7 +974,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 134, src/scss/_shared/_common.scss */
+/* line 142, src/scss/_shared/_common.scss */
 .dropdown-item {
   min-height: 20px;
   padding: 0 15px;
@@ -977,12 +982,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 140, src/scss/_shared/_common.scss */
+/* line 148, src/scss/_shared/_common.scss */
 .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 143, src/scss/_shared/_common.scss */
+/* line 151, src/scss/_shared/_common.scss */
 .dropdown-item:hover .icon-font,
 .dropdown-item:hover span {
   color: #6772e5;
@@ -991,7 +996,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 150, src/scss/_shared/_common.scss */
+/* line 158, src/scss/_shared/_common.scss */
 .dropdown-item > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -999,7 +1004,7 @@ picture {
   display: flex;
 }
 
-/* line 156, src/scss/_shared/_common.scss */
+/* line 164, src/scss/_shared/_common.scss */
 .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1018,7 +1023,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 166, src/scss/_shared/_common.scss */
+/* line 174, src/scss/_shared/_common.scss */
 .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -1028,7 +1033,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 173, src/scss/_shared/_common.scss */
+/* line 181, src/scss/_shared/_common.scss */
 .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -1036,7 +1041,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 183, src/scss/_shared/_common.scss */
+/* line 191, src/scss/_shared/_common.scss */
 .input-group {
   overflow: hidden;
   -webkit-border-radius: 6px;
@@ -1044,19 +1049,19 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 190, src/scss/_shared/_common.scss */
+/* line 198, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group button.btn {
   border-left: transparent !important;
   border-right: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 195, src/scss/_shared/_common.scss */
+/* line 203, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group .form-control {
   border-left: solid 1px rgba(185, 185, 185, 0.3);
   border-right: transparent !important;
 }
 
-/* line 202, src/scss/_shared/_common.scss */
+/* line 210, src/scss/_shared/_common.scss */
 .input-group button.btn {
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -1064,12 +1069,12 @@ picture {
   border-right: transparent;
 }
 
-/* line 207, src/scss/_shared/_common.scss */
+/* line 215, src/scss/_shared/_common.scss */
 .input-group button.btn:hover {
   background-color: transparent;
 }
 
-/* line 211, src/scss/_shared/_common.scss */
+/* line 219, src/scss/_shared/_common.scss */
 .input-group button.btn:focus, .input-group button.btn:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -1077,13 +1082,13 @@ picture {
   border-color: rgba(185, 185, 185, 0.3) !important;
 }
 
-/* line 218, src/scss/_shared/_common.scss */
+/* line 226, src/scss/_shared/_common.scss */
 .input-group button.btn .icon-font {
   font-size: 17px;
   color: #333333;
 }
 
-/* line 224, src/scss/_shared/_common.scss */
+/* line 232, src/scss/_shared/_common.scss */
 .input-group .form-control {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -1141,14 +1146,14 @@ picture {
   color: #333333;
 }
 
-/* line 241, src/scss/_shared/_common.scss */
+/* line 249, src/scss/_shared/_common.scss */
 .input-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 248, src/scss/_shared/_common.scss */
+/* line 256, src/scss/_shared/_common.scss */
 .form-group label {
   padding-bottom: 5px;
   font-weight: 600;
@@ -1156,7 +1161,7 @@ picture {
   color: #333333;
 }
 
-/* line 255, src/scss/_shared/_common.scss */
+/* line 263, src/scss/_shared/_common.scss */
 .form-group input {
   outline: none;
   height: 40px;
@@ -1169,14 +1174,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 264, src/scss/_shared/_common.scss */
+/* line 272, src/scss/_shared/_common.scss */
 .form-group input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 270, src/scss/_shared/_common.scss */
+/* line 278, src/scss/_shared/_common.scss */
 .form-group textarea {
   outline: none;
   padding: 0 15px;
@@ -1186,14 +1191,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 277, src/scss/_shared/_common.scss */
+/* line 285, src/scss/_shared/_common.scss */
 .form-group textarea:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 283, src/scss/_shared/_common.scss */
+/* line 291, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 40px;
@@ -1206,24 +1211,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 292, src/scss/_shared/_common.scss */
+/* line 300, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 302, src/scss/_shared/_common.scss */
+/* line 310, src/scss/_shared/_common.scss */
 .tooltip.show {
   opacity: 1;
 }
 
-/* line 307, src/scss/_shared/_common.scss */
+/* line 315, src/scss/_shared/_common.scss */
 .tooltip .arrow:before {
   border-top-color: #fff;
 }
 
-/* line 312, src/scss/_shared/_common.scss */
+/* line 320, src/scss/_shared/_common.scss */
 .tooltip-inner {
   opacity: 1;
   padding: 15px;
@@ -1236,7 +1241,7 @@ picture {
   text-align: left;
 }
 
-/* line 326, src/scss/_shared/_common.scss */
+/* line 334, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1288,7 +1293,7 @@ picture {
   }
 }
 
-/* line 348, src/scss/_shared/_common.scss */
+/* line 356, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1296,7 +1301,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 352, src/scss/_shared/_common.scss */
+/* line 360, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
@@ -13505,7 +13510,7 @@ picture {
   /* line 9, src/scss/_components/my-strategies/_my-strategies.scss */
   .myStrategies .main__bg-1 {
     position: absolute !important;
-    top: 15%;
+    top: 270px;
   }
 }
 
@@ -13515,7 +13520,7 @@ picture {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -13558,7 +13563,75 @@ picture {
 }
 
 /* line 44, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 44, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  /* line 54, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__head > * {
+    width: 100%;
+  }
+}
+
+/* line 59, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__head p {
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.66px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 59, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__head p {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+}
+
+/* line 69, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__head a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 0.66px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 69, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__head a {
+    text-align: right;
+  }
+}
+
+/* line 80, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__section {
+  margin-bottom: 20px;
   -webkit-border-radius: 6px;
           border-radius: 6px;
   background-color: #ffffff;
@@ -13566,7 +13639,7 @@ picture {
           box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
 }
 
-/* line 50, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 87, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13584,7 +13657,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 50, src/scss/_components/my-strategies/_my-strategies.scss */
+  /* line 87, src/scss/_components/my-strategies/_my-strategies.scss */
   .myStrategies__categories {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -13593,14 +13666,14 @@ picture {
   }
 }
 
-/* line 59, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 96, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories span {
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 64, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 101, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories span:after {
   content: '';
   position: absolute;
@@ -13611,7 +13684,7 @@ picture {
           transform: translateX(-50%);
 }
 
-/* line 73, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 110, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories-btn {
   font-size: 15px;
   letter-spacing: 0.47px;
@@ -13623,7 +13696,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 73, src/scss/_components/my-strategies/_my-strategies.scss */
+  /* line 110, src/scss/_components/my-strategies/_my-strategies.scss */
   .myStrategies__categories-btn {
     width: 100%;
     max-width: -webkit-calc((100% - 45px) / 2);
@@ -13631,7 +13704,7 @@ picture {
   }
 }
 
-/* line 84, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 121, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories-btn:hover {
   color: #333333;
   -webkit-transition: color 0.3s ease-in-out;
@@ -13639,12 +13712,121 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 89, src/scss/_components/my-strategies/_my-strategies.scss */
+/* line 126, src/scss/_components/my-strategies/_my-strategies.scss */
 .myStrategies__categories-btn.is-active {
   color: #333333;
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 135, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-btn {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  /* line 139, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-btn a {
+    max-width: -webkit-calc((100% - 20px) / 2);
+    max-width: calc((100% - 20px) / 2);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* line 145, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 145, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer {
+    position: relative;
+  }
+  /* line 152, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer:after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 1px;
+    background-color: #EAEAEA;
+  }
+}
+
+/* line 162, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__card .s-profile__description-footer > div {
+  max-width: -webkit-calc(100% / 4);
+  max-width: calc(100% / 4);
+}
+
+@media screen and (max-width: 991px) {
+  /* line 162, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div {
+    width: auto;
+    max-width: unset;
+    padding-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 162, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    max-width: -webkit-calc(100% / 2);
+    max-width: calc(100% / 2);
+    min-height: 90px;
+    padding-right: 10px;
+  }
+  /* line 177, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div:nth-of-type(1), .myStrategies__card .s-profile__description-footer > div:nth-of-type(2) {
+    margin-bottom: 30px;
+  }
+  /* line 182, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div:nth-of-type(2) {
+    padding-right: 0;
+  }
+  /* line 186, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div:nth-of-type(4) {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  /* line 191, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  /* line 196, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div:nth-of-type(2), .myStrategies__card .s-profile__description-footer > div:nth-of-type(4) {
+    padding-left: 10px;
+  }
+  /* line 201, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__card .s-profile__description-footer > div p {
+    font-size: 16px;
+  }
+}
+
+/* line 209, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__card-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 63px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=maps/app.css.map */

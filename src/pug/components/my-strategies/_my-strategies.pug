@@ -30,6 +30,22 @@ section#myStrategies.main.myStrategies.position-relative
 
 						.myStrategies__wrapper.myStrategies__wrapper-1
 
+							.myStrategies__head
+								p.myStrategies__head-title!= "Created Strategies"
+								div
+								a(href="#" class="" title="")!= "Create New Strategy"
+
+							// myStrategies tabs
+							include _my-strategies--card
+							// myStrategies tabs :: end
+
+							.myStrategies__head
+								p.myStrategies__head-title!= "Subscribed Strategies"
+
+							// myStrategies tabs
+							include _my-strategies--card
+							// myStrategies tabs :: end
+
 
 	.main__bg.main__bg-1.position-absolute.w-100.h-100
 		.main__bg-row.d-flex.position-absolute.w-100.h-100.justify-content-between

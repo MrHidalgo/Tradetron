@@ -9,7 +9,7 @@
 		&-1 {
 			@include adaptive(767) {
 				position: absolute !important;
-				top: 15%;
+				top: 270px;
 			}
 		}
 	}
@@ -17,7 +17,7 @@
 	&__wrapper {
 		&-0 {
 			display: flex;
-			padding-bottom: 50px;
+			padding-bottom: 20px;
 			@include adaptive(991) {
 				flex-wrap: wrap;
 				flex-direction: column-reverse;
@@ -41,7 +41,44 @@
 		}
 	}
 
+	&__head {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		@include adaptive(767) {
+			flex-direction: column;
+			align-items: flex-start;
+
+			> * {
+				width: 100%;
+			}
+		}
+
+		p {
+			font-weight: bold;
+			font-size: 30px;
+			letter-spacing: 0.66px;
+			@include adaptive(767) {
+				padding-bottom: 15px;
+				font-size: 25px;
+			}
+		}
+
+		a {
+			font-weight: 500;
+			font-size: 18px;
+			color: #FFFFFF;
+			letter-spacing: 0.66px;
+			@include adaptive(767) {
+				text-align: right;
+			}
+		}
+	}
+
 	&__section {
+		margin-bottom: 20px;
 		border-radius: 6px;
 		background-color: #ffffff;
 		box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
@@ -90,6 +127,91 @@
 				color: rgba(#333, 1);
 				@include transition(color);
 			}
+		}
+	}
+
+	&__card {
+		.s-profile__description {
+			&-btn {
+				@include adaptive(767) {
+					justify-content: space-between;
+
+					a {
+						max-width: calc((100% - 20px) / 2);
+					}
+				}
+			}
+
+			&-footer {
+				@include adaptive(991) {
+					justify-content: space-between;
+				}
+				@include adaptive(767) {
+					position: relative;
+
+					&:after {
+						content: '';
+						position: absolute;
+						top: 100px;
+						width: 100%;
+						height: 1px;
+						background-color: #EAEAEA;
+					}
+				}
+
+				> div {
+					max-width: calc(100% / 4);
+					@include adaptive(991) {
+						width: auto;
+						max-width: unset;
+						padding-right: 30px;
+						margin-bottom: 0;
+					}
+					@include adaptive(767) {
+						justify-content: center;
+						width: 100%;
+						max-width: calc(100% / 2);
+						min-height: 90px;
+						padding-right: 10px;
+
+						&:nth-of-type(1),
+						&:nth-of-type(2) {
+							margin-bottom: 30px;
+						}
+
+						&:nth-of-type(2) {
+							padding-right: 0;
+						}
+
+						&:nth-of-type(4) {
+							padding-left: 15px;
+							padding-right: 0;
+						}
+
+						p {
+							font-size: 18px;
+						}
+					}
+					@include adaptive(374) {
+						&:nth-of-type(2),
+						&:nth-of-type(4) {
+							padding-left: 10px;
+						}
+
+						p {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+
+		&-badge {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 63px;
+			height: 50px;
 		}
 	}
 }
