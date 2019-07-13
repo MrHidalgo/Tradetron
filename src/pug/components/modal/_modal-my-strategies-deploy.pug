@@ -1,0 +1,73 @@
+// MODAL deploy midbass :: START
+
+#deployMidbassModal.modal.modal--deploy.fade(tabindex='-1', role='dialog', aria-labelledby='DeployMidbass', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#DeployMidbass.modal-title Deploy Minbass
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					.modal-body-info.pb-5
+						.modal-body-info-col
+							p!= "Capital recommended:"
+							div
+								span!= "Rs.5000"
+						.modal-body-info-col
+							p!= "Select Minimum Multiple:"
+							div
+								.form-group.mb-0
+									select.form-control
+										option 5%
+										option 15%
+										option 25%
+						.modal-body-info-col
+							p!= "Select Execution Type:"
+							div
+								.form-group.mb-0
+									select.form-control
+										option Paper Trading
+										option Paper Trading
+										option Paper Trading
+
+					.modal-body-table.pb-4
+						p.pb-3!= "Following positions will be taken in your account"
+
+						.table-responsive
+							table.table.mb-0
+								thead
+									tr
+										th(scope="row") Instrument
+										th(scope="row") Quantity
+										th(scope="row") Price
+										th(scope="row") Amount
+								tbody
+									tr
+										td RelianceFutMay30
+										td 100
+										td 1200
+										td 1200000
+									tr
+										td RelianceCE_1300_May30
+										td -500
+										td 3
+										td -4500
+									tr
+										th(colspan="4") Total
+
+					.modal-body-broker.pb-3
+						p!= "Select Broker:"
+						div
+							.form-group.mb-0
+								select.form-control
+									option Fidelity
+									option Fidelity
+									option Fidelity
+
+					button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Deploy"
+
+// MODAL deploy midbass :: END

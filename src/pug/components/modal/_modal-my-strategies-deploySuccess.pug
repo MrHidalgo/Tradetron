@@ -1,0 +1,23 @@
+// MODAL deploy midbass :: START
+
+#deployMidbassSuccessModal.modal.modal--deploySuccess.fade(tabindex='-1', role='dialog', aria-labelledby='DeployMidbassSuccess', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				//h5#DeployMidbassSuccess.modal-title Deploy Minbass
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover.pt-5
+
+					.modal-body-img.pb-5
+						img(src="img/img-success.svg" alt="" title="")
+
+					.modal-body-success.pt-4
+						p!= "You have successfully deployed <strong>Minbass</strong>."
+						p!= "You can now track its progress in your<br>deployed strategies page."
+
+
+// MODAL deploy midbass :: END

@@ -1,0 +1,110 @@
+// SECTION strategy :: START
+
+.myStrategies__section.myStrategies__card.s-profile__description.p-3.position-relative
+
+	.myStrategies__card-badge.d-flex.align-items-center.justify-content-center
+
+		.dropdown.dropdown--more
+			button#dropdownUProfileAboutMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+				i.icon-font.icon-more
+			.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileAboutMore')
+				.dropdown-menu-corner.position-absolute
+				.dropdown-menu-wrapper.d-flex.flex-column
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Edit"
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Backtest"
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Delete"
+					a.dropdown-item.d-flex.align-items-center(href='#')
+						div
+							span!= "Make private"
+
+	p.s-profile__description-profile-created.d-block.d-md-none.pr-5.pr-md-0.pt-4.pt-md-0!= "created : 08 Apr 2019"
+
+	.s-profile__description-head.pt-2.pt-md-0
+		div
+
+			.s-profile__description-profile.d-flex
+				div
+				div
+					div.d-flex.d-md-block
+						div
+						div
+							p.s-profile__description-profile-created.pb-2.d-none.d-md-block!= "created : 08 Apr 2019"
+							p.s-profile__description-profile-name.pb-2!= "Midbass <span>(20 subscribers)</span>"
+
+							.s-profile__description-profile-by.d-flex.align-items-center.pb-3
+								div
+									p!= "by: <a href='#'>Neutrino Advisory Services LLP</a>"
+
+							.s-profile__description-rating.d-flex.d-md-none.flex-column.pb-4
+								div
+									div.d-flex.align-items-center
+										span.position-relative.pr-1
+											i.icon-font.icon-star-fill
+										span.position-relative.pr-1
+											i.icon-font.icon-star-fill
+										span.position-relative.pr-1
+											i.icon-font.icon-star-fill
+										span.position-relative.pr-1
+											i.icon-font.icon-star-fill
+										span.position-relative
+											i.icon-font.icon-star
+								div
+									span!= "2 ratings"
+
+					div
+
+						.s-profile__description-profile-tags.d-flex.align-items-center.flex-wrap.pb-3
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Bullish"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Theta Positive"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Low Gamma"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Trades Futures"
+							a.mr-1.mb-1.px-3.py-1(href="#" class="" title="")!= "Options on Forex"
+
+		div.d-none.d-md-block
+			div
+				.s-profile__description-rating.d-flex.flex-column.pb-4
+					div
+						div.d-flex.align-items-center
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative.pr-1
+								i.icon-font.icon-star-fill
+							span.position-relative
+								i.icon-font.icon-star
+					div
+						span!= "2 ratings"
+			div
+				.s-profile__description-btn.d-flex.flex-column.pb-3
+					a.c-btn.c-btn--bg.mb-2(href="#" class="" title="" data-toggle="modal" data-target="#deployMidbassModal")!= "Deploy"
+					a.c-btn.c-btn--border(href="#" class="" title="" data-toggle='modal' data-target='#deployMidbassSuccessModal')!= "Edit"
+
+
+	.s-profile__description-footer.pb-3.d-flex.flex-wrap.flex-md-nowrap
+		div.d-flex.flex-column
+			span.pb-1!= "ROI"
+			p!= "20 %"
+		div.d-flex.flex-column
+			span.pb-1!= "DD"
+			p!= "25 %"
+		div.d-flex.flex-column
+			span.pb-1!= "Min Capital"
+			p!= "Rs.50000"
+		div.d-flex.flex-column
+			span.pb-1!= "Fees per month"
+			p!= "Rs.5000 + 20%"
+
+	.s-profile__description-btn.d-flex.d-md-none.flex-row.pb-3
+		a.c-btn.c-btn--bg(href="#" class="" title="" data-toggle="modal" data-target="#deployMidbassModal")!= "Deploy"
+		a.c-btn.c-btn--border(href="#" class="" title="" data-toggle='modal' data-target='#deployMidbassSuccessModal')!= "Edit"
+
+// SECTION strategy :: END
