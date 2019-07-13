@@ -48,14 +48,17 @@
 							td
 								p!= "<span class='nowrap'>Qty : -750</span>"
 							td
-								p!= "<span class='nowrap'>Avg Buy Val : Rs.21000</span><br><span class='nowrap'>Avg Sell Val : Rs.22000</span>"
+								.result
+									p(class='nowrap')!= "<span class=''>Avg Buy Val :</span><i>Rs.21000</i>"
+									p(class='nowrap')!= "<span class=''>Avg Sell Val :</span><i>Rs.22000</i>"
 							td
-								p!= "<span class='nowrap'>LTP : Rs.310</span><br><span class='nowrap'>Val : Rs.22000</span>"
+								.result
+									p(class='nowrap')!= "<span class='' style='width: 30px;'>LTP :</span><i>Rs.310</i>"
+									p(class='nowrap')!= "<span class='' style='width: 30px;'>Val :</span><i>Rs.22000</i>"
 							td
 								.result
 									p(class='nowrap')!= "<span class=''>Booked P&L :</span><i class='red '>-Rs.1500</i>"
 									p(class='nowrap')!= "<span class=''>Open P&L :</span><i class='green '>Rs.2000</i>"
-									p(class='nowrap')!= "<span class=''>Total :</span><i>500</i>"
 						tr.deatils
 							td(colspan='5')
 								p!= "IV 15% | Delta -120 | Gamma -0.075 | Theta 12000 | Vega 1500 "
@@ -65,9 +68,13 @@
 							td
 								p!= "<span class='nowrap'>Qty : -750</span>"
 							td
-								p!= "<span class='nowrap'>Avg Buy Val : Rs.21000</span><br><span class='nowrap'>Avg Sell Val : Rs.22000</span>"
+								.result
+									p(class='nowrap')!= "<span class=''>Avg Buy Val :</span><i>Rs.21000</i>"
+									p(class='nowrap')!= "<span class=''>Avg Sell Val :</span><i>Rs.22000</i>"
 							td
-								p!= "<span class='nowrap'>LTP : Rs.310</span><br><span class='nowrap'>Val : Rs.22000</span>"
+								.result
+									p(class='nowrap')!= "<span class='' style='width: 30px;'>LTP :</span><i>Rs.310</i>"
+									p(class='nowrap')!= "<span class='' style='width: 30px;'>Val :</span><i>Rs.22000</i>"
 							td
 								.result!= ""
 						tr.deatils
@@ -77,12 +84,14 @@
 							td
 								p Total
 							td
-								p 0
+								p Qt : 0
 							td
 							td
-								p!= "<span class='nowrap'>ValRs. 21000</span>"
+								p!= "<span class='nowrap'>Val : Rs. 21000</span>"
 							td
-								p!= "<span class='nowrap'><i class='green'>Rs.1000</i></span>"
+								.result
+									p(class='nowrap')!= "<span class=''>Booked P&L :</span><i class='red '>-Rs.1500</i>"
+									p(class='nowrap')!= "<span class=''>Open P&L :</span><i class='green '>Rs.2000</i>"
 						tr.deatils
 							td(colspan='5')
 								p!= "IV 15% | Delta -120 | Gamma -0.075 | Theta 12000 | Vega 1500 "

@@ -9486,7 +9486,7 @@ picture {
 /* line 169, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table .result span {
   display: inline-block;
-  width: 100px;
+  width: 80px;
 }
 
 /* line 174, src/scss/_components/deployed-strategies/_deployed.scss */
