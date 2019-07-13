@@ -13491,4 +13491,160 @@ picture {
   font-size: 16px;
 }
 
+/* line 3, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies {
+  padding-top: 120px;
+}
+
+/* line 6, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies .main__bg {
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 9, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies .main__bg-1 {
+    position: absolute !important;
+    top: 15%;
+  }
+}
+
+/* line 18, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__wrapper-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 18, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__wrapper-0 {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+/* line 27, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__wrapper-left {
+  width: 300px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 27, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__wrapper-left {
+    width: 100%;
+    padding-right: 0;
+    padding-top: 20px;
+  }
+}
+
+/* line 37, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__wrapper-right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  min-width: 1px;
+  max-width: 100%;
+}
+
+/* line 44, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__section {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+}
+
+/* line 50, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 56px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 50, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__categories {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+/* line 59, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories span {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 64, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories span:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+/* line 73, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories-btn {
+  font-size: 15px;
+  letter-spacing: 0.47px;
+  text-align: center;
+  color: rgba(51, 51, 51, 0.7);
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 73, src/scss/_components/my-strategies/_my-strategies.scss */
+  .myStrategies__categories-btn {
+    width: 100%;
+    max-width: -webkit-calc((100% - 45px) / 2);
+    max-width: calc((100% - 45px) / 2);
+  }
+}
+
+/* line 84, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories-btn:hover {
+  color: #333333;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* line 89, src/scss/_components/my-strategies/_my-strategies.scss */
+.myStrategies__categories-btn.is-active {
+  color: #333333;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
 /*# sourceMappingURL=maps/app.css.map */

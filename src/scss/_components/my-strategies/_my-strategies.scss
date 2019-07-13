@@ -1,0 +1,97 @@
+// SECTION my strategies :: START
+
+.myStrategies {
+	padding-top: 120px;
+
+	.main__bg {
+		z-index: -1;
+
+		&-1 {
+			@include adaptive(767) {
+				position: absolute !important;
+				top: 15%;
+			}
+		}
+	}
+
+	&__wrapper {
+		&-0 {
+			display: flex;
+			padding-bottom: 50px;
+			@include adaptive(991) {
+				flex-wrap: wrap;
+				flex-direction: column-reverse;
+			}
+		}
+
+		&-left {
+			width: 300px;
+			padding-right: 30px;
+			@include adaptive(991) {
+				width: 100%;
+				padding-right: 0;
+				padding-top: 20px;
+			}
+		}
+
+		&-right {
+			flex: 1;
+			min-width: 1px;
+			max-width: 100%;
+		}
+	}
+
+	&__section {
+		border-radius: 6px;
+		background-color: #ffffff;
+		box-shadow: 0 1px 20px 0 rgba(17,30,79,0.10);
+	}
+
+	&__categories {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 56px;
+		@include adaptive(991) {
+			justify-content: space-between;
+		}
+
+		span {
+			position: relative;
+			padding-left: 20px;
+			padding-right: 20px;
+
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+
+		&-btn {
+			font-size: 15px;
+			letter-spacing: 0.47px;
+			text-align: center;
+			color: rgba(#333, 0.7);
+			@include transition(color);
+			@include adaptive(991) {
+				width: 100%;
+				max-width: calc((100% - 45px) / 2);
+			}
+
+			&:hover {
+				color: rgba(#333, 1);
+				@include transition(color);
+			}
+
+			&.is-active {
+				color: rgba(#333, 1);
+				@include transition(color);
+			}
+		}
+	}
+}
+
+// SECTION my strategies :: END
