@@ -1,0 +1,19 @@
+.newStrategy__section.newStrategy__info.px-3.py-4
+	p.newStrategy__section-title!= "Strategy info"
+
+		form.newStrategy__info-form(action="" method="" autocomplete="off")
+
+			.newStrategy__info-form-field.newStrategy__info-form-field-0
+				.form-group.mb-3
+					label(for='newStrategiesName') Strategy name
+					input#newStrategiesName.form-control(type='text', placeholder='' value= 'Gamma Scalping')
+
+			.newStrategy__info-form-field.newStrategy__info-form-field-1
+				.form-group.mb-3
+					label(for='newStrategiesExchanges') Exchanges
+					input#newStrategiesExchanges.form-control(type='text', placeholder='Add tag...')
+
+			.newStrategy__info-form-field.newStrategy__info-form-field-2
+				.form-group.mb-0
+					label(for='newStrategiesDescription') Description
+					textarea#newStrategiesDescription.form-control()

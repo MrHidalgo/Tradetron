@@ -1,0 +1,80 @@
+.newStrategy__section.newStrategy__advanced.px-3.py-4
+
+	.newStrategy__advanced-wrapper
+		.newStrategy__advanced-left
+
+			.form-group.mb-3
+				label(for='newStrategiesPublicStrategy') Public Strategy
+				select#newStrategiesPublicStrategy.form-control
+					option Yes
+					option Yes
+
+			.form-group.mb-3
+				label(for='newStrategiesFees') Fees
+				input#newStrategiesFees.form-control(type='text', placeholder='' value= '')
+
+			.form-group.mb-3
+				label(for='newStrategiesHurdleRate') Hurdle Rate
+				select#newStrategiesHurdleRate.form-control
+					option 6%
+					option 6%
+
+			.form-group.mb-3
+				label(for='newStrategiesNonSubscribers') Display Positions to Non Subscribers
+				select#newStrategiesNonSubscribers.form-control
+					option Yes
+					option Yes
+
+			.form-group.mb-3
+				label(for='newStrategiesDuplicateStrategy') Allow others to duplicate strategy
+				select#newStrategiesDuplicateStrategy.form-control
+					option No
+					option No
+
+			.form-group.mb-3
+				label(for='newStrategiesSubscriberManually') Confirm each subscriber manually
+				select#newStrategiesSubscriberManually.form-control
+					option No
+					option No
+
+			.form-group.mb-3
+				label(for='newStrategiesFeature') Feature this in marketplace at Rs.5000 PM
+				select#newStrategiesFeature.form-control
+					option No
+					option No
+
+		.newStrategy__advanced-right
+
+			.form-group.mb-3
+				label(for='newStrategiesMinimumMultiple') Minimum Multiple for subscriber to deploy
+				select#newStrategiesMinimumMultiple.form-control
+					option 100%
+					option 100%
+
+			.form-group.mb-3
+				label(for='newStrategiesCalculateFees') Calculate Fees every
+				select#newStrategiesCalculateFees.form-control
+					option Month
+					option Month
+
+			.form-group.mb-3
+				label(for='newStrategiesHighWatermark') High Watermark basis
+				select#newStrategiesHighWatermark.form-control
+					option Yes
+					option Yes
+
+			.form-group.mb-3
+				label(for='newStrategiesRecreate') Recreate old positions for new subscriber
+				select#newStrategiesRecreate.form-control
+					option Yes
+					option Yes
+
+			.form-group.mb-3
+				label(for='newStrategiesPrivateLink') Subscribers with Private Link Only
+				select#newStrategiesPrivateLink.form-control
+					option No
+					option No
+
+			.form-group.mb-3
+				label(for='newStrategiesHideSubscribers') Hide Subscribers from others
+				input#newStrategiesHideSubscribers.form-control(type='text', placeholder='' value= 'No')

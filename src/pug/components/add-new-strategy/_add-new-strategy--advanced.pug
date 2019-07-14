@@ -1,0 +1,76 @@
+.newStrategy__section.newStrategy__advanced.px-3.py-4
+
+	.newStrategy__advanced-wrapper
+		.newStrategy__advanced-left
+
+			.form-group.mb-3
+				label(for='newStrategiesCurrency') Currency
+				select#newStrategiesCurrency.form-control
+					option USD
+					option USD
+
+			.form-group.mb-3
+				label(for='newStrategiesPriceExecution') Price Execution (only if limit price not chosen)
+				select#newStrategiesPriceExecution.form-control
+					option One Tick above top price update
+					option One Tick above top price update
+
+			.form-group.mb-3
+				label(for='newStrategiesLotRounding') Lot Rounding off for extra qty
+				select#newStrategiesLotRounding.form-control
+					option On upper side
+					option On upper side
+
+			.form-group.mb-3
+				label(for='newStrategiesTrailingStop') Trailing Stop Loss
+				select#newStrategiesTrailingStop.form-control
+					option Move Trailing Stop by Rs. 'value' with every Rs. 'value' increa...
+					option Move Trailing Stop by Rs. 'value' with every Rs. 'value' increa...
+
+			.form-group.mb-3
+				label(for='newStrategiesFirstTrade') First trade after exchange open
+				select#newStrategiesFirstTrade.form-control
+					option 15 mins
+					option 15 mins
+
+			.form-group.mb-3
+				label(for='newStrategiesRollover') Rollover on expiry
+				select#newStrategiesRollover.form-control
+					option Next Week
+					option Next Week
+
+		.newStrategy__advanced-right
+
+			.form-group.mb-3
+				label(for='newStrategiesOrderManagement') Order Management
+				select#newStrategiesOrderManagement.form-control
+					option Enter most illiquid position first
+					option Enter most illiquid position first
+
+			.form-group.mb-3
+				label(for='newStrategiesTranches') Tranches
+				select#newStrategiesTranches.form-control
+					option Lots
+					option Lots
+
+			.form-group.mb-3
+				label(for='newStrategiesMarketMaking') Market Making (show only if positions are buy and sell of same position)
+				select#newStrategiesMarketMaking.form-control
+					option Update new bid/ask prices for unfilled positions
+					option Update new bid/ask prices for unfilled positions
+
+			.form-group.mb-3
+				label(for='newStrategiesRunStrategy') Run strategy
+				select#newStrategiesRunStrategy.form-control
+					option Once every week
+					option Once every week
+
+			.form-group.mb-3
+				label(for='newStrategiesLastTrade') Last trade before exchange close
+				select#newStrategiesLastTrade.form-control
+					option 15 mins
+					option 15 mins
+
+			.form-group.mb-3
+				label(for='newStrategiesCapitalRequired') Capital Required
+				input#newStrategiesCapitalRequired.form-control(type='text', placeholder='' value= '0')

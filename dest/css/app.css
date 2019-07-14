@@ -1154,7 +1154,7 @@ picture {
 }
 
 /* line 256, src/scss/_shared/_common.scss */
-.form-group label {
+.form-group > label {
   padding-bottom: 5px;
   font-weight: 600;
   font-size: 14px;
@@ -1162,7 +1162,7 @@ picture {
 }
 
 /* line 263, src/scss/_shared/_common.scss */
-.form-group input {
+.form-group > input {
   outline: none;
   height: 40px;
   padding: 0 15px;
@@ -1175,7 +1175,7 @@ picture {
 }
 
 /* line 272, src/scss/_shared/_common.scss */
-.form-group input:focus {
+.form-group > input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
@@ -14059,6 +14059,193 @@ picture {
   right: 0;
   width: 63px;
   height: 50px;
+}
+
+/* line 3, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy {
+  padding-top: 120px;
+}
+
+/* line 6, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy .main__bg {
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 9, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy .main__bg-1 {
+    position: absolute !important;
+    top: 15%;
+  }
+}
+
+/* line 17, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__section {
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 20px 0 rgba(17, 30, 79, 0.1);
+}
+
+/* line 22, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__section-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.47px;
+}
+
+/* line 29, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__title {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.66px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 29, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__title {
+    font-size: 25px;
+  }
+}
+
+/* line 40, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__subtitle {
+  padding-bottom: 12px;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 0.59px;
+  color: #6772e5;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 40, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__subtitle {
+    font-size: 25px;
+  }
+}
+
+/* line 51, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__btn {
+  max-width: 177px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 56, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__btn-wrapper {
+  padding-top: 20px;
+}
+
+/* line 62, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info {
+  margin-bottom: 50px;
+}
+
+/* line 65, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info .newStrategy__section-title {
+  padding-bottom: 20px;
+}
+
+/* line 69, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+/* line 74, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info-form-field-0 {
+  width: 470px;
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  /* line 74, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__info-form-field-0 {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+/* line 83, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info-form-field-1 {
+  width: -webkit-calc(100% - 470px);
+  width: calc(100% - 470px);
+}
+
+@media screen and (max-width: 991px) {
+  /* line 83, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__info-form-field-1 {
+    width: 100%;
+  }
+}
+
+/* line 90, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info-form-field-2 {
+  width: 100%;
+}
+
+/* line 94, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__info-form-field textarea {
+  resize: none;
+  min-height: 120px;
+}
+
+/* line 104, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__advanced {
+  margin-bottom: 30px;
+}
+
+/* line 107, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__advanced-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 107, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__advanced-wrapper {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+}
+
+/* line 114, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__advanced-left {
+  width: 50%;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 114, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__advanced-left {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+/* line 123, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__advanced-right {
+  width: 50%;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 1199px) {
+  /* line 123, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__advanced-right {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
 /*# sourceMappingURL=maps/app.css.map */
