@@ -167,6 +167,25 @@
 
 		&-head {
 			min-height: 40px;
+			@include adaptive(767) {
+				position: relative;
+				flex-wrap: wrap;
+			}
+
+			&-left {
+				@include adaptive(767) {
+					width: 100%;
+					flex-wrap: wrap;
+				}
+			}
+
+			&-right {
+				@include adaptive(767) {
+					position: absolute;
+					top: 10px;
+					right: 0;
+				}
+			}
 
 			.form-group {
 				width: 185px;
@@ -176,6 +195,10 @@
 				font-size: 20px;
 				font-weight: 600;
 				letter-spacing: 0.47px;
+				@include adaptive(767) {
+					width: 100%;
+					padding-bottom: 15px;
+				}
 			}
 
 			&-add {
@@ -193,22 +216,47 @@
 		&-body {
 			&-footer {
 				padding-left: 145px;
+				@include adaptive(767) {
+					padding-left: 0;
+				}
 
 				a {
 					max-width: 140px;
+					@include adaptive(767) {
+						margin-left: auto;
+						margin-right: auto;
+					}
 				}
 			}
 		}
 
 		&-frame {
+			@include adaptive(767) {
+				flex-wrap: wrap;
+			}
+
 			&-left,
 			&-right {
 				min-height: 100%;
+				@include adaptive(767) {
+					min-height: unset;
+				}
 			}
 
 			&-left {
 				width: 450px;
 				border-right: 1px solid #eaeaea;
+				@include adaptive(1279) {
+					width: 330px;
+				}
+				@include adaptive(1023) {
+					width: 290px;
+				}
+				@include adaptive(767) {
+					width: 100%;
+					padding-bottom: 30px;
+					border-right: 0;
+				}
 			}
 
 			&-right {
@@ -219,6 +267,9 @@
 
 			&-title {
 				border-bottom: 1px solid #eaeaea;
+				@include adaptive(767) {
+					padding-left: 0 !important;
+				}
 
 				p {
 					font-size: 14px;
@@ -231,6 +282,13 @@
 					font-size: 14px;
 					letter-spacing: 0.27px;
 					color: #6772e5;
+				}
+			}
+
+			&-body {
+				@include adaptive(767) {
+					padding-right: 0 !important;
+					padding-left: 0 !important;
 				}
 			}
 
