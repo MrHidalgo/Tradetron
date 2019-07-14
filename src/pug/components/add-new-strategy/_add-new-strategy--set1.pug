@@ -1,0 +1,330 @@
+
+.newStrategy__set-wrapper
+
+	.newStrategy__set-header.d-flex.align-items-center.justify-content-between
+		.newStrategy__set-header-left.d-flex.align-items-center
+			p.newStrategy__set-header-title.pr-2!= "Set №1"
+			a.newStrategy__set-header-link(href="#" class="" title="")!= "+Add new set"
+		.newStrategy__set-header-right
+		a.newStrategy__set-header-close(href="#" class="" title="")
+			i.icon-font.icon-close
+
+	// ENTRY CARD
+	.newStrategy__section.newStrategy__set.newStrategy__set-entry.px-3.pt-3.pb-4
+
+		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
+			.newStrategy__set-head-left.d-flex.align-items-center
+				p.newStrategy__set-head-title.pr-3!= "Entry"
+
+				.form-group.mb-0
+					select.form-control
+						option Select list
+						option Select list
+
+				a.newStrategy__set-head-add.ml-3(href="#" class="" title="")!= "+Add"
+
+			.newStrategy__set-head-right.d-flex.align-items-center
+				a.newStrategy__set-head-close.mr-2(href="#" class="" title="")
+					i.icon-font.icon-close
+				a.newStrategy__set-head-corner.ml-2(href="#" class="" title="")
+					i.icon-font.icon-corner
+
+		.newStrategy__set-body
+
+			.newStrategy__set-frame.pt-3.d-flex
+
+				.newStrategy__set-frame-left
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2
+						p.pr-3!= "CONDITIONS"
+						a(href="#" class="" title="")!= "+Add"
+
+					.newStrategy__set-frame-body.pr-3.pt-3
+
+						table.table.mb-0
+							tbody
+								tr
+									td
+										.tabs.d-flex.align-items-center
+											a(href="#" class="" title="") Builder
+											span.ml-2.mr-2 |
+											a(href="#" class="" title="") Advanced Tab
+									td
+
+								tr
+									td Cond1
+									td
+										.d-flex.align-items-center.justify-content-end
+											a.mr-2(href="#" class="" title="")
+												i.icon-font.icon-pencil-edit
+											a.ml-2(href="#" class="" title="")
+												i.icon-font.icon-garbage
+								tr
+									td Lorem ipsum
+									td
+										.d-flex.align-items-center.justify-content-end
+											a.mr-2(href="#" class="" title="")
+												i.icon-font.icon-pencil-edit
+											a.ml-2(href="#" class="" title="")
+												i.icon-font.icon-garbage
+
+				.newStrategy__set-frame-right
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2.pl-3
+						p.pr-3!= "positions"
+						a(href="#" class="" title="")!= "+Add"
+
+					.newStrategy__set-frame-body.px-3.pt-3
+
+						.table-responsive
+							table.table.mb-0
+								tbody
+									tr
+										td(colspan='6')
+											.d-flex.align-items-center.justify-content-between
+												span Underlying
+												i |
+												span Strike
+												i |
+												span Type
+												i |
+												span Expiry
+												i |
+												span Qty
+												i |
+												span Price
+												i |
+												span SL
+												i |
+												span Target
+									each val, id in [1,2]
+										tr
+											td Nifty
+											td 10900
+											td C
+											td Feb 26
+											td 6000
+											td
+											td
+												.d-flex.align-items-center.justify-content-end
+													a.mr-2(href="#" class="" title="")
+														i.icon-font.icon-pencil-edit
+													a.ml-2(href="#" class="" title="")
+														i.icon-font.icon-garbage
+
+			.newStrategy__set-body-footer.pt-4
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
+	// ENTRY CARD :: end
+
+
+	// REPAIR CARD
+	.newStrategy__section.newStrategy__set.newStrategy__set-repair.px-3.pt-3.pb-4
+
+		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
+			.newStrategy__set-head-left.d-flex.align-items-center
+				p.newStrategy__set-head-title.pr-3!= "Repair"
+
+				.form-group.mb-0
+					select.form-control
+						option Repair Continious
+						option Repair Continious
+
+				a.newStrategy__set-head-add.ml-3(href="#" class="" title="")!= "+Add"
+
+			.newStrategy__set-head-right.d-flex.align-items-center
+				a.newStrategy__set-head-close.mr-2(href="#" class="" title="")
+					i.icon-font.icon-close
+				a.newStrategy__set-head-corner.ml-2(href="#" class="" title="")
+					i.icon-font.icon-corner
+
+		.newStrategy__set-body
+
+			.newStrategy__set-frame.pt-3.d-flex
+
+				.newStrategy__set-frame-left
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2
+						p.pr-3!= "CONDITIONS"
+
+					.newStrategy__set-frame-body.pr-3.pt-3
+
+						table.table.mb-0
+							tbody
+								tr
+									td
+										.tabs.d-flex.align-items-center
+											a(href="#" class="" title="") Builder
+											span.ml-2.mr-2 |
+											a(href="#" class="" title="") Advanced Tab
+									td
+
+								tr
+									td If Delta(Allpositions) >500
+									td
+										.d-flex.align-items-center.justify-content-end
+											a.mr-2(href="#" class="" title="")
+												i.icon-font.icon-pencil-edit
+											a.ml-2(href="#" class="" title="")
+												i.icon-font.icon-garbage
+								tr
+									td If Delta(AllPositions) <-500
+									td
+										.d-flex.align-items-center.justify-content-end
+											a.mr-2(href="#" class="" title="")
+												i.icon-font.icon-pencil-edit
+											a.ml-2(href="#" class="" title="")
+												i.icon-font.icon-garbage
+
+				.newStrategy__set-frame-right
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2.pl-3
+						p.pr-3!= "positions"
+						a(href="#" class="" title="")!= "+Add"
+
+					.newStrategy__set-frame-body.px-3.pt-3
+
+						.table-responsive
+							table.table.mb-0
+								tbody
+									tr
+										td(colspan='6')
+											.d-flex.align-items-center.justify-content-between
+												span Underlying
+												i |
+												span Strike
+												i |
+												span Type
+												i |
+												span Expiry
+												i |
+												span Qty
+												i |
+												span Price
+												i |
+												span SL
+												i |
+												span Target
+									each val, id in [1]
+										tr
+											td Nifty
+											td
+											td C
+											td Feb 26
+											td
+											td Delta(allpositions)*-1
+											td
+												.d-flex.align-items-center.justify-content-end
+													a.mr-2(href="#" class="" title="")
+														i.icon-font.icon-pencil-edit
+													a.ml-2(href="#" class="" title="")
+														i.icon-font.icon-garbage
+
+			.newStrategy__set-body-footer.pt-4
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
+	// REPAIR CARD :: end
+
+
+	// OVERNIGHT CARD
+	.newStrategy__section.newStrategy__set.newStrategy__set-overnight.px-3.pt-3.pb-4
+
+		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
+			.newStrategy__set-head-left
+				p.newStrategy__set-head-title.pr-2!= "Overnight Protection Legs"
+
+			.newStrategy__set-head-right
+				a.newStrategy__set-head-corner.ml-2(href="#" class="" title="")
+					i.icon-font.icon-corner
+
+		.newStrategy__set-body
+
+			.newStrategy__set-frame.pt-3.pb-3.d-flex
+
+				.newStrategy__set-frame-left
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2
+						p.pr-3!= "CONDITIONS"
+
+					.newStrategy__set-frame-body.pr-3.pt-3
+
+						span.newStrategy__set-frame-text These positions will be taken before market closes and will automatically exit when market opens the next working day.
+
+				.newStrategy__set-frame-right
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2.pl-3
+						p.pr-3!= "positions"
+						a(href="#" class="" title="")!= "+Add"
+
+					.newStrategy__set-frame-body.px-3.pt-3
+
+						.table-responsive
+							table.table.mb-0
+								tbody
+									tr
+										td(colspan='6')
+											.d-flex.align-items-center.justify-content-between
+												span Underlying
+												i |
+												span Strike
+												i |
+												span Type
+												i |
+												span Expiry
+												i |
+												span Qty
+												i |
+												span Price
+												i |
+												span SL
+												i |
+												span Target
+									each val, id in [1]
+										tr
+											td Nifty
+											td ATM
+											td C
+											td CurrMonth
+											td
+											td Delta(allpositions)*-1
+											td
+												.d-flex.align-items-center.justify-content-end
+													a.mr-2(href="#" class="" title="")
+														i.icon-font.icon-pencil-edit
+													a.ml-2(href="#" class="" title="")
+														i.icon-font.icon-garbage
+	// OVERNIGHT CARD :: end
+
+
+	// EXIT CARD
+	.newStrategy__section.newStrategy__set.newStrategy__set-exit.px-3.pt-3.pb-4
+
+		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
+			.newStrategy__set-head-left
+				p.newStrategy__set-head-title.pr-2!= "Exit"
+
+			.newStrategy__set-head-right
+
+		.newStrategy__set-body
+
+			.newStrategy__set-frame.pt-3.d-flex
+
+				.newStrategy__set-frame-left
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2
+						p.pr-3!= "CONDITIONS"
+
+					.newStrategy__set-frame-body.pr-3.pt-3.pb-5
+
+						span.newStrategy__set-frame-text PL(strategy) > 5000
+
+				.newStrategy__set-frame-right
+
+					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2.pl-3
+						p.pr-3!= "positions"
+
+					.newStrategy__set-frame-body.px-3.pt-3.pb-5
+
+						span.newStrategy__set-frame-text Exit all open positions in this set
+
+			.newStrategy__set-body-footer
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
+		// EXIT CARD :: end

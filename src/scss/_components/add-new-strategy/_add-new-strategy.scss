@@ -130,6 +130,157 @@
 		}
 	}
 	// advanced :: end
+
+	// set
+	&__set {
+		margin-bottom: 10px;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		&-wrapper {
+			padding-bottom: 40px;
+		}
+
+		&-header {
+			padding-bottom: 12px;
+
+			&-title {
+				font-size: 25px;
+				font-weight: bold;
+				letter-spacing: 0.66px;
+			}
+
+			&-link {
+				font-size: 18px;
+				font-weight: 500;
+				letter-spacing: 0.66px;
+				color: #6772e5;
+			}
+
+			&-close {
+				color: #000000;
+				font-size: 20px
+			}
+		}
+
+		&-head {
+			min-height: 40px;
+
+			.form-group {
+				width: 185px;
+			}
+
+			&-title {
+				font-size: 20px;
+				font-weight: 600;
+				letter-spacing: 0.47px;
+			}
+
+			&-add {
+				letter-spacing: 0.33px;
+				color: #6772e5;
+			}
+
+			&-corner {
+				.icon-font {
+					transform: rotate(-180deg);
+				}
+			}
+		}
+
+		&-body {
+			&-footer {
+				padding-left: 145px;
+
+				a {
+					max-width: 140px;
+				}
+			}
+		}
+
+		&-frame {
+			&-left,
+			&-right {
+				min-height: 100%;
+			}
+
+			&-left {
+				width: 450px;
+				border-right: 1px solid #eaeaea;
+			}
+
+			&-right {
+				flex: 1;
+				min-width: 1px;
+				max-width: 100%;
+			}
+
+			&-title {
+				border-bottom: 1px solid #eaeaea;
+
+				p {
+					font-size: 14px;
+					font-weight: bold;
+					letter-spacing: 0.27px;
+					text-transform: uppercase;
+				}
+
+				a {
+					font-size: 14px;
+					letter-spacing: 0.27px;
+					color: #6772e5;
+				}
+			}
+
+			&-text {
+				font-size: 14px;
+				letter-spacing: 0.27px;
+			}
+
+			table {
+				.nowrap {
+					white-space: nowrap;
+				}
+				.tabs {
+					a {
+						text-decoration: underline;
+					}
+				}
+
+				tbody {
+					tr {
+						&:first-of-type,
+						&:nth-of-type(2) {
+							td {
+								border-top: 0;
+							}
+						}
+
+						&:last-of-type {
+							td {
+								border-bottom: 1px solid #dee2e6;
+							}
+						}
+					}
+
+					td {
+						vertical-align: middle;
+						font-size: 14px;
+						@include adaptive(767) {
+							min-width: 100px;
+						}
+
+						&:first-of-type {
+							padding-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	// set :: end
 }
 
 // SECTION add new strategy :: END
