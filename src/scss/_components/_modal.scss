@@ -388,6 +388,7 @@
 	}
 
 	&--filter,
+	&--condition,
 	&--deploy,
 	&--deploySuccess,
 	&--chart,
@@ -401,6 +402,97 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--condition {
+		.modal {
+			&-dialog {
+				max-width: 790px;
+			}
+
+			&-title {
+				font-size: 30px;
+				@include adaptive(767) {
+					font-size: 25px;
+				}
+			}
+
+			&-body {
+				&-field {
+					display: flex;
+					justify-content: space-between;
+					padding-bottom: 20px;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					label {
+						font-size: 14px;
+					}
+
+					&-0 {
+						> div {
+							&:nth-of-type(1),
+							&:nth-of-type(2) {
+								width: 300px;
+								padding-right: 30px;
+								@include adaptive(1199) {
+									padding-right: 15px;
+								}
+								@include adaptive(767) {
+									width: 100%;
+									padding-right: 0;
+									padding-bottom: 20px;
+								}
+							}
+							&:nth-of-type(3),
+							&:nth-of-type(4) {
+								display: flex;
+								align-items: center;
+								width: calc((100% - (300px * 2)) / 2);
+								padding-top: 25px;
+								@include adaptive(767) {
+									width: 50%;
+									padding-top: 0;
+									padding-bottom: 20px;
+								}
+							}
+
+							&:nth-of-type(4) {
+								@include adaptive(767) {
+									font-size: 18px;
+								}
+							}
+						}
+					}
+
+					&-1 {
+						> div {
+							width: 100%;
+						}
+
+						textarea {
+							resize: none;
+							min-height: 120px;
+						}
+					}
+
+					&-2 {
+						> div {
+							width: 100%;
+							max-width: calc((100% - 60px) / 3);
+							@include adaptive(1199) {
+								max-width: calc((100% - 30px) / 3);
+							}
+							@include adaptive(767) {
+								max-width: 100%;
+								padding-bottom: 20px;
+							}
+						}
+					}
+				}
 			}
 		}
 	}

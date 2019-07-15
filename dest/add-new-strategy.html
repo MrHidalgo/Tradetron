@@ -268,7 +268,7 @@
                             <option>Select list</option>
                             <option>Select list</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="" data-toggle="modal" data-target="#addStrategiesCondition">+Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -358,7 +358,7 @@
                             <option>Repair Continious</option>
                             <option>Repair Continious</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="" data-toggle="modal" data-target="#addStrategiesCondition">+Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -523,7 +523,7 @@
                             <option>Select list</option>
                             <option>Select list</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="" data-toggle="modal" data-target="#addStrategiesCondition">+Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -613,7 +613,7 @@
                             <option>Repair Continious</option>
                             <option>Repair Continious</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="" data-toggle="modal" data-target="#addStrategiesCondition">+Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -769,7 +769,7 @@
                             <option>Repair Continious</option>
                             <option>Repair Continious</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="" data-toggle="modal" data-target="#addStrategiesCondition">+Add</a>
                       </div>
                       <div class="newStrategy__set-head-right"></div>
                     </div>
@@ -1162,6 +1162,110 @@
       </div>
     </footer>
     <!-- FOOTER :: END-->
+    <!-- MODAL add new strategies formula :: START-->
+    <div class="modal modal--formula fade" id="addStrategiesFormula" tabindex="-1" role="dialog" aria-labelledby="AddStrategies" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <!--h5#AddStrategies.modal-title Deploy Minbass--><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL add new strategies formula :: END-->
+    <!-- MODAL add new strategies condition :: START-->
+    <div class="modal modal--condition fade" id="addStrategiesCondition" tabindex="-1" role="dialog" aria-labelledby="AddStrategies" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="AddStrategies">Condition builder</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-field modal-body-field-0">
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesCondition">Condition</label>
+                    <select class="form-control" id="addNewStrategiesCondition">
+                      <option>Select Condition</option>
+                      <option>Select Condition</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesNewCondition">New Condition</label>
+                    <input class="form-control" id="addNewStrategiesNewCondition" type="text" placeholder="">
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check mb-0">
+                    <input class="form-check-input" id="addNewStrategiesPublic" type="checkbox" value="">
+                    <label class="form-check-label pb-0" for="addNewStrategiesPublic">Public</label>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-end justify-content-md-center">
+                  <div class="d-flex align-items-center"><a href="#" title=""><i class="icon-font icon-copy"></i></a><a class="ml-3" href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                  <div class="dropdown dropdown--more d-none d-md-flex">
+                    <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="addNewStrategiesMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                    <div class="dropdown-menu animate slideIn" aria-labelledby="addNewStrategiesMore">
+                      <div class="dropdown-menu-corner position-absolute"></div>
+                      <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                          <div><i class="icon-font icon-copy"></i></div>
+                          <div><span>duplicate</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                          <div><i class="icon-font icon-garbage"></i></div>
+                          <div><span>Delete list</span></div></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body-field modal-body-field-1">
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesDescription">Description</label>
+                    <textarea class="form-control" id="addNewStrategiesDescription"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body-field modal-body-field-2">
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesLHS">LHS</label>
+                    <select class="form-control" id="addNewStrategiesLHS">
+                      <option>Select Keyword</option>
+                      <option>Select Keyword</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesOperator">Operator</label>
+                    <select class="form-control" id="addNewStrategiesOperator">
+                      <option>Select</option>
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesRHS">RHS</label>
+                    <select class="form-control" id="addNewStrategiesRHS">
+                      <option>Select Keyword</option>
+                      <option>Select Keyword</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL add new strategies condition :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>

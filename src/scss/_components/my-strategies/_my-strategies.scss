@@ -2,6 +2,9 @@
 
 .myStrategies {
 	padding-top: 120px;
+	@include adaptive(767) {
+		padding-bottom: 200px;
+	}
 
 	.main__bg {
 		z-index: -1;

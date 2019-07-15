@@ -2,6 +2,9 @@
 
 .newStrategy {
 	padding-top: 120px;
+	@include adaptive(767) {
+		padding-bottom: 200px;
+	}
 
 	.main__bg {
 		z-index: -1;
@@ -9,7 +12,7 @@
 		&-1 {
 			@include adaptive(767) {
 				position: absolute !important;
-				top: 15%;
+				top: 270px;
 			}
 		}
 	}
