@@ -1,0 +1,74 @@
+// MODAL add new strategies condition :: START
+
+#addStrategiesBuilder.modal.modal--builder.fade(tabindex='-1', role='dialog', aria-labelledby='AddStrategies', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#AddStrategies.modal-title Position builder
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					.modal-body-tabs
+						a.is-active(href="#" class="" title="" data-name='buy') Buy
+						a(href="#" class="" title="" data-name='sell') Sell
+
+					.modal-body-field
+						.modal-body-field-left
+							.form-group
+								label(for='addNewStrategiesExchange') Exchange
+								input#addNewStrategiesExchange.form-control(type='text', placeholder='')
+							.form-group.form-group--wbtn
+								label(for='addNewStrategiesStrike') Strike
+								input#addNewStrategiesStrike.form-control(type='text', placeholder='')
+								a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
+							.form-group.form-group--wbtn
+								label(for='addNewStrategiesExpiry') Expiry
+								input#addNewStrategiesExpiry.form-control(type='text', placeholder='')
+								a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
+							.form-group
+								label(for='addNewStrategiesEntryPrice') Entry Price
+								input#addNewStrategiesEntryPrice.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesStopLossPrice') StopLoss Price
+								input#addNewStrategiesStopLossPrice.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesTargetPrice') Target Price
+								input#addNewStrategiesTargetPrice.form-control(type='text', placeholder='')
+
+						.modal-body-field-right
+							.form-group
+								label(for='addNewStrategiesUnderlying') Underlying
+								input#addNewStrategiesUnderlying.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesType') Type
+								input#addNewStrategiesType.form-control(type='text', placeholder='')
+							.form-group-field
+								div
+									.form-group.mb-3
+										label(for='addNewStrategiesQty') Qty
+										select#addNewStrategiesQty.form-control
+											option Qty
+											option Qty
+								div
+									.form-group.mb-3
+										label Qty
+										input.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesEntryTriggerPrice') Entry Trigger Price
+								input#addNewStrategiesEntryTriggerPrice.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesStopLossTriggerPrice') StopLoss Trigger Price
+								input#addNewStrategiesStopLossTriggerPrice.form-control(type='text', placeholder='')
+							.form-group
+								label(for='addNewStrategiesTargetTriggerPrice') Target Trigger Price
+								input#addNewStrategiesTargetTriggerPrice.form-control(type='text', placeholder='')
+
+
+					button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Add"
+
+
+// MODAL add new strategies condition :: END

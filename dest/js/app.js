@@ -615,6 +615,20 @@ $(document).ready(function (ev) {
 			$(ev.currentTarget).addClass('is-active');
 		});
 	};
+
+	var initModalBuilderTabs = function initModalBuilderTabs() {
+		$('.modal-body-tabs a').on('click', function (ev) {
+			var _btn = $(ev.currentTarget),
+			    _btnName = $(ev.currentTarget).data('name'),
+			    _parentNode = _btn.closest('.modal');
+
+			$('.modal-body-tabs a').removeClass('is-active');
+			_btn.addClass('is-active');
+
+			_parentNode.removeClass('is-buy is-sell');
+			_parentNode.addClass('is-' + _btnName);
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -645,6 +659,7 @@ $(document).ready(function (ev) {
 		initTooltip();
 		initAccountProfileMenu();
 		initSubscribersTabs();
+		initModalBuilderTabs();
 		// ==========================================
 	};
 	initJquery();

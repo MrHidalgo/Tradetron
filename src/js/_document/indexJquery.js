@@ -136,6 +136,21 @@ $(document).ready((ev) => {
 			$(ev.currentTarget).addClass('is-active');
 		});
 	};
+
+
+	const initModalBuilderTabs = () => {
+		$('.modal-body-tabs a').on('click', (ev) => {
+			const _btn = $(ev.currentTarget),
+				_btnName = $(ev.currentTarget).data('name'),
+				_parentNode = _btn.closest('.modal');
+
+			$('.modal-body-tabs a').removeClass('is-active');
+			_btn.addClass('is-active');
+
+			_parentNode.removeClass('is-buy is-sell');
+			_parentNode.addClass('is-' + _btnName);
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -168,6 +183,7 @@ $(document).ready((ev) => {
 		initTooltip();
 		initAccountProfileMenu();
 		initSubscribersTabs();
+		initModalBuilderTabs();
 		// ==========================================
   };
   initJquery();

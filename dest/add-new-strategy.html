@@ -305,7 +305,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -395,7 +395,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -445,7 +445,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -560,7 +560,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -650,7 +650,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -700,7 +700,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -806,7 +806,7 @@
                         </div>
                         <div class="newStrategy__set-frame-right">
                           <div class="newStrategy__set-frame-title d-flex align-items-center pb-2 pl-3">
-                            <p class="pr-3">positions</p><a href="#" title="">+Add</a>
+                            <p class="pr-3">positions</p><a href="#" title="" data-toggle="modal" data-target="#addStrategiesBuilder">+Add</a>
                           </div>
                           <div class="newStrategy__set-frame-body px-3 pt-3">
                             <div class="table-responsive">
@@ -1272,6 +1272,90 @@
                       <option>Select Keyword</option>
                       <option>Select Keyword</option>
                     </select>
+                  </div>
+                </div>
+              </div>
+              <button class="modal-body-submit mt-4 d-flex align-items-center justify-content-center" type="submit">Add</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL add new strategies condition :: END-->
+    <!-- MODAL add new strategies condition :: START-->
+    <div class="modal modal--builder fade" id="addStrategiesBuilder" tabindex="-1" role="dialog" aria-labelledby="AddStrategies" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="AddStrategies">Position builder</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-tabs"><a class="is-active" href="#" title="" data-name="buy">Buy</a><a href="#" title="" data-name="sell">Sell</a></div>
+              <div class="modal-body-field">
+                <div class="modal-body-field-left">
+                  <div class="form-group">
+                    <label for="addNewStrategiesExchange">Exchange</label>
+                    <input class="form-control" id="addNewStrategiesExchange" type="text" placeholder="">
+                  </div>
+                  <div class="form-group form-group--wbtn">
+                    <label for="addNewStrategiesStrike">Strike</label>
+                    <input class="form-control" id="addNewStrategiesStrike" type="text" placeholder=""><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
+                  </div>
+                  <div class="form-group form-group--wbtn">
+                    <label for="addNewStrategiesExpiry">Expiry</label>
+                    <input class="form-control" id="addNewStrategiesExpiry" type="text" placeholder=""><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesEntryPrice">Entry Price</label>
+                    <input class="form-control" id="addNewStrategiesEntryPrice" type="text" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesStopLossPrice">StopLoss Price</label>
+                    <input class="form-control" id="addNewStrategiesStopLossPrice" type="text" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesTargetPrice">Target Price</label>
+                    <input class="form-control" id="addNewStrategiesTargetPrice" type="text" placeholder="">
+                  </div>
+                </div>
+                <div class="modal-body-field-right">
+                  <div class="form-group">
+                    <label for="addNewStrategiesUnderlying">Underlying</label>
+                    <input class="form-control" id="addNewStrategiesUnderlying" type="text" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesType">Type</label>
+                    <input class="form-control" id="addNewStrategiesType" type="text" placeholder="">
+                  </div>
+                  <div class="form-group-field">
+                    <div>
+                      <div class="form-group mb-3">
+                        <label for="addNewStrategiesQty">Qty</label>
+                        <select class="form-control" id="addNewStrategiesQty">
+                          <option>Qty</option>
+                          <option>Qty</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="form-group mb-3">
+                        <label>Qty</label>
+                        <input class="form-control" type="text" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesEntryTriggerPrice">Entry Trigger Price</label>
+                    <input class="form-control" id="addNewStrategiesEntryTriggerPrice" type="text" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesStopLossTriggerPrice">StopLoss Trigger Price</label>
+                    <input class="form-control" id="addNewStrategiesStopLossTriggerPrice" type="text" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label for="addNewStrategiesTargetTriggerPrice">Target Trigger Price</label>
+                    <input class="form-control" id="addNewStrategiesTargetTriggerPrice" type="text" placeholder="">
                   </div>
                 </div>
               </div>
