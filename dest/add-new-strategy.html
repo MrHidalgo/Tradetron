@@ -1167,10 +1167,26 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <form class="modal-content pb-5" action="" autocomplete="off">
           <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
-            <!--h5#AddStrategies.modal-title Deploy Minbass--><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+            <h5 class="modal-title" id="AddStrategies">Formula builder</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
           </div>
           <div class="modal-body">
-            <div class="modal-body-cover"></div>
+            <div class="modal-body-cover">
+              <div class="modal-body-field pb-4">
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesExchange">Exchange</label>
+                    <input class="form-control" id="addNewStrategiesExchange" type="text" placeholder="">
+                  </div>
+                </div>
+                <div>
+                  <div class="form-group mb-0">
+                    <label for="addNewStrategiesKeywords">Keywords</label>
+                    <input class="form-control" id="addNewStrategiesKeywords" type="text" placeholder="">
+                  </div>
+                </div>
+              </div>
+              <button class="modal-body-submit mt-5 d-flex align-items-center justify-content-center" type="submit">Add</button>
+            </div>
           </div>
         </form>
       </div>

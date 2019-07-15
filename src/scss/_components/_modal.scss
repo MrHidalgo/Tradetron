@@ -389,6 +389,7 @@
 
 	&--filter,
 	&--condition,
+	&--formula,
 	&--deploy,
 	&--deploySuccess,
 	&--chart,
@@ -402,6 +403,54 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--formula {
+		.modal {
+			&-dialog {
+				max-width: 790px;
+			}
+
+			&-title {
+				font-size: 30px;
+				@include adaptive(767) {
+					font-size: 25px;
+				}
+			}
+
+			&-body {
+				&-field {
+					display: flex;
+					justify-content: space-between;
+					width: 100%;
+					max-width: 620px;
+					margin-left: auto;
+					margin-right: auto;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					label {
+						font-size: 14px;
+					}
+
+					> div {
+						width: 100%;
+						max-width: calc((100% - 30px) / 2);
+						@include adaptive(1199) {
+							max-width: calc((100% - 15px) / 2);
+						}
+						@include adaptive(767) {
+							max-width: 100%;
+
+							&:nth-of-type(1) {
+								padding-bottom: 20px;
+							}
+						}
+					}
+				}
 			}
 		}
 	}

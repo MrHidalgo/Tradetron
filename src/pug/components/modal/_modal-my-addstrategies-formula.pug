@@ -4,7 +4,7 @@
 	.modal-dialog.modal-dialog-centered(role='document')
 		form(action="" autocomplete="off").modal-content.pb-5
 			.modal-header.justify-content-center.pt-5.pb-3.position-relative
-				//h5#AddStrategies.modal-title Deploy Minbass
+				h5#AddStrategies.modal-title Formula builder
 
 				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
 					i.icon-font.icon-close
@@ -12,5 +12,16 @@
 			.modal-body
 				.modal-body-cover
 
+					.modal-body-field.pb-4
+						div
+							.form-group.mb-0
+								label(for='addNewStrategiesExchange') Exchange
+								input#addNewStrategiesExchange.form-control(type='text', placeholder='')
+						div
+							.form-group.mb-0
+								label(for='addNewStrategiesKeywords') Keywords
+								input#addNewStrategiesKeywords.form-control(type='text', placeholder='')
+
+					button.modal-body-submit.mt-5.d-flex.align-items-center.justify-content-center(type="submit")!= "Add"
 
 // MODAL add new strategies formula :: END
