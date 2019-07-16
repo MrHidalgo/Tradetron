@@ -13119,11 +13119,6 @@ picture {
   font-size: 16px;
 }
 
-/* line 1085, src/scss/_components/account-profile/_account-profile.scss */
-.a-profile__notifications-table table tbody tr td:nth-of-type(1) {
-  white-space: nowrap;
-}
-
 /* line 1093, src/scss/_components/account-profile/_account-profile.scss */
 .a-profile__notifications-table th,
 .a-profile__notifications-table td {
