@@ -389,6 +389,7 @@
 
 	&--filter,
 	&--condition,
+	&--listBuilder,
 	&--builder,
 	&--formula,
 	&--deploy,
@@ -404,6 +405,193 @@
 
 			&-title {
 				font-size: 20px;
+			}
+		}
+	}
+
+	&--listBuilder {
+		.modal {
+			&-dialog {
+				max-width: 960px;
+			}
+
+			&-title {
+				font-size: 30px;
+				@include adaptive(767) {
+					font-size: 25px;
+				}
+			}
+
+			&-body {
+				.form-group {
+					.form-control {
+						font-size: 14px;
+					}
+				}
+
+				&-head {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					> div {
+						&:nth-of-type(1) {
+							@include adaptive(767) {
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								width: 100%;
+								height: 40px;
+							}
+						}
+						&:nth-of-type(2) {
+							display: flex;
+							align-items: center;
+							justify-content: flex-end;
+							flex: 1;
+							min-width: 1px;
+							max-width: 100%;
+							@include adaptive(767) {
+								padding-top: 15px;
+							}
+						}
+
+						p {
+							font-size: 18px;
+							font-weight: 600;
+							letter-spacing: 0.42px;
+						}
+
+						.c-btn,
+						.form-group {
+							width: 100%;
+							max-width: 140px;
+						}
+					}
+				}
+
+				&-footer {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					@include adaptive(767) {
+						flex-wrap: wrap;
+					}
+
+					> div {
+						display: flex;
+						align-items: center;
+						width: 50%;
+						@include adaptive(767) {
+							width: 100%;
+							flex-wrap: wrap;
+						}
+
+						&:nth-of-type(1) {
+							justify-content: flex-start;
+							padding-right: 20px;
+							@include adaptive(767) {
+								padding-right: 0;
+								padding-bottom: 15px;
+							}
+						}
+						&:nth-of-type(2) {
+							justify-content: flex-end;
+							padding-left: 20px;
+							@include adaptive(767) {
+								padding-left: 0;
+								justify-content: flex-start;
+							}
+						}
+
+						.form-group {
+							width: 100%;
+							max-width: 340px;
+						}
+
+						.form-check {
+							@include adaptive(767) {
+								width: 100%;
+								padding-bottom: 5px;
+							}
+							label {
+								white-space: nowrap;
+								font-weight: bold;
+								padding-bottom: 0;
+							}
+						}
+					}
+				}
+
+				&-table {
+					table {
+						.nowrap {
+							white-space: nowrap;
+						}
+						.remove {
+
+						}
+						.sort {
+							white-space: nowrap;
+							display: flex;
+							align-items: center;
+
+							.icon-font {
+								font-size: 8px;
+							}
+						}
+
+						thead,
+						tbody {
+							th,
+							td {
+								@include adaptive(767) {
+									min-width: 150px;
+								}
+
+								&:first-of-type {
+									padding-left: 0;
+								}
+							}
+						}
+
+						thead {
+							th {
+								border-top: none;
+								border-bottom-width: 1px;
+								font-size: 14px;
+								font-weight: bold;
+							}
+						}
+
+						tbody {
+							tr {
+								&:last-of-type {
+									border-bottom: 1px solid #dee2e6;
+								}
+							}
+						}
+					}
+				}
+
+				&-option {
+					display: flex;
+					align-items: center;
+
+					.form-group {
+						width: 100%;
+						max-width: 100px;
+					}
+
+					.c-btn {
+						width: 100%;
+						min-width: 70px;
+						max-width: 70px;
+					}
+				}
 			}
 		}
 	}

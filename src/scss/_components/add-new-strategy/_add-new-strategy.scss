@@ -192,6 +192,12 @@
 
 			.form-group {
 				width: 185px;
+				@include adaptive(424) {
+					width: 160px;
+				}
+				@include adaptive(374) {
+					width: 120px;
+				}
 			}
 
 			&-title {
@@ -205,6 +211,8 @@
 			}
 
 			&-add {
+				min-width: 69px;
+				max-width: 69px;
 				letter-spacing: 0.33px;
 				color: #6772e5;
 			}

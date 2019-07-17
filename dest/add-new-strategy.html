@@ -263,12 +263,31 @@
                     <div class="newStrategy__set-head d-flex align-items-center justify-content-between">
                       <div class="newStrategy__set-head-left d-flex align-items-center">
                         <p class="newStrategy__set-head-title pr-3">Entry</p>
-                        <div class="form-group mb-0">
+                        <div class="form-group mb-2 mb-md-0 mr-0 mr-3">
+                          <select class="form-control">
+                            <option>Default underlying</option>
+                            <option>Default list</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-0 mr-3">
                           <select class="form-control">
                             <option>Select list</option>
                             <option>Select list</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div>
+                        <div class="form-group mb-0 w-auto">
+                          <div class="dropdown dropdown--more">
+                            <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="dropdownUProfileAboutMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                            <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownUProfileAboutMore">
+                              <div class="dropdown-menu-corner position-absolute"></div>
+                              <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-pencil-edit"></i></div>
+                                  <div><span>Edit</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-garbage"></i></div>
+                                  <div><span>Delete list</span></div></a></div>
+                            </div>
+                          </div>
+                        </div><a class="newStrategy__set-head-add ml-3 c-btn c-btn--border" href="#" title="" data-toggle="modal" data-target="#addStrategiesList">Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -518,12 +537,31 @@
                     <div class="newStrategy__set-head d-flex align-items-center justify-content-between">
                       <div class="newStrategy__set-head-left d-flex align-items-center">
                         <p class="newStrategy__set-head-title pr-3">Entry</p>
-                        <div class="form-group mb-0">
+                        <div class="form-group mb-2 mb-md-0 mr-3">
+                          <select class="form-control">
+                            <option>Default underlying</option>
+                            <option>Default list</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-0 mr-3">
                           <select class="form-control">
                             <option>Select list</option>
                             <option>Select list</option>
                           </select>
-                        </div><a class="newStrategy__set-head-add ml-3" href="#" title="">+Add</a>
+                        </div>
+                        <div class="form-group mb-0 w-auto">
+                          <div class="dropdown dropdown--more">
+                            <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="dropdownUProfileAboutMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                            <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownUProfileAboutMore">
+                              <div class="dropdown-menu-corner position-absolute"></div>
+                              <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-pencil-edit"></i></div>
+                                  <div><span>Edit</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-garbage"></i></div>
+                                  <div><span>Delete list</span></div></a></div>
+                            </div>
+                          </div>
+                        </div><a class="newStrategy__set-head-add ml-3 c-btn c-btn--border" href="#" title="" data-toggle="modal" data-target="#addStrategiesList">Add</a>
                       </div>
                       <div class="newStrategy__set-head-right d-flex align-items-center"><a class="newStrategy__set-head-close mr-2" href="#" title=""><i class="icon-font icon-close"></i></a><a class="newStrategy__set-head-corner ml-2" href="#" title=""><i class="icon-font icon-corner"></i></a></div>
                     </div>
@@ -1224,7 +1262,7 @@
                   </div>
                 </div>
                 <div class="d-flex align-items-center justify-content-end justify-content-md-center">
-                  <div class="d-flex align-items-center"><a href="#" title=""><i class="icon-font icon-copy"></i></a><a class="ml-3" href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
+                  <div class="d-flex d-md-none align-items-center"><a href="#" title=""><i class="icon-font icon-copy"></i></a><a class="ml-3" href="#" title=""><i class="icon-font icon-garbage"></i></a></div>
                   <div class="dropdown dropdown--more d-none d-md-flex">
                     <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="addNewStrategiesMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
                     <div class="dropdown-menu animate slideIn" aria-labelledby="addNewStrategiesMore">
@@ -1366,6 +1404,150 @@
       </div>
     </div>
     <!-- MODAL add new strategies condition :: END-->
+    <!-- MODAL add new strategies formula :: START-->
+    <div class="modal modal--listBuilder fade" id="addStrategiesList" tabindex="-1" role="dialog" aria-labelledby="AddStrategies" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form class="modal-content pb-5" action="" autocomplete="off">
+          <div class="modal-header justify-content-center pt-5 pb-3 position-relative">
+            <h5 class="modal-title" id="AddStrategies">List builder</h5><a class="modal__close position-absolute" href="#" data-dismiss="modal" aria-label="Close"><i class="icon-font icon-close"></i></a>
+          </div>
+          <div class="modal-body">
+            <div class="modal-body-cover">
+              <div class="modal-body-head pb-3">
+                <div>
+                  <p>Name</p>
+                  <div class="d-block d-md-none">
+                    <div class="dropdown dropdown--more">
+                      <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="addNewStrategiesMore1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                      <div class="dropdown-menu animate slideIn" aria-labelledby="addNewStrategiesMore">
+                        <div class="dropdown-menu-corner position-absolute"></div>
+                        <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                            <div><i class="icon-font icon-copy"></i></div>
+                            <div><span>duplicate</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                            <div><i class="icon-font icon-garbage"></i></div>
+                            <div><span>Delete list</span></div></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div><a class="c-btn c-btn--bg mr-3" href="#" title="">+ New List</a>
+                  <div class="form-group mb-0 mr-3">
+                    <select class="form-control">
+                      <option>Select list</option>
+                      <option>Select list</option>
+                    </select>
+                  </div>
+                  <div class="form-check mb-0 mr-0 mr-md-3">
+                    <input class="form-check-input" id="addNewStrategiesPublicList" type="checkbox" value="">
+                    <label class="form-check-label pb-0" for="addNewStrategiesPublicList">Public</label>
+                  </div>
+                  <div class="d-none d-md-block">
+                    <div class="dropdown dropdown--more">
+                      <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="addNewStrategiesMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                      <div class="dropdown-menu animate slideIn" aria-labelledby="addNewStrategiesMore">
+                        <div class="dropdown-menu-corner position-absolute"></div>
+                        <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                            <div><i class="icon-font icon-copy"></i></div>
+                            <div><span>duplicate</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                            <div><i class="icon-font icon-garbage"></i></div>
+                            <div><span>Delete list</span></div></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body-option pb-4">
+                <div class="form-group mb-0 mr-3">
+                  <select class="form-control">
+                    <option>Exchange</option>
+                    <option>Exchange</option>
+                  </select>
+                </div>
+                <div class="form-group mb-0 mr-3">
+                  <select class="form-control">
+                    <option>Underlying</option>
+                    <option>Underlying</option>
+                  </select>
+                </div><a class="c-btn c-btn--border" href="#" title="">Add</a>
+              </div>
+              <div class="modal-body-table pb-4">
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="row">#</th>
+                        <th scope="row">
+                          <div class="sort"><span class="mr-2">Underlying</span><a href="" title=""><i class="icon-font icon-sort-down"></i></a></div>
+                        </th>
+                        <th scope="row">Price</th>
+                        <th scope="row">Change%</th>
+                        <th scope="row"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1.</td>
+                        <td>Zee Entertainment Enterprises Ltd.</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <div class="remove"><a href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2.</td>
+                        <td>Tata Motors Ltd.</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <div class="remove"><a href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3.</td>
+                        <td>Coal India Ltd.</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                          <div class="remove"><a href="#" title=""><i class="icon-font icon-close"></i></a></div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="modal-body-footer">
+                <div>
+                  <div class="form-check mb-0 mr-3">
+                    <input class="form-check-input" id="addNewStrategiesSortOn" type="checkbox" value="">
+                    <label class="form-check-label pb-0" for="addNewStrategiesSortOn">Sort On</label>
+                  </div>
+                  <div class="form-group mb-0">
+                    <select class="form-control">
+                      <option>Select</option>
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check mb-0 mr-3">
+                    <input class="form-check-input" id="addNewStrategiesApply" type="checkbox" value="">
+                    <label class="form-check-label pb-0" for="addNewStrategiesApply">Apply Filter</label>
+                  </div>
+                  <div class="form-group mb-0">
+                    <select class="form-control">
+                      <option>Select</option>
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- MODAL add new strategies formula :: END-->
   </body>
   <!-- SCRIPT :: START-->
   <script src="js/vendor.js"></script>

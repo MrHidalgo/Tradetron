@@ -1,0 +1,138 @@
+// MODAL add new strategies formula :: START
+
+#addStrategiesList.modal.modal--listBuilder.fade(tabindex='-1', role='dialog', aria-labelledby='AddStrategies', aria-hidden='true')
+	.modal-dialog.modal-dialog-centered(role='document')
+		form(action="" autocomplete="off").modal-content.pb-5
+			.modal-header.justify-content-center.pt-5.pb-3.position-relative
+				h5#AddStrategies.modal-title List builder
+
+				a.modal__close.position-absolute(href="#" data-dismiss="modal" aria-label="Close")
+					i.icon-font.icon-close
+
+			.modal-body
+				.modal-body-cover
+
+					.modal-body-head.pb-3
+						div
+							p!= "Name"
+							.d-block.d-md-none
+								.dropdown.dropdown--more
+									button#addNewStrategiesMore1.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+										i.icon-font.icon-more
+									.dropdown-menu.animate.slideIn(aria-labelledby='addNewStrategiesMore')
+										.dropdown-menu-corner.position-absolute
+										.dropdown-menu-wrapper.d-flex.flex-column
+											a.dropdown-item.d-flex.align-items-center(href='#')
+												div
+													i.icon-font.icon-copy
+												div
+													span!= "duplicate"
+											a.dropdown-item.d-flex.align-items-center(href='#')
+												div
+													i.icon-font.icon-garbage
+												div
+													span!= "Delete list"
+						div
+							a.c-btn.c-btn--bg.mr-3(href="#" class="" title="")!= "+ New List"
+							.form-group.mb-0.mr-3
+								select.form-control
+									option Select list
+									option Select list
+							.form-check.mb-0.mr-0.mr-md-3
+								input#addNewStrategiesPublicList.form-check-input(type='checkbox', value='')
+								label.form-check-label.pb-0(for='addNewStrategiesPublicList')
+									| Public
+							div.d-none.d-md-block
+								.dropdown.dropdown--more
+									button#addNewStrategiesMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+										i.icon-font.icon-more
+									.dropdown-menu.animate.slideIn(aria-labelledby='addNewStrategiesMore')
+										.dropdown-menu-corner.position-absolute
+										.dropdown-menu-wrapper.d-flex.flex-column
+											a.dropdown-item.d-flex.align-items-center(href='#')
+												div
+													i.icon-font.icon-copy
+												div
+													span!= "duplicate"
+											a.dropdown-item.d-flex.align-items-center(href='#')
+												div
+													i.icon-font.icon-garbage
+												div
+													span!= "Delete list"
+
+					.modal-body-option.pb-4
+						.form-group.mb-0.mr-3
+							select.form-control
+								option Exchange
+								option Exchange
+						.form-group.mb-0.mr-3
+							select.form-control
+								option Underlying
+								option Underlying
+						a.c-btn.c-btn--border(href="#" class="" title="")!= "Add"
+
+					.modal-body-table.pb-4
+						.table-responsive
+							table.table
+								thead
+									tr
+										th(scope="row") #
+										th(scope="row")
+											.sort
+												span.mr-2 Underlying
+												a(href="" class="" title="")
+													i.icon-font.icon-sort-down
+										th(scope="row") Price
+										th(scope="row") Change%
+										th(scope="row")
+								tbody
+									tr
+										td 1.
+										td Zee Entertainment Enterprises Ltd.
+										td
+										td
+										td
+											.remove
+												a(href="#" class="" title="")
+													i.icon-font.icon-close
+									tr
+										td 2.
+										td Tata Motors Ltd.
+										td
+										td
+										td
+											.remove
+												a(href="#" class="" title="")
+													i.icon-font.icon-close
+									tr
+										td 3.
+										td Coal India Ltd.
+										td
+										td
+										td
+											.remove
+												a(href="#" class="" title="")
+													i.icon-font.icon-close
+
+					.modal-body-footer
+						div
+							.form-check.mb-0.mr-3
+								input#addNewStrategiesSortOn.form-check-input(type='checkbox', value='')
+								label.form-check-label.pb-0(for='addNewStrategiesSortOn')
+									| Sort On
+							.form-group.mb-0
+								select.form-control
+									option Select
+									option Select
+						div
+							.form-check.mb-0.mr-3
+								input#addNewStrategiesApply.form-check-input(type='checkbox', value='')
+								label.form-check-label.pb-0(for='addNewStrategiesApply')
+									| Apply Filter
+							.form-group.mb-0
+								select.form-control
+									option Select
+									option Select
+
+
+// MODAL add new strategies formula :: END
