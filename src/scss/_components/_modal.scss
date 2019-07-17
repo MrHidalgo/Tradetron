@@ -600,15 +600,17 @@
 		&.is-sell {
 			.modal {
 				&-content {
-					background-color: #22c993;
+					background-color: #f05858;
 					@include transition(background-color);
 				}
 
 				&-body {
 					&-tabs {
 						> a {
-							color: #22c993;
-							@include transition(color);
+							&.is-active {
+								color: #f05858;
+								@include transition(color);
+							}
 						}
 					}
 				}
@@ -624,7 +626,7 @@
 			}
 
 			&-content {
-				background-color: #f05858;
+				background-color: #22c993;
 				@include transition(background-color);
 			}
 
@@ -652,8 +654,8 @@
 						width: 50%;
 						height: 40px;
 						border: 1px solid #fff;
-						background-color: #ffffff;
-						color: #f05858;
+						background-color: transparent;
+						color: #fff;
 						font-size: 16px;
 						font-weight: bold;
 						letter-spacing: 0.09px;
@@ -672,8 +674,8 @@
 						}
 
 						&.is-active {
-							background-color: transparent;
-							color: #ffffff;
+							background-color: #fff;
+							color: #22c993;
 							@include transition(background-color, color);
 						}
 					}
