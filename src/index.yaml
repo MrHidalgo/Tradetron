@@ -39,7 +39,7 @@ PageList:
   ready: 95
 - file: my-strategies.html
   titleName: My Strategies
-  ready: 90
+  ready: 95
 - file: add-new-strategy.html
   titleName: Add new strategy
-  ready: 55
+  ready: 95
