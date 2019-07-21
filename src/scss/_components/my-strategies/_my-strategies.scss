@@ -46,20 +46,17 @@
 
 	&__head {
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
-		justify-content: space-between;
 		padding-top: 30px;
 		padding-bottom: 20px;
 		@include adaptive(767) {
 			flex-direction: column;
 			align-items: flex-start;
-
-			> * {
-				width: 100%;
-			}
 		}
 
 		p {
+			margin-right: 20px;
 			font-weight: bold;
 			font-size: 30px;
 			letter-spacing: 0.66px;
@@ -69,14 +66,8 @@
 			}
 		}
 
-		a {
-			font-weight: 500;
-			font-size: 18px;
-			color: #6772e5;
-			letter-spacing: 0.66px;
-			@include adaptive(767) {
-				text-align: right;
-			}
+		.c-btn {
+			max-width: 170px;
 		}
 	}
 
