@@ -18,17 +18,20 @@
 		}
 
 		&.is-valid {
-			p {
+			p,
+			a {
 				color: #22C993;
 			}
 		}
 		&.is-invalid {
-			p {
+			p,
+			a {
 				color: #f05858;
 			}
 		}
 
-		p {
+		p,
+		a {
 			text-align: center;
 			font-weight: 500;
 			font-size: 12px;
@@ -39,6 +42,10 @@
 		}
 
 		a {
+			text-decoration: underline;
+		}
+
+		.alert__close {
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);

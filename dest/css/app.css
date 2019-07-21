@@ -838,17 +838,20 @@ picture {
 }
 
 /* line 21, src/scss/_shared/_common.scss */
-.alert__box.is-valid p {
+.alert__box.is-valid p,
+.alert__box.is-valid a {
   color: #22C993;
 }
 
-/* line 26, src/scss/_shared/_common.scss */
-.alert__box.is-invalid p {
+/* line 27, src/scss/_shared/_common.scss */
+.alert__box.is-invalid p,
+.alert__box.is-invalid a {
   color: #f05858;
 }
 
-/* line 31, src/scss/_shared/_common.scss */
-.alert__box p {
+/* line 33, src/scss/_shared/_common.scss */
+.alert__box p,
+.alert__box a {
   text-align: center;
   font-weight: 500;
   font-size: 12px;
@@ -856,14 +859,20 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 31, src/scss/_shared/_common.scss */
-  .alert__box p {
+  /* line 33, src/scss/_shared/_common.scss */
+  .alert__box p,
+  .alert__box a {
     text-align: left;
   }
 }
 
-/* line 41, src/scss/_shared/_common.scss */
+/* line 44, src/scss/_shared/_common.scss */
 .alert__box a {
+  text-decoration: underline;
+}
+
+/* line 48, src/scss/_shared/_common.scss */
+.alert__box .alert__close {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -874,40 +883,40 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 41, src/scss/_shared/_common.scss */
-  .alert__box a {
+  /* line 48, src/scss/_shared/_common.scss */
+  .alert__box .alert__close {
     right: 15px;
   }
 }
 
-/* line 56, src/scss/_shared/_common.scss */
+/* line 63, src/scss/_shared/_common.scss */
 .copyright {
   font-size: 13px;
   letter-spacing: 0.4px;
 }
 
-/* line 64, src/scss/_shared/_common.scss */
+/* line 71, src/scss/_shared/_common.scss */
 .dropdown--more .dropdown-toggle {
   height: 30px;
 }
 
-/* line 67, src/scss/_shared/_common.scss */
+/* line 74, src/scss/_shared/_common.scss */
 .dropdown--more .dropdown-toggle .icon-font {
   color: #AEAEAE;
   font-size: 5px;
 }
 
-/* line 72, src/scss/_shared/_common.scss */
+/* line 79, src/scss/_shared/_common.scss */
 .dropdown--more .dropdown-toggle:after {
   display: none;
 }
 
-/* line 79, src/scss/_shared/_common.scss */
+/* line 86, src/scss/_shared/_common.scss */
 .dropdown--more .dropdown-item > div:nth-of-type(1) {
   width: 30px;
 }
 
-/* line 87, src/scss/_shared/_common.scss */
+/* line 94, src/scss/_shared/_common.scss */
 .dropdown-toggle {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -919,14 +928,14 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 95, src/scss/_shared/_common.scss */
+/* line 102, src/scss/_shared/_common.scss */
 .dropdown-toggle:focus, .dropdown-toggle.focus {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-/* line 101, src/scss/_shared/_common.scss */
+/* line 108, src/scss/_shared/_common.scss */
 .dropdown-toggle.is-active {
   color: #fff;
   -webkit-transition: color 0.3s ease-in-out;
@@ -934,13 +943,13 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 106, src/scss/_shared/_common.scss */
+/* line 113, src/scss/_shared/_common.scss */
 .dropdown-toggle .icon-font {
   margin-left: 5px;
   font-size: 8px;
 }
 
-/* line 112, src/scss/_shared/_common.scss */
+/* line 119, src/scss/_shared/_common.scss */
 .dropdown-menu {
   left: auto !important;
   right: 0 !important;
@@ -953,7 +962,7 @@ picture {
   background-color: transparent;
 }
 
-/* line 122, src/scss/_shared/_common.scss */
+/* line 129, src/scss/_shared/_common.scss */
 .dropdown-menu-corner {
   z-index: 0;
   top: -5px;
@@ -968,7 +977,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 133, src/scss/_shared/_common.scss */
+/* line 140, src/scss/_shared/_common.scss */
 .dropdown-menu-wrapper {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -979,7 +988,7 @@ picture {
           box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* line 142, src/scss/_shared/_common.scss */
+/* line 149, src/scss/_shared/_common.scss */
 .dropdown-item {
   min-height: 20px;
   padding: 0 15px;
@@ -987,12 +996,12 @@ picture {
   margin-bottom: 5px;
 }
 
-/* line 148, src/scss/_shared/_common.scss */
+/* line 155, src/scss/_shared/_common.scss */
 .dropdown-item:hover {
   background-color: transparent;
 }
 
-/* line 151, src/scss/_shared/_common.scss */
+/* line 158, src/scss/_shared/_common.scss */
 .dropdown-item:hover .icon-font,
 .dropdown-item:hover span {
   color: #6772e5;
@@ -1001,7 +1010,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 158, src/scss/_shared/_common.scss */
+/* line 165, src/scss/_shared/_common.scss */
 .dropdown-item > div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1009,7 +1018,7 @@ picture {
   display: flex;
 }
 
-/* line 164, src/scss/_shared/_common.scss */
+/* line 171, src/scss/_shared/_common.scss */
 .dropdown-item > div:nth-of-type(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1028,7 +1037,7 @@ picture {
   max-width: 100%;
 }
 
-/* line 174, src/scss/_shared/_common.scss */
+/* line 181, src/scss/_shared/_common.scss */
 .dropdown-item span {
   text-transform: uppercase;
   font-size: 12px;
@@ -1038,7 +1047,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 181, src/scss/_shared/_common.scss */
+/* line 188, src/scss/_shared/_common.scss */
 .dropdown-item .icon-font {
   font-size: 18px;
   -webkit-transition: color 0.3s ease-in-out;
@@ -1046,7 +1055,7 @@ picture {
   transition: color 0.3s ease-in-out;
 }
 
-/* line 191, src/scss/_shared/_common.scss */
+/* line 198, src/scss/_shared/_common.scss */
 .input-group {
   overflow: hidden;
   -webkit-border-radius: 6px;
@@ -1054,19 +1063,19 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 198, src/scss/_shared/_common.scss */
+/* line 205, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group button.btn {
   border-left: transparent !important;
   border-right: solid 1px rgba(185, 185, 185, 0.3);
 }
 
-/* line 203, src/scss/_shared/_common.scss */
+/* line 210, src/scss/_shared/_common.scss */
 .input-group--reverse.input-group .form-control {
   border-left: solid 1px rgba(185, 185, 185, 0.3);
   border-right: transparent !important;
 }
 
-/* line 210, src/scss/_shared/_common.scss */
+/* line 217, src/scss/_shared/_common.scss */
 .input-group button.btn {
   -webkit-border-radius: 6px;
           border-radius: 6px;
@@ -1074,12 +1083,12 @@ picture {
   border-right: transparent;
 }
 
-/* line 215, src/scss/_shared/_common.scss */
+/* line 222, src/scss/_shared/_common.scss */
 .input-group button.btn:hover {
   background-color: transparent;
 }
 
-/* line 219, src/scss/_shared/_common.scss */
+/* line 226, src/scss/_shared/_common.scss */
 .input-group button.btn:focus, .input-group button.btn:active {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -1087,13 +1096,13 @@ picture {
   border-color: rgba(185, 185, 185, 0.3) !important;
 }
 
-/* line 226, src/scss/_shared/_common.scss */
+/* line 233, src/scss/_shared/_common.scss */
 .input-group button.btn .icon-font {
   font-size: 17px;
   color: #333333;
 }
 
-/* line 232, src/scss/_shared/_common.scss */
+/* line 239, src/scss/_shared/_common.scss */
 .input-group .form-control {
   height: 40px;
   -webkit-border-radius: 6px;
@@ -1151,14 +1160,14 @@ picture {
   color: #333333;
 }
 
-/* line 249, src/scss/_shared/_common.scss */
+/* line 256, src/scss/_shared/_common.scss */
 .input-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 256, src/scss/_shared/_common.scss */
+/* line 263, src/scss/_shared/_common.scss */
 .form-group > label {
   padding-bottom: 5px;
   font-weight: 600;
@@ -1166,7 +1175,7 @@ picture {
   color: #333333;
 }
 
-/* line 263, src/scss/_shared/_common.scss */
+/* line 270, src/scss/_shared/_common.scss */
 .form-group > input {
   outline: none;
   height: 40px;
@@ -1179,14 +1188,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 272, src/scss/_shared/_common.scss */
+/* line 279, src/scss/_shared/_common.scss */
 .form-group > input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 278, src/scss/_shared/_common.scss */
+/* line 285, src/scss/_shared/_common.scss */
 .form-group textarea {
   outline: none;
   padding: 0 15px;
@@ -1196,14 +1205,14 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 285, src/scss/_shared/_common.scss */
+/* line 292, src/scss/_shared/_common.scss */
 .form-group textarea:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 291, src/scss/_shared/_common.scss */
+/* line 298, src/scss/_shared/_common.scss */
 .form-group select {
   outline: none;
   height: 40px;
@@ -1216,24 +1225,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 300, src/scss/_shared/_common.scss */
+/* line 307, src/scss/_shared/_common.scss */
 .form-group select:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 310, src/scss/_shared/_common.scss */
+/* line 317, src/scss/_shared/_common.scss */
 .tooltip.show {
   opacity: 1;
 }
 
-/* line 315, src/scss/_shared/_common.scss */
+/* line 322, src/scss/_shared/_common.scss */
 .tooltip .arrow:before {
   border-top-color: #fff;
 }
 
-/* line 320, src/scss/_shared/_common.scss */
+/* line 327, src/scss/_shared/_common.scss */
 .tooltip-inner {
   opacity: 1;
   padding: 15px;
@@ -1246,7 +1255,7 @@ picture {
   text-align: left;
 }
 
-/* line 334, src/scss/_shared/_common.scss */
+/* line 341, src/scss/_shared/_common.scss */
 .animate {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
@@ -1298,7 +1307,7 @@ picture {
   }
 }
 
-/* line 356, src/scss/_shared/_common.scss */
+/* line 363, src/scss/_shared/_common.scss */
 .fadeIn {
   -webkit-animation-duration: 0.5s;
           animation-duration: 0.5s;
@@ -1306,7 +1315,7 @@ picture {
           animation-name: fadeIn;
 }
 
-/* line 360, src/scss/_shared/_common.scss */
+/* line 367, src/scss/_shared/_common.scss */
 .slideIn {
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
