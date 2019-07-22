@@ -909,89 +909,174 @@
                 <!-- add new strategies advanced-->
                 <div class="newStrategy__section newStrategy__advanced px-3 py-4">
                   <div class="newStrategy__advanced-wrapper">
-                    <div class="newStrategy__advanced-left">
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesCurrency">Currency</label>
-                        <select class="form-control" id="newStrategiesCurrency">
-                          <option>USD</option>
-                          <option>USD</option>
-                        </select>
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesPriceExecution">Price Execution (only if limit price not chosen)</label>
-                        <select class="form-control" id="newStrategiesPriceExecution">
-                          <option>One Tick above top price update</option>
-                          <option>One Tick above top price update</option>
-                        </select>
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesLotRounding">Lot Rounding off for extra qty</label>
-                        <select class="form-control" id="newStrategiesLotRounding">
-                          <option>On upper side</option>
-                          <option>On upper side</option>
-                        </select>
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesTrailingStop">Trailing Stop Loss</label>
-                        <select class="form-control" id="newStrategiesTrailingStop">
-                          <option>Move Trailing Stop by Rs. 'value' with every Rs. 'value' increa...</option>
-                          <option>Move Trailing Stop by Rs. 'value' with every Rs. 'value' increa...</option>
-                        </select>
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesFirstTrade">First trade after exchange open</label>
-                        <select class="form-control" id="newStrategiesFirstTrade">
-                          <option>15 mins</option>
-                          <option>15 mins</option>
-                        </select>
-                      </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesRollover">Rollover on expiry</label>
-                        <select class="form-control" id="newStrategiesRollover">
-                          <option>Next Week</option>
-                          <option>Next Week</option>
-                        </select>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Price execution 1</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--half">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesPriceRevision">Price revision attempts</label>
+                            <select class="form-control" id="newStrategiesPriceRevision">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesIncreasedBy">Increased by</label>
+                            <select class="form-control" id="newStrategiesIncreasedBy">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="newStrategy__advanced-right">
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesOrderManagement">Order Management</label>
-                        <select class="form-control" id="newStrategiesOrderManagement">
-                          <option>Enter most illiquid position first</option>
-                          <option>Enter most illiquid position first</option>
-                        </select>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Price execution 2</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--half">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesTimeout">Timeout</label>
+                            <select class="form-control" id="newStrategiesTimeout">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesFinalAction">Final action</label>
+                            <select class="form-control" id="newStrategiesFinalAction">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesTranches">Tranches</label>
-                        <select class="form-control" id="newStrategiesTranches">
-                          <option>Lots</option>
-                          <option>Lots</option>
-                        </select>
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Tranching</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--two">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesTranchSize">Tranch size</label>
+                            <select class="form-control" id="newStrategiesTranchSize">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesOneTranch">One tranch every</label>
+                            <select class="form-control" id="newStrategiesOneTranch">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesMarketMaking">Market Making (show only if positions are buy and sell of same position)</label>
-                        <select class="form-control" id="newStrategiesMarketMaking">
-                          <option>Update new bid/ask prices for unfilled positions</option>
-                          <option>Update new bid/ask prices for unfilled positions</option>
-                        </select>
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Trailing Stop Loss</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--three">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesActivateAt">Activate at</label>
+                            <select class="form-control" id="newStrategiesActivateAt">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesWhenProfile">When profile increased by</label>
+                            <select class="form-control" id="newStrategiesWhenProfile">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-3">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesIncreaseTSL">Increase TSL by</label>
+                            <select class="form-control" id="newStrategiesIncreaseTSL">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesRunStrategy">Run strategy</label>
-                        <select class="form-control" id="newStrategiesRunStrategy">
-                          <option>Once every week</option>
-                          <option>Once every week</option>
-                        </select>
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Reactivate every</p>
+                      <div class="newStrategy__advanced-row">
+                        <div class="newStrategy__advanced-col">
+                          <div class="form-group mb-3">
+                            <select class="form-control" id="newStrategiesTranchSize">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesLastTrade">Last trade before exchange close</label>
-                        <select class="form-control" id="newStrategiesLastTrade">
-                          <option>15 mins</option>
-                          <option>15 mins</option>
-                        </select>
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Capital Required</p>
+                      <div class="newStrategy__advanced-row">
+                        <div class="newStrategy__advanced-col">
+                          <div class="form-group mb-3">
+                            <input class="form-control" id="newStrategiesHideSubscribers" type="text" placeholder="" value="0">
+                          </div>
+                        </div>
                       </div>
-                      <div class="form-group mb-3">
-                        <label for="newStrategiesCapitalRequired">Capital Required</label>
-                        <input class="form-control" id="newStrategiesCapitalRequired" type="text" placeholder="" value="0">
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Take trades</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--half">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesFirstTrade">First trade after exchange open</label>
+                            <select class="form-control" id="newStrategiesFirstTrade">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesLastTrade">Last trade before exchange close</label>
+                            <select class="form-control" id="newStrategiesLastTrade">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="newStrategy__advanced-block">
+                      <p class="newStrategy__advanced-title">Rollover on expiry</p>
+                      <div class="newStrategy__advanced-row newStrategy__advanced-row--half">
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-1">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesChooseExpiry">Choose expiry</label>
+                            <select class="form-control" id="newStrategiesChooseExpiry">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="newStrategy__advanced-col newStrategy__advanced-col-2">
+                          <div class="form-group mb-3">
+                            <label for="newStrategiesChooseTime">Choose time</label>
+                            <select class="form-control" id="newStrategiesChooseTime">
+                              <option></option>
+                              <option></option>
+                            </select>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -999,9 +1084,9 @@
                 <!-- add new strategies advanced :: end-->
                 <h3 class="newStrategy__subtitle">Marketplace Settings</h3>
                 <!-- add new strategies marketplace-->
-                <div class="newStrategy__section newStrategy__advanced px-3 py-4">
-                  <div class="newStrategy__advanced-wrapper">
-                    <div class="newStrategy__advanced-left">
+                <div class="newStrategy__section newStrategy__marketplace px-3 py-4">
+                  <div class="newStrategy__marketplace-wrapper">
+                    <div class="newStrategy__marketplace-left">
                       <div class="form-group mb-3">
                         <label for="newStrategiesPublicStrategy">Public Strategy</label>
                         <select class="form-control" id="newStrategiesPublicStrategy">
@@ -1049,7 +1134,7 @@
                         </select>
                       </div>
                     </div>
-                    <div class="newStrategy__advanced-right">
+                    <div class="newStrategy__marketplace-right">
                       <div class="form-group mb-3">
                         <label for="newStrategiesMinimumMultiple">Minimum Multiple for subscriber to deploy</label>
                         <select class="form-control" id="newStrategiesMinimumMultiple">

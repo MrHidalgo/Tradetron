@@ -107,6 +107,105 @@
 	&__advanced {
 		margin-bottom: 30px;
 
+		&-title {
+			padding-bottom: 5px;
+			font-weight: bold;
+			font-size: 14px;
+			letter-spacing: 0.27px;
+		}
+
+		&-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		&-block {
+			width: 100%;
+			max-width: 50%;
+			@include adaptive(1199) {
+				max-width: 100%;
+			}
+
+			&:nth-of-type(odd) {
+				padding-right: 15px;
+				@include adaptive(1199) {
+					padding-right: 0;
+				}
+			}
+			&:nth-of-type(even) {
+				padding-left: 15px;
+				@include adaptive(1199) {
+					padding-left: 0;
+				}
+			}
+
+			label {
+				font-size: 12px;
+				font-weight: normal;
+				@include adaptive(1199) {
+					display: flex;
+					align-items: flex-end;
+					height: 40px;
+				}
+			}
+		}
+
+		&-row {
+			display: flex;
+			width: 100%;
+
+			&--half {
+				.newStrategy__advanced-col {
+					width: 50%;
+
+					&-1 {
+						padding-right: 5px;
+					}
+					&-2 {
+						padding-left: 5px;
+					}
+				}
+			}
+
+			&--two {
+				.newStrategy__advanced-col {
+					&-1 {
+						width: 30%;
+						padding-right: 5px;
+					}
+					&-2 {
+						width: 70%;
+						padding-left: 5px;
+					}
+				}
+			}
+
+			&--three {
+				.newStrategy__advanced-col {
+					width: calc(100% / 3);
+
+					&-1 {
+						padding-right: 5px;
+					}
+					&-2 {
+						padding-left: 5px;
+						padding-right: 5px;
+					}
+					&-3 {
+						padding-left: 5px;
+					}
+				}
+			}
+		}
+
+		&-col {
+			width: 100%;
+		}
+	}
+	// advanced :: end
+
+	// marketplace
+	&__marketplace {
 		&-wrapper {
 			display: flex;
 			@include adaptive(1199) {
@@ -132,7 +231,7 @@
 			}
 		}
 	}
-	// advanced :: end
+	// marketplace :: end
 
 	// set
 	&__set {
