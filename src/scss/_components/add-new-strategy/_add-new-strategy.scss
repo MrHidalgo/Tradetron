@@ -290,6 +290,7 @@
 			}
 
 			&-link {
+				white-space: nowrap;
 				font-size: 18px;
 				font-weight: 500;
 				letter-spacing: 0.66px;
@@ -302,6 +303,14 @@
 			}
 
 			&-left {
+				width: 100%;
+
+				&-cover {
+					display: flex;
+					align-items: center;
+					//width: 100%;
+				}
+
 				@include adaptive(1023) {
 					flex-wrap: wrap;
 				}
