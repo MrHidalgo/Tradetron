@@ -629,6 +629,15 @@ $(document).ready(function (ev) {
 			_parentNode.addClass('is-' + _btnName);
 		});
 	};
+
+	var initModalCollapse = function initModalCollapse() {
+		$('.modal-body-collapse-btn').on('click', function (ev) {
+			var _btn = $(ev.currentTarget),
+			    _parentNode = _btn.closest('.modal-body-collapse');
+
+			_parentNode.find('.modal-body-collapse-body').slideToggle(350);
+		});
+	};
 	/*
  * CALLBACK :: end
  * ============================================= */
@@ -660,6 +669,7 @@ $(document).ready(function (ev) {
 		initAccountProfileMenu();
 		initSubscribersTabs();
 		initModalBuilderTabs();
+		initModalCollapse();
 		// ==========================================
 	};
 	initJquery();

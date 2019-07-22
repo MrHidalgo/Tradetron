@@ -151,6 +151,16 @@ $(document).ready((ev) => {
 			_parentNode.addClass('is-' + _btnName);
 		});
 	};
+
+
+	const initModalCollapse = () => {
+		$('.modal-body-collapse-btn').on('click', (ev) => {
+			const _btn = $(ev.currentTarget),
+				_parentNode = _btn.closest('.modal-body-collapse');
+
+			_parentNode.find('.modal-body-collapse-body').slideToggle(350);
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -184,6 +194,7 @@ $(document).ready((ev) => {
 		initAccountProfileMenu();
 		initSubscribersTabs();
 		initModalBuilderTabs();
+		initModalCollapse();
 		// ==========================================
   };
   initJquery();

@@ -1398,25 +1398,32 @@
                     <label for="addNewStrategiesExchange">Exchange</label>
                     <input class="form-control" id="addNewStrategiesExchange" type="text" placeholder="">
                   </div>
-                  <div class="form-group form-group--wbtn">
-                    <label for="addNewStrategiesStrike">Strike</label>
-                    <input class="form-control" id="addNewStrategiesStrike" type="text" placeholder=""><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
+                  <div class="form-group-row">
+                    <div class="form-group">
+                      <label for="addNewStrategiesProduct">Product</label>
+                      <select class="form-control" id="addNewStrategiesProduct">
+                        <option></option>
+                        <option></option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="addNewStrategiesType">Type</label>
+                      <select class="form-control" id="addNewStrategiesType">
+                        <option></option>
+                        <option></option>
+                      </select>
+                    </div>
                   </div>
                   <div class="form-group form-group--wbtn">
                     <label for="addNewStrategiesExpiry">Expiry</label>
-                    <input class="form-control" id="addNewStrategiesExpiry" type="text" placeholder=""><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
+                    <select class="form-control" id="addNewStrategiesExpiry">
+                      <option></option>
+                      <option></option>
+                    </select><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
                   </div>
                   <div class="form-group">
                     <label for="addNewStrategiesEntryPrice">Entry Price</label>
                     <input class="form-control" id="addNewStrategiesEntryPrice" type="text" placeholder="">
-                  </div>
-                  <div class="form-group">
-                    <label for="addNewStrategiesStopLossPrice">StopLoss Price</label>
-                    <input class="form-control" id="addNewStrategiesStopLossPrice" type="text" placeholder="">
-                  </div>
-                  <div class="form-group">
-                    <label for="addNewStrategiesTargetPrice">Target Price</label>
-                    <input class="form-control" id="addNewStrategiesTargetPrice" type="text" placeholder="">
                   </div>
                 </div>
                 <div class="modal-body-field-right">
@@ -1424,9 +1431,12 @@
                     <label for="addNewStrategiesUnderlying">Underlying</label>
                     <input class="form-control" id="addNewStrategiesUnderlying" type="text" placeholder="">
                   </div>
-                  <div class="form-group">
-                    <label for="addNewStrategiesType">Type</label>
-                    <input class="form-control" id="addNewStrategiesType" type="text" placeholder="">
+                  <div class="form-group form-group--wbtn">
+                    <label for="addNewStrategiesStrike">Strike</label>
+                    <select class="form-control" id="addNewStrategiesStrike">
+                      <option>Qty</option>
+                      <option>Qty</option>
+                    </select><a href="#" title="" data-dismiss="modal" data-toggle="modal" data-target="#addStrategiesFormula">Fx</a>
                   </div>
                   <div class="form-group-field">
                     <div>
@@ -1449,13 +1459,32 @@
                     <label for="addNewStrategiesEntryTriggerPrice">Entry Trigger Price</label>
                     <input class="form-control" id="addNewStrategiesEntryTriggerPrice" type="text" placeholder="">
                   </div>
-                  <div class="form-group">
-                    <label for="addNewStrategiesStopLossTriggerPrice">StopLoss Trigger Price</label>
-                    <input class="form-control" id="addNewStrategiesStopLossTriggerPrice" type="text" placeholder="">
-                  </div>
-                  <div class="form-group">
-                    <label for="addNewStrategiesTargetTriggerPrice">Target Trigger Price</label>
-                    <input class="form-control" id="addNewStrategiesTargetTriggerPrice" type="text" placeholder="">
+                </div>
+              </div>
+              <div class="modal-body-collapse">
+                <div class="modal-body-collapse-head"><a class="modal-body-collapse-btn" href="#" title="">+ Advanced options</a></div>
+                <div class="modal-body-collapse-body">
+                  <div class="modal-body-field">
+                    <div class="modal-body-field-left">
+                      <div class="form-group">
+                        <label for="addNewStrategiesStopLossPrice">StopLoss Price</label>
+                        <input class="form-control" id="addNewStrategiesStopLossPrice" type="text" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="addNewStrategiesTargetPrice">Target Price</label>
+                        <input class="form-control" id="addNewStrategiesTargetPrice" type="text" placeholder="">
+                      </div>
+                    </div>
+                    <div class="modal-body-field-right">
+                      <div class="form-group">
+                        <label for="addNewStrategiesStopLossTriggerPrice">StopLoss Trigger Price</label>
+                        <input class="form-control" id="addNewStrategiesStopLossTriggerPrice" type="text" placeholder="">
+                      </div>
+                      <div class="form-group">
+                        <label for="addNewStrategiesTargetTriggerPrice">Target Trigger Price</label>
+                        <input class="form-control" id="addNewStrategiesTargetTriggerPrice" type="text" placeholder="">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
