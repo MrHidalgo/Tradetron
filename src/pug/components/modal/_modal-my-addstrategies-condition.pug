@@ -15,50 +15,12 @@
 					.modal-body-field.modal-body-field-0
 						div
 							.form-group.mb-0
-								label(for='addNewStrategiesCondition') Condition
-								select#addNewStrategiesCondition.form-control
-									option Select Condition
-									option Select Condition
-						div
-							.form-group.mb-0
-								label(for='addNewStrategiesNewCondition') New Condition
-								input#addNewStrategiesNewCondition.form-control(type='text', placeholder='')
-						div
-							.form-check.mb-0
-								input#addNewStrategiesPublic.form-check-input(type='checkbox', value='')
-								label.form-check-label.pb-0(for='addNewStrategiesPublic')
-									| Public
-						div.d-flex.align-items-center.justify-content-end.justify-content-md-center
-							.d-flex.d-md-none.align-items-center
-								a(href="#" class="" title="")
-									i.icon-font.icon-copy
-								a.ml-3(href="#" class="" title="")
-									i.icon-font.icon-garbage
+								label(for='addNewStrategiesSampleConditions') Sample conditions
+								select#addNewStrategiesSampleConditions.form-control
+									option Condition list
+									option Condition list
 
-							.dropdown.dropdown--more.d-none.d-md-flex
-								button#addNewStrategiesMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-									i.icon-font.icon-more
-								.dropdown-menu.animate.slideIn(aria-labelledby='addNewStrategiesMore')
-									.dropdown-menu-corner.position-absolute
-									.dropdown-menu-wrapper.d-flex.flex-column
-										a.dropdown-item.d-flex.align-items-center(href='#')
-											div
-												i.icon-font.icon-copy
-											div
-												span!= "duplicate"
-										a.dropdown-item.d-flex.align-items-center(href='#')
-											div
-												i.icon-font.icon-garbage
-											div
-												span!= "Delete list"
-
-					.modal-body-field.modal-body-field-1
-						div
-							.form-group.mb-0
-								label(for='addNewStrategiesDescription') Description
-								textarea#addNewStrategiesDescription.form-control
-
-					.modal-body-field.modal-body-field-2
+					.modal-body-field.modal-body-field-3
 						div
 							.form-group.mb-0
 								label(for='addNewStrategiesLHS') LHS
@@ -71,12 +33,15 @@
 								select#addNewStrategiesOperator.form-control
 									option Select
 									option Select
+
+					.modal-body-field.modal-body-field-1
 						div
 							.form-group.mb-0
-								label(for='addNewStrategiesRHS') RHS
-								select#addNewStrategiesRHS.form-control
-									option Select Keyword
-									option Select Keyword
+								label(for='addNewStrategiesCondition') Condition
+								textarea#addNewStrategiesCondition.form-control
+
+					.modal-body-field.modal-body-field-2
+						p A condition is of the format LHS operator RHS.
 
 					button.modal-body-submit.mt-4.d-flex.align-items-center.justify-content-center(type="submit")!= "Add"
 
