@@ -10,7 +10,7 @@
 			i.icon-font.icon-close
 
 	// ENTRY CARD
-	.newStrategy__section.newStrategy__set.newStrategy__set-entry.px-3.pt-3.pb-4
+	.newStrategy__section.newStrategy__set.newStrategy__set-collapse.newStrategy__set-entry.px-3.py-3.is-active
 
 		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
 			.newStrategy__set-head-left.d-flex.align-items-center
@@ -64,32 +64,8 @@
 
 					.newStrategy__set-frame-body.pr-3.pt-3
 
-						table.table.mb-0
-							tbody
-								tr
-									td
-										.tabs.d-flex.align-items-center
-											a(href="#" class="" title="" data-toggle="modal" data-target="#addStrategiesCondition") Builder
-											span.ml-2.mr-2 |
-											a(href="#" class="" title="") Advanced Tab
-									td
-
-								tr
-									td Cond1
-									td
-										.d-flex.align-items-center.justify-content-end
-											a.mr-2(href="#" class="" title="")
-												i.icon-font.icon-pencil-edit
-											a.ml-2(href="#" class="" title="")
-												i.icon-font.icon-garbage
-								tr
-									td Lorem ipsum
-									td
-										.d-flex.align-items-center.justify-content-end
-											a.mr-2(href="#" class="" title="")
-												i.icon-font.icon-pencil-edit
-											a.ml-2(href="#" class="" title="")
-												i.icon-font.icon-garbage
+						.newStrategy__set-desc
+							p Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida
 
 				.newStrategy__set-frame-right
 
@@ -136,12 +112,13 @@
 														i.icon-font.icon-garbage
 
 			.newStrategy__set-body-footer.pt-4
-				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "And"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Or"
 	// ENTRY CARD :: end
 
 
 	// REPAIR CARD
-	.newStrategy__section.newStrategy__set.newStrategy__set-repair.px-3.pt-3.pb-4
+	.newStrategy__section.newStrategy__set.newStrategy__set-collapse.newStrategy__set-repair.px-3.py-3
 
 		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
 			.newStrategy__set-head-left.d-flex.align-items-center
@@ -171,32 +148,8 @@
 
 					.newStrategy__set-frame-body.pr-3.pt-3
 
-						table.table.mb-0
-							tbody
-								tr
-									td
-										.tabs.d-flex.align-items-center
-											a(href="#" class="" title="" data-toggle="modal" data-target="#addStrategiesCondition") Builder
-											span.ml-2.mr-2 |
-											a(href="#" class="" title="") Advanced Tab
-									td
-
-								tr
-									td If Delta(Allpositions) >500
-									td
-										.d-flex.align-items-center.justify-content-end
-											a.mr-2(href="#" class="" title="")
-												i.icon-font.icon-pencil-edit
-											a.ml-2(href="#" class="" title="")
-												i.icon-font.icon-garbage
-								tr
-									td If Delta(AllPositions) <-500
-									td
-										.d-flex.align-items-center.justify-content-end
-											a.mr-2(href="#" class="" title="")
-												i.icon-font.icon-pencil-edit
-											a.ml-2(href="#" class="" title="")
-												i.icon-font.icon-garbage
+						.newStrategy__set-desc
+							p Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida
 
 				.newStrategy__set-frame-right
 
@@ -243,19 +196,20 @@
 														i.icon-font.icon-garbage
 
 			.newStrategy__set-body-footer.pt-4
-				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "And"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Or"
 	// REPAIR CARD :: end
 
 
 	// OVERNIGHT CARD
-	.newStrategy__section.newStrategy__set.newStrategy__set-overnight.px-3.pt-3.pb-4
+	.newStrategy__section.newStrategy__set.newStrategy__set-collapse.newStrategy__set-overnight.px-3.py-3
 
 		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
 			.newStrategy__set-head-left
 				p.newStrategy__set-head-title.pr-2!= "Overnight Protection Legs"
 
 			.newStrategy__set-head-right
-				a.newStrategy__set-head-corner.ml-2(href="#" class="" title="")
+				a.newStrategy__set-head-corner(href="#" class="" title="")
 					i.icon-font.icon-corner
 
 		.newStrategy__set-body
@@ -269,7 +223,8 @@
 
 					.newStrategy__set-frame-body.pr-3.pt-3
 
-						span.newStrategy__set-frame-text These positions will be taken before market closes and will automatically exit when market opens the next working day.
+						.newStrategy__set-desc
+							p Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida
 
 				.newStrategy__set-frame-right
 
@@ -314,11 +269,14 @@
 														i.icon-font.icon-pencil-edit
 													a.ml-2(href="#" class="" title="")
 														i.icon-font.icon-garbage
+			.newStrategy__set-body-footer.pt-3
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "And"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Or"
 	// OVERNIGHT CARD :: end
 
 
 	// EXIT CARD
-	.newStrategy__section.newStrategy__set.newStrategy__set-exit.px-3.pt-3.pb-4
+	.newStrategy__section.newStrategy__set.newStrategy__set-exit.px-3.py-3
 
 		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
 			.newStrategy__set-head-left
@@ -335,9 +293,10 @@
 					.newStrategy__set-frame-title.d-flex.align-items-center.pb-2
 						p.pr-3!= "CONDITIONS"
 
-					.newStrategy__set-frame-body.pr-3.pt-3.pb-5
+					.newStrategy__set-frame-body.pr-3.pt-3
 
-						span.newStrategy__set-frame-text PL(strategy) > 5000
+						.newStrategy__set-desc
+							p Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida Lorem ipsum dolor sit amet, eget amet, dui donec enim magna a, vestibulum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum corrupti gravida lacus elit facilisis, etiam interdum blandit ultrices arcu libero. Lum integer nam tempor, rhoncus mollis wisi. Suscipit bibendum don corrupti gravida
 
 				.newStrategy__set-frame-right
 
@@ -349,5 +308,6 @@
 						span.newStrategy__set-frame-text Exit all open positions in this set
 
 			.newStrategy__set-body-footer.pt-4
-				a.c-btn.c-btn--border(href="#" class="" title="")!= "Check"
-		// EXIT CARD :: end
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "And"
+				a.c-btn.c-btn--border(href="#" class="" title="")!= "Or"
+	// EXIT CARD :: end

@@ -161,6 +161,26 @@ $(document).ready((ev) => {
 			_parentNode.find('.modal-body-collapse-body').slideToggle(350);
 		});
 	};
+
+
+	const initMySubscriberCard = () => {
+		$('.subscribers__self-block').on('click', (ev) => {
+			$('.subscribers__self-block').removeClass('is-opacity is-choose is-border');
+
+			$('.subscribers__self-block').addClass('is-opacity');
+			$(ev.currentTarget).removeClass('is-opacity').addClass('is-choose');
+
+			$(ev.currentTarget).closest('.swiper-slide').prev().find('.subscribers__self-block').addClass('is-border');
+		});
+	};
+
+
+	const initAddNewStrategyCollapse = () => {
+		$('.newStrategy__set-head-corner').on('click', (ev) => {
+			$(ev.currentTarget).closest('.newStrategy__set-collapse').toggleClass('is-open');
+			$(ev.currentTarget).closest('.newStrategy__set-collapse').find('.newStrategy__set-body').slideToggle(350);
+		});
+	};
 	/*
 	* CALLBACK :: end
 	* ============================================= */
@@ -195,6 +215,8 @@ $(document).ready((ev) => {
 		initSubscribersTabs();
 		initModalBuilderTabs();
 		initModalCollapse();
+		initMySubscriberCard();
+		initAddNewStrategyCollapse();
 		// ==========================================
   };
   initJquery();

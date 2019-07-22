@@ -237,6 +237,30 @@
 	&__set {
 		margin-bottom: 10px;
 
+		&-collapse {
+			&.is-active {
+				.newStrategy__set-body {
+					display: block;
+				}
+				.newStrategy__set-head-corner {
+					transform: rotate(-180deg);
+				}
+			}
+			&.is-open {
+				.newStrategy__set-head-corner {
+					transform: rotate(-180deg);
+					@include transition(transform);
+				}
+			}
+
+			.newStrategy__set-body {
+				display: none;
+			}
+			.newStrategy__set-head-corner {
+				@include transition(transform);
+			}
+		}
+
 		&:last-of-type {
 			margin-bottom: 0;
 		}
@@ -317,27 +341,34 @@
 			}
 
 			&-corner {
-				.icon-font {
-					transform: rotate(-180deg);
-				}
+				@include transition(transform);
 			}
 		}
 
 		&-body {
+
 			&-footer {
-				padding-left: 145px;
-				@include adaptive(767) {
-					padding-left: 0;
-				}
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				max-width: 449px;
 
 				a {
 					max-width: 140px;
+					margin-left: 5px;
+					margin-right: 5px;
 					@include adaptive(767) {
 						margin-left: auto;
 						margin-right: auto;
 					}
 				}
 			}
+		}
+
+		&-desc {
+			overflow-y: auto;
+			height: 133px;
 		}
 
 		&-frame {

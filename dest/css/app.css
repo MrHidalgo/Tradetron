@@ -13886,6 +13886,11 @@ picture {
   }
 }
 
+/* line 221, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self .swiper-container {
+  padding: 10px 0;
+}
+
 @media screen and (max-width: 991px) {
   /* line 221, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-container {
@@ -13894,7 +13899,7 @@ picture {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 227, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 228, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -13903,31 +13908,31 @@ picture {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 233, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 234, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-slide {
     width: 205px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 233, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 234, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-slide {
     width: 205px !important;
   }
 }
 
-/* line 242, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 243, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self .swiper-slide:last-of-type .subscribers__self-block {
   border: none;
 }
 
-/* line 248, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 249, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self .swiper-pagination {
   display: none;
 }
 
 @media screen and (max-width: 991px) {
-  /* line 248, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 249, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self .swiper-pagination {
     display: -webkit-box;
     display: -webkit-flex;
@@ -13936,8 +13941,9 @@ picture {
   }
 }
 
-/* line 256, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 257, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block {
+  cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13951,10 +13957,44 @@ picture {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 10px 5px;
   border-right: 1px solid #dee2e6;
+  background-color: #ffffff;
+  -webkit-transition: opacity 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-/* line 262, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 267, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-block.is-choose {
+  border-color: transparent;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 10px 0 rgba(17, 30, 79, 0.1);
+          box-shadow: 0 1px 10px 0 rgba(17, 30, 79, 0.1);
+  -webkit-transition: -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  -o-transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  transition: border-radius 0.3s ease-in-out, box-shadow 0.3s ease-in-out, -webkit-border-radius 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+/* line 274, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-block.is-border {
+  border-color: transparent;
+}
+
+/* line 277, src/scss/_components/my-subscribers/_my-subscribers.scss */
+.subscribers__self-block.is-opacity {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* line 282, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-img {
   overflow: hidden;
   position: relative;
@@ -13965,7 +14005,7 @@ picture {
   margin-bottom: 10px;
 }
 
-/* line 275, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 295, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-name {
   padding-bottom: 10px;
   font-size: 18px;
@@ -13974,7 +14014,7 @@ picture {
   text-align: center;
 }
 
-/* line 283, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 303, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social {
   display: -webkit-box;
   display: -webkit-flex;
@@ -13986,7 +14026,7 @@ picture {
           justify-content: center;
 }
 
-/* line 287, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 307, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social > a {
   position: relative;
   display: -webkit-box;
@@ -14012,12 +14052,12 @@ picture {
   background-image: linear-gradient(135deg, #FF5980 0%, #FFA882 100%);
 }
 
-/* line 300, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 320, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-block-social .icon-font {
   color: #ffffff;
 }
 
-/* line 306, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 326, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer {
   min-height: 71px;
   -webkit-border-bottom-left-radius: 6px;
@@ -14028,7 +14068,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 306, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 326, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer {
     -webkit-box-align: start !important;
     -webkit-align-items: flex-start !important;
@@ -14040,7 +14080,7 @@ picture {
   }
 }
 
-/* line 316, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 336, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div {
   width: 100%;
   max-width: -webkit-calc(100% / 4);
@@ -14049,42 +14089,42 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 316, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 336, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer > div {
     max-width: -webkit-calc(100% / 2);
     max-width: calc(100% / 2);
     text-align: left;
   }
-  /* line 324, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 344, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer > div:nth-of-type(1), .subscribers__self-footer > div:nth-of-type(2) {
     margin-bottom: 10px;
   }
-  /* line 329, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 349, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer > div:nth-of-type(3), .subscribers__self-footer > div:nth-of-type(4) {
     margin-top: 10px;
   }
-  /* line 335, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 355, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer > div:nth-of-type(2):after {
     display: none;
   }
-  /* line 340, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 360, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__self-footer > div:nth-of-type(3) {
     text-align: left;
     padding-left: 0 !important;
   }
 }
 
-/* line 346, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 366, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:first-of-type {
   text-align: left;
 }
 
-/* line 351, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 371, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:last-of-type:after {
   display: none;
 }
 
-/* line 356, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 376, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer > div:after {
   content: '';
   position: absolute;
@@ -14096,41 +14136,41 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 367, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 387, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer p,
 .subscribers__self-footer a {
   letter-spacing: 0.27px;
   color: #ffffff;
 }
 
-/* line 373, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 393, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer a {
   text-decoration: underline;
 }
 
-/* line 376, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 396, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__self-footer a:hover {
   color: #ffffff;
 }
 
-/* line 386, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 406, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion .subscribers__section-title {
   color: #6772e5;
 }
 
-/* line 390, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 410, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion-info {
   color: #6772e5;
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 397, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 417, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table .nowrap {
   white-space: nowrap;
 }
 
-/* line 403, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 423, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th,
 .subscribers__reversion table thead td,
 .subscribers__reversion table tbody th,
@@ -14138,7 +14178,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 406, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 426, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:last-of-type,
 .subscribers__reversion table thead td:last-of-type,
 .subscribers__reversion table tbody th:last-of-type,
@@ -14147,7 +14187,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 403, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 423, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__reversion table thead th,
   .subscribers__reversion table thead td,
   .subscribers__reversion table tbody th,
@@ -14156,7 +14196,7 @@ picture {
   }
 }
 
-/* line 414, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 434, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th:first-of-type,
 .subscribers__reversion table thead td:first-of-type,
 .subscribers__reversion table tbody th:first-of-type,
@@ -14164,24 +14204,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 421, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 441, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 431, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 451, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 439, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 459, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td p span {
   font-weight: 500;
 }
 
-/* line 447, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 467, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th,
 .subscribers__reversion table tbody td table thead td,
 .subscribers__reversion table tbody td table tbody th,
@@ -14191,7 +14231,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 447, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 467, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__reversion table tbody td table thead th,
   .subscribers__reversion table tbody td table thead td,
   .subscribers__reversion table tbody td table tbody th,
@@ -14200,41 +14240,41 @@ picture {
   }
 }
 
-/* line 459, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 479, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 468, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 488, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 474, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 494, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__reversion table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 488, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 508, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass .subscribers__section-title {
   color: #6772e5;
 }
 
-/* line 492, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 512, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass-info {
   color: #6772e5;
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 499, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 519, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table .nowrap {
   white-space: nowrap;
 }
 
-/* line 505, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 525, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th,
 .subscribers__midbass table thead td,
 .subscribers__midbass table tbody th,
@@ -14242,7 +14282,7 @@ picture {
   border-right: 1px solid #dee2e6;
 }
 
-/* line 509, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 529, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:last-of-type,
 .subscribers__midbass table thead td:last-of-type,
 .subscribers__midbass table tbody th:last-of-type,
@@ -14251,7 +14291,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 505, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 525, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__midbass table thead th,
   .subscribers__midbass table thead td,
   .subscribers__midbass table tbody th,
@@ -14260,7 +14300,7 @@ picture {
   }
 }
 
-/* line 517, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 537, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th:first-of-type,
 .subscribers__midbass table thead td:first-of-type,
 .subscribers__midbass table tbody th:first-of-type,
@@ -14268,24 +14308,24 @@ picture {
   padding-left: 0;
 }
 
-/* line 524, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 544, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table thead th {
   border-bottom-width: 1px;
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 534, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 554, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody tr:last-of-type td {
   border-right: none;
 }
 
-/* line 542, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 562, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td p span {
   font-weight: 500;
 }
 
-/* line 550, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 570, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th,
 .subscribers__midbass table tbody td table thead td,
 .subscribers__midbass table tbody td table tbody th,
@@ -14295,7 +14335,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 550, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 570, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__midbass table tbody td table thead th,
   .subscribers__midbass table tbody td table thead td,
   .subscribers__midbass table tbody td table tbody th,
@@ -14304,25 +14344,25 @@ picture {
   }
 }
 
-/* line 562, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 582, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table thead th {
   border-top: none;
   border-bottom: none;
 }
 
-/* line 571, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 591, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody tr:last-of-type td {
   border-bottom: none;
 }
 
-/* line 577, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 597, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__midbass table tbody td table tbody td {
   border-top: none;
   border-bottom: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 590, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 610, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -14332,7 +14372,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 590, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 610, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -14344,7 +14384,7 @@ picture {
   }
 }
 
-/* line 599, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 619, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total > div {
   width: 100%;
   max-width: -webkit-calc(100% / 3);
@@ -14352,7 +14392,7 @@ picture {
 }
 
 @media screen and (max-width: 991px) {
-  /* line 599, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 619, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div {
     width: auto;
     max-width: unset;
@@ -14360,33 +14400,33 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 599, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 619, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div {
     width: 100%;
     max-width: 100%;
     padding-left: 0 !important;
     padding-bottom: 10px;
   }
-  /* line 612, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 632, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total > div:last-of-type {
     padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 618, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 638, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__total p {
     white-space: nowrap;
   }
 }
 
-/* line 623, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 643, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__total p a {
   color: #6772e5;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 632, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 652, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__broadcast-wrapper {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -14394,14 +14434,14 @@ picture {
   }
 }
 
-/* line 637, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 657, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-left {
   width: 280px;
   padding-right: 30px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 637, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 657, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__broadcast-wrapper-left {
     width: 100%;
     padding-right: 0;
@@ -14409,7 +14449,7 @@ picture {
   }
 }
 
-/* line 647, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 667, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -14419,12 +14459,12 @@ picture {
   max-width: 100%;
 }
 
-/* line 653, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 673, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown {
   width: 100%;
 }
 
-/* line 656, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 676, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -14448,24 +14488,24 @@ picture {
   background-color: #ffffff;
 }
 
-/* line 667, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 687, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-toggle:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
 }
 
-/* line 673, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 693, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu {
   width: 100%;
 }
 
-/* line 676, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 696, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu input {
   height: auto;
 }
 
-/* line 680, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 700, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper .dropdown-menu label {
   position: relative;
   top: 2px;
@@ -14473,7 +14513,7 @@ picture {
   font-weight: normal;
 }
 
-/* line 689, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 709, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-wrapper textarea {
   resize: none;
   min-height: 136px;
@@ -14505,7 +14545,7 @@ picture {
   color: rgba(51, 51, 51, 0.54);
 }
 
-/* line 699, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 719, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach {
   cursor: pointer;
   width: 100%;
@@ -14515,7 +14555,7 @@ picture {
   border: 1px dashed #B0C4E0;
 }
 
-/* line 706, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 726, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach input {
   cursor: pointer;
   z-index: 10;
@@ -14527,30 +14567,30 @@ picture {
   height: 100%;
 }
 
-/* line 717, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 737, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach p {
   cursor: pointer;
   color: #b0c4e0;
 }
 
-/* line 722, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 742, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__broadcast-attach .icon-font {
   font-size: 16px;
 }
 
-/* line 732, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 752, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing-info p {
   font-size: 16px;
   letter-spacing: 0.38px;
 }
 
-/* line 739, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 759, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table .nowrap {
   white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 745, src/scss/_components/my-subscribers/_my-subscribers.scss */
+  /* line 765, src/scss/_components/my-subscribers/_my-subscribers.scss */
   .subscribers__invoicing table thead th,
   .subscribers__invoicing table thead td,
   .subscribers__invoicing table tbody th,
@@ -14559,7 +14599,7 @@ picture {
   }
 }
 
-/* line 751, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 771, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th:first-of-type,
 .subscribers__invoicing table thead td:first-of-type,
 .subscribers__invoicing table tbody th:first-of-type,
@@ -14567,7 +14607,7 @@ picture {
   padding-left: 0;
 }
 
-/* line 758, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 778, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table thead th {
   vertical-align: top;
   border-top: none;
@@ -14576,12 +14616,12 @@ picture {
   font-weight: bold;
 }
 
-/* line 770, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 790, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 777, src/scss/_components/my-subscribers/_my-subscribers.scss */
+/* line 797, src/scss/_components/my-subscribers/_my-subscribers.scss */
 .subscribers__invoicing table tbody td {
   font-size: 16px;
 }
@@ -15251,29 +15291,67 @@ picture {
   margin-bottom: 10px;
 }
 
-/* line 240, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 242, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-collapse.is-active .newStrategy__set-body {
+  display: block;
+}
+
+/* line 245, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-collapse.is-active .newStrategy__set-head-corner {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+/* line 250, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-collapse.is-open .newStrategy__set-head-corner {
+  -webkit-transform: rotate(-180deg);
+      -ms-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 256, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-collapse .newStrategy__set-body {
+  display: none;
+}
+
+/* line 259, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-collapse .newStrategy__set-head-corner {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+/* line 264, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set:last-of-type {
   margin-bottom: 0;
 }
 
-/* line 244, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 268, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-wrapper {
   padding-bottom: 40px;
 }
 
-/* line 248, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 272, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-header {
   padding-bottom: 12px;
 }
 
-/* line 251, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 275, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-header-title {
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 0.66px;
 }
 
-/* line 257, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 281, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-header-link {
   font-size: 18px;
   font-weight: 500;
@@ -15281,19 +15359,19 @@ picture {
   color: #6772e5;
 }
 
-/* line 264, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 288, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-header-close {
   color: #000000;
   font-size: 20px;
 }
 
-/* line 270, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 294, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-head {
   min-height: 40px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 270, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 294, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head {
     position: relative;
     -webkit-flex-wrap: wrap;
@@ -15303,7 +15381,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 277, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 301, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head-left {
     width: 100%;
     -webkit-flex-wrap: wrap;
@@ -15313,7 +15391,7 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 284, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 308, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head-right {
     position: absolute;
     top: 10px;
@@ -15321,26 +15399,26 @@ picture {
   }
 }
 
-/* line 292, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 316, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-head .form-group {
   width: 185px;
 }
 
 @media screen and (max-width: 424px) {
-  /* line 292, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 316, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head .form-group {
     width: 160px;
   }
 }
 
 @media screen and (max-width: 374px) {
-  /* line 292, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 316, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head .form-group {
     width: 120px;
   }
 }
 
-/* line 302, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 326, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-head-title {
   font-size: 20px;
   font-weight: 600;
@@ -15348,14 +15426,14 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 302, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 326, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-head-title {
     width: 100%;
     padding-bottom: 15px;
   }
 }
 
-/* line 312, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 336, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-head-add {
   min-width: 69px;
   max-width: 69px;
@@ -15363,40 +15441,56 @@ picture {
   color: #6772e5;
 }
 
-/* line 320, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
-.newStrategy__set-head-corner .icon-font {
-  -webkit-transform: rotate(-180deg);
-      -ms-transform: rotate(-180deg);
-          transform: rotate(-180deg);
+/* line 343, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-head-corner {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-/* line 327, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 350, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-body-footer {
-  padding-left: 145px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 449px;
 }
 
-@media screen and (max-width: 767px) {
-  /* line 327, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
-  .newStrategy__set-body-footer {
-    padding-left: 0;
-  }
-}
-
-/* line 333, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 357, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-body-footer a {
   max-width: 140px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 333, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 357, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-body-footer a {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
+/* line 369, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+.newStrategy__set-desc {
+  overflow-y: auto;
+  height: 133px;
+}
+
 @media screen and (max-width: 767px) {
-  /* line 343, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 374, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -15404,40 +15498,40 @@ picture {
   }
 }
 
-/* line 348, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 379, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-left, .newStrategy__set-frame-right {
   min-height: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 348, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 379, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left, .newStrategy__set-frame-right {
     min-height: unset;
   }
 }
 
-/* line 356, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 387, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-left {
   width: 450px;
   border-right: 1px solid #eaeaea;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 356, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 387, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 330px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 356, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 387, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 290px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 356, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 387, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 100%;
     padding-bottom: 30px;
@@ -15445,7 +15539,7 @@ picture {
   }
 }
 
-/* line 372, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 403, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -15455,19 +15549,19 @@ picture {
   max-width: 100%;
 }
 
-/* line 378, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 409, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title {
   border-bottom: 1px solid #eaeaea;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 378, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 409, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-title {
     padding-left: 0 !important;
   }
 }
 
-/* line 384, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 415, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title p {
   font-size: 14px;
   font-weight: bold;
@@ -15475,7 +15569,7 @@ picture {
   text-transform: uppercase;
 }
 
-/* line 391, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 422, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title a {
   font-size: 14px;
   letter-spacing: 0.27px;
@@ -15483,53 +15577,53 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 398, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 429, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-body {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 }
 
-/* line 405, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 436, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-text {
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 411, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 442, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table .nowrap {
   white-space: nowrap;
 }
 
-/* line 415, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 446, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table .tabs a {
   text-decoration: underline;
 }
 
-/* line 424, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 455, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody tr:first-of-type td, .newStrategy__set-frame table tbody tr:nth-of-type(2) td {
   border-top: 0;
 }
 
-/* line 430, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 461, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 436, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 467, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody td {
   vertical-align: middle;
   font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 436, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 467, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame table tbody td {
     min-width: 100px;
   }
 }
 
-/* line 443, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 474, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody td:first-of-type {
   padding-left: 0;
 }

@@ -219,6 +219,7 @@
 
 		.swiper {
 			&-container {
+				padding: 10px 0;
 				@include adaptive(991) {
 					padding-bottom: 50px;
 				}
@@ -254,10 +255,29 @@
 		}
 
 		&-block {
+			cursor: pointer;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			padding: 10px 5px;
 			border-right: 1px solid #dee2e6;
+			background-color: #ffffff;
+			@include transition(border-radius, box-shadow, opacity);
+
+			&.is-choose {
+				border-color: transparent;
+				border-radius: 6px;
+				box-shadow: 0 1px 10px 0 rgba(17, 30, 79, 0.1);
+				@include transition(border-radius, box-shadow);
+			}
+
+			&.is-border {
+				border-color: transparent;
+			}
+			&.is-opacity {
+				opacity: 0.5;
+				@include transition(opacity);
+			}
 
 			&-img {
 				overflow: hidden;
