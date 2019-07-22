@@ -272,10 +272,21 @@
 		&-header {
 			padding-bottom: 12px;
 
+			&--many {
+				position: relative;
+				@include adaptive(1023) {
+					flex-wrap: wrap;
+				}
+			}
+
 			&-title {
 				font-size: 25px;
 				font-weight: bold;
 				letter-spacing: 0.66px;
+				@include adaptive(1023) {
+					width: 100%;
+					padding-bottom: 12px;
+				}
 			}
 
 			&-link {
@@ -288,6 +299,39 @@
 			&-close {
 				color: #000000;
 				font-size: 20px
+			}
+
+			&-left {
+				@include adaptive(1023) {
+					flex-wrap: wrap;
+				}
+				@include adaptive(767) {
+					&-cover {
+						width: 100%;
+
+						&:nth-of-type(1) {
+							width: 100%;
+						}
+
+						&:nth-of-type(2) {
+							display: flex;
+							align-items: center;
+						}
+
+						.form-group {
+							width: 100%;
+							max-width: 185px;
+						}
+					}
+				}
+			}
+
+			&-right {
+				@include adaptive(1023) {
+					position: absolute;
+					top: 5px;
+					right: 0;
+				}
 			}
 		}
 

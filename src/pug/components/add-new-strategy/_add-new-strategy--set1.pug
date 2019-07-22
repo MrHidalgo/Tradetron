@@ -1,26 +1,17 @@
 
 .newStrategy__set-wrapper
 
-	.newStrategy__set-header.d-flex.align-items-center.justify-content-between
+	.newStrategy__set-header.newStrategy__set-header--many.d-flex.align-items-center.justify-content-between
 		.newStrategy__set-header-left.d-flex.align-items-center
 			p.newStrategy__set-header-title.pr-2!= "Set №1"
-			a.newStrategy__set-header-link(href="#" class="" title="")!= "+Add new set"
-		.newStrategy__set-header-right
-		a.newStrategy__set-header-close(href="#" class="" title="")
-			i.icon-font.icon-close
 
-	// ENTRY CARD
-	.newStrategy__section.newStrategy__set.newStrategy__set-collapse.newStrategy__set-entry.px-3.py-3.is-active
-
-		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
-			.newStrategy__set-head-left.d-flex.align-items-center
-				p.newStrategy__set-head-title.pr-3!= "Entry"
-
+			div.newStrategy__set-header-left-cover
 				.form-group.mb-2.mb-md-0.mr-0.mr-3
 					select.form-control
 						option Default underlying
 						option Default list
 
+			.newStrategy__set-header-left-cover
 				.form-group.mb-0.mr-3
 					select.form-control
 						option Select list
@@ -45,6 +36,20 @@
 										span!= "Delete list"
 
 				a.newStrategy__set-head-add.ml-3.c-btn.c-btn--border(href="#" class="" title="" data-toggle="modal" data-target="#addStrategiesList")!= "Add"
+
+		.newStrategy__set-header-right.d-flex.align-items-center
+
+			a.newStrategy__set-header-link.mr-4(href="#" class="" title="")!= "+Add new set"
+
+			a.newStrategy__set-header-close(href="#" class="" title="")
+				i.icon-font.icon-close
+
+	// ENTRY CARD
+	.newStrategy__section.newStrategy__set.newStrategy__set-collapse.newStrategy__set-entry.px-3.py-3.is-active
+
+		.newStrategy__set-head.d-flex.align-items-center.justify-content-between
+			.newStrategy__set-head-left.d-flex.align-items-center
+				p.newStrategy__set-head-title.pr-3!= "Entry"
 
 			.newStrategy__set-head-right.d-flex.align-items-center
 				a.newStrategy__set-head-close.mr-2(href="#" class="" title="")
