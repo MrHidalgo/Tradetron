@@ -4,15 +4,21 @@
 
 		.newStrategy__advanced-block
 			p.newStrategy__advanced-title Price execution 1
-			.newStrategy__advanced-row.newStrategy__advanced-row--half
+			.newStrategy__advanced-row.newStrategy__advanced-row--three
 				.newStrategy__advanced-col.newStrategy__advanced-col-1
 					.form-group.mb-3
-						label(for='newStrategiesPriceRevision') Price revision attempts
+						label(for='newStrategiesPriceRevision') Revison attemps
 						select#newStrategiesPriceRevision.form-control
 							option
 							option
 
 				.newStrategy__advanced-col.newStrategy__advanced-col-2
+					.form-group.mb-3
+						label(for='newStrategiesInitiationPrice') Initiation price
+						select#newStrategiesInitiationPrice.form-control
+							option
+							option
+				.newStrategy__advanced-col.newStrategy__advanced-col-3
 					.form-group.mb-3
 						label(for='newStrategiesIncreasedBy') Increased by
 						select#newStrategiesIncreasedBy.form-control
