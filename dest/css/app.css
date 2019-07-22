@@ -10182,7 +10182,7 @@ picture {
 }
 
 /* line 97, src/scss/_components/deployed-strategies/_deployed.scss */
-.deployed__archived .deatils p {
+.deployed__archived .deatils a {
   font-weight: 500;
   font-size: 10px;
   letter-spacing: 0.23px;
@@ -10307,14 +10307,21 @@ picture {
   text-align: right;
 }
 
-/* line 185, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 186, src/scss/_components/deployed-strategies/_deployed.scss */
+.deployed__archived-table table thead th {
+  border-bottom-width: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 194, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody td {
   padding: 0.5rem 0.75rem;
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 192, src/scss/_components/deployed-strategies/_deployed.scss */
+/* line 201, src/scss/_components/deployed-strategies/_deployed.scss */
 .deployed__archived-table table tbody .total td {
   font-weight: 600;
 }
