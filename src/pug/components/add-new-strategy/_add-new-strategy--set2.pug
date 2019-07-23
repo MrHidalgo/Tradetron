@@ -1,13 +1,48 @@
 
 .newStrategy__set-wrapper
-	
-	.newStrategy__set-header.d-flex.align-items-center.justify-content-between
+
+	.newStrategy__set-header.newStrategy__set-header--many.d-flex.align-items-center.justify-content-between
 		.newStrategy__set-header-left.d-flex.align-items-center
 			p.newStrategy__set-header-title.pr-2!= "Set №2"
-			a.newStrategy__set-header-link(href="#" class="" title="")!= "+Add new set"
-		.newStrategy__set-header-right
-		a.newStrategy__set-header-close(href="#" class="" title="")
-			i.icon-font.icon-close
+
+			div.newStrategy__set-header-left-cover
+				.form-group.mb-2.mb-md-0.mr-0.mr-3
+					select.form-control
+						option Default underlying
+						option Default list
+
+			.newStrategy__set-header-left-cover
+				.form-group.mb-0.mr-3
+					select.form-control
+						option Select list
+						option Select list
+
+				.form-group.mb-0.w-auto
+					.dropdown.dropdown--more
+						button#dropdownUProfileAboutMore.btn.dropdown-toggle.d-flex.align-items-center.justify-content-center.p-0(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+							i.icon-font.icon-more
+						.dropdown-menu.animate.slideIn(aria-labelledby='dropdownUProfileAboutMore')
+							.dropdown-menu-corner.position-absolute
+							.dropdown-menu-wrapper.d-flex.flex-column
+								a.dropdown-item.d-flex.align-items-center(href='#')
+									div
+										i.icon-font.icon-pencil-edit
+									div
+										span!= "Edit"
+								a.dropdown-item.d-flex.align-items-center(href='#')
+									div
+										i.icon-font.icon-garbage
+									div
+										span!= "Delete list"
+
+				a.newStrategy__set-head-add.ml-3.c-btn.c-btn--border(href="#" class="" title="" data-toggle="modal" data-target="#addStrategiesList")!= "Add"
+
+		.newStrategy__set-header-right.d-flex.align-items-center
+
+			a.newStrategy__set-header-link.mr-4(href="#" class="" title="")!= "+Add new set"
+
+			a.newStrategy__set-header-close(href="#" class="" title="")
+				i.icon-font.icon-close
 
 
 	// ENTRY CARD

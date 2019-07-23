@@ -501,11 +501,40 @@
                 <!-- add new strategies set 1 :: end-->
                 <!-- add new strategies set 2-->
                 <div class="newStrategy__set-wrapper">
-                  <div class="newStrategy__set-header d-flex align-items-center justify-content-between">
+                  <div class="newStrategy__set-header newStrategy__set-header--many d-flex align-items-center justify-content-between">
                     <div class="newStrategy__set-header-left d-flex align-items-center">
-                      <p class="newStrategy__set-header-title pr-2">Set №2</p><a class="newStrategy__set-header-link" href="#" title="">+Add new set</a>
+                      <p class="newStrategy__set-header-title pr-2">Set №2</p>
+                      <div class="newStrategy__set-header-left-cover">
+                        <div class="form-group mb-2 mb-md-0 mr-0 mr-3">
+                          <select class="form-control">
+                            <option>Default underlying</option>
+                            <option>Default list</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="newStrategy__set-header-left-cover">
+                        <div class="form-group mb-0 mr-3">
+                          <select class="form-control">
+                            <option>Select list</option>
+                            <option>Select list</option>
+                          </select>
+                        </div>
+                        <div class="form-group mb-0 w-auto">
+                          <div class="dropdown dropdown--more">
+                            <button class="btn dropdown-toggle d-flex align-items-center justify-content-center p-0" id="dropdownUProfileAboutMore" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-font icon-more"></i></button>
+                            <div class="dropdown-menu animate slideIn" aria-labelledby="dropdownUProfileAboutMore">
+                              <div class="dropdown-menu-corner position-absolute"></div>
+                              <div class="dropdown-menu-wrapper d-flex flex-column"><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-pencil-edit"></i></div>
+                                  <div><span>Edit</span></div></a><a class="dropdown-item d-flex align-items-center" href="#">
+                                  <div><i class="icon-font icon-garbage"></i></div>
+                                  <div><span>Delete list</span></div></a></div>
+                            </div>
+                          </div>
+                        </div><a class="newStrategy__set-head-add ml-3 c-btn c-btn--border" href="#" title="" data-toggle="modal" data-target="#addStrategiesList">Add</a>
+                      </div>
                     </div>
-                    <div class="newStrategy__set-header-right"></div><a class="newStrategy__set-header-close" href="#" title=""><i class="icon-font icon-close"></i></a>
+                    <div class="newStrategy__set-header-right d-flex align-items-center"><a class="newStrategy__set-header-link mr-4" href="#" title="">+Add new set</a><a class="newStrategy__set-header-close" href="#" title=""><i class="icon-font icon-close"></i></a></div>
                   </div>
                   <!-- ENTRY CARD-->
                   <div class="newStrategy__section newStrategy__set newStrategy__set-collapse newStrategy__set-entry px-3 py-3 is-active">
