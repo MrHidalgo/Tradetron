@@ -10190,7 +10190,7 @@ picture {
 }
 
 /* line 97, src/scss/_components/deployed-strategies/_deployed.scss */
-.deployed__archived .deatils a {
+.deployed__archived .deatils p {
   font-weight: 500;
   font-size: 10px;
   letter-spacing: 0.23px;
