@@ -20,7 +20,9 @@
 						.modal-body-field-left
 							.form-group
 								label(for='addNewStrategiesExchange') Exchange
-								input#addNewStrategiesExchange.form-control(type='text', placeholder='')
+								select#addNewStrategiesExchange.form-control
+									option
+									option
 							.form-group-row
 								.form-group
 									label(for='addNewStrategiesProduct') Product
@@ -34,10 +36,11 @@
 										option
 							.form-group.form-group--wbtn
 								label(for='addNewStrategiesExpiry') Expiry
-								select#addNewStrategiesExpiry.form-control
-									option
-									option
-								a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
+								div
+									select#addNewStrategiesExpiry.form-control
+										option
+										option
+									a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
 							.form-group
 								label(for='addNewStrategiesEntryPrice') Entry Price
 								input#addNewStrategiesEntryPrice.form-control(type='text', placeholder='')
@@ -46,13 +49,16 @@
 						.modal-body-field-right
 							.form-group
 								label(for='addNewStrategiesUnderlying') Underlying
-								input#addNewStrategiesUnderlying.form-control(type='text', placeholder='')
+								select#addNewStrategiesUnderlying.form-control
+									option
+									option
 							.form-group.form-group--wbtn
 								label(for='addNewStrategiesStrike') Strike
-								select#addNewStrategiesStrike.form-control
-									option Qty
-									option Qty
-								a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
+								div
+									select#addNewStrategiesStrike.form-control
+										option Qty
+										option Qty
+									a(href="#" class="" title="" data-dismiss='modal' data-toggle="modal" data-target="#addStrategiesFormula") Fx
 							.form-group-field
 								div
 									.form-group.mb-3
