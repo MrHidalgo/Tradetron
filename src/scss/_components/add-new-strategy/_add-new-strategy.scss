@@ -405,7 +405,16 @@
 				align-items: center;
 				justify-content: center;
 				width: 100%;
-				max-width: 449px;
+				max-width: 433px;
+				@include adaptive(1279) {
+					max-width: 323px;
+				}
+				@include adaptive(1023) {
+					max-width: 274px;
+				}
+				@include adaptive(767) {
+					max-width: 100%;
+				}
 
 				a {
 					max-width: 140px;

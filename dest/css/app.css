@@ -15565,10 +15565,31 @@ picture {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  max-width: 449px;
+  max-width: 433px;
 }
 
-/* line 410, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+@media screen and (max-width: 1279px) {
+  /* line 403, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__set-body-footer {
+    max-width: 323px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* line 403, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__set-body-footer {
+    max-width: 274px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* line 403, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  .newStrategy__set-body-footer {
+    max-width: 100%;
+  }
+}
+
+/* line 419, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-body-footer a {
   max-width: 140px;
   margin-left: 5px;
@@ -15576,21 +15597,21 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 410, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 419, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-body-footer a {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-/* line 422, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 431, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-desc {
   overflow-y: auto;
   height: 133px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 427, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 436, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -15598,40 +15619,40 @@ picture {
   }
 }
 
-/* line 432, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 441, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-left, .newStrategy__set-frame-right {
   min-height: 100%;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 432, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 441, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left, .newStrategy__set-frame-right {
     min-height: unset;
   }
 }
 
-/* line 440, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 449, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-left {
   width: 450px;
   border-right: 1px solid #eaeaea;
 }
 
 @media screen and (max-width: 1279px) {
-  /* line 440, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 449, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 330px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  /* line 440, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 449, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 290px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  /* line 440, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 449, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-left {
     width: 100%;
     padding-bottom: 30px;
@@ -15639,7 +15660,7 @@ picture {
   }
 }
 
-/* line 456, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 465, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-right {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -15649,19 +15670,19 @@ picture {
   max-width: 100%;
 }
 
-/* line 462, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 471, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title {
   border-bottom: 1px solid #eaeaea;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 462, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 471, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-title {
     padding-left: 0 !important;
   }
 }
 
-/* line 468, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 477, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title p {
   font-size: 14px;
   font-weight: bold;
@@ -15669,7 +15690,7 @@ picture {
   text-transform: uppercase;
 }
 
-/* line 475, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 484, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-title a {
   font-size: 14px;
   letter-spacing: 0.27px;
@@ -15677,53 +15698,53 @@ picture {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 482, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 491, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame-body {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 }
 
-/* line 489, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 498, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame-text {
   font-size: 14px;
   letter-spacing: 0.27px;
 }
 
-/* line 495, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 504, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table .nowrap {
   white-space: nowrap;
 }
 
-/* line 499, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 508, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table .tabs a {
   text-decoration: underline;
 }
 
-/* line 508, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 517, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody tr:first-of-type td, .newStrategy__set-frame table tbody tr:nth-of-type(2) td {
   border-top: 0;
 }
 
-/* line 514, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 523, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody tr:last-of-type td {
   border-bottom: 1px solid #dee2e6;
 }
 
-/* line 520, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 529, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody td {
   vertical-align: middle;
   font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 520, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+  /* line 529, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
   .newStrategy__set-frame table tbody td {
     min-width: 100px;
   }
 }
 
-/* line 527, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
+/* line 536, src/scss/_components/add-new-strategy/_add-new-strategy.scss */
 .newStrategy__set-frame table tbody td:first-of-type {
   padding-left: 0;
 }
