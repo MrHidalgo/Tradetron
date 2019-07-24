@@ -1176,7 +1176,7 @@ picture {
 }
 
 /* line 270, src/scss/_shared/_common.scss */
-.form-group > input {
+.form-group > input[type='text'] {
   outline: none;
   height: 40px;
   padding: 0 15px;
@@ -1189,7 +1189,7 @@ picture {
 }
 
 /* line 279, src/scss/_shared/_common.scss */
-.form-group > input:focus {
+.form-group > input[type='text']:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: rgba(185, 185, 185, 0.3);
